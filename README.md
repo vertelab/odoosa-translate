@@ -1,2 +1,2 @@
 # odoosa-translate
-Odoo SA Translations, Vertel style
+Odoo SA Translation, Vertel Style
