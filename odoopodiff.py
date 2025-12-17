@@ -2,7 +2,28 @@
 import argparse
 import polib
 import sys
+import re
+import subprocess 
 from pathlib import Path
+
+def detect_local_odoo_version():
+        """Kör `odoo-bin --version` och matchar mot upptäckta versioner."""
+        try:
+            result = subprocess.run(["odoo-bin", "--version"], 
+                                  capture_output=True, text=True, timeout=10)
+        except Exception as e:
+            try:
+                result = subprocess.run(["odoo", "--version"], 
+                                  capture_output=True, text=True, timeout=10)
+            except Exception as e:
+                print(f"Kunde inte köra odoo-bin: {e}")
+                return None
+        local_match = re.search(r'(\d+(?:\.\d+)?)', result.stdout)
+        if local_match:
+            major,minor =local_match.group(1).split('.')
+            return f"odoo-{major}-"
+        return None
+
 
 def build_output_po(source_po, target_po):
     """
@@ -53,8 +74,8 @@ def parse_args():
     )
     parser.add_argument("-m", "--module", required=True,help="Module to work with")
     parser.add_argument("-p", "--pofile", required=True,help="Pofile with better translation")
-    parser.add_argument("-v", "--version", required=True,help="Odoo version major.minor eg 18.0")
-    parser.add_argument("-o", "--output",
+    #parser.add_argument("-v", "--version", required=True,help="Odoo version major.minor eg 18.0")
+    parser.add_argument("-o", "--output", action="store_true",
                         help="Output file (.po) with changes (default: stdout)")
     return parser.parse_args()
 
@@ -75,7 +96,7 @@ def main():
     out_po = build_output_po(source_po, target_po)
 
     if args.output:
-        output_path = f"odoo-{args.version}-{args.module}-sv.po"
+        output_path = f"{detect_local_odoo_version()}{args.module}-sv.po"
         out_po.save(str(output_path))
         print(f"Wrote {len(out_po)} entries to {output_path}", file=sys.stderr)
     else:
