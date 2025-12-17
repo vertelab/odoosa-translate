@@ -3,7 +3,8 @@
 #                                                                              #
 #   Installation of Translation tools                                          #
 #                                                                              #
-#                                                                              #
+#      curl -s https://raw.githubusercontent.com/vertelab/odoosa-translate/master/install | bash
+                                                                        #
 #                                                                              #
 ################################################################################
 
