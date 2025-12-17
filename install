@@ -9,9 +9,9 @@
 
 curl -s https://raw.githubusercontent.com/vertelab/odoosa-translate/refs/heads/main/requirements.txt | sudo -H pip3 install --break-system-packages -r /dev/stdin
 
-sudo curl -L -o /usr/local/bin/odooposync https://raw.githubusercontent.com/vertelab/odoosa-translate/refs/heads/main/odooposync.py
-sudo chown root:root /usr/local/bin/odooposync
-sudo chmod +x /usr/local/bin/odooposync
+sudo curl -L -o /usr/local/bin/odoopopull https://raw.githubusercontent.com/vertelab/odoosa-translate/refs/heads/main/odoopopull.py
+sudo chown root:root /usr/local/bin/odoopopull
+sudo chmod +x /usr/local/bin/odoopopull
 
 sudo curl -L -o /usr/local/bin/odoopodiff https://raw.githubusercontent.com/vertelab/odoosa-translate/refs/heads/main/odoopodiff.py
 sudo chown root:root /usr/local/bin/odoopodiff
