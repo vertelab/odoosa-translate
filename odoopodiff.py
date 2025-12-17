@@ -51,10 +51,9 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Compare two .po files and write a third with changes from target."
     )
-    parser.add_argument("-s", "--source", required=True,
-                        help="Source file (original .po)")
-    parser.add_argument("-t", "--target", required=True,
-                        help="Target file (edited .po)")
+    parser.add_argument("-m", "--module", required=True,help="Module to work with")
+    parser.add_argument("-p", "--pofile", required=True,help="Pofile with better translation")
+    parser.add_argument("-v", "--version", required=True,help="Odoo version major.minor eg 18.0")
     parser.add_argument("-o", "--output",
                         help="Output file (.po) with changes (default: stdout)")
     return parser.parse_args()
@@ -62,13 +61,13 @@ def parse_args():
 def main():
     args = parse_args()
 
-    source_path = Path(args.source)
-    target_path = Path(args.target)
+    source_path = Path(f"/usr/share/core-odoo/addons/{args.module}/i18n/sv.po")
+    target_path = Path(args.pofile)
 
     if not source_path.exists():
         raise SystemExit(f"Source file missing: {source_path}")
     if not target_path.exists():
-        raise SystemExit(f"Target file missing: {target_path}")
+        raise SystemExit(f"Pofile missing: {target_path}")
 
     source_po = polib.pofile(str(source_path))
     target_po = polib.pofile(str(target_path))
@@ -76,7 +75,7 @@ def main():
     out_po = build_output_po(source_po, target_po)
 
     if args.output:
-        output_path = Path(args.output)
+        output_path = f"odoo-{args.version}-{args.module}-sv.po"
         out_po.save(str(output_path))
         print(f"Wrote {len(out_po)} entries to {output_path}", file=sys.stderr)
     else:
