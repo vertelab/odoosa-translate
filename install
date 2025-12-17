@@ -16,3 +16,8 @@ sudo chmod +x /usr/local/bin/odoopopull
 sudo curl -L -o /usr/local/bin/odoopodiff https://raw.githubusercontent.com/vertelab/odoosa-translate/refs/heads/main/odoopodiff.py
 sudo chown root:root /usr/local/bin/odoopodiff
 sudo chmod +x /usr/local/bin/odoopodiff
+
+# sv.poline 3, after the star * is <module> name | check all modules from every distributor as we use
+sudo curl -L -o /usr/local/bin/check_module_name_in_po_file https://raw.githubusercontent.com/vertelab/odoosa-translate/refs/heads/main/check_module_name_in_po_file.py
+sudo chown root:root /usr/local/bin/check_module_name_in_po_file
+sudo chmod +x /usr/local/bin/check_module_name_in_po_file.py
