@@ -6,6 +6,17 @@ import re
 import subprocess 
 from pathlib import Path
 
+def get_module_name(filename_path):
+    pattern = r'# This file contains the translation of the following modules:[\s\n]*# \*(.+?)[\s\n]'
+ 
+    with open(filename_path, 'r') as f:
+        content = f.read()
+        match = re.search(pattern, content, re.MULTILINE | re.DOTALL)
+        if match:
+            modules = [m.strip() for m in match.group(1).split(',')]
+            return modules[0]
+
+
 def detect_local_odoo_version():
         """Kör `odoo-bin --version` och matchar mot upptäckta versioner."""
         try:
@@ -72,7 +83,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Compare two .po files and write a third with changes from target."
     )
-    parser.add_argument("-m", "--module", required=True,help="Module to work with")
+    #parser.add_argument("-m", "--module", required=True,help="Module to work with")
     parser.add_argument("-p", "--pofile", required=True,help="Pofile with better translation")
     #parser.add_argument("-v", "--version", required=True,help="Odoo version major.minor eg 18.0")
     parser.add_argument("-o", "--output", action="store_true",
@@ -81,8 +92,8 @@ def parse_args():
 
 def main():
     args = parse_args()
-
-    source_path = Path(f"/usr/share/core-odoo/addons/{args.module}/i18n/sv.po")
+    module = get_module_name(args.pofile)
+    source_path = Path(f"/usr/share/core-odoo/addons/{module}/i18n/sv.po")
     target_path = Path(args.pofile)
 
     if not source_path.exists():
@@ -96,7 +107,7 @@ def main():
     out_po = build_output_po(source_po, target_po)
 
     if args.output:
-        output_path = f"{detect_local_odoo_version()}{args.module}-sv.po"
+        output_path = f"{detect_local_odoo_version()}{module}-sv.po"
         out_po.save(str(output_path))
         print(f"Wrote {len(out_po)} entries to {output_path}", file=sys.stderr)
     else:
