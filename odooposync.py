@@ -1,13 +1,14 @@
 #!/usr/bin/python3
+from io import BytesIO
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+import argparse
 import base64
 import polib
 import re
 import requests
 import subprocess 
 import traceback
-from io import BytesIO
 
 def detect_local_odoo_version():
         """Kör `odoo-bin --version` och matchar mot upptäckta versioner."""
@@ -91,7 +92,7 @@ class GithubPofile:
                 if updated:
                     # Spara uppdaterad lokal fil
                     local_po.save(str(local_path))
-                    print(f"✅ Uppdaterade {local_path} ({len(po_file.entries())} fraser)")
+                    print(f"✅ Uppdaterade {local_path} ({len(po_file)} fraser)")
             except Exception as e:
                 print(f"❌ Fel vid uppdatering {local_path}: {e}\n{traceback.print_exc()}")
         else:
@@ -111,14 +112,25 @@ class GithubPofile:
         return str(base64.b64decode(blob["content"]).decode("utf-8"))
         return base64.b64decode(blob['content'].replace("\n", "")).decode("utf-8", errors="replace")
 
+
+
+
 if __name__ == "__main__":
+    
+    # ~ parser = argparse.ArgumentParser(
+        # ~ description="Sync .po files and ower write changes to Odoo-core."
+    # ~ )
+    # ~ parser.add_argument("-s", "--source", required=True,
+                        # ~ help="Source file (original .po)")
+    # ~ parser.add_argument("-t", "--target", required=True,
+                        # ~ help="Target file (edited .po)")
+    # ~ parser.add_argument("-o", "--output",
+                        # ~ help="Output file (.po) with changes (default: stdout)")
+    # ~ return parser.parse_args()
+    
+    
     odoo = detect_local_odoo_version()
-    print(odoo)
     github = GithubPofile(owner='vertelab',repo='odoosa-translate',branch='main',odoo=odoo)
     for file in github.fetch_repo_tree():
         github.update_local_file(file)
     
-    #github.run_full_analysis()
-    
-    # Använd som variabel
-    # ~ print(f"\nFörsta modul: {detector.modul}")
