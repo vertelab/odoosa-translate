@@ -1,7 +1,7 @@
 #!/bin/bash
 ###############################################################################################
 #                                                                                             #
-#   Installation of Translation tools                                                         #
+#   Installation of Translation sync                                                          #
 #                                                                                             #
 #   curl -s https://raw.githubusercontent.com/vertelab/odoosa-translate/master/install | bash #
 #                                                                                             #
