@@ -1965,13 +1965,13 @@ msgstr "Teknisk chef"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Job Title"
-msgstr "Befattning"
+msgstr "xxxxxxxxxxxxxxxxxx"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__jobs_ids
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Jobs"
-msgstr "Jobb"
+msgstr "xxxxxxxxxxxxxxx"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__lang
@@ -2074,7 +2074,7 @@ msgstr "1 Telefonsamtal"
 #. module: hr
 #: model:hr.department,name:hr.dep_rd_ltp
 msgid "Long Term Projects"
-msgstr "Långsiktiga projekt"
+msgstr "xxxxxxxxxxxxxxxxx projekt"
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_hrm
