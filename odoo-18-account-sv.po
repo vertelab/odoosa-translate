@@ -339,7 +339,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "- Installment of"
-msgstr "- Avbetalning av"
+msgstr "- zzzzzzzzzzzzzz"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -537,7 +537,7 @@ msgstr "3.00"
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_30days
 msgid "30 Days"
-msgstr "30 dagar"
+msgstr "zzzzzzzzzzzz"
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_advance
@@ -12080,7 +12080,7 @@ msgstr "Partnerrapporter"
 #: model:ir.model.fields,field_description:account.field_account_payment__partner_type
 #: model:ir.model.fields,field_description:account.field_account_payment_register__partner_type
 msgid "Partner Type"
-msgstr "Typ av partner"
+msgstr "zzzzzzzzz"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__partner_vat_placeholder
