@@ -1,0 +1,110 @@
+#!/usr/bin/python3
+import base64
+import requests
+from pathlib import Path
+import os
+import polib
+import re
+import subprocess 
+import sys
+
+def detect_odoo_version():
+    """Hämtar Odoo version automatiskt."""
+    for cmd in ["odoo-bin --version", "odoo --version"]:
+        try:
+            result = subprocess.run(cmd.split(), capture_output=True, text=True, timeout=10)
+            match = re.search(r'(\d+)', result.stdout)
+            if match:
+                return f"odoo-{match.group(1)}"
+        except:
+            pass
+    print("❌ Använder fallback: odoo-18")
+    return "odoo-18"
+
+def find_github_files(version):
+    """Hämtar filer från GitHub API istället för lokal mapp."""
+    url = "https://api.github.com/repos/vertelab/odoosa-translate/git/trees/main?recursive=1"
+    resp = requests.get(url)
+    data = resp.json()
+    
+    files = []
+    pattern = re.compile(rf'^{version}-([a-z0-9_-]+)-sv\.po$')
+    
+    for item in data["tree"]:
+        if item["type"] == "blob" and pattern.search(item["path"]):
+            match = pattern.search(item["path"])
+            files.append({
+                'path': item["path"],
+                'module': match.group(1),
+                'sha': item["sha"]
+            })
+    
+    print(f"✅ GitHub: {len(files)} filer: {[f['module'] for f in files]}")
+    return files
+
+def download_github_content(file_info):
+    """Hämtar GitHub-fil via SHA."""
+    sha = file_info['sha']
+    url = f"https://api.github.com/repos/vertelab/odoosa-translate/git/blobs/{sha}"
+    resp = requests.get(url)
+    resp.raise_for_status()
+    blob = resp.json()
+    return base64.b64decode(blob["content"]).decode("utf-8")
+
+
+def download_weblate_po(version, module, token):
+    """Hämtar från Weblate med felsökning."""
+    url = f"https://translate.odoo.com/api/translations/{version}/{module}/sv/file/"
+    headers = {'Authorization': f'Token {token}', 'Accept': 'text/x-po'}
+    
+    print(f"🌐 Weblate URL: {url}")
+    resp = requests.get(url, headers=headers)
+    
+    print(f"📡 Status: {resp.status_code}")
+    print(f"📡 Headers: {dict(resp.headers)}")
+    
+    if resp.status_code != 200:
+        print(f"❌ Weblate FEL: {resp.text[:500]}...")  # Första 500 tecken
+        raise Exception(f"Weblate API fel: {resp.status_code}")
+    
+    content_preview = resp.text[:200] + "..." if len(resp.text) > 200 else resp.text
+    print(f"✅ Weblate OK: {len(resp.text)} tecken. Förhandsvisning: {content_preview}")
+    
+    return resp.text
+
+def update_odoo_local(github_str, module):
+    """FORCE: GitHub ÖVERSÄTTNINGAR skriver över Odoo."""
+    local_path = Path('/usr/share/core-odoo/addons') / module / 'i18n' / 'sv.po'
+    
+    github_po = polib.pofile(github_str)
+    translated = [e for e in github_po if e.msgstr.strip()]
+    
+    print(f"📦 GitHub: {len(translated)} översatta fraser")
+    
+    # SKRIV ÖVER lokala filen med GitHub-innehåll
+    github_po.save(str(local_path))
+    print(f"✅ {len(translated)} översättningar SKRIVNA → {local_path}")
+
+def main():
+    import os
+    if os.geteuid() != 0:
+        print("🔒 Kräver sudo...")
+        os.execvp("sudo", ["sudo", sys.executable, __file__])
+    
+    print("🔄 GitHub → Odoo sync...")
+    version = detect_odoo_version()
+    
+    files = find_github_files(version)
+    if not files:
+        print("❌ Inga filer!")
+        return
+    
+    for file_info in files:
+        module = file_info['module']
+        print(f"\n🔄 [{module}]")
+        github_str = download_github_content(file_info)  # Fungerar nu!
+        update_odoo_local(github_str, module)
+
+
+if __name__ == "__main__":
+    main()
