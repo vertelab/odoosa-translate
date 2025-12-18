@@ -50,12 +50,12 @@ msgstr "# Kundämnen/möjligheter denna månad"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__number_of_months
 msgid "# Months"
-msgstr "# månader"
+msgstr "# MÅNAD____ER"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_count
 msgid "# Opportunities"
-msgstr "# möjligheter"
+msgstr "# Avlastningsmanöver"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_overdue_count
