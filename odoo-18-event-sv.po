@@ -3117,12 +3117,12 @@ msgstr "Är Avslutad"
 #: model:ir.model.fields,field_description:event.field_event_event__message_is_follower
 #: model:ir.model.fields,field_description:event.field_event_registration__message_is_follower
 msgid "Is Follower"
-msgstr "Är Följare"
+msgstr "zzzzzzzzzzzzz"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_one_day
 msgid "Is One Day"
-msgstr "Är en dag"
+msgstr "zzzzzzzzzz"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_ongoing
@@ -3259,7 +3259,7 @@ msgstr "Låt oss skapa ditt första <b>evenemang</b>."
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_limited
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__seats_limited
 msgid "Limit Attendees"
-msgstr "Begränsat antal deltagare"
+msgstr "zzzzzzzzzzzzz deltagare"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
