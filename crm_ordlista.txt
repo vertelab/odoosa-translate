@@ -1,5 +1,0 @@
-Leads	Kundämne
-Lead	Kundämne
-My Leads	Mina kundämnen
-My Lead	Mitt kundämne
-Leads Analysis	Kundämnesanalys
