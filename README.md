@@ -9,7 +9,7 @@ sudo apt install python3-polib python3-requests
 curl -s https://raw.githubusercontent.com/vertelab/odoosa-translate/master/install | bash
 ```
 
-# Weblate AIP KEY, ODOO_API_KEY:
+# Weblate AIP KEY:
 ```
 https://translate.odoo.com/accounts/profile/#api
 
@@ -19,11 +19,8 @@ jakob@odooutv18:~$ cat ~/.bashrc
 # for examples
 
 export ODOO_API_KEY="wlu_laLeWPQ4sozxOIqe5XS9CfLm7j67ldZu"
-export OCA_API_KEY="0vnYbBXs3cIHsyrV2h1nDmxXfAMGA5mBk342D"
-export DEEPL_AUTH_KEY="4119abee-99ff-41a9-ac06-84b30d43e"
 
-** these keys not working! :-)
-
+** key not working! :-)
 ```
 
 # Execute:
