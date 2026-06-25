@@ -1,0 +1,153 @@
+# Odoo 18 Swedish translations – corrections
+# Format: MODULE | OLD -> NEW
+# Apply to msgstr lines only, longest match first within each group.
+
+# === Bokföringspost → Verifikat ===
+account: Bokföringsposterna -> Verifikaten
+account: Bokföringspostens -> Verifikatets
+account: Bokföringsposten -> Verifikatet
+account: Bokföringsposter -> Verifikat
+account: Bokföringspost -> Verifikat
+account: bokföringsposterna -> verifikaten
+account: bokföringspostens -> verifikatets
+account: bokföringsposten -> verifikatet
+account: bokföringsposter -> verifikat
+account: bokföringspost -> verifikat
+account_fleet: Bokföringsposterna -> Verifikaten
+account_fleet: Bokföringspostens -> Verifikatets
+account_fleet: Bokföringsposten -> Verifikatet
+account_fleet: Bokföringsposter -> Verifikat
+account_fleet: Bokföringspost -> Verifikat
+account_fleet: bokföringsposterna -> verifikaten
+account_fleet: bokföringspostens -> verifikatets
+account_fleet: bokföringsposten -> verifikatet
+account_fleet: bokföringsposter -> verifikat
+account_fleet: bokföringspost -> verifikat
+account_payment: Bokföringsposterna -> Verifikaten
+account_payment: Bokföringspostens -> Verifikatets
+account_payment: Bokföringsposten -> Verifikatet
+account_payment: Bokföringsposter -> Verifikat
+account_payment: Bokföringspost -> Verifikat
+account_payment: bokföringsposterna -> verifikaten
+account_payment: bokföringspostens -> verifikatets
+account_payment: bokföringsposten -> verifikatet
+account_payment: bokföringsposter -> verifikat
+account_payment: bokföringspost -> verifikat
+account_update_tax_tags: Bokföringsposterna -> Verifikaten
+account_update_tax_tags: Bokföringspostens -> Verifikatets
+account_update_tax_tags: Bokföringsposten -> Verifikatet
+account_update_tax_tags: Bokföringsposter -> Verifikat
+account_update_tax_tags: Bokföringspost -> Verifikat
+account_update_tax_tags: bokföringsposterna -> verifikaten
+account_update_tax_tags: bokföringspostens -> verifikatets
+account_update_tax_tags: bokföringsposten -> verifikatet
+account_update_tax_tags: bokföringsposter -> verifikat
+account_update_tax_tags: bokföringspost -> verifikat
+base: Bokföringsposterna -> Verifikaten
+base: Bokföringspostens -> Verifikatets
+base: Bokföringsposten -> Verifikatet
+base: Bokföringsposter -> Verifikat
+base: Bokföringspost -> Verifikat
+base: bokföringsposterna -> verifikaten
+base: bokföringspostens -> verifikatets
+base: bokföringsposten -> verifikatet
+base: bokföringsposter -> verifikat
+base: bokföringspost -> verifikat
+base: Skatteposition -> Skatteområde
+base: Skattepositioner -> Skatteområde
+base: skattepositioner -> skatteområden
+base: skattepositionen -> skatteområdet
+base: skatteposition -> skatteområde
+hr_expense: Bokföringsposterna -> Verifikaten
+hr_expense: Bokföringspostens -> Verifikatets
+hr_expense: Bokföringsposten -> Verifikatet
+hr_expense: Bokföringsposter -> Verifikat
+hr_expense: Bokföringspost -> Verifikat
+hr_expense: bokföringsposterna -> verifikaten
+hr_expense: bokföringspostens -> verifikatets
+hr_expense: bokföringsposten -> verifikatet
+hr_expense: bokföringsposter -> verifikat
+hr_expense: bokföringspost -> verifikat
+stock_account: Bokföringsposterna -> Verifikaten
+stock_account: Bokföringspostens -> Verifikatets
+stock_account: Bokföringsposten -> Verifikatet
+stock_account: Bokföringsposter -> Verifikat
+stock_account: Bokföringspost -> Verifikat
+stock_account: bokföringsposterna -> verifikaten
+stock_account: bokföringspostens -> verifikatets
+stock_account: bokföringsposten -> verifikatet
+stock_account: bokföringsposter -> verifikat
+stock_account: bokföringspost -> verifikat
+
+# === Journalhändelse → Verifikatsrad ===
+account: Journalhändelsen -> Verifikatsraden
+account: Journalhändelser -> Verifikatsrader
+account: Journalhändelse -> Verifikatsrad
+account: journalhändelsen -> verifikatsraden
+account: journalhändelser -> verifikatsrader
+account: journalhändelse -> verifikatsrad
+
+# === Säkra inmatningar → Stäng period ===
+account: Säkra inmatningar -> Stäng period
+
+# === Skatteposition → Skatteområde ===
+account: Skattepositioner -> Skatteområde
+account: Skatteposition -> Skatteområde
+account: skattepositioner -> skatteområden
+account: skattepositionen -> skatteområdet
+account: skatteposition -> skatteområde
+base_vat: Skatteposition -> Skatteområde
+base_vat: Skattepositioner -> Skatteområde
+base_vat: skattepositioner -> skatteområden
+base_vat: skattepositionen -> skatteområdet
+base_vat: skatteposition -> skatteområde
+point_of_sale: Skatteposition -> Skatteområde
+point_of_sale: Skattepositioner -> Skatteområde
+point_of_sale: skattepositioner -> skatteområden
+point_of_sale: skattepositionen -> skatteområdet
+point_of_sale: skatteposition -> skatteområde
+purchase: Skatteposition -> Skatteområde
+purchase: Skattepositioner -> Skatteområde
+purchase: skattepositioner -> skatteområden
+purchase: skattepositionen -> skatteområdet
+purchase: skatteposition -> skatteområde
+
+# === Analytiska → Objekt ===
+account: Analytiska konton -> Objektkonton
+account: Analytiska fördelningsmodeller -> Objektfördelning
+account: Analytiska planers -> Objektreglers
+account: Analytiska planer -> Objektregler
+account: Analytisk rapport -> Objektrapport
+
+# === Lead → Kundämne ===
+crm: Leadspoängsättning -> Kundämnespoängsättning
+crm: leadspoängsättning -> kundämnespoängsättning
+crm: Leadstilldelning -> Kundämnestilldelning
+crm: Leadsgenerering -> Kundämnesgenerering
+crm: leadsgenerering -> kundämnesgenerering
+crm: Leadsplaner -> Kundämnesplaner
+crm: Leadsanalys -> Kundämnesanalys
+crm: Leadsetiketter -> Kundämnesetiketter
+crm: leadsaktiviteter -> kundämnesaktiviteter
+crm: leadskapacitet -> kundämneskapacitet
+crm: leadspoäng -> kundämnespoäng
+crm: Leads -> Kundämnen
+crm: leads -> kundämnen
+crm: Lead -> Kundämne
+crm: lead -> kundämne
+
+# === Företag → Bolag (Company/Companies contexts only, NOT Corporate/Business) ===
+# Rule: only in msgstr where msgid contains \bCompany\b or \bCompanies\b
+# Applied to 118 modules, 669 entries total
+#
+# Top modules by Company-entry count:
+# base: 115, account: 84, website: 48, mail_plugin: 21, stock: 20
+# mass_mailing_themes: 18, web: 16, point_of_sale: 15, base_setup: 12
+# crm: 12, hr: 12, hr_expense: 11, sale: 9, project: 8, ...
+#
+# Replacement: Företag -> Bolag, företag -> bolag
+# Examples:
+#   Företag -> Bolag (Company)
+#   Företagets -> Bolagets (Company's)
+#   Företagsnamn -> Bolagsnamn (Company Name)
+#   företag -> bolag
