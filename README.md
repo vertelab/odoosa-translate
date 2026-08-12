@@ -1,6 +1,12 @@
 # odoosa-translate
 Odoo SA Translation, Vertel Style
 
+
+# Glossary:
+```
+glossary.csv
+```
+
 # Installation:
 ```
 (If missing!)
@@ -20,7 +26,7 @@ jakob@odooutv18:~$ cat ~/.bashrc
 
 export ODOO_API_KEY="ROTATED-NYCKEL-BORTTAGEN"
 
-** key not working! :-)
+** key is not working! :-)
 ```
 
 # Execute:
