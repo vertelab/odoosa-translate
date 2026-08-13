@@ -567,8 +567,10 @@ def publish(dry_run=False, message=None):
         log("   🛑 dry-run — push skippad")
         return 0
 
-    git(["git", "push", "origin", "HEAD"])
-    log("   ✅ push till origin (main) klar")
+    # Push via SSH deploy key (explicit URL — origin är HTTPS för read)
+    ssh_url = "git@github.com:vertelab/odoosa-translate.git"
+    git(["git", "push", ssh_url, "HEAD"])
+    log(f"   ✅ push till {ssh_url} klar")
     return 0
 
 
