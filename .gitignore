@@ -1,0 +1,9 @@
+# Officiella sv.po-kopior (speglar odoo/odoo) — publiceras inte, endast i18n_extra
+build/odoo-*/i18n/
+
+# Cache av officiella filer (hämtas vid varje fetch)
+cache/
+
+# Python
+__pycache__/
+*.pyc

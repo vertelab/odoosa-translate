@@ -548,17 +548,17 @@ def publish(dry_run=False, message=None):
     if git(["git", "config", "user.email"], check=False).returncode != 0:
         git(["git", "config", "user.email", "odoosa@vertel.se"])
 
-    # Stega: artefakter + regler + ordlista + pipeline + rapporter
+    # Stega: artefakter + regler + ordlista + pipeline + rapporter + gitignore
     git(["git", "add", "-A", "build/", "reports/", "rules/", "glossary.csv",
-         "odoosa.py", "odoo18-sv-translations.txt"])
+         "odoosa.py", "odoo18-sv-translations.txt", ".gitignore"])
 
-    status = git(["git", "status", "--porcelain"], check=False).stdout.strip()
-    if not status:
+    staged = git(["git", "diff", "--cached", "--name-only"], check=False).stdout.strip()
+    if not staged:
         log("   ℹ️ inga ändringar att publicera")
         return 0
 
-    default_msg = f"odoosa sync — {datetime.now().strftime('%Y-%m-%d %H:%M')} " \
-                  f"({len(status.splitlines())} filer)"
+    n = len(staged.splitlines())
+    default_msg = f"odoosa sync — {datetime.now().strftime('%Y-%m-%d %H:%M')} ({n} filer)"
     msg = message or default_msg
     git(["git", "commit", "-m", msg])
     log(f"   ✅ commit: {msg}")
