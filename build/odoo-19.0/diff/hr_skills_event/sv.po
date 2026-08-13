@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-hr_skills_event\n"
+"Language: sv\n"

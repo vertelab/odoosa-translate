@@ -1,0 +1,17 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-stock_landed_costs\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag relaterat till denna journal'
+msgid "Company related to this journal"
+msgstr "Bolag relaterat till denna journal"

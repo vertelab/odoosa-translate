@@ -1,0 +1,9 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-sms\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"

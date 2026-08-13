@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-crm_iap_enrich\n"
+"Language: sv\n"

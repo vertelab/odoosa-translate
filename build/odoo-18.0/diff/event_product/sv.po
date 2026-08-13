@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-event_product\n"
+"Language: sv\n"

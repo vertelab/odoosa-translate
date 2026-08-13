@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-sale_stock_product_expiry\n"
+"Language: sv\n"

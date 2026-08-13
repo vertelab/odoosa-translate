@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-account_peppol_advanced_fields\n"
+"Language: sv\n"

@@ -1,0 +1,17 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-product\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företagsinställningar'
+msgid "Company Settings"
+msgstr "Bolagsinställningar"

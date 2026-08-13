@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-hr_holidays_contract\n"
+"Language: sv\n"

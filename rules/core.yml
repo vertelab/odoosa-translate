@@ -1,0 +1,159 @@
+# rules/core.yml — Gemensam kärna (version-agnostisk)
+# ======================================================================
+# Konverterad från odoo18-sv-translations.txt (122 regellinjer, 2026-08).
+# Schema: se rules/README.md.
+# Semantik: appliceras på msgstr, längsta match först, only_if_msgid
+# som villkor på msgid, modules/versions som scop.
+# ======================================================================
+schema_version: 1
+
+terms:
+  # === Bokföringspost → Verifikat (account m.fl.) ===
+  - id: verifikat
+    glossary_ref: "account move"
+    old: "Bokföringspost"
+    new: "Verifikat"
+    variants:
+      - old: "Bokföringsposterna"
+        new: "Verifikaten"
+      - old: "Bokföringspostens"
+        new: "Verifikatets"
+      - old: "Bokföringsposten"
+        new: "Verifikatet"
+      - old: "Bokföringsposter"
+        new: "Verifikat"
+      - old: "bokföringsposterna"
+        new: "verifikaten"
+      - old: "bokföringspostens"
+        new: "verifikatets"
+      - old: "bokföringsposten"
+        new: "verifikatet"
+      - old: "bokföringsposter"
+        new: "verifikat"
+      - old: "bokföringspost"
+        new: "verifikat"
+    modules: [account, account_fleet, account_payment, account_update_tax_tags, base, hr_expense, stock_account]
+    versions: [18, 19]
+    match: longest
+
+  # === Skatteposition → Skatteområde (base + account-familjen) ===
+  - id: skatteomrade
+    glossary_ref: "Tax position"
+    old: "Skatteposition"
+    new: "Skatteområde"
+    variants:
+      - old: "Skattepositioner"
+        new: "Skatteområde"
+      - old: "skattepositioner"
+        new: "skatteområden"
+      - old: "skattepositionen"
+        new: "skatteområdet"
+      - old: "skatteposition"
+        new: "skatteområde"
+    modules: [base, account, base_vat, point_of_sale, purchase]
+    versions: [18, 19]
+    match: longest
+    note: "Ingen stor bokstav Skattepositionen i källfilen — endast små bokstäver."
+
+  # === Journalhändelse → Verifikatsrad (account) ===
+  - id: verifikatsrad
+    glossary_ref: "journal entry"
+    old: "Journalhändelse"
+    new: "Verifikatsrad"
+    variants:
+      - old: "Journalhändelsen"
+        new: "Verifikatsraden"
+      - old: "Journalhändelser"
+        new: "Verifikatsrader"
+      - old: "journalhändelsen"
+        new: "verifikatsraden"
+      - old: "journalhändelser"
+        new: "verifikatsrader"
+      - old: "journalhändelse"
+        new: "verifikatsrad"
+    modules: [account]
+    versions: [18, 19]
+    match: longest
+
+  # === Säkra inmatningar → Stäng period (account) ===
+  - id: stang-period
+    glossary_ref: ""
+    old: "Säkra inmatningar"
+    new: "Stäng period"
+    modules: [account]
+    versions: [18, 19]
+    match: longest
+
+  # === Analytiska → Objekt (account) ===
+  - id: objektkonton
+    glossary_ref: "Analytical"
+    old: "Analytiska konton"
+    new: "Objektkonton"
+    variants:
+      - old: "Analytiska fördelningsmodeller"
+        new: "Objektfördelning"
+      - old: "Analytiska planers"
+        new: "Objektreglers"
+      - old: "Analytiska planer"
+        new: "Objektregler"
+      - old: "Analytisk rapport"
+        new: "Objektrapport"
+    modules: [account]
+    versions: [18, 19]
+    match: longest
+
+  # === Lead → Kundämne (crm) ===
+  - id: kundamne
+    glossary_ref: "Lead"
+    old: "Lead"
+    new: "Kundämne"
+    variants:
+      - old: "Leadspoängsättning"
+        new: "Kundämnespoängsättning"
+      - old: "leadspoängsättning"
+        new: "kundämnespoängsättning"
+      - old: "Leadstilldelning"
+        new: "Kundämnestilldelning"
+      - old: "Leadsgenerering"
+        new: "Kundämnesgenerering"
+      - old: "leadsgenerering"
+        new: "kundämnesgenerering"
+      - old: "Leadsplaner"
+        new: "Kundämnesplaner"
+      - old: "Leadsanalys"
+        new: "Kundämnesanalys"
+      - old: "Leadsetiketter"
+        new: "Kundämnesetiketter"
+      - old: "leadsaktiviteter"
+        new: "kundämnesaktiviteter"
+      - old: "leadskapacitet"
+        new: "kundämneskapacitet"
+      - old: "leadspoäng"
+        new: "kundämnespoäng"
+      - old: "Leads"
+        new: "Kundämnen"
+      - old: "leads"
+        new: "kundämnen"
+      - old: "lead"
+        new: "kundämne"
+    modules: [crm]
+    versions: [18, 19]
+    match: longest
+
+  # === Företag → Bolag (Company/Companies-kontext endast, INTE Corporate/Business) ===
+  - id: bolag
+    glossary_ref: "Company"
+    old: "Företag"
+    new: "Bolag"
+    variants:
+      - old: "företag"
+        new: "bolag"
+    modules: "*"
+    versions: [18, 19]
+    match: longest
+    only_if_msgid: '\b(Company|Companies)\b'
+    note: >-
+      118 moduler, 669 poster (base 115, account 84, website 48, ...). Ej
+      Corporate/Business. OBS: glossary.csv har motstridiga mål (Company→Företag,
+      company→bolag) — denna regel är det operationella lagret (Bolag i
+      Company-kontext). Att stämma av glossary är en öppen task.

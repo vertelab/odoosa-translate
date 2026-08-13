@@ -1,0 +1,42 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-stock\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Alla företag'
+msgid "All Companies"
+msgstr "Alla bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Mitt företag (Chicago) åtar sig att göra sitt
+#. bästa för att tillhandahålla tjänster i rätt tid i enlighet med de
+#. överenskomna tidsramarna. Ingen av dess skyldigheter kan dock anses vara en
+#. skyldighet att uppnå resultat. My Company (Chicago) kan inte under några
+#. omständigheter åläggas av kunden att uppträda som tredje part i samband med
+#. ett skadeståndsanspråk som en slutkonsument riktar mot kunden.'
+msgid ""
+"My Company (Chicago) undertakes to do its best to supply performant services"
+" in due time in accordance with the agreed timeframes. However, none of its "
+"obligations can be considered as being an obligation to achieve results. My "
+"Company (Chicago) cannot under any circumstances, be required by the client "
+"to appear as a third party in the context of any claim for damages filed "
+"against the client by an end consumer."
+msgstr ""
+"Mitt bolag (Chicago) åtar sig att göra sitt bästa för att tillhandahålla "
+"tjänster i rätt tid i enlighet med de överenskomna tidsramarna. Ingen av "
+"dess skyldigheter kan dock anses vara en skyldighet att uppnå resultat. My "
+"Company (Chicago) kan inte under några omständigheter åläggas av kunden att "
+"uppträda som tredje part i samband med ett skadeståndsanspråk som en "
+"slutkonsument riktar mot kunden."
+
+#. new-corrected | officiell: 'Ruttföretag'
+msgid "Route Company"
+msgstr "Ruttbolag"

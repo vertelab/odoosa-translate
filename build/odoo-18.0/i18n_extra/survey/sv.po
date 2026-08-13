@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-survey\n"
+"POT-Creation-Date: 2026-08-13 11:50\n"
+"PO-Revision-Date: 2026-08-13 11:50\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_res_partner__certifications_company_count
+#: model:ir.model.fields,field_description:survey.field_res_users__certifications_company_count
+msgid "Company Certifications Count"
+msgstr "Bolagets antal certifieringar"
+
+#. module: survey
+#: model:survey.question,title:survey.survey_demo_quiz_p2
+msgid "Our Company in a few questions ..."
+msgstr "Vårt Bolag i några frågor ..."
+
+#. module: survey
+#: model:survey.survey,title:survey.survey_demo_quiz
+msgid "Quiz about our Company"
+msgstr "Frågesport om vårt bolag"
+
+#. module: survey
+#: model_terms:survey.survey,description:survey.survey_demo_quiz
+msgid ""
+"This small quiz will test your knowledge about our Company. Be prepared!"
+msgstr ""
+"Detta lilla quiz kommer att testa dina kunskaper om vårt bolag. Var beredd!"

@@ -1,0 +1,22 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-website_sale\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företagsnamn'
+msgid "Company Name"
+msgstr "Bolagsnamn"
+
+#. new-corrected | officiell: 'Endast företagets hemsidor är tillåtna.\nLämna
+#. företagsfältet tomt eller välj en webbplats från det företaget.'
+msgid ""
+"Only the company's websites are allowed.\n"
+"Leave the Company field empty or select a website from that company."
+msgstr ""
+"Endast bolagets hemsidor är tillåtna.\n"
+"Lämna bolagsfältet tomt eller välj en webbplats från det bolaget."

@@ -1,0 +1,13 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-mass_mailing\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företagsnamn'
+msgid "Company Name"
+msgstr "Bolagsnamn"
+
+#. new-corrected | officiell: 'Mitt Företag'
+msgid "My Company"
+msgstr "Mitt Bolag"

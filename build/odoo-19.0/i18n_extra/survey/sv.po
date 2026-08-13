@@ -1,0 +1,22 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-survey\n"
+"POT-Creation-Date: 2026-08-13 11:52\n"
+"PO-Revision-Date: 2026-08-13 11:52\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_res_partner__certifications_company_count
+#: model:ir.model.fields,field_description:survey.field_res_users__certifications_company_count
+msgid "Company Certifications Count"
+msgstr "Bolagets antal certifieringar"
+
+msgid "Our Company in a few questions ..."
+msgstr "VårtBolag i några frågor ..."
+
+msgid "Quiz about our Company"
+msgstr "Frågesport om vårt bolag"

@@ -1,0 +1,22 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-stock_account\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Åtgärden leder till skapandet av en
+#. bokföringspost, för vilken du inte har åtkomsträttigheter.'
+msgid ""
+"The action leads to the creation of a journal entry, for which you don't "
+"have the access rights."
+msgstr ""
+"Åtgärden leder till skapandet av en verifikat, för vilken du inte har "
+"åtkomsträttigheter."

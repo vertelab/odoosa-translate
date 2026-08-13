@@ -1,0 +1,13 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-payment_dpo\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företagstoken'
+msgid "Company Token"
+msgstr "Bolagstoken"
+
+#. new-corrected | officiell: 'Företagstoken hos DPO'
+msgid "DPO Company Token"
+msgstr "Bolagstoken hos DPO"

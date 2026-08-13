@@ -1,0 +1,9 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-spreadsheet_dashboard\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

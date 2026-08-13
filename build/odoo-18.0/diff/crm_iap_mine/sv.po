@@ -1,0 +1,31 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-crm_iap_mine\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: '<span class="col-md-6">Extra kontakter per
+#. företag</span>'
+msgid "<span class=\"col-md-6\">Extra contacts per Company</span>"
+msgstr "<span class=\"col-md-6\">Extra kontakter per bolag</span>"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag och deras kontaktpersoner'
+msgid "Companies and their Contacts"
+msgstr "Bolag och deras kontaktpersoner"
+
+#. new-corrected | officiell: 'Företags Maxstorlek'
+msgid "Company Size Max"
+msgstr "Bolags Maxstorlek"
+
+#. new-corrected | officiell: '<i class="fa fa-fw me-2 fa-building text-
+#. primary"/>\n                    <b>Typ av företag</b>'
+msgid ""
+"<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
+"                    <b>Company type</b>"
+msgstr ""
+"<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
+"                    <b>Typ av bolag</b>"

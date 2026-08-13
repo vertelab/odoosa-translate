@@ -1,0 +1,24 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-portal\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: '<small class="form-text text-muted">\n
+#. Företagsnamn, momsnummer och land kan inte ändras när dokument har
+#. utfärdats för ditt konto.\n                <br/>Vänligen kontakta oss
+#. direkt för denna åtgärd.\n            </small>'
+msgid ""
+"<small class=\"form-text text-muted\">\n"
+"                Company name, VAT Number and country can not be changed once document(s) have been issued for your account.\n"
+"                <br/>Please contact us directly for that operation.\n"
+"            </small>"
+msgstr ""
+"<small class=\"form-text text-muted\">\n"
+"                Bolagsnamn, momsnummer och land kan inte ändras när dokument har utfärdats för ditt konto.\n"
+"                <br/>Vänligen kontakta oss direkt för denna åtgärd.\n"
+"            </small>"
+
+#. new-corrected | officiell: 'Företagsnamn'
+msgid "Company Name"
+msgstr "Bolagsnamn"

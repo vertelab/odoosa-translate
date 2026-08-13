@@ -1,0 +1,17 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-mass_mailing\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företagsnamn'
+msgid "Company Name"
+msgstr "Bolagsnamn"
+
+#. new-corrected | officiell: 'Infografik: Vårt företag genom generationerna'
+msgid "Infographic: Our Company Throughout The Generations"
+msgstr "Infografik: Vårt bolag genom generationerna"

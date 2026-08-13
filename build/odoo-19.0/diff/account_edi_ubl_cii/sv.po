@@ -1,0 +1,39 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-account_edi_ubl_cii\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: '%s bör ha ett giltigt KBO/BCE-nummer angivet i
+#. fältet för Företagets ID-nummer'
+msgid "%s should have a valid KBO/BCE number in the Company ID field"
+msgstr ""
+"%s bör ha ett giltigt KBO/BCE-nummer angivet i fältet för Bolagets ID-nummer"
+
+#. new-corrected | officiell: 'Företagsregister i Belgien'
+msgid "Belgian Company Registry"
+msgstr "Bolagsregister i Belgien"
+
+#. new-corrected | officiell: 'Företagsnummer i Estland'
+msgid "Estonia Company code"
+msgstr "Bolagsnummer i Estland"
+
+#. new-corrected | officiell: 'Peppol-destinationen är inte giltig. Den bör
+#. innehålla exakt 10 siffror (företagets organisationsnummer). Det förväntade
+#. formatet är: 1234567890'
+msgid ""
+"The Peppol endpoint is not valid. It should contain exactly 10 digits "
+"(Company Registry number).The expected format is: 1234567890"
+msgstr ""
+"Peppol-destinationen är inte giltig. Den bör innehålla exakt 10 siffror "
+"(bolagets organisationsnummer). Det förväntade formatet är: 1234567890"
+
+#. new-corrected | officiell: '%s bör ha ett KVK- eller OIN-nummer angivet i
+#. fältet för företags-ID eller som digital Peppol-adress (EAS-kod 0106 eller
+#. 0190).'
+msgid ""
+"%s should have a KVK or OIN number set in Company ID field or as Peppol "
+"e-address (EAS code 0106 or 0190)."
+msgstr ""
+"%s bör ha ett KVK- eller OIN-nummer angivet i fältet för bolags-ID eller som"
+" digital Peppol-adress (EAS-kod 0106 eller 0190)."

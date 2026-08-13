@@ -1,0 +1,24 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-survey\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företagets antal certifieringar'
+msgid "Company Certifications Count"
+msgstr "Bolagets antal certifieringar"
+
+#. new-corrected | officiell: 'Vårt Företag i några frågor ...'
+msgid "Our Company in a few questions ..."
+msgstr "Vårt Bolag i några frågor ..."
+
+#. new-corrected | officiell: 'Frågesport om vårt företag'
+msgid "Quiz about our Company"
+msgstr "Frågesport om vårt bolag"
+
+#. new-corrected | officiell: 'Detta lilla quiz kommer att testa dina
+#. kunskaper om vårt företag. Var beredd!'
+msgid ""
+"This small quiz will test your knowledge about our Company. Be prepared!"
+msgstr ""
+"Detta lilla quiz kommer att testa dina kunskaper om vårt bolag. Var beredd!"

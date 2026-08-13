@@ -1,0 +1,78 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-website\n"
+"POT-Creation-Date: 2026-08-13 11:50\n"
+"PO-Revision-Date: 2026-08-13 11:50\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.template_footer_headline
+msgid "<b>Designed</b> <br/>for Companies"
+msgstr "<b>Designad</b> <br/>för bolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
+msgid ""
+"<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
+"Francisco CA 94134 <br/>United States"
+msgstr ""
+"<b>Mitt bolag</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
+"Francisco CA 94134 <br/>Förenta staterna"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.footer_copyright_company_name
+msgid ""
+"<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; Company "
+"name</span>"
+msgstr ""
+"<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; "
+"Bolagsnamn</span>"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.contactus
+msgid "<span class=\"s_website_form_label_content\">Company</span>"
+msgstr "<span class=\"s_website_form_label_content\">Bolag</span>"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_website_form
+msgid "<span class=\"s_website_form_label_content\">Your Company</span>"
+msgstr "<span class=\"s_website_form_label_content\">Ditt bolag</span>"
+
+#. module: website
+#: model:ir.model.fields,help:website.field_website_configurator_feature__menu_company
+msgid ""
+"If set, add the menu as a second level menu, as a child of \"Company\" menu."
+msgstr ""
+"Om inställd, lägg till menyn som en andra nivå meny, som ett barn till "
+"\"Bolag\" menyn."
+
+#. module: website
+#: model:ir.model.fields,field_description:website.field_website_configurator_feature__menu_company
+msgid "Menu Company"
+msgstr "Menybolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.contactus
+#: model_terms:ir.ui.view,arch_db:website.contactus_thanks_ir_ui_view
+msgid "My Company"
+msgstr "Mitt Bolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.template_footer_links
+msgid "Our Company"
+msgstr "Vårt Bolag"
+
+#. module: website
+#: model:ir.model.fields,field_description:website.field_res_config_settings__website_company_id
+msgid "Website Company"
+msgstr "Webbplatsbolag"
+
+#. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/js/send_mail_form.js:0
+msgid "Your Company"
+msgstr "Ditt bolag"

@@ -1,0 +1,9 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-product\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företagsinställningar'
+msgid "Company Settings"
+msgstr "Bolagsinställningar"

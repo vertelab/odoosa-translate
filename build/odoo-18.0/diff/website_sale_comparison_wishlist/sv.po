@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-website_sale_comparison_wishlist\n"
+"Language: sv\n"

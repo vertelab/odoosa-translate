@@ -1,0 +1,20 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-hr_fleet\n"
+"POT-Creation-Date: 2026-08-13 11:50\n"
+"PO-Revision-Date: 2026-08-13 11:50\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: hr_fleet
+#: model_terms:ir.ui.view,arch_db:hr_fleet.hr_departure_wizard_view_form
+msgid "Company Car"
+msgstr "Bolagsbil"
+
+#. module: hr_fleet
+#: model:ir.model.fields,field_description:hr_fleet.field_hr_departure_wizard__release_campany_car
+msgid "Release Company Car"
+msgstr "Frigör bolagsbil"

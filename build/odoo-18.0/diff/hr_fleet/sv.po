@@ -1,0 +1,13 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-hr_fleet\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företagsbil'
+msgid "Company Car"
+msgstr "Bolagsbil"
+
+#. new-corrected | officiell: 'Frigör företagsbil'
+msgid "Release Company Car"
+msgstr "Frigör bolagsbil"

@@ -1,0 +1,9 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-account_update_tax_tags\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

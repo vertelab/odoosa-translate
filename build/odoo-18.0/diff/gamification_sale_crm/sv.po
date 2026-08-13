@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-gamification_sale_crm\n"
+"Language: sv\n"

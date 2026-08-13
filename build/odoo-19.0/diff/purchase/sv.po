@@ -1,0 +1,35 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-purchase\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företagets valuta'
+msgid "Company Currency"
+msgstr "Bolagets valuta"
+
+#. new-corrected | officiell: 'Standard om huruvida det försäljningspris som
+#. används på produkten och fakturor med detta företag inkluderar skatter.'
+msgid ""
+"Default on whether the sales price used on the product and invoices with "
+"this Company includes its taxes."
+msgstr ""
+"Standard om huruvida det försäljningspris som används på produkten och "
+"fakturor med detta bolag inkluderar skatter."
+
+#. new-corrected | officiell: 'Tekniskt fält för att filtrera de tillgängliga
+#. skatterna beroende på skatteland och skatteposition.'
+msgid ""
+"Technical field to filter the available taxes depending on the fiscal "
+"country and fiscal position."
+msgstr ""
+"Tekniskt fält för att filtrera de tillgängliga skatterna beroende på "
+"skatteland och skatteområde."

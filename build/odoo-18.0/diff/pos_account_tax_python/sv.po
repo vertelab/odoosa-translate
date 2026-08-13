@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-pos_account_tax_python\n"
+"Language: sv\n"

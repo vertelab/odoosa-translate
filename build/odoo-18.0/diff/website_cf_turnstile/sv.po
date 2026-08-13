@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-website_cf_turnstile\n"
+"Language: sv\n"

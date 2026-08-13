@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-purchase_edi_ubl_bis3\n"
+"Language: sv\n"

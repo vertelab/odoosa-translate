@@ -1,0 +1,15 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-data_recycle\n"
+"POT-Creation-Date: 2026-08-13 11:52\n"
+"PO-Revision-Date: 2026-08-13 11:52\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: data_recycle
+#: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__company_id
+msgid "Company"
+msgstr "Bolag"

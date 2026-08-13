@@ -1,0 +1,62 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-web\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: '<strong>Adressblock för företaget</strong>'
+msgid "<strong>Company address block</strong>"
+msgstr "<strong>Adressblock för bolaget</strong>"
+
+#. new-corrected | officiell: '<strong>Block för företagsuppgifter</strong>'
+msgid "<strong>Company details block</strong>"
+msgstr "<strong>Block för bolagsuppgifter</strong>"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företagsuppgifter'
+msgid "Company Details"
+msgstr "Bolagsuppgifter"
+
+#. new-corrected | officiell: 'Företagets dokumentlayout'
+msgid "Company Document Layout"
+msgstr "Bolagets dokumentlayout"
+
+#. new-corrected | officiell: 'Företagslogo'
+msgid "Company Logo"
+msgstr "Bolagslogo"
+
+#. new-corrected | officiell: 'Företagsnamn'
+msgid "Company Name"
+msgstr "Bolagsnamn"
+
+#. new-corrected | officiell: 'Företagets slogan'
+msgid "Company Tagline"
+msgstr "Bolagets slogan"
+
+#. new-corrected | officiell: 'Företagsnamn'
+msgid "Company name"
+msgstr "Bolagsnamn"
+
+#. new-corrected | officiell: 'Företagets slogan'
+msgid "Company tagline"
+msgstr "Bolagets slogan"
+
+#. new-corrected | officiell: 'Företagets slogan, som inkluderas i ett tryckt
+#. dokuments sidhuvud eller sidfot (beroende på vald layout).'
+msgid ""
+"Company tagline, which is included in a printed document's header or footer "
+"(depending on the selected layout)."
+msgstr ""
+"Bolagets slogan, som inkluderas i ett tryckt dokuments sidhuvud eller sidfot"
+" (beroende på vald layout)."
+
+#. new-corrected | officiell: 'Is Företagsuppgifter Tom'
+msgid "Is Company Details Empty"
+msgstr "Is Bolagsuppgifter Tom"

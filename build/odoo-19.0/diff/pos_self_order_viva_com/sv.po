@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-pos_self_order_viva_com\n"
+"Language: sv\n"

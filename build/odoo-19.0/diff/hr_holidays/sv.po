@@ -1,0 +1,36 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-hr_holidays\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Tillåt att skapa förfrågningar i batcher:\n-
+#. Per anställd: för en specifik anställd\n- Per företag: alla anställda i det
+#. angivna företaget\n- Per avdelning: alla anställda i den angivna
+#. avdelningen\n- Per anställdetikett: alla anställda i den specifika
+#. anställdgruppkategorin'
+msgid ""
+"Allow to create requests in batchs:\n"
+"- By Employee: for a specific employee\n"
+"- By Company: all employees of the specified company\n"
+"- By Department: all employees of the specified department\n"
+"- By Employee Tag: all employees of the specific employee group category"
+msgstr ""
+"Tillåt att skapa förfrågningar i batcher:\n"
+"- Per anställd: för en specifik anställd\n"
+"- Per bolag: alla anställda i det angivna bolaget\n"
+"- Per avdelning: alla anställda i den angivna avdelningen\n"
+"- Per anställdetikett: alla anställda i den specifika anställdgruppkategorin"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Anställda Företag'
+msgid "Employee Company"
+msgstr "Anställda Bolag"
+
+#. new-corrected | officiell: 't.ex. extra återhämtning, företaget är inte
+#. tillgängligt, ...'
+msgid "e.g. Extra recuperation, Company unavailability, ..."
+msgstr "t.ex. extra återhämtning, bolaget är inte tillgängligt, ..."

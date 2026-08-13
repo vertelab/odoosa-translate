@@ -1,0 +1,35 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-account_update_tax_tags\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Uppdatera skattetaggar för befintliga
+#. bokföringsposter'
+msgid "Update tax tags on existing Journal Entries"
+msgstr "Uppdatera skattetaggar för befintliga verifikat"
+
+#. new-corrected | officiell: 'Att uppdatera skattetaggar för befintliga
+#. bokföringsposter är en <b>oåterkallelig</b> åtgärd som kommer att påverka\n
+#. dina rapporter.<br/>\n                    Vi rekommenderar starkt att man
+#. säkerhetskopierar sin databas innan man genomför åtgärden.<br/>\n
+#. Uppdateringen kommer att ändra skattetaggarna i din bokföringshistorik,
+#. från och med och inklusive det valda datumet,\n                    så att
+#. taggarna stämmer överens med den aktuella konfigurationen av dina
+#. skatter.<br/>'
+msgid ""
+"Updating tax tags on existing Journal Entries is an <b>irreversible</b> action that will impact\n"
+"                    your reports.<br/>\n"
+"                    It is highly recommended to backup your database beforehand.<br/>\n"
+"                    The update will change tax tags on your accounting history, starting from and including selected date,\n"
+"                    so that it matches with the current configuration of your taxes.<br/>"
+msgstr ""
+"Att uppdatera skattetaggar för befintliga verifikat är en <b>oåterkallelig</b> åtgärd som kommer att påverka\n"
+"                    dina rapporter.<br/>\n"
+"                    Vi rekommenderar starkt att man säkerhetskopierar sin databas innan man genomför åtgärden.<br/>\n"
+"                    Uppdateringen kommer att ändra skattetaggarna i din bokföringshistorik, från och med och inklusive det valda datumet,\n"
+"                    så att taggarna stämmer överens med den aktuella konfigurationen av dina skatter.<br/>"

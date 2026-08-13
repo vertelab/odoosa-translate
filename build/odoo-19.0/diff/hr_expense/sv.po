@@ -1,0 +1,26 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-hr_expense\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Rapport företagets valuta'
+msgid "Report Company Currency"
+msgstr "Rapport bolagets valuta"
+
+#. new-corrected | officiell: 'Pris i företagets valuta'
+msgid "Price in Company Currency"
+msgstr "Pris i bolagets valuta"
+
+#. new-corrected | officiell: 'Du kan bara skapa bokföringsposter för godkända
+#. utlägg.'
+msgid "You can only generate accounting entry for approved expense(s)."
+msgstr "Du kan bara skapa verifikat för godkända utlägg."

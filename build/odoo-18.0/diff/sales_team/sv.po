@@ -1,0 +1,17 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-sales_team\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Medlemsföretag'
+msgid "Member Company"
+msgstr "Medlemsbolag"
+
+#. new-corrected | officiell: 'Användarföretag'
+msgid "User Company"
+msgstr "Användarbolag"

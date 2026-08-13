@@ -1,0 +1,207 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-account\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: 'En skatteposition med momsregistrering i
+#. utlandet finns redan i det här landet.'
+msgid "A fiscal position with a foreign VAT already exists in this country."
+msgstr ""
+"En skatteområde med momsregistrering i utlandet finns redan i det här "
+"landet."
+
+#. new-corrected | officiell: 'Undertecknat belopp i företagets valuta'
+msgid "Amount Company Currency Signed"
+msgstr "Undertecknat belopp i bolagets valuta"
+
+#. new-corrected | officiell: 'Ett konto är en del av ett huvudbok som gör det
+#. möjligt för ditt företag\natt registrera alla typer av debet- och
+#. kredittransaktioner.\nFöretag presenterar sina årsredovisningar i två
+#. huvuddelar: en balansräkning\noch en resultaträkning (konton för vinster
+#. och förluster). Företag är skyldiga enligt lag\natt genom årsredovisningen
+#. presentera viss information.'
+msgid ""
+"An account is part of a ledger allowing your company\n"
+"                to register all kinds of debit and credit transactions.\n"
+"                Companies present their annual accounts in two main parts: the\n"
+"                balance sheet and the income statement (profit and loss\n"
+"                account). The annual accounts of a company are required by law\n"
+"                to disclose a certain amount of information."
+msgstr ""
+"Ett konto är en del av ett huvudbok som gör det möjligt för ditt bolag\n"
+"att registrera alla typer av debet- och kredittransaktioner.\n"
+"Bolag presenterar sina årsredovisningar i två huvuddelar: en balansräkning\n"
+"och en resultaträkning (konton för vinster och förluster). Bolag är skyldiga enligt lag\n"
+"att genom årsredovisningen presentera viss information."
+
+#. new-corrected | officiell: 'Analytiska konton'
+msgid "Analytic Accounts"
+msgstr "Objektkonton"
+
+#. new-corrected | officiell: 'Analytiska fördelningsmodeller'
+msgid "Analytic Distribution Model"
+msgstr "Objektfördelning"
+
+#. new-corrected | officiell: 'Analytiska fördelningsmodeller'
+msgid "Analytic Distribution Models"
+msgstr "Objektfördelning"
+
+#. new-corrected | officiell: 'Analytiska planers användningsgrad'
+msgid "Analytic Plan's Applicabilities"
+msgstr "Objektreglers användningsgrad"
+
+#. new-corrected | officiell: 'Analytiska planer'
+msgid "Analytic Plans"
+msgstr "Objektregler"
+
+#. new-corrected | officiell: 'Analytisk rapport'
+msgid "Analytic Report"
+msgstr "Objektrapport"
+
+#. new-corrected | officiell: 'Analytisk rapportering'
+msgid "Analytic Reporting"
+msgstr "Objektrapportering"
+
+#. new-corrected | officiell: 'Kontonummer för det bankkonto som fakturan
+#. kommer att betalas till. Ett företagskonto om detta är en kundfaktura eller
+#. leverantörskreditfaktura, annars ett partnerkonto.'
+msgid ""
+"Bank Account Number to which the invoice will be paid. A Company bank "
+"account if this is a Customer Invoice or Vendor Credit Note, otherwise a "
+"Partner bank account number."
+msgstr ""
+"Kontonummer för det bankkonto som fakturan kommer att betalas till. Ett "
+"bolagskonto om detta är en kundfaktura eller leverantörskreditfaktura, "
+"annars ett partnerkonto."
+
+#. new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag kopplade till partner'
+msgid "Companies that refers to partner"
+msgstr "Bolag kopplade till partner"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företag'
+msgid "Company "
+msgstr "Bolag"
+
+#. new-corrected | officiell: 'Företagets bankkonto'
+msgid "Company Bank Account"
+msgstr "Bolagets bankkonto"
+
+#. new-corrected | officiell: 'Företagets land'
+msgid "Company Country"
+msgstr "Bolagets land"
+
+#. new-corrected | officiell: 'Företagets valuta'
+msgid "Company Currency"
+msgstr "Bolagets valuta"
+
+#. new-corrected | officiell: 'Företagets dokumentlayout'
+msgid "Company Document Layout"
+msgstr "Bolagets dokumentlayout"
+
+#. new-corrected | officiell: 'Landskod för företagets skatterättsliga
+#. hemvist'
+msgid "Company Fiscal Country Code"
+msgstr "Landskod för bolagets skatterättsliga hemvist"
+
+#. new-corrected | officiell: 'Platshållare för företagsregister'
+msgid "Company Registry Placeholder"
+msgstr "Platshållare för bolagsregister"
+
+#. new-corrected | officiell: 'Företag med Storno-bokföring'
+msgid "Company Storno Accounting"
+msgstr "Bolag med Storno-bokföring"
+
+#. new-corrected | officiell: 'Platshållare för företagets
+#. momsregistreringsnummer'
+msgid "Company Vat Placeholder"
+msgstr "Platshållare för bolagets momsregistreringsnummer"
+
+#. new-corrected | officiell: 'Företaget har en kontoplan'
+msgid "Company has a chart of accounts"
+msgstr "Bolaget har en kontoplan"
+
+#. new-corrected | officiell: 'Företag relaterade till denna journal'
+msgid "Company related to this journal"
+msgstr "Bolag relaterade till denna journal"
+
+#. new-corrected | officiell: 'Företagets personalkostnader exklusive
+#. tjänsteersättning, bidrag och värdecheckar'
+msgid ""
+"Company's personnel costs excluding compensations, contributions and "
+"vouchers"
+msgstr ""
+"Bolagets personalkostnader exklusive tjänsteersättning, bidrag och "
+"värdecheckar"
+
+#. new-corrected | officiell: 'Standard om huruvida det försäljningspris som
+#. används för företagets produkter och fakturor ska inkludera moms.'
+msgid ""
+"Default on whether the sales price used on the product and invoices with "
+"this Company includes its taxes."
+msgstr ""
+"Standard om huruvida det försäljningspris som används för bolagets produkter"
+" och fakturor ska inkludera moms."
+
+#. new-corrected | officiell: 'Flera företag'
+msgid "Multi-Company"
+msgstr "Flera bolag"
+
+#. new-corrected | officiell: 'Introduktion till företagsdata'
+msgid "Onboarding Company Data"
+msgstr "Introduktion till bolagsdata"
+
+#. new-corrected | officiell: 'Gör det möjligt att bortse från företagets
+#. standardinställningar om huruvida det pris du använder på produkter och
+#. fakturor bör inkludera denna skatt.'
+msgid ""
+"Overrides the Company's default on whether the price you use on the product "
+"and invoices includes this tax."
+msgstr ""
+"Gör det möjligt att bortse från bolagets standardinställningar om huruvida "
+"det pris du använder på produkter och fakturor bör inkludera denna skatt."
+
+#. new-corrected | officiell: 'Platshållare för partner i företagsregister'
+msgid "Partner Company Registry Placeholder"
+msgstr "Platshållare för partner i bolagsregister"
+
+#. new-corrected | officiell: 'Ange företagsdata'
+msgid "Set Company Data"
+msgstr "Ange bolagsdata"
+
+#. new-corrected | officiell: 'Använd företagsväljare'
+msgid "Use Company Selector"
+msgstr "Använd bolagsväljare"
+
+#. new-corrected | officiell: 't.ex. Mitt företag'
+msgid "e.g. My Company"
+msgstr "t.ex. Mitt bolag"
+
+#. new-corrected | officiell: 'Detta kommer att uppdatera alla skatter och
+#. konton baserat på den aktuella valda skattepositionen.'
+msgid ""
+"This will update all taxes and accounts based on the currently selected "
+"fiscal position."
+msgstr ""
+"Detta kommer att uppdatera alla skatter och konton baserat på den aktuella "
+"valda skatteområdet."
+
+#. new-corrected | officiell: '<strong>Denna valuta har redan använts för att
+#. generera bokföringsposter.</strong> <br/>\n
+#. Ändringar av dess avrundningsfaktor nu kommer inte att ändra de
+#. avrundningar som har gjorts i tidigare poster, vilket kan leda till
+#. inkonsekvens med de nya posterna.'
+msgid ""
+"<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
+"                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
+msgstr ""
+"<strong>Denna valuta har redan använts för att generera verifikat.</strong> <br/>\n"
+"                        Ändringar av dess avrundningsfaktor nu kommer inte att ändra de avrundningar som har gjorts i tidigare poster, vilket kan leda till inkonsekvens med de nya posterna."

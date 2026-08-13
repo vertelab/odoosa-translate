@@ -1,0 +1,10 @@
+# rules/odoo-18.yml — Versionsspecifikt för Odoo 18.0
+# ======================================================================
+# Alla aktuella regler ligger i core.yml (versions: [18, 19]).
+# Denna fil är för 18.0-specifika tillägg/överridningar:
+#   · ny regel: lägg till med samma term-struktur som core.yml
+#   · överrida kärnregel: samma `id` som i core.yml (hela termen ersätts)
+# ======================================================================
+schema_version: 1
+
+terms: []

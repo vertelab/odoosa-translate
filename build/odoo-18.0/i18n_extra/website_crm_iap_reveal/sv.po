@@ -1,0 +1,30 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-website_crm_iap_reveal\n"
+"POT-Creation-Date: 2026-08-13 11:50\n"
+"PO-Revision-Date: 2026-08-13 11:50\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: website_crm_iap_reveal
+#: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_rule__lead_for__companies
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: website_crm_iap_reveal
+#: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_rule__lead_for__people
+msgid "Companies and their Contacts"
+msgstr "Bolag och deras kontakter"
+
+#. module: website_crm_iap_reveal
+#: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__company_size_min
+msgid "Company Size"
+msgstr "Bolagets storlek"
+
+#. module: website_crm_iap_reveal
+#: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__company_size_max
+msgid "Company Size Max"
+msgstr "Bolagets maxstorlek"

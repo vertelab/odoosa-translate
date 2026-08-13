@@ -1,0 +1,26 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-hr\n"
+"Language: sv\n"
+
+#. new-corrected | officiell: '<i class="fa fa-building-o" role="img" aria-
+#. label="Company" title="Företag"/>'
+msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Bolag\"/>"
+
+#. new-corrected | officiell: 'Företagsland'
+msgid "Company Country"
+msgstr "Bolagsland"
+
+#. new-corrected | officiell: 'Företagslogo'
+msgid "Company Logo"
+msgstr "Bolagslogo"
+
+#. new-corrected | officiell: 'Företagets arbetstid'
+msgid "Company Working Hours"
+msgstr "Bolagets arbetstid"
+
+#. new-corrected | officiell: 'Företagsanställd'
+msgid "Company employee"
+msgstr "Bolagsanställd"
