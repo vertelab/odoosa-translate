@@ -4,10 +4,10 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-base_setup\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: '<span class="o_form_label"
-#. invisible="company_count &gt; 1">\n
-#. Företag\n                                    </span>\n
-#. <span class="o_form_label" invisible="company_count &lt;= 1">\n
+#. override | officiell: '<span class="o_form_label" invisible="company_count
+#. &gt; 1">\n                                        Företag\n
+#. </span>\n                                    <span class="o_form_label"
+#. invisible="company_count &lt;= 1">\n
 #. Företag\n                                    </span>\n
 #. <br/>'
 msgid ""
@@ -27,34 +27,34 @@ msgstr ""
 "                                    </span>\n"
 "                                    <br/>"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företagets landskod'
+#. override | officiell: 'Företagets landskod'
 msgid "Company Country Code"
 msgstr "Bolagets landskod"
 
-#. new-corrected | officiell: 'Information om företaget'
+#. override | officiell: 'Information om företaget'
 msgid "Company Informations"
 msgstr "Information om bolaget"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. new-corrected | officiell: 'Transaktioner mellan koncernföretag'
+#. override | officiell: 'Transaktioner mellan koncernföretag'
 msgid "Inter-Company Transactions"
 msgstr "Transaktioner mellan koncernbolag"
 
-#. new-corrected | officiell: 'Företaget Is Root'
+#. override | officiell: 'Företaget Is Root'
 msgid "Is Root Company"
 msgstr "Bolaget Is Root"
 
-#. new-corrected | officiell: 'Antal företag'
+#. override | officiell: 'Antal företag'
 msgid "Number of Companies"
 msgstr "Antal bolag"

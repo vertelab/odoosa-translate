@@ -4,6 +4,6 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_payment\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Bokföringspost'
+#. override | officiell: 'Bokföringspost'
 msgid "Journal Entry"
 msgstr "Verifikat"

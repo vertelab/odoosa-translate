@@ -4,11 +4,11 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-sale\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Layout för företagsdokument'
+#. override | officiell: 'Layout för företagsdokument'
 msgid "Company Document Layout"
 msgstr "Layout för bolagsdokument"
 
-#. new-corrected | officiell: 'Standard om huruvida det försäljningspris som
+#. override | officiell: 'Standard om huruvida det försäljningspris som
 #. används på produkten och fakturor med detta företag inkluderar skatter.'
 msgid ""
 "Default on whether the sales price used on the product and invoices with "

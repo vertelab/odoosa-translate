@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-iap_mail\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: '<i class="fa fa-fw me-2 fa-building text-
+#. override | officiell: '<i class="fa fa-fw me-2 fa-building text-
 #. primary"/>\n                    <b>Typ av företag</b>'
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
@@ -13,6 +13,6 @@ msgstr ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
 "                    <b>Typ av bolag</b>"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

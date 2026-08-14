@@ -4,9 +4,8 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-point_of_sale\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Välj en specifik skatteposition vid
-#. beställningen beroende på typ av kund (skattebefriad, på plats vs.
-#. takeaway, etc.).'
+#. override | officiell: 'Välj en specifik skatteposition vid beställningen
+#. beroende på typ av kund (skattebefriad, på plats vs. takeaway, etc.).'
 msgid ""
 "Choose a specific fiscal position at the order depending on the kind of "
 "customer (tax exempt, onsite vs. takeaway, etc.)."
@@ -14,17 +13,17 @@ msgstr ""
 "Välj en specifik skatteområde vid beställningen beroende på typ av kund "
 "(skattebefriad, på plats vs. takeaway, etc.)."
 
-#. new-corrected | officiell: 'Företaget har en kontoplan'
+#. override | officiell: 'Företaget har en kontoplan'
 msgid "Company has chart of accounts"
 msgstr "Bolaget har en kontoplan"
 
-#. new-corrected | officiell: 'Använder företagets valuta'
+#. override | officiell: 'Använder företagets valuta'
 msgid "Is Using Company Currency"
 msgstr "Använder bolagets valuta"
 
-#. new-corrected | officiell: 'Den skatteposition som användes i den
-#. ursprungliga ordern är inte laddad. Se till att den är laddad genom att
-#. lägga till den i pos-konfigurationen.'
+#. override | officiell: 'Den skatteposition som användes i den ursprungliga
+#. ordern är inte laddad. Se till att den är laddad genom att lägga till den i
+#. pos-konfigurationen.'
 msgid ""
 "The fiscal position used in the original order is not loaded. Make sure it "
 "is loaded by adding it in the pos configuration."
@@ -32,11 +31,11 @@ msgstr ""
 "Den skatteområde som användes i den ursprungliga ordern är inte laddad. Se "
 "till att den är laddad genom att lägga till den i pos-konfigurationen."
 
-#. new-corrected | officiell: 'Använd skattepositioner för att få olika
-#. skatter i ordning'
+#. override | officiell: 'Använd skattepositioner för att få olika skatter i
+#. ordning'
 msgid "Use fiscal positions to get different taxes by order"
 msgstr "Använd skatteområden för att få olika skatter i ordning"
 
-#. new-corrected | officiell: 't.ex. företagsadress, webbplats'
+#. override | officiell: 't.ex. företagsadress, webbplats'
 msgid "e.g. Company Address, Website"
 msgstr "t.ex. bolagsadress, webbplats"

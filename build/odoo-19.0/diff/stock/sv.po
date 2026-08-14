@@ -4,18 +4,18 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-stock\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Mitt företag (Chicago) åtar sig att göra sitt
-#. bästa för att tillhandahålla tjänster i rätt tid i enlighet med de
-#. överenskomna tidsramarna. Ingen av dess skyldigheter kan dock anses vara en
-#. skyldighet att uppnå resultat. My Company (Chicago) kan inte under några
+#. override | officiell: 'Mitt företag (Chicago) åtar sig att göra sitt bästa
+#. för att tillhandahålla tjänster i rätt tid i enlighet med de överenskomna
+#. tidsramarna. Ingen av dess skyldigheter kan dock anses vara en skyldighet
+#. att uppnå resultat. My Company (Chicago) kan inte under några
 #. omständigheter åläggas av kunden att uppträda som tredje part i samband med
 #. ett skadeståndsanspråk som en slutkonsument riktar mot kunden.'
 msgid ""
@@ -33,6 +33,6 @@ msgstr ""
 "uppträda som tredje part i samband med ett skadeståndsanspråk som en "
 "slutkonsument riktar mot kunden."
 
-#. new-corrected | officiell: 'Ruttföretag'
+#. override | officiell: 'Ruttföretag'
 msgid "Route Company"
 msgstr "Ruttbolag"

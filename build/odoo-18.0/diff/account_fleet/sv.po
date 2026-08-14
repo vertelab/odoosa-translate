@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_fleet\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Skapa bokföringsposter automatiskt'
+#. override | officiell: 'Skapa bokföringsposter automatiskt'
 msgid "Create Automatic Entries"
 msgstr "Skapa verifikat automatiskt"
 
-#. new-corrected | officiell: 'Bokföringspost'
+#. override | officiell: 'Bokföringspost'
 msgid "Journal Entry"
 msgstr "Verifikat"
 
-#. new-corrected | officiell: 'Det är inte möjligt att ändra antalet tjänster
+#. override | officiell: 'Det är inte möjligt att ändra antalet tjänster
 #. kopplade till en transaktionsrad. Genomför åtgärden istället på den
 #. relaterade bokföringsposten.'
 msgid ""

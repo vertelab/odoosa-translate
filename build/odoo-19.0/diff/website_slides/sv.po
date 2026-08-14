@@ -4,6 +4,6 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_slides\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företagets kursräknare'
+#. override | officiell: 'Företagets kursräknare'
 msgid "Company Course Count"
 msgstr "Bolagets kursräknare"

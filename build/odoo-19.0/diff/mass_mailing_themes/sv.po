@@ -4,14 +4,14 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mass_mailing_themes\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Att vara ett moget företag'
+#. override | officiell: 'Att vara ett moget företag'
 msgid "Being a Mature Company"
 msgstr "Att vara ett moget bolag"
 
-#. new-corrected | officiell: 'Nyheter om företaget'
+#. override | officiell: 'Nyheter om företaget'
 msgid "Company News"
 msgstr "Nyheter om bolaget"
 
-#. new-corrected | officiell: 'Infografik: Vårt företag genom generationerna'
+#. override | officiell: 'Infografik: Vårt företag genom generationerna'
 msgid "Infographic: Our Company Throughout The Generations"
 msgstr "Infografik: Vårt bolag genom generationerna"

@@ -4,58 +4,57 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_peppol\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Aktivt överordnat företag'
+#. override | officiell: 'Aktivt överordnat företag'
 msgid "Active Parent Company"
 msgstr "Aktivt överordnat bolag"
 
-#. new-corrected | officiell: 'Namn på aktivt överordnat företag'
+#. override | officiell: 'Namn på aktivt överordnat företag'
 msgid "Active Parent Company Name"
 msgstr "Namn på aktivt överordnat bolag"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företagets namn'
+#. override | officiell: 'Företagets namn'
 msgid "Company Name"
 msgstr "Bolagets namn"
 
-#. new-corrected | officiell: 'Företagsinformation'
+#. override | officiell: 'Företagsinformation'
 msgid "Company information"
 msgstr "Bolagsinformation"
 
-#. new-corrected | officiell: 'Är en filial av ett företag'
+#. override | officiell: 'Är en filial av ett företag'
 msgid "Is Branch Company"
 msgstr "Är en filial av ett bolag"
 
-#. new-corrected | officiell: 'Överordnat företag'
+#. override | officiell: 'Överordnat företag'
 msgid "Parent Company"
 msgstr "Överordnat bolag"
 
-#. new-corrected | officiell: 'Peppol överordnat företag'
+#. override | officiell: 'Peppol överordnat företag'
 msgid "Peppol Parent Company"
 msgstr "Peppol överordnat bolag"
 
-#. new-corrected | officiell: 'Peppol namn på överordnat företag'
+#. override | officiell: 'Peppol namn på överordnat företag'
 msgid "Peppol Parent Company Name"
 msgstr "Peppol namn på överordnat bolag"
 
-#. new-corrected | officiell: 'Peppol använd överordnat företag'
+#. override | officiell: 'Peppol använd överordnat företag'
 msgid "Peppol Use Parent Company"
 msgstr "Peppol använd överordnat bolag"
 
-#. new-corrected | officiell: 'Utvalda företag'
+#. override | officiell: 'Utvalda företag'
 msgid "Selected Company"
 msgstr "Utvalda bolag"
 
-#. new-corrected | officiell: 'Du är på väg att använda ett
-#. momsregistreringsnummer för att registrera dig. Försäkra dig om att du
-#. registrerar dig med ditt företagsregisternummer (BCE/KBO) för att följa
-#. gällande lagstiftning.'
+#. override | officiell: 'Du är på väg att använda ett momsregistreringsnummer
+#. för att registrera dig. Försäkra dig om att du registrerar dig med ditt
+#. företagsregisternummer (BCE/KBO) för att följa gällande lagstiftning.'
 msgid ""
 "You are about to register with your VAT number. Make sure you register with "
 "your Company Registry (BCE/KBO) first to be compliant with the new "
@@ -65,8 +64,8 @@ msgstr ""
 " Försäkra dig om att du registrerar dig med ditt bolagsregisternummer "
 "(BCE/KBO) för att följa gällande lagstiftning."
 
-#. new-corrected | officiell: 'Den rekommenderade identifieringsmetoden för
-#. Belgien är ditt företagsregistreringsnummer.'
+#. override | officiell: 'Den rekommenderade identifieringsmetoden för Belgien
+#. är ditt företagsregistreringsnummer.'
 msgid ""
 "The recommended identification method for Belgium is your Company Registry "
 "Number."

@@ -4,6 +4,6 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mrp_subcontracting_dropshipping\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"

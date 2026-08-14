@@ -4,17 +4,17 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mail\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag som använder denna domän som standard
-#. för att skicka e-post'
+#. override | officiell: 'Företag som använder denna domän som standard för
+#. att skicka e-post'
 msgid "Companies using this domain as default for sending mails"
 msgstr "Bolag som använder denna domän som standard för att skicka e-post"
 
-#. new-corrected | officiell: 'Relaterat företag'
+#. override | officiell: 'Relaterat företag'
 msgid "Related Company"
 msgstr "Relaterat bolag"
 
-#. new-corrected | officiell: 'Du kan inte ta bort dessa grupper, eftersom
-#. gruppen Hela företaget krävs av andra moduler.'
+#. override | officiell: 'Du kan inte ta bort dessa grupper, eftersom gruppen
+#. Hela företaget krävs av andra moduler.'
 msgid ""
 "You cannot delete those groups, as the Whole Company group is required by "
 "other modules."

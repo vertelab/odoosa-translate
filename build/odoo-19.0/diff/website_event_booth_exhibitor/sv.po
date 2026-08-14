@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_event_booth_exhibitor\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: '<span>Företagets namn</span>\n
+#. override | officiell: '<span>Företagets namn</span>\n
 #. <span class="mandatory_mark"> *</span>'
 msgid ""
 "<span>Company Name</span>\n"

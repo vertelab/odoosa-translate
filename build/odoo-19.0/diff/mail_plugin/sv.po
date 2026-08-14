@@ -4,34 +4,34 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mail_plugin\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företaget skapades.'
+#. override | officiell: 'Företaget skapades.'
 msgid "Company Created."
 msgstr "Bolaget skapades."
 
-#. new-corrected | officiell: 'Företagsinsikter'
+#. override | officiell: 'Företagsinsikter'
 msgid "Company Insights"
 msgstr "Bolagsinsikter"
 
-#. new-corrected | officiell: 'Företagstyp'
+#. override | officiell: 'Företagstyp'
 msgid "Company Type"
 msgstr "Bolagstyp"
 
-#. new-corrected | officiell: 'Skapat företag'
+#. override | officiell: 'Skapat företag'
 msgid "Company created"
 msgstr "Skapat bolag"
 
-#. new-corrected | officiell: 'Företaget uppdaterat'
+#. override | officiell: 'Företaget uppdaterat'
 msgid "Company updated"
 msgstr "Bolaget uppdaterat"
 
-#. new-corrected | officiell: 'Skapa ett företag'
+#. override | officiell: 'Skapa ett företag'
 msgid "Create a Company"
 msgstr "Skapa ett bolag"
 
-#. new-corrected | officiell: 'Utöka företaget'
+#. override | officiell: 'Utöka företaget'
 msgid "Enrich Company"
 msgstr "Utöka bolaget"

@@ -4,14 +4,14 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_event_track\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. new-corrected | officiell: 'Mitt företags globala presentation'
+#. override | officiell: 'Mitt företags globala presentation'
 msgid "My Company global presentation"
 msgstr "Mitt bolags globala presentation"

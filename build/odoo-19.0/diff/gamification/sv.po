@@ -4,10 +4,10 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-gamification\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Ange dina företagsuppgifter'
+#. override | officiell: 'Ange dina företagsuppgifter'
 msgid "Set your Company Data"
 msgstr "Ange dina bolagsuppgifter"
 
-#. new-corrected | officiell: 'Ange företagets logotyp'
+#. override | officiell: 'Ange företagets logotyp'
 msgid "Set your Company Logo"
 msgstr "Ange bolagets logotyp"

@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_event_exhibitor\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Deco Addict integrerar ERP för globala företag
-#. och stöder PME\n                med programvara från öppna källor för att
+#. override | officiell: 'Deco Addict integrerar ERP för globala företag och
+#. stöder PME\n                med programvara från öppna källor för att
 #. hantera sin verksamhet. Våra\n                konsulter är experter inom
 #. följande områden:'
 msgid ""

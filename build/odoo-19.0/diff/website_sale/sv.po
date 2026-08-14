@@ -4,15 +4,15 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_sale\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. new-corrected | officiell: 'Endast företagets hemsidor är tillåtna.\nLämna
+#. override | officiell: 'Endast företagets hemsidor är tillåtna.\nLämna
 #. företagsfältet tomt eller välj en webbplats från det företaget.'
 msgid ""
 "Only the company's websites are allowed.\n"

@@ -4,6 +4,6 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_check_printing\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"

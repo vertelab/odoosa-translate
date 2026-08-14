@@ -4,6 +4,6 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-product_matrix\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'T-shirt med Mitt Företag (RUTNÄT)'
+#. override | officiell: 'T-shirt med Mitt Företag (RUTNÄT)'
 msgid "My Company Tshirt (GRID)"
 msgstr "T-shirt med Mitt Bolag (RUTNÄT)"

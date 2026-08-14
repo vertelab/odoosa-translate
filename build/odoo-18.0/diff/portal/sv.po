@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-portal\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: '<small class="form-text text-muted">\n
+#. override | officiell: '<small class="form-text text-muted">\n
 #. Företagsnamn, momsnummer och land kan inte ändras när dokument har
 #. utfärdats för ditt konto.\n                <br/>Vänligen kontakta oss
 #. direkt för denna åtgärd.\n            </small>'
@@ -19,6 +19,6 @@ msgstr ""
 "                <br/>Vänligen kontakta oss direkt för denna åtgärd.\n"
 "            </small>"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

@@ -4,18 +4,18 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_attendance\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företagslogo'
+#. override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
 
-#. new-corrected | officiell: 'Toleranstid till förmån för företaget'
+#. override | officiell: 'Toleranstid till förmån för företaget'
 msgid "Tolerance Time In Favor Of Company"
 msgstr "Toleranstid till förmån för bolaget"

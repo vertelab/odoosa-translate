@@ -4,12 +4,12 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: '<b>Designad</b> <br/>för företag'
+#. override | officiell: '<b>Designad</b> <br/>för företag'
 msgid "<b>Designed</b> <br/>for Companies"
 msgstr "<b>Designad</b> <br/>för bolag"
 
-#. new-corrected | officiell: '<b>Mitt företag</b><br/>250 Executive Park
-#. Blvd, Suite 3400 <br/> San Francisco CA 94134 <br/>Förenta staterna'
+#. override | officiell: '<b>Mitt företag</b><br/>250 Executive Park Blvd,
+#. Suite 3400 <br/> San Francisco CA 94134 <br/>Förenta staterna'
 msgid ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
@@ -17,8 +17,8 @@ msgstr ""
 "<b>Mitt bolag</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>Förenta staterna"
 
-#. new-corrected | officiell: '<span class="o_footer_copyright_name
-#. me-2">Copyright &amp;copy; Företagsnamn</span>'
+#. override | officiell: '<span class="o_footer_copyright_name me-2">Copyright
+#. &amp;copy; Företagsnamn</span>'
 msgid ""
 "<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; Company "
 "name</span>"
@@ -26,40 +26,40 @@ msgstr ""
 "<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; "
 "Bolagsnamn</span>"
 
-#. new-corrected | officiell: '<span
+#. override | officiell: '<span
 #. class="s_website_form_label_content">Företag</span>'
 msgid "<span class=\"s_website_form_label_content\">Company</span>"
 msgstr "<span class=\"s_website_form_label_content\">Bolag</span>"
 
-#. new-corrected | officiell: '<span class="s_website_form_label_content">Ditt
+#. override | officiell: '<span class="s_website_form_label_content">Ditt
 #. företag</span>'
 msgid "<span class=\"s_website_form_label_content\">Your Company</span>"
 msgstr "<span class=\"s_website_form_label_content\">Ditt bolag</span>"
 
-#. new-corrected | officiell: 'Om inställd, lägg till menyn som en andra nivå
-#. meny, som ett barn till "Företag" menyn.'
+#. override | officiell: 'Om inställd, lägg till menyn som en andra nivå meny,
+#. som ett barn till "Företag" menyn.'
 msgid ""
 "If set, add the menu as a second level menu, as a child of \"Company\" menu."
 msgstr ""
 "Om inställd, lägg till menyn som en andra nivå meny, som ett barn till "
 "\"Bolag\" menyn."
 
-#. new-corrected | officiell: 'Menyföretag'
+#. override | officiell: 'Menyföretag'
 msgid "Menu Company"
 msgstr "Menybolag"
 
-#. new-corrected | officiell: 'Mitt Företag'
+#. override | officiell: 'Mitt Företag'
 msgid "My Company"
 msgstr "Mitt Bolag"
 
-#. new-corrected | officiell: 'Vårt Företag'
+#. override | officiell: 'Vårt Företag'
 msgid "Our Company"
 msgstr "Vårt Bolag"
 
-#. new-corrected | officiell: 'Webbplatsföretag'
+#. override | officiell: 'Webbplatsföretag'
 msgid "Website Company"
 msgstr "Webbplatsbolag"
 
-#. new-corrected | officiell: 'Ditt företag'
+#. override | officiell: 'Ditt företag'
 msgid "Your Company"
 msgstr "Ditt bolag"

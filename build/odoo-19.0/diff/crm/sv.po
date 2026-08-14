@@ -4,50 +4,50 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-crm\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: '# leads/möjligheter denna månad'
+#. override | officiell: '# leads/möjligheter denna månad'
 msgid "# Leads/Opps assigned this month"
 msgstr "# kundämnen/möjligheter denna månad"
 
-#. new-corrected | officiell: '# otilldelade leads'
+#. override | officiell: '# otilldelade leads'
 msgid "# Unassigned Leads"
 msgstr "# otilldelade kundämnen"
 
-#. new-corrected | officiell: '%(assigned)s leads fördelade mellan
-#. %(team_count)s team.'
+#. override | officiell: '%(assigned)s leads fördelade mellan %(team_count)s
+#. team.'
 msgid "%(assigned)s leads allocated among %(team_count)s teams."
 msgstr "%(assigned)s kundämnen fördelade mellan %(team_count)s team."
 
-#. new-corrected | officiell: '%(assigned)s leads tilldelade till
-#. %(team_name)s team.'
+#. override | officiell: '%(assigned)s leads tilldelade till %(team_name)s
+#. team.'
 msgid "%(assigned)s leads allocated to %(team_name)s team."
 msgstr "%(assigned)s kundämnen tilldelade till %(team_name)s team."
 
-#. new-corrected | officiell: '%(attach_name)s (från %(lead_name)s)'
+#. override | officiell: '%(attach_name)s (från %(lead_name)s)'
 msgid "%(attach_name)s (from %(lead_name)s)"
 msgstr "%(attach_name)s (från %(kundämne_name)s)"
 
-#. new-corrected | officiell: '%(duplicates)s duplicerade leads har slagits
+#. override | officiell: '%(duplicates)s duplicerade leads har slagits
 #. samman.'
 msgid "%(duplicates)s duplicates leads have been merged."
 msgstr "%(duplicates)s duplicerade kundämnen har slagits samman."
 
-#. new-corrected | officiell: '%(members_assigned)s leads fördelade bland
+#. override | officiell: '%(members_assigned)s leads fördelade bland
 #. %(member_count)s säljare.'
 msgid ""
 "%(members_assigned)s leads assigned among %(member_count)s salespersons."
 msgstr ""
 "%(members_assigned)s kundämnen fördelade bland %(member_count)s säljare."
 
-#. new-corrected | officiell: '<i class="fa fa-building" title="Företag"/>'
+#. override | officiell: '<i class="fa fa-building" title="Företag"/>'
 msgid "<i class=\"fa fa-building\" title=\"Company\"/>"
 msgstr "<i class=\"fa fa-building\" title=\"Bolag\"/>"
 
-#. new-corrected | officiell: '<i class="fa fa-info-circle me-2"
-#. title="Assigned Lead Count"/>'
+#. override | officiell: '<i class="fa fa-info-circle me-2" title="Assigned
+#. Lead Count"/>'
 msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
 msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Kundämne Count\"/>"
 
-#. new-corrected | officiell: '<span class="o_stat_text"
+#. override | officiell: '<span class="o_stat_text"
 #. invisible="duplicate_lead_count &lt; 2">Liknande leads</span>\n
 #. <span class="o_stat_text" invisible="duplicate_lead_count &gt; 1">Liknande
 #. lead</span>'
@@ -58,7 +58,7 @@ msgstr ""
 "<span class=\"o_stat_text\" invisible=\"duplicate_kundämne_count &lt; 2\">Liknande kundämnen</span>\n"
 "                                    <span class=\"o_stat_text\" invisible=\"duplicate_kundämne_count &gt; 1\">Liknande kundämne</span>"
 
-#. new-corrected | officiell: '<span class="o_stat_text" invisible="not
+#. override | officiell: '<span class="o_stat_text" invisible="not
 #. use_leads">Leads</span>\n                        <span class="o_stat_text"
 #. invisible="use_leads">Möjligheter</span>'
 msgid ""
@@ -68,16 +68,16 @@ msgstr ""
 "<span class=\"o_stat_text\" invisible=\"not use_kundämnen\">Kundämnen</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"use_kundämnen\">Möjligheter</span>"
 
-#. new-corrected | officiell: '<span class="o_stat_text">Leads</span>'
+#. override | officiell: '<span class="o_stat_text">Leads</span>'
 msgid "<span class=\"o_stat_text\"> Leads</span>"
 msgstr "<span class=\"o_stat_text\">Kundämnen</span>"
 
-#. new-corrected | officiell: '<span> leads tilldelade de senaste 30 dagarna
-#. av maximalt </span>'
+#. override | officiell: '<span> leads tilldelade de senaste 30 dagarna av
+#. maximalt </span>'
 msgid "<span> leads assigned the last 30 days out of a maximum of </span>"
 msgstr "<span> kundämnen tilldelade de senaste 30 dagarna av maximalt </span>"
 
-#. new-corrected | officiell: '<span> leads tilldelade denna månad\n
+#. override | officiell: '<span> leads tilldelade denna månad\n
 #. av ett maximalt antal </span>'
 msgid ""
 "<span> leads assigned this month\n"
@@ -86,11 +86,11 @@ msgstr ""
 "<span> kundämnen tilldelade denna månad\n"
 "                            av ett maximalt antal </span>"
 
-#. new-corrected | officiell: '<span>Sammanslagning av lead/möjlighet</span>'
+#. override | officiell: '<span>Sammanslagning av lead/möjlighet</span>'
 msgid "<span>Merged the Lead/Opportunity</span>"
 msgstr "<span>Sammanslagning av kundämne/möjlighet</span>"
 
-#. new-corrected | officiell: '<span>Periodisk tilldelning av leads baserat på
+#. override | officiell: '<span>Periodisk tilldelning av leads baserat på
 #. prioriteringar och filter.</span><br/>\n
 #. <span invisible="not crm_use_auto_assignment">\n
 #. Alla säljteam kommer att använda den här inställningen som standard om\n
@@ -108,29 +108,28 @@ msgstr ""
 "                                    annat anges.\n"
 "                                </span>"
 
-#. new-corrected | officiell: 'En lead i ett Won-stadium kan inte förloras.
-#. Flytta den först till ett annat steg.'
+#. override | officiell: 'En lead i ett Won-stadium kan inte förloras. Flytta
+#. den först till ett annat steg.'
 msgid "A lead in a Won stage cannot be lost. Move it to another stage first."
 msgstr ""
 "En kundämne i ett Won-stadium kan inte förloras. Flytta den först till ett "
 "annat steg."
 
-#. new-corrected | officiell: 'En ny lead har skapats och är inte tilldelad
-#. något team.'
+#. override | officiell: 'En ny lead har skapats och är inte tilldelad något
+#. team.'
 msgid "A new lead has been created and is not assigned to any team."
 msgstr "En ny kundämne har skapats och är inte tilldelad något team."
 
-#. new-corrected | officiell: 'En ny lead har skapats för teamet
-#. "%(team_name)s".'
+#. override | officiell: 'En ny lead har skapats för teamet "%(team_name)s".'
 msgid "A new lead has been created for the team \"%(team_name)s\"."
 msgstr "En ny kundämne har skapats för teamet \"%(team_name)s\"."
 
-#. new-corrected | officiell: 'Aktiva leads'
+#. override | officiell: 'Aktiva leads'
 msgid "Active Leads"
 msgstr "Aktiva kundämnen"
 
-#. new-corrected | officiell: 'Aktiviteter som markerats som utförda på leads
-#. visas här, vilket ger en översikt över interaktioner med leads.'
+#. override | officiell: 'Aktiviteter som markerats som utförda på leads visas
+#. här, vilket ger en översikt över interaktioner med leads.'
 msgid ""
 "Activities marked as Done on Leads will appear here, providing an overview "
 "of lead interactions."
@@ -138,24 +137,24 @@ msgstr ""
 "Aktiviteter som markerats som utförda på kundämnen visas här, vilket ger en "
 "översikt över interaktioner med kundämnen."
 
-#. new-corrected | officiell: 'Tilldela leads'
+#. override | officiell: 'Tilldela leads'
 msgid "Assign Leads"
 msgstr "Tilldela kundämnen"
 
-#. new-corrected | officiell: 'Associerad lead'
+#. override | officiell: 'Associerad lead'
 msgid "Associated Lead"
 msgstr "Associerad kundämne"
 
-#. new-corrected | officiell: 'Leadkapacitet i snitt (på 30 dagar)'
+#. override | officiell: 'Leadkapacitet i snitt (på 30 dagar)'
 msgid "Average Leads Capacity (on 30 days)"
 msgstr "Kundämnekapacitet i snitt (på 30 dagar)"
 
-#. new-corrected | officiell: 'CRM: Tilldelning av leads'
+#. override | officiell: 'CRM: Tilldelning av leads'
 msgid "CRM: Lead Assignment"
 msgstr "CRM: Tilldelning av kundämnen"
 
-#. new-corrected | officiell: 'Kontrollera etapperna för leads för att
-#. identifiera flaskhalsar i din säljprocess.'
+#. override | officiell: 'Kontrollera etapperna för leads för att identifiera
+#. flaskhalsar i din säljprocess.'
 msgid ""
 "Check the Stage Tracker of Leads to identify bottlenecks in your Sales "
 "process."
@@ -163,7 +162,7 @@ msgstr ""
 "Kontrollera etapperna för kundämnen för att identifiera flaskhalsar i din "
 "säljprocess."
 
-#. new-corrected | officiell: 'Bocka i rutan för att filtrera och kvalificera
+#. override | officiell: 'Bocka i rutan för att filtrera och kvalificera
 #. inkommande förfrågningar som leads innan de konverteras till
 #. affärsmöjligheter och knyts till en säljare.'
 msgid ""
@@ -174,7 +173,7 @@ msgstr ""
 "kundämnen innan de konverteras till affärsmöjligheter och knyts till en "
 "säljare."
 
-#. new-corrected | officiell: 'Klassificera och analysera dina kategorier för
+#. override | officiell: 'Klassificera och analysera dina kategorier för
 #. leads/möjligheter som till exempel: utbildning, service'
 msgid ""
 "Classify and analyze your lead/opportunity categories like: Training, "
@@ -183,49 +182,49 @@ msgstr ""
 "Klassificera och analysera dina kategorier för kundämnen/möjligheter som "
 "till exempel: utbildning, service"
 
-#. new-corrected | officiell: 'Avslutade/döda leads kan inte omvandlas till
+#. override | officiell: 'Avslutade/döda leads kan inte omvandlas till
 #. affärsmöjligheter.'
 msgid "Closed/Dead leads cannot be converted into opportunities."
 msgstr "Avslutade/döda kundämnen kan inte omvandlas till affärsmöjligheter."
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Information om företaget'
+#. override | officiell: 'Information om företaget'
 msgid "Company Information"
 msgstr "Information om bolaget"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. new-corrected | officiell: 'Företagsnamn:'
+#. override | officiell: 'Företagsnamn:'
 msgid "Company Name:"
 msgstr "Bolagsnamn:"
 
-#. new-corrected | officiell: 'Företag:'
+#. override | officiell: 'Företag:'
 msgid "Company:"
 msgstr "Bolag:"
 
-#. new-corrected | officiell: 'Överväg leads som skapade från och med den:'
+#. override | officiell: 'Överväg leads som skapade från och med den:'
 msgid "Consider leads created as of the:"
 msgstr "Överväg kundämnen som skapade från och med den:"
 
-#. new-corrected | officiell: 'Konverteringsdatum från lead till möjlighet'
+#. override | officiell: 'Konverteringsdatum från lead till möjlighet'
 msgid "Conversion Date from Lead to Opportunity"
 msgstr "Konverteringsdatum från kundämne till möjlighet"
 
-#. new-corrected | officiell: 'Konvertera leads till möjligheter (i batch)'
+#. override | officiell: 'Konvertera leads till möjligheter (i batch)'
 msgid "Convert Lead to Opportunity (in mass)"
 msgstr "Konvertera kundämnen till möjligheter (i batch)"
 
-#. new-corrected | officiell: 'Konvertera leads till möjlighet (ej batch)'
+#. override | officiell: 'Konvertera leads till möjlighet (ej batch)'
 msgid "Convert Lead to Opportunity (not in mass)"
 msgstr "Konvertera kundämnen till möjlighet (ej batch)"
 
-#. new-corrected | officiell: 'Konvertera besökare på din webbplats till leads
-#. och berika deras data baserat på IP-adressen'
+#. override | officiell: 'Konvertera besökare på din webbplats till leads och
+#. berika deras data baserat på IP-adressen'
 msgid ""
 "Convert visitors of your website into leads and perform data enrichment "
 "based on their IP address"
@@ -233,45 +232,43 @@ msgstr ""
 "Konvertera besökare på din webbplats till kundämnen och berika deras data "
 "baserat på IP-adressen"
 
-#. new-corrected | officiell: 'Skapa leads/möjligheter från webbplatsens
-#. trafik'
+#. override | officiell: 'Skapa leads/möjligheter från webbplatsens trafik'
 msgid "Create Leads/Opportunities from your website's traffic"
 msgstr "Skapa kundämnen/möjligheter från webbplatsens trafik"
 
-#. new-corrected | officiell: 'Skapa ett lead'
+#. override | officiell: 'Skapa ett lead'
 msgid "Create a Lead"
 msgstr "Skapa ett kundämne"
 
-#. new-corrected | officiell: 'Skapa en aktivitetsplan för leads'
+#. override | officiell: 'Skapa en aktivitetsplan för leads'
 msgid "Create a Lead Activity Plan"
 msgstr "Skapa en aktivitetsplan för kundämnen"
 
-#. new-corrected | officiell: 'Skapa en leadgenerering direkt från din
-#. pipeline.'
+#. override | officiell: 'Skapa en leadgenerering direkt från din pipeline.'
 msgid "Create a lead mining request directly from the opportunity pipeline."
 msgstr "Skapa en kundämnegenerering direkt från din pipeline."
 
-#. new-corrected | officiell: 'Skapa nytt lead'
+#. override | officiell: 'Skapa nytt lead'
 msgid "Create a new lead"
 msgstr "Skapa nytt kundämne"
 
-#. new-corrected | officiell: 'Kundföretag'
+#. override | officiell: 'Kundföretag'
 msgid "Customer Company"
 msgstr "Kundbolag"
 
-#. new-corrected | officiell: 'Berika alla leads automatiskt'
+#. override | officiell: 'Berika alla leads automatiskt'
 msgid "Enrich all leads automatically"
 msgstr "Berika alla kundämnen automatiskt"
 
-#. new-corrected | officiell: 'Berika leads automatiskt'
+#. override | officiell: 'Berika leads automatiskt'
 msgid "Enrich lead automatically"
 msgstr "Berika kundämnen automatiskt"
 
-#. new-corrected | officiell: 'Berika leads endast på begäran'
+#. override | officiell: 'Berika leads endast på begäran'
 msgid "Enrich leads on demand only"
 msgstr "Berika kundämnen endast på begäran"
 
-#. new-corrected | officiell: 'Berika dina leads automatiskt med företagsdata
+#. override | officiell: 'Berika dina leads automatiskt med företagsdata
 #. baserad på deras e-postadress.'
 msgid ""
 "Enrich your leads automatically with company data based on their email "
@@ -280,24 +277,24 @@ msgstr ""
 "Berika dina kundämnen automatiskt med företagsdata baserad på deras "
 "e-postadress."
 
-#. new-corrected | officiell: 'Berika dina leads med företagsdata baserat på
-#. deras e-postadresser'
+#. override | officiell: 'Berika dina leads med företagsdata baserat på deras
+#. e-postadresser'
 msgid "Enrich your leads with company data based on their email addresses"
 msgstr ""
 "Berika dina kundämnen med företagsdata baserat på deras e-postadresser"
 
-#. new-corrected | officiell: 'Överskrid den månatliga leadstilldelningen'
+#. override | officiell: 'Överskrid den månatliga leadstilldelningen'
 msgid "Exceed monthly lead assignement"
 msgstr "Överskrid den månatliga kundämnentilldelningen"
 
-#. new-corrected | officiell: 'Fält som kan användas för beräkning av
-#. förutspådd lead-poäng'
+#. override | officiell: 'Fält som kan användas för beräkning av förutspådd
+#. lead-poäng'
 msgid "Fields that can be used for predictive lead scoring computation"
 msgstr "Fält som kan användas för beräkning av förutspådd kundämne-poäng"
 
-#. new-corrected | officiell: 'För ett säljteam finns det inget värre än att
-#. ha ont om leads. Lyckligtvis kan du med bara några klick generera leads som
-#. är specifikt inriktade på dina behov: företagsstorlek, bransch osv. För att
+#. override | officiell: 'För ett säljteam finns det inget värre än att ha ont
+#. om leads. Lyckligtvis kan du med bara några klick generera leads som är
+#. specifikt inriktade på dina behov: företagsstorlek, bransch osv. För att
 #. hjälpa dig att testa funktionen erbjuder vi dig 20 krediter gratis.'
 msgid ""
 "For a sales team, there is nothing worse than being dry on leads. "
@@ -310,91 +307,90 @@ msgstr ""
 "inriktade på dina behov: företagsstorlek, bransch osv. För att hjälpa dig "
 "att testa funktionen erbjuder vi dig 20 krediter gratis."
 
-#. new-corrected | officiell: 'Generera nya leads baserat på land, bransch,
+#. override | officiell: 'Generera nya leads baserat på land, bransch,
 #. storlek, etc.'
 msgid "Generate new leads based on their country, industries, size, etc."
 msgstr "Generera nya kundämnen baserat på land, bransch, storlek, etc."
 
-#. new-corrected | officiell: 'Generera nya leads baserat på land, bransch,
+#. override | officiell: 'Generera nya leads baserat på land, bransch,
 #. storlek, etc.'
 msgid "Generate new leads based on their country, industry, size, etc."
 msgstr "Generera nya kundämnen baserat på land, bransch, storlek, etc."
 
-#. new-corrected | officiell: 'Importmall för leads och möjligheter'
+#. override | officiell: 'Importmall för leads och möjligheter'
 msgid "Import Template for Leads & Opportunities"
 msgstr "Importmall för kundämnen och möjligheter"
 
-#. new-corrected | officiell: 'KPI-värde i CRM för lead'
+#. override | officiell: 'KPI-värde i CRM för lead'
 msgid "Kpi Crm Lead Created Value"
 msgstr "KPI-värde i CRM för kundämne"
 
-#. new-corrected | officiell: 'Lead'
+#. override | officiell: 'Lead'
 msgid "Lead"
 msgstr "Kundämne"
 
-#. new-corrected | officiell: 'Tilldela lead'
+#. override | officiell: 'Tilldela lead'
 msgid "Lead Assign"
 msgstr "Tilldela kundämne"
 
-#. new-corrected | officiell: 'Filter för tilldelning av leads'
+#. override | officiell: 'Filter för tilldelning av leads'
 msgid "Lead Assignment Filter"
 msgstr "Filter för tilldelning av kundämnen"
 
-#. new-corrected | officiell: 'Tilldelning av lead begärd av %(user_name)s'
+#. override | officiell: 'Tilldelning av lead begärd av %(user_name)s'
 msgid "Lead Assignment requested by %(user_name)s"
 msgstr "Tilldelning av kundämne begärd av %(user_name)s"
 
-#. new-corrected | officiell: 'Genomsnittlig kapacitet för lead'
+#. override | officiell: 'Genomsnittlig kapacitet för lead'
 msgid "Lead Average Capacity"
 msgstr "Genomsnittlig kapacitet för kundämne"
 
-#. new-corrected | officiell: 'Berika leads'
+#. override | officiell: 'Berika leads'
 msgid "Lead Enrichment"
 msgstr "Berika kundämnen"
 
-#. new-corrected | officiell: 'Leadgenerering'
+#. override | officiell: 'Leadgenerering'
 msgid "Lead Generation"
 msgstr "Kundämnegenerering"
 
-#. new-corrected | officiell: 'Leadgenerering'
+#. override | officiell: 'Leadgenerering'
 msgid "Lead Mining"
 msgstr "Kundämnegenerering"
 
-#. new-corrected | officiell: 'Egenskaper för lead'
+#. override | officiell: 'Egenskaper för lead'
 msgid "Lead Properties"
 msgstr "Egenskaper för kundämne"
 
-#. new-corrected | officiell: 'Frekvens för poängsättning av lead'
+#. override | officiell: 'Frekvens för poängsättning av lead'
 msgid "Lead Scoring Frequency"
 msgstr "Frekvens för poängsättning av kundämne"
 
-#. new-corrected | officiell: 'Fält för frekvens för poängsättning av lead'
+#. override | officiell: 'Fält för frekvens för poängsättning av lead'
 msgid "Lead Scoring Frequency Fields"
 msgstr "Fält för frekvens för poängsättning av kundämne"
 
-#. new-corrected | officiell: 'Fält för frekvens för poängsättning av lead i
+#. override | officiell: 'Fält för frekvens för poängsättning av lead i
 #. strängformat'
 msgid "Lead Scoring Frequency Fields in String"
 msgstr "Fält för frekvens för poängsättning av kundämne i strängformat"
 
-#. new-corrected | officiell: 'Startdatum för poängsättning av lead'
+#. override | officiell: 'Startdatum för poängsättning av lead'
 msgid "Lead Scoring Starting Date"
 msgstr "Startdatum för poängsättning av kundämne"
 
-#. new-corrected | officiell: 'Startdatum för poängsättning av lead i
-#. strängformat'
+#. override | officiell: 'Startdatum för poängsättning av lead i strängformat'
 msgid "Lead Scoring Starting Date in String"
 msgstr "Startdatum för poängsättning av kundämne i strängformat"
 
-#. new-corrected | officiell: 'Lead taggar'
+#. override | officiell: 'Lead taggar'
 msgid "Lead Tags"
 msgstr "Kundämne taggar"
 
-#. new-corrected | officiell: 'Lead eller möjlighet'
+#. override | officiell: 'Lead eller möjlighet'
 msgid "Lead or Opportunity"
 msgstr "Kundämne eller möjlighet"
 
-#. new-corrected | officiell: 'Automatisk tilldelning av leads/möjligheter är
+#. override | officiell: 'Automatisk tilldelning av leads/möjligheter är
 #. begränsad till chefer eller administratörer'
 msgid ""
 "Lead/Opportunities automatic assignment is limited to managers or "
@@ -403,27 +399,27 @@ msgstr ""
 "Automatisk tilldelning av kundämnen/möjligheter är begränsad till chefer "
 "eller administratörer"
 
-#. new-corrected | officiell: 'Lead/möjlighet skapad'
+#. override | officiell: 'Lead/möjlighet skapad'
 msgid "Lead/Opportunity created"
 msgstr "Kundämne/möjlighet skapad"
 
-#. new-corrected | officiell: 'Leads'
+#. override | officiell: 'Leads'
 msgid "Leads"
 msgstr "Kundämnen"
 
-#. new-corrected | officiell: 'Leads (30 dagar)'
+#. override | officiell: 'Leads (30 dagar)'
 msgid "Leads (30 days)"
 msgstr "Kundämnen (30 dagar)"
 
-#. new-corrected | officiell: 'Leads (senaste 24 timmarna)'
+#. override | officiell: 'Leads (senaste 24 timmarna)'
 msgid "Leads (last 24h)"
 msgstr "Kundämnen (senaste 24 timmarna)"
 
-#. new-corrected | officiell: 'Leadsanalys'
+#. override | officiell: 'Leadsanalys'
 msgid "Leads Analysis"
 msgstr "Kundämnesanalys"
 
-#. new-corrected | officiell: 'Leadsanalys låter dig kontrollera olika CRM-
+#. override | officiell: 'Leadsanalys låter dig kontrollera olika CRM-
 #. relaterade uppgifter som ledtider i hanteringen och antal leads per etapp.
 #. Du kan filtrera din analys på olika grupper för att få en mer specificerad
 #. analys.'
@@ -436,38 +432,38 @@ msgstr ""
 "ledtider i hanteringen och antal kundämnen per etapp. Du kan filtrera din "
 "analys på olika grupper för att få en mer specificerad analys."
 
-#. new-corrected | officiell: 'Tilldelade leads'
+#. override | officiell: 'Tilldelade leads'
 msgid "Leads Assigned"
 msgstr "Tilldelade kundämnen"
 
-#. new-corrected | officiell: 'Antal leads'
+#. override | officiell: 'Antal leads'
 msgid "Leads Count"
 msgstr "Antal kundämnen"
 
-#. new-corrected | officiell: 'Leadsgeneration'
+#. override | officiell: 'Leadsgeneration'
 msgid "Leads Generation"
 msgstr "Kundämnengeneration"
 
-#. new-corrected | officiell: 'Leads är kvalificeringssteget före skapandet av
-#. en möjlighet.'
+#. override | officiell: 'Leads är kvalificeringssteget före skapandet av en
+#. möjlighet.'
 msgid ""
 "Leads are the qualification step before the creation of an opportunity."
 msgstr "Kundämnen är kvalificeringssteget före skapandet av en möjlighet."
 
-#. new-corrected | officiell: 'Leads eller möjligheter'
+#. override | officiell: 'Leads eller möjligheter'
 msgid "Leads or Opportunities"
 msgstr "Kundämnen eller möjligheter"
 
-#. new-corrected | officiell: 'Leads tilldelade mig'
+#. override | officiell: 'Leads tilldelade mig'
 msgid "Leads that are assigned to me"
 msgstr "Kundämnen tilldelade mig"
 
-#. new-corrected | officiell: 'Otilldelade leads'
+#. override | officiell: 'Otilldelade leads'
 msgid "Leads that are not assigned"
 msgstr "Otilldelade kundämnen"
 
-#. new-corrected | officiell: 'Leads som du valt som har dubbletter. Om listan
-#. är tom innebär det att inga dubbletter hittades'
+#. override | officiell: 'Leads som du valt som har dubbletter. Om listan är
+#. tom innebär det att inga dubbletter hittades'
 msgid ""
 "Leads that you selected that have duplicates. If the list is empty, it means"
 " that no duplicates were found"
@@ -475,20 +471,19 @@ msgstr ""
 "Kundämnen som du valt som har dubbletter. Om listan är tom innebär det att "
 "inga dubbletter hittades"
 
-#. new-corrected | officiell: 'Leads med befintliga dubbletter (för
-#. information)'
+#. override | officiell: 'Leads med befintliga dubbletter (för information)'
 msgid "Leads with existing duplicates (for information)"
 msgstr "Kundämnen med befintliga dubbletter (för information)"
 
-#. new-corrected | officiell: 'Leads/Möjligheter'
+#. override | officiell: 'Leads/Möjligheter'
 msgid "Leads/Opportunities"
 msgstr "Kundämnen/Möjligheter"
 
-#. new-corrected | officiell: 'Antal leads/möjligheter'
+#. override | officiell: 'Antal leads/möjligheter'
 msgid "Leads/Opportunities count"
 msgstr "Antal kundämnen/möjligheter"
 
-#. new-corrected | officiell: 'Länkad kontakt (valfri). Oftast skapad när man
+#. override | officiell: 'Länkad kontakt (valfri). Oftast skapad när man
 #. konverterar en lead. Du kan finna en kontakt via dess namn, TIN, mail,
 #. eller intern referens.'
 msgid ""
@@ -498,11 +493,11 @@ msgstr ""
 "Länkad kontakt (valfri). Oftast skapad när man konverterar en kundämne. Du "
 "kan finna en kontakt via dess namn, TIN, mail, eller intern referens."
 
-#. new-corrected | officiell: 'Förlorad lead'
+#. override | officiell: 'Förlorad lead'
 msgid "Lost Lead"
 msgstr "Förlorad kundämne"
 
-#. new-corrected | officiell: 'Hantera medlemmar eller partners. Medlemmar får
+#. override | officiell: 'Hantera medlemmar eller partners. Medlemmar får
 #. betyg och prislistor, medan partners får tillgång till lead-tilldelning och
 #. provisionsplaner.'
 msgid ""
@@ -512,37 +507,37 @@ msgstr ""
 "Hantera medlemmar eller partners. Medlemmar får betyg och prislistor, medan "
 "partners får tillgång till kundämne-tilldelning och provisionsplaner."
 
-#. new-corrected | officiell: 'Sammanfoga leads/möjligheter'
+#. override | officiell: 'Sammanfoga leads/möjligheter'
 msgid "Merge Leads/Opportunities"
 msgstr "Sammanfoga kundämnen/möjligheter"
 
-#. new-corrected | officiell: 'Sammanfoga med befintliga leads/möjligheter för
+#. override | officiell: 'Sammanfoga med befintliga leads/möjligheter för
 #. respektive kontakt'
 msgid "Merge with existing leads/opportunities of each partner"
 msgstr ""
 "Sammanfoga med befintliga kundämnen/möjligheter för respektive kontakt"
 
-#. new-corrected | officiell: 'Månatlig genomsnittlig kapacitet för leads för
-#. alla säljare som ingår i teamet'
+#. override | officiell: 'Månatlig genomsnittlig kapacitet för leads för alla
+#. säljare som ingår i teamet'
 msgid "Monthly average leads capacity for all salesmen belonging to the team"
 msgstr ""
 "Månatlig genomsnittlig kapacitet för kundämnen för alla säljare som ingår i "
 "teamet"
 
-#. new-corrected | officiell: 'Mina leads'
+#. override | officiell: 'Mina leads'
 msgid "My Leads"
 msgstr "Mina kundämnen"
 
-#. new-corrected | officiell: 'Ny lead'
+#. override | officiell: 'Ny lead'
 msgid "New Lead"
 msgstr "Ny kundämne"
 
-#. new-corrected | officiell: 'Nya leads'
+#. override | officiell: 'Nya leads'
 msgid "New Leads"
 msgstr "Nya kundämnen"
 
-#. new-corrected | officiell: 'Inga tilldelade leads till teamet %(team_name)s
-#. och dess säljare eftersom ingen otilldelad lead matchar dess domän.'
+#. override | officiell: 'Inga tilldelade leads till teamet %(team_name)s och
+#. dess säljare eftersom ingen otilldelad lead matchar dess domän.'
 msgid ""
 "No allocated leads to %(team_name)s team and its salespersons because no "
 "unassigned lead matches its domain."
@@ -550,7 +545,7 @@ msgstr ""
 "Inga tilldelade kundämnen till teamet %(team_name)s och dess säljare "
 "eftersom ingen otilldelad kundämne matchar dess domän."
 
-#. new-corrected | officiell: 'Inga allokerade leads till teamet %(team_name)s
+#. override | officiell: 'Inga allokerade leads till teamet %(team_name)s
 #. eftersom det inte har någon kapacitet. Lägg till kapacitet till säljarna.'
 msgid ""
 "No allocated leads to %(team_name)s team because it has no capacity. Add "
@@ -559,9 +554,9 @@ msgstr ""
 "Inga allokerade kundämnen till teamet %(team_name)s eftersom det inte har "
 "någon kapacitet. Lägg till kapacitet till säljarna."
 
-#. new-corrected | officiell: 'Inga tilldelade leads till något team eller
-#. säljare. Kontrollera konfigurationen för säljteam och säljare samt ej
-#. tilldelade leads.'
+#. override | officiell: 'Inga tilldelade leads till något team eller säljare.
+#. Kontrollera konfigurationen för säljteam och säljare samt ej tilldelade
+#. leads.'
 msgid ""
 "No allocated leads to any team or salesperson. Check your Sales Teams and "
 "Salespersons configuration as well as unassigned leads."
@@ -569,8 +564,8 @@ msgstr ""
 "Inga tilldelade kundämnen till något team eller säljare. Kontrollera "
 "konfigurationen för säljteam och säljare samt ej tilldelade kundämnen."
 
-#. new-corrected | officiell: 'Inga leads tilldelade till säljare eftersom
-#. inga otilldelade leads matchar deras domäner.'
+#. override | officiell: 'Inga leads tilldelade till säljare eftersom inga
+#. otilldelade leads matchar deras domäner.'
 msgid ""
 "No lead assigned to salespersons because no unassigned lead matches their "
 "domains."
@@ -578,8 +573,8 @@ msgstr ""
 "Inga kundämnen tilldelade till säljare eftersom inga otilldelade kundämnen "
 "matchar deras domäner."
 
-#. new-corrected | officiell: 'Inga nya leads tilldelade till teamet
-#. %(team_name)s eftersom inga otilldelade leads matchar dess domän.'
+#. override | officiell: 'Inga nya leads tilldelade till teamet %(team_name)s
+#. eftersom inga otilldelade leads matchar dess domän.'
 msgid ""
 "No new lead allocated to %(team_name)s team because no unassigned lead "
 "matches its domain."
@@ -587,21 +582,21 @@ msgstr ""
 "Inga nya kundämnen tilldelade till teamet %(team_name)s eftersom inga "
 "otilldelade kundämnen matchar dess domän."
 
-#. new-corrected | officiell: 'Inga nya leads har tilldelats teamen eftersom
-#. inga leads matchar deras domäner.'
+#. override | officiell: 'Inga nya leads har tilldelats teamen eftersom inga
+#. leads matchar deras domäner.'
 msgid ""
 "No new lead allocated to the teams because no lead match their domains."
 msgstr ""
 "Inga nya kundämnen har tilldelats teamen eftersom inga kundämnen matchar "
 "deras domäner."
 
-#. new-corrected | officiell: 'Antal leads och möjligheter tilldelade den
-#. gångna månaden.'
+#. override | officiell: 'Antal leads och möjligheter tilldelade den gångna
+#. månaden.'
 msgid "Number of leads and opportunities assigned this last month."
 msgstr "Antal kundämnen och möjligheter tilldelade den gångna månaden."
 
-#. new-corrected | officiell: 'Antal leads som tilldelats denna medlem under
-#. de senaste 24 timmarna (förlorade leads exkluderade)'
+#. override | officiell: 'Antal leads som tilldelats denna medlem under de
+#. senaste 24 timmarna (förlorade leads exkluderade)'
 msgid ""
 "Number of leads assigned to this member in the last 24 hours (lost leads "
 "excluded)"
@@ -609,59 +604,58 @@ msgstr ""
 "Antal kundämnen som tilldelats denna medlem under de senaste 24 timmarna "
 "(förlorade kundämnen exkluderade)"
 
-#. new-corrected | officiell: 'Antal leads som tilldelats denna medlem under
-#. de senaste 30 dagarna'
+#. override | officiell: 'Antal leads som tilldelats denna medlem under de
+#. senaste 30 dagarna'
 msgid "Number of leads assigned to this member in the last 30 days"
 msgstr ""
 "Antal kundämnen som tilldelats denna medlem under de senaste 30 dagarna"
 
-#. new-corrected | officiell: 'Potentiell dubblett-lead'
+#. override | officiell: 'Potentiell dubblett-lead'
 msgid "Potential Duplicate Lead"
 msgstr "Potentiell dubblett-kundämne"
 
-#. new-corrected | officiell: 'Antal potentiella dubblett-lead'
+#. override | officiell: 'Antal potentiella dubblett-lead'
 msgid "Potential Duplicate Lead Count"
 msgstr "Antal potentiella dubblett-kundämne"
 
-#. new-corrected | officiell: 'Förutspådd poängsättning av leads'
+#. override | officiell: 'Förutspådd poängsättning av leads'
 msgid "Predictive Lead Scoring"
 msgstr "Förutspådd poängsättning av kundämnen"
 
-#. new-corrected | officiell: 'Förutspådd poängsättning av leads
-#. fältetiketter'
+#. override | officiell: 'Förutspådd poängsättning av leads fältetiketter'
 msgid "Predictive Lead Scoring Field Labels"
 msgstr "Förutspådd poängsättning av kundämnen fältetiketter"
 
-#. new-corrected | officiell: 'Förutspådd poängsättning av leads: omberäkna
+#. override | officiell: 'Förutspådd poängsättning av leads: omberäkna
 #. automatiserade sannolikheter'
 msgid "Predictive Lead Scoring: Recompute Automated Probabilities"
 msgstr ""
 "Förutspådd poängsättning av kundämnen: omberäkna automatiserade "
 "sannolikheter"
 
-#. new-corrected | officiell: 'Sök leads'
+#. override | officiell: 'Sök leads'
 msgid "Search Leads"
 msgstr "Sök kundämnen"
 
-#. new-corrected | officiell: 'Välj minst två leads/möjligheter från listan
-#. för att sammanfoga dem.'
+#. override | officiell: 'Välj minst två leads/möjligheter från listan för att
+#. sammanfoga dem.'
 msgid "Select at least two Leads/Opportunities from the list to merge them."
 msgstr ""
 "Välj minst två kundämnen/möjligheter från listan för att sammanfoga dem."
 
-#. new-corrected | officiell: 'Visa menyn för leads'
+#. override | officiell: 'Visa menyn för leads'
 msgid "Show Lead Menu"
 msgstr "Visa menyn för kundämnen"
 
-#. new-corrected | officiell: 'Visa bara leads'
+#. override | officiell: 'Visa bara leads'
 msgid "Show only lead"
 msgstr "Visa bara kundämnen"
 
-#. new-corrected | officiell: 'Visa bara leads'
+#. override | officiell: 'Visa bara leads'
 msgid "Show only leads"
 msgstr "Visa bara kundämnen"
 
-#. new-corrected | officiell: 'Kontakterna nedan har lagts till som följare av
+#. override | officiell: 'Kontakterna nedan har lagts till som följare av
 #. detta lead\n                        eftersom de har kontaktats för mindre
 #. än 30 dagar sedan på'
 msgid ""
@@ -671,8 +665,8 @@ msgstr ""
 "Kontakterna nedan har lagts till som följare av detta kundämne\n"
 "                        eftersom de har kontaktats för mindre än 30 dagar sedan på"
 
-#. new-corrected | officiell: 'E-postadressen som är kopplad till denna kanal.
-#. Ny e-post kommer automatiskt att skapa nya leads som tilldelas kanalen.'
+#. override | officiell: 'E-postadressen som är kopplad till denna kanal. Ny
+#. e-post kommer automatiskt att skapa nya leads som tilldelas kanalen.'
 msgid ""
 "The email address associated with this channel. New emails received will "
 "automatically create new leads assigned to the channel."
@@ -680,8 +674,8 @@ msgstr ""
 "E-postadressen som är kopplad till denna kanal. Ny e-post kommer automatiskt"
 " att skapa nya kundämnen som tilldelas kanalen."
 
-#. new-corrected | officiell: 'Namnet på kontaktens företag som kommer att
-#. skapas när detta lead konverteras till möjlighet'
+#. override | officiell: 'Namnet på kontaktens företag som kommer att skapas
+#. när detta lead konverteras till möjlighet'
 msgid ""
 "The name of the future partner company that will be created while converting"
 " the lead into opportunity"
@@ -689,12 +683,12 @@ msgstr ""
 "Namnet på kontaktens företag som kommer att skapas när detta kundämne "
 "konverteras till möjlighet"
 
-#. new-corrected | officiell: 'Denna analys visar dig hur många leads som har
+#. override | officiell: 'Denna analys visar dig hur många leads som har
 #. skapats per månad.'
 msgid "This analysis shows you how many leads have been created per month."
 msgstr "Denna analys visar dig hur många kundämnen som har skapats per månad."
 
-#. new-corrected | officiell: 'Detta kan användas för att automatiskt tilldela
+#. override | officiell: 'Detta kan användas för att automatiskt tilldela
 #. leads till säljare baserat på regler'
 msgid ""
 "This can be used to automatically assign leads to sales persons based on "
@@ -703,15 +697,15 @@ msgstr ""
 "Detta kan användas för att automatiskt tilldela kundämnen till säljare "
 "baserat på regler"
 
-#. new-corrected | officiell: 'Detta kan användas för att beräkna statistisk
+#. override | officiell: 'Detta kan användas för att beräkna statistisk
 #. sannolikhet för att avsluta ett lead'
 msgid "This can be used to compute statistical probability to close a lead"
 msgstr ""
 "Detta kan användas för att beräkna statistisk sannolikhet för att avsluta "
 "ett kundämne"
 
-#. new-corrected | officiell: 'Denna nya lead som skapades av
-#. %(creation_source)s tilldelades automatiskt teamledaren %(user_name)s'
+#. override | officiell: 'Denna nya lead som skapades av %(creation_source)s
+#. tilldelades automatiskt teamledaren %(user_name)s'
 msgid ""
 "This new lead created by %(creation_source)s was automatically assigned to "
 "team leader %(user_name)s"
@@ -719,18 +713,18 @@ msgstr ""
 "Denna nya kundämne som skapades av %(creation_source)s tilldelades "
 "automatiskt teamledaren %(user_name)s"
 
-#. new-corrected | officiell: 'Detta kommer att tilldela leads till alla
-#. medlemmar. Vill du fortsätta?'
+#. override | officiell: 'Detta kommer att tilldela leads till alla medlemmar.
+#. Vill du fortsätta?'
 msgid "This will assign leads to all members. Do you want to proceed?"
 msgstr ""
 "Detta kommer att tilldela kundämnen till alla medlemmar. Vill du fortsätta?"
 
-#. new-corrected | officiell: 'Tips: visste du att Odoo har inbyggd
+#. override | officiell: 'Tips: visste du att Odoo har inbyggd
 #. leadsgenerering?'
 msgid "Tip: Did you know Odoo has built-in lead mining?"
 msgstr "Tips: visste du att Odoo har inbyggd kundämnesgenerering?"
 
-#. new-corrected | officiell: 'För att förhindra dataförlust kan leads och
+#. override | officiell: 'För att förhindra dataförlust kan leads och
 #. möjligheter endast slås samman i grupper om %(max_length)s.'
 msgid ""
 "To prevent data loss, Leads and Opportunities can only be merged by groups "
@@ -739,28 +733,27 @@ msgstr ""
 "För att förhindra dataförlust kan kundämnen och möjligheter endast slås "
 "samman i grupper om %(max_length)s."
 
-#. new-corrected | officiell: 'Typ används för att separera leads från
-#. möjligheter'
+#. override | officiell: 'Typ används för att separera leads från möjligheter'
 msgid "Type is used to separate Leads and Opportunities"
 msgstr "Typ används för att separera kundämnen från möjligheter"
 
-#. new-corrected | officiell: 'UX: begränsa till leads företag, eller alla om
-#. inget företag'
+#. override | officiell: 'UX: begränsa till leads företag, eller alla om inget
+#. företag'
 msgid "UX: Limit to lead company or all if no company"
 msgstr "UX: begränsa till kundämnen företag, eller alla om inget företag"
 
-#. new-corrected | officiell: 'Otilldelade leads'
+#. override | officiell: 'Otilldelade leads'
 msgid "Unassigned Leads"
 msgstr "Otilldelade kundämnen"
 
-#. new-corrected | officiell: 'Använd leads'
+#. override | officiell: 'Använd leads'
 msgid "Use Leads"
 msgstr "Använd kundämnen"
 
-#. new-corrected | officiell: 'Använd leads om du behöver ett
-#. kvalificeringssteg innan du skapar en\n                    möjlighet eller
-#. en kund. Det kan vara ett visitkort du fått,\n                    ett
-#. kontaktformulär som fyllts i på din webbplats, eller en fil med \n
+#. override | officiell: 'Använd leads om du behöver ett kvalificeringssteg
+#. innan du skapar en\n                    möjlighet eller en kund. Det kan
+#. vara ett visitkort du fått,\n                    ett kontaktformulär som
+#. fyllts i på din webbplats, eller en fil med \n
 #. okvalificerade prospekt som du importerar, etc.'
 msgid ""
 "Use leads if you need a qualification step before creating an\n"
@@ -773,12 +766,11 @@ msgstr ""
 "                    ett kontaktformulär som fyllts i på din webbplats, eller en fil med \n"
 "                    okvalificerade prospekt som du importerar, etc."
 
-#. new-corrected | officiell: 'Använd leads om du behöver ett
-#. kvalificeringssteg innan du skapar en möjlighet eller en kund. Det kan vara
-#. ett visitkort du fått, ett kontaktformulär som fyllts i på din webbplats
-#. eller en fil med okvalificerade prospekt som du importerar osv. När leaden
-#. har kvalificerats kan det omvandlas till en möjlighet och/eller en ny kund
-#. i din adressbok.'
+#. override | officiell: 'Använd leads om du behöver ett kvalificeringssteg
+#. innan du skapar en möjlighet eller en kund. Det kan vara ett visitkort du
+#. fått, ett kontaktformulär som fyllts i på din webbplats eller en fil med
+#. okvalificerade prospekt som du importerar osv. När leaden har kvalificerats
+#. kan det omvandlas till en möjlighet och/eller en ny kund i din adressbok.'
 msgid ""
 "Use leads if you need a qualification step before creating an opportunity or"
 " a customer. It can be a business card you received, a contact form filled "
@@ -793,20 +785,20 @@ msgstr ""
 "kvalificerats kan det omvandlas till en möjlighet och/eller en ny kund i din"
 " adressbok."
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "User Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Besökare till leads'
+#. override | officiell: 'Besökare till leads'
 msgid "Visits to Leads"
 msgstr "Besökare till kundämnen"
 
-#. new-corrected | officiell: 'för de leads som skapats från och med'
+#. override | officiell: 'för de leads som skapats från och med'
 msgid "for the leads created as of the"
 msgstr "för de kundämnen som skapats från och med"
 
-#. new-corrected | officiell: 'För ett säljteam finns inget värre än att inte
-#. ha några leads. Som tur är kan du, med bara några klick, generera leads
+#. override | officiell: 'För ett säljteam finns inget värre än att inte ha
+#. några leads. Som tur är kan du, med bara några klick, generera leads
 #. specifikt för ditt behov: företagsstorlek, bransch, etc. För att hjälpa dig
 #. testa funktionen får du 200 krediter gratis.'
 msgid ""
@@ -820,8 +812,8 @@ msgstr ""
 "behov: företagsstorlek, bransch, etc. För att hjälpa dig testa funktionen "
 "får du 200 krediter gratis."
 
-#. new-corrected | officiell: '<span class="o_stat_text"
-#. attrs="{\'invisible\': [(\'use_leads\', \'=\', False)]}">Leads</span>\n
+#. override | officiell: '<span class="o_stat_text" attrs="{\'invisible\':
+#. [(\'use_leads\', \'=\', False)]}">Leads</span>\n
 #. <span class="o_stat_text" attrs="{\'invisible\': [(\'use_leads\', \'=\',
 #. True)]}">Möjligheter</span>'
 msgid ""
@@ -831,10 +823,10 @@ msgstr ""
 "<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_kundämnen', '=', False)]}\">Kundämnen</span>\n"
 "                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_kundämnen', '=', True)]}\">Möjligheter</span>"
 
-#. new-corrected | officiell: 'Välj leads/möjligheter'
+#. override | officiell: 'Välj leads/möjligheter'
 msgid "Select Leads/Opportunities"
 msgstr "Välj kundämnen/möjligheter"
 
-#. new-corrected | officiell: 'Otilldelad lead'
+#. override | officiell: 'Otilldelad lead'
 msgid "Unassigned Lead"
 msgstr "Otilldelad kundämne"

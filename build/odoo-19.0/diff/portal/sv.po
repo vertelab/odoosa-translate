@@ -4,6 +4,6 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-portal\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

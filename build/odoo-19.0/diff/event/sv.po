@@ -4,18 +4,18 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-event\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: '<i class="fa fa-building" title="Deltagarens
+#. override | officiell: '<i class="fa fa-building" title="Deltagarens
 #. företag"/>'
 msgid "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
 msgstr "<i class=\"fa fa-building\" title=\"Deltagarens bolag\"/>"
 
-#. new-corrected | officiell: '<span class="o_event_badge_font_faded">Mitt
+#. override | officiell: '<span class="o_event_badge_font_faded">Mitt
 #. platshållarföretag</span>'
 msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
 msgstr "<span class=\"o_event_badge_font_faded\">Mitt platshållarbolag</span>"
 
-#. new-corrected | officiell: 'Kontrollera detta för frågor på ordernivå
-#. (t.ex. "Företagsnamn") där svaret är detsamma för alla.'
+#. override | officiell: 'Kontrollera detta för frågor på ordernivå (t.ex.
+#. "Företagsnamn") där svaret är detsamma för alla.'
 msgid ""
 "Check this for order-level questions (e.g., 'Company Name') where the answer"
 " is the same for everyone."
@@ -23,10 +23,10 @@ msgstr ""
 "Kontrollera detta för frågor på ordernivå (t.ex. \"Bolagsnamn\") där svaret "
 "är detsamma för alla."
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

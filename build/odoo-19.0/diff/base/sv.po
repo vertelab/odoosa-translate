@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-base\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Österrikiska kontoplaner (Einheitskontenrahmen
+#. override | officiell: 'Österrikiska kontoplaner (Einheitskontenrahmen
 #. 2010).\n==========================================================\n\n    *
 #. Definierar följande mallar för kontoplaner:\n        * Österrikisk allmän
 #. kontoplan 2010\n    * Definierar mallar för moms på försäljning och inköp\n
@@ -34,8 +34,8 @@ msgstr ""
 "    * Definierar skatteområden för österrikisk skattelagstiftning\n"
 "    * Definierar skatterapporter U1/U30"
 
-#. new-corrected | officiell: 'Översikt:\n---------\n\n* Mall för kontoplan
-#. och skatter för företag i Japan.\n* Detta täcker förmodligen inte alla
+#. override | officiell: 'Översikt:\n---------\n\n* Mall för kontoplan och
+#. skatter för företag i Japan.\n* Detta täcker förmodligen inte alla
 #. nödvändiga konton för ett företag. Du förväntas lägga till/ta bort/ändra
 #. konton baserat på denna mall.\n\nNotera:\n-----\n\n* Skattepositionerna
 #. "内税" och "外税" har lagts till för att hantera särskilda krav som kan uppstå
@@ -72,8 +72,8 @@ msgstr ""
 "\n"
 "[1] Se https://github.com/odoo/odoo/pull/6470 för detaljer."
 
-#. new-corrected | officiell: 'Tjeckisk kontoplan och lokalisering. Med
-#. kontoplan med skatter och grundläggande skattepositioner.\n\nDenna modul
+#. override | officiell: 'Tjeckisk kontoplan och lokalisering. Med kontoplan
+#. med skatter och grundläggande skattepositioner.\n\nDenna modul
 #. definierar:\n\n- Tjeckisk kontoplan för 2020\n\n- Grundläggande momssatser
 #. för försäljning och inköp\n\n- Grundläggande finanspolitiska
 #. ställningstaganden för tjeckisk lagstiftning'
@@ -99,7 +99,7 @@ msgstr ""
 "\n"
 "- Grundläggande finanspolitiska ställningstaganden för tjeckisk lagstiftning"
 
-#. new-corrected | officiell: 'EU One Stop Shop (OSS)
+#. override | officiell: 'EU One Stop Shop (OSS)
 #. moms\n==========================\n\nFrån och med den 1 juli 2021 måste EU-
 #. företag som säljer varor inom EU för över 10 000 euro till köpare i ett
 #. annat EU-land registrera sig och betala moms i köparens EU-land.\nUnder
@@ -147,7 +147,7 @@ msgstr ""
 "Rådets direktiv (EU) 2017/2455 Rådets direktiv (EU) 2019/1995\n"
 "Rådets genomförandeförordning (EU) 2019/2026"
 
-#. new-corrected | officiell: 'Egypten
+#. override | officiell: 'Egypten
 #. Redovisningsmodul\n==============================================================================\nEgypten
 #. Bokföring Grundläggande diagram och lokalisering.\n\nAktiveras:\n\n-
 #. Kontoplan\n- Skatter och avgifter\n- Momsdeklaration\n-
@@ -183,8 +183,8 @@ msgstr ""
 "- Rapport om övriga skatter\n"
 "- Skatteområde"
 
-#. new-corrected | officiell: 'Funktionell\n----------\n\nDenna modul lägger
-#. till redovisningsfunktioner för ecuadoriansk lokalisering, som\nutgör
+#. override | officiell: 'Funktionell\n----------\n\nDenna modul lägger till
+#. redovisningsfunktioner för ecuadoriansk lokalisering, som\nutgör
 #. minimikraven för att driva ett företag i Ecuador i enlighet med\nlokala
 #. reglerande organ som den ecuadorianska skattemyndigheten -SRI-
 #. och\nSuperintendencia de Compañías - Superintendencia de Compañías\n\nFölj
@@ -260,7 +260,7 @@ msgstr ""
 "* Ecuador banker\n"
 "* Partners: Consumidor Final, SRI, IESS och även grundläggande momsvalidering"
 
-#. new-corrected | officiell: 'Allmän
+#. override | officiell: 'Allmän
 #. kontoplan.\n==========================\n\nDenna modul lägger till
 #. redovisningsfunktioner för den uruguayanska lokaliseringen, vilket
 #. motsvarar den minsta konfiguration som krävs för att ett företag ska kunna
@@ -330,7 +330,7 @@ msgstr ""
 "   * IEB Internacional\n"
 "   * Consumidor Final Anónimo Uruguayo."
 
-#. new-corrected | officiell: 'Generiskt lönesystem integrerat med
+#. override | officiell: 'Generiskt lönesystem integrerat med
 #. redovisning.\n==================================================\n\n    *
 #. Kodning av utlägg\n    * Kodning av betalningar\n    * Hantering av
 #. företagsbidrag'
@@ -350,7 +350,7 @@ msgstr ""
 "    * Kodning av betalningar\n"
 "    * Hantering av bolagsbidrag"
 
-#. new-corrected | officiell: 'Oman
+#. override | officiell: 'Oman
 #. Redovisningsmodul\n=================================================================\nGrundläggande
 #. diagram och lokalisering för Oman-redovisning.\nAktiverar:\n- Kontoplan\n-
 #. Skatter och avgifter\n- Momsdeklaration\n- Skattepositioner\n- Stater'
@@ -376,7 +376,7 @@ msgstr ""
 "- Skatteområde\n"
 "- Stater"
 
-#. new-corrected | officiell: 'Rwandisk lokalisering innehållande:\n- COA\n-
+#. override | officiell: 'Rwandisk lokalisering innehållande:\n- COA\n-
 #. Skatter\n- Skatterapport\n- Skatteposition'
 msgid ""
 "\n"
@@ -392,7 +392,7 @@ msgstr ""
 "- Skatterapport\n"
 "- Skatteområde"
 
-#. new-corrected | officiell: 'Saudiarabiens
+#. override | officiell: 'Saudiarabiens
 #. redovisningsmodul\n===========================================================\nSaudiarabien
 #. Bokföring Grundläggande diagram och lokalisering\n\nAktiveras:\n\n-
 #. Kontoplan\n- Skatter och avgifter\n- Momsdeklaration\n- Deklaration av
@@ -423,8 +423,7 @@ msgstr ""
 "- Deklaration av källskatt\n"
 "- Skatteområde"
 
-#. new-corrected | officiell: 'Skicka dina försändelser via bpost och spåra
-#. dem
+#. override | officiell: 'Skicka dina försändelser via bpost och spåra dem
 #. online\n=======================================================\n\nFöretag
 #. i Belgien kan dra nytta av att skicka med det\nlokala postföretaget.\n\nSe:
 #. https://www.bpost.be/portal/goHome'
@@ -446,7 +445,7 @@ msgstr ""
 "\n"
 "Se: https://www.bpost.be/portal/goHome"
 
-#. new-corrected | officiell: 'Spanska kontoplaner (PGCE
+#. override | officiell: 'Spanska kontoplaner (PGCE
 #. 2008).\n========================================\n\n    * Definierar
 #. följande mallar för kontoplaner:\n        * Spansk allmän kontoplan 2008\n
 #. * Spansk allmän kontoplan 2008 för små och medelstora företag\n        *
@@ -486,8 +485,8 @@ msgstr ""
 "\n"
 "5.3: Uppdatera skatter från och med Q4 2024 enligt BOE-A-2024-12944 (kungligt dekret 4/2024) https://www.boe.es/buscar/act.php?id=BOE-A-2024-12944"
 
-#. new-corrected | officiell: 'Tanzaniansk lokalisering innehållande:\n-
-#. COA\n- Skatter\n- Skatterapport\n- Skatteposition'
+#. override | officiell: 'Tanzaniansk lokalisering innehållande:\n- COA\n-
+#. Skatter\n- Skatterapport\n- Skatteposition'
 msgid ""
 "\n"
 "Tanzanian localisation containing:\n"
@@ -502,7 +501,7 @@ msgstr ""
 "- Skatterapport\n"
 "- Skatteområde"
 
-#. new-corrected | officiell: 'Detta är basmodulen för att hantera
+#. override | officiell: 'Detta är basmodulen för att hantera
 #. bokföringsdiagrammet för Bahrain i
 #. Odoo.\n==============================================================================\nBahrains
 #. grundläggande bokföringsdiagram och lokalisering.\n\nVerksamhet:\n-
@@ -531,7 +530,7 @@ msgstr ""
 "- Skatteområde\n"
 "- Stater"
 
-#. new-corrected | officiell: 'Detta är basmodulen för att hantera
+#. override | officiell: 'Detta är basmodulen för att hantera
 #. bokföringsdiagrammet för Jordan i
 #. Odoo.\n==============================================================================\n\nJordaniens
 #. grundläggande bokföringsdiagram och lokalisering.\n\nAktiveras:\n\n-
@@ -568,8 +567,7 @@ msgstr ""
 "\n"
 "- Skatteområde"
 
-#. new-corrected | officiell: 'Detta är basmodulen för att hantera kontoplaner
-#. för
+#. override | officiell: 'Detta är basmodulen för att hantera kontoplaner för
 #. Luxemburg.\n======================================================================\n\n
 #. * luxemburgs officiella kontoplan (lag från juni 2009 + 2015 års kontoplan
 #. och skatter),\n    * skattelagstiftningen för Luxemburg\n    * de
@@ -606,8 +604,8 @@ msgstr ""
 "      se det första bladet i tax.xls för detaljer om täckningen\n"
 "    * för att uppdatera mallen för skattediagrammet, uppdatera tax.xls och kör tax2csv.py"
 
-#. new-corrected | officiell: 'Detta är basmodulen för att hantera kontoplanen
-#. för Republiken Mauritius i
+#. override | officiell: 'Detta är basmodulen för att hantera kontoplanen för
+#. Republiken Mauritius i
 #. Odoo.\n==============================================================================================\n
 #. - Kontoplan\n    - Skatter\n    - Skattepositioner\n    -
 #. Standardinställningar'
@@ -627,7 +625,7 @@ msgstr ""
 "    - Skatteområde\n"
 "    - Standardinställningar"
 
-#. new-corrected | officiell: 'Detta är modulen för att hantera kontoplanen,
+#. override | officiell: 'Detta är modulen för att hantera kontoplanen,
 #. momsstrukturen, skattepositionen och skattemappningen.\nDen lägger också
 #. till registreringsnumret för Rumänien i
 #. Odoo.\n================================================================================================================\n\nRumänsk
@@ -646,8 +644,8 @@ msgstr ""
 "\n"
 "Rumänsk kontoplan och lokalisering."
 
-#. new-corrected | officiell: 'Detta är modulen för att hantera den
-#. kanadensiska kontoplanen i
+#. override | officiell: 'Detta är modulen för att hantera den kanadensiska
+#. kontoplanen i
 #. Odoo.\n===========================================================================================\n\nKanadensiska
 #. kontoplaner och lokaliseringar.\n\nSkattemässiga
 #. positioner\n----------------\n\nNär man överväger vilka skatter som ska
@@ -717,7 +715,7 @@ msgstr ""
 "4) En internationell säljare debiterar dig din provinsiella skatt. De är registrerade med din\n"
 "position."
 
-#. new-corrected | officiell: 'Detta är modulen för att hantera
+#. override | officiell: 'Detta är modulen för att hantera
 #. redovisningstabellen för Frankrike i
 #. Odoo.\n========================================================================\n\nDenna
 #. modul gäller för företag som är baserade på Frankrikes fastland. Den gäller
@@ -782,29 +780,29 @@ msgstr ""
 "\n"
 "**Credits:** Sistheo, Zeekom, CrysaLEAD, Akretion och Camptocamp."
 
-#. new-corrected | officiell: 'Denna modul integrerar Odoo så att du kan
-#. utfärda elektroniska dokument (CFE) till DGI. Exempel: e-Ticket, e-Faktura
-#. och relaterade debet- och kreditnotor.\n\nNär CFE har utfärdats, och
-#. eftersom fakturavalideringen är asynkron, kommer Odoo att köra en
-#. schemalagd åtgärd som kommer att ansluta till DGI för att
-#. kontrollera/uppdatera CFE-status (Väntar på DGI-svar, Godkänd eller
-#. Avvisad)\n\nOBS: Varje anslutning görs med hjälp av en programvara från
-#. tredje part som heter Uruware\n\nKonfiguration\n-------------\n\n1. Behöver
-#. ha ett uruguayanskt företag (med Uruguayan COA installerat)\n2. Gå till
-#. avsnittet Inställningar / Redovisning / Uruguay-lokalisering och
-#. konfigurera fälten för att ansluta till UCFE: Uruwares plattform för
-#. anslutning till Dirección General Impositiva (DGI)\n3. Gå till
-#. Inställningar / Användare / Företag / Företag och ställ in skatte-ID-
-#. numret, DGI huvudhus eller filialkod, alla dina adressrelaterade fält.\n4.
-#. Gå till Fakturor och validera dem. Använd sedan Skicka och skriv ut för att
-#. skicka till regeringen och generera en CFE. Du kommer att se ett nytt fält
-#. "CFE Status" som visar statusen för det elektroniska dokumentet: till en
-#. början kommer det att vara i "Waiting DGI response", och efter en tid
-#. kommer det automatiskt att uppdateras till Approved/Rejected. Du kommer
-#. också att få de juridiska PDF- och XML-filer som rör CFE som bilagor till
-#. dokumentet.\n\nKända problem / Färdplan\n======================\n\n*
-#. Beredskapsdokument inte implementerade\n* Framtida implementering kommer
-#. att ha automatisk synkronisering av leverantörsfakturor.'
+#. override | officiell: 'Denna modul integrerar Odoo så att du kan utfärda
+#. elektroniska dokument (CFE) till DGI. Exempel: e-Ticket, e-Faktura och
+#. relaterade debet- och kreditnotor.\n\nNär CFE har utfärdats, och eftersom
+#. fakturavalideringen är asynkron, kommer Odoo att köra en schemalagd åtgärd
+#. som kommer att ansluta till DGI för att kontrollera/uppdatera CFE-status
+#. (Väntar på DGI-svar, Godkänd eller Avvisad)\n\nOBS: Varje anslutning görs
+#. med hjälp av en programvara från tredje part som heter
+#. Uruware\n\nKonfiguration\n-------------\n\n1. Behöver ha ett uruguayanskt
+#. företag (med Uruguayan COA installerat)\n2. Gå till avsnittet Inställningar
+#. / Redovisning / Uruguay-lokalisering och konfigurera fälten för att ansluta
+#. till UCFE: Uruwares plattform för anslutning till Dirección General
+#. Impositiva (DGI)\n3. Gå till Inställningar / Användare / Företag / Företag
+#. och ställ in skatte-ID-numret, DGI huvudhus eller filialkod, alla dina
+#. adressrelaterade fält.\n4. Gå till Fakturor och validera dem. Använd sedan
+#. Skicka och skriv ut för att skicka till regeringen och generera en CFE. Du
+#. kommer att se ett nytt fält "CFE Status" som visar statusen för det
+#. elektroniska dokumentet: till en början kommer det att vara i "Waiting DGI
+#. response", och efter en tid kommer det automatiskt att uppdateras till
+#. Approved/Rejected. Du kommer också att få de juridiska PDF- och XML-filer
+#. som rör CFE som bilagor till dokumentet.\n\nKända problem /
+#. Färdplan\n======================\n\n* Beredskapsdokument inte
+#. implementerade\n* Framtida implementering kommer att ha automatisk
+#. synkronisering av leverantörsfakturor.'
 msgid ""
 "\n"
 "This module integrate Odoo so you can issue electronic documents (CFE) to DGI. Example: e-Ticket, e-Invoice and related Debit and Credit Notes.\n"
@@ -847,7 +845,7 @@ msgstr ""
 "* Beredskapsdokument inte implementerade\n"
 "* Framtida implementering kommer att ha automatisk synkronisering av leverantörsfakturor."
 
-#. new-corrected | officiell: 'Förenade Arabemiraten
+#. override | officiell: 'Förenade Arabemiraten
 #. Redovisningsmodul\n=======================================================\nGrundläggande
 #. diagram och lokalisering för Förenade Arabemiratens
 #. redovisning.\n\nAktiveras:\n\n- Kontoplan\n- Skatter\n- Skatterapport\n-
@@ -876,7 +874,7 @@ msgstr ""
 "- Skatterapport\n"
 "- Skatteområde"
 
-#. new-corrected | officiell: 'Momsvalidering för partners
+#. override | officiell: 'Momsvalidering för partners
 #. momsnummer.\n=========================================\n\nEfter
 #. installation av denna modul kommer värden som anges i momsfältet för
 #. partners att\nbekräftas för alla länder som stöds. Landet härleds från
@@ -957,16 +955,16 @@ msgstr ""
 "såsom Chile, Colombia, Mexiko, Norge eller Ryssland. För länder som inte stöds,\n"
 "endast landskoden bekräftas."
 
-#. new-corrected | officiell: '3PL logistikföretag'
+#. override | officiell: '3PL logistikföretag'
 msgid "3PL Logistic Company"
 msgstr "3PL logistikbolag"
 
-#. new-corrected | officiell: '<i class="fa fa-fw me-1 fa-building text-
-#. primary" title="Företag"/>'
+#. override | officiell: '<i class="fa fa-fw me-1 fa-building text-primary"
+#. title="Företag"/>'
 msgid "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Company\"/>"
 msgstr "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Bolag\"/>"
 
-#. new-corrected | officiell: 'Redovisningsplan för
+#. override | officiell: 'Redovisningsplan för
 #. Nederländerna\n================================\n\nDen här modulen är
 #. särskilt utformad för att hantera bokföringsfunktionerna\ni enlighet med
 #. den nederländska bästa praxisen.\n\nModulen innehåller den nederländska
@@ -1022,35 +1020,35 @@ msgstr ""
 "\n"
 "Observera: Det totala antalet siffror som konfigureras som standard är 6."
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företagslogo'
+#. override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. new-corrected | officiell: 'Företagets namn'
+#. override | officiell: 'Företagets namn'
 msgid "Company Name Entity"
 msgstr "Bolagets namn"
 
-#. new-corrected | officiell: 'Platshållare för företagsregister'
+#. override | officiell: 'Platshållare för företagsregister'
 msgid "Company Registry Placeholder"
 msgstr "Platshållare för bolagsregister"
 
-#. new-corrected | officiell: 'Företagets slogan'
+#. override | officiell: 'Företagets slogan'
 msgid "Company Tagline"
 msgstr "Bolagets slogan"
 
-#. new-corrected | officiell: 'Företagets slogan, som inkluderas i ett tryckt
+#. override | officiell: 'Företagets slogan, som inkluderas i ett tryckt
 #. dokuments sidhuvud eller sidfot (beroende på vald layout).'
 msgid ""
 "Company tagline, which is included in a printed document's header or footer "
@@ -1059,9 +1057,8 @@ msgstr ""
 "Bolagets slogan, som inkluderas i ett tryckt dokuments sidhuvud eller sidfot"
 " (beroende på vald layout)."
 
-#. new-corrected | officiell: 'Företag som används för den ursprungliga
-#. valutan (används endast för t-esc). Som standard används användarens
-#. företag'
+#. override | officiell: 'Företag som används för den ursprungliga valutan
+#. (används endast för t-esc). Som standard används användarens företag'
 msgid ""
 "Company used for the original currency (only used for t-esc). By default use"
 " the user company"
@@ -1069,43 +1066,43 @@ msgstr ""
 "Bolag som används för den ursprungliga valutan (används endast för t-esc). "
 "Som standard används användarens bolag"
 
-#. new-corrected | officiell: 'Standardföretag'
+#. override | officiell: 'Standardföretag'
 msgid "Default Company"
 msgstr "Standardbolag"
 
-#. new-corrected | officiell: 'Modul för försäljning/inköpsorder och fakturor
+#. override | officiell: 'Modul för försäljning/inköpsorder och fakturor
 #. mellan företag'
 msgid "Inter Company Module for Sale/Purchase Orders and Invoices"
 msgstr "Modul för försäljning/inköpsorder och fakturor mellan bolag"
 
-#. new-corrected | officiell: 'Omvänd företagsränta'
+#. override | officiell: 'Omvänd företagsränta'
 msgid "Inverse Company Rate"
 msgstr "Omvänd bolagsränta"
 
-#. new-corrected | officiell: 'Är företag'
+#. override | officiell: 'Är företag'
 msgid "Is Company"
 msgstr "Är bolag"
 
-#. new-corrected | officiell: 'Is Företagsuppgifter Tom'
+#. override | officiell: 'Is Företagsuppgifter Tom'
 msgid "Is Company Details Empty"
 msgstr "Is Bolagsuppgifter Tom"
 
-#. new-corrected | officiell: 'Är företagets nuvarande valuta'
+#. override | officiell: 'Är företagets nuvarande valuta'
 msgid "Is Current Company Currency"
 msgstr "Är bolagets nuvarande valuta"
 
-#. new-corrected | officiell: 'Är ett företag'
+#. override | officiell: 'Är ett företag'
 msgid "Is a Company"
 msgstr "Är ett bolag"
 
-#. new-corrected | officiell: 'Flera företag'
+#. override | officiell: 'Flera företag'
 msgid "Multi Companies"
 msgstr "Flera bolag"
 
-#. new-corrected | officiell: 'Mitt företag (San Francisco) åtar sig att göra
-#. sitt bästa för att leverera utförliga tjänster i tid och inom de
-#. överenskomna tidsramarna. Ingen av dess skyldigheter kan dock anses vara en
-#. skyldighet att uppnå resultat. My Company (San Francisco) kan under inga
+#. override | officiell: 'Mitt företag (San Francisco) åtar sig att göra sitt
+#. bästa för att leverera utförliga tjänster i tid och inom de överenskomna
+#. tidsramarna. Ingen av dess skyldigheter kan dock anses vara en skyldighet
+#. att uppnå resultat. My Company (San Francisco) kan under inga
 #. omständigheter av kunden krävas att uppträda som tredje part i samband med
 #. skadeståndskrav som en slutkonsument ställer mot kunden.'
 msgid ""
@@ -1123,29 +1120,28 @@ msgstr ""
 "uppträda som tredje part i samband med skadeståndskrav som en slutkonsument "
 "ställer mot kunden."
 
-#. new-corrected | officiell: 'Antal företag'
+#. override | officiell: 'Antal företag'
 msgid "Number of Companies"
 msgstr "Antal bolag"
 
-#. new-corrected | officiell: 'Partner med samma företagsregister'
+#. override | officiell: 'Partner med samma företagsregister'
 msgid "Partner with same Company Registry"
 msgstr "Partner med samma bolagsregister"
 
-#. new-corrected | officiell: 'Relaterat företag'
+#. override | officiell: 'Relaterat företag'
 msgid "Related Company"
 msgstr "Relaterat bolag"
 
-#. new-corrected | officiell: 'Används för att beställa företag i
-#. företagsväxlaren'
+#. override | officiell: 'Används för att beställa företag i företagsväxlaren'
 msgid "Used to order Companies in the company switcher"
 msgstr "Används för att beställa bolag i bolagsväxlaren"
 
-#. new-corrected | officiell: 't.ex. Mitt Företag'
+#. override | officiell: 't.ex. Mitt Företag'
 msgid "e.g. My Company"
 msgstr "t.ex. Mitt Bolag"
 
-#. new-corrected | officiell: 'Deco Addict integrerar ERP för globala företag
-#. och stöder PME\n                med programvara från öppna källor för att
+#. override | officiell: 'Deco Addict integrerar ERP för globala företag och
+#. stöder PME\n                med programvara från öppna källor för att
 #. hantera sin verksamhet. Våra\n                konsulter är experter inom
 #. följande områden:'
 msgid ""
@@ -1157,7 +1153,7 @@ msgstr ""
 "                med programvara från öppna källor för att hantera sin verksamhet. Våra\n"
 "                konsulter är experter inom följande områden:"
 
-#. new-corrected | officiell: 'Österrikiska kontoplaner (Einheitskontenrahmen
+#. override | officiell: 'Österrikiska kontoplaner (Einheitskontenrahmen
 #. 2010).\n==========================================================\n\n    *
 #. Anger följande mallar för kontoplaner:\n        * Österrikiska allmänna
 #. kontoplaner 2010\n    * Anger mallar för moms på försäljning och inköp\n
@@ -1188,8 +1184,8 @@ msgstr ""
 "    * Anger skatteområden för österrikisk skattelagstiftning\n"
 "    * Anger skatterapporter U1/U30"
 
-#. new-corrected | officiell: 'Lägg till all information i formuläret för
-#. anställda för att hantera
+#. override | officiell: 'Lägg till all information i formuläret för anställda
+#. för att hantera
 #. kontrakt.\n=============================================================\n\n
 #. * Kontrakt\n    * Födelseort,\n    * Datum för läkarundersökning\n    *
 #. Företagets fordon\n\nDu kan tilldela flera kontrakt per anställd.'
@@ -1216,7 +1212,7 @@ msgstr ""
 "\n"
 "Du kan tilldela flera kontrakt per anställd."
 
-#. new-corrected | officiell: 'Australisk
+#. override | officiell: 'Australisk
 #. redovisningsmodul\n============================\n\nÅrliga rapporter om
 #. skattepliktiga betalningar (TPAR) för Australien\n\nDen årliga rapporten om
 #. beskattningsbara betalningar (TPAR) gör det möjligt att:\n\n    -
@@ -1283,11 +1279,10 @@ msgstr ""
 "\n"
 "Rapporten använder skattemärkena ``Service`` och ``Tax Withheld`` för att hitta lämpliga journalposter. Dessa fastställs med hjälp av skatteområdenna och rätt produkttyp (tjänster)."
 
-#. new-corrected | officiell: 'Tjeckisk bokföringsschema och lokalisering.
-#. Med kontoplan med skatter och grundläggande skattepositioner.\n\nTento
-#. modul definuje:\n\n- Českou účetní osnovu za rok 2020\n\n- Základní sazby
-#. pro DPH z prodeje a nákupu\n\n- Základní fiskální pozice pro českou
-#. legislativu'
+#. override | officiell: 'Tjeckisk bokföringsschema och lokalisering.  Med
+#. kontoplan med skatter och grundläggande skattepositioner.\n\nTento modul
+#. definuje:\n\n- Českou účetní osnovu za rok 2020\n\n- Základní sazby pro DPH
+#. z prodeje a nákupu\n\n- Základní fiskální pozice pro českou legislativu'
 msgid ""
 "\n"
 "Czech accounting chart and localization.  With Chart of Accounts with taxes and basic fiscal positions.\n"
@@ -1311,7 +1306,7 @@ msgstr ""
 "\n"
 "- Základní fiskální pozice pro českou legislativu"
 
-#. new-corrected | officiell: 'EU:s enda kontaktpunkt (OSS)
+#. override | officiell: 'EU:s enda kontaktpunkt (OSS)
 #. Moms\n==========================\n\nFrån och med den 1 juli 2021 måste EU-
 #. företag som säljer varor inom EU över 10 000 euro till köpare i en annan
 #. EU-medlemsstat registrera sig och betala moms i köparens
@@ -1360,8 +1355,8 @@ msgstr ""
 "Rådets direktiv (EU) 2017/2455 Rådets direktiv (EU) 2019/1995\n"
 "Rådets genomförandeförordning (EU) 2019/2026"
 
-#. new-corrected | officiell: 'Funktionell\n----------\n\nDen här modulen
-#. lägger till redovisningsfunktioner för den argentinska lokaliseringen, som
+#. override | officiell: 'Funktionell\n----------\n\nDen här modulen lägger
+#. till redovisningsfunktioner för den argentinska lokaliseringen, som
 #. representerar den minimikonfiguration som krävs för att ett företag ska
 #. kunna verka i Argentina och enligt AFIP:s (Administración Federal de
 #. Ingresos Públicos) regler och riktlinjer.\n\nFölj nästa konfigurationssteg
@@ -1522,7 +1517,7 @@ msgstr ""
 "* Måttenhet AFIP-koder\n"
 "* Partners: Consumidor Final och AFIP"
 
-#. new-corrected | officiell: 'Allmänt lönesystem integrerat med
+#. override | officiell: 'Allmänt lönesystem integrerat med
 #. bokföring.\n==================================================\n\n    *
 #. Kodning av utgifter\n    * Kodning av betalningar\n    * Förvaltning av
 #. företagsbidrag'
@@ -1543,7 +1538,7 @@ msgstr ""
 "    * Kodning av betalningar\n"
 "    * Förvaltning av bolagsbidrag"
 
-#. new-corrected | officiell: 'Hantera utlägg per
+#. override | officiell: 'Hantera utlägg per
 #. anställd\n============================\n\nMed den här applikationen kan du
 #. hantera dina anställdas dagliga utlägg. Den ger dig tillgång till dina
 #. anställdas kvitton och ger dig rätt att fylla i och godkänna eller neka
@@ -1591,7 +1586,7 @@ msgstr ""
 "\n"
 "Denna modul använder också analytisk redovisning och är kompatibel med modulen Faktura på tidtabell så att du automatiskt kan fakturera om dina kunders utgifter om du arbetar per projekt."
 
-#. new-corrected | officiell: 'Modul för att importera OFX-
+#. override | officiell: 'Modul för att importera OFX-
 #. bankutdrag.\n======================================\n\nDenna modul gör det
 #. möjligt att importera maskinläsbara OFX-filer i Odoo: de analyseras och
 #. lagras i människoläsbart format i\nRedovisning \\ Bank och kassa \\
@@ -1619,8 +1614,7 @@ msgstr ""
 "Bankavdrag kan genereras med en delmängd av OFX-informationen (endast de transaktionsrader som krävs för\n"
 "skapandet av verifikaten)."
 
-#. new-corrected | officiell: 'Skicka dina försändelser via bpost och spåra
-#. dem
+#. override | officiell: 'Skicka dina försändelser via bpost och spåra dem
 #. online\n=======================================================\n\nFöretag
 #. i Belgien kan dra nytta av att skicka med\nlokala postföretaget.\n\nSe:
 #. https://www.bpost.be/portal/goHome'
@@ -1643,7 +1637,7 @@ msgstr ""
 "\n"
 "Se: https://www.bpost.be/portal/goHome"
 
-#. new-corrected | officiell: 'Spanska kontoplaner (PGCE
+#. override | officiell: 'Spanska kontoplaner (PGCE
 #. 2008).\n========================================\n\n    * Definierar
 #. följande mallar för kontoplaner:\n        * Spanska allmänna kontoplaner
 #. 2008\n        * Spansk allmän kontoplan 2008 för små och medelstora
@@ -1678,7 +1672,7 @@ msgstr ""
 "    * Definierar skatteområden för den spanska skattelagstiftningen\n"
 "    * Definierar skattedeklarationer mod 111, 115 och 303"
 
-#. new-corrected | officiell: 'Detta är den senaste grundläggande israeliska
+#. override | officiell: 'Detta är den senaste grundläggande israeliska
 #. lokaliseringen som krävs för att köra Odoo i
 #. Israel:\n================================================================================\n\nDenna
 #. modul består av:\n - Generisk israelisk kontoplan\n - Skatter och
@@ -1702,7 +1696,7 @@ msgstr ""
 " - Skatter och skatterapporter\n"
 " - Flera skatteområden"
 
-#. new-corrected | officiell: 'Detta är modulen för att hantera kontoplaner,
+#. override | officiell: 'Detta är modulen för att hantera kontoplaner,
 #. momsstrukturen, skattepositionen och skattekartläggningen.\nDen lägger
 #. också till registreringsnummer för Rumänien i
 #. Odoo.\n================================================================================================================\n\nRumänsk
@@ -1722,7 +1716,7 @@ msgstr ""
 "\n"
 "Rumänsk bokföringsschema och lokalisering."
 
-#. new-corrected | officiell: 'Det här är modulen för att hantera kanadensiska
+#. override | officiell: 'Det här är modulen för att hantera kanadensiska
 #. kontoplaner i
 #. Odoo.\n===========================================================================================\n\nKanadensiska
 #. bokföringsdiagram och lokaliseringar.\n\nSkattemässiga
@@ -1794,8 +1788,8 @@ msgstr ""
 "4) En internationell säljare debiterar dig din provinsiella skatt. De är registrerade hos din\n"
 "position."
 
-#. new-corrected | officiell: 'Det här är modulen för att hantera kontoplaner
-#. för Frankrike i
+#. override | officiell: 'Det här är modulen för att hantera kontoplaner för
+#. Frankrike i
 #. Odoo.\n========================================================================\n\nDenna
 #. modul gäller för företag som är baserade på Frankrikes fastland. Den gäller
 #. inte för\nföretag som är etablerade i DOM-TOM (Guadeloupe, Martinique,
@@ -1858,7 +1852,7 @@ msgstr ""
 "\n"
 "**Credits:** Sistheo, Zeekom, CrysaLEAD, Akretion och Camptocamp."
 
-#. new-corrected | officiell: 'Validering av moms för partnerns
+#. override | officiell: 'Validering av moms för partnerns
 #. momsnummer.\n=========================================\n\nEfter att ha
 #. installerat denna modul kommer de värden som anges i fältet för moms för
 #. Partners att\nvalideras för alla länder som stöds. Landet härleds
@@ -1940,13 +1934,12 @@ msgstr ""
 "såsom Chile, Colombia, Mexiko, Norge och Ryssland. För länder som inte stöds,\n"
 "kommer endast landskoden att valideras."
 
-#. new-corrected | officiell: 'WMS
-#. Redovisningsmodul\n======================\nDenna modul utgör en länk mellan
-#. modulerna "lager" och "konto" och gör det möjligt för dig att skapa
-#. bokföringsposter för att värdera dina lagerrörelser\n\nViktiga
-#. funktioner\n------------\n* Värdering av lager (periodiskt eller
-#. automatiskt)\n* Faktura från plockning\n\nDashboard/rapporter för
-#. lagerhantering
+#. override | officiell: 'WMS Redovisningsmodul\n======================\nDenna
+#. modul utgör en länk mellan modulerna "lager" och "konto" och gör det
+#. möjligt för dig att skapa bokföringsposter för att värdera dina
+#. lagerrörelser\n\nViktiga funktioner\n------------\n* Värdering av lager
+#. (periodiskt eller automatiskt)\n* Faktura från
+#. plockning\n\nDashboard/rapporter för lagerhantering
 #. omfattar:\n------------------------------------------------------\n*
 #. Lagervärde vid ett visst datum (stöddatum i det förflutna)'
 msgid ""
@@ -1978,28 +1971,28 @@ msgstr ""
 "------------------------------------------------------\n"
 "* Lagervärde vid ett visst datum (stöddatum i det förflutna)"
 
-#. new-corrected | officiell: 'Tillåtna företag'
+#. override | officiell: 'Tillåtna företag'
 msgid "Allowed Companies"
 msgstr "Tillåtna bolag"
 
-#. new-corrected | officiell: 'Antal företag'
+#. override | officiell: 'Antal företag'
 msgid "Companies count"
 msgstr "Antal bolag"
 
-#. new-corrected | officiell: 'Företagets data'
+#. override | officiell: 'Företagets data'
 msgid "Company Data"
 msgstr "Bolagets data"
 
-#. new-corrected | officiell: 'Företagsuppgifter'
+#. override | officiell: 'Företagsuppgifter'
 msgid "Company Properties"
 msgstr "Bolagsuppgifter"
 
-#. new-corrected | officiell: 'Företagsuppgifter'
+#. override | officiell: 'Företagsuppgifter'
 msgid "Company Property"
 msgstr "Bolagsuppgifter"
 
-#. new-corrected | officiell: 'Du kan inte minska antalet decimaler i en
-#. valuta som redan används i en bokföringspost.'
+#. override | officiell: 'Du kan inte minska antalet decimaler i en valuta som
+#. redan används i en bokföringspost.'
 msgid ""
 "You cannot reduce the number of decimal places of a currency already used on"
 " an accounting entry."

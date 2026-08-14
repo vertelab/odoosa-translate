@@ -4,18 +4,18 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_crm_iap_reveal\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företag och deras kontakter'
+#. override | officiell: 'Företag och deras kontakter'
 msgid "Companies and their Contacts"
 msgstr "Bolag och deras kontakter"
 
-#. new-corrected | officiell: 'Företagets storlek'
+#. override | officiell: 'Företagets storlek'
 msgid "Company Size"
 msgstr "Bolagets storlek"
 
-#. new-corrected | officiell: 'Företagets maxstorlek'
+#. override | officiell: 'Företagets maxstorlek'
 msgid "Company Size Max"
 msgstr "Bolagets maxstorlek"

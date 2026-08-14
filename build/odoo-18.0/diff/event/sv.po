@@ -4,20 +4,20 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-event\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: '<i class="fa fa-building" title="Deltagarens
+#. override | officiell: '<i class="fa fa-building" title="Deltagarens
 #. företag"/>'
 msgid "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
 msgstr "<i class=\"fa fa-building\" title=\"Deltagarens bolag\"/>"
 
-#. new-corrected | officiell: '<span class="o_event_badge_font_faded">Mitt
+#. override | officiell: '<span class="o_event_badge_font_faded">Mitt
 #. platshållarföretag</span>'
 msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
 msgstr "<span class=\"o_event_badge_font_faded\">Mitt platshållarbolag</span>"
 
-#. new-corrected | officiell: 'Företagslogo'
+#. override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

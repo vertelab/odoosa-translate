@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_update_tax_tags\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Uppdatera skattetaggar för befintliga
+#. override | officiell: 'Uppdatera skattetaggar för befintliga
 #. bokföringsposter'
 msgid "Update tax tags on existing Journal Entries"
 msgstr "Uppdatera skattetaggar för befintliga verifikat"
 
-#. new-corrected | officiell: 'Att uppdatera skattetaggar för befintliga
+#. override | officiell: 'Att uppdatera skattetaggar för befintliga
 #. bokföringsposter är en <b>oåterkallelig</b> åtgärd som kommer att påverka\n
 #. dina rapporter.<br/>\n                    Vi rekommenderar starkt att man
 #. säkerhetskopierar sin databas innan man genomför åtgärden.<br/>\n

@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-stock_account\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Åtgärden leder till skapandet av en
-#. bokföringspost, för vilken du inte har åtkomsträttigheter.'
+#. override | officiell: 'Åtgärden leder till skapandet av en bokföringspost,
+#. för vilken du inte har åtkomsträttigheter.'
 msgid ""
 "The action leads to the creation of a journal entry, for which you don't "
 "have the access rights."

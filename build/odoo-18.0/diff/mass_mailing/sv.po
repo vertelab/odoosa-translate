@@ -4,10 +4,10 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mass_mailing\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företagsnamn'
+#. override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. new-corrected | officiell: 'Mitt Företag'
+#. override | officiell: 'Mitt Företag'
 msgid "My Company"
 msgstr "Mitt Bolag"

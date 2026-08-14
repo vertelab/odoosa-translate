@@ -4,11 +4,11 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-base_vat\n"
 "Language: sv\n"
 
-#. new-corrected | officiell: 'Företag'
+#. override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. new-corrected | officiell: 'Landet som identifierats för detta utländska
+#. override | officiell: 'Landet som identifierats för detta utländska
 #. momsnummer matchar inte något av länderna som utgör den landsgrupp som är
 #. inställd på denna skatteposition.'
 msgid ""
