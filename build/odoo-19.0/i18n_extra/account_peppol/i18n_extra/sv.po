@@ -82,6 +82,7 @@ msgstr ""
 " Försäkra dig om att du registrerar dig med ditt bolagsregisternummer "
 "(BCE/KBO) för att följa gällande lagstiftning."
 
+#. module: account_peppol
 msgid ""
 "The recommended identification method for Belgium is your Company Registry "
 "Number."

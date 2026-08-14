@@ -74,14 +74,17 @@ msgstr "Webbplatsbolag"
 msgid "Your Company"
 msgstr "Ditt bolag"
 
+#. module: website
 msgid "<b>Designed</b> <br/>for Companies"
 msgstr "<b>Designad</b> <br/>för bolag"
 
+#. module: website
 msgid ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
 msgstr "<b>MittBolag</b><br/>Storgatan 1 <br/> 123 45 Storstad <br/>Sverige"
 
+#. module: website
 msgid ""
 "<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; Company "
 "name</span>"

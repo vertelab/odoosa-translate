@@ -28,8 +28,10 @@ msgstr "Bolag"
 msgid "Report Company Currency"
 msgstr "Rapport bolagets valuta"
 
+#. module: hr_expense
 msgid "Price in Company Currency"
 msgstr "Pris i bolagets valuta"
 
+#. module: hr_expense
 msgid "You can only generate accounting entry for approved expense(s)."
 msgstr "Du kan bara skapa verifikat för godkända utlägg."

@@ -15,8 +15,10 @@ msgstr ""
 msgid "Company Certifications Count"
 msgstr "Bolagets antal certifieringar"
 
+#. module: survey
 msgid "Our Company in a few questions ..."
 msgstr "VårtBolag i några frågor ..."
 
+#. module: survey
 msgid "Quiz about our Company"
 msgstr "Frågesport om vårt bolag"

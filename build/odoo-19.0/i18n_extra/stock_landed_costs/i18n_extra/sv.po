@@ -19,5 +19,6 @@ msgstr "Bolag"
 msgid "Company"
 msgstr "Bolag"
 
+#. module: stock_landed_costs
 msgid "Company related to this journal"
 msgstr "Bolag relaterat till denna journal"

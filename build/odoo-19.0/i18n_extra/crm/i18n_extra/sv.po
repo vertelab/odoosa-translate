@@ -926,6 +926,7 @@ msgstr "Besökare till kundämnen"
 msgid "for the leads created as of the"
 msgstr "för de kundämnen som skapats från och med"
 
+#. module: crm
 msgid ""
 "For a sales team, there is nothing worse than being dry on leads. "
 "Fortunately, in just a few clicks, you can generate leads specifically "
@@ -937,6 +938,7 @@ msgstr ""
 "behov: företagsstorlek, bransch, etc. För att hjälpa dig testa funktionen "
 "får du 200 krediter gratis."
 
+#. module: crm
 msgid ""
 "<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', False)]}\">Leads</span>\n"
 "                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', True)]}\">Opportunities</span>"
@@ -944,8 +946,10 @@ msgstr ""
 "<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_kundämnen', '=', False)]}\">Kundämnen</span>\n"
 "                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_kundämnen', '=', True)]}\">Möjligheter</span>"
 
+#. module: crm
 msgid "Select Leads/Opportunities"
 msgstr "Välj kundämnen/möjligheter"
 
+#. module: crm
 msgid "Unassigned Lead"
 msgstr "Otilldelad kundämne"

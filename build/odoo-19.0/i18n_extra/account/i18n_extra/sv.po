@@ -269,6 +269,7 @@ msgstr "Använd bolagsväljare"
 msgid "e.g. My Company"
 msgstr "t.ex. Mitt bolag"
 
+#. module: account
 msgid ""
 "This will update all taxes and accounts based on the currently selected "
 "fiscal position."
@@ -276,6 +277,7 @@ msgstr ""
 "Detta kommer att uppdatera alla skatter och konton baserat på den aktuella "
 "valda skatteområdet."
 
+#. module: account
 msgid ""
 "<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
 "                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."

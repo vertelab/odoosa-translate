@@ -1005,6 +1005,7 @@ msgstr "Används för att beställa bolag i bolagsväxlaren"
 msgid "e.g. My Company"
 msgstr "t.ex. Mitt Bolag"
 
+#. module: base
 msgid ""
 "Deco Addict integrates ERP for Global Companies and supports PME\n"
 "                with Open Sources software to manage their businesses. Our\n"
@@ -1014,6 +1015,7 @@ msgstr ""
 "                med programvara från öppna källor för att hantera sin verksamhet. Våra\n"
 "                konsulter är experter inom följande områden:"
 
+#. module: base
 msgid ""
 "\n"
 "\n"
@@ -1039,6 +1041,7 @@ msgstr ""
 "    * Anger skatteområden för österrikisk skattelagstiftning\n"
 "    * Anger skatterapporter U1/U30"
 
+#. module: base
 msgid ""
 "\n"
 "Add all information on the employee form to manage contracts.\n"
@@ -1062,6 +1065,7 @@ msgstr ""
 "\n"
 "Du kan tilldela flera kontrakt per anställd."
 
+#. module: base
 msgid ""
 "\n"
 "Australian Accounting Module\n"
@@ -1111,6 +1115,7 @@ msgstr ""
 "\n"
 "Rapporten använder skattemärkena ``Service`` och ``Tax Withheld`` för att hitta lämpliga journalposter. Dessa fastställs med hjälp av skatteområdenna och rätt produkttyp (tjänster)."
 
+#. module: base
 msgid ""
 "\n"
 "Czech accounting chart and localization.  With Chart of Accounts with taxes and basic fiscal positions.\n"
@@ -1134,6 +1139,7 @@ msgstr ""
 "\n"
 "- Základní fiskální pozice pro českou legislativu"
 
+#. module: base
 msgid ""
 "\n"
 "EU One Stop Shop (OSS) VAT\n"
@@ -1168,6 +1174,7 @@ msgstr ""
 "Rådets direktiv (EU) 2017/2455 Rådets direktiv (EU) 2019/1995\n"
 "Rådets genomförandeförordning (EU) 2019/2026"
 
+#. module: base
 msgid ""
 "\n"
 "Functional\n"
@@ -1292,6 +1299,7 @@ msgstr ""
 "* Måttenhet AFIP-koder\n"
 "* Partners: Consumidor Final och AFIP"
 
+#. module: base
 msgid ""
 "\n"
 "Generic Payroll system Integrated with Accounting.\n"
@@ -1309,6 +1317,7 @@ msgstr ""
 "    * Kodning av betalningar\n"
 "    * Förvaltning av bolagsbidrag"
 
+#. module: base
 msgid ""
 "\n"
 "Manage expenses by Employees\n"
@@ -1344,6 +1353,7 @@ msgstr ""
 "\n"
 "Denna modul använder också analytisk redovisning och är kompatibel med modulen Faktura på tidtabell så att du automatiskt kan fakturera om dina kunders utgifter om du arbetar per projekt."
 
+#. module: base
 msgid ""
 "\n"
 "Module to import OFX bank statements.\n"
@@ -1365,6 +1375,7 @@ msgstr ""
 "Bankavdrag kan genereras med en delmängd av OFX-informationen (endast de transaktionsrader som krävs för\n"
 "skapandet av verifikaten)."
 
+#. module: base
 msgid ""
 "\n"
 "Send your shippings through bpost and track them online\n"
@@ -1384,6 +1395,7 @@ msgstr ""
 "\n"
 "Se: https://www.bpost.be/portal/goHome"
 
+#. module: base
 msgid ""
 "\n"
 "Spanish charts of accounts (PGCE 2008).\n"
@@ -1410,6 +1422,7 @@ msgstr ""
 "    * Definierar skatteområden för den spanska skattelagstiftningen\n"
 "    * Definierar skattedeklarationer mod 111, 115 och 303"
 
+#. module: base
 msgid ""
 "\n"
 "This is the latest basic Israelian localisation necessary to run Odoo in Israel:\n"
@@ -1429,6 +1442,7 @@ msgstr ""
 " - Skatter och skatterapporter\n"
 " - Flera skatteområden"
 
+#. module: base
 msgid ""
 "\n"
 "This is the module to manage the Accounting Chart, VAT structure, Fiscal Position and Tax Mapping.\n"
@@ -1444,6 +1458,7 @@ msgstr ""
 "\n"
 "Rumänsk bokföringsschema och lokalisering."
 
+#. module: base
 msgid ""
 "\n"
 "This is the module to manage the Canadian accounting chart in Odoo.\n"
@@ -1499,6 +1514,7 @@ msgstr ""
 "4) En internationell säljare debiterar dig din provinsiella skatt. De är registrerade hos din\n"
 "position."
 
+#. module: base
 msgid ""
 "\n"
 "This is the module to manage the accounting chart for France in Odoo.\n"
@@ -1543,6 +1559,7 @@ msgstr ""
 "\n"
 "**Credits:** Sistheo, Zeekom, CrysaLEAD, Akretion och Camptocamp."
 
+#. module: base
 msgid ""
 "\n"
 "VAT validation for Partner's VAT numbers.\n"
@@ -1602,6 +1619,7 @@ msgstr ""
 "såsom Chile, Colombia, Mexiko, Norge och Ryssland. För länder som inte stöds,\n"
 "kommer endast landskoden att valideras."
 
+#. module: base
 msgid ""
 "\n"
 "WMS Accounting module\n"
@@ -1631,21 +1649,27 @@ msgstr ""
 "------------------------------------------------------\n"
 "* Lagervärde vid ett visst datum (stöddatum i det förflutna)"
 
+#. module: base
 msgid "Allowed Companies"
 msgstr "Tillåtna bolag"
 
+#. module: base
 msgid "Companies count"
 msgstr "Antal bolag"
 
+#. module: base
 msgid "Company Data"
 msgstr "Bolagets data"
 
+#. module: base
 msgid "Company Properties"
 msgstr "Bolagsuppgifter"
 
+#. module: base
 msgid "Company Property"
 msgstr "Bolagsuppgifter"
 
+#. module: base
 msgid ""
 "You cannot reduce the number of decimal places of a currency already used on"
 " an accounting entry."

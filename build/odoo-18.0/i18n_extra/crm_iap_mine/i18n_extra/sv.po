@@ -29,6 +29,7 @@ msgstr "Bolag och deras kontaktpersoner"
 msgid "Company Size Max"
 msgstr "Bolags Maxstorlek"
 
+#. module: crm_iap_mine
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
 "                    <b>Company type</b>"

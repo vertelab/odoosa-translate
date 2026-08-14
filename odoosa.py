@@ -353,6 +353,12 @@ def build_i18n_extra(module, merged):
     for msgid, klass, now, des, entry, des_entry in merged:
         if klass not in keep:
             continue
+        # Skippa tomma/blanksteg msgid — t.ex. modulbeskrivningen som kan
+        # ligga som msgid "" + continuation. Sådana entry saknar kommentar och
+        # KRASCHAR Odoo 18:s PoFileReader (translate.py:831, AttributeError)
+        # eftersom entry.comment blir '' → re.match(r"module[s]?: (\w+)", '') → None.
+        if not msgid or not msgid.strip():
+            continue
         # Använd vår vilja (desired) — singular som msgstr, plural som msgstr_plural
         if des_entry is not None and des_entry.msgstr_plural:
             new_entry = polib.POEntry(msgid=msgid, msgid_plural=des_entry.msgid_plural,
@@ -360,7 +366,9 @@ def build_i18n_extra(module, merged):
         else:
             new_entry = polib.POEntry(msgid=msgid, msgstr=des)
         # Bevara referenser — krav för att Odoo ska applicera översättningen
-        new_entry.comment = entry.comment
+        # Viktigt: entry.comment får ALDRIG vara tom — Odoo 18 kraschar på
+        # entry utan "module[s]: <mod>"-kommentar. Fallback till "module: <mod>".
+        new_entry.comment = (entry.comment or "").strip() or f"module: {module}"
         new_entry.tcomment = entry.tcomment
         new_entry.occurrences = entry.occurrences
         new_entry.flags = entry.flags
@@ -420,8 +428,11 @@ def build_edition(edition, modules=None):
         diff.metadata = {"Project-Id-Version": f"odoosa-diff-{module}", "Language": "sv"}
         for msgid, klass, now, des, entry, des_entry in res["merged"]:
             if klass in ("override", "conflict", "new-corrected", "new-ours"):
+                if not msgid or not msgid.strip():
+                    continue
                 d = polib.POEntry(msgid=msgid, msgstr=des)
-                d.comment = f"{klass} | officiell: {now!r}"
+                d.comment = f"module: {module}"
+                d.tcomment = f"{klass} | officiell: {now!r}"
                 diff.append(d)
         write_if_changed(out_diff / module / "sv.po", str(diff))
 

@@ -1162,6 +1162,7 @@ msgstr ""
 msgid "e.g. My Company"
 msgstr "t.ex. Mitt Bolag"
 
+#. module: base
 msgid ""
 "Deco Addict integrates ERP for Global Companies and supports PME\n"
 "                with Open Sources software to manage their businesses. Our\n"
