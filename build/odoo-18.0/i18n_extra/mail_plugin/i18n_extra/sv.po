@@ -1,0 +1,61 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-mail_plugin\n"
+"POT-Creation-Date: 2026-08-14 12:31\n"
+"PO-Revision-Date: 2026-08-14 12:31\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: mail_plugin
+#. odoo-javascript
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+msgid "Company"
+msgstr "Bolag"
+
+#. module: mail_plugin
+#. odoo-javascript
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+msgid "Company Created."
+msgstr "Bolaget skapades."
+
+#. module: mail_plugin
+#. odoo-javascript
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Company Insights"
+msgstr "Bolagsinsikter"
+
+#. module: mail_plugin
+#. odoo-javascript
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Company Type"
+msgstr "Bolagstyp"
+
+#. module: mail_plugin
+#. odoo-javascript
+#: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Company created"
+msgstr "Skapat bolag"
+
+#. module: mail_plugin
+#. odoo-javascript
+#: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Company updated"
+msgstr "Bolaget uppdaterat"
+
+#. module: mail_plugin
+#. odoo-javascript
+#: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Create a Company"
+msgstr "Skapa ett bolag"
+
+#. module: mail_plugin
+#. odoo-javascript
+#: code:addons/mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Enrich Company"
+msgstr "Utöka bolaget"

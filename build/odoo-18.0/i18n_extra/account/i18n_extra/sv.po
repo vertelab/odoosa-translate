@@ -1,0 +1,1876 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-account\n"
+"POT-Creation-Date: 2026-08-14 12:31\n"
+"PO-Revision-Date: 2026-08-14 12:31\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_bank_statement_line.py:0
+msgid ""
+"%(move)s reached an invalid state regarding its related statement line.\n"
+"To be consistent, the journal entry must always have exactly one suspense line."
+msgstr ""
+"%(move)s är i ett ogiltigt tillstånd när det kommer till den relaterade raden i kontoutdraget.\n"
+"För att upprätthålla konsekvens måste verifikatet alltid ha exakt en interimrad."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_form
+msgid "-> View partially reconciled entries"
+msgstr "-> Visa delvis avstämda verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid ""
+". The journal entries need to be computed by Odoo before being posted in "
+"your company's currency."
+msgstr ""
+". Beloppet i verifikatet måste beräknas av Odoo innan den kan bokföras i "
+"ditt företags valuta."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "<span class=\"o_stat_text\">Cash Basis Entries</span>"
+msgstr "<span class=\"o_stat_text\">Verifikat enligt kontantmetoden</span>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
+msgid "<span class=\"o_stat_text\">Journal Entries</span>"
+msgstr "<span class=\"o_stat_text\">Verifikat</span>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
+msgid "<span class=\"o_stat_text\">Journal Entry</span>"
+msgstr "<span class=\"o_stat_text\">Verifikat</span>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "<span class=\"o_stat_text\">Reconciled Items</span>"
+msgstr "<span class=\"o_stat_text\">Avstämda verifikatsrader</span>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_secure_entries_wizard
+msgid ""
+"<span class=\"text-muted\">\n"
+"                                <i>Secure entries up to</i>\n"
+"                            </span>"
+msgstr ""
+"<span class=\"text-muted\">\n"
+"                                <i>Säkra verifikat upp till</i>\n"
+"                            </span>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid ""
+"<span>This entry has been generated through the Invoicing app, before "
+"installing Accounting. Its balance has been imported separately.</span>"
+msgstr ""
+"<span>verifikatet har skapats genom appen Faktura innan Bokföring "
+"installerades. Saldot har importerats separat.</span>"
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_view_bank_statement_tree
+msgid ""
+"A Cash Register allows you to manage cash entries in your cash\n"
+"                journals. This feature provides an easy way to follow up cash\n"
+"                payments on a daily basis."
+msgstr ""
+"Ett kassaregister låter dig hantera kontanta verifikat genom dina\n"
+"                kontantjournaler. Funktionen gör det enkelt att dagligen hålla uppsikt\n"
+"                över kontanta betalningar."
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_move_journal_line
+msgid ""
+"A journal entry consists of several journal items, each of\n"
+"                which is either a debit or a credit transaction."
+msgstr ""
+"En verifikat består av flera verifikatsrader där varje \n"
+"                händelse antingen utgör en debet- eller kredittransaktion."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_payment.py:0
+msgid ""
+"A payment with an outstanding account cannot be confirmed without having a "
+"journal entry."
+msgstr ""
+"En betalning med ett utestående konto kan inte bekräftas utan en verifikat."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_move_view_activity
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Account Entry"
+msgstr "Verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__account_has_hashed_entries
+msgid "Account Has Hashed Entries"
+msgstr "Konto har hashade verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__account_cash_basis_base_account_id
+#: model:ir.model.fields,help:account.field_res_config_settings__account_cash_basis_base_account_id
+msgid ""
+"Account that will be set on lines created in cash basis journal entry and "
+"used to keep track of the tax base amount."
+msgstr ""
+"Konto som anges på rader i verifikat skapade enligt kontantmetoden och som "
+"används för att spåra det grundläggande skattebeloppet."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_search
+msgid "Account with Entries"
+msgstr "Konto med verifikat"
+
+#. module: account
+#: model:ir.actions.server,name:account.ir_cron_auto_post_draft_entry_ir_actions_server
+msgid ""
+"Account: Post draft entries with auto_post enabled and accounting date up to"
+" today"
+msgstr ""
+"Konto: Bokför utkast till verifikat med auto_post aktiverat och "
+"bokföringsdatum fram till idag"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+msgid "Adjusting Entry"
+msgstr "Justering av verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_journal_group_tree
+msgid "All Companies"
+msgstr "Alla bolag"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_payment__amount_company_currency_signed
+msgid "Amount Company Currency Signed"
+msgstr "Undertecknat belopp i bolagets valuta"
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_account_form
+msgid ""
+"An account is part of a ledger allowing your company\n"
+"                to register all kinds of debit and credit transactions.\n"
+"                Companies present their annual accounts in two main parts: the\n"
+"                balance sheet and the income statement (profit and loss\n"
+"                account). The annual accounts of a company are required by law\n"
+"                to disclose a certain amount of information."
+msgstr ""
+"Ett konto är en del av ett huvudbok som gör det möjligt för ditt bolag\n"
+"att registrera alla typer av debet- och kredittransaktioner.\n"
+"Bolag presenterar sina årsredovisningar i två huvuddelar: en balansräkning\n"
+"och en resultaträkning (konton för vinster och förluster). Bolag är skyldiga enligt lag\n"
+"att genom årsredovisningen presentera viss information."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"An error occurred when computing the inalterability. All entries have to be "
+"reconciled."
+msgstr ""
+"Ett fel inträffade vid beräkningen av oföränderligheten. Alla verifikat "
+"måste stämmas av."
+
+#. module: account
+#: model:ir.ui.menu,name:account.account_analytic_def_account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+msgid "Analytic Accounts"
+msgstr "Objektkonton"
+
+#. module: account
+#: model:ir.model,name:account.model_account_analytic_distribution_model
+msgid "Analytic Distribution Model"
+msgstr "Objektfördelning"
+
+#. module: account
+#: model:ir.ui.menu,name:account.menu_analytic__distribution_model
+msgid "Analytic Distribution Models"
+msgstr "Objektfördelning"
+
+#. module: account
+#: model:ir.model,name:account.model_account_analytic_applicability
+msgid "Analytic Plan's Applicabilities"
+msgstr "Objektreglers användningsgrad"
+
+#. module: account
+#: model:ir.ui.menu,name:account.account_analytic_plan_menu
+msgid "Analytic Plans"
+msgstr "Objektregler"
+
+#. module: account
+#: model:ir.ui.menu,name:account.menu_action_analytic_reporting
+msgid "Analytic Report"
+msgstr "Objektrapport"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.action_analytic_reporting
+msgid "Analytic Reporting"
+msgstr "Objektrapportering"
+
+#. module: account
+#: model:ir.model.constraint,message:account.constraint_account_move_unique_name
+msgid "Another entry with the same name already exists."
+msgstr "En annan verifikat med samma namn finns redan."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__hard_lock_date
+msgid ""
+"Any entry up to and including that date will be postponed to a later time, "
+"in accordance with its journal sequence. This lock date is irreversible and "
+"does not allow any exception."
+msgstr ""
+"Alla verifikat fram till och inklusive detta datum kommer att skjutas upp "
+"till ett senare tillfälle, i enlighet med de relaterade journalernas "
+"nummerföljder. Detta låsningsdatum är oåterkalleligt och tillåter inga "
+"undantag."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__fiscalyear_lock_date
+msgid ""
+"Any entry up to and including that date will be postponed to a later time, "
+"in accordance with its journal's sequence."
+msgstr ""
+"Alla verifikat fram till och inklusive detta datum kommer att skjutas upp "
+"till ett senare tillfälle, i enlighet med de relaterade journalernas "
+"nummerföljder."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__tax_lock_date
+msgid ""
+"Any entry with taxes up to and including that date will be postponed to a "
+"later time, in accordance with its journal's sequence. The tax lock date is "
+"automatically set when the tax closing entry is posted."
+msgstr ""
+"Alla verifikat med skatter till och med detta datum kommer att skjutas upp "
+"till en senare tidpunkt, i enlighet med journalens nummerföljd. "
+"Låsningsdatumet för skatter anges automatiskt skatteberäkningsposten "
+"bokförs."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"Any journal item on a payable account must have a due date and vice versa."
+msgstr ""
+"Alla verifikat på ett konto med leverantörsskulder måste ha ett "
+"förfallodatum och vice versa."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"Any journal item on a receivable account must have a due date and vice "
+"versa."
+msgstr ""
+"Alla verifikat på ett konto med kundfordringar måste ha ett förfallodatum "
+"och vice versa."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__purchase_lock_date
+msgid ""
+"Any purchase entry prior to and including this date will be postponed to a "
+"later date, in accordance with its journal's sequence."
+msgstr ""
+"Alla inköpsverifikat fram till och inklusive detta datum kommer att skjutas "
+"upp till ett senare tillfälle, i enlighet med de relaterade journalernas "
+"nummerföljder."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__sale_lock_date
+msgid ""
+"Any sales entry prior to and including this date will be postponed to a "
+"later date, in accordance with its journal's sequence."
+msgstr ""
+"Alla försäljningsverifikat fram till och inklusive detta datum kommer att "
+"skjutas upp till ett senare tillfälle, i enlighet med de relaterade "
+"journalernas nummerföljder."
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_company__automatic_entry_default_journal_id
+msgid "Automatic Entry Default Journal"
+msgstr "Standard bokföringsjournal för automatiska verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__partner_bank_id
+#: model:ir.model.fields,help:account.field_account_move__partner_bank_id
+msgid ""
+"Bank Account Number to which the invoice will be paid. A Company bank "
+"account if this is a Customer Invoice or Vendor Credit Note, otherwise a "
+"Partner bank account number."
+msgstr ""
+"Kontonummer för det bankkonto som fakturan kommer att betalas till. Ett "
+"bolagskonto om detta är en kundfaktura eller leverantörskreditfaktura, "
+"annars ett partnerkonto."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Cancel Entry"
+msgstr "Avbryt verifikat"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__tax_cash_basis_created_move_ids
+#: model:ir.model.fields,field_description:account.field_account_move__tax_cash_basis_created_move_ids
+msgid "Cash Basis Entries"
+msgstr "Verifikat enligt kontantmetoden"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_account__reconcile
+#: model:ir.model.fields,help:account.field_account_move_line__is_account_reconcile
+msgid ""
+"Check this box if this account allows invoices & payments matching of "
+"journal items."
+msgstr ""
+"Markera denna ruta om kontot tillåter matchning av fakturor och betalningar "
+"kopplade till specifika verifikatsrader."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_report_line__groupby
+#: model:ir.model.fields,help:account.field_account_report_line__user_groupby
+msgid ""
+"Comma-separated list of fields from account.move.line (Journal Item). When "
+"set, this line will generate sublines grouped by those keys."
+msgstr ""
+"Lista över fält separerade med kommatecken som genererats med "
+"account.move.line (Verifikatsrad). När detta är angivet kommer raden att "
+"skapa underordnade rader grupperade efter de angivna nycklarna."
+
+#. module: account
+#: model:ir.model,name:account.model_res_company
+#: model:ir.model.fields,field_description:account.field_account_account__company_ids
+#: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__company_ids
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_partner__ref_company_ids
+#: model:ir.model.fields,field_description:account.field_res_users__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Bolag kopplade till partner"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__company_id
+#: model:ir.model.fields,field_description:account.field_account_automatic_entry_wizard__company_id
+#: model:ir.model.fields,field_description:account.field_account_bank_statement__company_id
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__company_id
+#: model:ir.model.fields,field_description:account.field_account_code_mapping__company_id
+#: model:ir.model.fields,field_description:account.field_account_financial_year_op__company_id
+#: model:ir.model.fields,field_description:account.field_account_fiscal_position__company_id
+#: model:ir.model.fields,field_description:account.field_account_fiscal_position_account__company_id
+#: model:ir.model.fields,field_description:account.field_account_fiscal_position_tax__company_id
+#: model:ir.model.fields,field_description:account.field_account_group__company_id
+#: model:ir.model.fields,field_description:account.field_account_invoice_report__company_id
+#: model:ir.model.fields,field_description:account.field_account_journal__company_id
+#: model:ir.model.fields,field_description:account.field_account_journal_group__company_id
+#: model:ir.model.fields,field_description:account.field_account_lock_exception__company_id
+#: model:ir.model.fields,field_description:account.field_account_move__company_id
+#: model:ir.model.fields,field_description:account.field_account_move_line__company_id
+#: model:ir.model.fields,field_description:account.field_account_move_reversal__company_id
+#: model:ir.model.fields,field_description:account.field_account_move_send_wizard__company_id
+#: model:ir.model.fields,field_description:account.field_account_partial_reconcile__company_id
+#: model:ir.model.fields,field_description:account.field_account_payment__company_id
+#: model:ir.model.fields,field_description:account.field_account_payment_method_line__company_id
+#: model:ir.model.fields,field_description:account.field_account_payment_register__company_id
+#: model:ir.model.fields,field_description:account.field_account_payment_term__company_id
+#: model:ir.model.fields,field_description:account.field_account_reconcile_model__company_id
+#: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__company_id
+#: model:ir.model.fields,field_description:account.field_account_reconcile_model_partner_mapping__company_id
+#: model:ir.model.fields,field_description:account.field_account_report_external_value__company_id
+#: model:ir.model.fields,field_description:account.field_account_secure_entries_wizard__company_id
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__company_id
+#: model:ir.model.fields,field_description:account.field_account_tax__company_id
+#: model:ir.model.fields,field_description:account.field_account_tax_group__company_id
+#: model:ir.model.fields,field_description:account.field_account_tax_repartition_line__company_id
+#: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
+#: model_terms:ir.ui.view,arch_db:account.view_account_tax_search
+#: model_terms:ir.ui.view,arch_db:account.view_message_tree_audit_log_search
+msgid "Company"
+msgstr "Bolag"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_mail_mail__account_audit_log_company_id
+#: model:ir.model.fields,field_description:account.field_mail_message__account_audit_log_company_id
+msgid "Company "
+msgstr "Bolag"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
+msgid "Company Bank Account"
+msgstr "Bolagets bankkonto"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_fiscal_position__company_country_id
+msgid "Company Country"
+msgstr "Bolagets land"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_account__company_currency_id
+#: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__currency_id
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__company_currency_id
+#: model:ir.model.fields,field_description:account.field_account_invoice_report__company_currency_id
+#: model:ir.model.fields,field_description:account.field_account_move__company_currency_id
+#: model:ir.model.fields,field_description:account.field_account_move_line__company_currency_id
+#: model:ir.model.fields,field_description:account.field_account_partial_reconcile__company_currency_id
+#: model:ir.model.fields,field_description:account.field_account_payment__company_currency_id
+#: model:ir.model.fields,field_description:account.field_account_payment_register__company_currency_id
+msgid "Company Currency"
+msgstr "Bolagets valuta"
+
+#. module: account
+#: model:ir.model,name:account.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "Bolagets dokumentlayout"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_account__company_fiscal_country_code
+#: model:ir.model.fields,field_description:account.field_account_fiscal_position__fiscal_country_codes
+msgid "Company Fiscal Country Code"
+msgstr "Landskod för bolagets skatterättsliga hemvist"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_company__company_registry_placeholder
+msgid "Company Registry Placeholder"
+msgstr "Platshållare för bolagsregister"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_move_line__is_storno
+msgid "Company Storno Accounting"
+msgstr "Bolag med Storno-bokföring"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_company__company_vat_placeholder
+msgid "Company Vat Placeholder"
+msgstr "Platshållare för bolagets momsregistreringsnummer"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_config_settings__has_chart_of_accounts
+msgid "Company has a chart of accounts"
+msgstr "Bolaget har en kontoplan"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement__company_id
+#: model:ir.model.fields,help:account.field_account_journal__company_id
+#: model:ir.model.fields,help:account.field_account_payment_method_line__company_id
+msgid "Company related to this journal"
+msgstr "Bolag relaterade till denna journal"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_merge_wizard.py:0
+msgid "Contains hashed entries, but %s also has hashed entries."
+msgstr "Innehåller hashade verifikat, men %s har också hashade verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+msgid "Corrupted data on journal entry with id %(id)s (%(name)s)."
+msgstr "Skadad data i verifikatet med id %(id)s (%(name)s)."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
+msgid "Counterpart Items"
+msgstr "Motsvarande verifikatsrader"
+
+#. module: account
+#: model:ir.model,name:account.model_account_automatic_entry_wizard
+msgid "Create Automatic Entries"
+msgstr "Skapa verifikat automatiskt"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_accrued_orders_wizard
+msgid "Create Entry"
+msgstr "Skapa verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
+msgid "Create Journal Entries"
+msgstr "Skapa verifikat"
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_move_journal_line
+msgid "Create a journal entry"
+msgstr "Skapa en verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__matched_credit_ids
+msgid "Credit journal items that are matched with this journal item."
+msgstr "Verifikatsrader med kreditbelopp som matchas med denna verifikatsrad."
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_partial_reconcile__credit_currency_id
+msgid "Currency of the credit journal item."
+msgstr "Valutan som verifikatsradens kreditbelopp är angivet i."
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_partial_reconcile__debit_currency_id
+msgid "Currency of the debit journal item."
+msgstr "Valutan som verifikatsradens debetbelopp är angivet i."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_resequence_wizard__end_date
+msgid ""
+"Date (inclusive) to which the numbers are resequenced. If not set, all "
+"Journal Entries up to the end of the period are resequenced."
+msgstr ""
+"Datum (till och med) då numren ska omordnas. Om inget datum anges, så "
+"omordnas alla verifikat fram till periodens slut."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__matched_debit_ids
+msgid "Debit journal items that are matched with this journal item."
+msgstr "Debitera verifikatsrader som matchar denna verifikatsrad."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__company_price_include
+#: model:ir.model.fields,help:account.field_account_move__company_price_include
+#: model:ir.model.fields,help:account.field_account_tax__company_price_include
+#: model:ir.model.fields,help:account.field_res_company__account_price_include
+#: model:ir.model.fields,help:account.field_res_config_settings__account_price_include
+msgid ""
+"Default on whether the sales price used on the product and invoices with "
+"this Company includes its taxes."
+msgstr ""
+"Standard om huruvida det försäljningspris som används för bolagets produkter"
+" och fakturor ska inkludera moms."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+#: code:addons/account/wizard/account_secure_entries_wizard.py:0
+#: model:ir.model.fields,field_description:account.field_account_report__filter_show_draft
+msgid "Draft Entries"
+msgstr "Utkast till verifikat"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+#: code:addons/account/models/account_move_line.py:0
+msgid "Draft Entry"
+msgstr "Utkast till verifikat"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal_dashboard.py:0
+msgid "Drop to create journal entries with attachments."
+msgstr "Släpp för att skapa verifikat med bilagor."
+
+#. module: account
+#: model:ir.actions.act_window,name:account.action_move_line_form
+#: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
+msgid "Entries"
+msgstr "Verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_journal__entries_count
+msgid "Entries Count"
+msgstr "Antal verifikat"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+msgid "Entries are correctly hashed"
+msgstr "Verifikaten är korrekt hashade"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "Entries are not from the same account: %s"
+msgstr "Verifikat utgår inte från samma konto: %s"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/accrued_orders.py:0
+msgid "Entries can only be created for a single company at a time."
+msgstr "Verifikat kan endast skapas för ett företag åt gången."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "Entries don't belong to the same company: %s"
+msgstr "Verifikat tillhör inte samma företag: %s"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_validate_account_move__force_post
+msgid ""
+"Entries in the future are set to be auto-posted by default. Check this "
+"checkbox to post them now."
+msgstr ""
+"Framtida verifikat som har som standard att bli bokförda automatiskt. "
+"Markera rutan för att bokföra dem nu."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+msgid "Entries to Review"
+msgstr "Verifikat att granska"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_analytic_line.py:0
+msgid "Entries: %(account)s"
+msgstr "Verifikat: %(account)s"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_move_view_activity
+msgid "Entry Name"
+msgstr "Namn på verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "Exchange difference entries:"
+msgstr "Verifikat som redovisar växlingsskillnad:"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
+msgid "First Entry"
+msgstr "Första verifikatet"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__auto_post_origin_id
+#: model:ir.model.fields,field_description:account.field_account_move__auto_post_origin_id
+msgid "First recurring entry"
+msgstr "Första återkommande verifikatet"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.action_account_fiscal_position_form
+#: model:ir.ui.menu,name:account.menu_action_account_fiscal_position_form
+msgid "Fiscal Positions"
+msgstr "Skatteområde"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_account__currency_id
+msgid ""
+"Forces all journal items in this account to have a specific currency (i.e. "
+"bank journals). If no currency is set, entries can use any currency."
+msgstr ""
+"Tvingar fram att alla verifikatsrader inom en viss grupp konton eller "
+"journaler har en specifik valuta (t.ex. bankjournaler). Om ingen valuta är "
+"angiven kan verifikat använda sig av valfri valuta."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+msgid "Generated Entries"
+msgstr "Skapta verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_config_settings__has_accounting_entries
+msgid "Has Accounting Entries"
+msgstr "Har verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_journal__has_entries
+msgid "Has Entries"
+msgstr "Har verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_journal__has_posted_entries
+msgid "Has Posted Entries"
+msgstr "Har bokförda verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__has_reconciled_entries
+#: model:ir.model.fields,field_description:account.field_account_move__has_reconciled_entries
+msgid "Has Reconciled Entries"
+msgstr "Har avstämda verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_secure_entries_wizard__hash_date
+msgid "Hash All Entries"
+msgstr "Hasha alla verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_secure_entries_wizard__max_hash_date
+msgid ""
+"Highest Date such that all posted journal entries prior to (including) the "
+"date are secured. Only journal entries after the hard lock date are "
+"considered."
+msgstr ""
+"Högsta datum så att alla bokförda verifikat till och med datumet är säkrade."
+" Endast verifikat efter det slutgiltiga låsningsdatumet beaktas."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_report__filter_aml_ir_filters
+msgid ""
+"If activated, user-defined filters on journal items can be selected on this "
+"report"
+msgstr ""
+"Om funktionen är aktiverad kan användardefinierade filter för "
+"verifikatsrader användas i denna rapport"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_reversal__journal_id
+msgid "If empty, uses the journal of the journal entry to be reversed."
+msgstr ""
+"Om fältet lämnas tomt så används journalen kopplad till den verifikat som "
+"ska rättas."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
+msgid "If set, this account is used to automatically balance entries."
+msgstr ""
+"Om så är angivet, så kommer detta konto att användas för att automatiskt "
+"reglera verifikat."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__restrict_mode_hash_table
+#: model:ir.model.fields,help:account.field_account_journal__restrict_mode_hash_table
+#: model:ir.model.fields,help:account.field_account_move__restrict_mode_hash_table
+msgid ""
+"If ticked, when an entry is posted, we retroactively hash all moves in the "
+"sequence from the entry back to the last hashed entry. The hash can also be "
+"performed on demand by the Secure Entries wizard."
+msgstr ""
+"Om rutan är ikryssad så hashar vi retroaktivt alla rörelser i sekvensen från"
+" verifikatet till den senast hashade verifikatet. Hashningen kan också "
+"genomföras vid behov genom guiden för Säkra verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"If you want to use \"Off-Balance Sheet\" accounts, all the accounts of the "
+"journal entry must be of this type"
+msgstr ""
+"Om du vill använda konton som är \"Utanför balansräkningen\", så måste alla "
+"konton kopplade verifikatet vara av den typen"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "Import Template for Journal Items"
+msgstr "Importmall för verifikatsrader"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__tax_line_id
+msgid "Indicates that this journal item is a tax line"
+msgstr "Indikerar att denna verifikatsrad utgörs av en skatterad"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_payment__reconciled_bill_ids
+#: model:ir.model.fields,help:account.field_account_payment__reconciled_invoice_ids
+msgid "Invoices whose journal items have been reconciled with these payments."
+msgstr "Fakturor vars verifikatsrader har stämts av med dessa betalningar."
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_validate_account_move__is_entries
+msgid "Is Entries"
+msgstr "Är verifikat"
+
+#. module: account
+#. odoo-javascript
+#. odoo-python
+#: code:addons/account/models/account_journal_dashboard.py:0
+#: code:addons/account/static/src/components/journal_dashboard_activity/journal_dashboard_activity.js:0
+#: code:addons/account/wizard/account_secure_entries_wizard.py:0
+#: model:ir.actions.act_window,name:account.action_move_journal_line
+#: model:ir.ui.menu,name:account.menu_action_move_journal_line_form
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
+#: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
+#: model_terms:ir.ui.view,arch_db:account.view_move_tree
+msgid "Journal Entries"
+msgstr "Verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
+msgid "Journal Entries by Date"
+msgstr "Verifikat sorterade efter datum"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal_dashboard.py:0
+msgid "Journal Entries to Hash"
+msgstr "Verifikat att hasha"
+
+#. module: account
+#. odoo-javascript
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+#: code:addons/account/models/account_payment.py:0
+#: code:addons/account/static/src/components/journal_dashboard_activity/journal_dashboard_activity.js:0
+#: model:ir.model,name:account.model_account_move
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__move_id
+#: model:ir.model.fields,field_description:account.field_account_move_line__move_id
+#: model:ir.model.fields,field_description:account.field_account_payment__move_id
+#: model:ir.model.fields,field_description:account.field_mail_mail__account_audit_log_move_id
+#: model:ir.model.fields,field_description:account.field_mail_message__account_audit_log_move_id
+#: model:ir.model.fields.selection,name:account.selection__account_move__move_type__entry
+#: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__counterpart_type__general
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+#: model_terms:ir.ui.view,arch_db:account.view_message_tree_audit_log_search
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_form
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_payment_tree
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_tree
+msgid "Journal Entry"
+msgstr "Verifikat"
+
+#. module: account
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
+#: code:addons/account/static/src/components/account_payment_field/account_payment_field.js:0
+msgid "Journal Entry Info"
+msgstr "Information om verifikat"
+
+#. module: account
+#: model:ir.model,name:account.model_account_move_line
+#: model:ir.model.fields,field_description:account.field_account_analytic_line__move_line_id
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_payment_filter
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_form
+msgid "Journal Item"
+msgstr "Verifikatsrad"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "Journal Item %s created"
+msgstr "Verifikatsrad %s skapad"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "Journal Item %s deleted"
+msgstr "Verifikatsrad %s bottagen"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "Journal Item %s updated"
+msgstr "Verifikatsrad %s uppdaterades"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_payment_register__writeoff_label
+#: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__label
+msgid "Journal Item Label"
+msgstr "Etikett för verifikatsrader"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_lock_exception.py:0
+#: model:ir.actions.act_window,name:account.action_account_moves_all
+#: model:ir.actions.act_window,name:account.action_account_moves_all_a
+#: model:ir.actions.act_window,name:account.action_account_moves_all_grouped_matching
+#: model:ir.actions.act_window,name:account.action_account_moves_all_tree
+#: model:ir.actions.act_window,name:account.action_move_line_select
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__line_ids
+#: model:ir.model.fields,field_description:account.field_account_move__line_ids
+#: model:ir.model.fields,field_description:account.field_res_partner__journal_item_count
+#: model:ir.model.fields,field_description:account.field_res_users__journal_item_count
+#: model:ir.ui.menu,name:account.menu_action_account_moves_all
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_pivot
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_tree
+msgid "Journal Items"
+msgstr "Verifikatsrader"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_payment_register__line_ids
+msgid "Journal items"
+msgstr "Verifikatsrader"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+msgid "Journal items where matching number isn't set"
+msgstr "Verifikatsrader utan angivna matchande nummer"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+msgid ""
+"Journal items where the account allows reconciliation no matter the residual"
+" amount"
+msgstr ""
+"Verifikatsrader där kontot tillåter avstämning oavsett återstående belopp"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_move_reversal.py:0
+msgid "Journal should be the same type as the reversed entry."
+msgstr ""
+"Journalen bör vara av samma typ som journalen för verifikatet som nu rättas."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__automatic_entry_default_journal_id
+msgid "Journal used by default for moving the period of an entry"
+msgstr ""
+"Den journal som används som standard för att ändra perioden som angetts för "
+"en verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_automatic_entry_wizard__journal_id
+msgid "Journal where to create the entry."
+msgstr "Journal där verifikatet ska skapas."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
+msgid "Last Entry"
+msgstr "Sista verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_full_reconcile__reconciled_line_ids
+#: model_terms:ir.ui.view,arch_db:account.view_full_reconcile_form
+msgid "Matched Journal Items"
+msgstr "Matchade verifikatsrader"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_report__filter_multi_company
+msgid "Multi-Company"
+msgstr "Flera bolag"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
+msgid "No payment journal entries"
+msgstr "Inga verifikat för betalningar"
+
+#. module: account
+#: model:onboarding.onboarding.step,step_image_alt:account.onboarding_onboarding_step_company_data
+msgid "Onboarding Company Data"
+msgstr "Introduktion till bolagsdata"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "Only draft journal entries can be cancelled."
+msgstr "Endast utkast till verifikat kan avbrytas."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "Only posted/cancelled journal entries can be reset to draft."
+msgstr "Endast bokförda/avbrutna verifikat kan återställas till utkast."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+#: model:ir.model.fields,field_description:account.field_res_company__account_opening_move_id
+msgid "Opening Journal Entry"
+msgstr "Ingående verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_tax__price_include_override
+msgid ""
+"Overrides the Company's default on whether the price you use on the product "
+"and invoices includes this tax."
+msgstr ""
+"Gör det möjligt att bortse från bolagets standardinställningar om huruvida "
+"det pris du använder på produkter och fakturor bör inkludera denna skatt."
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_partner__partner_company_registry_placeholder
+#: model:ir.model.fields,field_description:account.field_res_users__partner_company_registry_placeholder
+msgid "Partner Company Registry Placeholder"
+msgstr "Platshållare för partner i bolagsregister"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/partner.py:0
+msgid "Partners that are used in hashed entries cannot be merged."
+msgstr "Partners som används i hashade verifikat kan inte sammanfogas."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+msgid "Post All Entries"
+msgstr "Bokför alla verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
+msgid "Posted Journal Entries"
+msgstr "Bokförda verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_payment_filter
+msgid "Posted Journal Items"
+msgstr "Bokförda verifikatsrader"
+
+#. module: account
+#: model:ir.model,name:account.model_account_reconcile_model
+msgid ""
+"Preset to create journal entries during a invoices and payments matching"
+msgstr ""
+"Ställ in att skapa verifikat vid matchning av fakturor och betalningar"
+
+#. module: account
+#: model:ir.model,name:account.model_account_resequence_wizard
+msgid "Remake the sequence of Journal Entries."
+msgstr "Gör om sekvensen för verifikat."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
+msgid "Reverse Journal Entry"
+msgstr "Rätta verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_payment_filter
+msgid "Search Journal Items"
+msgstr "Sök efter verifikatsrader"
+
+#. module: account
+#: model:ir.ui.menu,name:account.menu_action_secure_entries
+#: model_terms:ir.ui.view,arch_db:account.view_account_secure_entries_wizard
+msgid "Secure Entries"
+msgstr "Stäng period"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.action_view_account_secure_entries_wizard
+#: model:ir.model,name:account.model_account_secure_entries_wizard
+#: model_terms:ir.ui.view,arch_db:account.view_account_secure_entries_wizard
+msgid "Secure Journal Entries"
+msgstr "Säkra verifikat"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__restrict_mode_hash_table
+#: model:ir.model.fields,field_description:account.field_account_journal__restrict_mode_hash_table
+#: model:ir.model.fields,field_description:account.field_account_move__restrict_mode_hash_table
+msgid "Secure Posted Entries with Hash"
+msgstr "Säkra verifikat med hashning"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_secure_entries_wizard.py:0
+msgid ""
+"Securing these entries will also secure entries after the selected date."
+msgstr ""
+"Genom att säkra dessa verifikat säkras även verifikat efter det valda "
+"datumet."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_secure_entries_wizard.py:0
+msgid "Securing these entries will create at least one gap in the sequence."
+msgstr ""
+"Genom att säkra dessa verifikat skapas åtminstone en lucka i nummerföljden."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid ""
+"Select this if the taxes should use cash basis, which will create an entry "
+"for such taxes on a given account during reconciliation."
+msgstr ""
+"Markera om skatterna ska tillämpas enligt kontantmetoden, vilket kommer att "
+"innebära att en verifikat för skatter upprättas enligt den metoden och "
+"placeras på ett specifikt konto under avstämning."
+
+#. module: account
+#: model:onboarding.onboarding.step,title:account.onboarding_onboarding_step_company_data
+msgid "Set Company Data"
+msgstr "Ange bolagsdata"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_journal__code
+msgid ""
+"Shorter name used for display. The journal entries of this journal will also"
+" be named using this prefix by default."
+msgstr ""
+"Förkortning som används som visningsnamn. Verifikat i journalen får som "
+"standard förkortningen som prefix."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+msgid "Show draft entries"
+msgstr "Visa utkast till verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__auto_post
+#: model:ir.model.fields,help:account.field_account_move__auto_post
+msgid ""
+"Specify whether this entry is posted automatically on its accounting date, "
+"and any similar recurring invoices."
+msgstr ""
+"Ange om denna verifikat ska bokföras automatiskt på dess bokföringsdatum, "
+"samt eventuella liknande återkommande fakturor."
+
+#. module: account
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_statusbar_secured/account_move_statusbar_secured.js:0
+msgid "Status with secured indicator for Journal Entries"
+msgstr "Status med säkerhetsindikator för verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_product_product__account_tag_ids
+#: model:ir.model.fields,help:account.field_product_template__account_tag_ids
+msgid ""
+"Tags to be set on the base and tax journal items created for this product."
+msgstr ""
+"Taggar som ska anges på de verifikatsrader som skapats för denna produkt."
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__tax_cash_basis_rec_id
+#: model:ir.model.fields,field_description:account.field_account_move__tax_cash_basis_rec_id
+msgid "Tax Cash Basis Entry of"
+msgstr "Verifikat för beskattning enligt kontantmetoden"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"Taxes exigible on payment and on invoice cannot be mixed on the same journal"
+" item if they share some tag."
+msgstr ""
+"Skatter som befriats från en betalning eller en faktura kan inte sammanföras"
+" i samma verifikatsrad om de delar samma tag."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/sequence_mixin.py:0
+msgid ""
+"The %(date_field)s (%(date)s) you've entered isn't aligned with the existing sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
+"To maintain date-based sequences, select entries and use the resequence option from the actions menu, available in developer mode."
+msgstr ""
+"Det %(date_field)s (%(date)s) som du har angett stämmer inte överens med det befintliga sekvensnumret (%(sequence)s). Rensa sekvensnumret för att gå vidare.\n"
+"Om du vill behålla datumbaserade sekvenser, vänligen markera relaterade verifikat och använd alternativet för omordning i åtgärdsmenyn, som finns tillgängligt genom utvecklarläget."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The Journal Entry sequence is not conform to the current format. Only the "
+"Accountant can change it."
+msgstr ""
+"Verifikatets nummerföljd följer inte med det aktuella formatet. Endast "
+"revisorn kan göra ändringar."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"The account selected on your journal entry forces to provide a secondary "
+"currency. You should remove the secondary currency on the account."
+msgstr ""
+"Det konto som angetts för verifikatet kräver användning av en sekundär "
+"valuta. Du bör ta bort den sekundära valutan från kontot."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__amount_currency
+#: model:ir.model.fields,help:account.field_account_move_line__amount_currency
+msgid ""
+"The amount expressed in an optional other currency if it is a multi-currency"
+" entry."
+msgstr ""
+"Beloppet uttryckt i valfri sekundär valuta om det är en verifikat med flera "
+"valutor."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__tax_cash_basis_created_move_ids
+#: model:ir.model.fields,help:account.field_account_move__tax_cash_basis_created_move_ids
+msgid ""
+"The cash basis entries created from the taxes on this entry, when "
+"reconciling its lines."
+msgstr ""
+"Verifikaten som skapats när skatterelaterade rader som skapats enligt "
+"kontantmetoden i denna verifikat stäms av."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/partner.py:0
+msgid ""
+"The commercial partner has been updated for all related accounting entries."
+msgstr "Handelspartnern har uppdaterats för alla relaterade verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The date is being set prior to: %(lock_date_info)s. The Journal Entry will "
+"be accounted on %(invoice_date)s upon posting."
+msgstr ""
+"Datumet anges innan: %(lock_date_info)s. Verifikatet kommer att bokföras den"
+" %(invoice_date)s."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "The entry %(name)s (id %(id)s) must be in draft."
+msgstr "Verifikatet %(name)s (id-nummer %(id)s) måste vara i utkast."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__secured
+#: model:ir.model.fields,help:account.field_account_move__secured
+msgid "The entry is secured with an inalterable hash."
+msgstr "Verifikatet är säkrad med hjälp av en oföränderlig hash."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The entry is using accounts (%(accounts_codes_names)s) from a different "
+"company."
+msgstr ""
+"Verifikatet använder sig av konton (%(accounts_codes_names)s) från ett annat"
+" företag."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
+msgid "The following Journal Entries will be generated"
+msgstr "Följande verifikat kommer att skapas"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The following entries are unbalanced:\n"
+"\n"
+msgstr "Följande verifikat är inte balanserade:"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_report_external_value__foreign_vat_fiscal_position_id
+msgid "The foreign fiscal position for which this external value is made."
+msgstr "Den utländska skatteområde för vilken detta externa värde är skapat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_bank_statement_line.py:0
+msgid ""
+"The journal entry %s reached an invalid state regarding its related statement line.\n"
+"To be consistent, the journal entry must always have exactly one journal item involving the bank/cash account."
+msgstr ""
+"Verifikatet %s nådde ett ogiltigt tillstånd vad gäller den relaterade raden i ett kontoutdrag.\n"
+"För att vara konsekvent måste verifikatet alltid ha exakt en verifikatsrad kopplad till ett bank-/kassakonto."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__account_opening_move_id
+msgid ""
+"The journal entry containing the initial balance of all this company's "
+"accounts."
+msgstr ""
+"Verifikatet som innehåller det öppningssaldon för alla företagets konton."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__tax_cash_basis_origin_move_id
+#: model:ir.model.fields,help:account.field_account_move__tax_cash_basis_origin_move_id
+msgid ""
+"The journal entry from which this tax cash basis journal entry has been "
+"created."
+msgstr ""
+"Den verifikat utifrån vilken denna verifikat för skatter enligt "
+"kontantmetoden har skapats."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_analytic_line.py:0
+msgid "The journal item is not linked to the correct financial account"
+msgstr "Verifikatsraden är inte kopplad till rätt finansiellt konto"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"The operation is refused as it would impact an already issued tax statement."
+" Please change the journal entry date or the following lock dates to "
+"proceed: %(lock_date_info)s."
+msgstr ""
+"Åtgärden nekas eftersom den skulle påverka en redan utfärdad "
+"skattedeklaration. Ändra verifikatets datum eller följande låsningsdatum för"
+" att gå vidare: %(lock_date_info)s."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__foreign_currency_id
+msgid "The optional other currency if it is a multi-currency entry."
+msgstr ""
+"Den valfria alternativa valutan om det är en verifikat med flera valutor."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__payment_reference
+#: model:ir.model.fields,help:account.field_account_move__payment_reference
+msgid "The payment reference to set on journal items."
+msgstr "Betalningsreferensen att angiva för verifikatsrader."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__payment_id
+msgid "The payment that created this entry"
+msgstr "Betalningen som verifikatet skapades utifrån"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__amount_residual_currency
+msgid ""
+"The residual amount on a journal item expressed in its currency (possibly "
+"not the company currency)."
+msgstr ""
+"Det återstående beloppet för en verifikatsrad uttryckt i dess angivna valuta"
+" (inte nödvändigtvis samma som företagets valuta)."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__amount_residual
+msgid ""
+"The residual amount on a journal item expressed in the company currency."
+msgstr "Restbeloppet för en verifikat angiven i företagets valuta."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
+msgid ""
+"The selected destination account is set to use a specific currency. Every entry transferred to it will be converted into this currency, causing\n"
+"                        the loss of any pre-existing foreign currency amount."
+msgstr ""
+"Det valda kontot är inställt för att använda en specifik valuta. Beloppet i varje verifikat som överförs till kontot kommer att omvandlas till denna valuta, \n"
+"                        vilket gör att man förlorar eventuellt befintligt belopp i en annan valuta."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__statement_line_id
+msgid "The statement line that created this entry"
+msgstr "Den rad i ett kontoutdrag som skapade verifikatet"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_secure_entries_wizard.py:0
+msgid ""
+"There are entries that cannot be hashed. They can be protected by the Hard "
+"Lock Date."
+msgstr ""
+"Det finns verifikat som inte kan hashas. De kan istället skyddas med ett "
+"slutgiltigt låsningsdatum."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_validate_account_move.py:0
+msgid "There are no journal items in the draft state to post."
+msgstr "Det finns inga utkast till verifikatsrader kvar att bokföra."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_secure_entries_wizard.py:0
+msgid "There are still draft entries before the selected date."
+msgstr ""
+"Det finns utkast till verifikat som är daterade innan det valda datumet."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+msgid ""
+"There are still draft entries in the period you want to hard lock. You "
+"should either post or delete them."
+msgstr ""
+"Det finns fortfarande utkast till verifikat i den period som du vill låsa "
+"slutgiltigt. Du bör antingen bokföra eller radera dem."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_secure_entries_wizard.py:0
+msgid ""
+"There are still unreconciled bank statement lines before the selected date. "
+"The entries from journal prefixes containing them will not be secured: "
+"%(prefix_info)s"
+msgstr ""
+"Det finns fortfarande icke-avstämda rader i kontoutdrag före det valda "
+"datumet. Verifikat från journaler med följande prefix kommer inte att "
+"säkras: %(prefix_info)s"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+msgid ""
+"There is no journal entry flagged for accounting data inalterability yet."
+msgstr ""
+"Det finns ännu ingen verifikat som är flaggad för oföränderlighet hos "
+"bokföringsdatan."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+msgid "This can only be used on journal items"
+msgstr "Detta kan endast användas för verifikatsrader"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"This entry contains one or more taxes that are incompatible with your fiscal"
+" country. Check company fiscal country in the settings and tax country in "
+"taxes configuration."
+msgstr ""
+"Den här verifikatet innehåller en eller flera skatter som är oförenliga med "
+"ditt skatteområde. Kontrollera företagets skatterättsliga hemvist i "
+"företagets inställningar samt inställningarna för skatter."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"This entry contains taxes that are not compatible with your fiscal position."
+" Check the country set in fiscal position and in your tax configuration."
+msgstr ""
+"Den här verifikatet innehåller en eller flera skatter som är oförenliga med "
+"ditt skatteområde. Kontrollera företagets skatterättsliga hemvist i "
+"företagets inställningar samt inställningarna för skatter."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_move_reversal.py:0
+msgid "This entry has been %s"
+msgstr "Den här verifikatet har blivit %s"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "This entry has been duplicated from %s"
+msgstr "Verifikatet har dubblerats från %s"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "This entry has been reversed from %s"
+msgstr "Den här verifikatet har återkallats från %s"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+msgid "This entry transfers the following amounts to %(destination)s"
+msgstr "Verifikatet överför följande belopp till %(destination)s"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__date_maturity
+msgid ""
+"This field is used for payable and receivable journal entries. You can put "
+"the limit date for the payment of this line."
+msgstr ""
+"Fältet används för verifikat för leverantörsskulder och kundfordringar. Du "
+"kan ange en sista betalningsdag för denna rad."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/product.py:0
+msgid ""
+"This product is already being used in posted Journal Entries.\n"
+"If you want to change its Unit of Measure, please archive this product and create a new one."
+msgstr ""
+"Den här produkten används redan i bokförda verifikat.\n"
+"Om du vill ändra dess måttenhet, vänligen arkivera produkten och skapa en ny."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_reconcile_model.py:0
+msgid "This reconciliation model has created no entry so far"
+msgstr "Avstämningsmodellen har ännu inte skapat några verifikat"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "This recurring entry originated from %s"
+msgstr "Denna återkommande verifikatet härstammar från %s"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "This setting locks once a journal entry is created."
+msgstr "Inställningarna låses så snart som en verifikat har skapats."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid ""
+"This will update all taxes and accounts based on the currently selected "
+"fiscal position."
+msgstr ""
+"Detta kommer att uppdatera alla skatter och konton baserat på den aktuella "
+"valda skatteområdet."
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_account_reconcile_model
+msgid ""
+"Those can be used to quickly create a journal items when reconciling\n"
+"                a bank statement or an account."
+msgstr ""
+"Dessa kan användas för att snabbt skapa verifikatsrader vid avstämning\n"
+"                 med ett kontoutdrag eller ett konto."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_automatic_entry_wizard__total_amount
+msgid "Total amount impacted by the automatic entry."
+msgstr "Det totala beloppet som påverkas av den automatiska verifikatet."
+
+#. module: account
+#: model:ir.actions.act_window,name:account.account_automatic_entry_wizard_action
+msgid "Transfer Journal Items"
+msgstr "Överför verifikatsrader"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+msgid "Transfer entry to %s"
+msgstr "Flytta verifikat till %s"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_journal__has_unhashed_entries
+msgid "Unhashed Entries"
+msgstr "Ohashade verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+msgid "Unhashed entries"
+msgstr "Ohashade verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
+msgid "Unposted Journal Entries"
+msgstr "Icke-bokförda verifikat"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+msgid "Unposted Journal Items"
+msgstr "Icke-bokförda verifikatsrader"
+
+#. module: account
+#: model:ir.model.fields.selection,name:account.selection__account_report__filter_multi_company__selector
+msgid "Use Company Selector"
+msgstr "Använd bolagsväljare"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_account__include_initial_balance
+msgid ""
+"Used in reports to know if we should consider journal items from the "
+"beginning of time instead of from the fiscal year only. Account types that "
+"should be reset to zero at each new fiscal year (like expenses, revenue..) "
+"should not have this option set."
+msgstr ""
+"Används i rapporter för att avgöra om verifikatsrader ska tas med i "
+"beräkningen från den första verifikatsraden eller endast för nuvarande "
+"räkenskapsår. Kontotyper som bör nollställas vid varje nytt räkenskapsår "
+"(som utgifter, intäkter...) ska inte ha detta alternativ angivet."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_move_line__is_storno
+msgid ""
+"Utility field to express whether the journal item is subject to storno "
+"accounting"
+msgstr ""
+"Verktygsfält för att ange om verifikatsraden behandlas med Storno-bokföring"
+
+#. module: account
+#: model:ir.model.constraint,message:account.constraint_account_move_line_check_credit_debit
+msgid "Wrong credit or debit value in accounting entry!"
+msgstr "Fel kredit- eller debetvärde i verifikatet!"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "You are trying to reconcile some entries that are already reconciled."
+msgstr "Du försöker stämma av verifikat som redan är avstämda."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal.py:0
+msgid ""
+"You can not archive a journal containing draft journal entries.\n"
+"\n"
+"To proceed:\n"
+"1/ click on the top-right button 'Journal Entries' from this journal form\n"
+"2/ then filter on 'Draft' entries\n"
+"3/ select them all and post or delete them through the action menu"
+msgstr ""
+"Det är inte möjligt att arkivera en journal som innehåller utkast till verifikat.\n"
+"\n"
+"Fortsätt såhär:\n"
+"1/ klicka på knappen 'Verifikat' längst upp till höger i formuläret\n"
+"2/ filtrera sedan efter \"Utkast\"\n"
+"3/ markera utkasten och bokför eller radera dem genom åtgärdsmenyn"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You can only register payment for posted journal entries."
+msgstr ""
+"Det är endast möjligt att registrera betalningar för bokförda verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_resequence.py:0
+msgid "You can only resequence items from the same journal"
+msgstr ""
+"Det är endast möjligt att återställa verifikatsrader från samma journal"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal.py:0
+msgid ""
+"You can't change the company of your journal since there are some journal "
+"entries linked to it."
+msgstr ""
+"Det är inte möjligt att byta journalens angivna företag eftersom journalen "
+"redan har aktiva verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_tax.py:0
+msgid ""
+"You can't change the company of your tax since there are some journal items "
+"linked to it."
+msgstr ""
+"Det är inte möjligt att byta skattens angivna företag eftersom journalen "
+"redan har aktiva verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_payment_register.py:0
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+msgstr ""
+"Du är inte möjligt att skapa betalningar för verifikat som tillhör olika "
+"filialer utan åtkomst till moderbolaget."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_payment_register.py:0
+msgid ""
+"You can't create payments for entries belonging to different companies."
+msgstr ""
+"Det är inte möjligt att skapa betalningar för verifikat som tillhör olika "
+"företag."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"You can't delete a posted journal item. Don’t play games with your "
+"accounting records; reset the journal entry to draft before deleting it."
+msgstr ""
+"Det är inte möjligt att radera en bokförd verifikatsrad. Bokföring är inte "
+"att leka med; återställ verifikat till utkast innan du raderar dem."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal.py:0
+msgid ""
+"You can't have two payment method lines of the same payment type "
+"(%(payment_type)s) and with the same name (%(name)s) on a single journal."
+msgstr ""
+"Du kan inte ha två rader med betalningsmetoder av samma betalningstyp "
+"(%(payment_type)s) och med samma namn (%(name)s) på en och samma verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"You can't reset to draft those journal entries. You need to request a "
+"cancellation instead."
+msgstr ""
+"Det är inte möjligt återställa de verifikaten till utkast. Du måste istället"
+" begära en makulering."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_account.py:0
+msgid ""
+"You can't unlink this company from this account since there are some journal"
+" items linked to it."
+msgstr ""
+"Det är inte möjligt att koppla bort det här företaget från det här kontot "
+"eftersom det finns några verifikatsrader kopplade till det."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"You cannot add/modify entries prior to and inclusive of: %(lock_date_info)s."
+msgstr ""
+"Det är inte möjligt att lägga till/ändra verifikat fram till och inklusive: "
+"%(lock_date_info)s."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+msgid ""
+"You cannot change the currency of the company since some journal items "
+"already exist"
+msgstr ""
+"Det är inte möjligt att ändra företagets valuta eftersom vissa "
+"verifikatsrader redan skapats"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "You cannot delete journal items belonging to a locked journal entry."
+msgstr ""
+"Det är inte möjligt att radera verifikatsrader kopplade till en låst "
+"verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"You cannot delete this entry, as it has already consumed a sequence number "
+"and is not the last one in the chain. You should probably revert it instead."
+msgstr ""
+"Det är inte möjligt att ta bort verifikatet, eftersom den redan har "
+"förbrukat ett sekvensnummer och den inte är den sista i kedjan. Vi "
+"rekommenderar att istället återkalla den."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"You cannot do this modification on a reconciled journal entry. You can just change some non legal fields or you must unreconcile first.\n"
+"Journal Entry (id): %(entry)s (%(id)s)"
+msgstr ""
+"Det är inte möjligt att genomföra ändringen på en verifikat som redan stämts av. Du kan bara ändra vissa icke-juridiska fält eller så måste du först återkalla avstämningen.\n"
+"Verifikat (ID-nummer): %(entry)s (%(id)s)"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"You cannot edit the following fields: %(fields)s.\n"
+"The following entries are already hashed:\n"
+"%(entries)s"
+msgstr ""
+"Det är inte möjligt att redigera följande fält: %(fields)s.\n"
+"Följande verifikat har redan hashats:\n"
+"%(entries)s"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal.py:0
+msgid ""
+"You cannot modify the field %s of a journal that already has accounting "
+"entries."
+msgstr ""
+"Det är inte möjligt att redigera fältet %s för en journal som redan har "
+"skapade verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"You cannot modify the taxes related to a posted journal item, you should "
+"reset the journal entry to draft to do so."
+msgstr ""
+"Det är inte möjligt att redigera skatter relaterade till bokförda "
+"verifikatsrader, du bör först återställa verifikatet till utkast."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_account.py:0
+msgid ""
+"You cannot perform this action on an account that contains journal items."
+msgstr ""
+"Det är inte möjligt att genomföra den här åtgärden på ett konto som "
+"innehåller verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You cannot post an entry in an archived journal (%(journal)s)"
+msgstr ""
+"Det är inte möjligt att bokföra en verifikat i en arkiverad journal "
+"(%(journal)s)"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You cannot post an entry with an archived analytic account: %s"
+msgstr ""
+"Det är inte möjligt att bokföra en verifikat kopplad till ett arkiverat "
+"analytiskt konto: %s"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/res_currency.py:0
+msgid ""
+"You cannot reduce the number of decimal places of a currency which has "
+"already been used to make accounting entries."
+msgstr ""
+"Det är inte möjligt att minska antalet decimaler för en valuta som redan har"
+" använts i verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You cannot register payments for miscellaneous entries."
+msgstr "Det är inte möjligt registrera betalningar för diverse verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You cannot reset to draft a locked journal entry."
+msgstr "Det är inte möjligt att återställa en låst verifikat till utkast."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You cannot reset to draft a tax cash basis journal entry."
+msgstr ""
+"Det är inte möjligt att återställa en verifikat enligt kontantmetoden till "
+"utkast."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You cannot reset to draft an exchange difference journal entry."
+msgstr ""
+"Det är inte möjligt att återställa en verifikat för en växlingsskillnad till"
+" utkast."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_account.py:0
+msgid ""
+"You cannot set a currency on this account as it already has some journal "
+"entries having a different foreign currency."
+msgstr ""
+"Det är inte möjligt att ange en valuta för det här kontot eftersom det redan"
+" har några verifikat med en annan utländsk valuta."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+msgid ""
+"You cannot use this wizard on journal entries belonging to different "
+"companies."
+msgstr ""
+"Det är inte möjligt att använda den här guiden med verifikat som tillhör "
+"olika företag."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"You have to configure the 'Exchange Gain or Loss Journal' in your company "
+"settings, to manage automatically the booking of accounting entries related "
+"to differences between exchange rates."
+msgstr ""
+"Du bör ställa in en journal för 'vinst eller förlust vid valutaomvandling' i"
+" företagets inställningar för att automatiskt hantera bokföringen av "
+"verifikat relaterade till växelkursskillnader."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"You should configure the 'Gain Exchange Rate Account' in your company "
+"settings, to manage automatically the booking of accounting entries related "
+"to differences between exchange rates."
+msgstr ""
+"Du bör ställa in 'kontot för vinst vid valutaomvandling' i företagets "
+"inställningar för att automatiskt hantera bokföringen av verifikat "
+"relaterade till växelkursskillnader."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid ""
+"You should configure the 'Loss Exchange Rate Account' in your company "
+"settings, to manage automatically the booking of accounting entries related "
+"to differences between exchange rates."
+msgstr ""
+"Du bör ställa in 'kontot för förluster vid valutaomvandling' i företagets "
+"inställningar för att automatiskt hantera bokföringen av verifikat "
+"relaterade till växelkursskillnader."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
+msgid "e.g. My Company"
+msgstr "t.ex. Mitt bolag"

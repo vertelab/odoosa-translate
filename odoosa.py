@@ -413,7 +413,7 @@ def build_edition(edition, modules=None):
 
         # i18n_extra/sv.po = våra avvikelser
         extra = build_i18n_extra(module, res["merged"])
-        write_if_changed(out_extra / module / "sv.po", str(extra))
+        write_if_changed(out_extra / module / "i18n_extra" / "sv.po", str(extra))
 
         # diff.po = granskning
         diff = polib.POFile()

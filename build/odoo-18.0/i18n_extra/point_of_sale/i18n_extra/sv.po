@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-point_of_sale\n"
+"POT-Creation-Date: 2026-08-14 12:31\n"
+"PO-Revision-Date: 2026-08-14 12:31\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid ""
+"Choose a specific fiscal position at the order depending on the kind of "
+"customer (tax exempt, onsite vs. takeaway, etc.)."
+msgstr ""
+"Välj en specifik skatteområde vid beställningen beroende på typ av kund "
+"(skattebefriad, på plats vs. takeaway, etc.)."
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__company_has_template
+#: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_company_has_template
+msgid "Company has chart of accounts"
+msgstr "Bolaget har en kontoplan"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_session__is_in_company_currency
+msgid "Is Using Company Currency"
+msgstr "Använder bolagets valuta"
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.js:0
+msgid ""
+"The fiscal position used in the original order is not loaded. Make sure it "
+"is loaded by adding it in the pos configuration."
+msgstr ""
+"Den skatteområde som användes i den ursprungliga ordern är inte laddad. Se "
+"till att den är laddad genom att lägga till den i pos-konfigurationen."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "Use fiscal positions to get different taxes by order"
+msgstr "Använd skatteområden för att få olika skatter i ordning"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid "e.g. Company Address, Website"
+msgstr "t.ex. bolagsadress, webbplats"

@@ -1,0 +1,47 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-account_edi_ubl_cii\n"
+"POT-Creation-Date: 2026-08-14 12:31\n"
+"PO-Revision-Date: 2026-08-14 12:31\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
+msgid ""
+"%s should have a KVK or OIN number set in Company ID field or as Peppol "
+"e-address (EAS code 0106 or 0190)."
+msgstr ""
+"%s bör ha ett KVK- eller OIN-nummer angivet i fältet för bolags-ID eller som"
+" digital Peppol-adress (EAS-kod 0106 eller 0190)."
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
+msgid "%s should have a valid KBO/BCE number in the Company ID field"
+msgstr ""
+"%s bör ha ett giltigt KBO/BCE-nummer angivet i fältet för Bolagets ID-nummer"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0208
+msgid "Belgian Company Registry"
+msgstr "Bolagsregister i Belgien"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0191
+msgid "Estonia Company code"
+msgstr "Bolagsnummer i Estland"
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/res_partner.py:0
+msgid ""
+"The Peppol endpoint is not valid. It should contain exactly 10 digits "
+"(Company Registry number).The expected format is: 1234567890"
+msgstr ""
+"Peppol-destinationen är inte giltig. Den bör innehålla exakt 10 siffror "
+"(bolagets organisationsnummer). Det förväntade formatet är: 1234567890"

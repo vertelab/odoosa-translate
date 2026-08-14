@@ -151,7 +151,7 @@ terms:
     modules: "*"
     versions: [18, 19]
     match: longest
-    only_if_msgid: '\b(Company|Companies)\b'
+    only_if_msgid: '(?i)\b(company|companies)\b'
     note: >-
       118 moduler, 669 poster (base 115, account 84, website 48, ...). Ej
       Corporate/Business. OBS: glossary.csv har motstridiga mål (Company→Företag,

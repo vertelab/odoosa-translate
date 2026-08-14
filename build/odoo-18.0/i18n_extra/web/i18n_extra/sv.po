@@ -1,0 +1,99 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-web\n"
+"POT-Creation-Date: 2026-08-14 12:31\n"
+"PO-Revision-Date: 2026-08-14 12:31\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bold
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bubble
+#: model_terms:ir.ui.view,arch_db:web.external_layout_folder
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+#: model_terms:ir.ui.view,arch_db:web.external_layout_striped
+#: model_terms:ir.ui.view,arch_db:web.external_layout_wave
+msgid "<strong>Company address block</strong>"
+msgstr "<strong>Adressblock för bolaget</strong>"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bold
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bubble
+#: model_terms:ir.ui.view,arch_db:web.external_layout_folder
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+#: model_terms:ir.ui.view,arch_db:web.external_layout_striped
+#: model_terms:ir.ui.view,arch_db:web.external_layout_wave
+msgid "<strong>Company details block</strong>"
+msgstr "<strong>Block för bolagsuppgifter</strong>"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/burger_menu/mobile_switch_company_menu/mobile_switch_company_menu.xml:0
+#: model:ir.model,name:web.model_res_company
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_base_document_layout__company_id
+msgid "Company"
+msgstr "Bolag"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_base_document_layout__company_details
+msgid "Company Details"
+msgstr "Bolagsuppgifter"
+
+#. module: web
+#: model:ir.model,name:web.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "Bolagets dokumentlayout"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_base_document_layout__logo
+msgid "Company Logo"
+msgstr "Bolagslogo"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_base_document_layout__name
+msgid "Company Name"
+msgstr "Bolagsnamn"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_base_document_layout__report_header
+msgid "Company Tagline"
+msgstr "Bolagets slogan"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.frontend_layout
+msgid "Company name"
+msgstr "Bolagsnamn"
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bold
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bubble
+#: model_terms:ir.ui.view,arch_db:web.external_layout_folder
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+#: model_terms:ir.ui.view,arch_db:web.external_layout_striped
+#: model_terms:ir.ui.view,arch_db:web.external_layout_wave
+msgid "Company tagline"
+msgstr "Bolagets slogan"
+
+#. module: web
+#: model:ir.model.fields,help:web.field_base_document_layout__report_header
+msgid ""
+"Company tagline, which is included in a printed document's header or footer "
+"(depending on the selected layout)."
+msgstr ""
+"Bolagets slogan, som inkluderas i ett tryckt dokuments sidhuvud eller sidfot"
+" (beroende på vald layout)."
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_base_document_layout__is_company_details_empty
+msgid "Is Company Details Empty"
+msgstr "Is Bolagsuppgifter Tom"

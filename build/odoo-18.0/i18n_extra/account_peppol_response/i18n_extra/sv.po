@@ -1,0 +1,20 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-account_peppol_response\n"
+"POT-Creation-Date: 2026-08-14 12:31\n"
+"PO-Revision-Date: 2026-08-14 12:31\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: account_peppol_response
+#: model:ir.model,name:account_peppol_response.model_res_company
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: account_peppol_response
+#: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__company_id
+msgid "Company"
+msgstr "Bolag"
