@@ -548,9 +548,9 @@ def publish(dry_run=False, message=None):
     if git(["git", "config", "user.email"], check=False).returncode != 0:
         git(["git", "config", "user.email", "odoosa@vertel.se"])
 
-    # Stega: artefakter + regler + ordlista + pipeline + rapporter + gitignore
+    # Stega: artefakter + regler + ordlista + pipeline + rapporter + docs
     git(["git", "add", "-A", "build/", "reports/", "rules/", "glossary.csv",
-         "odoosa.py", "odoo18-sv-translations.txt", ".gitignore"])
+         "odoosa.py", "odoo18-sv-translations.txt", "README.md", "docs/", ".gitignore"])
 
     staged = git(["git", "diff", "--cached", "--name-only"], check=False).stdout.strip()
     if not staged:
