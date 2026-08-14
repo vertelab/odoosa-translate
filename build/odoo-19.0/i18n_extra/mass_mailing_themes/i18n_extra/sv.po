@@ -1,0 +1,25 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-mass_mailing_themes\n"
+"POT-Creation-Date: 2026-08-14 12:54\n"
+"PO-Revision-Date: 2026-08-14 12:54\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
+msgid "Being a Mature Company"
+msgstr "Att vara ett moget bolag"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_coffeebreak_template
+msgid "Company News"
+msgstr "Nyheter om bolaget"
+
+#. module: mass_mailing_themes
+#: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_coffeebreak_template
+msgid "Infographic: Our Company Throughout The Generations"
+msgstr "Infografik: Vårt bolag genom generationerna"

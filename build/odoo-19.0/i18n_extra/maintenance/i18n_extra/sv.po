@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-maintenance\n"
+"POT-Creation-Date: 2026-08-14 12:54\n"
+"PO-Revision-Date: 2026-08-14 12:54\n"
+"Last-Translator: odoosa-translate\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: maintenance
+#: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__company_id
+#: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__company_id
+#: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__company_id
+#: model:ir.model.fields,field_description:maintenance.field_maintenance_request__company_id
+#: model:ir.model.fields,field_description:maintenance.field_maintenance_team__company_id
+msgid "Company"
+msgstr "Bolag"
