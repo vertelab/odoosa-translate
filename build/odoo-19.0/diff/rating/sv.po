@@ -3,3 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-rating\n"
 "Language: sv\n"
+
+#. module: rating
+# override | officiell: '" eller så kan någon från samma företag ge det ett
+# betyg.'
+msgid "\" or someone from the same company can give it a rating."
+msgstr "\" eller så kan någon från samma bolag ge det ett betyg."

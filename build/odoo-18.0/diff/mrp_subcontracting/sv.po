@@ -4,6 +4,37 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mrp_subcontracting\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: mrp_subcontracting
+# override | officiell: 'Markera denna ruta för att skapa en ny särskild
+# underleverantörsplats för detta företag. Observera att standardrutterna för
+# underleverantörer kommer att anpassas så att de automatiskt tar hänsyn till
+# dessa.'
+msgid ""
+"Check this box to create a new dedicated subcontracting location for this "
+"company. Note that standard subcontracting routes will be adapted so as to "
+"take these into account automatically."
+msgstr ""
+"Markera denna ruta för att skapa en ny särskild underleverantörsplats för "
+"detta bolag. Observera att standardrutterna för underleverantörer kommer att"
+" anpassas så att de automatiskt tar hänsyn till dessa."
+
+#. module: mrp_subcontracting
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
+
+#. module: mrp_subcontracting
+# override | officiell: 'För att kunna hantera lager på ett korrekt sätt måste
+# underleverantörsplatser vara av typen internt, kopplade till rätt företag.'
+msgid ""
+"In order to manage stock accurately, subcontracting locations must be type "
+"Internal, linked to the appropriate company."
+msgstr ""
+"För att kunna hantera lager på ett korrekt sätt måste "
+"underleverantörsplatser vara av typen internt, kopplade till rätt bolag."
+
+#. module: mrp_subcontracting
+# override | officiell: 'Du kan inte ändra företagets plats för
+# underleverantörer'
+msgid "You cannot alter the company's subcontracting location"
+msgstr "Du kan inte ändra bolagets plats för underleverantörer"

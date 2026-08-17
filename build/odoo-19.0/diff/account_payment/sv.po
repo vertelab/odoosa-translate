@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-account_payment\n"
 "Language: sv\n"
+
+#. module: account_payment
+# override | officiell: 'Förfallna fakturor bör ha samma företag angivet.'
+msgid "Overdue invoices should share the same company."
+msgstr "Förfallna fakturor bör ha samma bolag angivet."

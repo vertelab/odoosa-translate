@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-hr_skills\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -20,3 +20,8 @@ msgstr "Bolag"
 #: model_terms:ir.ui.view,arch_db:hr_skills.report_employee_cv_company
 msgid "Demo Company Name"
 msgstr "Demo Bolagsnamn"
+
+#. module: hr_skills
+#: model_terms:hr.resume.line,description:hr_skills.employee_resume_chs_davis_plc
+msgid "Secretary, company"
+msgstr "Sekreterare, bolag"

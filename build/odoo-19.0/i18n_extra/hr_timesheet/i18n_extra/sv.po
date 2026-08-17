@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-hr_timesheet\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -18,3 +18,27 @@ msgstr "Bolag"
 #: model:ir.model.fields,field_description:hr_timesheet.field_timesheets_analysis_report__company_id
 msgid "Company"
 msgstr "Bolag"
+
+#. module: hr_timesheet
+#. odoo-python
+#: code:addons/hr_timesheet/models/res_company.py:0
+msgid "The Internal Project of a company should be in that company."
+msgstr "Ett bolags interna projekt bör ligga inom bolaget."
+
+#. module: hr_timesheet
+#. odoo-python
+#: code:addons/hr_timesheet/models/hr_timesheet.py:0
+msgid ""
+"The project, the task and the analytic accounts of the timesheet must belong"
+" to the same company."
+msgstr ""
+"Projektet, uppgiften och de analytiska kontona i tidrapporten måste tillhöra"
+" samma bolag."
+
+#. module: hr_timesheet
+#. odoo-python
+#: code:addons/hr_timesheet/models/hr_timesheet.py:0
+msgid ""
+"Timesheets must be created with an active employee in the selected "
+"companies."
+msgstr "Tidrapporter måste skapas med en aktiv anställd i de valda bolagen."

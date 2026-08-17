@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-base_setup\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -27,6 +27,16 @@ msgstr ""
 "                                        Bolag\n"
 "                                    </span>\n"
 "                                    <br/>"
+
+#. module: base_setup
+#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid "Automatically enrich your contact base with company data"
+msgstr "Berika automatiskt din kontaktbas med bolagsuppgifter"
+
+#. module: base_setup
+#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid "Automatically generate counterpart documents in recipient companies"
+msgstr "Generera automatiskt motpartsdokument i mottagande bolag"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -64,6 +74,21 @@ msgid "Is Root Company"
 msgstr "Bolaget Is Root"
 
 #. module: base_setup
+#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid "Manage Companies"
+msgstr "Hantera bolag"
+
+#. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_count
 msgid "Number of Companies"
 msgstr "Antal bolag"
+
+#. module: base_setup
+#: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+msgid ""
+"When populating your address book, Odoo provides a list of matching "
+"companies. When selecting one item, the company data and logo are auto-"
+"filled."
+msgstr ""
+"När du fyller i din adressbok ger Odoo en lista över matchande bolag. När du"
+" väljer ett objekt fylls bolagsdata och logotyp i automatiskt."

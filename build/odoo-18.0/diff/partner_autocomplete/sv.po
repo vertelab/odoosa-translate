@@ -4,6 +4,13 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-partner_autocomplete\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: partner_autocomplete
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
+
+#. module: partner_autocomplete
+# override | officiell: 'Kunde inte fylla i företagsuppgifter (ingen
+# kreditpoäng förbrukades).'
+msgid "Unable to enrich company (no credit was consumed)."
+msgstr "Kunde inte fylla i bolagsuppgifter (ingen kreditpoäng förbrukades)."

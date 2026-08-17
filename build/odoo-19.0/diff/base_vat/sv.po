@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-base_vat\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: base_vat
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"

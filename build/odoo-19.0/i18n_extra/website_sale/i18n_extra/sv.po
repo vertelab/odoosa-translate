@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website_sale\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,16 @@ msgid "Company Name"
 msgstr "Bolagsnamn"
 
 #. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.s_mega_menu_images_subtitles
+#: model_terms:ir.ui.view,arch_db:website_sale.s_mega_menu_little_icons
+msgid ""
+"Created in 2021, the company is young and dynamic. Discover the composition "
+"of the team and their skills."
+msgstr ""
+"Bolaget bildades 2021 och är ungt och dynamiskt. Upptäck teamets "
+"sammansättning och deras kompetens."
+
+#. module: website_sale
 #. odoo-python
 #: code:addons/website_sale/models/product_pricelist.py:0
 msgid ""
@@ -29,3 +39,31 @@ msgid ""
 msgstr ""
 "Endast bolagets hemsidor är tillåtna.\n"
 "Lämna bolagsfältet tomt eller välj en webbplats från det bolaget."
+
+#. module: website_sale
+#. odoo-python
+#: code:addons/website_sale/models/sale_order.py:0
+msgid ""
+"The company of the website you are trying to sell from (%(website_company)s)"
+" is different than the one you want to use (%(company)s)"
+msgstr ""
+"Bolaget på webbplatsen som du försöker sälja från (%(website_company)s) är "
+"ett annat än det du vill använda (%(company)s)"
+
+#. module: website_sale
+msgid ""
+"<small class=\"form-text text-muted\">Changing company name or VAT number is"
+" not allowed once document(s) have been issued for your account. Please "
+"contact us directly for this operation.</small>"
+msgstr ""
+"<small class=\"form-text text-muted\">Det är inte tillåtet att ändra "
+"bolagsnamn eller momsnummer när dokument har utfärdats för ditt konto. "
+"Kontakta oss direkt för denna åtgärd.</small>"
+
+#. module: website_sale
+msgid ""
+"Changing company name is not allowed once document(s) have been issued for "
+"your account. Please contact us directly for this operation."
+msgstr ""
+"Det är inte tillåtet att ändra bolagsnamn när dokument har utfärdats för "
+"ditt konto. Kontakta oss direkt för denna åtgärd."

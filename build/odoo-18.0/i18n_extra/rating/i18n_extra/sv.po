@@ -2,9 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-rating\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: rating
+#: model_terms:ir.ui.view,arch_db:rating.rating_external_page_invalid_partner
+msgid "\" or someone from the same company can give it a rating."
+msgstr "\" eller så kan någon från samma bolag ge det ett betyg."

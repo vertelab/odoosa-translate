@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_crm\n"
 "Language: sv\n"
 
-#. override | officiell: 'Ditt företag'
+#. module: website_crm
+# override | officiell: 'Ditt företag'
 msgid "Your Company"
 msgstr "Ditt bolag"

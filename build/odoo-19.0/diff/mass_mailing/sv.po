@@ -4,14 +4,68 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mass_mailing\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: mass_mailing
+# override | officiell: 'Bästa praxis för att digitalisera ditt företag'
+msgid "Best practices to digitize your company"
+msgstr "Bästa praxis för att digitalisera ditt bolag"
+
+#. module: mass_mailing
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagsnamn'
+#. module: mass_mailing
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. override | officiell: 'Infografik: Vårt företag genom generationerna'
+#. module: mass_mailing
+# override | officiell: 'Tony är företagets grundare och främsta visionär och
+# den drivande kraften bakom företaget. Han älskar\n
+# att hålla händerna fulla genom att delta i utvecklingen av programvaran,\n
+# marknadsföring och strategier för kundupplevelsen.'
+msgid ""
+"Founder and chief visionary, Tony is the driving force behind the company. He loves\n"
+"                                to keep his hands full by participating in the development of the software,\n"
+"                                marketing, and customer experience strategies."
+msgstr ""
+"Tony är bolagets grundare och främsta visionär och den drivande kraften bakom bolaget. Han älskar\n"
+"                                att hålla händerna fulla genom att delta i utvecklingen av programvaran,\n"
+"                                marknadsföring och strategier för kundupplevelsen."
+
+#. module: mass_mailing
+# override | officiell: 'Iris, med sin internationella erfarenhet, hjälper oss
+# att enkelt förstå siffrorna och förbättra dem. Hon är fast besluten att
+# driva framgång och använder sin yrkesskicklighet för att ta företaget till
+# nästa nivå.'
+msgid ""
+"Iris, with her international experience, helps us easily understand the "
+"numbers and improves them. She is determined to drive success and delivers "
+"her professional acumen to bring the company to the next level."
+msgstr ""
+"Iris, med sin internationella erfarenhet, hjälper oss att enkelt förstå "
+"siffrorna och förbättra dem. Hon är fast besluten att driva framgång och "
+"använder sin yrkesskicklighet för att ta bolaget till nästa nivå."
+
+#. module: mass_mailing
+# override | officiell: 'Mich älskar att ta sig an utmaningar. Med sin
+# mångåriga erfarenhet som Commercial Director inom mjukvarubranschen har Mich
+# hjälpt företaget att nå dit det är idag. Mich är en av de bästa hjärnorna.'
+msgid ""
+"Mich loves taking on challenges. With his multi-year experience as "
+"Commercial Director in the software industry, Mich has helped the company to"
+" get where it is today. Mich is among the best minds."
+msgstr ""
+"Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
+"Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
+"dit det är idag. Mich är en av de bästa hjärnorna."
+
+#. module: mass_mailing
+# override | officiell: 'Vill du importera land, företagsnamn och mer?'
+msgid "Want to import country, company name and more?"
+msgstr "Vill du importera land, bolagsnamn och mer?"
+
+#. module: mass_mailing
+# override | officiell: 'Infografik: Vårt företag genom generationerna'
 msgid "Infographic: Our Company Throughout The Generations"
 msgstr "Infografik: Vårt bolag genom generationerna"

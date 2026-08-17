@@ -3,3 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-sale_stock\n"
 "Language: sv\n"
+
+#. module: sale_stock
+# override | officiell: 'Du måste ha ett lager för linje som använder en
+# leverans i olika företag.'
+msgid ""
+"You must have a warehouse for line using a delivery in different company."
+msgstr ""
+"Du måste ha ett lager för linje som använder en leverans i olika bolag."

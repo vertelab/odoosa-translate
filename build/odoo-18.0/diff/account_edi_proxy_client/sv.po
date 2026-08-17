@@ -4,10 +4,18 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_edi_proxy_client\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: account_edi_proxy_client
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: account_edi_proxy_client
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: account_edi_proxy_client
+# override | officiell: 'Företaget har redan en aktiv användare för denna EDI-
+# typ'
+msgid "This company has an active user already created for this EDI type"
+msgstr "Bolaget har redan en aktiv användare för denna EDI-typ"

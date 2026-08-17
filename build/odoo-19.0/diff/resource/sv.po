@@ -4,10 +4,42 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-resource\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: resource
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: resource
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: resource
+# override | officiell: 'Om det är tomt är detta en generisk ledighet för
+# företaget. Om en resurs är angiven är ledigheten endast för denna resurs'
+msgid ""
+"If empty, this is a generic time off for the company. If a resource is set, "
+"the time off is only for this resource"
+msgstr ""
+"Om det är tomt är detta en generisk ledighet för bolaget. Om en resurs är "
+"angiven är ledigheten endast för denna resurs"
+
+#. module: resource
+# override | officiell: 'Antal timmar att arbeta enligt företagets schema för
+# att betraktas som heltid.'
+msgid ""
+"Number of hours to work on the company schedule to be considered as "
+"fulltime."
+msgstr ""
+"Antal timmar att arbeta enligt bolagets schema för att betraktas som heltid."
+
+#. module: resource
+# override | officiell: 'När det är aktiverat kommer det att tillåta anställda
+# att arbeta flexibelt, utan att förlita sig på företagets arbetsschema
+# (arbetstid).'
+msgid ""
+"When enabled, it will allow employees to work flexibly, without relying on "
+"the company's working schedule (working hours)."
+msgstr ""
+"När det är aktiverat kommer det att tillåta anställda att arbeta flexibelt, "
+"utan att förlita sig på bolagets arbetsschema (arbetstid)."

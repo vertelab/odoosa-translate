@@ -4,6 +4,28 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-sale_pdf_quote_builder\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: sale_pdf_quote_builder
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: sale_pdf_quote_builder
+# override | officiell: 'Tillhandahåll sidhuvud och sidfot för att komponera
+# en attraktiv offert med mer information\n                        om ditt
+# företag, dina produkter och dina tjänster. <br />\n
+# Pdf:en av dina offerter kommer att byggas genom att sätta ihop rubriksidor,
+# produktbeskrivningar,\n                        detaljer om offerten och
+# sedan sidfotssidorna. <br/>\n                        Om den är tom kommer
+# den att använda de som definierats i företagsinställningarna. <br/>'
+msgid ""
+"Provide header pages and footer pages to compose an attractive quotation with more information\n"
+"                        about your company, your products and you services. <br/>\n"
+"                        The pdf of your quotes will be built by putting together header pages, product descriptions,\n"
+"                        details of the quote and then the footer pages. <br/>\n"
+"                        If empty, it will use those define in the company settings. <br/>"
+msgstr ""
+"Tillhandahåll sidhuvud och sidfot för att komponera en attraktiv offert med mer information\n"
+"                        om ditt bolag, dina produkter och dina tjänster. <br />\n"
+"                        Pdf:en av dina offerter kommer att byggas genom att sätta ihop rubriksidor, produktbeskrivningar,\n"
+"                        detaljer om offerten och sedan sidfotssidorna. <br/>\n"
+"                        Om den är tom kommer den att använda de som definierats i bolagsinställningarna. <br/>"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-sms\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -13,3 +13,12 @@ msgstr ""
 #: model:ir.model,name:sms.model_res_company
 msgid "Companies"
 msgstr "Bolag"
+
+#. module: sms
+#: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
+msgid ""
+"Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
+"                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
+msgstr ""
+"Ditt avsändarnamn måste vara mellan 3 och 11 tecken långt och får endast innehålla alfanumeriska tecken.\n"
+"                        Det måste passa ditt bolagsnamn, och du får inte ändra det när du väl har registrerat ett, välj det noggrant."

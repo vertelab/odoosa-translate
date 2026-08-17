@@ -2,12 +2,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-stock\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/product_strategy.py:0
+#: code:addons/stock/models/stock_location.py:0
+#: code:addons/stock/models/stock_orderpoint.py:0
+#: code:addons/stock/models/stock_picking.py:0
+#: code:addons/stock/models/stock_warehouse.py:0
+msgid ""
+"Changing the company of this record is forbidden at this point, you should "
+"rather archive it and create a new one."
+msgstr ""
+"Det är inte tillåtet att ändra bolaget på det här dokumentet, du bör hellre "
+"arkivera det och skapa ett nytt."
 
 #. module: stock
 #: model:ir.model,name:stock.model_res_company
@@ -43,6 +57,19 @@ msgid "Company"
 msgstr "Bolag"
 
 #. module: stock
+#: model:ir.model.fields,help:stock.field_stock_route__company_id
+#: model:ir.model.fields,help:stock.field_stock_rule__route_company_id
+msgid "Leave this field empty if this route is shared between all companies"
+msgstr "Lämna detta fält tomt om rutten delas av alla bolag"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_location__company_id
+#: model:ir.model.fields,help:stock.field_stock_quant__company_id
+#: model:ir.model.fields,help:stock.field_stock_quant_relocate__company_id
+msgid "Let this field empty if this location is shared between companies"
+msgstr "Lämna detta fält tomt om platsen delas av flera bolag"
+
+#. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
 "My Company (Chicago) undertakes to do its best to supply performant services"
@@ -60,6 +87,93 @@ msgstr ""
 "slutkonsument riktar mot kunden."
 
 #. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_warehouse.py:0
+msgid "Please create a warehouse for company %s."
+msgstr "Vänligen skapa ett lager för bolaget %s."
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_rule__route_company_id
 msgid "Route Company"
 msgstr "Ruttbolag"
+
+#. module: stock
+#: model:ir.model.constraint,message:stock.constraint_stock_location_barcode_company_uniq
+msgid "The barcode for a location must be unique per company!"
+msgstr "Streckkoden för en plats måste vara unik för varje bolag!"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_lot.py:0
+msgid ""
+"The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
+"The following combinations contain duplicates:\n"
+"%(error_lines)s"
+msgstr ""
+"Kombinationen av parti-/serienummer och produkt måste vara unik inom ett bolag, även när inget bolag har definierats.\n"
+"Följande kombinationer innehåller dubbletter:\n"
+"%(error_lines)s"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_warehouse__company_id
+msgid "The company is automatically set from your user preferences."
+msgstr "Bolaget ställs automatiskt in från dina användarpreferenser."
+
+#. module: stock
+#: model:ir.model.constraint,message:stock.constraint_stock_warehouse_warehouse_name_uniq
+msgid "The name of the warehouse must be unique per company!"
+msgstr "Namnet på lagerplatsen måste vara unikt för varje bolag!"
+
+#. module: stock
+#: model:ir.model.constraint,message:stock.constraint_stock_warehouse_warehouse_code_uniq
+msgid "The short name of the warehouse must be unique per company!"
+msgstr "Kortnamnet på lagret måste vara unikt per bolag!"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/product.py:0
+msgid ""
+"This product's company cannot be changed as long as there are quantities of "
+"it belonging to another company."
+msgstr ""
+"Denna produkts bolag kan inte ändras så länge det finns kvantiteter av den "
+"som tillhör ett annat bolag."
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/product.py:0
+msgid ""
+"This product's company cannot be changed as long as there are stock moves of"
+" it belonging to another company."
+msgstr ""
+"Denna produkts bolag kan inte ändras så länge det finns lagerflyttar av den "
+"som tillhör ett annat bolag."
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_quant.py:0
+msgid ""
+"You can only move positive quantities stored in locations used by a single "
+"company per relocation."
+msgstr ""
+"Du kan endast flytta positiva kvantiteter som lagras på platser som används "
+"av ett enda bolag per flyttning."
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/res_config_settings.py:0
+msgid ""
+"You can't deactivate the multi-location if you have more than once warehouse"
+" by company"
+msgstr ""
+"Du kan inte avaktivera multi-location om du har mer än ett lager per bolag"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_lot.py:0
+msgid ""
+"You cannot change the company of a lot/serial number currently in a location"
+" belonging to another company."
+msgstr ""
+"Du kan inte byta bolag för ett parti-/serienummer som för närvarande finns "
+"på en plats som tillhör ett annat bolag."

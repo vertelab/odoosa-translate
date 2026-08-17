@@ -2,9 +2,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-pos_online_payment\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: pos_online_payment
+#. odoo-python
+#: code:addons/pos_online_payment/models/pos_payment_method.py:0
+msgid ""
+"All payment providers configured for an online payment method must use the "
+"same currency as the Sales Journal, or the company currency if that is not "
+"set, of the POS config."
+msgstr ""
+"Alla betalningsleverantörer som är konfigurerade för en "
+"onlinebetalningsmetod måste använda samma valuta som försäljningsjournalen, "
+"eller bolagets valuta om den inte är inställd, i POS-konfigurationen."

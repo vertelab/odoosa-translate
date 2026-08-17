@@ -4,14 +4,225 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mass_mailing_themes\n"
 "Language: sv\n"
 
-#. override | officiell: 'Att vara ett moget företag'
+#. module: mass_mailing_themes
+# override | officiell: '. Jag lade det på is i 6 år och väntade på rätt
+# tillfälle att använda det. Jag trodde att det skulle ta 3 år att avveckla
+# ett företag värt 77 miljarder dollar bara för att öppen källkod är så coolt.
+# Ibland är det bättre för din självmotivation att inte möta verkligheten...'
+msgid ""
+". I put it on hold for 6 years, waiting for the right moment to use it. I "
+"thought it would take 3 years to deprecate a 77 billion dollars company just"
+" because open source is so cool. Sometimes it's better for your self-"
+"motivation not to face reality..."
+msgstr ""
+". Jag lade det på is i 6 år och väntade på rätt tillfälle att använda det. "
+"Jag trodde att det skulle ta 3 år att avveckla ett bolag värt 77 miljarder "
+"dollar bara för att öppen källkod är så coolt. Ibland är det bättre för din "
+"självmotivation att inte möta verkligheten..."
+
+#. module: mass_mailing_themes
+# override | officiell: 'Efter några månaders pitchande av investerare fick
+# jag ungefär 10 LOI från olika riskkapitalbolag. Vi valde Sofinnova Partners,
+# det största europeiska riskkapitalbolaget, och Xavier Niel, grundaren av
+# Iliad, det enda företag i Frankrike som finansierats under de senaste 10
+# åren och som nått en värdering på 1 miljard euro.'
+msgid ""
+"After a few months of pitching investors, I got roughly 10 LOI from "
+"different VCs. We chose Sofinnova Partners, the biggest European VC, and "
+"Xavier Niel the founder of Iliad, the only company in France funded in the "
+"past 10 years to have reached the 1 billion EUR valuation."
+msgstr ""
+"Efter några månaders pitchande av investerare fick jag ungefär 10 LOI från "
+"olika riskkapitalbolag. Vi valde Sofinnova Partners, det största europeiska "
+"riskkapitalbolaget, och Xavier Niel, grundaren av Iliad, det enda bolag i "
+"Frankrike som finansierats under de senaste 10 åren och som nått en "
+"värdering på 1 miljard euro."
+
+#. module: mass_mailing_themes
+# override | officiell: 'Som vanligt borde jag ha lyssnat på min fru. Hon är
+# mycket mer klarsynt än vad jag är. Varje vecka klagade jag till henne "Det
+# är inte tillräckligt bra, vi borde växa snabbare, vad är det jag missar?"
+# och hon brukade svara: "Men ni är ju redan det snabbast växande företaget i
+# Belgien!" (Deloitte utsåg oss till'
+msgid ""
+"As usual, I should have listened to my wife. She is way more lucid than I "
+"am. Every week I complained to her \"It's not good enough, we should grow "
+"faster, what am I missing?\" and she used to reply: \"But you already are "
+"the fastest growing company in Belgium!\" (Deloitte awarded us as"
+msgstr ""
+"Som vanligt borde jag ha lyssnat på min fru. Hon är mycket mer klarsynt än "
+"vad jag är. Varje vecka klagade jag till henne \"Det är inte tillräckligt "
+"bra, vi borde växa snabbare, vad är det jag missar?\" och hon brukade svara:"
+" \"Men ni är ju redan det snabbast växande bolaget i Belgien!\" (Deloitte "
+"utsåg oss till"
+
+#. module: mass_mailing_themes
+# override | officiell: 'Att vara ett moget företag'
 msgid "Being a Mature Company"
 msgstr "Att vara ett moget bolag"
 
-#. override | officiell: 'Nyheter om företaget'
+#. module: mass_mailing_themes
+# override | officiell: 'Bästa praxis för att digitalisera ditt företag'
+msgid "Best practices to digitize your company"
+msgstr "Bästa praxis för att digitalisera ditt bolag"
+
+#. module: mass_mailing_themes
+# override | officiell: 'Nyheter om företaget'
 msgid "Company News"
 msgstr "Nyheter om bolaget"
 
-#. override | officiell: 'Infografik: Vårt företag genom generationerna'
+#. module: mass_mailing_themes
+# override | officiell: 'Upptäck Odoo, allt-i-ett-hanteringsplattformen, och
+# dess appar som är utformade för att förbättra de anställdas dagliga
+# uppgifter. Från försäljning och leveranser till logistik, marknadsföring och
+# redovisning; lär dig vilka som är de bästa tillgängliga alternativen för att
+# digitalisera ditt företag.'
+msgid ""
+"Discover Odoo, the all-in-one management platform, and its apps designed to "
+"improve employees' daily tasks. From sales and deliveries, to logistics, "
+"marketing and accounting ; learn what are the best available options to "
+"digitize your company."
+msgstr ""
+"Upptäck Odoo, allt-i-ett-hanteringsplattformen, och dess appar som är "
+"utformade för att förbättra de anställdas dagliga uppgifter. Från "
+"försäljning och leveranser till logistik, marknadsföring och redovisning; "
+"lär dig vilka som är de bästa tillgängliga alternativen för att digitalisera"
+" ditt bolag."
+
+#. module: mass_mailing_themes
+# override | officiell: 'Jag behövde förändra världen. Jag ville... Du vet hur
+# det är när man är ung; man har stora drömmar, mycket energi och naiv dumhet.
+# Min dröm var att leda marknaden för företagshantering med en programvara med
+# helt öppen källkod (jag ville också ha 100 anställda före 30 års ålder med
+# ett självfinansierat företag, men jag misslyckades med detta med bara några
+# månader).'
+msgid ""
+"I needed to change the world. I wanted to... You know how it is when you are"
+" young; you have big dreams, a lot of energy and naive stupidity. My dream "
+"was to lead the enterprise management market with a fully open source "
+"software (I also wanted to get 100 employees before 30 years old with a "
+"self-financed company but I failed this one by only a few months)."
+msgstr ""
+"Jag behövde förändra världen. Jag ville... Du vet hur det är när man är ung;"
+" man har stora drömmar, mycket energi och naiv dumhet. Min dröm var att leda"
+" marknaden för bolagshantering med en programvara med helt öppen källkod "
+"(jag ville också ha 100 anställda före 30 års ålder med ett självfinansierat"
+" bolag, men jag misslyckades med detta med bara några månader)."
+
+#. module: mass_mailing_themes
+# override | officiell: 'Jag skrev under avsiktsförklaringen. Jag insåg inte
+# att detta kontrakt kunde ha gjort mig till en hemlös person. (Jag hade redan
+# en hund, allt jag behövde var att förlora en massa pengar för att bli
+# hemlös). Kapitalanskaffningen baserades på en företagsvärdering, men det
+# fanns en finansiell mekanism för att omvärdera företaget med 9,8 miljoner
+# euro beroende på omsättningen under de kommande fyra åren. Jag skulle ha
+# fått teckningsoptioner som kunde omvandlas till aktier om vi uppnådde den
+# omsättning som angavs i affärsplanen.'
+msgid ""
+"I signed the LOI. I didn't realize that this contract could have turned me "
+"into a homeless person. (I already had a dog, all I needed was to lose a lot"
+" of money to become homeless). The fundraising was based on a company "
+"valuation but there was a financial mechanism to re-evaluate the company up "
+"by 9.8 m€ depending on the turnover of the next 4 years. I should have "
+"received warrants convertible into shares if we achieved the turnover "
+"targeted in the business plan."
+msgstr ""
+"Jag skrev under avsiktsförklaringen. Jag insåg inte att detta kontrakt kunde"
+" ha gjort mig till en hemlös person. (Jag hade redan en hund, allt jag "
+"behövde var att förlora en massa pengar för att bli hemlös). "
+"Kapitalanskaffningen baserades på en bolagsvärdering, men det fanns en "
+"finansiell mekanism för att omvärdera bolaget med 9,8 miljoner euro beroende"
+" på omsättningen under de kommande fyra åren. Jag skulle ha fått "
+"teckningsoptioner som kunde omvandlas till aktier om vi uppnådde den "
+"omsättning som angavs i affärsplanen."
+
+#. module: mass_mailing_themes
+# override | officiell: 'Om du vill utvärdera Odoo och samtidigt ta hänsyn
+# till ditt företags specifika behov kan du boka ett kostnadsfritt möte med en
+# av våra'
+msgid ""
+"If you wish to evaluate Odoo while taking into account your company's "
+"specific needs, you can book a free appointment with one of our"
+msgstr ""
+"Om du vill utvärdera Odoo och samtidigt ta hänsyn till ditt bolags specifika"
+" behov kan du boka ett kostnadsfritt möte med en av våra"
+
+#. module: mass_mailing_themes
+# override | officiell: 'I maj 2014 bytte vi namn på företaget och produkten
+# till Odoo.'
+msgid "In May 2014, we renamed the company and product to Odoo."
+msgstr "I maj 2014 bytte vi namn på bolaget och produkten till Odoo."
+
+#. module: mass_mailing_themes
+# override | officiell: 'Infografik: Vårt företag genom generationerna'
 msgid "Infographic: Our Company Throughout The Generations"
 msgstr "Infografik: Vårt bolag genom generationerna"
+
+#. module: mass_mailing_themes
+# override | officiell: 'Att göra företag till en bättre plats, en app i
+# taget'
+msgid "Making companies a better place, one app at a time"
+msgstr "Att göra bolag till en bättre plats, en app i taget"
+
+#. module: mass_mailing_themes
+# override | officiell: 'Den nya finansieringen kommer att bidra till att
+# påskynda den enastående tillväxt som företaget har sett under de senaste
+# åren, vilket möjliggör en fördubbling av den kommersiella styrkan och ökad
+# FoU-personal - redan 100+ personer starka.'
+msgid ""
+"The new financing will support the acceleration of the outstanding growth "
+"the company has seen over the last years, enabling the doubling of the "
+"commercial force and increased R&amp;D staff - already 100+ people strong."
+msgstr ""
+"Den nya finansieringen kommer att bidra till att påskynda den enastående "
+"tillväxt som bolaget har sett under de senaste åren, vilket möjliggör en "
+"fördubbling av den kommersiella styrkan och ökad FoU-personal - redan 100+ "
+"personer starka."
+
+#. module: mass_mailing_themes
+# override | officiell: 'Vi ville gå från att vara ett serviceföretag till att
+# bli ett programvaruföretag. Detta skulle göra det möjligt för oss att öka
+# våra insatser inom forskning och utveckling. Som ett resultat av detta,'
+msgid ""
+"We wanted to switch from a service company to a software publisher company. "
+"This would allow us to increase our efforts in our research and development "
+"activities. As a result,"
+msgstr ""
+"Vi ville gå från att vara ett servicebolag till att bli ett "
+"programvarubolag. Detta skulle göra det möjligt för oss att öka våra "
+"insatser inom forskning och utveckling. Som ett resultat av detta,"
+
+#. module: mass_mailing_themes
+# override | officiell: 'Med dessa pengar på vårt bankkonto förstärkte vi två
+# avdelningar: FoU och försäljning. Vi brände 2 miljoner euro på 18 månader,
+# främst i löner. Företaget började växa ännu snabbare. Vi utvecklade ett
+# partnernätverk med 500 partners i 100 länder och vi började skriva kontrakt
+# med 6 nollor.'
+msgid ""
+"With this money in our bank account, we boosted two departments: R&amp;D and"
+" Sales. We burned 2 million EUR in 18 months, mostly in salaries. The "
+"company started to grow even faster. We developed a partner network of 500 "
+"partners in 100 countries and we started to sign contracts with 6 zeros."
+msgstr ""
+"Med dessa pengar på vårt bankkonto förstärkte vi två avdelningar: FoU och "
+"försäljning. Vi brände 2 miljoner euro på 18 månader, främst i löner. "
+"Bolaget började växa ännu snabbare. Vi utvecklade ett partnernätverk med 500"
+" partners i 100 länder och vi började skriva kontrakt med 6 nollor."
+
+#. module: mass_mailing_themes
+# override | officiell: 'Du kan sedan delta i rundabordssamtal med experter
+# som kommer att ge dig sina tips och tricks för att digitalisera företag. Vi
+# avslutar evenemanget med en nätverkssession inklusive en middag.'
+msgid ""
+"You may then take part in round table discussions with experts who will give"
+" you their tips and tricks to help digitize companies. We'll wrap up the "
+"event with a networking session including a walking dinner."
+msgstr ""
+"Du kan sedan delta i rundabordssamtal med experter som kommer att ge dig "
+"sina tips och tricks för att digitalisera bolag. Vi avslutar evenemanget med"
+" en nätverkssession inklusive en middag."
+
+#. module: mass_mailing_themes
+# override | officiell: 'det snabbast växande företaget i Belgien'
+msgid "the fastest growing company of Belgium"
+msgstr "det snabbast växande bolaget i Belgien"

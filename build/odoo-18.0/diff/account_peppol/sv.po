@@ -4,41 +4,55 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_peppol\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: account_peppol
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: account_peppol
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagets namn'
+#. module: account_peppol
+# override | officiell: 'Företagets namn'
 msgid "Company Name"
 msgstr "Bolagets namn"
 
-#. override | officiell: 'Överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Överordnat företag'
 msgid "Parent Company"
 msgstr "Överordnat bolag"
 
-#. override | officiell: 'Peppol överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Peppol-ID bör skilja sig från huvudföretaget.'
+msgid "Peppol ID should be different from main company."
+msgstr "Peppol-ID bör skilja sig från huvudbolaget."
+
+#. module: account_peppol
+# override | officiell: 'Peppol överordnat företag'
 msgid "Peppol Parent Company"
 msgstr "Peppol överordnat bolag"
 
-#. override | officiell: 'Peppol namn på överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Peppol namn på överordnat företag'
 msgid "Peppol Parent Company Name"
 msgstr "Peppol namn på överordnat bolag"
 
-#. override | officiell: 'Peppol använd överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Peppol använd överordnat företag'
 msgid "Peppol Use Parent Company"
 msgstr "Peppol använd överordnat bolag"
 
-#. override | officiell: 'Utvalda företag'
+#. module: account_peppol
+# override | officiell: 'Utvalda företag'
 msgid "Selected Company"
 msgstr "Utvalda bolag"
 
-#. override | officiell: 'Du är på väg att använda ett momsregistreringsnummer
-#. för att registrera dig. Försäkra dig om att du registrerar dig med ditt
-#. företagsregisternummer (BCE/KBO) för att följa gällande lagstiftning.'
+#. module: account_peppol
+# override | officiell: 'Du är på väg att använda ett momsregistreringsnummer
+# för att registrera dig. Försäkra dig om att du registrerar dig med ditt
+# företagsregisternummer (BCE/KBO) för att följa gällande lagstiftning.'
 msgid ""
 "You are about to register with your VAT number. Make sure you register with "
 "your Company Registry (BCE/KBO) first to be compliant with the new "
@@ -47,3 +61,12 @@ msgstr ""
 "Du är på väg att använda ett momsregistreringsnummer för att registrera dig."
 " Försäkra dig om att du registrerar dig med ditt bolagsregisternummer "
 "(BCE/KBO) för att följa gällande lagstiftning."
+
+#. module: account_peppol
+# override | officiell: "[PEPPOL-EN16931-R020] En digital adress (EAS) måste
+# anges för företaget '%s'."
+msgid ""
+"[PEPPOL-EN16931-R020] An electronic address (EAS) must be provided on the "
+"company '%s'."
+msgstr ""
+"[PEPPOL-EN16931-R020] En digital adress (EAS) måste anges för bolaget '%s'."

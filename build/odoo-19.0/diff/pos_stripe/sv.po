@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-pos_stripe\n"
 "Language: sv\n"
+
+#. module: pos_stripe
+# override | officiell: 'Stripe-betalningsleverantör för företaget %s saknas'
+msgid "Stripe payment provider for company %s is missing"
+msgstr "Stripe-betalningsleverantör för bolaget %s saknas"

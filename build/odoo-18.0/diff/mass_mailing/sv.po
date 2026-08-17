@@ -4,10 +4,64 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mass_mailing\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företagsnamn'
+#. module: mass_mailing
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. override | officiell: 'Mitt Företag'
+#. module: mass_mailing
+# override | officiell: 'Tony är företagets grundare och visionär och den
+# drivande kraften bakom företaget. Han älskar att ha händerna fulla genom att
+# delta i utvecklingen av strategier för programvara, marknadsföring och
+# kundupplevelse.'
+msgid ""
+"Founder and chief visionary, Tony is the driving force behind the company. "
+"He loves to keep his hands full by participating in the development of the "
+"software, marketing, and customer experience strategies."
+msgstr ""
+"Tony är bolagets grundare och visionär och den drivande kraften bakom "
+"bolaget. Han älskar att ha händerna fulla genom att delta i utvecklingen av "
+"strategier för programvara, marknadsföring och kundupplevelse."
+
+#. module: mass_mailing
+# override | officiell: 'Iris, med sin internationella erfarenhet, hjälper oss
+# att enkelt förstå siffrorna och förbättra dem. Hon är fast besluten att
+# driva framgång och använder sin yrkesskicklighet för att ta företaget till
+# nästa nivå.'
+msgid ""
+"Iris, with her international experience, helps us easily understand the "
+"numbers and improves them. She is determined to drive success and delivers "
+"her professional acumen to bring the company to the next level."
+msgstr ""
+"Iris, med sin internationella erfarenhet, hjälper oss att enkelt förstå "
+"siffrorna och förbättra dem. Hon är fast besluten att driva framgång och "
+"använder sin yrkesskicklighet för att ta bolaget till nästa nivå."
+
+#. module: mass_mailing
+# override | officiell: 'Gå med oss och gör ditt företag till en bättre
+# plats.'
+msgid "Join us and make your company a better place."
+msgstr "Gå med oss och gör ditt bolag till en bättre plats."
+
+#. module: mass_mailing
+# override | officiell: 'Mich älskar att ta sig an utmaningar. Med sin
+# mångåriga erfarenhet som Commercial Director inom mjukvarubranschen har Mich
+# hjälpt företaget att nå dit det är idag. Mich är en av de bästa hjärnorna.'
+msgid ""
+"Mich loves taking on challenges. With his multi-year experience as "
+"Commercial Director in the software industry, Mich has helped the company to"
+" get where it is today. Mich is among the best minds."
+msgstr ""
+"Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
+"Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
+"dit det är idag. Mich är en av de bästa hjärnorna."
+
+#. module: mass_mailing
+# override | officiell: 'Mitt Företag'
 msgid "My Company"
 msgstr "Mitt Bolag"
+
+#. module: mass_mailing
+# override | officiell: 'Vill du importera land, företagsnamn och mer?'
+msgid "Want to import country, company name and more?"
+msgstr "Vill du importera land, bolagsnamn och mer?"

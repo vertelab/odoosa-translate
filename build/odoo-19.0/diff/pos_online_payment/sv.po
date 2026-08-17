@@ -3,3 +3,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-pos_online_payment\n"
 "Language: sv\n"
+
+#. module: pos_online_payment
+# override | officiell: 'Alla betalningsleverantörer som är konfigurerade för
+# en onlinebetalningsmetod måste använda samma valuta som
+# försäljningsjournalen, eller företagets valuta om den inte är inställd, i
+# POS-konfigurationen.'
+msgid ""
+"All payment providers configured for an online payment method must use the "
+"same currency as the Sales Journal, or the company currency if that is not "
+"set, of the POS config."
+msgstr ""
+"Alla betalningsleverantörer som är konfigurerade för en "
+"onlinebetalningsmetod måste använda samma valuta som försäljningsjournalen, "
+"eller bolagets valuta om den inte är inställd, i POS-konfigurationen."

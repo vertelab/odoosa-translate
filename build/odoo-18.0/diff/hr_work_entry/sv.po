@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_work_entry\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: hr_work_entry
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

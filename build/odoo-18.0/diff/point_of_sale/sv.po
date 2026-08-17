@@ -4,8 +4,32 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-point_of_sale\n"
 "Language: sv\n"
 
-#. override | officiell: 'Välj en specifik skatteposition vid beställningen
-#. beroende på typ av kund (skattebefriad, på plats vs. takeaway, etc.).'
+#. module: point_of_sale
+# override | officiell: 'Alla tillgängliga prislistor måste vara i samma
+# valuta som företaget eller som försäljningsverifikaten som är inställd på
+# detta försäljningsställe om du använder bokföringsapplikationen.'
+msgid ""
+"All available pricelists must be in the same currency as the company or as "
+"the Sales Journal set on this point of sale if you use the Accounting "
+"application."
+msgstr ""
+"Alla tillgängliga prislistor måste vara i samma valuta som bolaget eller som"
+" försäljningsverifikaten som är inställd på detta försäljningsställe om du "
+"använder bokföringsapplikationen."
+
+#. module: point_of_sale
+# override | officiell: 'Alla betalningsmetoder måste vara i samma valuta som
+# försäljningsverifikaten eller företagets valuta om det inte är inställt.'
+msgid ""
+"All payment methods must be in the same currency as the Sales Journal or the"
+" company currency if that is not set."
+msgstr ""
+"Alla betalningsmetoder måste vara i samma valuta som försäljningsverifikaten"
+" eller bolagets valuta om det inte är inställt."
+
+#. module: point_of_sale
+# override | officiell: 'Välj en specifik skatteposition vid beställningen
+# beroende på typ av kund (skattebefriad, på plats vs. takeaway, etc.).'
 msgid ""
 "Choose a specific fiscal position at the order depending on the kind of "
 "customer (tax exempt, onsite vs. takeaway, etc.)."
@@ -13,17 +37,68 @@ msgstr ""
 "Välj en specifik skatteområde vid beställningen beroende på typ av kund "
 "(skattebefriad, på plats vs. takeaway, etc.)."
 
-#. override | officiell: 'Företaget har en kontoplan'
+#. module: point_of_sale
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: point_of_sale
+# override | officiell: 'Företaget har en kontoplan'
 msgid "Company has chart of accounts"
 msgstr "Bolaget har en kontoplan"
 
-#. override | officiell: 'Använder företagets valuta'
+#. module: point_of_sale
+# override | officiell: 'Omräkningskurs från företagets valuta till orderns
+# valuta.'
+msgid "Conversion rate from company currency to order currency."
+msgstr "Omräkningskurs från bolagets valuta till orderns valuta."
+
+#. module: point_of_sale
+# override | officiell: 'Se till att det finns en befintlig bankjournal.
+# Kontrollera om kontoplan finns installerad i ditt företag.'
+msgid ""
+"Ensure that there is an existing bank journal. Check if chart of accounts is"
+" installed in your company."
+msgstr ""
+"Se till att det finns en befintlig bankjournal. Kontrollera om kontoplan "
+"finns installerad i ditt bolag."
+
+#. module: point_of_sale
+# override | officiell: 'Använder företagets valuta'
 msgid "Is Using Company Currency"
 msgstr "Använder bolagets valuta"
 
-#. override | officiell: 'Den skatteposition som användes i den ursprungliga
-#. ordern är inte laddad. Se till att den är laddad genom att lägga till den i
-#. pos-konfigurationen.'
+#. module: point_of_sale
+# override | officiell: 'Lämna tomt för att använda standardkontot från
+# företagsinställningen'
+msgid "Leave empty to use the default account from the company setting"
+msgstr "Lämna tomt för att använda standardkontot från bolagsinställningen"
+
+#. module: point_of_sale
+# override | officiell: 'Lämna tomt för att använda standardkontot från
+# företagets inställning.\nÅsidosätter företagets kundfordringskonto (för
+# Point of Sale) som används i journalposterna.'
+msgid ""
+"Leave empty to use the default account from the company setting.\n"
+"Overrides the company's receivable account (for Point of Sale) used in the journal entries."
+msgstr ""
+"Lämna tomt för att använda standardkontot från bolagets inställning.\n"
+"Åsidosätter bolagets kundfordringskonto (för Point of Sale) som används i journalposterna."
+
+#. module: point_of_sale
+# override | officiell: 'Standardprislistan får inte tillhöra något företag
+# eller företaget för försäljningsstället.'
+msgid ""
+"The default pricelist must belong to no company or the company of the point "
+"of sale."
+msgstr ""
+"Standardprislistan får inte tillhöra något bolag eller bolaget för "
+"försäljningsstället."
+
+#. module: point_of_sale
+# override | officiell: 'Den skatteposition som användes i den ursprungliga
+# ordern är inte laddad. Se till att den är laddad genom att lägga till den i
+# pos-konfigurationen.'
 msgid ""
 "The fiscal position used in the original order is not loaded. Make sure it "
 "is loaded by adding it in the pos configuration."
@@ -31,11 +106,57 @@ msgstr ""
 "Den skatteområde som användes i den ursprungliga ordern är inte laddad. Se "
 "till att den är laddad genom att lägga till den i pos-konfigurationen."
 
-#. override | officiell: 'Använd skattepositioner för att få olika skatter i
-#. ordning'
+#. module: point_of_sale
+# override | officiell: 'Fakturaverifikatet måste vara i samma valuta som
+# försäljningsverifikatet eller i företagets valuta om detta inte är angivet.'
+msgid ""
+"The invoice journal must be in the same currency as the Sales Journal or the"
+" company currency if that is not set."
+msgstr ""
+"Fakturaverifikatet måste vara i samma valuta som försäljningsverifikatet "
+"eller i bolagets valuta om detta inte är angivet."
+
+#. module: point_of_sale
+# override | officiell: 'Betalningsmetoderna för försäljningsstället %s måste
+# tillhöra dess företag.'
+msgid ""
+"The payment methods for the point of sale %s must belong to its company."
+msgstr ""
+"Betalningsmetoderna för försäljningsstället %s måste tillhöra dess bolag."
+
+#. module: point_of_sale
+# override | officiell: 'De valda prislistorna får inte tillhöra något företag
+# eller företaget för försäljningsstället.'
+msgid ""
+"The selected pricelists must belong to no company or the company of the "
+"point of sale."
+msgstr ""
+"De valda prislistorna får inte tillhöra något bolag eller bolaget för "
+"försäljningsstället."
+
+#. module: point_of_sale
+# override | officiell: 'Det finns ingen kontoplan konfigurerad på företaget.
+# Gå till faktureringsinställningarna för att installera en kontoplan.'
+msgid ""
+"There is no Chart of Accounts configured on the company. Please go to the "
+"invoicing settings to install a Chart of Accounts."
+msgstr ""
+"Det finns ingen kontoplan konfigurerad på bolaget. Gå till "
+"faktureringsinställningarna för att installera en kontoplan."
+
+#. module: point_of_sale
+# override | officiell: 'Använd skattepositioner för att få olika skatter i
+# ordning'
 msgid "Use fiscal positions to get different taxes by order"
 msgstr "Använd skatteområden för att få olika skatter i ordning"
 
-#. override | officiell: 't.ex. företagsadress, webbplats'
+#. module: point_of_sale
+# override | officiell: 'Du kan inte fakturera order som hör till olika
+# företag.'
+msgid "You cannot invoice orders belonging to different companies."
+msgstr "Du kan inte fakturera order som hör till olika bolag."
+
+#. module: point_of_sale
+# override | officiell: 't.ex. företagsadress, webbplats'
 msgid "e.g. Company Address, Website"
 msgstr "t.ex. bolagsadress, webbplats"

@@ -4,18 +4,32 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_attendance\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: hr_attendance
+# override | officiell: 'Tillåt en tidsperiod (runt arbetstid) där extra tid
+# inte kommer att räknas, till förmån för företaget'
+msgid ""
+"Allow a period of time (around working hours) where extra time will not be "
+"counted, in benefit of the company"
+msgstr ""
+"Tillåt en tidsperiod (runt arbetstid) där extra tid inte kommer att räknas, "
+"till förmån för bolaget"
+
+#. module: hr_attendance
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: hr_attendance
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagslogo'
+#. module: hr_attendance
+# override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
 
-#. override | officiell: 'Toleranstid till förmån för företaget'
+#. module: hr_attendance
+# override | officiell: 'Toleranstid till förmån för företaget'
 msgid "Tolerance Time In Favor Of Company"
 msgstr "Toleranstid till förmån för bolaget"

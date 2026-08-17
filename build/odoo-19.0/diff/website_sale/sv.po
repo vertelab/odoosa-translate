@@ -4,19 +4,66 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_sale\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: website_sale
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagsnamn'
+#. module: website_sale
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. override | officiell: 'Endast företagets hemsidor är tillåtna.\nLämna
-#. företagsfältet tomt eller välj en webbplats från det företaget.'
+#. module: website_sale
+# override | officiell: 'Företaget bildades 2021 och är ungt och dynamiskt.
+# Upptäck teamets sammansättning och deras kompetens.'
+msgid ""
+"Created in 2021, the company is young and dynamic. Discover the composition "
+"of the team and their skills."
+msgstr ""
+"Bolaget bildades 2021 och är ungt och dynamiskt. Upptäck teamets "
+"sammansättning och deras kompetens."
+
+#. module: website_sale
+# override | officiell: 'Endast företagets hemsidor är tillåtna.\nLämna
+# företagsfältet tomt eller välj en webbplats från det företaget.'
 msgid ""
 "Only the company's websites are allowed.\n"
 "Leave the Company field empty or select a website from that company."
 msgstr ""
 "Endast bolagets hemsidor är tillåtna.\n"
 "Lämna bolagsfältet tomt eller välj en webbplats från det bolaget."
+
+#. module: website_sale
+# override | officiell: 'Företaget på webbplatsen som du försöker sälja från
+# (%(website_company)s) är ett annat än det du vill använda (%(company)s)'
+msgid ""
+"The company of the website you are trying to sell from (%(website_company)s)"
+" is different than the one you want to use (%(company)s)"
+msgstr ""
+"Bolaget på webbplatsen som du försöker sälja från (%(website_company)s) är "
+"ett annat än det du vill använda (%(company)s)"
+
+#. module: website_sale
+# override | officiell: '<small class="form-text text-muted">Det är inte
+# tillåtet att ändra företagsnamn eller momsnummer när dokument har utfärdats
+# för ditt konto. Kontakta oss direkt för denna åtgärd.</small>'
+msgid ""
+"<small class=\"form-text text-muted\">Changing company name or VAT number is"
+" not allowed once document(s) have been issued for your account. Please "
+"contact us directly for this operation.</small>"
+msgstr ""
+"<small class=\"form-text text-muted\">Det är inte tillåtet att ändra "
+"bolagsnamn eller momsnummer när dokument har utfärdats för ditt konto. "
+"Kontakta oss direkt för denna åtgärd.</small>"
+
+#. module: website_sale
+# override | officiell: 'Det är inte tillåtet att ändra företagsnamn när
+# dokument har utfärdats för ditt konto. Kontakta oss direkt för denna
+# åtgärd.'
+msgid ""
+"Changing company name is not allowed once document(s) have been issued for "
+"your account. Please contact us directly for this operation."
+msgstr ""
+"Det är inte tillåtet att ändra bolagsnamn när dokument har utfärdats för "
+"ditt konto. Kontakta oss direkt för denna åtgärd."

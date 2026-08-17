@@ -2,12 +2,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-mrp_subcontracting_dropshipping\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model.fields,help:mrp_subcontracting_dropshipping.field_purchase_order__default_location_dest_id_is_subcontracting_loc
+msgid ""
+"Check this box to create a new dedicated subcontracting location for this "
+"company. Note that standard subcontracting routes will be adapted so as to "
+"take these into account automatically."
+msgstr ""
+"Markera denna ruta för att skapa en ny särskild underleverantörsplats för "
+"detta bolag. Observera att standardrutterna för underleverantörer kommer att"
+" anpassas så att de automatiskt tar hänsyn till dessa."
 
 #. module: mrp_subcontracting_dropshipping
 #: model:ir.model,name:mrp_subcontracting_dropshipping.model_res_company

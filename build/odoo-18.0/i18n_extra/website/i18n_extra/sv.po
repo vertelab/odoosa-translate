@@ -2,17 +2,56 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel_minimal
+msgid ""
+"\" This company transformed our business. <br/>Their solutions are "
+"innovative and reliable. \""
+msgstr ""
+"\" Det här bolaget förändrade vår verksamhet. <br/> Deras lösningar är "
+"innovativa och pålitliga. \""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_cta_card
+msgid ""
+"50,000+ companies run Odoo <br class=\"d-none d-lg-inline\"/>to grow their "
+"businesses."
+msgstr ""
+"50 000+ bolag använder Odoo <br class=\"d-none d-lg-inline\"/>för att "
+"utveckla sina verksamheter."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_call_to_action
+#: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
+msgid "50,000+ companies run Odoo to grow their businesses."
+msgstr "över 50 000 bolag använder Odoo för att utveckla sin verksamhet."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_cta_box
+msgid "50,000+ companies run Odoo<br/>to grow their businesses."
+msgstr "50 000+ bolag använder Odoo<br/>för att utveckla sina verksamheter."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_cta_mockups
+msgid "50,000+ companies trust Odoo."
+msgstr "50 000+ bolag litar på Odoo."
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_headline
 msgid "<b>Designed</b> <br/>for Companies"
 msgstr "<b>Designad</b> <br/>för bolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
+msgid "<b>Designed</b> for companies"
+msgstr "<b>Utformad</b> för bolag"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
@@ -22,6 +61,22 @@ msgid ""
 msgstr ""
 "<b>Mitt bolag</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>Förenta staterna"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_numbers_list
+msgid ""
+"<br/>From revenue growth to customer retention and market expansion, our key"
+" metrics of company achievements underscore our strategic prowess and "
+"dedication to driving sustainable business success."
+msgstr ""
+"<br/>Från intäktstillväxt till kundlojalitet och marknadsexpansion, våra "
+"nyckeltal för bolagets prestationer understryker vår strategiska skicklighet"
+" och vårt engagemang för att driva hållbar affärsframgång."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_accordion
+msgid "<span class=\"flex-grow-1\">What services does your company offer ?</span>"
+msgstr "<span class=\"flex-grow-1\">Vilka tjänster erbjuder ditt bolag?</span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.footer_copyright_company_name
@@ -43,6 +98,112 @@ msgid "<span class=\"s_website_form_label_content\">Your Company</span>"
 msgstr "<span class=\"s_website_form_label_content\">Ditt bolag</span>"
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_numbers
+msgid ""
+"Analyzing the numbers behind our success: <br class=\"d-none d-xxl-"
+"inline\"/>an in-depth look at the key metrics driving our company's "
+"achievements"
+msgstr ""
+"Objekta siffrorna bakom vår framgång: <br class=\"d-none d-xxl-inline\"/>En "
+"djupgående titt på de nyckeltal som ligger bakom vårt bolags framgångar"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_numbers_showcase
+msgid ""
+"Analyzing the numbers behind our success: an in-depth look at the key "
+"metrics driving our company's achievements."
+msgstr ""
+"Objekta siffrorna bakom vår framgång: en djupgående titt på de nyckeltal som"
+" ligger till grund för vårt bolags prestationer."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_template
+msgid "Check out what's new in our company !"
+msgstr "Kolla in vad som är nytt i vårt bolag!"
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/website.py:0
+#: model:ir.model.fields,field_description:website.field_website__company_id
+#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Company"
+msgstr "Bolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.contactus
+msgid ""
+"Contact us about anything related to our company or services.<br/>\n"
+"                                    We'll do our best to get back to you as soon as possible."
+msgstr ""
+"Kontakta oss om allt som rör vårt bolag eller våra tjänster.<br/>\n"
+"                                    Vi kommer att göra vårt bästa för att återkomma till dig så snart som möjligt."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_mega_menu_cards
+#: model_terms:ir.ui.view,arch_db:website.s_mega_menu_images_subtitles
+#: model_terms:ir.ui.view,arch_db:website.s_mega_menu_little_icons
+msgid ""
+"Created in 2021, the company is young and dynamic. Discover the composition "
+"of the team and their skills."
+msgstr ""
+"Bolaget bildades 2021 och är ungt och dynamiskt. Upptäck teamets "
+"sammansättning och deras kompetens."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_key_images
+msgid "Dive deeper into our company’s abilities."
+msgstr "Dyk djupare in i vårt bolags förmågor."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_company_team
+msgid ""
+"Founder and chief visionary, Tony is the driving force behind the company. He loves\n"
+"                                to keep his hands full by participating in the development of the software,\n"
+"                                marketing, and customer experience strategies."
+msgstr ""
+"Tony är bolagets grundare och främsta visionär och den drivande kraften bakom bolaget. Han älskar\n"
+"                                att hålla händerna fulla genom att delta i utvecklingen av programvaran,\n"
+"                                marknadsföring och strategier för kundupplevelsen."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.new_page_template_team_0_s_three_columns
+msgid ""
+"Founder and chief visionary, Tony is the driving force behind the company. "
+"He loves to keep his hands full by participating in the development of the "
+"software, marketing, and customer experience strategies."
+msgstr ""
+"Tony är bolagets grundare och visionär och den drivande kraften bakom "
+"bolaget. Han älskar att ha händerna fulla genom att delta i utvecklingen av "
+"strategier för programvara, marknadsföring och kundupplevelse."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.new_page_template_team_s_media_list
+msgid ""
+"Founder, Tony is the driving force behind the company. He loves to keep his "
+"hands full by participating in the development of the software, marketing, "
+"and UX strategies."
+msgstr ""
+"Grundaren Tony är den drivande kraften bakom bolaget. Han älskar att ha "
+"händerna fulla genom att delta i utvecklingen av programvaran, "
+"marknadsföringen och UX-strategierna."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.new_page_template_team_s_image_text
+msgid ""
+"Founder, Tony is the driving force behind the company. He loves to keep his "
+"hands full by participating in the development of the software, marketing, "
+"and customer experience."
+msgstr ""
+"Grundaren Tony är den drivande kraften bakom bolaget. Han älskar att ha "
+"händerna fulla genom att delta i utvecklingen av programvaran, "
+"marknadsföringen och kundupplevelsen."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
+msgid "Here are some common questions about our company."
+msgstr "Här är några vanliga frågor om vårt bolag."
+
+#. module: website
 #: model:ir.model.fields,help:website.field_website_configurator_feature__menu_company
 msgid ""
 "If set, add the menu as a second level menu, as a child of \"Company\" menu."
@@ -51,9 +212,67 @@ msgstr ""
 "\"Bolag\" menyn."
 
 #. module: website
+#: model:website.configurator.feature,description:website.feature_page_about_us
+msgid "Info and stats about your company"
+msgstr "Information och statistik om ditt bolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_company_team
+msgid ""
+"Iris, with her international experience, helps us easily understand the "
+"numbers and improves them. She is determined to drive success and delivers "
+"her professional acumen to bring the company to the next level."
+msgstr ""
+"Iris, med sin internationella erfarenhet, hjälper oss att enkelt förstå "
+"siffrorna och förbättra dem. Hon är fast besluten att driva framgång och "
+"använder sin yrkesskicklighet för att ta bolaget till nästa nivå."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_company_team_detail
+msgid "James leads the tech strategy and innovation efforts at the company."
+msgstr "James leder arbetet med teknisk strategi och innovation på bolaget."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_call_to_action
+#: model_terms:ir.ui.view,arch_db:website.s_cta_card
+#: model_terms:ir.ui.view,arch_db:website.s_cta_mockups
+#: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
+msgid "Join us and make your company a better place."
+msgstr "Gå med oss och gör ditt bolag till en bättre plats."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_cta_box
+msgid "Join us and make your company a better place.<br/><br/>"
+msgstr "Bli en del av oss och gör ditt bolag till en bättre plats.<br/><br/>"
+
+#. module: website
 #: model:ir.model.fields,field_description:website.field_website_configurator_feature__menu_company
 msgid "Menu Company"
 msgstr "Menybolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.new_page_template_team_s_text_image
+msgid ""
+"Mich loves taking on challenges. With his multi-year experience as "
+"Commercial Director in the software industry, Mich has helped the company to"
+" get where it is today."
+msgstr ""
+"Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
+"Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
+"dit det är idag."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.new_page_template_team_0_s_three_columns
+#: model_terms:ir.ui.view,arch_db:website.new_page_template_team_s_media_list
+#: model_terms:ir.ui.view,arch_db:website.s_company_team
+msgid ""
+"Mich loves taking on challenges. With his multi-year experience as "
+"Commercial Director in the software industry, Mich has helped the company to"
+" get where it is today. Mich is among the best minds."
+msgstr ""
+"Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
+"Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
+"dit det är idag. Mich är en av de bästa hjärnorna."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -67,6 +286,74 @@ msgid "Our Company"
 msgstr "Vårt Bolag"
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_accordion
+msgid ""
+"Our company specializes in consulting, product development, and customer "
+"support. We tailor our services to fit the unique needs of businesses across"
+" various sectors, helping them grow and succeed in a competitive market."
+msgstr ""
+"Vårt bolag är specialiserat på konsultverksamhet, produktutveckling och "
+"kundsupport. Vi skräddarsyr våra tjänster för att passa de unika behoven hos"
+" bolag i olika sektorer och hjälper dem att växa och lyckas på en "
+"konkurrensutsatt marknad."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "The company this website belongs to"
+msgstr "Bolaget den här webbsidan tillhör"
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/res_company.py:0
+msgid ""
+"The company “%(company_name)s” cannot be archived because it has a linked website “%(website_name)s”.\n"
+"Change that website's company first."
+msgstr ""
+"Bolaget \"%(company_name)s\" kan inte arkiveras eftersom det har en länkad webbplats \"%(website_name)s\".\n"
+"Ändra webbplatsens bolag först."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_striped
+msgid "The evolution of our company"
+msgstr "Utvecklingen av vårt bolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_references
+msgid "Use this section to boost your company's credibility."
+msgstr "Använd detta avsnitt för att öka ditt bolags trovärdighet."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.footer_custom
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.\n"
+"                            <br/><br/>Our products are designed for small to medium size companies willing to optimize their performance."
+msgstr ""
+"Vi är ett team av passionerade människor vars mål är att förbättra allas liv genom rebelliska produkter. Vi bygger fantastiska produkter för att lösa dina affärsproblem.\n"
+"<br/><br/>Våra produkter är designade för små till medelstora bolag som vill optimera sin prestanda."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's life "
+"through disruptive products. We build great products to solve your business "
+"problems. Our products are designed for small to medium size companies "
+"willing to optimize their performance."
+msgstr ""
+"Vi är ett team av passionerade människor vars mål är att förbättra allas liv"
+" genom rebelliska produkter. Vi bygger fantastiska produkter för att lösa "
+"dina affärsproblem. Våra produkter är designade för små till medelstora "
+"bolag som vill optimera sin prestanda."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.template_footer_headline
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's "
+"life.<br/>Our services are designed for small to medium size companies."
+msgstr ""
+"Vi är ett team av passionerade människor vars mål är att förbättra livet för"
+" alla.<br/>Våra tjänster är utformade för små och medelstora bolag."
+
+#. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings__website_company_id
 msgid "Website Company"
 msgstr "Webbplatsbolag"
@@ -76,3 +363,30 @@ msgstr "Webbplatsbolag"
 #: code:addons/website/static/src/js/send_mail_form.js:0
 msgid "Your Company"
 msgstr "Ditt bolag"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippets
+msgid ""
+"organization, company, people, column, members, staffs, profiles, bios, "
+"roles, personnel, crew"
+msgstr ""
+"organisation, bolag, människor, kolumn, medlemmar, personal, profiler, "
+"biografier, roller, personal, besättning"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippets
+msgid ""
+"organization, company, people, members, staffs, profiles, bios, roles, "
+"personnel, crew, patterned, trendy"
+msgstr ""
+"organisation, bolag, människor, medlemmar, personal, profiler, biografier, "
+"roller, personal, besättning, mönstrad, trendig"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippets
+msgid ""
+"organization, company, people, members, staffs, profiles, bios, roles, "
+"personnel, crew, patterned, trendy, social"
+msgstr ""
+"organisation, bolag, människor, medlemmar, personal, profiler, biografier, "
+"roller, personal, besättning, mönstrad, trendig, social"

@@ -4,14 +4,17 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-product\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: product
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: product
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagsinställningar'
+#. module: product
+# override | officiell: 'Företagsinställningar'
 msgid "Company Settings"
 msgstr "Bolagsinställningar"

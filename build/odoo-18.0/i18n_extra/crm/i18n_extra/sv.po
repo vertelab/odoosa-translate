@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-crm\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -49,6 +49,14 @@ msgstr "%(duplicates)s duplicerade kundämnen har slagits samman."
 msgid ""
 "%(members_assigned)s leads assigned among %(member_count)s salespersons."
 msgstr "%(members_assigned)s kundämnen fördelade på %(member_count)s säljare."
+
+#. module: crm
+#. odoo-javascript
+#: code:addons/crm/static/src/js/tours/crm.js:0
+msgid "<b>Write a few letters</b> to look for a company, or create a new one."
+msgstr ""
+"<b>Skriv ett par tecken</b> för att söka efter ett bolag eller skapa ett "
+"nytt."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -281,6 +289,18 @@ msgid "Create a new lead"
 msgstr "Skapa ny kundämne"
 
 #. module: crm
+#: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
+msgid ""
+"Did you know you can search a company by name or VAT number to instantly "
+"fill in all its data? Odoo autocompletes everything for you: logo, address, "
+"company size, business information, social media accounts, etc."
+msgstr ""
+"Visste du att du kan söka efter ett bolag eller organisationsnummer för att "
+"automatiskt fylla i all dess data. Odoo fyller automatiskt i resten åt dig: "
+"logo, adress, bolagsstorlek, bolagsinformation, konton på sociala medier, "
+"etc."
+
+#. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__auto
 msgid "Enrich all leads automatically"
 msgstr "Berika alla kundämnen automatiskt"
@@ -301,14 +321,13 @@ msgid ""
 "Enrich your leads automatically with company data based on their email "
 "address."
 msgstr ""
-"Berika dina kundämnen automatiskt med företagsdata baserad på deras "
+"Berika dina kundämnen automatiskt med bolagsdata baserad på deras "
 "e-postadress."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Enrich your leads with company data based on their email addresses"
-msgstr ""
-"Berika dina kundämnen med företagsdata baserat på deras e-postadresser"
+msgstr "Berika dina kundämnen med bolagsdata baserat på deras e-postadresser"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_exceeded
@@ -330,8 +349,8 @@ msgid ""
 msgstr ""
 "För ett säljteam finns det inget värre än att ha ont om kundämnen. "
 "Lyckligtvis kan du med bara några klick generera kundämnen som är specifikt "
-"inriktade på dina behov: företagsstorlek, bransch osv. För att hjälpa dig "
-"att testa funktionen erbjuder vi dig 20 krediter gratis."
+"inriktade på dina behov: bolagsstorlek, bransch osv. För att hjälpa dig att "
+"testa funktionen erbjuder vi dig 20 krediter gratis."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_mine
@@ -681,6 +700,20 @@ msgstr ""
 "Välj minst två Kundämnen/Opportunities från listan för att slå samman dem."
 
 #. module: crm
+#: model:ir.model.fields,help:crm.field_crm_lead__partner_name
+msgid ""
+"The name of the future partner company that will be created while converting"
+" the lead into opportunity"
+msgstr ""
+"Namnet på bolagskontakten som kommer att blir skapad när detta kundämne "
+"omvandlas till en möjlighet"
+
+#. module: crm
+#: model:ir.model.fields,help:crm.field_crm_lead__user_company_ids
+msgid "UX: Limit to lead company or all if no company"
+msgstr "UX: Begränsa till kundämnen eller alla om inget bolag"
+
+#. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__user_company_ids
 msgid "User Company"
 msgstr "Användarbolag"
@@ -837,5 +870,5 @@ msgid ""
 msgstr ""
 "För ett säljteam finns inget värre än att inte ha några kundämnen. Som tur "
 "är kan du, med bara några klick, generera kundämnen specifikt för ditt "
-"behov: företagsstorlek, bransch, etc. För att hjälpa dig testa funktionen "
-"får du 200 krediter gratis."
+"behov: bolagsstorlek, bransch, etc. För att hjälpa dig testa funktionen får "
+"du 200 krediter gratis."

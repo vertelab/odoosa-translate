@@ -4,6 +4,102 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-project\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: project
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: project
+# override | officiell: 'Partnerföretaget får inte vara ett annat än företaget
+# för det tilldelade projektet'
+msgid ""
+"Partner company cannot be different from its assigned projects' company"
+msgstr ""
+"Partnerbolaget får inte vara ett annat än bolaget för det tilldelade "
+"projektet"
+
+#. module: project
+# override | officiell: 'Partnerföretaget får inte vara annorlunda än det
+# företag som tilldelats uppgiften'
+msgid "Partner company cannot be different from its assigned tasks' company"
+msgstr ""
+"Partnerbolaget får inte vara annorlunda än det bolag som tilldelats "
+"uppgiften"
+
+#. module: project
+# override | officiell: 'Projektet och den associerade partnern måste vara
+# kopplade till samma företag.'
+msgid ""
+"The project and the associated partner must be linked to the same company."
+msgstr ""
+"Projektet och den associerade partnern måste vara kopplade till samma bolag."
+
+#. module: project
+# override | officiell: 'Projektets företag kan inte ändras om dess analytiska
+# konto har analytiska rader eller om mer än ett projekt är kopplat till det.'
+msgid ""
+"The project's company cannot be changed if its analytic account has analytic"
+" lines or if more than one project is linked to it."
+msgstr ""
+"Projektets bolag kan inte ändras om dess analytiska konto har analytiska "
+"rader eller om mer än ett projekt är kopplat till det."
+
+#. module: project
+# override | officiell: 'Uppgiften och den tillhörande partnern måste vara
+# kopplade till samma företag.'
+msgid ""
+"The task and the associated partner must be linked to the same company."
+msgstr ""
+"Uppgiften och den tillhörande partnern måste vara kopplade till samma bolag."
+
+#. module: project
+# override | officiell: 'Det här projektet är associerat med
+# %(project_company)s, medan den valda etappen tillhör %(stage_company)s. Det
+# finns ett par alternativ att överväga: antingen tar du bort
+# företagsbeteckningen från projektet eller från etappen. Alternativt kan du
+# uppdatera företagsinformationen för dessa poster så att de hamnar under
+# samma företag.'
+msgid ""
+"This project is associated with %(project_company)s, whereas the selected "
+"stage belongs to %(stage_company)s. There are a couple of options to "
+"consider: either remove the company designation from the project or from the"
+" stage. Alternatively, you can update the company information for these "
+"records to align them under the same company."
+msgstr ""
+"Det här projektet är associerat med %(project_company)s, medan den valda "
+"etappen tillhör %(stage_company)s. Det finns ett par alternativ att "
+"överväga: antingen tar du bort bolagsbeteckningen från projektet eller från "
+"etappen. Alternativt kan du uppdatera bolagsinformationen för dessa poster "
+"så att de hamnar under samma bolag."
+
+#. module: project
+# override | officiell: 'Det här projektet är inte knutet till något företag,
+# medan scenen är knuten till %s. Det finns ett par alternativ att överväga:
+# antingen ändra projektets företag så att det överensstämmer med scenens
+# företag eller ta bort företagsbeteckningen från scenen'
+msgid ""
+"This project is not associated with any company, while the stage is "
+"associated with %s. There are a couple of options to consider: either change"
+" the project's company to align with the stage's company or remove the "
+"company designation from the stage"
+msgstr ""
+"Det här projektet är inte knutet till något bolag, medan scenen är knuten "
+"till %s. Det finns ett par alternativ att överväga: antingen ändra "
+"projektets bolag så att det överensstämmer med scenens bolag eller ta bort "
+"bolagsbeteckningen från scenen"
+
+#. module: project
+# override | officiell: 'Du kan inte byta företag för detta steg till
+# %(company_name)s eftersom det för närvarande innehåller projekt som är
+# associerade med %(project_company_name)s. Se till att denna etapp endast
+# består av projekt som är kopplade till %(company_name)s.'
+msgid ""
+"You are not able to switch the company of this stage to %(company_name)s "
+"since it currently includes projects associated with "
+"%(project_company_name)s. Please ensure that this stage exclusively consists"
+" of projects linked to %(company_name)s."
+msgstr ""
+"Du kan inte byta bolag för detta steg till %(company_name)s eftersom det för"
+" närvarande innehåller projekt som är associerade med "
+"%(project_company_name)s. Se till att denna etapp endast består av projekt "
+"som är kopplade till %(company_name)s."

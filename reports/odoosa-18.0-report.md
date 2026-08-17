@@ -1,17 +1,17 @@
-# odoosa-report — 18.0 — 2026-08-14 12:31
+# odoosa-report — 18.0 — 2026-08-17 07:43
 
-**Totalt:** {'override': 614, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'removed': 0, 'noop': 56064}
+**Totalt:** {'override': 992, 'converged': 103, 'conflict': 24, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'removed': 0, 'noop': 55559}
 
 ## account
-- override: 243
-- converged 🎉: 0
+- override: 284
+- converged 🎉: 6
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 2703
+- oförändrad: 2656
   · [override] %(move)s reached an invalid state regarding its related stat → '%(move)s är i ett ogiltigt tillstånd när'
 ## account_add_gln
 - override: 0
@@ -55,18 +55,18 @@
 - borttagen: 0
 - oförändrad: 73
 ## account_edi_proxy_client
-- override: 2
-- converged 🎉: 0
+- override: 3
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 32
+- oförändrad: 28
   · [override] Companies → 'Bolag'
 ## account_edi_ubl_cii
-- override: 5
+- override: 6
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -74,7 +74,7 @@
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 217
+- oförändrad: 216
   · [override] %s should have a KVK or OIN number set in Company ID field o → '%s bör ha ett KVK- eller OIN-nummer angi'
 ## account_edi_ubl_cii_tax_extension
 - override: 0
@@ -98,7 +98,7 @@
 - oförändrad: 17
   · [override] Create Automatic Entries → 'Skapa verifikat automatiskt'
 ## account_payment
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -106,10 +106,10 @@
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 128
+- oförändrad: 127
   · [override] Journal Entry → 'Verifikat'
 ## account_peppol
-- override: 9
+- override: 11
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -117,7 +117,7 @@
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 260
+- oförändrad: 258
   · [override] Companies → 'Bolag'
 ## account_peppol_response
 - override: 2
@@ -193,15 +193,15 @@
 - oförändrad: 14
   · [override] Company → 'Bolag'
 ## analytic
-- override: 1
-- converged 🎉: 0
+- override: 4
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 163
+- oförändrad: 159
   · [override] Company → 'Bolag'
 ## attachment_indexation
 - override: 0
@@ -275,7 +275,7 @@
 - borttagen: 0
 - oförändrad: 1
 ## auth_signup
-- override: 0
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -283,7 +283,8 @@
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 100
+- oförändrad: 98
+  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
 ## auth_totp
 - override: 0
 - converged 🎉: 0
@@ -346,15 +347,15 @@
 - borttagen: 0
 - oförändrad: 39
 ## base
-- override: 56
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 133
+- converged 🎉: 2
+- conflict ⚠️: 2
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 6256
+- oförändrad: 6175
   · [override] 
 
 Austrian charts of accounts (Einheitskontenrahmen 2010).
@@ -371,14 +372,14 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 29
 ## base_automation
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 170
+- oförändrad: 169
 ## base_geolocalize
 - override: 0
 - converged 🎉: 0
@@ -430,15 +431,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 31
 ## base_setup
-- override: 9
+- override: 12
 - converged 🎉: 0
-- conflict ⚠️: 0
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 88
+- oförändrad: 84
   · [override] <span class="o_form_label" invisible="company_count &gt; 1"> → '<span class="o_form_label" invisible="co'
 ## base_sparse_field
 - override: 0
@@ -483,14 +484,14 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 32
 ## calendar
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 377
+- oförändrad: 376
 ## calendar_sms
 - override: 0
 - converged 🎉: 0
@@ -503,14 +504,14 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 15
 ## certificate
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 84
+- oförändrad: 83
   · [override] Company → 'Bolag'
 ## cloud_storage
 - override: 0
@@ -563,18 +564,18 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 15
 ## crm
-- override: 107
-- converged 🎉: 0
+- override: 111
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 550
+- oförändrad: 545
   · [override] # Leads/Opps assigned this month → '# Kundämnen/möjligheter denna månad'
 ## crm_iap_enrich
-- override: 0
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -582,9 +583,10 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 16
+- oförändrad: 13
+  · [override] <span> No company data found based on the email address or e → '<span>Ingen bolagsinformation hittades b'
 ## crm_iap_mine
-- override: 5
+- override: 7
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -592,8 +594,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 142
-  · [override] <span class="col-md-6">Extra contacts per Company</span> → '<span class="col-md-6">Extra kontakter p'
+- oförändrad: 140
+  · [override] %(credit_count)d credits will be consumed to find %(company_ → '%(credit_count)d krediter kommer att för'
 ## crm_livechat
 - override: 0
 - converged 🎉: 0
@@ -636,15 +638,16 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 65
   · [override] Company → 'Bolag'
 ## delivery
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 1
+- converged 🎉: 1
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 171
+- oförändrad: 168
+  · [override] Amount of the order to benefit from a free shipping, express → 'Orderbeloppet för att dra nytta av grati'
 ## delivery_mondialrelay
 - override: 0
 - converged 🎉: 0
@@ -678,25 +681,25 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
   · [override] Company → 'Bolag'
 ## event
 - override: 4
-- converged 🎉: 0
-- conflict ⚠️: 0
+- converged 🎉: 1
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 604
+- oförändrad: 602
   · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
 ## event_booth
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 121
+- oförändrad: 118
 ## event_booth_sale
 - override: 0
 - converged 🎉: 0
@@ -708,15 +711,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 64
 ## event_crm
-- override: 1
-- converged 🎉: 0
+- override: 2
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 88
+- oförändrad: 86
   · [override] Company → 'Bolag'
 ## event_crm_sale
 - override: 0
@@ -761,17 +764,17 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 11
 ## fleet
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 4
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 444
+- oförändrad: 440
   · [override] Company → 'Bolag'
 ## gamification
-- override: 2
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -779,8 +782,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 408
-  · [override] Set your Company Data → 'Ange dina bolagsuppgifter'
+- oförändrad: 406
+  · [override] <table border="0" cellpadding="0" style="padding-top: 16px;  → '<table border="0" cellpadding="0" style='
 ## gamification_sale_crm
 - override: 0
 - converged 🎉: 0
@@ -803,24 +806,24 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 3
 ## google_calendar
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 72
+- oförändrad: 71
 ## google_gmail
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 34
+- oförändrad: 32
 ## google_recaptcha
 - override: 0
 - converged 🎉: 0
@@ -832,27 +835,27 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 18
 ## hr
-- override: 5
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 12
+- converged 🎉: 3
+- conflict ⚠️: 2
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 542
+- oförändrad: 530
   · [override] <i class="fa fa-building-o" role="img" aria-label="Company"  → '<i class="fa fa-building-o" role="img" a'
 ## hr_attendance
-- override: 2
+- override: 3
 - converged 🎉: 0
-- conflict ⚠️: 0
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 288
-  · [override] Company Logo → 'Bolagslogo'
+- oförändrad: 286
+  · [override] Allow a period of time (around working hours) where extra ti → 'Tillåt en tidsperiod (runt arbetstid) dä'
 ## hr_calendar
 - override: 0
 - converged 🎉: 0
@@ -875,16 +878,16 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 175
   · [override] Companies → 'Bolag'
 ## hr_expense
-- override: 3
-- converged 🎉: 0
+- override: 12
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 427
-  · [override] Do you really want to invoice your own company? Remove the " → 'Vill du verkligen fakturera ditt eget bo'
+- oförändrad: 415
+  · [override] An expense report must contain only lines from the same comp → 'En utläggsrapport får endast innehålla r'
 ## hr_fleet
 - override: 2
 - converged 🎉: 0
@@ -907,15 +910,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 34
 ## hr_holidays
-- override: 3
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 6
+- converged 🎉: 3
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 715
+- oförändrad: 708
   · [override] Allow to create requests in batchs:
 - By Employee: for a spe → 'Tillåt att skapa förfrågningar i batcher'
 ## hr_holidays_attendance
@@ -1009,15 +1012,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 36
 ## hr_recruitment
-- override: 1
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 2
+- converged 🎉: 3
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 532
+- oförändrad: 527
   · [override] Companies → 'Bolag'
 ## hr_recruitment_skills
 - override: 0
@@ -1050,16 +1053,16 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 54
 ## hr_skills
-- override: 1
+- override: 2
 - converged 🎉: 0
-- conflict ⚠️: 0
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 365
-  · [override] Demo Company Name → 'Demo Bolagsnamn'
+- oförändrad: 363
+  · [conflict] Company → 'Bolag'
 ## hr_skills_slides
 - override: 0
 - converged 🎉: 0
@@ -1081,15 +1084,16 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 24
 ## hr_timesheet
-- override: 0
+- override: 3
 - converged 🎉: 0
-- conflict ⚠️: 0
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 222
+- oförändrad: 218
+  · [conflict] Company → 'Bolag'
 ## hr_timesheet_attendance
 - override: 1
 - converged 🎉: 0
@@ -1163,7 +1167,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 4
 ## iap
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1171,7 +1175,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 44
+- oförändrad: 43
   · [override] Company → 'Bolag'
 ## iap_crm
 - override: 0
@@ -1196,16 +1200,6 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
   · [override] <i class="fa fa-fw me-2 fa-building text-primary"/>
          → '<i class="fa fa-fw me-2 fa-building text'
 ## im_livechat
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- borttagen: 0
-- oförändrad: 358
-## l10n_se
 - override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
@@ -1214,7 +1208,18 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 109
+- oförändrad: 357
+  · [override] Livechat Support Channel Statistics allows you to easily che → 'Livechat Support Channel Statistics gör '
+## l10n_se
+- override: 4
+- converged 🎉: 0
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- borttagen: 0
+- oförändrad: 106
   · [override] Companies → 'Bolag'
 ## link_tracker
 - override: 0
@@ -1229,35 +1234,36 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 ## loyalty
 - override: 0
 - converged 🎉: 0
-- conflict ⚠️: 0
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 363
+- oförändrad: 362
+  · [conflict] Company → 'Bolag'
 ## lunch
-- override: 2
-- converged 🎉: 0
+- override: 5
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 371
-  · [override] Companies → 'Bolag'
+- oförändrad: 365
+  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
 ## mail
-- override: 3
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 6
+- converged 🎉: 12
+- conflict ⚠️: 2
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 1826
-  · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
+- oförändrad: 1809
+  · [conflict] Companies → 'Bolag'
 ## mail_bot
 - override: 0
 - converged 🎉: 0
@@ -1280,7 +1286,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 251
   · [override] My Company News → 'Nyheter om mitt bolag'
 ## mail_plugin
-- override: 8
+- override: 21
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1288,39 +1294,39 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 108
+- oförändrad: 95
   · [override] Company → 'Bolag'
 ## maintenance
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 273
+- oförändrad: 270
   · [override] Company → 'Bolag'
 ## marketing_card
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 185
+- oförändrad: 182
 ## mass_mailing
-- override: 2
-- converged 🎉: 0
+- override: 7
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 896
+- oförändrad: 888
   · [override] Company Name → 'Bolagsnamn'
 ## mass_mailing_crm
 - override: 0
@@ -1423,7 +1429,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 189
 ## mass_mailing_themes
-- override: 3
+- override: 18
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1431,8 +1437,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 249
-  · [override] Being a Mature Company → 'Att vara ett moget bolag'
+- oförändrad: 234
+  · [override] . I put it on hold for 6 years, waiting for the right moment → '. Jag lade det på is i 6 år och väntade '
 ## membership
 - override: 1
 - converged 🎉: 0
@@ -1456,14 +1462,14 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 8
 ## microsoft_calendar
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 72
+- oförändrad: 71
 ## microsoft_outlook
 - override: 0
 - converged 🎉: 0
@@ -1476,14 +1482,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 37
 ## mrp
 - override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
+- converged 🎉: 3
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 1091
+- oförändrad: 1087
+  · [conflict] Company → 'Bolag'
 ## mrp_account
 - override: 0
 - converged 🎉: 0
@@ -1525,7 +1532,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 9
 ## mrp_subcontracting
-- override: 1
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1533,8 +1540,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 105
-  · [override] Companies → 'Bolag'
+- oförändrad: 102
+  · [override] Check this box to create a new dedicated subcontracting loca → 'Markera denna ruta för att skapa en ny s'
 ## mrp_subcontracting_account
 - override: 0
 - converged 🎉: 0
@@ -1546,7 +1553,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 4
 ## mrp_subcontracting_dropshipping
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1554,8 +1561,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 16
-  · [override] Companies → 'Bolag'
+- oförändrad: 15
+  · [override] Check this box to create a new dedicated subcontracting loca → 'Markera denna ruta för att skapa en ny s'
 ## mrp_subcontracting_landed_costs
 - override: 0
 - converged 🎉: 0
@@ -1577,7 +1584,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 18
 ## onboarding
-- override: 1
+- override: 7
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1585,10 +1592,10 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 71
-  · [override] Company → 'Bolag'
+- oförändrad: 65
+  · [override] All Onboarding Progress Records (across companies). → 'Alla register över framsteg inom onboard'
 ## partner_autocomplete
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1596,18 +1603,18 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 29
+- oförändrad: 28
   · [override] Companies → 'Bolag'
 ## payment
-- override: 1
-- converged 🎉: 0
+- override: 5
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 579
+- oförändrad: 574
   · [override] Company → 'Bolag'
 ## payment_adyen
 - override: 0
@@ -1691,14 +1698,14 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 22
 ## payment_mercado_pago
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 31
+- oförändrad: 30
 ## payment_mollie
 - override: 0
 - converged 🎉: 0
@@ -1790,18 +1797,18 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 66
 ## point_of_sale
-- override: 6
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 18
+- converged 🎉: 3
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 1515
-  · [override] Choose a specific fiscal position at the order depending on  → 'Välj en specifik skatteområde vid bestäl'
+- oförändrad: 1499
+  · [override] All available pricelists must be in the same currency as the → 'Alla tillgängliga prislistor måste vara '
 ## portal
-- override: 2
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1809,7 +1816,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 206
+- oförändrad: 204
   · [override] <small class="form-text text-muted">
                 Company → '<small class="form-text text-muted">\n   '
 ## portal_rating
@@ -1833,7 +1840,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 1
 ## pos_adyen
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1841,7 +1848,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 26
+- oförändrad: 25
+  · [override] Terminal %(terminal)s is already used in company %(company)s → 'Terminal %(terminal)s används redan i bo'
 ## pos_discount
 - override: 0
 - converged 🎉: 0
@@ -1933,7 +1941,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 3
 ## pos_online_payment
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1941,7 +1949,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 83
+- oförändrad: 82
+  · [override] All payment providers configured for an online payment metho → 'Alla betalningsleverantörer som är konfi'
 ## pos_online_payment_self_order
 - override: 0
 - converged 🎉: 0
@@ -2103,7 +2112,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 8
 ## pos_stripe
-- override: 0
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2111,7 +2120,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 19
+- oförändrad: 17
+  · [override] Complete the Stripe onboarding for company %s. → 'Slutför Stripe-introduktionen för bolage'
 ## pos_viva_wallet
 - override: 0
 - converged 🎉: 0
@@ -2133,15 +2143,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 53
 ## product
-- override: 1
-- converged 🎉: 0
+- override: 2
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 667
+- oförändrad: 663
   · [override] Company Settings → 'Bolagsinställningar'
 ## product_email_template
 - override: 0
@@ -2184,7 +2194,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 57
 ## product_matrix
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2192,18 +2202,19 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 26
+- oförändrad: 25
   · [override] My Company Tshirt (GRID) → 'T-shirt med Mitt Bolag (RUTNÄT)'
 ## project
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 8
+- converged 🎉: 2
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 833
+- oförändrad: 822
+  · [conflict] Company → 'Bolag'
 ## project_account
 - override: 0
 - converged 🎉: 0
@@ -2345,7 +2356,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 1
 ## project_timesheet_holidays
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2353,7 +2364,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 27
+- oförändrad: 26
   · [override] Companies → 'Bolag'
 ## project_todo
 - override: 0
@@ -2366,16 +2377,16 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 81
 ## purchase
-- override: 3
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 6
+- converged 🎉: 2
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 601
-  · [override] Company Total → 'Bolag Totalt'
+- oförändrad: 595
+  · [conflict] Company → 'Bolag'
 ## purchase_edi_ubl_bis3
 - override: 0
 - converged 🎉: 0
@@ -2418,15 +2429,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 7
 ## purchase_requisition
 - override: 4
-- converged 🎉: 0
-- conflict ⚠️: 0
+- converged 🎉: 2
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 193
-  · [override] Company Currency → 'Bolagets valuta'
+- oförändrad: 190
+  · [conflict] Company → 'Bolag'
 ## purchase_requisition_sale
 - override: 0
 - converged 🎉: 0
@@ -2448,6 +2459,17 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 12
 ## purchase_stock
+- override: 2
+- converged 🎉: 0
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- borttagen: 0
+- oförändrad: 157
+  · [override] Companies → 'Bolag'
+## rating
 - override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
@@ -2456,30 +2478,21 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 158
-  · [override] Companies → 'Bolag'
-## rating
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- borttagen: 0
-- oförändrad: 94
+- oförändrad: 93
+  · [override] " or someone from the same company can give it a rating. → '" eller så kan någon från samma bolag ge'
 ## repair
 - override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
+- converged 🎉: 2
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 271
+- oförändrad: 268
+  · [conflict] Company → 'Bolag'
 ## resource
-- override: 3
+- override: 6
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2487,7 +2500,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 134
+- oförändrad: 131
   · [override] Companies → 'Bolag'
 ## resource_mail
 - override: 0
@@ -2500,16 +2513,16 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 11
 ## sale
-- override: 2
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 10
+- converged 🎉: 2
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 858
-  · [override] Company Document Layout → 'Layout för bolagsdokument'
+- oförändrad: 847
+  · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
 ## sale_async_emails
 - override: 0
 - converged 🎉: 0
@@ -2602,7 +2615,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 10
 ## sale_management
-- override: 2
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2610,7 +2623,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 104
+- oförändrad: 101
   · [override] Companies → 'Bolag'
 ## sale_margin
 - override: 0
@@ -2633,7 +2646,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 22
 ## sale_pdf_quote_builder
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2641,7 +2654,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 112
+- oförändrad: 111
   · [override] Company → 'Bolag'
 ## sale_product_matrix
 - override: 0
@@ -2724,7 +2737,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 1
 ## sale_stock
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2732,7 +2745,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 139
+- oförändrad: 138
+  · [override] You must have a warehouse for line using a delivery in diffe → 'Du måste ha ett lager för linje som anvä'
 ## sale_stock_margin
 - override: 0
 - converged 🎉: 0
@@ -2744,7 +2758,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 1
 ## sale_timesheet
-- override: 0
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2752,7 +2766,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 255
+- oförändrad: 250
+  · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd på vårt bolag kommer du att'
 ## sale_timesheet_margin
 - override: 0
 - converged 🎉: 0
@@ -2764,7 +2779,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 1
 ## sales_team
-- override: 3
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2772,10 +2787,10 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 121
+- oförändrad: 119
   · [override] Company → 'Bolag'
 ## sms
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2783,7 +2798,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 278
+- oförändrad: 277
+  · [override] Your sender name must be between 3 and 11 characters long an → 'Ditt avsändarnamn måste vara mellan 3 oc'
 ## sms_twilio
 - override: 1
 - converged 🎉: 0
@@ -2807,7 +2823,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 118
   · [override] Companies → 'Bolag'
 ## snailmail_account
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2815,7 +2831,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 11
+- oförändrad: 10
+  · [override] <span class="fa fa-lg fa-building-o" title="Values set here  → '<span class="fa fa-lg fa-building-o" tit'
 ## social_media
 - override: 1
 - converged 🎉: 0
@@ -2828,7 +2845,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 8
   · [override] Companies → 'Bolag'
 ## spreadsheet
-- override: 0
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2836,9 +2853,10 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 1840
+- oförändrad: 1838
+  · [override] Currency not available for this company. → 'Valuta ej tillgänglig för detta bolag.'
 ## spreadsheet_account
-- override: 1
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2846,7 +2864,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 45
+- oförändrad: 42
   · [override] Companies → 'Bolag'
 ## spreadsheet_dashboard
 - override: 1
@@ -2980,18 +2998,18 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 25
 ## stock
-- override: 5
-- converged 🎉: 0
+- override: 20
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 1761
-  · [override] All Companies → 'Alla bolag'
+- oförändrad: 1744
+  · [override] * Vendor Location: Virtual location representing the source  → '* Leverantörens plats: Virtuell plats so'
 ## stock_account
-- override: 3
+- override: 8
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2999,7 +3017,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 200
+- oförändrad: 195
   · [override] Companies → 'Bolag'
 ## stock_delivery
 - override: 1
@@ -3035,25 +3053,26 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 49
 ## stock_landed_costs
 - override: 2
-- converged 🎉: 0
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 121
+- oförändrad: 119
   · [override] Companies → 'Bolag'
 ## stock_picking_batch
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 3
+- converged 🎉: 2
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 204
+- oförändrad: 198
+  · [conflict] Company → 'Bolag'
 ## stock_sms
 - override: 1
 - converged 🎉: 0
@@ -3066,16 +3085,16 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 22
   · [override] Companies → 'Bolag'
 ## survey
-- override: 4
-- converged 🎉: 0
+- override: 6
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 985
-  · [override] Company Certifications Count → 'Bolagets antal certifieringar'
+- oförändrad: 981
+  · [override] <div style="background:#F0F0F0;color:#515166;padding:10px 0p → '<div style="background:#F0F0F0;color:#51'
 ## transifex
 - override: 0
 - converged 🎉: 0
@@ -3107,15 +3126,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 109
 ## web
-- override: 13
-- converged 🎉: 0
+- override: 16
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 4355
+- oförändrad: 4350
   · [override] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
 ## web_editor
 - override: 0
@@ -3158,18 +3177,18 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 26
 ## website
-- override: 11
+- override: 48
 - converged 🎉: 0
-- conflict ⚠️: 0
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 2779
-  · [override] <b>Designed</b> <br/>for Companies → '<b>Designad</b> <br/>för bolag'
+- oförändrad: 2741
+  · [override] " This company transformed our business. <br/>Their solution → '" Det här bolaget förändrade vår verksam'
 ## website_blog
-- override: 0
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3177,7 +3196,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 366
+- oförändrad: 364
+  · [override] A traveler may choose to explore the area by hiking around t → 'En resenär kan välja att utforska område'
 ## website_cf_turnstile
 - override: 0
 - converged 🎉: 0
@@ -3200,7 +3220,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 25
   · [override] Your Company → 'Ditt bolag'
 ## website_crm_iap_reveal
-- override: 4
+- override: 8
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3208,8 +3228,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 86
-  · [override] Companies → 'Bolag'
+- oförändrad: 82
+  · [override] 1 credit is consumed per visitor matching the website traffi → '1 kredit förbrukas per besökare som uppf'
 ## website_crm_livechat
 - override: 0
 - converged 🎉: 0
@@ -3221,7 +3241,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 6
 ## website_crm_partner_assign
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3229,7 +3249,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 236
+- oförändrad: 235
+  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
 ## website_crm_sms
 - override: 0
 - converged 🎉: 0
@@ -3251,7 +3272,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 58
 ## website_event
-- override: 1
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3259,7 +3280,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 277
+- oförändrad: 275
   · [override] Company → 'Bolag'
 ## website_event_booth
 - override: 0
@@ -3272,7 +3293,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 45
 ## website_event_booth_exhibitor
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3280,7 +3301,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 27
+- oförändrad: 26
   · [override] <span>Company Name</span>
                         <span clas → '<span>Bolagets namn</span>\n             '
 ## website_event_booth_sale
@@ -3314,16 +3335,16 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 3
 ## website_event_exhibitor
-- override: 1
-- converged 🎉: 0
+- override: 2
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 185
-  · [override] Deco Addict integrates ERP for Global Companies and supports → 'Deco Addict integrerar ERP för globala b'
+- oförändrad: 182
+  · [override] Our experts invent, imagine and develop solutions which meet → 'Våra experter uppfinner, föreställer sig'
 ## website_event_jitsi
 - override: 0
 - converged 🎉: 0
@@ -3365,15 +3386,15 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 35
 ## website_event_track
-- override: 3
-- converged 🎉: 0
+- override: 4
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 442
+- oförändrad: 439
   · [override] Company → 'Bolag'
 ## website_event_track_live
 - override: 0
@@ -3416,7 +3437,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 704
 ## website_hr_recruitment
-- override: 0
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3424,7 +3445,8 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 169
+- oförändrad: 165
+  · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd på vårt bolag kommer du att'
 ## website_jitsi
 - override: 0
 - converged 🎉: 0
@@ -3476,7 +3498,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - borttagen: 0
 - oförändrad: 11
 ## website_mass_mailing
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3484,7 +3506,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 41
+- oförändrad: 40
   · [override] Companies → 'Bolag'
 ## website_mass_mailing_sms
 - override: 0
@@ -3558,7 +3580,7 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 18
   · [override] Company Name → 'Bolagsnamn'
 ## website_sale
-- override: 3
+- override: 7
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3566,8 +3588,9 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 867
-  · [override] Companies → 'Bolag'
+- oförändrad: 863
+  · [override] <small class="form-text text-muted">
+                        → '<small class="form-text text-muted">\n   '
 ## website_sale_autocomplete
 - override: 0
 - converged 🎉: 0
@@ -3700,14 +3723,14 @@ Austrian charts of accounts (Einheitskontenrahmen 2010).
 - oförändrad: 35
 ## website_slides
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - borttagen: 0
-- oförändrad: 1144
+- oförändrad: 1142
   · [override] Company Course Count → 'Bolagets kursräknare'
 ## website_slides_forum
 - override: 0

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-product_matrix\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -13,3 +13,8 @@ msgstr ""
 #: model:product.template,name:product_matrix.matrix_product_template_shirt
 msgid "My Company Tshirt (GRID)"
 msgstr "T-shirt med Mitt Bolag (RUTNÄT)"
+
+#. module: product_matrix
+#: model:product.template,description_sale:product_matrix.matrix_product_template_shirt
+msgid "Show your company love around you =)."
+msgstr "Visa din omgivning hur mycket du älskar ditt bolag =)."

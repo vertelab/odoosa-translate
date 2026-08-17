@@ -4,6 +4,17 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-product\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företagsinställningar'
+#. module: product
+# override | officiell: 'Företagsinställningar'
 msgid "Company Settings"
 msgstr "Bolagsinställningar"
+
+#. module: product
+# override | officiell: 'Du kan inte definiera decimalprecisionen för "Konto"
+# som större än avrundningsfaktorn för företagets huvudvaluta'
+msgid ""
+"You cannot define the decimal precision of 'Account' as greater than the "
+"rounding factor of the company's main currency"
+msgstr ""
+"Du kan inte definiera decimalprecisionen för \"Konto\" som större än "
+"avrundningsfaktorn för bolagets huvudvaluta"

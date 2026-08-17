@@ -2,12 +2,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website_event_exhibitor\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: website_event_exhibitor
+#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_1
+#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_7_sponsor_3
+#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_0
+#: model_terms:event.sponsor,website_description:website_event_exhibitor.event_sponsor_3
+msgid ""
+"Our experts invent, imagine and develop solutions which meet\n"
+"                your business requirements. They build a new technical\n"
+"                environment for your company, but they always take the already\n"
+"                installed IT software into account. That is why Idealis\n"
+"                Consulting delivers excellence in HR and SC Management."
+msgstr ""
+"Våra experter uppfinner, föreställer sig och utvecklar lösningar som uppfyller\n"
+"                dina affärskrav. De bygger en ny teknisk miljö\n"
+"                miljö för ditt bolag, men de tar alltid hänsyn till den redan\n"
+"                installerade IT-programvaran i åtanke. Det är därför Idealis\n"
+"                Consulting levererar spetskompetens inom HR och SC Management."
 
 #. module: website_event_exhibitor
 msgid ""

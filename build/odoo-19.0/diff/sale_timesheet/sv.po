@@ -3,3 +3,101 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-sale_timesheet\n"
 "Language: sv\n"
+
+#. module: sale_timesheet
+# override | officiell: 'Som anställd på vårt företag kommer du att
+# <b>samarbeta med varje avdelning\n                        för att skapa och
+# distribuera banbrytande produkter.</b> Kom och jobba på ett växande
+# företag\n                        som erbjuder bra förmåner med möjligheter
+# att gå framåt och lära sig\n                        tillsammans med
+# skickliga ledare. Vi söker en erfaren och enastående\n
+# medlem av personalen.\n                        <br><br>\n
+# Denna position är både <b>kreativ och rigorös</b> av naturen måste du
+# tänka\n                        utanför boxen. Vi förväntar oss att
+# kandidaten ska vara proaktiv och ha en "få det gjort"\n
+# anda. För att lyckas kommer du att ha solida problemlösningsförmågor.'
+msgid ""
+"As an employee of our company, you will <b>collaborate with each department\n"
+"                        to create and deploy disruptive products.</b> Come work at a growing company\n"
+"                        that offers great benefits with opportunities to moving forward and learn\n"
+"                        alongside accomplished leaders. We're seeking an experienced and outstanding\n"
+"                        member of staff.\n"
+"                        <br><br>\n"
+"                        This position is both <b>creative and rigorous</b> by nature you need to think\n"
+"                        outside the box. We expect the candidate to be proactive and have a \"get it done\"\n"
+"                        spirit. To be successful, you will have solid solving problem skills."
+msgstr ""
+"Som anställd på vårt bolag kommer du att <b>samarbeta med varje avdelning\n"
+"                        för att skapa och distribuera banbrytande produkter.</b> Kom och jobba på ett växande bolag\n"
+"                        som erbjuder bra förmåner med möjligheter att gå framåt och lära sig\n"
+"                        tillsammans med skickliga ledare. Vi söker en erfaren och enastående\n"
+"                        medlem av personalen.\n"
+"                        <br><br>\n"
+"                        Denna position är både <b>kreativ och rigorös</b> av naturen måste du tänka\n"
+"                        utanför boxen. Vi förväntar oss att kandidaten ska vara proaktiv och ha en \"få det gjort\"\n"
+"                        anda. För att lyckas kommer du att ha solida problemlösningsförmågor."
+
+#. module: sale_timesheet
+# override | officiell: 'Varje anställd har en chans att se effekterna av sitt
+# arbete.\n                    Du kan göra ett verkligt bidrag till företagets
+# framgång.\n                    <br>\n                    Flera aktiviteter
+# organiseras ofta under hela året, till exempel veckovis\n
+# sportsessioner, teambuilding-evenemang, månadsdrink och mycket mer'
+msgid ""
+"Each employee has a chance to see the impact of his work.\n"
+"                    You can make a real contribution to the success of the company.\n"
+"                    <br>\n"
+"                    Several activities are often organized all over the year, such as weekly\n"
+"                    sports sessions, team building events, monthly drink, and much more"
+msgstr ""
+"Varje anställd har en chans att se effekterna av sitt arbete.\n"
+"                    Du kan göra ett verkligt bidrag till bolagets framgång.\n"
+"                    <br>\n"
+"                    Flera aktiviteter organiseras ofta under hela året, till exempel veckovis\n"
+"                    sportsessioner, teambuilding-evenemang, månadsdrink och mycket mer"
+
+#. module: sale_timesheet
+# override | officiell: 'Verkligt ansvar och utmaningar i ett snabbt
+# utvecklande företag'
+msgid "Real responsibilities and challenges in a fast evolving company"
+msgstr "Verkligt ansvar och utmaningar i ett snabbt utvecklande bolag"
+
+#. module: sale_timesheet
+# override | officiell: 'Försäljningsorderobjekt som kommer att väljas som
+# standard på motsvarande anställds tidrapporter. Den förbigår den
+# försäljningsorderpost som definieras för projektet och uppgiften och kan vid
+# behov ändras för varje tidrapport. Med andra ord definieras den taxa till
+# vilken en medarbetares tid faktureras, till exempel baserat på medarbetarens
+# expertis, färdigheter eller erfarenhet.\nOm du vill fakturera samma tjänst
+# till ett annat pris måste du skapa två separata försäljningsorderposter
+# eftersom varje försäljningsorderpost bara kan ha ett enda enhetspris åt
+# gången.\nDu kan också definiera företagskostnaden per timme för dina
+# anställda för deras tidrapporter på det här projektet specifikt. Den kommer
+# att gå förbi den kostnad för tidrapporter som ställts in för den anställde.'
+msgid ""
+"Sales order item that will be selected by default on the timesheets of the corresponding employee. It bypasses the sales order item defined on the project and the task, and can be modified on each timesheet entry if necessary. In other words, it defines the rate at which an employee's time is billed based on their expertise, skills or experience, for instance.\n"
+"If you would like to bill the same service at a different rate, you need to create two separate sales order items as each sales order item can only have a single unit price at a time.\n"
+"You can also define the hourly company cost of your employees for their timesheets on this project specifically. It will bypass the timesheet cost set on the employee."
+msgstr ""
+"Försäljningsorderobjekt som kommer att väljas som standard på motsvarande anställds tidrapporter. Den förbigår den försäljningsorderpost som definieras för projektet och uppgiften och kan vid behov ändras för varje tidrapport. Med andra ord definieras den taxa till vilken en medarbetares tid faktureras, till exempel baserat på medarbetarens expertis, färdigheter eller erfarenhet.\n"
+"Om du vill fakturera samma tjänst till ett annat pris måste du skapa två separata försäljningsorderposter eftersom varje försäljningsorderpost bara kan ha ett enda enhetspris åt gången.\n"
+"Du kan också definiera bolagskostnaden per timme för dina anställda för deras tidrapporter på det här projektet specifikt. Den kommer att gå förbi den kostnad för tidrapporter som ställts in för den anställde."
+
+#. module: sale_timesheet
+# override | officiell: 'Grymma offertmallar kommer definitivt att\n
+# <strong>öka din försäljning</strong>. Den\n
+# första sektionen är vanligtvis om ditt företag,\n
+# dina referenser, garantier\n                                ditt team,
+# villkor eller liknande.'
+msgid ""
+"Great quotation templates will significantly\n"
+"                                <strong>boost your success rate</strong>. The\n"
+"                                first section is usually about your company,\n"
+"                                your references, your methodology or\n"
+"                                guarantees, your team, SLA, terms and conditions, etc."
+msgstr ""
+"Grymma offertmallar kommer definitivt att\n"
+"                                <strong>öka din försäljning</strong>. Den\n"
+"                                första sektionen är vanligtvis om ditt bolag,\n"
+"                                dina referenser, garantier\n"
+"                                ditt team, villkor eller liknande."

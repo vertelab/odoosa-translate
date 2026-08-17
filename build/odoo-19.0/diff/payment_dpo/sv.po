@@ -4,10 +4,12 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-payment_dpo\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företagstoken'
+#. module: payment_dpo
+# override | officiell: 'Företagstoken'
 msgid "Company Token"
 msgstr "Bolagstoken"
 
-#. override | officiell: 'Företagstoken hos DPO'
+#. module: payment_dpo
+# override | officiell: 'Företagstoken hos DPO'
 msgid "DPO Company Token"
 msgstr "Bolagstoken hos DPO"

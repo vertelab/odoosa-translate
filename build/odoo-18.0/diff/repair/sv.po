@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-repair\n"
 "Language: sv\n"
+
+#. module: repair
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

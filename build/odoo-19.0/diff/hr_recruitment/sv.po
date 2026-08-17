@@ -4,10 +4,22 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_recruitment\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: hr_recruitment
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: hr_recruitment
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: hr_recruitment
+# override | officiell: 'Välj den ort där den sökande ska arbeta. Adresser som
+# anges här är definierade på företagets kontaktinformation.'
+msgid ""
+"Select the location where the applicant will work. Addresses listed here are"
+" defined on the company's contact information."
+msgstr ""
+"Välj den ort där den sökande ska arbeta. Adresser som anges här är "
+"definierade på bolagets kontaktinformation."

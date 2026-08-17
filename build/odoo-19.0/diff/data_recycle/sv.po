@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-data_recycle\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: data_recycle
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

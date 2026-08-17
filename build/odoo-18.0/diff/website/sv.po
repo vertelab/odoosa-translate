@@ -4,12 +4,56 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website\n"
 "Language: sv\n"
 
-#. override | officiell: '<b>Designad</b> <br/>för företag'
+#. module: website
+# override | officiell: '" Det här företaget förändrade vår verksamhet. <br/>
+# Deras lösningar är innovativa och pålitliga. "'
+msgid ""
+"\" This company transformed our business. <br/>Their solutions are "
+"innovative and reliable. \""
+msgstr ""
+"\" Det här bolaget förändrade vår verksamhet. <br/> Deras lösningar är "
+"innovativa och pålitliga. \""
+
+#. module: website
+# override | officiell: '50 000+ företag använder Odoo <br class="d-none d-lg-
+# inline"/>för att utveckla sina verksamheter.'
+msgid ""
+"50,000+ companies run Odoo <br class=\"d-none d-lg-inline\"/>to grow their "
+"businesses."
+msgstr ""
+"50 000+ bolag använder Odoo <br class=\"d-none d-lg-inline\"/>för att "
+"utveckla sina verksamheter."
+
+#. module: website
+# override | officiell: 'över 50 000 företag använder Odoo för att utveckla
+# sin verksamhet.'
+msgid "50,000+ companies run Odoo to grow their businesses."
+msgstr "över 50 000 bolag använder Odoo för att utveckla sin verksamhet."
+
+#. module: website
+# override | officiell: '50 000+ företag använder Odoo<br/>för att utveckla
+# sina verksamheter.'
+msgid "50,000+ companies run Odoo<br/>to grow their businesses."
+msgstr "50 000+ bolag använder Odoo<br/>för att utveckla sina verksamheter."
+
+#. module: website
+# override | officiell: '50 000+ företag litar på Odoo.'
+msgid "50,000+ companies trust Odoo."
+msgstr "50 000+ bolag litar på Odoo."
+
+#. module: website
+# override | officiell: '<b>Designad</b> <br/>för företag'
 msgid "<b>Designed</b> <br/>for Companies"
 msgstr "<b>Designad</b> <br/>för bolag"
 
-#. override | officiell: '<b>Mitt företag</b><br/>250 Executive Park Blvd,
-#. Suite 3400 <br/> San Francisco CA 94134 <br/>Förenta staterna'
+#. module: website
+# override | officiell: '<b>Utformad</b> för företag'
+msgid "<b>Designed</b> for companies"
+msgstr "<b>Utformad</b> för bolag"
+
+#. module: website
+# override | officiell: '<b>Mitt företag</b><br/>250 Executive Park Blvd,
+# Suite 3400 <br/> San Francisco CA 94134 <br/>Förenta staterna'
 msgid ""
 "<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
@@ -17,8 +61,29 @@ msgstr ""
 "<b>Mitt bolag</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>Förenta staterna"
 
-#. override | officiell: '<span class="o_footer_copyright_name me-2">Copyright
-#. &amp;copy; Företagsnamn</span>'
+#. module: website
+# override | officiell: '<br/>Från intäktstillväxt till kundlojalitet och
+# marknadsexpansion, våra nyckeltal för företagets prestationer understryker
+# vår strategiska skicklighet och vårt engagemang för att driva hållbar
+# affärsframgång.'
+msgid ""
+"<br/>From revenue growth to customer retention and market expansion, our key"
+" metrics of company achievements underscore our strategic prowess and "
+"dedication to driving sustainable business success."
+msgstr ""
+"<br/>Från intäktstillväxt till kundlojalitet och marknadsexpansion, våra "
+"nyckeltal för bolagets prestationer understryker vår strategiska skicklighet"
+" och vårt engagemang för att driva hållbar affärsframgång."
+
+#. module: website
+# override | officiell: '<span class="flex-grow-1">Vilka tjänster erbjuder
+# ditt företag?</span>'
+msgid "<span class=\"flex-grow-1\">What services does your company offer ?</span>"
+msgstr "<span class=\"flex-grow-1\">Vilka tjänster erbjuder ditt bolag?</span>"
+
+#. module: website
+# override | officiell: '<span class="o_footer_copyright_name me-2">Copyright
+# &amp;copy; Företagsnamn</span>'
 msgid ""
 "<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; Company "
 "name</span>"
@@ -26,40 +91,341 @@ msgstr ""
 "<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; "
 "Bolagsnamn</span>"
 
-#. override | officiell: '<span
-#. class="s_website_form_label_content">Företag</span>'
+#. module: website
+# override | officiell: '<span
+# class="s_website_form_label_content">Företag</span>'
 msgid "<span class=\"s_website_form_label_content\">Company</span>"
 msgstr "<span class=\"s_website_form_label_content\">Bolag</span>"
 
-#. override | officiell: '<span class="s_website_form_label_content">Ditt
-#. företag</span>'
+#. module: website
+# override | officiell: '<span class="s_website_form_label_content">Ditt
+# företag</span>'
 msgid "<span class=\"s_website_form_label_content\">Your Company</span>"
 msgstr "<span class=\"s_website_form_label_content\">Ditt bolag</span>"
 
-#. override | officiell: 'Om inställd, lägg till menyn som en andra nivå meny,
-#. som ett barn till "Företag" menyn.'
+#. module: website
+# override | officiell: 'Objekta siffrorna bakom vår framgång: <br
+# class="d-none d-xxl-inline"/>En djupgående titt på de nyckeltal som ligger
+# bakom vårt företags framgångar'
+msgid ""
+"Analyzing the numbers behind our success: <br class=\"d-none d-xxl-"
+"inline\"/>an in-depth look at the key metrics driving our company's "
+"achievements"
+msgstr ""
+"Objekta siffrorna bakom vår framgång: <br class=\"d-none d-xxl-inline\"/>En "
+"djupgående titt på de nyckeltal som ligger bakom vårt bolags framgångar"
+
+#. module: website
+# override | officiell: 'Objekta siffrorna bakom vår framgång: en djupgående
+# titt på de nyckeltal som ligger till grund för vårt företags prestationer.'
+msgid ""
+"Analyzing the numbers behind our success: an in-depth look at the key "
+"metrics driving our company's achievements."
+msgstr ""
+"Objekta siffrorna bakom vår framgång: en djupgående titt på de nyckeltal som"
+" ligger till grund för vårt bolags prestationer."
+
+#. module: website
+# override | officiell: 'Kolla in vad som är nytt i vårt företag!'
+msgid "Check out what's new in our company !"
+msgstr "Kolla in vad som är nytt i vårt bolag!"
+
+#. module: website
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: website
+# override | officiell: 'Kontakta oss om allt som rör vårt företag eller våra
+# tjänster.<br/>\n                                    Vi kommer att göra vårt
+# bästa för att återkomma till dig så snart som möjligt.'
+msgid ""
+"Contact us about anything related to our company or services.<br/>\n"
+"                                    We'll do our best to get back to you as soon as possible."
+msgstr ""
+"Kontakta oss om allt som rör vårt bolag eller våra tjänster.<br/>\n"
+"                                    Vi kommer att göra vårt bästa för att återkomma till dig så snart som möjligt."
+
+#. module: website
+# override | officiell: 'Företaget bildades 2021 och är ungt och dynamiskt.
+# Upptäck teamets sammansättning och deras kompetens.'
+msgid ""
+"Created in 2021, the company is young and dynamic. Discover the composition "
+"of the team and their skills."
+msgstr ""
+"Bolaget bildades 2021 och är ungt och dynamiskt. Upptäck teamets "
+"sammansättning och deras kompetens."
+
+#. module: website
+# override | officiell: 'Dyk djupare in i vårt företags förmågor.'
+msgid "Dive deeper into our company’s abilities."
+msgstr "Dyk djupare in i vårt bolags förmågor."
+
+#. module: website
+# override | officiell: 'Tony är företagets grundare och främsta visionär och
+# den drivande kraften bakom företaget. Han älskar\n
+# att hålla händerna fulla genom att delta i utvecklingen av programvaran,\n
+# marknadsföring och strategier för kundupplevelsen.'
+msgid ""
+"Founder and chief visionary, Tony is the driving force behind the company. He loves\n"
+"                                to keep his hands full by participating in the development of the software,\n"
+"                                marketing, and customer experience strategies."
+msgstr ""
+"Tony är bolagets grundare och främsta visionär och den drivande kraften bakom bolaget. Han älskar\n"
+"                                att hålla händerna fulla genom att delta i utvecklingen av programvaran,\n"
+"                                marknadsföring och strategier för kundupplevelsen."
+
+#. module: website
+# override | officiell: 'Tony är företagets grundare och visionär och den
+# drivande kraften bakom företaget. Han älskar att ha händerna fulla genom att
+# delta i utvecklingen av strategier för programvara, marknadsföring och
+# kundupplevelse.'
+msgid ""
+"Founder and chief visionary, Tony is the driving force behind the company. "
+"He loves to keep his hands full by participating in the development of the "
+"software, marketing, and customer experience strategies."
+msgstr ""
+"Tony är bolagets grundare och visionär och den drivande kraften bakom "
+"bolaget. Han älskar att ha händerna fulla genom att delta i utvecklingen av "
+"strategier för programvara, marknadsföring och kundupplevelse."
+
+#. module: website
+# override | officiell: 'Grundaren Tony är den drivande kraften bakom
+# företaget. Han älskar att ha händerna fulla genom att delta i utvecklingen
+# av programvaran, marknadsföringen och UX-strategierna.'
+msgid ""
+"Founder, Tony is the driving force behind the company. He loves to keep his "
+"hands full by participating in the development of the software, marketing, "
+"and UX strategies."
+msgstr ""
+"Grundaren Tony är den drivande kraften bakom bolaget. Han älskar att ha "
+"händerna fulla genom att delta i utvecklingen av programvaran, "
+"marknadsföringen och UX-strategierna."
+
+#. module: website
+# override | officiell: 'Grundaren Tony är den drivande kraften bakom
+# företaget. Han älskar att ha händerna fulla genom att delta i utvecklingen
+# av programvaran, marknadsföringen och kundupplevelsen.'
+msgid ""
+"Founder, Tony is the driving force behind the company. He loves to keep his "
+"hands full by participating in the development of the software, marketing, "
+"and customer experience."
+msgstr ""
+"Grundaren Tony är den drivande kraften bakom bolaget. Han älskar att ha "
+"händerna fulla genom att delta i utvecklingen av programvaran, "
+"marknadsföringen och kundupplevelsen."
+
+#. module: website
+# override | officiell: 'Här är några vanliga frågor om vårt företag.'
+msgid "Here are some common questions about our company."
+msgstr "Här är några vanliga frågor om vårt bolag."
+
+#. module: website
+# override | officiell: 'Om inställd, lägg till menyn som en andra nivå meny,
+# som ett barn till "Företag" menyn.'
 msgid ""
 "If set, add the menu as a second level menu, as a child of \"Company\" menu."
 msgstr ""
 "Om inställd, lägg till menyn som en andra nivå meny, som ett barn till "
 "\"Bolag\" menyn."
 
-#. override | officiell: 'Menyföretag'
+#. module: website
+# override | officiell: 'Information och statistik om ditt företag'
+msgid "Info and stats about your company"
+msgstr "Information och statistik om ditt bolag"
+
+#. module: website
+# override | officiell: 'Iris, med sin internationella erfarenhet, hjälper oss
+# att enkelt förstå siffrorna och förbättra dem. Hon är fast besluten att
+# driva framgång och använder sin yrkesskicklighet för att ta företaget till
+# nästa nivå.'
+msgid ""
+"Iris, with her international experience, helps us easily understand the "
+"numbers and improves them. She is determined to drive success and delivers "
+"her professional acumen to bring the company to the next level."
+msgstr ""
+"Iris, med sin internationella erfarenhet, hjälper oss att enkelt förstå "
+"siffrorna och förbättra dem. Hon är fast besluten att driva framgång och "
+"använder sin yrkesskicklighet för att ta bolaget till nästa nivå."
+
+#. module: website
+# override | officiell: 'James leder arbetet med teknisk strategi och
+# innovation på företaget.'
+msgid "James leads the tech strategy and innovation efforts at the company."
+msgstr "James leder arbetet med teknisk strategi och innovation på bolaget."
+
+#. module: website
+# override | officiell: 'Gå med oss och gör ditt företag till en bättre
+# plats.'
+msgid "Join us and make your company a better place."
+msgstr "Gå med oss och gör ditt bolag till en bättre plats."
+
+#. module: website
+# override | officiell: 'Bli en del av oss och gör ditt företag till en bättre
+# plats.<br/><br/>'
+msgid "Join us and make your company a better place.<br/><br/>"
+msgstr "Bli en del av oss och gör ditt bolag till en bättre plats.<br/><br/>"
+
+#. module: website
+# override | officiell: 'Menyföretag'
 msgid "Menu Company"
 msgstr "Menybolag"
 
-#. override | officiell: 'Mitt Företag'
+#. module: website
+# override | officiell: 'Mich älskar att ta sig an utmaningar. Med sin
+# mångåriga erfarenhet som Commercial Director inom mjukvarubranschen har Mich
+# hjälpt företaget att nå dit det är idag.'
+msgid ""
+"Mich loves taking on challenges. With his multi-year experience as "
+"Commercial Director in the software industry, Mich has helped the company to"
+" get where it is today."
+msgstr ""
+"Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
+"Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
+"dit det är idag."
+
+#. module: website
+# override | officiell: 'Mich älskar att ta sig an utmaningar. Med sin
+# mångåriga erfarenhet som Commercial Director inom mjukvarubranschen har Mich
+# hjälpt företaget att nå dit det är idag. Mich är en av de bästa hjärnorna.'
+msgid ""
+"Mich loves taking on challenges. With his multi-year experience as "
+"Commercial Director in the software industry, Mich has helped the company to"
+" get where it is today. Mich is among the best minds."
+msgstr ""
+"Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
+"Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
+"dit det är idag. Mich är en av de bästa hjärnorna."
+
+#. module: website
+# override | officiell: 'Mitt Företag'
 msgid "My Company"
 msgstr "Mitt Bolag"
 
-#. override | officiell: 'Vårt Företag'
+#. module: website
+# override | officiell: 'Vårt Företag'
 msgid "Our Company"
 msgstr "Vårt Bolag"
 
-#. override | officiell: 'Webbplatsföretag'
+#. module: website
+# override | officiell: 'Vårt företag är specialiserat på konsultverksamhet,
+# produktutveckling och kundsupport. Vi skräddarsyr våra tjänster för att
+# passa de unika behoven hos företag i olika sektorer och hjälper dem att växa
+# och lyckas på en konkurrensutsatt marknad.'
+msgid ""
+"Our company specializes in consulting, product development, and customer "
+"support. We tailor our services to fit the unique needs of businesses across"
+" various sectors, helping them grow and succeed in a competitive market."
+msgstr ""
+"Vårt bolag är specialiserat på konsultverksamhet, produktutveckling och "
+"kundsupport. Vi skräddarsyr våra tjänster för att passa de unika behoven hos"
+" bolag i olika sektorer och hjälper dem att växa och lyckas på en "
+"konkurrensutsatt marknad."
+
+#. module: website
+# override | officiell: 'Företaget den här webbsidan tillhör'
+msgid "The company this website belongs to"
+msgstr "Bolaget den här webbsidan tillhör"
+
+#. module: website
+# override | officiell: 'Företaget "%(company_name)s" kan inte arkiveras
+# eftersom det har en länkad webbplats "%(website_name)s".\nÄndra webbplatsens
+# företag först.'
+msgid ""
+"The company “%(company_name)s” cannot be archived because it has a linked website “%(website_name)s”.\n"
+"Change that website's company first."
+msgstr ""
+"Bolaget \"%(company_name)s\" kan inte arkiveras eftersom det har en länkad webbplats \"%(website_name)s\".\n"
+"Ändra webbplatsens bolag först."
+
+#. module: website
+# override | officiell: 'Utvecklingen av vårt företag'
+msgid "The evolution of our company"
+msgstr "Utvecklingen av vårt bolag"
+
+#. module: website
+# override | officiell: 'Använd detta avsnitt för att öka ditt företags
+# trovärdighet.'
+msgid "Use this section to boost your company's credibility."
+msgstr "Använd detta avsnitt för att öka ditt bolags trovärdighet."
+
+#. module: website
+# override | officiell: 'Vi är ett team av passionerade människor vars mål är
+# att förbättra allas liv genom rebelliska produkter. Vi bygger fantastiska
+# produkter för att lösa dina affärsproblem.\n<br/><br/>Våra produkter är
+# designade för små till medelstora företag som vill optimera sin prestanda.'
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.\n"
+"                            <br/><br/>Our products are designed for small to medium size companies willing to optimize their performance."
+msgstr ""
+"Vi är ett team av passionerade människor vars mål är att förbättra allas liv genom rebelliska produkter. Vi bygger fantastiska produkter för att lösa dina affärsproblem.\n"
+"<br/><br/>Våra produkter är designade för små till medelstora bolag som vill optimera sin prestanda."
+
+#. module: website
+# override | officiell: 'Vi är ett team av passionerade människor vars mål är
+# att förbättra allas liv genom rebelliska produkter. Vi bygger fantastiska
+# produkter för att lösa dina affärsproblem. Våra produkter är designade för
+# små till medelstora företag som vill optimera sin prestanda.'
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's life "
+"through disruptive products. We build great products to solve your business "
+"problems. Our products are designed for small to medium size companies "
+"willing to optimize their performance."
+msgstr ""
+"Vi är ett team av passionerade människor vars mål är att förbättra allas liv"
+" genom rebelliska produkter. Vi bygger fantastiska produkter för att lösa "
+"dina affärsproblem. Våra produkter är designade för små till medelstora "
+"bolag som vill optimera sin prestanda."
+
+#. module: website
+# override | officiell: 'Vi är ett team av passionerade människor vars mål är
+# att förbättra livet för alla.<br/>Våra tjänster är utformade för små och
+# medelstora företag.'
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's "
+"life.<br/>Our services are designed for small to medium size companies."
+msgstr ""
+"Vi är ett team av passionerade människor vars mål är att förbättra livet för"
+" alla.<br/>Våra tjänster är utformade för små och medelstora bolag."
+
+#. module: website
+# override | officiell: 'Webbplatsföretag'
 msgid "Website Company"
 msgstr "Webbplatsbolag"
 
-#. override | officiell: 'Ditt företag'
+#. module: website
+# override | officiell: 'Ditt företag'
 msgid "Your Company"
 msgstr "Ditt bolag"
+
+#. module: website
+# override | officiell: 'organisation, företag, människor, kolumn, medlemmar,
+# personal, profiler, biografier, roller, personal, besättning'
+msgid ""
+"organization, company, people, column, members, staffs, profiles, bios, "
+"roles, personnel, crew"
+msgstr ""
+"organisation, bolag, människor, kolumn, medlemmar, personal, profiler, "
+"biografier, roller, personal, besättning"
+
+#. module: website
+# override | officiell: 'organisation, företag, människor, medlemmar,
+# personal, profiler, biografier, roller, personal, besättning, mönstrad,
+# trendig'
+msgid ""
+"organization, company, people, members, staffs, profiles, bios, roles, "
+"personnel, crew, patterned, trendy"
+msgstr ""
+"organisation, bolag, människor, medlemmar, personal, profiler, biografier, "
+"roller, personal, besättning, mönstrad, trendig"
+
+#. module: website
+# override | officiell: 'organisation, företag, människor, medlemmar,
+# personal, profiler, biografier, roller, personal, besättning, mönstrad,
+# trendig, social'
+msgid ""
+"organization, company, people, members, staffs, profiles, bios, roles, "
+"personnel, crew, patterned, trendy, social"
+msgstr ""
+"organisation, bolag, människor, medlemmar, personal, profiler, biografier, "
+"roller, personal, besättning, mönstrad, trendig, social"

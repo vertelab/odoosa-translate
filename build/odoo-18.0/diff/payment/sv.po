@@ -4,6 +4,38 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-payment\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: payment
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: payment
+# override | officiell: 'Ingen manuell betalningsmetod kunde hittas för detta
+# företag. Skapa en från menyn Payment Provider.'
+msgid ""
+"No manual payment method could be found for this company. Please create one "
+"from the Payment Provider menu."
+msgstr ""
+"Ingen manuell betalningsmetod kunde hittas för detta bolag. Skapa en från "
+"menyn Payment Provider."
+
+#. module: payment
+# override | officiell: 'Vänligen byt till företag'
+msgid "Please switch to company"
+msgstr "Vänligen byt till bolag"
+
+#. module: payment
+# override | officiell: 'Företagets huvudvaluta, används för att visa monetära
+# fält.'
+msgid "The main currency of the company, used to display monetary fields."
+msgstr "Bolagets huvudvaluta, används för att visa monetära fält."
+
+#. module: payment
+# override | officiell: 'Du kan inte byta företag för en betalningsleverantör
+# med befintliga transaktioner.'
+msgid ""
+"You cannot change the company of a payment provider with existing "
+"transactions."
+msgstr ""
+"Du kan inte byta bolag för en betalningsleverantör med befintliga "
+"transaktioner."

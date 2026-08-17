@@ -4,23 +4,86 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_expense\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: hr_expense
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: hr_expense
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Rapport företagets valuta'
+#. module: hr_expense
+# override | officiell: 'Tillåten betalningsmetod för kostnader som betalas av
+# företaget.'
+msgid "Payment method allowed for expenses paid by company."
+msgstr "Tillåten betalningsmetod för kostnader som betalas av bolaget."
+
+#. module: hr_expense
+# override | officiell: 'Tillgängliga betalningsmetoder för kostnader som
+# betalas av företaget'
+msgid "Payment methods available for expenses paid by company"
+msgstr "Tillgängliga betalningsmetoder för kostnader som betalas av bolaget"
+
+#. module: hr_expense
+# override | officiell: 'Rapport företagets valuta'
 msgid "Report Company Currency"
 msgstr "Rapport bolagets valuta"
 
-#. override | officiell: 'Pris i företagets valuta'
+#. module: hr_expense
+# override | officiell: 'Skattebelopp i företagets valuta'
+msgid "Tax amount in company currency"
+msgstr "Skattebelopp i bolagets valuta"
+
+#. module: hr_expense
+# override | officiell: 'Företagets standardjournal som används när en
+# personalkostnad skapas.'
+msgid ""
+"The company's default journal used when an employee expense is created."
+msgstr "Bolagets standardjournal som används när en personalkostnad skapas."
+
+#. module: hr_expense
+# override | officiell: 'Betalningsmetoden som används när utlägget betalas av
+# företaget.'
+msgid "The payment method used when the expense is paid by the company."
+msgstr "Betalningsmetoden som används när utlägget betalas av bolaget."
+
+#. module: hr_expense
+# override | officiell: 'När kostnaden för en utläggsprodukt skiljer sig från
+# 0 kan användaren som använder denna produkt inte ändra utläggets belopp,
+# endast kvantiteten. Använd en kostnad som skiljer sig från 0 för
+# utgiftskategorier som finansieras av företaget till fast kostnad, t.ex.
+# milersättning, traktamente, logi eller måltid.'
+msgid ""
+"When the cost of an expense product is different than 0, then the user"
+"                                             using this product won't be "
+"able to change the amount of the expense,"
+"                                             only the quantity. Use a cost "
+"different than 0 for expense categories funded by"
+"                                             the company at fixed cost like "
+"allowances for mileage, per diem, accommodation"
+"                                             or meal."
+msgstr ""
+"När kostnaden för en utläggsprodukt skiljer sig från 0 kan användaren som "
+"använder denna produkt inte ändra utläggets belopp, endast kvantiteten. "
+"Använd en kostnad som skiljer sig från 0 för utgiftskategorier som "
+"finansieras av bolaget till fast kostnad, t.ex. milersättning, traktamente, "
+"logi eller måltid."
+
+#. module: hr_expense
+# override | officiell: 'En utläggsrapport får endast innehålla rader från
+# samma företag.'
+msgid "An expense report must contain only lines from the same company."
+msgstr "En utläggsrapport får endast innehålla rader från samma bolag."
+
+#. module: hr_expense
+# override | officiell: 'Pris i företagets valuta'
 msgid "Price in Company Currency"
 msgstr "Pris i bolagets valuta"
 
-#. override | officiell: 'Du kan bara skapa bokföringsposter för godkända
-#. utlägg.'
+#. module: hr_expense
+# override | officiell: 'Du kan bara skapa bokföringsposter för godkända
+# utlägg.'
 msgid "You can only generate accounting entry for approved expense(s)."
 msgstr "Du kan bara skapa verifikat för godkända utlägg."

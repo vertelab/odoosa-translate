@@ -368,7 +368,10 @@ def build_i18n_extra(module, merged):
         # Bevara referenser — krav för att Odoo ska applicera översättningen
         # Viktigt: entry.comment får ALDRIG vara tom — Odoo 18 kraschar på
         # entry utan "module[s]: <mod>"-kommentar. Fallback till "module: <mod>".
-        new_entry.comment = (entry.comment or "").strip() or f"module: {module}"
+        src_comment = entry.comment or ""
+        if not re.match(r"(module[s]?): (\w+)", src_comment):
+            src_comment = f"module: {module}\n" + src_comment if src_comment.strip() else f"module: {module}"
+        new_entry.comment = src_comment
         new_entry.tcomment = entry.tcomment
         new_entry.occurrences = entry.occurrences
         new_entry.flags = entry.flags
@@ -452,7 +455,38 @@ def build_edition(edition, modules=None):
     report_lines.insert(1, f"\n**Totalt:** {total}")
     report_path = REPORTS_DIR / f"odoosa-{edition}-report.md"
     write_if_changed(report_path, "\n".join(report_lines) + "\n")
-    log(f"   ✅ i18n + i18n_extra + diff + rapport skrivna ({len([p for p in (out_extra).glob('*/sv.po')])} moduler)")
+    n_mods = len([p for p in out_extra.rglob("sv.po")])
+    log(f"   ✅ i18n + i18n_extra + diff + rapport skrivna ({n_mods} moduler)")
+    validate_i18n_extra(edition)
+    return total
+
+
+# ---------------------------------------------------------------------------
+# VALIDATE (driftlärdom 2026-08-17) — i18n_extra-poster MÅSTE ha module:-kommentar
+# ---------------------------------------------------------------------------
+
+def validate_i18n_extra(edition):
+    """Verifiera att alla i18n_extra-poster har giltig module:-kommentar.
+
+    Odoos TranslationFileReader (translate.py:831) kraschar (AttributeError:
+    'NoneType' object has no attribute 'groups') på poster utan
+    `module[s]: <mod>`-kommentar. Körs i slutet av build_edition — om någon
+    post saknar kommentar avbryts pipelinen och deploy sker aldrig."""
+    bad = []
+    total = 0
+    for p in (BUILD_DIR / f"odoo-{edition}" / "i18n_extra").rglob("*.po"):
+        po = polib.pofile(str(p))
+        for e in po:
+            total += 1
+            c = e.comment or ""
+            if not re.match(r"(module[s]?): (\w+)", c):
+                bad.append((str(p), e.msgid[:60], c[:40]))
+    if bad:
+        log(f"   ❌ VALIDATE {edition}: {len(bad)} poster utan module:-kommentar — avbryter")
+        for b in bad[:10]:
+            log(f"      {b}")
+        raise RuntimeError(f"i18n_extra {edition}: {len(bad)} ogiltiga poster")
+    log(f"   ✅ VALIDATE {edition}: {total} poster OK (alla har module:-kommentar)")
     return total
 
 
@@ -577,6 +611,11 @@ def publish(dry_run=False, message=None):
     if dry_run:
         log("   🛑 dry-run — push skippad")
         return 0
+
+    # Integrera eventuella nya commits från GitHub först — annars reject
+    # (driftlärdom 2026-08-17: "rejected HEAD -> main (fetch first)").
+    git(["git", "fetch", "origin"], check=False)
+    git(["git", "pull", "--rebase", "origin", "main"], check=False)
 
     # Push via SSH deploy key (explicit URL — origin är HTTPS för read)
     ssh_url = "git@github.com:vertelab/odoosa-translate.git"

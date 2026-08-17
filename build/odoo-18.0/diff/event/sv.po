@@ -4,20 +4,29 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-event\n"
 "Language: sv\n"
 
-#. override | officiell: '<i class="fa fa-building" title="Deltagarens
-#. företag"/>'
+#. module: event
+# override | officiell: '<i class="fa fa-building" title="Deltagarens
+# företag"/>'
 msgid "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
 msgstr "<i class=\"fa fa-building\" title=\"Deltagarens bolag\"/>"
 
-#. override | officiell: '<span class="o_event_badge_font_faded">Mitt
-#. platshållarföretag</span>'
+#. module: event
+# override | officiell: '<span class="o_event_badge_font_faded">Mitt
+# platshållarföretag</span>'
 msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
 msgstr "<span class=\"o_event_badge_font_faded\">Mitt platshållarbolag</span>"
 
-#. override | officiell: 'Företagslogo'
+#. module: event
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: event
+# override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
 
-#. override | officiell: 'Företagsnamn'
+#. module: event
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

@@ -4,10 +4,17 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_skills\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: hr_skills
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Demo Företagsnamn'
+#. module: hr_skills
+# override | officiell: 'Demo Företagsnamn'
 msgid "Demo Company Name"
 msgstr "Demo Bolagsnamn"
+
+#. module: hr_skills
+# override | officiell: 'Sekreterare, företag'
+msgid "Secretary, company"
+msgstr "Sekreterare, bolag"

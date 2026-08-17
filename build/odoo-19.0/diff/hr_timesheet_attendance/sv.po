@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_timesheet_attendance\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: hr_timesheet_attendance
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

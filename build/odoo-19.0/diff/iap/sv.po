@@ -4,6 +4,20 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-iap\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: iap
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: iap
+# override | officiell: 'Få leads och möjligheter av hög kvalitet: konvertera
+# besökare på hemsidan till leads, skapa leads baserat på en uppsättning
+# kriterier eller berika leads med företagsinformation.'
+msgid ""
+"Get quality leads and opportunities: convert your website visitors into "
+"leads, generate leads based on a set of criteria and enrich the company data"
+" of your opportunities."
+msgstr ""
+"Få leads och möjligheter av hög kvalitet: konvertera besökare på hemsidan "
+"till leads, skapa leads baserat på en uppsättning kriterier eller berika "
+"leads med bolagsinformation."

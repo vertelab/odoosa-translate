@@ -4,8 +4,9 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-iap_mail\n"
 "Language: sv\n"
 
-#. override | officiell: '<i class="fa fa-fw me-2 fa-building text-
-#. primary"/>\n                    <b>Typ av företag</b>'
+#. module: iap_mail
+# override | officiell: '<i class="fa fa-fw me-2 fa-building text-primary"/>\n
+# <b>Typ av företag</b>'
 msgid ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
 "                    <b>Company type</b>"
@@ -13,6 +14,7 @@ msgstr ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
 "                    <b>Typ av bolag</b>"
 
-#. override | officiell: 'Företag'
+#. module: iap_mail
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

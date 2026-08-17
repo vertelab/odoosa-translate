@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-spreadsheet\n"
 "Language: sv\n"
+
+#. module: spreadsheet
+# override | officiell: 'Valuta ej tillgänglig för detta företag.'
+msgid "Currency not available for this company."
+msgstr "Valuta ej tillgänglig för detta bolag."
+
+#. module: spreadsheet
+# override | officiell: 'Företaget som valutakursen ska hämtas från.'
+msgid "The company to take the exchange rate from."
+msgstr "Bolaget som valutakursen ska hämtas från."

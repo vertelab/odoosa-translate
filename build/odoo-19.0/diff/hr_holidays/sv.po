@@ -4,11 +4,12 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_holidays\n"
 "Language: sv\n"
 
-#. override | officiell: 'Tillåt att skapa förfrågningar i batcher:\n- Per
-#. anställd: för en specifik anställd\n- Per företag: alla anställda i det
-#. angivna företaget\n- Per avdelning: alla anställda i den angivna
-#. avdelningen\n- Per anställdetikett: alla anställda i den specifika
-#. anställdgruppkategorin'
+#. module: hr_holidays
+# override | officiell: 'Tillåt att skapa förfrågningar i batcher:\n- Per
+# anställd: för en specifik anställd\n- Per företag: alla anställda i det
+# angivna företaget\n- Per avdelning: alla anställda i den angivna
+# avdelningen\n- Per anställdetikett: alla anställda i den specifika
+# anställdgruppkategorin'
 msgid ""
 "Allow to create requests in batchs:\n"
 "- By Employee: for a specific employee\n"
@@ -22,15 +23,28 @@ msgstr ""
 "- Per avdelning: alla anställda i den angivna avdelningen\n"
 "- Per anställdetikett: alla anställda i den specifika anställdgruppkategorin"
 
-#. override | officiell: 'Företag'
+#. module: hr_holidays
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Anställda Företag'
+#. module: hr_holidays
+# override | officiell: 'Anställda Företag'
 msgid "Employee Company"
 msgstr "Anställda Bolag"
 
-#. override | officiell: 't.ex. extra återhämtning, företaget är inte
-#. tillgängligt, ...'
+#. module: hr_holidays
+# override | officiell: 'Det finns ingen anställd som är inställd på ledig
+# tid. Kontrollera att du är inloggad på rätt företag.'
+msgid ""
+"There is no employee set on the time off. Please make sure you're logged in "
+"the correct company."
+msgstr ""
+"Det finns ingen anställd som är inställd på ledig tid. Kontrollera att du är"
+" inloggad på rätt bolag."
+
+#. module: hr_holidays
+# override | officiell: 't.ex. extra återhämtning, företaget är inte
+# tillgängligt, ...'
 msgid "e.g. Extra recuperation, Company unavailability, ..."
 msgstr "t.ex. extra återhämtning, bolaget är inte tillgängligt, ..."

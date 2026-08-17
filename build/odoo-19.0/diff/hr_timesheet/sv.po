@@ -4,10 +4,36 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_timesheet\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: hr_timesheet
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: hr_timesheet
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: hr_timesheet
+# override | officiell: 'Ett företags interna projekt bör ligga inom
+# företaget.'
+msgid "The Internal Project of a company should be in that company."
+msgstr "Ett bolags interna projekt bör ligga inom bolaget."
+
+#. module: hr_timesheet
+# override | officiell: 'Projektet, uppgiften och de analytiska kontona i
+# tidrapporten måste tillhöra samma företag.'
+msgid ""
+"The project, the task and the analytic accounts of the timesheet must belong"
+" to the same company."
+msgstr ""
+"Projektet, uppgiften och de analytiska kontona i tidrapporten måste tillhöra"
+" samma bolag."
+
+#. module: hr_timesheet
+# override | officiell: 'Tidrapporter måste skapas med en aktiv anställd i de
+# valda företagen.'
+msgid ""
+"Timesheets must be created with an active employee in the selected "
+"companies."
+msgstr "Tidrapporter måste skapas med en aktiv anställd i de valda bolagen."

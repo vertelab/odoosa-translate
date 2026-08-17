@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-loyalty\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: loyalty
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

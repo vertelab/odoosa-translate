@@ -3,3 +3,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-delivery\n"
 "Language: sv\n"
+
+#. module: delivery
+# override | officiell: 'Orderbeloppet för att dra nytta av gratis frakt,
+# uttryckt i företagets valuta'
+msgid ""
+"Amount of the order to benefit from a free shipping, expressed in the "
+"company currency"
+msgstr ""
+"Orderbeloppet för att dra nytta av gratis frakt, uttryckt i bolagets valuta"
+
+#. module: delivery
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

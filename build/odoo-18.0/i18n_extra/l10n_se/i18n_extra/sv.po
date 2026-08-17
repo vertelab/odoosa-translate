@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-l10n_se\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -13,3 +13,18 @@ msgstr ""
 #: model:ir.model,name:l10n_se.model_res_company
 msgid "Companies"
 msgstr "Bolag"
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_26
+msgid "Liabilities to associated companies and jointly controlled companies"
+msgstr "Skulder till intressebolag och gemensamt styrda bolag"
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_24
+msgid "Liabilities to group companies"
+msgstr "Skulder till bolagsgrupper"
+
+#. module: l10n_se
+#: model:account.account.tag,name:l10n_se.account_tag_27
+msgid "Liabilities to other companies in which there is an ownership interest"
+msgstr "Skulder till övriga bolag som det finns ett ägarintresse i"

@@ -4,17 +4,61 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mail\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag som använder denna domän som standard för
-#. att skicka e-post'
+#. module: mail
+# conflict | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: mail
+# override | officiell: 'Företag som använder denna domän som standard för att
+# skicka e-post'
 msgid "Companies using this domain as default for sending mails"
 msgstr "Bolag som använder denna domän som standard för att skicka e-post"
 
-#. override | officiell: 'Relaterat företag'
+#. module: mail
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: mail
+# override | officiell: 'Relaterat företag'
 msgid "Related Company"
 msgstr "Relaterat bolag"
 
-#. override | officiell: 'Du kan inte ta bort dessa grupper, eftersom gruppen
-#. Hela företaget krävs av andra moduler.'
+#. module: mail
+# override | officiell: 'Posterna måste tillhöra samma företag.'
+msgid "The records must belong to the same company."
+msgstr "Posterna måste tillhöra samma bolag."
+
+#. module: mail
+# override | officiell: 'Vi kunde inte skapa alias %(alias_name)s eftersom
+# domänen %(alias_domain_name)s tillhör företaget %(alias_company_names)s
+# medan ägardokumentet tillhör företaget %(company_name)s.'
+msgid ""
+"We could not create alias %(alias_name)s because domain "
+"%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
+"owner document belongs to company %(company_name)s."
+msgstr ""
+"Vi kunde inte skapa alias %(alias_name)s eftersom domänen "
+"%(alias_domain_name)s tillhör bolaget %(alias_company_names)s medan "
+"ägardokumentet tillhör bolaget %(company_name)s."
+
+#. module: mail
+# override | officiell: 'Vi kunde inte skapa alias %(alias_name)s eftersom
+# domänen %(alias_domain_name)s tillhör företaget %(alias_company_names)s
+# medan måldokumentet tillhör företaget %(company_name)s.'
+msgid ""
+"We could not create alias %(alias_name)s because domain "
+"%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
+"target document belongs to company %(company_name)s."
+msgstr ""
+"Vi kunde inte skapa alias %(alias_name)s eftersom domänen "
+"%(alias_domain_name)s tillhör bolaget %(alias_company_names)s medan "
+"måldokumentet tillhör bolaget %(company_name)s."
+
+#. module: mail
+# override | officiell: 'Du kan inte ta bort dessa grupper, eftersom gruppen
+# Hela företaget krävs av andra moduler.'
 msgid ""
 "You cannot delete those groups, as the Whole Company group is required by "
 "other modules."

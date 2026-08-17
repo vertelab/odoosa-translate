@@ -4,14 +4,28 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-sales_team\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: sales_team
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Medlemsföretag'
+#. module: sales_team
+# override | officiell: 'Medlemsföretag'
 msgid "Member Company"
 msgstr "Medlemsbolag"
 
-#. override | officiell: 'Användarföretag'
+#. module: sales_team
+# override | officiell: 'Standardföretaget för den här användaren.'
+msgid "The default company for this user."
+msgstr "Standardbolaget för den här användaren."
+
+#. module: sales_team
+# override | officiell: 'UX: Begränsa till teamföretag eller alla om inget
+# företag'
+msgid "UX: Limit to team company or all if no company"
+msgstr "UX: Begränsa till teambolag eller alla om inget bolag"
+
+#. module: sales_team
+# override | officiell: 'Användarföretag'
 msgid "User Company"
 msgstr "Användarbolag"

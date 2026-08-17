@@ -4,20 +4,29 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-purchase_requisition\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företagets valuta'
+#. module: purchase_requisition
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: purchase_requisition
+# override | officiell: 'Företagets valuta'
 msgid "Company Currency"
 msgstr "Bolagets valuta"
 
-#. override | officiell: 'Företag Subtotal'
+#. module: purchase_requisition
+# override | officiell: 'Företag Subtotal'
 msgid "Company Subtotal"
 msgstr "Bolag Subtotal"
 
-#. override | officiell: 'Företag Totalt'
+#. module: purchase_requisition
+# override | officiell: 'Företag Totalt'
 msgid "Company Total"
 msgstr "Bolag Totalt"
 
-#. override | officiell: 'Du kan inte ändra avtalstyp eller företag för ett
-#. icke upprättat köpeavtal.'
+#. module: purchase_requisition
+# override | officiell: 'Du kan inte ändra avtalstyp eller företag för ett
+# icke upprättat köpeavtal.'
 msgid ""
 "You cannot change the Agreement Type or Company of a not draft purchase "
 "agreement."

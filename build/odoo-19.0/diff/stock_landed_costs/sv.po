@@ -4,14 +4,17 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-stock_landed_costs\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: stock_landed_costs
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: stock_landed_costs
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag relaterat till denna journal'
+#. module: stock_landed_costs
+# override | officiell: 'Företag relaterat till denna journal'
 msgid "Company related to this journal"
 msgstr "Bolag relaterat till denna journal"

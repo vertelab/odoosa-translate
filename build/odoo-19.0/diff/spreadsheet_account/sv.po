@@ -4,6 +4,22 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-spreadsheet_account\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: spreadsheet_account
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
+
+#. module: spreadsheet_account
+# override | officiell: 'Företagets räkenskapsår kunde inte hittas.'
+msgid "The company fiscal year could not be found."
+msgstr "Bolagets räkenskapsår kunde inte hittas."
+
+#. module: spreadsheet_account
+# override | officiell: 'Företaget att rikta in sig på (avancerat).'
+msgid "The company to target (Advanced)."
+msgstr "Bolaget att rikta in sig på (avancerat)."
+
+#. module: spreadsheet_account
+# override | officiell: 'Företaget'
+msgid "The company."
+msgstr "Bolaget"

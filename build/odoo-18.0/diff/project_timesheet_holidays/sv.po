@@ -4,6 +4,17 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-project_timesheet_holidays\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: project_timesheet_holidays
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
+
+#. module: project_timesheet_holidays
+# override | officiell: 'Om det är markerat kommer tidrapporten att genereras
+# i företagets semesterprojekt vid validering av en ledighet.'
+msgid ""
+"If checked, when validating a time off, timesheet will be generated in the "
+"Vacation Project of the company."
+msgstr ""
+"Om det är markerat kommer tidrapporten att genereras i bolagets "
+"semesterprojekt vid validering av en ledighet."

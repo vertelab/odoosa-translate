@@ -4,57 +4,266 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_peppol\n"
 "Language: sv\n"
 
-#. override | officiell: 'Aktivt överordnat företag'
+#. module: account_peppol
+# override | officiell: '<table border="0" cellpadding="0" cellspacing="0"
+# style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana,
+# Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;">\n
+# <tr>\n        <td align="center">\n            <table border="0"
+# cellpadding="0" cellspacing="0" width="590" style="padding: 16px;
+# background-color: white; color: #454748; border-collapse:separate;">\n
+# <!-- HEADER -->\n                <tr>\n                    <td
+# align="center" style="min-width: 590px;">\n                        <table
+# width="590" cellpadding="0" cellspacing="0" style="padding: 0px 8px;
+# background-color: white; border-collapse:separate;">\n
+# <tr>\n                                <td valign="middle">\n
+# <span style="font-size: 10px;">Notis</span>\n
+# <br/>\n                                    <span style="font-size: 20px;
+# font-weight: bold;">\n                                        Välkommen till
+# Peppol\n                                    </span>\n
+# <div style="margin-bottom: 5px; margin-top: 18px;">\n
+# <a t-attf-href="/odoo/accounting/" target="_blank" t-attf-style="padding:
+# 8px 12px; font-size: 12px; color: {{ object.email_primary_color or
+# \'#FFFFFF\' }}; text-decoration: none !important; font-weight: 400;
+# background-color: {{ object.email_secondary_color or \'#875A7B\' }}; border-
+# radius:3px">\n                                            Skicka fakturor\n
+# </a>\n                                    </div>\n
+# </td>\n                                <td valign="middle" align="right">\n
+# <t t-if="not object.uses_default_logo">\n
+# <img t-att-src="\'/logo.png?company=%s\' % object.id" style="height: auto;
+# width: 80px; margin-right: 10px;" t-att-alt="\'%s\' % object.name"/>\n
+# </t>\n                                </td>\n
+# </tr>\n                            <tr>\n                                <td
+# colspan="2" style="text-align:center;">\n
+# <hr style="background-color:#CCCCCC; border:none; height:1px; margin:16px
+# 0;"/>\n                                </td>\n
+# </tr>\n                        </table>\n                    </td>\n
+# </tr>\n                <!-- BODY -->\n                <tr>\n
+# <td align="center">\n                        <table width="590"
+# cellpadding="0" cellspacing="0" style="padding: 0px 8px; background-color:
+# white; border-collapse:separate;">\n                            <tr>\n
+# <td style="font-size: 14px;">\n                                    <p>Hej <t
+# t-out="object.name or \'\'">YourCompany</t>,</p>\n\n
+# <p>Vi har lagt till ert företag i <strong>Peppol-nätverket</strong>.</p>\n\n
+# <p>Ni kan nu <strong>skicka<t t-if="object.account_peppol_proxy_state ==
+# \'receiver\'"> och ta emot</t></strong> digitala fakturor via Odoo – helt
+# kostnadsfritt.</p>\n\n                                    <p>Med vänliga
+# hälsningar,</p>\n\n                                    <p style="margin-
+# bottom: 24px;">Odoo</p>\n                                </td>\n
+# </tr>\n                        </table>\n                    </td>\n
+# </tr>\n            </table>\n        </td>\n    </tr>\n</table>'
+msgid ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
+"    <tr>\n"
+"        <td align=\"center\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"                <!-- HEADER -->\n"
+"                <tr>\n"
+"                    <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                        <table width=\"590\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-collapse:separate;\">\n"
+"                            <tr>\n"
+"                                <td valign=\"middle\">\n"
+"                                    <span style=\"font-size: 10px;\">Notification</span>\n"
+"                                    <br/>\n"
+"                                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
+"                                        Welcome to Peppol\n"
+"                                    </span>\n"
+"                                    <div style=\"margin-bottom: 5px; margin-top: 18px;\">\n"
+"                                        <a t-attf-href=\"/odoo/accounting/\" target=\"_blank\" t-attf-style=\"padding: 8px 12px; font-size: 12px; color: {{ object.email_primary_color or '#FFFFFF' }}; text-decoration: none !important; font-weight: 400; background-color: {{ object.email_secondary_color or '#875A7B' }}; border-radius:3px\">\n"
+"                                            Send invoices\n"
+"                                        </a>\n"
+"                                    </div>\n"
+"                                </td>\n"
+"                                <td valign=\"middle\" align=\"right\">\n"
+"                                    <t t-if=\"not object.uses_default_logo\">\n"
+"                                        <img t-att-src=\"'/logo.png?company=%s' % object.id\" style=\"height: auto; width: 80px; margin-right: 10px;\" t-att-alt=\"'%s' % object.name\"/>\n"
+"                                    </t>\n"
+"                                </td>\n"
+"                            </tr>\n"
+"                            <tr>\n"
+"                                <td colspan=\"2\" style=\"text-align:center;\">\n"
+"                                    <hr style=\"background-color:#CCCCCC; border:none; height:1px; margin:16px 0;\"/>\n"
+"                                </td>\n"
+"                            </tr>\n"
+"                        </table>\n"
+"                    </td>\n"
+"                </tr>\n"
+"                <!-- BODY -->\n"
+"                <tr>\n"
+"                    <td align=\"center\">\n"
+"                        <table width=\"590\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-collapse:separate;\">\n"
+"                            <tr>\n"
+"                                <td style=\"font-size: 14px;\">\n"
+"                                    <p>Dear <t t-out=\"object.name or ''\">YourCompany</t>,</p>\n"
+"\n"
+"                                    <p>We have successfully added your company to the <strong>Peppol Network</strong>.</p>\n"
+"\n"
+"                                    <p>You can now <strong>send<t t-if=\"object.account_peppol_proxy_state == 'receiver'\"> and receive</t></strong> electronic invoices via Odoo — completely free of charge.</p>\n"
+"\n"
+"                                    <p>Best regards,</p>\n"
+"\n"
+"                                    <p style=\"margin-bottom: 24px;\">The Odoo Team</p>\n"
+"                                </td>\n"
+"                            </tr>\n"
+"                        </table>\n"
+"                    </td>\n"
+"                </tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</table>\n"
+"            "
+msgstr ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
+"    <tr>\n"
+"        <td align=\"center\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"                <!-- HEADER -->\n"
+"                <tr>\n"
+"                    <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                        <table width=\"590\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-collapse:separate;\">\n"
+"                            <tr>\n"
+"                                <td valign=\"middle\">\n"
+"                                    <span style=\"font-size: 10px;\">Notis</span>\n"
+"                                    <br/>\n"
+"                                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
+"                                        Välkommen till Peppol\n"
+"                                    </span>\n"
+"                                    <div style=\"margin-bottom: 5px; margin-top: 18px;\">\n"
+"                                        <a t-attf-href=\"/odoo/accounting/\" target=\"_blank\" t-attf-style=\"padding: 8px 12px; font-size: 12px; color: {{ object.email_primary_color or '#FFFFFF' }}; text-decoration: none !important; font-weight: 400; background-color: {{ object.email_secondary_color or '#875A7B' }}; border-radius:3px\">\n"
+"                                            Skicka fakturor\n"
+"                                        </a>\n"
+"                                    </div>\n"
+"                                </td>\n"
+"                                <td valign=\"middle\" align=\"right\">\n"
+"                                    <t t-if=\"not object.uses_default_logo\">\n"
+"                                        <img t-att-src=\"'/logo.png?company=%s' % object.id\" style=\"height: auto; width: 80px; margin-right: 10px;\" t-att-alt=\"'%s' % object.name\"/>\n"
+"                                    </t>\n"
+"                                </td>\n"
+"                            </tr>\n"
+"                            <tr>\n"
+"                                <td colspan=\"2\" style=\"text-align:center;\">\n"
+"                                    <hr style=\"background-color:#CCCCCC; border:none; height:1px; margin:16px 0;\"/>\n"
+"                                </td>\n"
+"                            </tr>\n"
+"                        </table>\n"
+"                    </td>\n"
+"                </tr>\n"
+"                <!-- BODY -->\n"
+"                <tr>\n"
+"                    <td align=\"center\">\n"
+"                        <table width=\"590\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding: 0px 8px; background-color: white; border-collapse:separate;\">\n"
+"                            <tr>\n"
+"                                <td style=\"font-size: 14px;\">\n"
+"                                    <p>Hej <t t-out=\"object.name or ''\">YourCompany</t>,</p>\n"
+"\n"
+"                                    <p>Vi har lagt till ert bolag i <strong>Peppol-nätverket</strong>.</p>\n"
+"\n"
+"                                    <p>Ni kan nu <strong>skicka<t t-if=\"object.account_peppol_proxy_state == 'receiver'\"> och ta emot</t></strong> digitala fakturor via Odoo – helt kostnadsfritt.</p>\n"
+"\n"
+"                                    <p>Med vänliga hälsningar,</p>\n"
+"\n"
+"                                    <p style=\"margin-bottom: 24px;\">Odoo</p>\n"
+"                                </td>\n"
+"                            </tr>\n"
+"                        </table>\n"
+"                    </td>\n"
+"                </tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</table>"
+
+#. module: account_peppol
+# override | officiell: 'Aktivt överordnat företag'
 msgid "Active Parent Company"
 msgstr "Aktivt överordnat bolag"
 
-#. override | officiell: 'Namn på aktivt överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Namn på aktivt överordnat företag'
 msgid "Active Parent Company Name"
 msgstr "Namn på aktivt överordnat bolag"
 
-#. override | officiell: 'Företag'
+#. module: account_peppol
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: account_peppol
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagets namn'
+#. module: account_peppol
+# override | officiell: 'Företagets namn'
 msgid "Company Name"
 msgstr "Bolagets namn"
 
-#. override | officiell: 'Företagsinformation'
+#. module: account_peppol
+# override | officiell: 'Företagsinformation'
 msgid "Company information"
 msgstr "Bolagsinformation"
 
-#. override | officiell: 'Är en filial av ett företag'
+#. module: account_peppol
+# override | officiell: 'Jag försäkrar om att jag har tillåtelse att
+# registrera det här företaget.'
+msgid "I reckon I'm allowed to register this company."
+msgstr ""
+"Jag försäkrar om att jag har tillåtelse att registrera det här bolaget."
+
+#. module: account_peppol
+# override | officiell: 'Är en filial av ett företag'
 msgid "Is Branch Company"
 msgstr "Är en filial av ett bolag"
 
-#. override | officiell: 'Överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Överordnat företag'
 msgid "Parent Company"
 msgstr "Överordnat bolag"
 
-#. override | officiell: 'Peppol överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Peppol-ID bör skilja sig från huvudföretaget.'
+msgid "Peppol ID should be different from main company."
+msgstr "Peppol-ID bör skilja sig från huvudbolaget."
+
+#. module: account_peppol
+# override | officiell: 'Peppol överordnat företag'
 msgid "Peppol Parent Company"
 msgstr "Peppol överordnat bolag"
 
-#. override | officiell: 'Peppol namn på överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Peppol namn på överordnat företag'
 msgid "Peppol Parent Company Name"
 msgstr "Peppol namn på överordnat bolag"
 
-#. override | officiell: 'Peppol använd överordnat företag'
+#. module: account_peppol
+# override | officiell: 'Peppol använd överordnat företag'
 msgid "Peppol Use Parent Company"
 msgstr "Peppol använd överordnat bolag"
 
-#. override | officiell: 'Utvalda företag'
+#. module: account_peppol
+# override | officiell: 'Vänligen välj ett land för ditt företag.'
+msgid "Please select a country for your company."
+msgstr "Vänligen välj ett land för ditt bolag."
+
+#. module: account_peppol
+# override | officiell: 'Registrera företaget hos peppol'
+msgid "Register this company on peppol"
+msgstr "Registrera bolaget hos peppol"
+
+#. module: account_peppol
+# override | officiell: 'Utvalda företag'
 msgid "Selected Company"
 msgstr "Utvalda bolag"
 
-#. override | officiell: 'Du är på väg att använda ett momsregistreringsnummer
-#. för att registrera dig. Försäkra dig om att du registrerar dig med ditt
-#. företagsregisternummer (BCE/KBO) för att följa gällande lagstiftning.'
+#. module: account_peppol
+# override | officiell: 'Skicka från överordnat företag'
+msgid "Send from parent company"
+msgstr "Skicka från överordnat bolag"
+
+#. module: account_peppol
+# override | officiell: 'Du är på väg att använda ett momsregistreringsnummer
+# för att registrera dig. Försäkra dig om att du registrerar dig med ditt
+# företagsregisternummer (BCE/KBO) för att följa gällande lagstiftning.'
 msgid ""
 "You are about to register with your VAT number. Make sure you register with "
 "your Company Registry (BCE/KBO) first to be compliant with the new "
@@ -64,8 +273,29 @@ msgstr ""
 " Försäkra dig om att du registrerar dig med ditt bolagsregisternummer "
 "(BCE/KBO) för att följa gällande lagstiftning."
 
-#. override | officiell: 'Den rekommenderade identifieringsmetoden för Belgien
-#. är ditt företagsregistreringsnummer.'
+#. module: account_peppol
+# override | officiell: 'Ditt företag är redan registrerat på en Åtkomstpunkt
+# (%s) för att ta emot fakturor. Vi kommer endast att registrera er som
+# avsändare i Odoo.'
+msgid ""
+"Your company is already registered on an Access Point (%s) for receiving "
+"invoices. We will register you on Odoo as a sender only."
+msgstr ""
+"Ditt bolag är redan registrerat på en Åtkomstpunkt (%s) för att ta emot "
+"fakturor. Vi kommer endast att registrera er som avsändare i Odoo."
+
+#. module: account_peppol
+# override | officiell: "[PEPPOL-EN16931-R020] En digital adress (EAS) måste
+# anges för företaget '%s'."
+msgid ""
+"[PEPPOL-EN16931-R020] An electronic address (EAS) must be provided on the "
+"company '%s'."
+msgstr ""
+"[PEPPOL-EN16931-R020] En digital adress (EAS) måste anges för bolaget '%s'."
+
+#. module: account_peppol
+# override | officiell: 'Den rekommenderade identifieringsmetoden för Belgien
+# är ditt företagsregistreringsnummer.'
 msgid ""
 "The recommended identification method for Belgium is your Company Registry "
 "Number."

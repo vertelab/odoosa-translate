@@ -4,23 +4,116 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr\n"
 "Language: sv\n"
 
-#. override | officiell: '<i class="fa fa-building-o" role="img" aria-
-#. label="Company" title="Företag"/>'
+#. module: hr
+# override | officiell: '<i class="fa fa-building-o" role="img" aria-
+# label="Company" title="Företag"/>'
 msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Company\"/>"
 msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Bolag\"/>"
 
-#. override | officiell: 'Företagsland'
+#. module: hr
+# override | officiell: 'En användare kan inte länkas till flera anställda
+# inom samma företag.'
+msgid "A user cannot be linked to multiple employees in the same company."
+msgstr "En användare kan inte länkas till flera anställda inom samma bolag."
+
+#. module: hr
+# override | officiell: 'Som anställd i vårt företag kommer du att samarbeta
+# med varje avdelning för att skapa och implementera\n disruptiva produkter.
+# Kom och arbeta på ett växande företag som erbjuder bra förmåner med
+# möjligheter att gå framåt och lära dig från erfarna ledare. Vi söker en
+# erfaren och enastående medarbetare. Denna position är både kreativ och
+# rigorös till sin natur, du behöver tänka utanför boxen. Vi förväntar oss att
+# kandidaten är proaktiv och har en "få det gjort" anda. För att lyckas
+# behöver du ha goda problemlösningsfärdigheter.'
+msgid ""
+"As an employee of our company, you will <b>collaborate with each department to create and deploy\n"
+"                                disruptive products.</b> Come work at a growing company that offers great benefits with opportunities to\n"
+"                                moving forward and learn alongside accomplished leaders. We're seeking an experienced and outstanding member of staff.\n"
+"                                <br><br>\n"
+"                                This position is both <b>creative and rigorous</b> by nature you need to think outside the box.\n"
+"                                We expect the candidate to be proactive and have a \"get it done\" spirit. To be successful,\n"
+"                                you will have solid solving problem skills."
+msgstr ""
+"Som anställd i vårt bolag kommer du att samarbeta med varje avdelning för att skapa och implementera\n"
+" disruptiva produkter. Kom och arbeta på ett växande bolag som erbjuder bra förmåner med möjligheter att gå framåt och lära dig från erfarna ledare. Vi söker en erfaren och enastående medarbetare. Denna position är både kreativ och rigorös till sin natur, du behöver tänka utanför boxen. Vi förväntar oss att kandidaten är proaktiv och har en \"få det gjort\" anda. För att lyckas behöver du ha goda problemlösningsfärdigheter."
+
+#. module: hr
+# conflict | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: hr
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr
+# override | officiell: 'Företagsland'
 msgid "Company Country"
 msgstr "Bolagsland"
 
-#. override | officiell: 'Företagslogo'
+#. module: hr
+# override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
 
-#. override | officiell: 'Företagets arbetstid'
+#. module: hr
+# override | officiell: 'Företagets arbetstid'
 msgid "Company Working Hours"
 msgstr "Bolagets arbetstid"
 
-#. override | officiell: 'Företagsanställd'
+#. module: hr
+# override | officiell: 'Företagsanställd'
 msgid "Company employee"
 msgstr "Bolagsanställd"
+
+#. module: hr
+# override | officiell: 'Varje anställd har en chans att se effekterna av sitt
+# arbete.\n                            Du kan göra ett verkligt bidrag till
+# företagets framgång.\n                            <br>\n
+# Flera aktiviteter organiseras ofta under hela året, till exempel veckovisa\n
+# idrottssessioner, teambuilding-evenemang, månadsdrink och mycket mer.'
+msgid ""
+"Each employee has a chance to see the impact of his work.\n"
+"                            You can make a real contribution to the success of the company.\n"
+"                            <br>\n"
+"                            Several activities are often organized all over the year, such as weekly\n"
+"                            sports sessions, team building events, monthly drink, and much more."
+msgstr ""
+"Varje anställd har en chans att se effekterna av sitt arbete.\n"
+"                            Du kan göra ett verkligt bidrag till bolagets framgång.\n"
+"                            <br>\n"
+"                            Flera aktiviteter organiseras ofta under hela året, till exempel veckovisa\n"
+"                            idrottssessioner, teambuilding-evenemang, månadsdrink och mycket mer."
+
+#. module: hr
+# override | officiell: 'Verkligt ansvar och utmaningar i ett snabbt
+# utvecklande företag'
+msgid "Real responsibilities and challenges in a fast evolving company"
+msgstr "Verkligt ansvar och utmaningar i ett snabbt utvecklande bolag"
+
+#. module: hr
+# override | officiell: 'Ange standardschema för företaget för att hantera de
+# anställdas arbetstid'
+msgid "Set default company schedule to manage your employees working time"
+msgstr ""
+"Ange standardschema för bolaget för att hantera de anställdas arbetstid"
+
+#. module: hr
+# override | officiell: 'Jobbets namn måste vara unikt per avdelning i
+# företaget!'
+msgid "The name of the job position must be unique per department in company!"
+msgstr "Jobbets namn måste vara unikt per avdelning i bolaget!"
+
+#. module: hr
+# override | officiell: 'För att undvika problem med flera företag (förlora
+# åtkomst till dina tidigare kontrakt, ledigheter, ...) ska du skapa en annan
+# anställd i det nya företaget istället.'
+msgid ""
+"To avoid multi company issues (losing the access to your previous contracts,"
+" leaves, ...), you should create another employee in the new company "
+"instead."
+msgstr ""
+"För att undvika problem med flera bolag (förlora åtkomst till dina tidigare "
+"kontrakt, ledigheter, ...) ska du skapa en annan anställd i det nya bolaget "
+"istället."

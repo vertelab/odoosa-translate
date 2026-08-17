@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mail_group\n"
 "Language: sv\n"
 
-#. override | officiell: 'Nyheter om mitt företag'
+#. module: mail_group
+# override | officiell: 'Nyheter om mitt företag'
 msgid "My Company News"
 msgstr "Nyheter om mitt bolag"

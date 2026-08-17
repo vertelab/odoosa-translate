@@ -4,13 +4,15 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-base_vat\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: base_vat
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Landet som identifierats för detta utländska
-#. momsnummer matchar inte något av länderna som utgör den landsgrupp som är
-#. inställd på denna skatteposition.'
+#. module: base_vat
+# override | officiell: 'Landet som identifierats för detta utländska
+# momsnummer matchar inte något av länderna som utgör den landsgrupp som är
+# inställd på denna skatteposition.'
 msgid ""
 "The country detected for this foreign VAT number does not match any of the "
 "countries composing the country group set on this fiscal position."

@@ -2,12 +2,34 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-point_of_sale\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid ""
+"All available pricelists must be in the same currency as the company or as "
+"the Sales Journal set on this point of sale if you use the Accounting "
+"application."
+msgstr ""
+"Alla tillgängliga prislistor måste vara i samma valuta som bolaget eller som"
+" försäljningsverifikaten som är inställd på detta försäljningsställe om du "
+"använder bokföringsapplikationen."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid ""
+"All payment methods must be in the same currency as the Sales Journal or the"
+" company currency if that is not set."
+msgstr ""
+"Alla betalningsmetoder måste vara i samma valuta som försäljningsverifikaten"
+" eller bolagets valuta om det inte är inställt."
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -19,15 +41,66 @@ msgstr ""
 "(skattebefriad, på plats vs. takeaway, etc.)."
 
 #. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_printer__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_session__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__company_id
+msgid "Company"
+msgstr "Bolag"
+
+#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__company_has_template
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_company_has_template
 msgid "Company has chart of accounts"
 msgstr "Bolaget har en kontoplan"
 
 #. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_payment__currency_rate
+msgid "Conversion rate from company currency to order currency."
+msgstr "Omräkningskurs från bolagets valuta till orderns valuta."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid ""
+"Ensure that there is an existing bank journal. Check if chart of accounts is"
+" installed in your company."
+msgstr ""
+"Se till att det finns en befintlig bankjournal. Kontrollera om kontoplan "
+"finns installerad i ditt bolag."
+
+#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__is_in_company_currency
 msgid "Is Using Company Currency"
 msgstr "Använder bolagets valuta"
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
+msgid "Leave empty to use the default account from the company setting"
+msgstr "Lämna tomt för att använda standardkontot från bolagsinställningen"
+
+#. module: point_of_sale
+#: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__receivable_account_id
+msgid ""
+"Leave empty to use the default account from the company setting.\n"
+"Overrides the company's receivable account (for Point of Sale) used in the journal entries."
+msgstr ""
+"Lämna tomt för att använda standardkontot från bolagets inställning.\n"
+"Åsidosätter bolagets kundfordringskonto (för Point of Sale) som används i journalposterna."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid ""
+"The default pricelist must belong to no company or the company of the point "
+"of sale."
+msgstr ""
+"Standardprislistan får inte tillhöra något bolag eller bolaget för "
+"försäljningsstället."
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -40,9 +113,53 @@ msgstr ""
 "till att den är laddad genom att lägga till den i pos-konfigurationen."
 
 #. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid ""
+"The invoice journal must be in the same currency as the Sales Journal or the"
+" company currency if that is not set."
+msgstr ""
+"Fakturaverifikatet måste vara i samma valuta som försäljningsverifikatet "
+"eller i bolagets valuta om detta inte är angivet."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid ""
+"The payment methods for the point of sale %s must belong to its company."
+msgstr ""
+"Betalningsmetoderna för försäljningsstället %s måste tillhöra dess bolag."
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_config.py:0
+msgid ""
+"The selected pricelists must belong to no company or the company of the "
+"point of sale."
+msgstr ""
+"De valda prislistorna får inte tillhöra något bolag eller bolaget för "
+"försäljningsstället."
+
+#. module: point_of_sale
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
+#: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
+msgid ""
+"There is no Chart of Accounts configured on the company. Please go to the "
+"invoicing settings to install a Chart of Accounts."
+msgstr ""
+"Det finns ingen kontoplan konfigurerad på bolaget. Gå till "
+"faktureringsinställningarna för att installera en kontoplan."
+
+#. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Use fiscal positions to get different taxes by order"
 msgstr "Använd skatteområden för att få olika skatter i ordning"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid "You cannot invoice orders belonging to different companies."
+msgstr "Du kan inte fakturera order som hör till olika bolag."
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form

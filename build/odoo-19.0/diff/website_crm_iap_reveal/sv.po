@@ -4,18 +4,49 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_crm_iap_reveal\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: website_crm_iap_reveal
+# override | officiell: '1 kredit förbrukas per besökare som uppfyller
+# webbplatsens trafikvillkor och vars företag kan identifieras.<br/>'
+msgid ""
+"1 credit is consumed per visitor matching the website traffic conditions and"
+" whose company can be identified.<br/>"
+msgstr ""
+"1 kredit förbrukas per besökare som uppfyller webbplatsens trafikvillkor och"
+" vars bolag kan identifieras.<br/>"
+
+#. module: website_crm_iap_reveal
+# override | officiell: 'Välj om du vill spåra endast företag eller företag
+# och deras kontakter'
+msgid "Choose whether to track companies only or companies and their contacts"
+msgstr "Välj om du vill spåra endast bolag eller bolag och deras kontakter"
+
+#. module: website_crm_iap_reveal
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag och deras kontaktpersoner'
+#. module: website_crm_iap_reveal
+# override | officiell: 'Företag och deras kontaktpersoner'
 msgid "Companies and their Contacts"
 msgstr "Bolag och deras kontaktpersoner"
 
-#. override | officiell: 'Företagets storlek'
+#. module: website_crm_iap_reveal
+# override | officiell: 'Företagets storlek'
 msgid "Company Size"
 msgstr "Bolagets storlek"
 
-#. override | officiell: 'Företags Maxstorlek'
+#. module: website_crm_iap_reveal
+# override | officiell: 'Företags Maxstorlek'
 msgid "Company Size Max"
 msgstr "Bolags Maxstorlek"
+
+#. module: website_crm_iap_reveal
+# override | officiell: 'Filtrera företag baserat på deras storlek.'
+msgid "Filter companies based on their size."
+msgstr "Filtrera bolag baserat på deras storlek."
+
+#. module: website_crm_iap_reveal
+# override | officiell: 'ytterligare kredit(er) förbrukas om företaget
+# uppfyller denna regel.'
+msgid "additional credit(s) are consumed if the company matches this rule."
+msgstr "ytterligare kredit(er) förbrukas om bolaget uppfyller denna regel."

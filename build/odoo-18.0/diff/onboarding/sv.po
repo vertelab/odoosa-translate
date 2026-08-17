@@ -4,6 +4,42 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-onboarding\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: onboarding
+# override | officiell: 'Alla register över framsteg inom onboarding (över
+# alla företag).'
+msgid "All Onboarding Progress Records (across companies)."
+msgstr "Alla register över framsteg inom onboarding (över alla bolag)."
+
+#. module: onboarding
+# override | officiell: 'Alla relaterade poster för Onboarding Progress Steps
+# (över alla företag)'
+msgid "All related Onboarding Progress Step Records (across companies)"
+msgstr ""
+"Alla relaterade poster för Onboarding Progress Steps (över alla bolag)"
+
+#. module: onboarding
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: onboarding
+# override | officiell: 'Är per företag'
+msgid "Is per company"
+msgstr "Är per bolag"
+
+#. module: onboarding
+# override | officiell: 'Introduktionsförlopps steg för den aktuella kontexten
+# (företaget).'
+msgid "Onboarding Progress Step for the current context (company)."
+msgstr "Introduktionsförlopps steg för den aktuella kontexten (bolaget)."
+
+#. module: onboarding
+# override | officiell: 'Introduktions förlopp för det aktuella sammanhanget
+# (företaget).'
+msgid "Onboarding Progress for the current context (company)."
+msgstr "Introduktions förlopp för det aktuella sammanhanget (bolaget)."
+
+#. module: onboarding
+# override | officiell: 'Bör detta göras per företag?'
+msgid "Should be done per company?"
+msgstr "Bör detta göras per bolag?"

@@ -2,9 +2,33 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website_blog\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"A traveler may choose to explore the area by hiking around the canyon or "
+"venturing into it. Detailed planning is required for those who wish to "
+"venture into the depths of the canyon. There are a number of travel "
+"companies that specialize in organizing tours to the region. Visitors can "
+"fly to Copper Canyon using a tourist visa, which is valid for 180 days. "
+"Travelers can also drive from anywhere in the United States and acquire a "
+"visa at the Mexican customs station at the border."
+msgstr ""
+"En resenär kan välja att utforska området genom att vandra runt kanjonen "
+"eller ge sig in i den. Detaljerad planering krävs för dem som vill ge sig in"
+" i kanjonens djup. Det finns ett antal resebolag som specialiserar sig på "
+"att organisera turer till regionen. Besökare kan flyga till Copper Canyon "
+"med ett turistvisum, som är giltigt i 180 dagar. Resenärer kan också köra "
+"från var som helst i USA och skaffa ett visum vid den mexikanska "
+"tullstationen vid gränsen."
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.sidebar_blog_index
+msgid "Write a small text here to describe your blog or company."
+msgstr "Skriv en liten text här för att beskriva din blogg eller ditt bolag."

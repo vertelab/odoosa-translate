@@ -4,10 +4,12 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_fleet\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företagsbil'
+#. module: hr_fleet
+# override | officiell: 'Företagsbil'
 msgid "Company Car"
 msgstr "Bolagsbil"
 
-#. override | officiell: 'Frigör företagsbil'
+#. module: hr_fleet
+# override | officiell: 'Frigör företagsbil'
 msgid "Release Company Car"
 msgstr "Frigör bolagsbil"

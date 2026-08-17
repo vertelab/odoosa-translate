@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-web\n"
-"POT-Creation-Date: 2026-08-14 12:54\n"
-"PO-Revision-Date: 2026-08-14 12:54\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -94,6 +94,35 @@ msgstr ""
 " (beroende på vald layout)."
 
 #. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bold
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bubble
+#: model_terms:ir.ui.view,arch_db:web.external_layout_folder
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+#: model_terms:ir.ui.view,arch_db:web.external_layout_striped
+#: model_terms:ir.ui.view,arch_db:web.external_layout_wave
+msgid "Contains the company address."
+msgstr "Innehåller bolagets adress."
+
+#. module: web
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bold
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_bubble
+#: model_terms:ir.ui.view,arch_db:web.external_layout_folder
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+#: model_terms:ir.ui.view,arch_db:web.external_layout_striped
+#: model_terms:ir.ui.view,arch_db:web.external_layout_wave
+msgid "Contains the company details."
+msgstr "Innehåller uppgifter om bolaget."
+
+#. module: web
 #: model:ir.model.fields,field_description:web.field_base_document_layout__is_company_details_empty
 msgid "Is Company Details Empty"
 msgstr "Is Bolagsuppgifter Tom"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/form/form_label.js:0
+#: code:addons/web/static/src/views/form/setting/setting.xml:0
+msgid "Values set here are company-specific."
+msgstr "Värden som anges här är bolagsspecifika."

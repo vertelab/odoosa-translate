@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account_edi_ubl_cii\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -35,6 +35,16 @@ msgstr "Bolagsregister i Belgien"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0191
 msgid "Estonia Company code"
 msgstr "Bolagsnummer i Estland"
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
+msgid ""
+"Please fill in your company's VAT or Peppol Address to generate a complete "
+"XML file."
+msgstr ""
+"Vänligen fyll i bolagets momsregistreringsnummer eller Peppol-adress för att"
+" generera en fullständig XML-fil."
 
 #. module: account_edi_ubl_cii
 #. odoo-python

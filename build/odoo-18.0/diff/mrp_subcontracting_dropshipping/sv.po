@@ -4,6 +4,21 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-mrp_subcontracting_dropshipping\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: mrp_subcontracting_dropshipping
+# override | officiell: 'Markera denna ruta för att skapa en ny särskild
+# underleverantörsplats för detta företag. Observera att standardrutterna för
+# underleverantörer kommer att anpassas så att de automatiskt tar hänsyn till
+# dessa.'
+msgid ""
+"Check this box to create a new dedicated subcontracting location for this "
+"company. Note that standard subcontracting routes will be adapted so as to "
+"take these into account automatically."
+msgstr ""
+"Markera denna ruta för att skapa en ny särskild underleverantörsplats för "
+"detta bolag. Observera att standardrutterna för underleverantörer kommer att"
+" anpassas så att de automatiskt tar hänsyn till dessa."
+
+#. module: mrp_subcontracting_dropshipping
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"

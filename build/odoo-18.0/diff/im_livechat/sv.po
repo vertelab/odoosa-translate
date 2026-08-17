@@ -3,3 +3,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-im_livechat\n"
 "Language: sv\n"
+
+#. module: im_livechat
+# override | officiell: 'Livechat Support Channel Statistics gör att du enkelt
+# kan kontrollera och analysera ditt företags livechat-sessionsprestanda.
+# Extrahera information om missade sessioner, publiken, längden på en session
+# etc.'
+msgid ""
+"Livechat Support Channel Statistics allows you to easily check and analyse "
+"your company livechat session performance. Extract information about the "
+"missed sessions, the audience, the duration of a session, etc."
+msgstr ""
+"Livechat Support Channel Statistics gör att du enkelt kan kontrollera och "
+"analysera ditt bolags livechat-sessionsprestanda. Extrahera information om "
+"missade sessioner, publiken, längden på en session etc."

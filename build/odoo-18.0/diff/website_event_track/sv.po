@@ -4,14 +4,23 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_event_track\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: website_event_track
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagsnamn'
+#. module: website_event_track
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. override | officiell: 'Mitt företags globala presentation'
+#. module: website_event_track
+# override | officiell: 'Beskrivning av partnern (namn, function och
+# företagsnamn)'
+msgid "Description of the partner (name, function and company name)"
+msgstr "Beskrivning av partnern (namn, function och bolagsnamn)"
+
+#. module: website_event_track
+# override | officiell: 'Mitt företags globala presentation'
 msgid "My Company global presentation"
 msgstr "Mitt bolags globala presentation"

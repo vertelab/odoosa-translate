@@ -4,12 +4,19 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-purchase\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag Totalt'
+#. module: purchase
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: purchase
+# override | officiell: 'Företag Totalt'
 msgid "Company Total"
 msgstr "Bolag Totalt"
 
-#. override | officiell: 'Standard om huruvida det försäljningspris som
-#. används på produkten och fakturor med detta företag inkluderar skatter.'
+#. module: purchase
+# override | officiell: 'Standard om huruvida det försäljningspris som används
+# på produkten och fakturor med detta företag inkluderar skatter.'
 msgid ""
 "Default on whether the sales price used on the product and invoices with "
 "this Company includes its taxes."
@@ -17,11 +24,46 @@ msgstr ""
 "Standard om huruvida det försäljningspris som används på produkten och "
 "fakturor med detta bolag inkluderar skatter."
 
-#. override | officiell: 'Tekniskt fält för att filtrera de tillgängliga
-#. skatterna beroende på skatteland och skatteposition.'
+#. module: purchase
+# override | officiell: 'Ange en adress om du vill leverera direkt från
+# leverantören till kunden. Lämna annars tom för att leverera till ditt eget
+# företag.'
+msgid ""
+"Put an address if you want to deliver directly from the vendor to the "
+"customer. Otherwise, keep empty to deliver to your own company."
+msgstr ""
+"Ange en adress om du vill leverera direkt från leverantören till kunden. "
+"Lämna annars tom för att leverera till ditt eget bolag."
+
+#. module: purchase
+# override | officiell: 'Tekniskt fält för att filtrera de tillgängliga
+# skatterna beroende på skatteland och skatteposition.'
 msgid ""
 "Technical field to filter the available taxes depending on the fiscal "
 "country and fiscal position."
 msgstr ""
 "Tekniskt fält för att filtrera de tillgängliga skatterna beroende på "
 "skatteland och skatteområde."
+
+#. module: purchase
+# override | officiell: 'Med denna analys kan du enkelt kontrollera och
+# analysera ditt företags inköpshistorik och resultat.\n                Du kan
+# spåra dina förhandlingsresultat, dina leverantörers leveransresultat etc'
+msgid ""
+"This analysis allows you to easily check and analyse your company purchase history and performance.\n"
+"                You can track your negotiation performance, the delivery performance of your vendors, etc"
+msgstr ""
+"Med denna analys kan du enkelt kontrollera och analysera ditt bolags inköpshistorik och resultat.\n"
+"                Du kan spåra dina förhandlingsresultat, dina leverantörers leveransresultat etc"
+
+#. module: purchase
+# override | officiell: 'Ditt erbjudande innehåller produkter från företaget
+# %(product_company)s medan ditt erbjudande tillhör företaget
+# %(quote_company)s. \n Var god ändra företaget för ditt erbjudande eller ta
+# bort produkterna från andra företag (%(bad_products)s).'
+msgid ""
+"Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
+" Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
+msgstr ""
+"Ditt erbjudande innehåller produkter från bolaget %(product_company)s medan ditt erbjudande tillhör bolaget %(quote_company)s. \n"
+" Var god ändra bolaget för ditt erbjudande eller ta bort produkterna från andra bolag (%(bad_products)s)."

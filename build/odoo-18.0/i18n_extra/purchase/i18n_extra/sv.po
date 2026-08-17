@@ -2,12 +2,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-purchase\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__company_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__company_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__company_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__company_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_report__company_id
+#: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
+msgid "Company"
+msgstr "Bolag"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total_cc
@@ -24,6 +34,15 @@ msgstr ""
 "fakturor med detta bolag inkluderar skatter."
 
 #. module: purchase
+#: model:ir.model.fields,help:purchase.field_purchase_order__dest_address_id
+msgid ""
+"Put an address if you want to deliver directly from the vendor to the "
+"customer. Otherwise, keep empty to deliver to your own company."
+msgstr ""
+"Ange en adress om du vill leverera direkt från leverantören till kunden. "
+"Lämna annars tom för att leverera till ditt eget bolag."
+
+#. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__tax_country_id
 msgid ""
 "Technical field to filter the available taxes depending on the fiscal "
@@ -31,3 +50,22 @@ msgid ""
 msgstr ""
 "Tekniskt fält för att filtrera de tillgängliga skatterna beroende på "
 "skatteland och skatteområde."
+
+#. module: purchase
+#: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
+msgid ""
+"This analysis allows you to easily check and analyse your company purchase history and performance.\n"
+"                You can track your negotiation performance, the delivery performance of your vendors, etc"
+msgstr ""
+"Med denna analys kan du enkelt kontrollera och analysera ditt bolags inköpshistorik och resultat.\n"
+"                Du kan spåra dina förhandlingsresultat, dina leverantörers leveransresultat etc"
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_order.py:0
+msgid ""
+"Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
+" Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
+msgstr ""
+"Ditt erbjudande innehåller produkter från bolaget %(product_company)s medan ditt erbjudande tillhör bolaget %(quote_company)s. \n"
+" Var god ändra bolaget för ditt erbjudande eller ta bort produkterna från andra bolag (%(bad_products)s)."

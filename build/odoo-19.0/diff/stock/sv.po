@@ -4,20 +4,45 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-stock\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: stock
+# override | officiell: 'Det är inte tillåtet att ändra företaget på det här
+# dokumentet, du bör hellre arkivera det och skapa ett nytt.'
+msgid ""
+"Changing the company of this record is forbidden at this point, you should "
+"rather archive it and create a new one."
+msgstr ""
+"Det är inte tillåtet att ändra bolaget på det här dokumentet, du bör hellre "
+"arkivera det och skapa ett nytt."
+
+#. module: stock
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: stock
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Mitt företag (Chicago) åtar sig att göra sitt bästa
-#. för att tillhandahålla tjänster i rätt tid i enlighet med de överenskomna
-#. tidsramarna. Ingen av dess skyldigheter kan dock anses vara en skyldighet
-#. att uppnå resultat. My Company (Chicago) kan inte under några
-#. omständigheter åläggas av kunden att uppträda som tredje part i samband med
-#. ett skadeståndsanspråk som en slutkonsument riktar mot kunden.'
+#. module: stock
+# override | officiell: 'Lämna detta fält tomt om rutten delas av alla
+# företag'
+msgid "Leave this field empty if this route is shared between all companies"
+msgstr "Lämna detta fält tomt om rutten delas av alla bolag"
+
+#. module: stock
+# override | officiell: 'Lämna detta fält tomt om platsen delas av flera
+# företag'
+msgid "Let this field empty if this location is shared between companies"
+msgstr "Lämna detta fält tomt om platsen delas av flera bolag"
+
+#. module: stock
+# override | officiell: 'Mitt företag (Chicago) åtar sig att göra sitt bästa
+# för att tillhandahålla tjänster i rätt tid i enlighet med de överenskomna
+# tidsramarna. Ingen av dess skyldigheter kan dock anses vara en skyldighet
+# att uppnå resultat. My Company (Chicago) kan inte under några omständigheter
+# åläggas av kunden att uppträda som tredje part i samband med ett
+# skadeståndsanspråk som en slutkonsument riktar mot kunden.'
 msgid ""
 "My Company (Chicago) undertakes to do its best to supply performant services"
 " in due time in accordance with the agreed timeframes. However, none of its "
@@ -33,6 +58,98 @@ msgstr ""
 "uppträda som tredje part i samband med ett skadeståndsanspråk som en "
 "slutkonsument riktar mot kunden."
 
-#. override | officiell: 'Ruttföretag'
+#. module: stock
+# override | officiell: 'Vänligen skapa ett lager för företaget %s.'
+msgid "Please create a warehouse for company %s."
+msgstr "Vänligen skapa ett lager för bolaget %s."
+
+#. module: stock
+# override | officiell: 'Ruttföretag'
 msgid "Route Company"
 msgstr "Ruttbolag"
+
+#. module: stock
+# override | officiell: 'Streckkoden för en plats måste vara unik för varje
+# företag!'
+msgid "The barcode for a location must be unique per company!"
+msgstr "Streckkoden för en plats måste vara unik för varje bolag!"
+
+#. module: stock
+# override | officiell: 'Kombinationen av parti-/serienummer och produkt måste
+# vara unik inom ett företag, även när inget företag har
+# definierats.\nFöljande kombinationer innehåller
+# dubbletter:\n%(error_lines)s'
+msgid ""
+"The combination of lot/serial number and product must be unique within a company including when no company is defined.\n"
+"The following combinations contain duplicates:\n"
+"%(error_lines)s"
+msgstr ""
+"Kombinationen av parti-/serienummer och produkt måste vara unik inom ett bolag, även när inget bolag har definierats.\n"
+"Följande kombinationer innehåller dubbletter:\n"
+"%(error_lines)s"
+
+#. module: stock
+# override | officiell: 'Företaget ställs automatiskt in från dina
+# användarpreferenser.'
+msgid "The company is automatically set from your user preferences."
+msgstr "Bolaget ställs automatiskt in från dina användarpreferenser."
+
+#. module: stock
+# override | officiell: 'Namnet på lagerplatsen måste vara unikt för varje
+# företag!'
+msgid "The name of the warehouse must be unique per company!"
+msgstr "Namnet på lagerplatsen måste vara unikt för varje bolag!"
+
+#. module: stock
+# override | officiell: 'Kortnamnet på lagret måste vara unikt per företag!'
+msgid "The short name of the warehouse must be unique per company!"
+msgstr "Kortnamnet på lagret måste vara unikt per bolag!"
+
+#. module: stock
+# override | officiell: 'Denna produkts företag kan inte ändras så länge det
+# finns kvantiteter av den som tillhör ett annat företag.'
+msgid ""
+"This product's company cannot be changed as long as there are quantities of "
+"it belonging to another company."
+msgstr ""
+"Denna produkts bolag kan inte ändras så länge det finns kvantiteter av den "
+"som tillhör ett annat bolag."
+
+#. module: stock
+# override | officiell: 'Denna produkts företag kan inte ändras så länge det
+# finns lagerflyttar av den som tillhör ett annat företag.'
+msgid ""
+"This product's company cannot be changed as long as there are stock moves of"
+" it belonging to another company."
+msgstr ""
+"Denna produkts bolag kan inte ändras så länge det finns lagerflyttar av den "
+"som tillhör ett annat bolag."
+
+#. module: stock
+# override | officiell: 'Du kan endast flytta positiva kvantiteter som lagras
+# på platser som används av ett enda företag per flyttning.'
+msgid ""
+"You can only move positive quantities stored in locations used by a single "
+"company per relocation."
+msgstr ""
+"Du kan endast flytta positiva kvantiteter som lagras på platser som används "
+"av ett enda bolag per flyttning."
+
+#. module: stock
+# override | officiell: 'Du kan inte avaktivera multi-location om du har mer
+# än ett lager per företag'
+msgid ""
+"You can't deactivate the multi-location if you have more than once warehouse"
+" by company"
+msgstr ""
+"Du kan inte avaktivera multi-location om du har mer än ett lager per bolag"
+
+#. module: stock
+# override | officiell: 'Du kan inte byta företag för ett parti-/serienummer
+# som för närvarande finns på en plats som tillhör ett annat företag.'
+msgid ""
+"You cannot change the company of a lot/serial number currently in a location"
+" belonging to another company."
+msgstr ""
+"Du kan inte byta bolag för ett parti-/serienummer som för närvarande finns "
+"på en plats som tillhör ett annat bolag."

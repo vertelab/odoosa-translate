@@ -4,10 +4,18 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-gamification\n"
 "Language: sv\n"
 
-#. override | officiell: 'Ange dina företagsuppgifter'
+#. module: gamification
+# override | officiell: 'Ange dina företagsuppgifter'
 msgid "Set your Company Data"
 msgstr "Ange dina bolagsuppgifter"
 
-#. override | officiell: 'Ange företagets logotyp'
+#. module: gamification
+# override | officiell: 'Ange företagets logotyp'
 msgid "Set your Company Logo"
 msgstr "Ange bolagets logotyp"
+
+#. module: gamification
+# override | officiell: 'Målet och det aktuella värdet definieras i företagets
+# valuta.'
+msgid "The target and current value are defined in the company currency."
+msgstr "Målet och det aktuella värdet definieras i bolagets valuta."

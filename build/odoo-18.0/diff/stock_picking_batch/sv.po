@@ -3,3 +3,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-stock_picking_batch\n"
 "Language: sv\n"
+
+#. module: stock_picking_batch
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: stock_picking_batch
+# override | officiell: 'De utvalda verksamheterna ska tillhöra ett unikt
+# företag.'
+msgid "The selected operations should belong to a unique company."
+msgstr "De utvalda verksamheterna ska tillhöra ett unikt bolag."
+
+#. module: stock_picking_batch
+# override | officiell: 'Den utvalda plockningen ska tillhöra ett unikt
+# företag.'
+msgid "The selected pickings should belong to an unique company."
+msgstr "Den utvalda plockningen ska tillhöra ett unikt bolag."
+
+#. module: stock_picking_batch
+# override | officiell: 'De utvalda överföringarna ska tillhöra ett unikt
+# företag.'
+msgid "The selected transfers should belong to a unique company."
+msgstr "De utvalda överföringarna ska tillhöra ett unikt bolag."

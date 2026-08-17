@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-pos_adyen\n"
 "Language: sv\n"
+
+#. module: pos_adyen
+# override | officiell: 'Terminal %(terminal)s används redan i företaget
+# %(company)s på betalningssätt %(payment_method)s.'
+msgid ""
+"Terminal %(terminal)s is already used in company %(company)s on payment "
+"method %(payment_method)s."
+msgstr ""
+"Terminal %(terminal)s används redan i bolaget %(company)s på betalningssätt "
+"%(payment_method)s."

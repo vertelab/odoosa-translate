@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-loyalty\n"
 "Language: sv\n"
+
+#. module: loyalty
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

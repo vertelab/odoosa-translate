@@ -4,10 +4,31 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_event_exhibitor\n"
 "Language: sv\n"
 
-#. override | officiell: 'Deco Addict integrerar ERP för globala företag och
-#. stöder PME\n                med programvara från öppna källor för att
-#. hantera sin verksamhet. Våra\n                konsulter är experter inom
-#. följande områden:'
+#. module: website_event_exhibitor
+# override | officiell: 'Våra experter uppfinner, föreställer sig och
+# utvecklar lösningar som uppfyller\n                dina affärskrav. De
+# bygger en ny teknisk miljö\n                miljö för ditt företag, men de
+# tar alltid hänsyn till den redan\n                installerade IT-
+# programvaran i åtanke. Det är därför Idealis\n                Consulting
+# levererar spetskompetens inom HR och SC Management.'
+msgid ""
+"Our experts invent, imagine and develop solutions which meet\n"
+"                your business requirements. They build a new technical\n"
+"                environment for your company, but they always take the already\n"
+"                installed IT software into account. That is why Idealis\n"
+"                Consulting delivers excellence in HR and SC Management."
+msgstr ""
+"Våra experter uppfinner, föreställer sig och utvecklar lösningar som uppfyller\n"
+"                dina affärskrav. De bygger en ny teknisk miljö\n"
+"                miljö för ditt bolag, men de tar alltid hänsyn till den redan\n"
+"                installerade IT-programvaran i åtanke. Det är därför Idealis\n"
+"                Consulting levererar spetskompetens inom HR och SC Management."
+
+#. module: website_event_exhibitor
+# override | officiell: 'Deco Addict integrerar ERP för globala företag och
+# stöder PME\n                med programvara från öppna källor för att
+# hantera sin verksamhet. Våra\n                konsulter är experter inom
+# följande områden:'
 msgid ""
 "Deco Addict integrates ERP for Global Companies and supports PME\n"
 "                with Open Sources software to manage their businesses. Our\n"

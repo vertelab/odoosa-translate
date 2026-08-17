@@ -4,12 +4,13 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-base_setup\n"
 "Language: sv\n"
 
-#. override | officiell: '<span class="o_form_label" invisible="company_count
-#. &gt; 1">\n                                        Företag\n
-#. </span>\n                                    <span class="o_form_label"
-#. invisible="company_count &lt;= 1">\n
-#. Företag\n                                    </span>\n
-#. <br/>'
+#. module: base_setup
+# override | officiell: '<span class="o_form_label" invisible="company_count
+# &gt; 1">\n                                        Företag\n
+# </span>\n                                    <span class="o_form_label"
+# invisible="company_count &lt;= 1">\n
+# Företag\n                                    </span>\n
+# <br/>'
 msgid ""
 "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
 "                                        Company\n"
@@ -27,34 +28,71 @@ msgstr ""
 "                                    </span>\n"
 "                                    <br/>"
 
-#. override | officiell: 'Företag'
+#. module: base_setup
+# override | officiell: 'Berika automatiskt din kontaktbas med
+# företagsuppgifter'
+msgid "Automatically enrich your contact base with company data"
+msgstr "Berika automatiskt din kontaktbas med bolagsuppgifter"
+
+#. module: base_setup
+# override | officiell: 'Generera automatiskt motpartsdokument i mottagande
+# företag'
+msgid "Automatically generate counterpart documents in recipient companies"
+msgstr "Generera automatiskt motpartsdokument i mottagande bolag"
+
+#. module: base_setup
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: base_setup
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagets landskod'
+#. module: base_setup
+# override | officiell: 'Företagets landskod'
 msgid "Company Country Code"
 msgstr "Bolagets landskod"
 
-#. override | officiell: 'Information om företaget'
+#. module: base_setup
+# override | officiell: 'Information om företaget'
 msgid "Company Informations"
 msgstr "Information om bolaget"
 
-#. override | officiell: 'Företagsnamn'
+#. module: base_setup
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
-#. override | officiell: 'Transaktioner mellan koncernföretag'
+#. module: base_setup
+# override | officiell: 'Transaktioner mellan koncernföretag'
 msgid "Inter-Company Transactions"
 msgstr "Transaktioner mellan koncernbolag"
 
-#. override | officiell: 'Företaget Is Root'
+#. module: base_setup
+# override | officiell: 'Företaget Is Root'
 msgid "Is Root Company"
 msgstr "Bolaget Is Root"
 
-#. override | officiell: 'Antal företag'
+#. module: base_setup
+# conflict | officiell: 'Hantera företag'
+msgid "Manage Companies"
+msgstr "Hantera bolag"
+
+#. module: base_setup
+# override | officiell: 'Antal företag'
 msgid "Number of Companies"
 msgstr "Antal bolag"
+
+#. module: base_setup
+# override | officiell: 'När du fyller i din adressbok ger Odoo en lista över
+# matchande företag. När du väljer ett objekt fylls företagsdata och logotyp i
+# automatiskt.'
+msgid ""
+"When populating your address book, Odoo provides a list of matching "
+"companies. When selecting one item, the company data and logo are auto-"
+"filled."
+msgstr ""
+"När du fyller i din adressbok ger Odoo en lista över matchande bolag. När du"
+" väljer ett objekt fylls bolagsdata och logotyp i automatiskt."

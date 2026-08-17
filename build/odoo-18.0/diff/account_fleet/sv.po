@@ -4,17 +4,20 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-account_fleet\n"
 "Language: sv\n"
 
-#. override | officiell: 'Skapa bokföringsposter automatiskt'
+#. module: account_fleet
+# override | officiell: 'Skapa bokföringsposter automatiskt'
 msgid "Create Automatic Entries"
 msgstr "Skapa verifikat automatiskt"
 
-#. override | officiell: 'Bokföringspost'
+#. module: account_fleet
+# override | officiell: 'Bokföringspost'
 msgid "Journal Entry"
 msgstr "Verifikat"
 
-#. override | officiell: 'Det är inte möjligt att ändra antalet tjänster
-#. kopplade till en transaktionsrad. Genomför åtgärden istället på den
-#. relaterade bokföringsposten.'
+#. module: account_fleet
+# override | officiell: 'Det är inte möjligt att ändra antalet tjänster
+# kopplade till en transaktionsrad. Genomför åtgärden istället på den
+# relaterade bokföringsposten.'
 msgid ""
 "You cannot modify amount of services linked to an account move line. Do it "
 "on the related accounting entry instead."

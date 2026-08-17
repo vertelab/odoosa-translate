@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-certificate\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: certificate
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

@@ -4,14 +4,17 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-auth_ldap\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: auth_ldap
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: auth_ldap
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagets LDAP-konfiguration'
+#. module: auth_ldap
+# override | officiell: 'Företagets LDAP-konfiguration'
 msgid "Company LDAP configuration"
 msgstr "Bolagets LDAP-konfiguration"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid ""
 "your company's currency."
 msgstr ""
 ". Beloppet i verifikatet måste beräknas av Odoo innan den kan bokföras i "
-"ditt företags valuta."
+"ditt bolags valuta."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -85,6 +85,11 @@ msgstr ""
 "                över kontanta betalningar."
 
 #. module: account
+#: model:ir.model.constraint,message:account.constraint_account_journal_group_uniq_name
+msgid "A Ledger group name must be unique per company."
+msgstr "Namnet på en huvudboksgrupp måste vara unikt för varje bolag."
+
+#. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_journal_line
 msgid ""
 "A journal entry consists of several journal items, each of\n"
@@ -101,6 +106,26 @@ msgid ""
 "journal entry."
 msgstr ""
 "En betalning med ett utestående konto kan inte bekräftas utan en verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_account.py:0
+msgid ""
+"Account %(account)s will be split in %(num_accounts)s, one for each "
+"company:\n"
+msgstr ""
+"Kontot %(account)s kommer att delas upp i %(num_accounts)s, ett för varje "
+"bolag:"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_account.py:0
+msgid ""
+"Account %s cannot be unmerged as it already belongs to a single company. The"
+" unmerge operation only splits an account based on its companies."
+msgstr ""
+"Kontot %s kan inte delas upp eftersom det redan tillhör ett enskilt bolag. "
+"Åtgärden delar bara upp ett konto baserat på dess bolag."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_move_view_activity
@@ -149,9 +174,30 @@ msgid "All Companies"
 msgstr "Alla bolag"
 
 #. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_move_reversal.py:0
+msgid "All selected moves for reversal must belong to the same company."
+msgstr ""
+"Alla markerade rättningsrörelser måste vara kopplade till samma bolag."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_partial_reconcile__amount
+msgid ""
+"Always positive amount concerned by this matching expressed in the company "
+"currency."
+msgstr ""
+"Enbart positivt belopp kopplat till denna matchning och uttryckt i bolagets "
+"valuta."
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__amount_company_currency_signed
 msgid "Amount Company Currency Signed"
 msgstr "Undertecknat belopp i bolagets valuta"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_payment_register__source_amount
+msgid "Amount to Pay (company currency)"
+msgstr "Belopp att betala (bolagets valuta)"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_form
@@ -299,6 +345,12 @@ msgid "Automatic Entry Default Journal"
 msgstr "Standard bokföringsjournal för automatiska verifikat"
 
 #. module: account
+#. odoo-python
+#: code:addons/account/models/account_account.py:0
+msgid "Bank & Cash accounts cannot be shared between companies."
+msgstr "Bank- och kassakonton kan inte delas mellan bolag."
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__partner_bank_id
 #: model:ir.model.fields,help:account.field_account_move__partner_bank_id
 msgid ""
@@ -311,9 +363,25 @@ msgstr ""
 "annars ett partnerkonto."
 
 #. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_merge_wizard.py:0
+msgid "Belongs to the same company as %s."
+msgstr "Tillhör samma bolag som %s."
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Cancel Entry"
 msgstr "Avbryt verifikat"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"Cannot find a chart of accounts for this company, You should configure it. \n"
+"Please go to Account Configuration."
+msgstr ""
+"Ingen kontoplan hittades för det här bolaget, den bör därmed konfigureras.\n"
+"Vänligen gå till Kontoinställningar."
 
 #. module: account
 #. odoo-python
@@ -485,6 +553,11 @@ msgid "Counterpart Items"
 msgstr "Motsvarande verifikatsrader"
 
 #. module: account
+#: model:ir.model.fields,help:account.field_res_company__multi_vat_foreign_country_ids
+msgid "Countries for which the company has a VAT number"
+msgstr "Länder för vilka bolaget har ett momsregistreringsnummer"
+
+#. module: account
 #: model:ir.model,name:account.model_account_automatic_entry_wizard
 msgid "Create Automatic Entries"
 msgstr "Skapa verifikat automatiskt"
@@ -520,6 +593,14 @@ msgid "Currency of the debit journal item."
 msgstr "Valutan som verifikatsradens debetbelopp är angivet i."
 
 #. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__invoice_currency_rate
+#: model:ir.model.fields,help:account.field_account_move__invoice_currency_rate
+#: model:ir.model.fields,help:account.field_account_move_line__currency_rate
+msgid "Currency rate from company currency to document currency."
+msgstr ""
+"Växelkurs vid omvandling från bolagets valuta till dokumentets valuta."
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_resequence_wizard__end_date
 msgid ""
 "Date (inclusive) to which the numbers are resequenced. If not set, all "
@@ -534,6 +615,11 @@ msgid "Debit journal items that are matched with this journal item."
 msgstr "Debitera verifikatsrader som matchar denna verifikatsrad."
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "Default Incoterm of your company"
+msgstr "Standard incotermer för bolaget"
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__company_price_include
 #: model:ir.model.fields,help:account.field_account_move__company_price_include
 #: model:ir.model.fields,help:account.field_account_tax__company_price_include
@@ -545,6 +631,15 @@ msgid ""
 msgstr ""
 "Standard om huruvida det försäljningspris som används för bolagets produkter"
 " och fakturor ska inkludera moms."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_journal_group__company_id
+msgid ""
+"Define which company can select the multi-ledger in report filters. If none "
+"is provided, available for all companies"
+msgstr ""
+"Ange vilket bolag som kan välja flerbolagshuvudboken i rapportfilter. Om "
+"inget bolag anges så är det tillgängligt för alla bolag"
 
 #. module: account
 #. odoo-python
@@ -594,13 +689,13 @@ msgstr "Verifikat utgår inte från samma konto: %s"
 #. odoo-python
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Entries can only be created for a single company at a time."
-msgstr "Verifikat kan endast skapas för ett företag åt gången."
+msgstr "Verifikat kan endast skapas för ett bolag åt gången."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Entries don't belong to the same company: %s"
-msgstr "Verifikat tillhör inte samma företag: %s"
+msgstr "Verifikat tillhör inte samma bolag: %s"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_validate_account_move__force_post
@@ -880,6 +975,11 @@ msgid "Journal Items"
 msgstr "Verifikatsrader"
 
 #. module: account
+#: model:ir.model.constraint,message:account.constraint_account_journal_code_company_uniq
+msgid "Journal codes must be unique per company."
+msgstr "Journalkoder måste vara unika för varje bolag."
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_register__line_ids
 msgid "Journal items"
 msgstr "Verifikatsrader"
@@ -912,6 +1012,13 @@ msgstr ""
 "en verifikat"
 
 #. module: account
+#: model:ir.model.fields,help:account.field_res_company__account_opening_journal_id
+msgid ""
+"Journal where the opening entry of this company's accounting has been "
+"posted."
+msgstr "Journal där bolagets ingående balans har bokförts."
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_automatic_entry_wizard__journal_id
 msgid "Journal where to create the entry."
 msgstr "Journal där verifikatet ska skapas."
@@ -920,6 +1027,21 @@ msgstr "Journal där verifikatet ska skapas."
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Last Entry"
 msgstr "Sista verifikat"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_config_settings__currency_id
+msgid "Main currency of the company."
+msgstr "Bolagets huvudsakliga valuta."
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "Main currency of your company"
+msgstr "Bolagets huvudsakliga valuta"
+
+#. module: account
+#: model:ir.model,name:account.model_account_code_mapping
+msgid "Mapping of account codes per company"
+msgstr "Kartläggning av kontokoder per bolag"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_full_reconcile__reconciled_line_ids
@@ -931,6 +1053,16 @@ msgstr "Matchade verifikatsrader"
 #: model:ir.model.fields,field_description:account.field_account_report__filter_multi_company
 msgid "Multi-Company"
 msgstr "Flera bolag"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal_dashboard.py:0
+msgid ""
+"No journal could be found in company %(company_name)s for any of those "
+"types: %(journal_types)s"
+msgstr ""
+"Ingen journal hittades i bolaget %(company_name)s för någon av följande "
+"typer: %(journal_types)s"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
@@ -1073,6 +1205,19 @@ msgid "Set Company Data"
 msgstr "Ange bolagsdata"
 
 #. module: account
+#. odoo-python
+#: code:addons/account/models/onboarding_onboarding_step.py:0
+msgid "Set your company data"
+msgstr "Ange bolagsuppgifter"
+
+#. module: account
+#: model:onboarding.onboarding.step,description:account.onboarding_onboarding_step_company_data
+msgid "Set your company's data for documents header/footer."
+msgstr ""
+"Ställ in information om ditt bolag som ska visas i sidhuvuden och sidfötter "
+"i dokument."
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_journal__code
 msgid ""
 "Shorter name used for display. The journal entries of this journal will also"
@@ -1118,6 +1263,15 @@ msgid "Tax Cash Basis Entry of"
 msgstr "Verifikat för beskattning enligt kontantmetoden"
 
 #. module: account
+#: model:ir.model.fields,help:account.field_account_tax_group__tax_receivable_account_id
+msgid ""
+"Tax current account used as a counterpart to the Tax Closing Entry when in "
+"favor of the company."
+msgstr ""
+"Skattekontot används för att beräkna utgående skattebalans när det är till "
+"förmån för bolaget."
+
+#. module: account
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid ""
@@ -1126,6 +1280,32 @@ msgid ""
 msgstr ""
 "Skatter som befriats från en betalning eller en faktura kan inte sammanföras"
 " i samma verifikatsrad om de delar samma tag."
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_company__display_invoice_tax_company_currency
+#: model:ir.model.fields,field_description:account.field_res_config_settings__display_invoice_tax_company_currency
+msgid "Taxes in company currency"
+msgstr "Skatter i bolagets valuta"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_res_company__account_enabled_tax_country_ids
+msgid ""
+"Technical field containing the countries for which this company is using "
+"tax-related features(hence the ones for which l10n modules need to show tax-"
+"related fields)."
+msgstr ""
+"Tekniskt fält som innehåller de länder för vilka detta bolag använder "
+"skatterelaterade funktioner (som därav kräver specifika l10n-moduler för att"
+" visa skatterelaterade fält)."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_lock_exception__company_lock_date
+msgid ""
+"Technical field giving the date the company lock date at the time the "
+"exception was created."
+msgstr ""
+"Tekniskt fält som anger bolagets låsningsdatum vid det tillfälle då "
+"undantaget skapades."
 
 #. module: account
 #. odoo-python
@@ -1168,6 +1348,36 @@ msgstr ""
 "valutor."
 
 #. module: account
+#: model:ir.model.constraint,message:account.constraint_account_move_line_check_amount_currency_balance_sign
+msgid ""
+"The amount expressed in the secondary currency must be positive when account"
+" is debited and negative when account is credited. If the currency is the "
+"same as the one from the company, this amount must strictly be equal to the "
+"balance."
+msgstr ""
+"Beloppet som uttrycks i den sekundära valutan måste vara positivt när kontot"
+" debiteras och negativt när kontot krediteras. Om valutan samma som bolagets"
+" måste beloppet vara lika med det dåvarande saldot."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal.py:0
+msgid ""
+"The bank account of a bank journal must belong to the same company (%s)."
+msgstr ""
+"Bankkontot kopplat till en bankjournal måste tillhöra samma bolag (%s)."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The bank account of your company is not trusted. Please ask an admin or "
+"someone with approval rights to check it."
+msgstr ""
+"Bolagets angivna bankkonto är ej betrott. Vänligen be en administratör eller"
+" någon med behörighet att kontrollera bankkontot."
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__tax_cash_basis_created_move_ids
 #: model:ir.model.fields,help:account.field_account_move__tax_cash_basis_created_move_ids
 msgid ""
@@ -1179,10 +1389,28 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+#: code:addons/account/models/account_account.py:0
+msgid "The code must be set for every company to which this account belongs."
+msgstr "Koden måste anges för varje bolag som detta konto tillhör."
+
+#. module: account
+#. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "The commercial partner has been updated for all related accounting entries."
 msgstr "Handelspartnern har uppdaterats för alla relaterade verifikat."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_tax_repartition_line__company_id
+msgid "The company this distribution line belongs to."
+msgstr "Det bolag som denna fördelningsrad är kopplad till."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_fiscal_position__company_country_id
+#: model:ir.model.fields,help:account.field_res_company__account_fiscal_country_id
+#: model:ir.model.fields,help:account.field_res_config_settings__account_fiscal_country_id
+msgid "The country to use the tax reports from for this company"
+msgstr "Landet från vilket skatterapporter ska användas för detta bolag"
 
 #. module: account
 #. odoo-python
@@ -1214,12 +1442,18 @@ msgid ""
 "company."
 msgstr ""
 "Verifikatet använder sig av konton (%(accounts_codes_names)s) från ett annat"
-" företag."
+" bolag."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 msgid "The following Journal Entries will be generated"
 msgstr "Följande verifikat kommer att skapas"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_account.py:0
+msgid "The following accounts must be assigned to at least one company:"
+msgstr "Följande konton måste vara kopplade till minst ett bolag:"
 
 #. module: account
 #. odoo-python
@@ -1233,6 +1467,14 @@ msgstr "Följande verifikat är inte balanserade:"
 #: model:ir.model.fields,help:account.field_account_report_external_value__foreign_vat_fiscal_position_id
 msgid "The foreign fiscal position for which this external value is made."
 msgstr "Den utländska skatteområde för vilken detta externa värde är skapat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal.py:0
+msgid "The holder of a journal's bank account must be the company (%s)."
+msgstr ""
+"Den angivna kontoinnehavaren för en journals bankkonto måste vara bolaget "
+"(%s)."
 
 #. module: account
 #. odoo-python
@@ -1250,7 +1492,7 @@ msgid ""
 "The journal entry containing the initial balance of all this company's "
 "accounts."
 msgstr ""
-"Verifikatet som innehåller det öppningssaldon för alla företagets konton."
+"Verifikatet som innehåller det öppningssaldon för alla bolagets konton."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__tax_cash_basis_origin_move_id
@@ -1287,6 +1529,16 @@ msgstr ""
 "Den valfria alternativa valutan om det är en verifikat med flera valutor."
 
 #. module: account
+#. odoo-python
+#: code:addons/account/models/account_journal.py:0
+msgid ""
+"The partners of the journal's company and the related bank account mismatch."
+msgstr ""
+"Uppgifterna som angivits om de partners som ingår i det bolag som journalen "
+"är kopplad till stämmer inte överens med uppgifterna om relaterade "
+"bankkonton."
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__payment_reference
 #: model:ir.model.fields,help:account.field_account_move__payment_reference
 msgid "The payment reference to set on journal items."
@@ -1304,13 +1556,13 @@ msgid ""
 "not the company currency)."
 msgstr ""
 "Det återstående beloppet för en verifikatsrad uttryckt i dess angivna valuta"
-" (inte nödvändigtvis samma som företagets valuta)."
+" (inte nödvändigtvis samma som bolagets valuta)."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__amount_residual
 msgid ""
 "The residual amount on a journal item expressed in the company currency."
-msgstr "Restbeloppet för en verifikat angiven i företagets valuta."
+msgstr "Restbeloppet för en verifikat angiven i bolagets valuta."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
@@ -1325,6 +1577,14 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_move_line__statement_line_id
 msgid "The statement line that created this entry"
 msgstr "Den rad i ett kontoutdrag som skapade verifikatet"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_fiscal_position__foreign_vat
+msgid ""
+"The tax ID of your company in the region mapped by this fiscal position."
+msgstr ""
+"Skatteregistreringsnumret för ditt bolag i regionen som kartlagts av detta "
+"skatteområde."
 
 #. module: account
 #. odoo-python
@@ -1382,6 +1642,16 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+#: code:addons/account/models/account_partial_reconcile.py:0
+msgid ""
+"There is no tax cash basis journal defined for the '%s' company.\n"
+"Configure it in Accounting/Configuration/Settings"
+msgstr ""
+"Det finns ingen skattejournal enligt kontantmetoden angiven för bolaget \"%s\".\n"
+"Ställ in en journal genom att navigera till Bokföring/Inställningar/Inställningar"
+
+#. module: account
+#. odoo-python
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "This can only be used on journal items"
 msgstr "Detta kan endast användas för verifikatsrader"
@@ -1395,8 +1665,8 @@ msgid ""
 "taxes configuration."
 msgstr ""
 "Den här verifikatet innehåller en eller flera skatter som är oförenliga med "
-"ditt skatteområde. Kontrollera företagets skatterättsliga hemvist i "
-"företagets inställningar samt inställningarna för skatter."
+"ditt skatteområde. Kontrollera bolagets skatterättsliga hemvist i bolagets "
+"inställningar samt inställningarna för skatter."
 
 #. module: account
 #. odoo-python
@@ -1550,6 +1820,26 @@ msgstr ""
 "Verktygsfält för att ange om verifikatsraden behandlas med Storno-bokföring"
 
 #. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"We can't leave this document without any company. Please select a company "
+"for this document."
+msgstr ""
+"Vi kan inte låta det här dokument vara utan ett angivet bolag. Vänligen ange"
+" ett bolag för dokumentet."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/company.py:0
+msgid ""
+"We cannot find a chart of accounts for this company, you should configure it. \n"
+"Please go to Account Configuration and select or install a fiscal localization."
+msgstr ""
+"Vi kan inte hitta bolagets kontoplan, du bör därmed ställa in den.\n"
+"Gå till Inställningar och välj eller installera en skattelokalisering."
+
+#. module: account
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_credit_debit
 msgid "Wrong credit or debit value in accounting entry!"
 msgstr "Fel kredit- eller debetvärde i verifikatet!"
@@ -1599,7 +1889,7 @@ msgid ""
 "You can't change the company of your journal since there are some journal "
 "entries linked to it."
 msgstr ""
-"Det är inte möjligt att byta journalens angivna företag eftersom journalen "
+"Det är inte möjligt att byta journalens angivna bolag eftersom journalen "
 "redan har aktiva verifikat."
 
 #. module: account
@@ -1609,8 +1899,20 @@ msgid ""
 "You can't change the company of your tax since there are some journal items "
 "linked to it."
 msgstr ""
-"Det är inte möjligt att byta skattens angivna företag eftersom journalen "
-"redan har aktiva verifikat."
+"Det är inte möjligt att byta skattens angivna bolag eftersom journalen redan"
+" har aktiva verifikat."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_payment.py:0
+msgid ""
+"You can't create a new payment without an outstanding payments/receipts "
+"account set either on the company or the %(payment_method)s payment method "
+"in the %(journal)s journal."
+msgstr ""
+"Det är inte möjligt att skapa en ny betalning utan att ett konto för "
+"utestående betalningar/inleveranser har angetts antingen för bolaget eller "
+"för betalningsmetoden %(payment_method)s i journalen %(journal)s."
 
 #. module: account
 #. odoo-python
@@ -1629,7 +1931,7 @@ msgid ""
 "You can't create payments for entries belonging to different companies."
 msgstr ""
 "Det är inte möjligt att skapa betalningar för verifikat som tillhör olika "
-"företag."
+"bolag."
 
 #. module: account
 #. odoo-python
@@ -1668,7 +1970,7 @@ msgid ""
 "You can't unlink this company from this account since there are some journal"
 " items linked to it."
 msgstr ""
-"Det är inte möjligt att koppla bort det här företaget från det här kontot "
+"Det är inte möjligt att koppla bort det här bolaget från det här kontot "
 "eftersom det finns några verifikatsrader kopplade till det."
 
 #. module: account
@@ -1687,8 +1989,8 @@ msgid ""
 "You cannot change the currency of the company since some journal items "
 "already exist"
 msgstr ""
-"Det är inte möjligt att ändra företagets valuta eftersom vissa "
-"verifikatsrader redan skapats"
+"Det är inte möjligt att ändra bolagets valuta eftersom vissa verifikatsrader"
+" redan skapats"
 
 #. module: account
 #. odoo-python
@@ -1832,7 +2134,18 @@ msgid ""
 "companies."
 msgstr ""
 "Det är inte möjligt att använda den här guiden med verifikat som tillhör "
-"olika företag."
+"olika bolag."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_account.py:0
+#: code:addons/account/wizard/account_merge_wizard.py:0
+msgid ""
+"You do not have the right to perform this operation as you do not have "
+"access to the following companies: %s."
+msgstr ""
+"Du har inte behörighet att genomföra den här processen eftersom du inte har "
+"åtkomst till följande bolag: %s."
 
 #. module: account
 #. odoo-python
@@ -1843,8 +2156,14 @@ msgid ""
 "to differences between exchange rates."
 msgstr ""
 "Du bör ställa in en journal för 'vinst eller förlust vid valutaomvandling' i"
-" företagets inställningar för att automatiskt hantera bokföringen av "
-"verifikat relaterade till växelkursskillnader."
+" bolagets inställningar för att automatiskt hantera bokföringen av verifikat"
+" relaterade till växelkursskillnader."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You must specify the Profit Account (company dependent)"
+msgstr "Du måste ange ett vinstkonto (beroende på bolaget)"
 
 #. module: account
 #. odoo-python
@@ -1854,7 +2173,7 @@ msgid ""
 "settings, to manage automatically the booking of accounting entries related "
 "to differences between exchange rates."
 msgstr ""
-"Du bör ställa in 'kontot för vinst vid valutaomvandling' i företagets "
+"Du bör ställa in 'kontot för vinst vid valutaomvandling' i bolagets "
 "inställningar för att automatiskt hantera bokföringen av verifikat "
 "relaterade till växelkursskillnader."
 
@@ -1866,7 +2185,7 @@ msgid ""
 "settings, to manage automatically the booking of accounting entries related "
 "to differences between exchange rates."
 msgstr ""
-"Du bör ställa in 'kontot för förluster vid valutaomvandling' i företagets "
+"Du bör ställa in 'kontot för förluster vid valutaomvandling' i bolagets "
 "inställningar för att automatiskt hantera bokföringen av verifikat "
 "relaterade till växelkursskillnader."
 

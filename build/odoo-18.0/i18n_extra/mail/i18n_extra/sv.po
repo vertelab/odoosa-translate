@@ -2,12 +2,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-mail\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: mail
+#: model:ir.model,name:mail.model_res_company
+#: model:ir.model.fields,field_description:mail.field_mail_alias_domain__company_ids
+msgid "Companies"
+msgstr "Bolag"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_domain__company_ids
@@ -15,10 +21,51 @@ msgid "Companies using this domain as default for sending mails"
 msgstr "Bolag som använder denna domän som standard för att skicka e-post"
 
 #. module: mail
+#: model:ir.model.fields,field_description:mail.field_mail_activity_plan__company_id
+#: model:ir.model.fields,field_description:mail.field_mail_activity_plan_template__company_id
+#: model:ir.model.fields,field_description:mail.field_mail_activity_schedule__company_id
+#: model:ir.model.fields,field_description:mail.field_mail_compose_message__record_company_id
+#: model:ir.model.fields,field_description:mail.field_mail_mail__record_company_id
+#: model:ir.model.fields,field_description:mail.field_mail_message__record_company_id
+#: model_terms:ir.ui.view,arch_db:mail.mail_alias_domain_view_search
+msgid "Company"
+msgstr "Bolag"
+
+#. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_partner__parent_id
 #: model:ir.model.fields,field_description:mail.field_res_users__parent_id
 msgid "Related Company"
 msgstr "Relaterat bolag"
+
+#. module: mail
+#. odoo-python
+#: code:addons/mail/wizard/mail_activity_schedule.py:0
+msgid "The records must belong to the same company."
+msgstr "Posterna måste tillhöra samma bolag."
+
+#. module: mail
+#. odoo-python
+#: code:addons/mail/models/mail_alias.py:0
+msgid ""
+"We could not create alias %(alias_name)s because domain "
+"%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
+"owner document belongs to company %(company_name)s."
+msgstr ""
+"Vi kunde inte skapa alias %(alias_name)s eftersom domänen "
+"%(alias_domain_name)s tillhör bolaget %(alias_company_names)s medan "
+"ägardokumentet tillhör bolaget %(company_name)s."
+
+#. module: mail
+#. odoo-python
+#: code:addons/mail/models/mail_alias.py:0
+msgid ""
+"We could not create alias %(alias_name)s because domain "
+"%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
+"target document belongs to company %(company_name)s."
+msgstr ""
+"Vi kunde inte skapa alias %(alias_name)s eftersom domänen "
+"%(alias_domain_name)s tillhör bolaget %(alias_company_names)s medan "
+"måldokumentet tillhör bolaget %(company_name)s."
 
 #. module: mail
 #. odoo-python

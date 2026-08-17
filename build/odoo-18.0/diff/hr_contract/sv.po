@@ -4,18 +4,22 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-hr_contract\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: hr_contract
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: hr_contract
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
-#. override | officiell: 'Företagsbil'
+#. module: hr_contract
+# override | officiell: 'Företagsbil'
 msgid "Company Vehicle"
 msgstr "Bolagsbil"
 
-#. override | officiell: 'Företagets land'
+#. module: hr_contract
+# override | officiell: 'Företagets land'
 msgid "Company country"
 msgstr "Bolagets land"

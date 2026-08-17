@@ -4,6 +4,42 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-analytic\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: analytic
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: analytic
+# override | officiell: 'Välj ett företag för vilket den objektdistributionen
+# ska användas (t.ex. skapa en ny kundfaktura eller försäljningsorder om vi
+# väljer detta företag, det kommer automatiskt att ta detta som ett
+# objektkonto)'
+msgid ""
+"Select a company for which the analytic distribution will be used (e.g. "
+"create new customer invoice or Sales order if we select this company, it "
+"will automatically take this as an analytic account)"
+msgstr ""
+"Välj ett bolag för vilket den objektdistributionen ska användas (t.ex. skapa"
+" en ny kundfaktura eller försäljningsorder om vi väljer detta bolag, det "
+"kommer automatiskt att ta detta som ett objektkonto)"
+
+#. module: analytic
+# override | officiell: 'Du kan inte ändra företaget för ett objektkonto som
+# redan har objekt! Det är receptet för en analyskatastrof!'
+msgid ""
+"You can't change the company of an analytic account that already has "
+"analytic items! It's a recipe for an analytical disaster!"
+msgstr ""
+"Du kan inte ändra bolaget för ett objektkonto som redan har objekt! Det är "
+"receptet för en analyskatastrof!"
+
+#. module: analytic
+# override | officiell: 'Du har angivit en fördelning med objektkonton som
+# tillhör ett specifikt företag men en modell som delas mellan företag eller
+# med ett annat företag'
+msgid ""
+"You defined a distribution with analytic account(s) belonging to a specific "
+"company but a model shared between companies or with a different company"
+msgstr ""
+"Du har angivit en fördelning med objektkonton som tillhör ett specifikt "
+"bolag men en modell som delas mellan bolag eller med ett annat bolag"

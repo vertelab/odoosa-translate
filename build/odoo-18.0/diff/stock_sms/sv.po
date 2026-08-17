@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-stock_sms\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: stock_sms
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"

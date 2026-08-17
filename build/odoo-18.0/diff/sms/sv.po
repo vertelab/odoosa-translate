@@ -3,3 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-sms\n"
 "Language: sv\n"
+
+#. module: sms
+# override | officiell: 'Ditt avsändarnamn måste vara mellan 3 och 11 tecken
+# långt och får endast innehålla alfanumeriska tecken.\n
+# Det måste passa ditt företagsnamn, och du får inte ändra det när du väl har
+# registrerat ett, välj det noggrant.'
+msgid ""
+"Your sender name must be between 3 and 11 characters long and only contain alphanumeric characters.\n"
+"                        It must fit your company name, and you aren't allowed to modify it once you registered one, choose it carefully."
+msgstr ""
+"Ditt avsändarnamn måste vara mellan 3 och 11 tecken långt och får endast innehålla alfanumeriska tecken.\n"
+"                        Det måste passa ditt bolagsnamn, och du får inte ändra det när du väl har registrerat ett, välj det noggrant."

@@ -4,10 +4,38 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-lunch\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: lunch
+# override | officiell: 'En kassaförflyttning kan antingen vara en utgift
+# eller en betalning.<br>\n            Ett utlägg skapas automatiskt vid
+# ordermottagningen.<br>\n            En betalning representerar den
+# anställdes ersättning till företaget.'
+msgid ""
+"A cashmove can either be an expense or a payment.<br>\n"
+"            An expense is automatically created at the order receipt.<br>\n"
+"            A payment represents the employee reimbursement to the company."
+msgstr ""
+"En kassaförflyttning kan antingen vara en utgift eller en betalning.<br>\n"
+"            Ett utlägg skapas automatiskt vid ordermottagningen.<br>\n"
+"            En betalning representerar den anställdes ersättning till bolaget."
+
+#. module: lunch
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
-#. override | officiell: 'Företag'
+#. module: lunch
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: lunch
+# override | officiell: 'Här kan du se dina kontantrörelser.<br>En
+# kontantrörelse kan antingen vara en utgift eller en betalning.\n
+# En utgift skapas automatiskt när en order tas emot medan en betalning är en
+# återbetalning till företaget som kodas av chefen.'
+msgid ""
+"Here you can see your cash moves.<br>A cash move can either be an expense or a payment.\n"
+"            An expense is automatically created when an order is received while a payment is a reimbursement to the company encoded by the manager."
+msgstr ""
+"Här kan du se dina kontantrörelser.<br>En kontantrörelse kan antingen vara en utgift eller en betalning.\n"
+"            En utgift skapas automatiskt när en order tas emot medan en betalning är en återbetalning till bolaget som kodas av chefen."

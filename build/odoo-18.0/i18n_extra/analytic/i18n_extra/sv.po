@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-analytic\n"
-"POT-Creation-Date: 2026-08-14 12:31\n"
-"PO-Revision-Date: 2026-08-14 12:31\n"
+"POT-Creation-Date: 2026-08-17 07:43\n"
+"PO-Revision-Date: 2026-08-17 07:43\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -16,3 +16,34 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__company_id
 msgid "Company"
 msgstr "Bolag"
+
+#. module: analytic
+#: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__company_id
+msgid ""
+"Select a company for which the analytic distribution will be used (e.g. "
+"create new customer invoice or Sales order if we select this company, it "
+"will automatically take this as an analytic account)"
+msgstr ""
+"Välj ett bolag för vilket den objektdistributionen ska användas (t.ex. skapa"
+" en ny kundfaktura eller försäljningsorder om vi väljer detta bolag, det "
+"kommer automatiskt att ta detta som ett objektkonto)"
+
+#. module: analytic
+#. odoo-python
+#: code:addons/analytic/models/analytic_account.py:0
+msgid ""
+"You can't set a different company on your analytic account since there are "
+"some analytic items linked to it."
+msgstr ""
+"Du kan inte ange ett annat bolag på ditt objektkonto eftersom det finns "
+"några transaktioner kopplade till det."
+
+#. module: analytic
+#. odoo-python
+#: code:addons/analytic/models/analytic_distribution_model.py:0
+msgid ""
+"You defined a distribution with analytic account(s) belonging to a specific "
+"company but a model shared between companies or with a different company"
+msgstr ""
+"Du har definierat en distribution med objektkonton som tillhör ett specifikt"
+" bolag men en modell som delas mellan bolag eller med ett annat bolag"

@@ -3,3 +3,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-crm_iap_enrich\n"
 "Language: sv\n"
+
+#. module: crm_iap_enrich
+# override | officiell: '<span>Ingen företagsinformation hittades baserat på
+# e-postadressen eller så är den angivna e-postadressen från en
+# e-postleverantör. Inga kreditpoäng har förbrukats.</span>'
+msgid ""
+"<span> No company data found based on the email address or email address is "
+"one of an email provider. No credit was consumed. </span>"
+msgstr ""
+"<span>Ingen bolagsinformation hittades baserat på e-postadressen eller så är"
+" den angivna e-postadressen från en e-postleverantör. Inga kreditpoäng har "
+"förbrukats.</span>"
+
+#. module: crm_iap_enrich
+# override | officiell: 'Berika lead med företagsdata'
+msgid "Enrich lead with company data"
+msgstr "Berika lead med bolagsdata"
+
+#. module: crm_iap_enrich
+# override | officiell: 'Berika möjlighet med företagsdata'
+msgid "Enrich opportunity with company data"
+msgstr "Berika möjlighet med bolagsdata"

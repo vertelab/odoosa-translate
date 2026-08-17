@@ -4,6 +4,21 @@ msgstr ""
 "Project-Id-Version: odoosa-diff-website_event\n"
 "Language: sv\n"
 
-#. override | officiell: 'Företag'
+#. module: website_event
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
+
+#. module: website_event
+# override | officiell: 'Webbplatsen måste vara från samma företag som
+# evenemanget.'
+msgid "The website must be from the same company as the event."
+msgstr "Webbplatsen måste vara från samma bolag som evenemanget."
+
+#. module: website_event
+# override | officiell: 'Använd detta stycke för att skriva en kort text om
+# ditt evenemang eller företag.'
+msgid "Use this paragraph to write a short text about your events or company."
+msgstr ""
+"Använd detta stycke för att skriva en kort text om ditt evenemang eller "
+"bolag."
