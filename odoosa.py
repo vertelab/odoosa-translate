@@ -458,6 +458,7 @@ def build_edition(edition, modules=None):
     n_mods = len([p for p in out_extra.rglob("sv.po")])
     log(f"   ✅ i18n + i18n_extra + diff + rapport skrivna ({n_mods} moduler)")
     validate_i18n_extra(edition)
+    validate_sa_only(edition)
     return total
 
 
@@ -488,6 +489,36 @@ def validate_i18n_extra(edition):
         raise RuntimeError(f"i18n_extra {edition}: {len(bad)} ogiltiga poster")
     log(f"   ✅ VALIDATE {edition}: {total} poster OK (alla har module:-kommentar)")
     return total
+
+
+# ---------------------------------------------------------------------------
+# SA-ONLY-GATE (krav 2026-08-18) — ENDAST Odoo SA-moduler i i18n_extra
+# ---------------------------------------------------------------------------
+
+def validate_sa_only(edition):
+    """HÅRD GATE: i18n_extra får ENDAST innehålla Odoo SA-moduler (odoo/odoo).
+
+    SA-setet = modulerna i cache/odoo-<edition>/ — cache:en fylls enbart från
+    odoo/odoo GitHub-trädet (github_tree/fetch_edition), dvs Odoo SA-kärnan.
+    Om någon modul i byggresultatet INTE finns i SA-setet — t.ex. våra egna
+    moduler (Vertel), OCA eller tredjepart — avbryts pipelinen OMEDELBART
+    innan något synkas/deployas. Detta är sista försvarslinjen före
+    publish/sync-master."""
+    sa = {p.name for p in edition_cache(edition).iterdir() if p.is_dir()}
+    extra_dir = BUILD_DIR / f"odoo-{edition}" / "i18n_extra"
+    built = {p.name for p in extra_dir.iterdir() if p.is_dir()}
+    bad = sorted(built - sa)
+    if bad:
+        log(f"   ❌ SA-ONLY-GATE {edition}: {len(bad)} icke-SA-modul(er) i i18n_extra — AVBRYTER")
+        for m in bad:
+            log(f"      {m}")
+        raise RuntimeError(
+            f"i18n_extra {edition}: {len(bad)} icke-SA-modul(er) ({', '.join(bad)}) — "
+            "odoosa-translate får ENDAST översätta Odoo SA-moduler (odoo/odoo). "
+            "Våra egna/OCA/tredjepartsmoduler sköts av andra system."
+        )
+    log(f"   ✅ SA-ONLY-GATE {edition}: {len(built)} moduler, alla i odoo/odoo (SA) — OK")
+    return len(built)
 
 
 # ---------------------------------------------------------------------------
