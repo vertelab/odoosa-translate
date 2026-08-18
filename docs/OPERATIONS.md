@@ -22,7 +22,7 @@
  github.com/                SALT-MASTERN                   ledningssystem.vertel.se
  vertelab/odoosa-translate  (tar emot via cp.push)         /saltstack/log (Driftslogg)
  (publik: artefakter,       /srv/salt/odoosa-translate/    {source: odoosa}
-  regler, ordlista)         build/odoo-<ver>/i18n_extra
+  regler, ordlista)         build/odoo-<ver>/i18n_extra/<modul>/i18n_extra/sv.po
                                    │
                                    ▼
                          ~70 ODOO-MINIONER (18.0/19.0)
@@ -101,8 +101,8 @@ sudo salt SaltStack state.apply odoosa.enable
 # 2. Veckocron på mastern (måndag 06:00 — packar upp + distribuerar)
 sudo salt SaltStack state.apply odoosa.deploy_cron
 
-# 3. Minionflaggor (tillåter distribution på alla odoo-minioner)
-sudo salt -G 'odoo:true' state.apply odoosa.enable
+# 3. Minionflaggor (tillåter distribution på production/dev/test-minioner)
+sudo salt -C 'G@odoo:true and not G@environment:infra' state.apply odoosa.enable
 ```
 
 Efter aktivering:
@@ -113,7 +113,7 @@ Efter aktivering:
 ### Deaktivera
 
 ```bash
-sudo salt -G 'odoo:true' cmd.run 'rm -f /etc/odoosa/deploy-enabled'
+sudo salt -C 'G@odoo:true and not G@environment:infra' cmd.run 'rm -f /etc/odoosa/deploy-enabled'
 sudo salt SaltStack cmd.run 'rm -f /etc/odoosa/deploy-enabled'
 ```
 
@@ -126,19 +126,29 @@ sudo salt odoosa-translate cmd.run '/usr/local/bin/odoosa-sync-master.sh'
 # Packa upp + distribuera (kräver masterflagga + minionflaggor)
 sudo salt SaltStack cmd.run '/usr/local/bin/odoosa-deploy.sh'
 
-# Eller direkt deploy (kräver minionflaggor)
-sudo salt -G 'odoo:true' state.apply odoosa.deploy
+# Eller direkt deploy (kräver minionflaggor; infra exkluderas)
+sudo salt -C 'G@odoo:true and not G@environment:infra' state.apply odoosa.deploy
 ```
 
 ---
 
-## 4. Gates — tre lager
+## 4. Gates — fem lager
 
 | # | Gate | Kontroll | Utan → |
 |---|------|----------|--------|
 | 1 | `odoo_version`-grain | minionen är odoo-server | "inte odoo-server" — no-op |
-| 2 | `/etc/odoosa/deploy-enabled` | per minion (`odoosa.enable`) | no-op med notis |
-| 3 | Byggartefakter i filroten | `salt://odoosa-translate/build/odoo-<ver>/i18n_extra` | no-op med notis |
+| 2 | `environment`-grain | endast `production` (kunder), `dev`, `test` | **ALDRIG `infra`** — no-op med notis |
+| 3 | `/etc/odoosa/deploy-enabled` | per minion (`odoosa.enable`) | no-op med notis |
+| 4 | Byggartefakter i filroten | `salt://odoosa-translate/build/odoo-<ver>/i18n_extra` | no-op med notis |
+| 5 | SA-ONLY | i18n_extra innehåller bara odoo/odoo-moduler (i18n_extra ⊆ officiella `i18n/`-spegel) | deploy vägras HÅRT |
+
+**Miljöer (krav 2026-08-18):** alla odoo-minioner är klassade med
+`environment`-grainet: `production` (kunder), `dev`, `test`, `infra`.
+Distribution sker **endast** till `production`/`dev`/`test`; **`infra`
+(dms, pangolin.vertel.se m.fl.) får aldrig översättningar**. Dubbelt skydd:
+`odoosa-deploy.sh` targetar `-C 'G@odoo:true and not G@environment:infra'` och
+`odoosa.deploy`/`odoo/19.sls` skippar själva om `environment` inte är
+`production`/`dev`/`test` (eller saknas).
 
 `file.recurse` skriver endast hash-ändrade filer → idempotent, ingen onödig I/O.
 
@@ -206,3 +216,8 @@ sudo salt -G 'odoo:true' state.apply odoosa.deploy
 - `git.latest` är fel verktyg för en arbetsrepo (vill återställa till origin) — använd idempotent clone-if-missing.
 - Privata nycklar lagras i pillar (`odoosa:github_ssh_key`) och levereras endast till arbetsminionen.
 - Se även skill: `odoo-translation` (terminologi & i18n_extra-mekanismen) och `odoosa-translate` (drift).
+- **`build_i18n_extra` måste ALLTID sätta `module: <modul>`-kommentar** (regex+prepend, INTE bara tom-fallback) — Odoo 18:s TranslationFileReader (translate.py:831) kraschar med `AttributeError` på poster utan `module[s]: (\w+)`-kommentar (driftlärdom 2026-08-14 + 2026-08-17).
+- **VALIDATE-gate**: `odoosa.py build` avslutar med `validate_i18n_extra()` som skannar alla i18n_extra-poster och RAISAR (→ kedjan bryts → ingen publish/deploy) om någon post saknar module:-kommentar.
+- **Publish gör `git pull --rebase origin main` före push** — annars `rejected HEAD -> main (fetch first)` (hände 2026-08-17 05:30) → cronkedjan `&&` bryts tyst → sync-master körs inte → masterns deploy använder en GAMMAL tgz.
+- **Masterns odoosa-deploy.sh avbryter om tgz är äldre än 48h** — en misslyckad veckosynk får aldrig distribuera föråldrade artefakter.
+- **Kodändringar i odoosa.py MÅSTE publiceras till GitHub** (arbetsminionen klonar därifrån; en fix bara i /srv/salt-repot räcker inte — se 2026-08-17).

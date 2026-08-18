@@ -34,7 +34,7 @@ rules/
 └── README.md                 Schema-dokumentation
 odoosa.py                     Pipeline: fetch → apply → merge → build → publish
 build/odoo-<edition>/         Genererade artefakter
-├── i18n_extra/<modul>/sv.po  Våra överlagringar (deployas)
+├── i18n_extra/<modul>/i18n_extra/sv.po  Våra överlagringar (deployas)
 ├── diff/<modul>/sv.po        Gransknings-diff
 └── i18n/<modul>/sv.po        Officiella (orörda, ej publicerade)
 reports/                      Veckorapporter
@@ -56,6 +56,14 @@ Semantik: regler appliceras på **msgstr** (aldrig msgid), **längsta match för
 **Översätt INTE:** utländska `l10n_*`-moduler (l10n_de, l10n_fr, l10n_pl,
 l10n_cn …) — det är "tysk/polsk/kinesisk bokföring på svenska". Endast
 `l10n_se` är relevant för Sverige.
+
+**ENDAST Odoo SA-moduler (krav 2026-08-18):** detta system lägger bara
+översättningar på Odoo SA-kärnan (`odoo/odoo`). Våra egna moduler, OCA och
+annan tredje part hanteras av andra system och rörs ALDRIG. Två hårda skydd:
+`odoosa.py validate_sa_only()` avbryter pipelinen om en icke-SA-modul hamnar
+i bygget, och deploy-staten (`odoosa.deploy` + `odoo/19.sls`-hooken) vägrar
+om i18n_extra-trädet innehåller en modul som inte finns i det officiella
+`i18n/`-spegelträdet.
 
 ## Pipelinen
 
@@ -97,9 +105,11 @@ run (fetch → apply → merge → build)
   → Driftslogg (ledningssystem.vertel.se/saltstack/log)
 ```
 
-Salt-mastern distribuerar (gated) till ~70 minioner per `odoo_version`-grain
-och samkör med varannan-vecka-uppdateringen (7:e/21:e). Se
-[`docs/OPERATIONS.md`](docs/OPERATIONS.md) för aktiveringsproceduren.
+Salt-mastern distribuerar (gated) till odoo-minioner i **`production` (kunder),
+`dev` och `test`** per `odoo_version`-grain — **aldrig `infra`** (krav 2026-08-18,
+se [`docs/OPERATIONS.md`](docs/OPERATIONS.md) avsnitt 3) — och samkör med
+varannan-vecka-uppdateringen (7:e/21:e). Se [`docs/OPERATIONS.md`](docs/OPERATIONS.md)
+för aktiveringsproceduren.
 
 ## Ny Odoo-utgåva
 
@@ -133,6 +143,13 @@ Regelverk när någon påpekar "fel begrepp" eller "oöversatt":
 Distribution till odoo-minionerna är bakom en **explicit switch**
 (`/etc/odoosa/deploy-enabled`, per minion + masterflagga) — inget distribueras
 förrän flaggorna finns. Se [`docs/OPERATIONS.md`](docs/OPERATIONS.md) avsnitt 3.
+
+**Miljöer (krav 2026-08-18):** alla odoo-minioner är klassade med
+`environment`-grainet — `production` (kunder), `dev`, `test`, `infra`.
+Distribution sker **endast** till `production`/`dev`/`test`; **`infra`
+(exempelvis dms, pangolin.vertel.se) får aldrig översättningar**. Dubbelt skydd:
+deploy-scriptet targetar `-C 'G@odoo:true and not G@environment:infra'` och
+deploy-staten skippar själv alla som inte är `production`/`dev`/`test`.
 
 ## Säkerhet
 
