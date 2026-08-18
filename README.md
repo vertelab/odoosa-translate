@@ -146,8 +146,9 @@ förrän flaggorna finns. Se [`docs/OPERATIONS.md`](docs/OPERATIONS.md) avsnitt 
 
 **Miljöer (krav 2026-08-18):** alla odoo-minioner är klassade med
 `environment`-grainet — `production` (kunder), `dev`, `test`, `infra`.
-Distribution sker **endast** till `production`/`dev`/`test`; **`infra`
-(exempelvis dms, pangolin.vertel.se) får aldrig översättningar**. Dubbelt skydd:
+Distribution sker **endast** till `production`/`dev`/`test`; **`infra` får
+aldrig översättningar** (2026-08-18: dms + pangolin reklassade till `dev` —
+inga odoo-minioner i infra). Dubbelt skydd:
 deploy-scriptet targetar `-C 'G@odoo:true and not G@environment:infra'` och
 deploy-staten skippar själv alla som inte är `production`/`dev`/`test`.
 

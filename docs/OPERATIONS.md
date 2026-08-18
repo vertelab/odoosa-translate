@@ -144,8 +144,9 @@ sudo salt -C 'G@odoo:true and not G@environment:infra' state.apply odoosa.deploy
 
 **Miljöer (krav 2026-08-18):** alla odoo-minioner är klassade med
 `environment`-grainet: `production` (kunder), `dev`, `test`, `infra`.
-Distribution sker **endast** till `production`/`dev`/`test`; **`infra`
-(dms, pangolin.vertel.se m.fl.) får aldrig översättningar**. Dubbelt skydd:
+Distribution sker **endast** till `production`/`dev`/`test`; **`infra` får
+aldrig översättningar** (2026-08-18: dms + pangolin reklassade till `dev` —
+inga odoo-minioner i infra). Dubbelt skydd:
 `odoosa-deploy.sh` targetar `-C 'G@odoo:true and not G@environment:infra'` och
 `odoosa.deploy`/`odoo/19.sls` skippar själva om `environment` inte är
 `production`/`dev`/`test` (eller saknas).
