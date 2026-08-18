@@ -14,6 +14,6 @@ msgstr ""
 "Orderbeloppet för att dra nytta av gratis frakt, uttryckt i bolagets valuta"
 
 #. module: delivery
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

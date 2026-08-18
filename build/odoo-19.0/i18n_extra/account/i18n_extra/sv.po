@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account\n"
-"POT-Creation-Date: 2026-08-17 07:43\n"
-"PO-Revision-Date: 2026-08-17 07:43\n"
+"POT-Creation-Date: 2026-08-18 09:47\n"
+"PO-Revision-Date: 2026-08-18 09:47\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -94,10 +94,26 @@ msgstr ""
 "att genom årsredovisningen presentera viss information."
 
 #. module: account
+#: model:ir.model,name:account.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Objektkonto"
+
+#. module: account
+#: model:ir.ui.menu,name:account.menu_analytic_accounting
+msgid "Analytic Accounting"
+msgstr "Objektredovisning"
+
+#. module: account
 #: model:ir.ui.menu,name:account.account_analytic_def_account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Analytic Accounts"
 msgstr "Objektkonton"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_move_line__analytic_distribution
+#: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Objektfördelning"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_distribution_model
@@ -110,6 +126,16 @@ msgid "Analytic Distribution Models"
 msgstr "Objektfördelning"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_report__filter_analytic
+msgid "Analytic Filter"
+msgstr "Objektfilter"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_form
+msgid "Analytic Lines"
+msgstr "Objektrader"
+
+#. module: account
 #: model:ir.model,name:account.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
 msgstr "Objektreglers användningsgrad"
@@ -120,6 +146,12 @@ msgid "Analytic Plans"
 msgstr "Objektregler"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_move_line__analytic_precision
+#: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__analytic_precision
+msgid "Analytic Precision"
+msgstr "Objektprecision"
+
+#. module: account
 #: model:ir.ui.menu,name:account.menu_action_analytic_reporting
 msgid "Analytic Report"
 msgstr "Objektrapport"
@@ -127,7 +159,12 @@ msgstr "Objektrapport"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_analytic_reporting
 msgid "Analytic Reporting"
-msgstr "Objektrapportering"
+msgstr "Objektrapporter"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_move_line__analytic_line_ids
+msgid "Analytic lines"
+msgstr "Objektrader"
 
 #. module: account
 #. odoo-python
@@ -375,6 +412,12 @@ msgid ""
 msgstr "Kostnader för reparationer och underhåll av bolagsbilar och lastbilar"
 
 #. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "Items With Missing Analytic Distribution"
+msgstr "Objekt som saknar objektfördelning"
+
+#. module: account
 #: model:ir.model.constraint,message:account.constraint_account_journal_code_company_uniq
 msgid "Journal codes must be unique per company."
 msgstr "Journalkoder måste vara unika för varje bolag."
@@ -422,6 +465,12 @@ msgid "Onboarding Company Data"
 msgstr "Introduktion till bolagsdata"
 
 #. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+msgid "One or more lines require a 100% analytic distribution."
+msgstr "En eller flera rader kräver en objektfördelning på 100 %."
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_tax__price_include_override
 msgid ""
 "Overrides the Company's default on whether the price you use on the product "
@@ -442,6 +491,30 @@ msgid ""
 "Premiums paid for insurance coverage on company-owned or leased vehicles"
 msgstr ""
 "Premier för fordonsförsäkringar för fordon som ägs eller hyrs av bolaget"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_analytic_distribution_model__product_categ_id
+msgid ""
+"Select a product category which will use analytic account specified in "
+"analytic default (e.g. create new customer invoice or Sales order if we "
+"select this product, it will automatically take this as an analytic account)"
+msgstr ""
+"Välj ett specifikt objektkonto för en viss produktkategori, baserat på den "
+"analytiska standarden (vilket t.ex. innebär att när en ny kundfaktura eller "
+"försäljningsorder skapas och en produkt från den här kategorin inkluderas, "
+"så kopplas det automatiskt till rätt analytiska konto)"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_analytic_distribution_model__product_id
+msgid ""
+"Select a product for which the analytic distribution will be used (e.g. "
+"create new customer invoice or Sales order if we select this product, it "
+"will automatically take this as an analytic account)"
+msgstr ""
+"Välj en specifik produkt för vilken objektfördelningen kommer att användas "
+"(vilket t.ex. innebär att när en ny kundfaktura eller försäljningsorder "
+"skapas och en produkt från den här kategorin inkluderas, så kopplas det "
+"automatiskt till rätt analytiska konto)"
 
 #. module: account
 #: model:onboarding.onboarding.step,title:account.onboarding_onboarding_step_company_data
@@ -624,6 +697,26 @@ msgstr ""
 "Ställ in en journal genom att navigera till Bokföring/Inställningar/Inställningar"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid ""
+"This allows accountants to manage analytic and crossovered budgets. Once the"
+" master budgets and the budgets are defined, the project managers can set "
+"the planned amount on each analytic account."
+msgstr ""
+"Detta gör det möjligt för revisorer att hantera analytiska budgetar och "
+"samlingsbudgetar. När flera olika budgetar har definierats kan "
+"projektledarna ställa in det planerade beloppet för varje objektkonto."
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_analytic_distribution_model__account_prefix
+msgid ""
+"This analytic distribution will apply to all financial accounts sharing the "
+"prefix specified."
+msgstr ""
+"Objektfördelningen gäller för alla finansiella konton som delar det angivna "
+"prefixet."
+
+#. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
@@ -720,6 +813,14 @@ msgid ""
 msgstr ""
 "Det är inte möjligt att ändra bolagets valuta eftersom vissa "
 "verifikationsrader redan skapats"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "You cannot post an entry with an archived analytic account: %s"
+msgstr ""
+"Det är inte möjligt att bokföra ett verifikat kopplat till ett arkiverat "
+"objektkonto: %s"
 
 #. module: account
 #. odoo-python

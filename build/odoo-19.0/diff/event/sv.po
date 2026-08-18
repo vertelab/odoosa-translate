@@ -5,12 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: event
-# override | officiell: '<i class="fa fa-building" title="Deltagarens
-# företag"/>'
-msgid "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
-msgstr "<i class=\"fa fa-building\" title=\"Deltagarens bolag\"/>"
-
-#. module: event
 # override | officiell: '<span class="o_event_badge_font_faded">Mitt
 # platshållarföretag</span>'
 msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"

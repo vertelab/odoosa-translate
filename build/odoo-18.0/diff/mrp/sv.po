@@ -5,6 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: mrp
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

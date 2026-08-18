@@ -5,12 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr
-# override | officiell: '<i class="fa fa-building-o" role="img" aria-
-# label="Company" title="Företag"/>'
-msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Company\"/>"
-msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Bolag\"/>"
-
-#. module: hr
 # override | officiell: 'En användare kan inte länkas till flera anställda
 # inom samma företag.'
 msgid "A user cannot be linked to multiple employees in the same company."
@@ -38,12 +32,12 @@ msgstr ""
 " disruptiva produkter. Kom och arbeta på ett växande bolag som erbjuder bra förmåner med möjligheter att gå framåt och lära dig från erfarna ledare. Vi söker en erfaren och enastående medarbetare. Denna position är både kreativ och rigorös till sin natur, du behöver tänka utanför boxen. Vi förväntar oss att kandidaten är proaktiv och har en \"få det gjort\" anda. För att lyckas behöver du ha goda problemlösningsfärdigheter."
 
 #. module: hr
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
 #. module: hr
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 

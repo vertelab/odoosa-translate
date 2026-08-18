@@ -241,9 +241,24 @@ msgstr ""
 "måste stämmas av."
 
 #. module: account
+# override | officiell: 'Analytiskt konto'
+msgid "Analytic Account"
+msgstr "Objektkonto"
+
+#. module: account
+# override | officiell: 'Analytisk redovisning'
+msgid "Analytic Accounting"
+msgstr "Objektredovisning"
+
+#. module: account
 # override | officiell: 'Analytiska konton'
 msgid "Analytic Accounts"
 msgstr "Objektkonton"
+
+#. module: account
+# override | officiell: 'Analytisk fördelning'
+msgid "Analytic Distribution"
+msgstr "Objektfördelning"
 
 #. module: account
 # override | officiell: 'Analytiska fördelningsmodeller'
@@ -256,6 +271,16 @@ msgid "Analytic Distribution Models"
 msgstr "Objektfördelning"
 
 #. module: account
+# override | officiell: 'Analytiska filter'
+msgid "Analytic Filter"
+msgstr "Objektfilter"
+
+#. module: account
+# override | officiell: 'Analytiska rader'
+msgid "Analytic Lines"
+msgstr "Objektrader"
+
+#. module: account
 # override | officiell: 'Analytiska planers användningsgrad'
 msgid "Analytic Plan's Applicabilities"
 msgstr "Objektreglers användningsgrad"
@@ -266,6 +291,11 @@ msgid "Analytic Plans"
 msgstr "Objektregler"
 
 #. module: account
+# override | officiell: 'Analytisk precision'
+msgid "Analytic Precision"
+msgstr "Objektprecision"
+
+#. module: account
 # override | officiell: 'Analytisk rapport'
 msgid "Analytic Report"
 msgstr "Objektrapport"
@@ -273,7 +303,12 @@ msgstr "Objektrapport"
 #. module: account
 # override | officiell: 'Analytisk rapportering'
 msgid "Analytic Reporting"
-msgstr "Objektrapportering"
+msgstr "Objektrapporter"
+
+#. module: account
+# override | officiell: 'Analytiska rader'
+msgid "Analytic lines"
+msgstr "Objektrader"
 
 #. module: account
 # override | officiell: 'En annan bokföringspost med samma namn finns redan.'
@@ -837,6 +872,11 @@ msgid "Is Entries"
 msgstr "Är verifikat"
 
 #. module: account
+# override | officiell: 'Objekt som saknar analytisk fördelning'
+msgid "Items With Missing Analytic Distribution"
+msgstr "Objekt som saknar objektfördelning"
+
+#. module: account
 # override | officiell: 'Bokföringsposter'
 msgid "Journal Entries"
 msgstr "Verifikat"
@@ -993,6 +1033,12 @@ msgid "Onboarding Company Data"
 msgstr "Introduktion till bolagsdata"
 
 #. module: account
+# override | officiell: 'En eller flera rader kräver en analytisk fördelning
+# på 100 %.'
+msgid "One or more lines require a 100% analytic distribution."
+msgstr "En eller flera rader kräver en objektfördelning på 100 %."
+
+#. module: account
 # override | officiell: 'Endast utkast till bokföringsposter kan avbrytas.'
 msgid "Only draft journal entries can be cancelled."
 msgstr "Endast utkast till verifikat kan avbrytas."
@@ -1098,6 +1144,38 @@ msgstr ""
 msgid "Securing these entries will create at least one gap in the sequence."
 msgstr ""
 "Genom att säkra dessa verifikat skapas åtminstone en lucka i nummerföljden."
+
+#. module: account
+# override | officiell: 'Välj ett specifikt analytiskt konto för en viss
+# produktkategori, baserat på den analytiska standarden (vilket t.ex. innebär
+# att när en ny kundfaktura eller försäljningsorder skapas och en produkt från
+# den här kategorin inkluderas, så kopplas det automatiskt till rätt
+# analytiska konto)'
+msgid ""
+"Select a product category which will use analytic account specified in "
+"analytic default (e.g. create new customer invoice or Sales order if we "
+"select this product, it will automatically take this as an analytic account)"
+msgstr ""
+"Välj ett specifikt objektkonto för en viss produktkategori, baserat på den "
+"analytiska standarden (vilket t.ex. innebär att när en ny kundfaktura eller "
+"försäljningsorder skapas och en produkt från den här kategorin inkluderas, "
+"så kopplas det automatiskt till rätt analytiska konto)"
+
+#. module: account
+# override | officiell: 'Välj en specifik produkt för vilken den analytiska
+# fördelningen kommer att användas (vilket t.ex. innebär att när en ny
+# kundfaktura eller försäljningsorder skapas och en produkt från den här
+# kategorin inkluderas, så kopplas det automatiskt till rätt analytiska
+# konto)'
+msgid ""
+"Select a product for which the analytic distribution will be used (e.g. "
+"create new customer invoice or Sales order if we select this product, it "
+"will automatically take this as an analytic account)"
+msgstr ""
+"Välj en specifik produkt för vilken objektfördelningen kommer att användas "
+"(vilket t.ex. innebär att när en ny kundfaktura eller försäljningsorder "
+"skapas och en produkt från den här kategorin inkluderas, så kopplas det "
+"automatiskt till rätt analytiska konto)"
 
 #. module: account
 # override | officiell: 'Markera om skatterna ska tillämpas enligt
@@ -1590,6 +1668,30 @@ msgstr ""
 "Ställ in en journal genom att navigera till Bokföring/Inställningar/Inställningar"
 
 #. module: account
+# override | officiell: 'Detta gör det möjligt för revisorer att hantera
+# analytiska budgetar och samlingsbudgetar. När flera olika budgetar har
+# definierats kan projektledarna ställa in det planerade beloppet för varje
+# analytiskt konto.'
+msgid ""
+"This allows accountants to manage analytic and crossovered budgets. Once the"
+" master budgets and the budgets are defined, the project managers can set "
+"the planned amount on each analytic account."
+msgstr ""
+"Detta gör det möjligt för revisorer att hantera analytiska budgetar och "
+"samlingsbudgetar. När flera olika budgetar har definierats kan "
+"projektledarna ställa in det planerade beloppet för varje objektkonto."
+
+#. module: account
+# override | officiell: 'Den analytiska fördelningen gäller för alla
+# finansiella konton som delar det angivna prefixet.'
+msgid ""
+"This analytic distribution will apply to all financial accounts sharing the "
+"prefix specified."
+msgstr ""
+"Objektfördelningen gäller för alla finansiella konton som delar det angivna "
+"prefixet."
+
+#. module: account
 # override | officiell: 'Detta kan endast användas för journalhändelser'
 msgid "This can only be used on journal items"
 msgstr "Detta kan endast användas för verifikatsrader"
@@ -2040,7 +2142,7 @@ msgstr ""
 msgid "You cannot post an entry with an archived analytic account: %s"
 msgstr ""
 "Det är inte möjligt att bokföra en verifikat kopplad till ett arkiverat "
-"analytiskt konto: %s"
+"objektkonto: %s"
 
 #. module: account
 # override | officiell: 'Det är inte möjligt att minska antalet decimaler för

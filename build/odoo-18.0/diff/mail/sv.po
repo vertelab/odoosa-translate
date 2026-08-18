@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: mail
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
@@ -16,7 +16,7 @@ msgid "Companies using this domain as default for sending mails"
 msgstr "Bolag som använder denna domän som standard för att skicka e-post"
 
 #. module: mail
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 

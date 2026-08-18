@@ -15,7 +15,7 @@ msgstr ""
 "till förmån för bolaget"
 
 #. module: hr_attendance
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 

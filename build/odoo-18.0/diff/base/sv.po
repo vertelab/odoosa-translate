@@ -2991,12 +2991,12 @@ msgid "Check if the contact is a company, otherwise it is a person"
 msgstr "Markera denna ruta om kontakten är ett bolag, annars är det en person"
 
 #. module: base
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
 #. module: base
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 

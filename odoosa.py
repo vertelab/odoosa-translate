@@ -212,14 +212,29 @@ def rule_pairs(term):
     return pairs
 
 
+_ATTR_RE = re.compile(r'([\w:.-]+=")([^"]*)(")')
+
 def apply_rules_to_str(text, pairs, only_if_msgid=None, msgid=None):
     if not text:
         return text
     if only_if_msgid and msgid is not None and not re.search(only_if_msgid, msgid):
         return text
+    # Skydda HTML-attributvärden (invisible="...", t-if, t-out, title, class...)
+    # — de innehåller JS/Python-uttryck som ALDRIG får översättas (t.ex.
+    # invisible="duplicate_lead_count &lt; 2"). Maskera, applicera regler,
+    # återställ.
+    protected = {}
+    def _mask(m):
+        idx = len(protected)
+        token = f"\x00ATTR{idx}\x00"
+        protected[token] = m.group(2)
+        return m.group(1) + token + m.group(3)
+    text = _ATTR_RE.sub(_mask, text)
     for old, new in pairs:
         if old in text:
             text = text.replace(old, new)
+    for token, value in protected.items():
+        text = text.replace(token, value)
     return text
 
 

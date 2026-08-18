@@ -10,7 +10,7 @@ msgid "Companies"
 msgstr "Bolag"
 
 #. module: hr_recruitment
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 

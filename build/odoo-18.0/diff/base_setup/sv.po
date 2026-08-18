@@ -76,7 +76,7 @@ msgid "Is Root Company"
 msgstr "Bolaget Is Root"
 
 #. module: base_setup
-# conflict | officiell: 'Hantera företag'
+# override | officiell: 'Hantera företag'
 msgid "Manage Companies"
 msgstr "Hantera bolag"
 

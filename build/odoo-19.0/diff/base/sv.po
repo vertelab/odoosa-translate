@@ -2356,12 +2356,6 @@ msgid "3PL Logistic Company"
 msgstr "3PL logistikbolag"
 
 #. module: base
-# override | officiell: '<i class="fa fa-fw me-1 fa-building text-primary"
-# title="Företag"/>'
-msgid "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Company\"/>"
-msgstr "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Bolag\"/>"
-
-#. module: base
 # override | officiell: 'Tillgång för obehöriga eller ogiltiga företag.'
 msgid "Access to unauthorized or invalid companies."
 msgstr "Tillgång för obehöriga eller ogiltiga bolag."

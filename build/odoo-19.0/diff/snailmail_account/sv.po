@@ -3,13 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-snailmail_account\n"
 "Language: sv\n"
-
-#. module: snailmail_account
-# override | officiell: '<span class="fa fa-lg fa-building-o" title="Värden
-# som anges här är företagsspecifika."/>'
-msgid ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\"/>"
-msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Värden som anges här är "
-"bolagsspecifika.\"/>"

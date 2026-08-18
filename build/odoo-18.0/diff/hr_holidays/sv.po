@@ -24,7 +24,7 @@ msgstr ""
 "- Per anställdetikett: alla anställda i den specifika anställdgruppkategorin"
 
 #. module: hr_holidays
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
