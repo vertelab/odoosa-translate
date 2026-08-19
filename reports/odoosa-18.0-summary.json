@@ -1,6 +1,6 @@
 {
   "edition": "18.0",
-  "generated": "2026-08-19 12:46",
+  "generated": "2026-08-19 17:44",
   "totals": {
     "override": 1029,
     "converged": 0,
@@ -12,6 +12,45 @@
     "flagged": 0,
     "removed": 0,
     "noop": 55649
+  },
+  "delta": {},
+  "top_modules": [
+    {
+      "module": "account",
+      "count": 297
+    },
+    {
+      "module": "base",
+      "count": 135
+    },
+    {
+      "module": "crm",
+      "count": 111
+    },
+    {
+      "module": "website",
+      "count": 49
+    },
+    {
+      "module": "mail_plugin",
+      "count": 21
+    },
+    {
+      "module": "stock",
+      "count": 20
+    },
+    {
+      "module": "point_of_sale",
+      "count": 19
+    },
+    {
+      "module": "mass_mailing_themes",
+      "count": 18
+    }
+  ],
+  "rule_changes": {
+    "terms": [],
+    "flagged": []
   },
   "conflicts": [],
   "new": [],

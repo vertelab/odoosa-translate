@@ -1,6 +1,6 @@
 {
   "edition": "19.0",
-  "generated": "2026-08-19 12:48",
+  "generated": "2026-08-19 17:44",
   "totals": {
     "override": 918,
     "converged": 0,
@@ -12,6 +12,45 @@
     "flagged": 0,
     "removed": 0,
     "noop": 64450
+  },
+  "delta": {},
+  "top_modules": [
+    {
+      "module": "base",
+      "count": 172
+    },
+    {
+      "module": "crm",
+      "count": 145
+    },
+    {
+      "module": "account",
+      "count": 114
+    },
+    {
+      "module": "website",
+      "count": 52
+    },
+    {
+      "module": "account_peppol",
+      "count": 22
+    },
+    {
+      "module": "mail_plugin",
+      "count": 21
+    },
+    {
+      "module": "point_of_sale",
+      "count": 19
+    },
+    {
+      "module": "mass_mailing_themes",
+      "count": 18
+    }
+  ],
+  "rule_changes": {
+    "terms": [],
+    "flagged": []
   },
   "conflicts": [],
   "new": [],
