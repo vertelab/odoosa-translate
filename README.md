@@ -78,6 +78,10 @@ om i18n_extra-trädet innehåller en modul som inte finns i det officiella
 ./odoosa.py publish                    # commit + push till GitHub
 ./odoosa.py regression --versions 18.0 # jämför mot gamla snapshots
 ./odoosa.py check-edition 20.0         # verifiera i18n_extra (ny-utgåva)
+
+# Don't make me think — enkla kommandon (du rör ALDRIG YAML)
+./odoosa.py add-term --module account --old "Bokföringspost" --new "Verifikat"
+./odoosa.py flag-term --module account --msgid "..." --reason "används ej"
 ```
 
 Trevägs-mergen klassificerar varje fras:
@@ -100,10 +104,25 @@ inte använder). De markeras i **`rules/flagged.yml`** (exakt `msgid` + `reason`
 och räknas då INTE som "nya översättningar" — de hamnar i kategorin `flagged` 🚫
 i rapporten och Driftsloggen.
 
+**Enklast — använd kommandot (du rör ALDRIG YAML):**
+
+```bash
+# Modulscopad (frasen flaggas bara i den modulen):
+./odoosa.py flag-term --module account --msgid "Journal Entry" --reason "fel i denna modul"
+
+# Global (alla moduler):
+./odoosa.py flag-term --msgid "Fuck" --reason "problematisk — används ej"
+```
+
+Under huven skrivs `rules/flagged.yml` (du kan även redigera den för hand):
+
 ```yaml
 flagged_terms:
-  - msgid: "Fuck"
+  - msgid: "Fuck"                # global — gäller alla moduler
     reason: "problematisk — används ej"
+  - msgid: "Journal Entry"       # modulscopad (frivillig module:)
+    module: account
+    reason: "fel i denna modul"
 ```
 
 Endast **exakt msgid-matchning** (ingen mönster-matchning). Lägg till fraser →
@@ -155,8 +174,11 @@ Regelverk när någon påpekar "fel begrepp" eller "oöversatt":
    ├─ Nej → besluta term (terminologiägare) → glossary.csv + regel
    └─ Officiell ändrad till tredje variant → konflikt → beslut
    (alla fall: note med klagomålsreferens → revisionsspår)
-3. ./odoosa.py build + regression (reproducera snapshot) → granska diff
-4. Nästa veckosynk rullar ut automatiskt; Driftslogg loggar status
+3. Enkla fall → ./odoosa.py add-term / flag-term (se Driftsloggens
+   "📖 Don't make me think"-manual — kommandona körs på saltstack.vertel.se)
+   Avancerade regler (varianter, villkor, versionsspecifikt) → AI/utvecklare
+4. ./odoosa.py build + regression (reproducera snapshot) → granska diff
+5. Nästa veckosynk rullar ut automatiskt; Driftslogg loggar status
 ```
 
 ## Distribution

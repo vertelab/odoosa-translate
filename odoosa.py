@@ -15,6 +15,10 @@ Subkommandon:
   publish [--message ...] [--dry-run]
                                Commit + push artefakter/regler/ordlista till GitHub
                                (körs av arbetsminionen; SSH deploy key)
+  add-term --module M --old "från" --new "till" [--note ...]
+                               Lägg till enkel term i rules/core.yml — användaren rör ALDRIG YAML
+  flag-term [--module M] --msgid "..." [--reason ...]
+                               Flaggning i rules/flagged.yml (modul-scopad om --module) 🚫
   regression [--versions ...]  Jämför byggresultat mot gamla snapshot-po (task 1.4)
   check-edition <edition>      Verifiera i18n_extra-stöd (ny-utgåva-procedur, task 2.5)
 
@@ -194,17 +198,50 @@ FLAGGED_FILE = RULES_DIR / "flagged.yml"
 
 def load_flagged():
     """Läs rules/flagged.yml — problematiska/oetiska msgid:er (exakt matchning).
-    Dessa räknas INTE som nya översättningar (kategori 'flagged' i stället)."""
-    flagged = {}
+
+    Dessa räknas INTE som nya översättningar (kategori 'flagged' i stället).
+    En flaggning kan vara:
+      · global       — bara msgid (+ reason) → gäller frasen i ALLA moduler
+      · modulscopad  — msgid + module (+ reason) → gäller bara i den modulen
+    """
+    flagged = []
     try:
         data = yaml.safe_load(FLAGGED_FILE.read_text(encoding="utf-8"))
         for t in (data or {}).get("flagged_terms", []):
             msgid = str(t.get("msgid", "")).strip()
-            if msgid:
-                flagged[msgid] = str(t.get("reason", ""))
+            if not msgid:
+                continue
+            item = {"msgid": msgid, "reason": str(t.get("reason", ""))}
+            mod = t.get("module")
+            if mod:
+                item["module"] = str(mod)
+            flagged.append(item)
     except FileNotFoundError:
         pass
     return flagged
+
+
+def is_flagged(flagged, msgid, module):
+    """Matchar msgid mot flagglistan? Global flaggning (utan module) matchar
+    alla moduler; modulscopad matchar bara den angivna modulen."""
+    for f in flagged:
+        if f["msgid"] != msgid:
+            continue
+        if f.get("module") and f["module"] != module:
+            continue
+        return True
+    return False
+
+
+def flagged_reason(flagged, msgid, module):
+    """Anledning för första matchande flaggning (annars '')."""
+    for f in flagged:
+        if f["msgid"] != msgid:
+            continue
+        if f.get("module") and f["module"] != module:
+            continue
+        return f.get("reason", "")
+    return ""
 
 
 def rules_for_module(edition, module, rules):
@@ -339,8 +376,9 @@ def merge_module(edition, module):
             else:
                 klass = "conflict"
 
-        # Flagged (problematiska/oetiska msgid:er) — räknas INTE som nya
-        if klass in ("new-ours", "new-corrected", "new-manual") and msgid in flagged:
+        # Flagged (problematiska/oetiska msgid:er) — räknas INTE som nya.
+        # matchar global flaggning OCH modulscopad (is_flagged).
+        if klass in ("new-ours", "new-corrected", "new-manual") and is_flagged(flagged, msgid, module):
             klass = "flagged"
 
         stats[klass] += 1
@@ -417,6 +455,33 @@ def write_if_changed(path, text):
     return True
 
 
+def rule_changes():
+    """Regeländringar sedan förra commiten (git diff HEAD -- rules/).
+
+    Körs under build (innan publish) — veckans regelledigeringar är ännu inte
+    committade (publish sker efter build), så diffen visar just det som är nytt
+    denna vecka. Returnerar {"terms": [id, ...], "flagged": [msgid, ...]}.
+    Om git inte är tillgängligt/ingen ändring → tomma listor (aldrig krasch)."""
+    import subprocess
+    try:
+        r = subprocess.run(["git", "-C", str(ROOT), "diff", "HEAD", "--", "rules/"],
+                           capture_output=True, text=True, timeout=60)
+        if r.returncode != 0:
+            return {"terms": [], "flagged": []}
+        terms, flagged = [], []
+        for line in r.stdout.splitlines():
+            m = re.match(r'^\+[ \t]*- id:\s*(\S+)', line)
+            if m:
+                terms.append(m.group(1))
+                continue
+            m = re.match(r'^\+[ \t]*(?:-\s+)?msgid:\s*["\']?(.+?)["\']?\s*$', line)
+            if m:
+                flagged.append(m.group(1).strip())
+        return {"terms": sorted(set(terms)), "flagged": sorted(set(flagged))}
+    except Exception:
+        return {"terms": [], "flagged": []}
+
+
 def build_edition(edition, modules=None):
     log(f"🏗️  BUILD {edition}")
     out_i18n = BUILD_DIR / f"odoo-{edition}" / "i18n"
@@ -428,6 +493,16 @@ def build_edition(edition, modules=None):
     summary_conflicts = []  # {module, count}
     summary_new = []       # {module, msgid, translation}
     summary_flagged = []   # {module, msgid, translation, reason}
+
+    # Översyn: förra veckans totals (för delta) + per-modul-aktivitet
+    summary_path = REPORTS_DIR / f"odoosa-{edition}-summary.json"
+    prev_totals = {}
+    if summary_path.exists():
+        try:
+            prev_totals = json.loads(summary_path.read_text(encoding="utf-8")).get("totals", {})
+        except Exception:
+            pass
+    module_activity = []   # {module, count} — toppmoduler i loggen
 
     for mdir in sorted(edition_cache(edition).iterdir()):
         if not mdir.is_dir():
@@ -444,6 +519,8 @@ def build_edition(edition, modules=None):
         stats = res["stats"]
         for k in total:
             total[k] += stats[k]
+        act = sum(stats[k] for k in ("override", "conflict", "new-corrected", "new-ours", "new-manual", "flagged"))
+        module_activity.append({"module": module, "count": act})
 
         # i18n/sv.po = officiell orörd
         write_if_changed(out_i18n / module / "sv.po", now_path.read_text(encoding="utf-8"))
@@ -484,18 +561,28 @@ def build_edition(edition, modules=None):
                 report_lines.append(line)
                 summary_new.append({"module": module, "msgid": msgid[:80], "translation": des[:60]})
             elif klass == "flagged":
-                reason = flagged.get(msgid, "")
+                reason = flagged_reason(flagged, msgid, module)
                 report_lines.append(f"  · 🚫 {msgid[:70]} → {des[:45]!r}" + (f"  [{reason}]" if reason else ""))
                 summary_flagged.append({"module": module, "msgid": msgid[:80], "translation": des[:60], "reason": reason})
 
     report_lines.insert(1, f"\n**Totalt:** {total}")
     report_path = REPORTS_DIR / f"odoosa-{edition}-report.md"
     write_if_changed(report_path, "\n".join(report_lines) + "\n")
+
+    # Översynsdata: delta vs förra veckan, toppmoduler, regeländringar (git diff)
+    delta = {k: total[k] - prev_totals.get(k, total[k]) for k in total
+             if total[k] != prev_totals.get(k, total[k])}
+    top_modules = sorted(module_activity, key=lambda x: x["count"], reverse=True)[:8]
+    changes = rule_changes()
+
     # Strukturerad summary för publish-odoosa.sh (komprimerad Driftslogg)
     summary = {
         "edition": edition,
         "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "totals": total,
+        "delta": delta,
+        "top_modules": top_modules,
+        "rule_changes": changes,
         "conflicts": summary_conflicts,
         "new": summary_new,
         "flagged": summary_flagged,
@@ -640,6 +727,94 @@ def check_edition(edition):
 
 
 # ---------------------------------------------------------------------------
+# HJÄLPKOMMANDON (don't make me think) — användaren rör ALDRIG YAML
+# ---------------------------------------------------------------------------
+
+def add_term(module, old, new, note=None):
+    """Lägg till enkel term i rules/core.yml (modul + från-fras + till-fras).
+
+    Gäller både 18.0 och 19.0, enkel textersättning, modul-scopad.
+    Användaren behöver ALDRIG redigera YAML — detta sköter det.
+    Avancerade regler (varianter, only_if_msgid, versionsspecifikt) görs av
+    AI/utvecklare direkt i rules/*.yml."""
+    log(f"➕ ADD-TERM {module}: {old!r} → {new!r}")
+    path = RULES_DIR / "core.yml"
+    if not path.exists():
+        raise RuntimeError(f"{path} saknas")
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict) or not isinstance(data.get("terms"), list):
+        raise RuntimeError(f"{path} har inte förväntad struktur (terms: [...])")
+    ids = {t.get("id") for t in data["terms"] if isinstance(t, dict)}
+
+    def slug(s):
+        s = s.lower().replace("å", "a").replace("ä", "a").replace("ö", "o")
+        return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+    base = slug(new) or slug(old) or "term"
+    term_id, n = base, 2
+    while term_id in ids:
+        term_id = f"{base}-{n}"
+        n += 1
+    when = datetime.now().strftime("%Y-%m-%d")
+    lines = [
+        "",
+        f"  # Lagt till via add-term {when} (modul: {module})",
+        f"  - id: {term_id}",
+        f"    old: {json.dumps(old, ensure_ascii=False)}",
+        f"    new: {json.dumps(new, ensure_ascii=False)}",
+        f"    modules: [{module}]",
+        "    versions: [18, 19]",
+        "    match: longest",
+    ]
+    if note:
+        lines.append(f"    note: {json.dumps(note, ensure_ascii=False)}")
+    text = path.read_text(encoding="utf-8")
+    new_text = text.rstrip() + "\n" + "\n".join(lines) + "\n"
+    try:
+        yaml.safe_load(new_text)  # säkerhet: ogiltig YAML skrivs ALDRIG
+    except Exception as e:
+        raise RuntimeError(f"Skulle ge ogiltig YAML — ändring EJ skriven: {e}")
+    path.write_text(new_text, encoding="utf-8")
+    log(f"   ✅ regel '{term_id}' tillagd i rules/core.yml")
+    log("   → Kör sedan: ./odoosa.py build --versions 18.0,19.0 && ./odoosa.py publish")
+
+
+def flag_term(module, msgid, reason=None):
+    """Lägg till flaggning i rules/flagged.yml.
+
+    Med --module: frasen flaggas bara i den modulen.
+    Utan --module: globalt (alla moduler).
+    Flaggade fraser översätts inte av oss och räknas inte som nya i loggen
+    (visas som 🚫). Användaren rör ALDRIG YAML."""
+    log(f"🚫 FLAG-TERM {module or 'globalt'}: {msgid!r}")
+    path = RULES_DIR / "flagged.yml"
+    if not path.exists():
+        raise RuntimeError(f"{path} saknas")
+    item = {"msgid": msgid}
+    if module:
+        item["module"] = module
+    if reason:
+        item["reason"] = reason
+    item_lines = yaml.safe_dump(item, default_flow_style=False, allow_unicode=True,
+                                sort_keys=False).strip().splitlines()
+    lines = ["  - " + item_lines[0]] + ["    " + l for l in item_lines[1:]]
+    text = path.read_text(encoding="utf-8")
+    if "flagged_terms: []" in text:
+        # Ersätt tom inline-lista med riktig block-lista (första flaggningen)
+        new_text = text.replace("flagged_terms: []", "flagged_terms:\n" + "\n".join(lines), 1)
+    else:
+        # Lägg till i slutet (flagged_terms: är sista nyckeln)
+        new_text = text.rstrip() + "\n" + "\n".join(lines) + "\n"
+    try:
+        yaml.safe_load(new_text)  # säkerhet: ogiltig YAML skrivs ALDRIG
+    except Exception as e:
+        raise RuntimeError(f"Skulle ge ogiltig YAML — ändring EJ skriven: {e}")
+    path.write_text(new_text, encoding="utf-8")
+    log(f"   ✅ flaggning tillagd: {msgid!r}" + (f" (modul {module})" if module else " (globalt)"))
+    log("   → Kör sedan: ./odoosa.py build --versions 18.0,19.0 && ./odoosa.py publish")
+
+
+# ---------------------------------------------------------------------------
 # PUBLISH — commit + push till GitHub (task 4.1)
 # ---------------------------------------------------------------------------
 
@@ -727,6 +902,15 @@ def main():
     pub.add_argument("--dry-run", action="store_true")
     ce = sub.add_parser("check-edition")
     ce.add_argument("edition")
+    at = sub.add_parser("add-term")
+    at.add_argument("--module", required=True, help="modul där frasen finns (t.ex. account)")
+    at.add_argument("--old", required=True, help="från-fras — exakt text som visas nu (svenska)")
+    at.add_argument("--new", required=True, help="till-fras — önskad översättning")
+    at.add_argument("--note", default=None, help="frivillig anledning/referens")
+    ft = sub.add_parser("flag-term")
+    ft.add_argument("--module", default=None, help="modul (utelämna = globalt i alla moduler)")
+    ft.add_argument("--msgid", required=True, help="exakt originalfras (msgid, engelska)")
+    ft.add_argument("--reason", default=None, help="frivillig anledning (visas som 🚫)")
 
     args = ap.parse_args()
     versions = parse_versions(args.versions) if hasattr(args, "versions") else None
@@ -756,6 +940,10 @@ def main():
             regression(v)
     elif args.cmd == "check-edition":
         sys.exit(check_edition(args.edition))
+    elif args.cmd == "add-term":
+        add_term(args.module, args.old, args.new, args.note)
+    elif args.cmd == "flag-term":
+        flag_term(args.module, args.msgid, args.reason)
 
 
 if __name__ == "__main__":

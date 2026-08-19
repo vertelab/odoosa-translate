@@ -4,9 +4,16 @@
 # De hamnar i en egen 🚫-sektion i Driftsloggen — man ser att de finns,
 # men vet att de är medvetet ignorerade (ord/sammanhang vi inte använder).
 #
-# Lägg till fraser här (msgid = exakt fras från Odoo-källtexten):
-#   - msgid: "Fuck"
+# Använd helst kommandot — du behöver ALDRIG redigera YAML för hand:
+#   ./odoosa.py flag-term --module account --msgid "..." --reason "används ej"
+#   (utan --module = global flaggning i alla moduler)
+#
+# Struktur (YAML — endast om du redigerar manuellt):
+#   - msgid: "Fuck"                # exakt fras från Odoo-källtexten
 #     reason: "problematisk — används ej"
+#   - msgid: "Journal Entry"       # modulscopad flaggning (frivillig module:)
+#     module: account
+#     reason: "fel i denna modul"
 #
 # Observera: endast EXAKT msgid-matchning (inte mönster/reguljära uttryck).
 #

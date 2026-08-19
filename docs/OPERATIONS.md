@@ -68,24 +68,56 @@ sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py publ
 sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py publish --dry-run'
 ```
 
-### 2.3 Flaggning av problematiska fraser + komprimerad Driftslogg (2026-08-19)
+### 2.3 Lägga till / undanta en term (don't make me think — ALDRIG YAML)
+
+Två enkla kommandon (körs på saltstack.vertel.se — se även Driftsloggens
+"📖 Don't make me think"-manual). Du behöver ALDRIG redigera YAML för hand:
 
 ```bash
-# 1. Lägg till flaggade fraser i rules/flagged.yml (exakt msgid + reason):
-#    flagged_terms:
-#      - msgid: "Fuck"
-#        reason: "problematisk — används ej"
+# Ny term: modul + från-fras + till-fras (gäller 18.0 + 19.0)
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py add-term --module account --old "Bokföringspost" --new "Verifikat"'
 
-# 2. Bygg om (genererar summary.json + rapport med 🚫-rader)
+# Undanta en fras (modulscopad — bara i den modulen):
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py flag-term --module account --msgid "..." --reason "används ej"'
+
+# Eller global (alla moduler — utelämna --module):
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py flag-term --msgid "Fuck" --reason "problematisk"'
+```
+
+Sedan bygg + publicera:
+
+```bash
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py build --versions 18.0,19.0 && ./odoosa.py publish'
+```
+
+Distribution sker vid nästa veckosynk (måndag 06:00). Avancerade regler
+(varianter, only_if_msgid, versionsspecifikt) görs av AI/utvecklare direkt i
+`rules/*.yml` — säg till din AI-hjälpreda.
+
+### 2.4 Flaggning + komprimerad Driftslogg (2026-08-19)
+
+Flaggning sker via `flag-term` ovan (eller manuellt i `rules/flagged.yml`):
+
+```yaml
+flagged_terms:
+  - msgid: "Fuck"                # global — alla moduler
+    reason: "problematisk — används ej"
+  - msgid: "Journal Entry"       # modulscopad (frivillig module:)
+    module: account
+    reason: "fel i denna modul"
+```
+
+```bash
+# Bygg om (genererar summary.json + rapport med 🚫-rader)
 sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py build --versions 18.0,19.0'
 
-# 3. Verifiera i rapporten
+# Verifiera i rapporten
 sudo salt odoosa-translate cmd.run 'grep -c "🚫" /srv/odoosa-translate/reports/odoosa-18.0-report.md'
 
-# 4. Publicera komprimerad logg till Driftsloggen (läser summary.json)
+# Publicera komprimerad logg till Driftsloggen (läser summary.json)
 sudo salt odoosa-translate cmd.run 'bash /usr/local/bin/publish-odoosa.sh'
 
-# 5. Pusha regler/README till GitHub
+# Pusha regler/README till GitHub
 sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py publish'
 ```
 
@@ -94,7 +126,14 @@ Driftsloggen är komprimerad: `publish-odoosa.sh` läser
 (✅/⚠️/🆕/🚫) istället för hela rapporterna (~7 600 rader). Nya översättningar
 listas (max 30); flaggade fraser räknas inte som nya.
 
-### 2.4 Status & kontroll (säkert — applicerar inget)
+Sedan 2026-08-19 innehåller loggen dessutom:
+- **📊 Förändring sedan förra veckan** (delta per kategori vs förra summary.json)
+- **🏆 Toppmoduler** (mest aktivitet — override + nya + konflikter)
+- **🛠️ Regler ändrade denna vecka** (git-diff på `rules/`)
+- **⏭️ Nästa distribution** (påminnelse)
+- **📖 Don't make me think** — kort manual för add-term/flag-term
+
+### 2.5 Status & kontroll (säkert — applicerar inget)
 
 ```bash
 # Ping

@@ -49,8 +49,21 @@ terms:
 
 ## Lägga till / ändra en term (klagomålsregelverket)
 
+**Enkla fall — använd `odoosa.py add-term` (du rör ALDRIG YAML):**
+
+```bash
+./odoosa.py add-term --module account --old "Bokföringspost" --new "Verifikat"
+# valfritt: --note "klagomålsreferens"
+```
+
+Manuellt (avancerat):
+
 1. Sök i `glossary.csv` — finns termen? Om inte: besluta term och lägg till.
 2. Lägg till/ändra regel i `rules/core.yml` (eller `rules/odoo-<edition>.yml`
    om versionsspecifikt), med `note` = klagomålsreferens.
 3. Kör `odoosa.py build` + regression (måste reproducera senaste snapshot).
 4. Nästa veckosync (måndag 05:30) rullar ut ändringen automatiskt.
+
+Flaggning av fraser (undanta från översättning + räknas inte som ny i loggen)
+sker via `odoosa.py flag-term` — se `rules/flagged.yml` eller Driftsloggens
+"📖 Don't make me think"-manual.
