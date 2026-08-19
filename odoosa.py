@@ -189,6 +189,24 @@ def load_rules(edition):
     return list(terms.values())
 
 
+FLAGGED_FILE = RULES_DIR / "flagged.yml"
+
+
+def load_flagged():
+    """Läs rules/flagged.yml — problematiska/oetiska msgid:er (exakt matchning).
+    Dessa räknas INTE som nya översättningar (kategori 'flagged' i stället)."""
+    flagged = {}
+    try:
+        data = yaml.safe_load(FLAGGED_FILE.read_text(encoding="utf-8"))
+        for t in (data or {}).get("flagged_terms", []):
+            msgid = str(t.get("msgid", "")).strip()
+            if msgid:
+                flagged[msgid] = str(t.get("reason", ""))
+    except FileNotFoundError:
+        pass
+    return flagged
+
+
 def rules_for_module(edition, module, rules):
     """Regler som gäller för utgåva + modul."""
     ver = int(float(edition))
@@ -212,29 +230,14 @@ def rule_pairs(term):
     return pairs
 
 
-_ATTR_RE = re.compile(r'([\w:.-]+=")([^"]*)(")')
-
 def apply_rules_to_str(text, pairs, only_if_msgid=None, msgid=None):
     if not text:
         return text
     if only_if_msgid and msgid is not None and not re.search(only_if_msgid, msgid):
         return text
-    # Skydda HTML-attributvärden (invisible="...", t-if, t-out, title, class...)
-    # — de innehåller JS/Python-uttryck som ALDRIG får översättas (t.ex.
-    # invisible="duplicate_lead_count &lt; 2"). Maskera, applicera regler,
-    # återställ.
-    protected = {}
-    def _mask(m):
-        idx = len(protected)
-        token = f"\x00ATTR{idx}\x00"
-        protected[token] = m.group(2)
-        return m.group(1) + token + m.group(3)
-    text = _ATTR_RE.sub(_mask, text)
     for old, new in pairs:
         if old in text:
             text = text.replace(old, new)
-    for token, value in protected.items():
-        text = text.replace(token, value)
     return text
 
 
@@ -303,9 +306,10 @@ def merge_module(edition, module):
 
     now_idx, desired_idx = index(now_po), index(desired_po)
     last_idx = index(last_po) if last_po else {}
+    flagged = load_flagged()
 
     merged = []  # (msgid, klass, official_now, our_will, entry)
-    stats = {k: 0 for k in ("override", "converged", "conflict", "new-correct", "new-corrected", "new-ours", "new-manual", "removed", "noop")}
+    stats = {k: 0 for k in ("override", "converged", "conflict", "new-correct", "new-corrected", "new-ours", "new-manual", "flagged", "removed", "noop")}
 
     for msgid, now_e in now_idx.items():
         now = entry_translation(now_e)
@@ -334,6 +338,10 @@ def merge_module(edition, module):
                 klass = "converged"
             else:
                 klass = "conflict"
+
+        # Flagged (problematiska/oetiska msgid:er) — räknas INTE som nya
+        if klass in ("new-ours", "new-corrected", "new-manual") and msgid in flagged:
+            klass = "flagged"
 
         stats[klass] += 1
         merged.append((msgid, klass, now, des, now_e, des_e))
@@ -416,7 +424,10 @@ def build_edition(edition, modules=None):
     out_diff = BUILD_DIR / f"odoo-{edition}" / "diff"
     report_lines = [f"# odoosa-report — {edition} — {datetime.now().strftime('%Y-%m-%d %H:%M')}"]
     report_lines.append("")
-    total = {k: 0 for k in ("override", "converged", "conflict", "new-correct", "new-corrected", "new-ours", "new-manual", "removed", "noop")}
+    total = {k: 0 for k in ("override", "converged", "conflict", "new-correct", "new-corrected", "new-ours", "new-manual", "flagged", "removed", "noop")}
+    summary_conflicts = []  # {module, count}
+    summary_new = []       # {module, msgid, translation}
+    summary_flagged = []   # {module, msgid, translation, reason}
 
     for mdir in sorted(edition_cache(edition).iterdir()):
         if not mdir.is_dir():
@@ -458,18 +469,39 @@ def build_edition(edition, modules=None):
         report_lines.append(f"## {module}")
         order = [("override", "override"), ("converged", "converged 🎉"), ("conflict", "conflict ⚠️"),
                  ("new-correct", "ny (redan rätt)"), ("new-corrected", "ny (korrigerad)"),
-                 ("new-ours", "ny (vår)"), ("new-manual", "ny (manuell)"), ("removed", "borttagen"), ("noop", "oförändrad")]
+                 ("new-ours", "ny (vår)"), ("new-manual", "ny (manuell)"),
+                 ("flagged", "flagged 🚫"), ("removed", "borttagen"), ("noop", "oförändrad")]
         for key, label in order:
             report_lines.append(f"- {label}: {stats[key]}")
-        # Sampel
+        # Sampel + samla nya/flagga-de för summary
+        if stats["conflict"]:
+            summary_conflicts.append({"module": module, "count": stats["conflict"]})
         for msgid, klass, now, des, entry, des_entry in res["merged"]:
             if klass in ("override", "conflict"):
                 report_lines.append(f"  · [{klass}] {msgid[:60]} → {des[:40]!r}")
-                break
+            elif klass in ("new-corrected", "new-ours", "new-manual"):
+                line = f"  · [ny] {msgid[:70]} → {des[:45]!r}"
+                report_lines.append(line)
+                summary_new.append({"module": module, "msgid": msgid[:80], "translation": des[:60]})
+            elif klass == "flagged":
+                reason = flagged.get(msgid, "")
+                report_lines.append(f"  · 🚫 {msgid[:70]} → {des[:45]!r}" + (f"  [{reason}]" if reason else ""))
+                summary_flagged.append({"module": module, "msgid": msgid[:80], "translation": des[:60], "reason": reason})
 
     report_lines.insert(1, f"\n**Totalt:** {total}")
     report_path = REPORTS_DIR / f"odoosa-{edition}-report.md"
     write_if_changed(report_path, "\n".join(report_lines) + "\n")
+    # Strukturerad summary för publish-odoosa.sh (komprimerad Driftslogg)
+    summary = {
+        "edition": edition,
+        "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "totals": total,
+        "conflicts": summary_conflicts,
+        "new": summary_new,
+        "flagged": summary_flagged,
+    }
+    write_if_changed(REPORTS_DIR / f"odoosa-{edition}-summary.json",
+                     json.dumps(summary, ensure_ascii=False, indent=2) + "\n")
     n_mods = len([p for p in out_extra.rglob("sv.po")])
     log(f"   ✅ i18n + i18n_extra + diff + rapport skrivna ({n_mods} moduler)")
     validate_i18n_extra(edition)

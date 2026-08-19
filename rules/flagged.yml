@@ -1,0 +1,13 @@
+# rules/flagged.yml — problematiska/oetiska fraser som ska ignoreras
+# ======================================================================
+# Dessa msgid:er (exakt matchning) räknas INTE som "nya översättningar".
+# De hamnar i en egen 🚫-sektion i Driftsloggen — man ser att de finns,
+# men vet att de är medvetet ignorerade (ord/sammanhang vi inte använder).
+#
+# Lägg till fraser här (msgid = exakt fras från Odoo-källtexten):
+#   - msgid: "Fuck"
+#     reason: "problematisk — används ej"
+#
+# Observera: endast EXAKT msgid-matchning (inte mönster/reguljära uttryck).
+#
+flagged_terms: []
