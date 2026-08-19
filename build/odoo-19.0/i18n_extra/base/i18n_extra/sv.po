@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-base\n"
-"POT-Creation-Date: 2026-08-19 12:41\n"
-"PO-Revision-Date: 2026-08-19 12:41\n"
+"POT-Creation-Date: 2026-08-19 12:47\n"
+"PO-Revision-Date: 2026-08-19 12:47\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -1826,6 +1826,11 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_3pl_logistic_company
 msgid "3PL Logistic Company"
 msgstr "3PL logistikbolag"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_simple_form
+msgid "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Bolag\"/>"
 
 #. module: base
 #. odoo-python

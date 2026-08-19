@@ -93,6 +93,22 @@ Trevägs-mergen klassificerar varje fras:
 | Ny, fel begrepp | — | Bokföringspost | Verifikat | Korrigera |
 | Borttagen | Bokföringspost | — | Verifikat | Städa bort |
 
+### Flaggning av problematiska fraser (2026-08-19)
+
+Vissa fraser i Odoo-källtexten är problematiska/oetiska (ord i sammanhang vi
+inte använder). De markeras i **`rules/flagged.yml`** (exakt `msgid` + `reason`)
+och räknas då INTE som "nya översättningar" — de hamnar i kategorin `flagged` 🚫
+i rapporten och Driftsloggen.
+
+```yaml
+flagged_terms:
+  - msgid: "Fuck"
+    reason: "problematisk — används ej"
+```
+
+Endast **exakt msgid-matchning** (ingen mönster-matchning). Lägg till fraser →
+`./odoosa.py build` → `publish` → nästa veckosynk rullar ut.
+
 ## Veckoarbetsflöde
 
 Weblate trycker översättningar till Odoo SA-filerna **på söndag** → måndagens
@@ -103,6 +119,11 @@ run (fetch → apply → merge → build)
   → publish (GitHub)
   → sync-master (cp.push till salt-mastern)
   → Driftslogg (ledningssystem.vertel.se/saltstack/log)
+
+Driftsloggen är **komprimerad** (2026-08-19): `publish-odoosa.sh` läser
+`reports/odoosa-<ver>-summary.json` och publicerar en kort logg med ikoner
+(✅/⚠️/🆕/🚫) istället för hela rapporterna. Nya översättningar listas så man
+kan bedöma relevansen; flaggade fraser (`rules/flagged.yml`) räknas inte som nya.
 ```
 
 Salt-mastern distribuerar (gated) till odoo-minioner i **`production` (kunder),

@@ -1,6 +1,6 @@
-# odoosa-report — 19.0 — 2026-08-19 12:41
+# odoosa-report — 19.0 — 2026-08-19 12:47
 
-**Totalt:** {'override': 910, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 64458}
+**Totalt:** {'override': 918, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 64450}
 
 ## account
 - override: 114
@@ -526,7 +526,7 @@
 - borttagen: 0
 - oförändrad: 41
 ## base
-- override: 171
+- override: 172
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -535,7 +535,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 7214
+- oförändrad: 7213
   · [override] 
 
 Austrian charts of accounts (Einheitskontenrahmen 2010).
@@ -710,6 +710,7 @@ United Arab Emirates Accounting Module
 VAT validation for Partner's VAT numbers.
 ================= → 'Momsvalidering för partners momsnummer.\n'
   · [override] 3PL Logistic Company → '3PL logistikbolag'
+  · [override] <i class="fa fa-fw me-1 fa-building text-primary" title="Com → '<i class="fa fa-fw me-1 fa-building text'
   · [override] Access to unauthorized or invalid companies. → 'Tillgång för obehöriga eller ogiltiga bo'
   · [override] Accounting chart for Netherlands
 =========================== → 'Redovisningsplan för Nederländerna\n====='
@@ -1147,7 +1148,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 18
 ## crm
-- override: 143
+- override: 145
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1156,7 +1157,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 614
+- oförändrad: 612
   · [override] # Leads/Opps assigned this month → '# kundämnen/möjligheter denna månad'
   · [override] # Unassigned Leads → '# otilldelade kundämnen'
   · [override] %(assigned)s leads allocated among %(team_count)s teams. → '%(assigned)s kundämnen fördelade mellan '
@@ -1165,6 +1166,8 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] %(duplicates)s duplicates leads have been merged. → '%(duplicates)s duplicerade kundämnen har'
   · [override] %(members_assigned)s leads assigned among %(member_count)s s → '%(members_assigned)s kundämnen fördelade'
   · [override] <b>Write a few letters</b> to look for a company, or create  → '<b>Skriv ett par tecken</b> för att söka'
+  · [override] <i class="fa fa-building" title="Company"/> → '<i class="fa fa-building" title="Bolag"/'
+  · [override] <i class="fa fa-info-circle me-2" title="Assigned Lead Count → '<i class="fa fa-info-circle me-2" title='
   · [override] <span class="o_stat_text" invisible="duplicate_lead_count &l → '<span class="o_stat_text" invisible="dup'
   · [override] <span class="o_stat_text" invisible="not use_leads">Leads</s → '<span class="o_stat_text" invisible="not'
   · [override] <span class="o_stat_text"> Leads</span> → '<span class="o_stat_text">Kundämnen</spa'
@@ -1425,7 +1428,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - oförändrad: 96
   · [override] Company → 'Bolag'
 ## event
-- override: 7
+- override: 8
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1434,7 +1437,8 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 692
+- oförändrad: 691
+  · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
   · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
   · [override] Check this for order-level questions (e.g., 'Company Name')  → 'Kontrollera detta för frågor på orderniv'
   · [override] Company → 'Bolag'
@@ -1615,7 +1619,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 22
 ## hr
-- override: 15
+- override: 16
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1624,7 +1628,8 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 871
+- oförändrad: 870
+  · [override] <i class="fa fa-building-o" role="img" aria-label="Company"  → '<i class="fa fa-building-o" role="img" a'
   · [override] A user cannot be linked to multiple employees in the same co → 'En användare kan inte länkas till flera '
   · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd i vårt bolag kommer du att '
   · [override] Companies → 'Bolag'
@@ -3766,7 +3771,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 18
 ## sale
-- override: 10
+- override: 11
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3775,7 +3780,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 995
+- oförändrad: 994
   · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
@@ -3786,6 +3791,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] There does not seem to be any discount product configured fo → 'Det verkar inte finnas någon rabattprodu'
   · [override] Warning for the change of your quotation's company → 'Varning för byte av bolag för din offert'
   · [override] Your quotation contains products from company %(product_comp → 'Ditt erbjudande innehåller produkter frå'
+  · [override] <span class="fa fa-lg fa-building-o p-2" title="Values set h → '<span class="fa fa-lg fa-building-o p-2"'
 ## sale_crm
 - override: 0
 - converged 🎉: 0
@@ -4078,7 +4084,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 3
 ## sales_team
-- override: 5
+- override: 6
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4087,7 +4093,8 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 128
+- oförändrad: 127
+  · [override] <i class="fa fa-fw me-1 fa-building text-primary" title="Com → '<i class="fa fa-fw me-1 fa-building text'
   · [override] Company → 'Bolag'
   · [override] Member Company → 'Medlemsbolag'
   · [override] The default company for this user. → 'Standardbolaget för den här användaren.'
@@ -4133,7 +4140,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## snailmail_account
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4142,7 +4149,8 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 15
+- oförändrad: 14
+  · [override] <span class="fa fa-lg fa-building-o" title="Values set here  → '<span class="fa fa-lg fa-building-o" tit'
 ## social_media
 - override: 1
 - converged 🎉: 0

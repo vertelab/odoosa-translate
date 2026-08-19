@@ -5,6 +5,12 @@ msgstr ""
 "Language: sv\n"
 
 #. module: sales_team
+# override | officiell: '<i class="fa fa-fw me-1 fa-building text-primary"
+# title="Företag"/>'
+msgid "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Bolag\"/>"
+
+#. module: sales_team
 # override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

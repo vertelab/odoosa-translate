@@ -68,7 +68,33 @@ sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py publ
 sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py publish --dry-run'
 ```
 
-### 2.3 Status & kontroll (säkert — applicerar inget)
+### 2.3 Flaggning av problematiska fraser + komprimerad Driftslogg (2026-08-19)
+
+```bash
+# 1. Lägg till flaggade fraser i rules/flagged.yml (exakt msgid + reason):
+#    flagged_terms:
+#      - msgid: "Fuck"
+#        reason: "problematisk — används ej"
+
+# 2. Bygg om (genererar summary.json + rapport med 🚫-rader)
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py build --versions 18.0,19.0'
+
+# 3. Verifiera i rapporten
+sudo salt odoosa-translate cmd.run 'grep -c "🚫" /srv/odoosa-translate/reports/odoosa-18.0-report.md'
+
+# 4. Publicera komprimerad logg till Driftsloggen (läser summary.json)
+sudo salt odoosa-translate cmd.run 'bash /usr/local/bin/publish-odoosa.sh'
+
+# 5. Pusha regler/README till GitHub
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py publish'
+```
+
+Driftsloggen är komprimerad: `publish-odoosa.sh` läser
+`reports/odoosa-<ver>-summary.json` och publicerar en kort logg med ikoner
+(✅/⚠️/🆕/🚫) istället för hela rapporterna (~7 600 rader). Nya översättningar
+listas (max 30); flaggade fraser räknas inte som nya.
+
+### 2.4 Status & kontroll (säkert — applicerar inget)
 
 ```bash
 # Ping

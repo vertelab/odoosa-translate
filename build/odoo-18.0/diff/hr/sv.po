@@ -5,6 +5,12 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr
+# override | officiell: '<i class="fa fa-building-o" role="img" aria-
+# label="Company" title="Företag"/>'
+msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Bolag\"/>"
+
+#. module: hr
 # override | officiell: 'En användare kan inte länkas till flera anställda
 # inom samma företag.'
 msgid "A user cannot be linked to multiple employees in the same company."

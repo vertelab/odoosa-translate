@@ -1,6 +1,6 @@
-# odoosa-report — 18.0 — 2026-08-19 12:39
+# odoosa-report — 18.0 — 2026-08-19 12:46
 
-**Totalt:** {'override': 1024, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 55654}
+**Totalt:** {'override': 1029, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 55649}
 
 ## account
 - override: 297
@@ -1235,7 +1235,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - borttagen: 0
 - oförändrad: 15
 ## crm
-- override: 110
+- override: 111
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1244,7 +1244,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 547
+- oförändrad: 546
   · [override] # Leads/Opps assigned this month → '# Kundämnen/möjligheter denna månad'
   · [override] # Unassigned Leads → '# otilldelade kundämnen'
   · [override] %(assigned)s leads allocated among %(team_count)s teams. → '%(assigned)s kundämnen fördelade mellan '
@@ -1253,6 +1253,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] %(duplicates)s duplicates leads have been merged. → '%(duplicates)s duplicerade kundämnen har'
   · [override] %(members_assigned)s leads assigned among %(member_count)s s → '%(members_assigned)s kundämnen fördelade'
   · [override] <b>Write a few letters</b> to look for a company, or create  → '<b>Skriv ett par tecken</b> för att söka'
+  · [override] <i class="fa fa-info-circle me-2" title="Assigned Lead Count → '<i class="fa fa-info-circle me-2" title='
   · [override] <span class="o_stat_text" invisible="duplicate_lead_count &l → '<span class="o_stat_text" invisible="dup'
   · [override] <span class="o_stat_text" invisible="not use_leads">Leads</s → '<span class="o_stat_text" invisible="not'
   · [override] <span class="o_stat_text"> Leads</span> → '<span class="o_stat_text">Kundämnen</spa'
@@ -1483,7 +1484,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 96
   · [override] Company → 'Bolag'
 ## event
-- override: 4
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1492,7 +1493,8 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 604
+- oförändrad: 603
+  · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
   · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
   · [override] Company → 'Bolag'
   · [override] Company Logo → 'Bolagslogo'
@@ -1660,7 +1662,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - borttagen: 0
 - oförändrad: 18
 ## hr
-- override: 13
+- override: 14
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1669,7 +1671,8 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 534
+- oförändrad: 533
+  · [override] <i class="fa fa-building-o" role="img" aria-label="Company"  → '<i class="fa fa-building-o" role="img" a'
   · [override] A user cannot be linked to multiple employees in the same co → 'En användare kan inte länkas till flera '
   · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd i vårt bolag kommer du att '
   · [override] Companies → 'Bolag'
@@ -3669,7 +3672,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - borttagen: 0
 - oförändrad: 11
 ## sale
-- override: 10
+- override: 11
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3678,7 +3681,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 850
+- oförändrad: 849
   · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
   · [override] Company → 'Bolag'
   · [override] Company Document Layout → 'Layout för bolagsdokument'
@@ -3689,6 +3692,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Values set here are company-specific. → 'Värden som anges här är bolagsspecifika.'
   · [override] Warning for the change of your quotation's company → 'Varning för byte av bolag för din offert'
   · [override] Your quotation contains products from company %(product_comp → 'Ditt erbjudande innehåller produkter frå'
+  · [override] <span class="fa fa-lg fa-building-o p-2" title="Values set h → '<span class="fa fa-lg fa-building-o p-2"'
 ## sale_async_emails
 - override: 0
 - converged 🎉: 0
@@ -4033,7 +4037,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## snailmail_account
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4042,7 +4046,8 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 11
+- oförändrad: 10
+  · [override] <span class="fa fa-lg fa-building-o" title="Values set here  → '<span class="fa fa-lg fa-building-o" tit'
 ## social_media
 - override: 1
 - converged 🎉: 0

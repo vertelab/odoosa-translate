@@ -95,3 +95,14 @@ msgid ""
 msgstr ""
 "Ditt erbjudande innehåller produkter från bolaget %(product_company)s medan ditt erbjudande tillhör bolaget %(quote_company)s. \n"
 " Var god ändra bolaget för ditt erbjudande eller ta bort produkterna från andra bolag (%(bad_products)s)."
+
+#. module: sale
+# override | officiell: '<span class="fa fa-lg fa-building-o p-2"
+# title="Värdena som anges här är företagsspecifika."
+# groups="base.group_multi_company"/>'
+msgid ""
+"<span class=\"fa fa-lg fa-building-o p-2\" title=\"Values set here are "
+"company-specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o p-2\" title=\"Värdena som anges här är "
+"bolagsspecifika.\" groups=\"base.group_multi_company\"/>"

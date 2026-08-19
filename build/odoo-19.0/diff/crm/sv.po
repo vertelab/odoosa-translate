@@ -53,6 +53,17 @@ msgstr ""
 "nytt."
 
 #. module: crm
+# override | officiell: '<i class="fa fa-building" title="Företag"/>'
+msgid "<i class=\"fa fa-building\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-building\" title=\"Bolag\"/>"
+
+#. module: crm
+# override | officiell: '<i class="fa fa-info-circle me-2" title="Assigned
+# Lead Count"/>'
+msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
+msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Kundämne Count\"/>"
+
+#. module: crm
 # override | officiell: '<span class="o_stat_text"
 # invisible="duplicate_lead_count &lt; 2">Liknande leads</span>\n
 # <span class="o_stat_text" invisible="duplicate_lead_count &gt; 1">Liknande
@@ -61,8 +72,8 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Similar Leads</span>\n"
 "                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
 msgstr ""
-"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Liknande kundämnen</span>\n"
-"                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Liknande kundämne</span>"
+"<span class=\"o_stat_text\" invisible=\"duplicate_kundämne_count &lt; 2\">Liknande kundämnen</span>\n"
+"                                    <span class=\"o_stat_text\" invisible=\"duplicate_kundämne_count &gt; 1\">Liknande kundämne</span>"
 
 #. module: crm
 # override | officiell: '<span class="o_stat_text" invisible="not
@@ -72,8 +83,8 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"not use_leads\">Leads</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"use_leads\">Opportunities</span>"
 msgstr ""
-"<span class=\"o_stat_text\" invisible=\"not use_leads\">Kundämnen</span>\n"
-"                        <span class=\"o_stat_text\" invisible=\"use_leads\">Möjligheter</span>"
+"<span class=\"o_stat_text\" invisible=\"not use_kundämnen\">Kundämnen</span>\n"
+"                        <span class=\"o_stat_text\" invisible=\"use_kundämnen\">Möjligheter</span>"
 
 #. module: crm
 # override | officiell: '<span class="o_stat_text">Leads</span>'
@@ -975,8 +986,8 @@ msgid ""
 "<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', False)]}\">Leads</span>\n"
 "                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', True)]}\">Opportunities</span>"
 msgstr ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', False)]}\">Kundämnen</span>\n"
-"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', True)]}\">Möjligheter</span>"
+"<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_kundämnen', '=', False)]}\">Kundämnen</span>\n"
+"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_kundämnen', '=', True)]}\">Möjligheter</span>"
 
 #. module: crm
 # override | officiell: 'Välj leads/möjligheter'

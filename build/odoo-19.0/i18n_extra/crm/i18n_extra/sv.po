@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-crm\n"
-"POT-Creation-Date: 2026-08-19 12:41\n"
-"PO-Revision-Date: 2026-08-19 12:41\n"
+"POT-Creation-Date: 2026-08-19 12:47\n"
+"PO-Revision-Date: 2026-08-19 12:47\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -60,13 +60,23 @@ msgstr ""
 "nytt."
 
 #. module: crm
+#: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
+msgid "<i class=\"fa fa-building\" title=\"Company\"/>"
+msgstr "<i class=\"fa fa-building\" title=\"Bolag\"/>"
+
+#. module: crm
+#: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
+msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
+msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Kundämne Count\"/>"
+
+#. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid ""
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Similar Leads</span>\n"
 "                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
 msgstr ""
-"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Liknande kundämnen</span>\n"
-"                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Liknande kundämne</span>"
+"<span class=\"o_stat_text\" invisible=\"duplicate_kundämne_count &lt; 2\">Liknande kundämnen</span>\n"
+"                                    <span class=\"o_stat_text\" invisible=\"duplicate_kundämne_count &gt; 1\">Liknande kundämne</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.utm_campaign_view_form
@@ -74,8 +84,8 @@ msgid ""
 "<span class=\"o_stat_text\" invisible=\"not use_leads\">Leads</span>\n"
 "                        <span class=\"o_stat_text\" invisible=\"use_leads\">Opportunities</span>"
 msgstr ""
-"<span class=\"o_stat_text\" invisible=\"not use_leads\">Kundämnen</span>\n"
-"                        <span class=\"o_stat_text\" invisible=\"use_leads\">Möjligheter</span>"
+"<span class=\"o_stat_text\" invisible=\"not use_kundämnen\">Kundämnen</span>\n"
+"                        <span class=\"o_stat_text\" invisible=\"use_kundämnen\">Möjligheter</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_form
@@ -957,8 +967,8 @@ msgid ""
 "<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', False)]}\">Leads</span>\n"
 "                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', True)]}\">Opportunities</span>"
 msgstr ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', False)]}\">Kundämnen</span>\n"
-"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', True)]}\">Möjligheter</span>"
+"<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_kundämnen', '=', False)]}\">Kundämnen</span>\n"
+"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_kundämnen', '=', True)]}\">Möjligheter</span>"
 
 #. module: crm
 msgid "Select Leads/Opportunities"
