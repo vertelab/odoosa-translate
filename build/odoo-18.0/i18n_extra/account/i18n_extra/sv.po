@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account\n"
-"POT-Creation-Date: 2026-08-19 17:44\n"
-"PO-Revision-Date: 2026-08-19 17:44\n"
+"POT-Creation-Date: 2026-08-24 05:31\n"
+"PO-Revision-Date: 2026-08-24 05:31\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -282,11 +282,6 @@ msgstr "Objektregler"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__analytic_precision
 msgid "Analytic Precision"
 msgstr "Objektprecision"
-
-#. module: account
-#: model:ir.ui.menu,name:account.menu_action_analytic_reporting
-msgid "Analytic Report"
-msgstr "Objektrapport"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_analytic_reporting
