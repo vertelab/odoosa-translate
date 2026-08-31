@@ -153,11 +153,6 @@ msgid "Analytic Precision"
 msgstr "Objektprecision"
 
 #. module: account
-# override | officiell: 'Analytisk rapport'
-msgid "Analytic Report"
-msgstr "Objektrapport"
-
-#. module: account
 # override | officiell: 'Analytisk rapportering'
 msgid "Analytic Reporting"
 msgstr "Objektrapporter"
