@@ -267,14 +267,59 @@ def rule_pairs(term):
     return pairs
 
 
-def apply_rules_to_str(text, pairs, only_if_msgid=None, msgid=None):
+# Attribut vars värden är KOD (fältnamn/uttryck/klasser) i view-arch:ar —
+# regler får ALDRIG röra dem, annars manglas vyerna (t.ex. use_leads→
+# use_kundämnen, duplicate_lead_count→duplicate_kundämne_count). Title/
+# placeholder/alt/label är synlig text och ska fortsätta översättas.
+ARCH_CODE_ATTR = re.compile(
+    r'(?P<attr>\b(?:class|invisible|readonly|required|attrs|states|id|name|'
+    r'domain|context|options|groups|colspan|rowspan|'
+    r't-[a-z-]+|data-[a-z-]+)="[^"]*")'
+)
+
+
+def _is_arch_entry(entry):
+    """True om po-posten är en översatt vy-arch (model_terms:ir.ui.view,arch_db)."""
+    if not entry:
+        return False
+    occ = getattr(entry, "occurrences", None) or []
+    for o in occ:
+        ref = o[0] if isinstance(o, (tuple, list)) else str(o)
+        if "arch_db" in ref:
+            return True
+    return False
+
+
+def _protect_arch_code(text):
+    """Ersätt kod-attributvärden med unika platshållare → regler kan inte mangla dem."""
+    protected = []
+
+    def _repl(m):
+        idx = len(protected)
+        protected.append(m.group(0))
+        return f"__OODOOSA_ARCH_{idx}__"
+
+    return ARCH_CODE_ATTR.sub(_repl, text), protected
+
+
+def _restore_arch_code(text, protected):
+    for idx, val in enumerate(protected):
+        text = text.replace(f"__OODOOSA_ARCH_{idx}__", val)
+    return text
+
+
+def apply_rules_to_str(text, pairs, only_if_msgid=None, msgid=None, is_arch=False):
     if not text:
         return text
     if only_if_msgid and msgid is not None and not re.search(only_if_msgid, msgid):
         return text
+    if is_arch:
+        text, protected = _protect_arch_code(text)
     for old, new in pairs:
         if old in text:
             text = text.replace(old, new)
+    if is_arch:
+        text = _restore_arch_code(text, protected)
     return text
 
 
@@ -297,12 +342,12 @@ def apply_rules(edition, modules=None):
         pairs_by_rule = [(rule_pairs(t), t.get("only_if_msgid")) for t in rules_mod]
         for entry in po:
             for pairs, oim in pairs_by_rule:
-                new_str = apply_rules_to_str(entry.msgstr, pairs, oim, entry.msgid)
+                new_str = apply_rules_to_str(entry.msgstr, pairs, oim, entry.msgid, _is_arch_entry(entry))
                 if new_str != entry.msgstr:
                     entry.msgstr = new_str
                     stats["phrases_changed"] += 1
                 for k in list(entry.msgstr_plural.keys()):
-                    new_plural = apply_rules_to_str(entry.msgstr_plural[k], pairs, oim, entry.msgid)
+                    new_plural = apply_rules_to_str(entry.msgstr_plural[k], pairs, oim, entry.msgid, _is_arch_entry(entry))
                     if new_plural != entry.msgstr_plural[k]:
                         entry.msgstr_plural[k] = new_plural
                         stats["phrases_changed"] += 1
@@ -337,9 +382,13 @@ def merge_module(edition, module):
     desired_po = polib.pofile(str(desired_path)) if desired_path.exists() else now_po
     last_po = polib.pofile(str(last_path)) if last_path.exists() else None
 
-    # msgid → entry (första)
+    # msgid → entry (första) — HOPPA ÖVER obsoleta (#~) poster: polib
+    # inkluderar dem i iterationen, och de ligger senare i filen, så en
+    # gammal (ersatt) översättning skulle skriva över den aktiva rena posten
+    # i dict:en → build distribuerade skadade arch-översättningar
+    # (t.ex. attrs={'invisible': [('use_kundämnen'...)]}). Fix 2026-09-01.
     def index(po):
-        return {e.msgid: e for e in po}
+        return {e.msgid: e for e in po if not getattr(e, "obsolete", False)}
 
     now_idx, desired_idx = index(now_po), index(desired_po)
     last_idx = index(last_po) if last_po else {}
@@ -693,7 +742,7 @@ def regression(edition):
             now_tr = entry_translation(now_e) if now_e else ""
             ours = now_tr
             for pairs, oim in pairs_by_rule:
-                ours = apply_rules_to_str(ours, pairs, oim, msgid)
+                ours = apply_rules_to_str(ours, pairs, oim, msgid, _is_arch_entry(now_e))
             if ours == snap_tr:
                 match += 1
             else:

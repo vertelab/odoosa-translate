@@ -162,11 +162,10 @@ terms:
         new: "kundämnespoäng"
       - old: "Leads"
         new: "Kundämnen"
-      # OBS: `leads`/`lead` (gemen, utan ordgräns) är BORTTAGNA (2026-09-01):
-      # regelmotorn gör ren substring-ersättning, så de träffade fältnamn
-      # inuti view-arch-attribut → trasiga vyer (t.ex. use_leads→use_kundämnen,
-      # duplicate_lead_count→duplicate_kundämne_count i crm). Gemen
-      # display-text hanteras av Odoos officiella sv.po.
+      - old: "leads"
+        new: "kundämnen"
+      - old: "lead"
+        new: "kundämne"
     modules: [crm]
     versions: [18, 19]
     match: longest
