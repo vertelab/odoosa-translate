@@ -868,33 +868,3 @@ msgstr ""
 # override | officiell: 't.ex. Mitt företag'
 msgid "e.g. My Company"
 msgstr "t.ex. Mitt bolag"
-
-#. module: account
-# override | officiell: 'Detta kommer att uppdatera alla skatter och konton
-# baserat på den aktuella valda skattepositionen.'
-msgid ""
-"This will update all taxes and accounts based on the currently selected "
-"fiscal position."
-msgstr ""
-"Detta kommer att uppdatera alla skatter och konton baserat på den aktuella "
-"valda skatteområdet."
-
-#. module: account
-# override | officiell: '<strong>Denna valuta har redan använts för att
-# generera bokföringsposter.</strong> <br/>\n                        Ändringar
-# av dess avrundningsfaktor nu kommer inte att ändra de avrundningar som har
-# gjorts i tidigare poster, vilket kan leda till inkonsekvens med de nya
-# posterna.'
-msgid ""
-"<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
-"                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
-msgstr ""
-"<strong>Denna valuta har redan använts för att generera verifikat.</strong> <br/>\n"
-"                        Ändringar av dess avrundningsfaktor nu kommer inte att ändra de avrundningar som har gjorts i tidigare poster, vilket kan leda till inkonsekvens med de nya posterna."
-
-#. module: account
-# override | officiell: 'Skriv ett företagsnamn för att <b>skapa ett</b> eller
-# <b>se förslag</b>.'
-msgid "Write a company name to <b>create one</b> or <b>see suggestions</b>."
-msgstr ""
-"Skriv ett bolagsnamn för att <b>skapa ett</b> eller <b>se förslag</b>."

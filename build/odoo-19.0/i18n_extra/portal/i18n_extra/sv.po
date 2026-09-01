@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-portal\n"
-"POT-Creation-Date: 2026-09-01 14:24\n"
-"PO-Revision-Date: 2026-09-01 14:24\n"
+"POT-Creation-Date: 2026-09-01 14:39\n"
+"PO-Revision-Date: 2026-09-01 14:39\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,3 @@ msgstr "Bolagsnamn"
 #: code:addons/portal/controllers/portal.py:0
 msgid "Multi company reports are not supported."
 msgstr "Rapporter för flera bolag stöds inte."
-
-#. module: portal
-msgid ""
-"Changing company name is not allowed once document(s) have been issued for "
-"your account. Please contact us directly for this operation."
-msgstr ""
-"Det är inte tillåtet att ändra bolagsnamn när dokument har utfärdats för "
-"ditt konto. Kontakta oss direkt för denna åtgärd."

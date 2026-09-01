@@ -1,8 +1,8 @@
 {
   "edition": "18.0",
-  "generated": "2026-09-01 14:24",
+  "generated": "2026-09-01 14:39",
   "totals": {
-    "override": 966,
+    "override": 1018,
     "converged": 0,
     "conflict": 0,
     "new-correct": 0,
@@ -11,11 +11,11 @@
     "new-manual": 0,
     "flagged": 0,
     "removed": 0,
-    "noop": 55712
+    "noop": 55191
   },
   "delta": {
-    "override": -62,
-    "noop": 62
+    "override": -10,
+    "noop": -459
   },
   "top_modules": [
     {
@@ -24,11 +24,11 @@
     },
     {
       "module": "base",
-      "count": 135
+      "count": 134
     },
     {
       "module": "crm",
-      "count": 49
+      "count": 109
     },
     {
       "module": "website",

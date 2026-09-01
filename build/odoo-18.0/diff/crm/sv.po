@@ -10,12 +10,64 @@ msgid "# Leads/Opps assigned this month"
 msgstr "# Kundämnen/möjligheter denna månad"
 
 #. module: crm
+# override | officiell: '# otilldelade leads'
+msgid "# Unassigned Leads"
+msgstr "# otilldelade kundämnen"
+
+#. module: crm
+# override | officiell: '%(assigned)s leads fördelade mellan %(team_count)s
+# team.'
+msgid "%(assigned)s leads allocated among %(team_count)s teams."
+msgstr "%(assigned)s kundämnen fördelade mellan %(team_count)s team."
+
+#. module: crm
+# override | officiell: '%(assigned)s leads tilldelade till teamet
+# %(team_name)s.'
+msgid "%(assigned)s leads allocated to %(team_name)s team."
+msgstr "%(assigned)s kundämnen tilldelade till teamet %(team_name)s."
+
+#. module: crm
+# override | officiell: '%(attach_name)s (från %(lead_name)s)'
+msgid "%(attach_name)s (from %(lead_name)s)"
+msgstr "%(attach_name)s (från %(kundämne_name)s)"
+
+#. module: crm
+# override | officiell: '%(duplicates)s duplicerade leads har slagits samman.'
+msgid "%(duplicates)s duplicates leads have been merged."
+msgstr "%(duplicates)s duplicerade kundämnen har slagits samman."
+
+#. module: crm
+# override | officiell: '%(members_assigned)s leads fördelade på
+# %(member_count)s säljare.'
+msgid ""
+"%(members_assigned)s leads assigned among %(member_count)s salespersons."
+msgstr "%(members_assigned)s kundämnen fördelade på %(member_count)s säljare."
+
+#. module: crm
 # override | officiell: '<b>Skriv ett par tecken</b> för att söka efter ett
 # företag eller skapa ett nytt.'
 msgid "<b>Write a few letters</b> to look for a company, or create a new one."
 msgstr ""
 "<b>Skriv ett par tecken</b> för att söka efter ett bolag eller skapa ett "
 "nytt."
+
+#. module: crm
+# override | officiell: '<i class="fa fa-info-circle me-2" title="Antal
+# tilldelade leads"/>'
+msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
+msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Antal tilldelade kundämnen\"/>"
+
+#. module: crm
+# override | officiell: '<span class="o_stat_text"
+# invisible="duplicate_lead_count &lt; 2">Liknande leads</span>\n
+# <span class="o_stat_text" invisible="duplicate_lead_count &gt; 1">Liknande
+# lead</span>'
+msgid ""
+"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Similar Leads</span>\n"
+"                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Liknande kundämnen</span>\n"
+"                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Liknande kundämne</span>"
 
 #. module: crm
 # override | officiell: '<span class="o_stat_text" invisible="not
@@ -34,9 +86,131 @@ msgid "<span class=\"o_stat_text\"> Leads</span>"
 msgstr "<span class=\"o_stat_text\">Kundämnen</span>"
 
 #. module: crm
+# override | officiell: '<span> leads tilldelade denna månad\n
+# på ett maximalt antal </span>'
+msgid ""
+"<span> leads assigned this month\n"
+"                            on a maximum of </span>"
+msgstr ""
+"<span> kundämnen tilldelade denna månad\n"
+"                            på ett maximalt antal </span>"
+
+#. module: crm
+# override | officiell: '<span>Sammanslagning av lead/möjlighet</span>'
+msgid "<span>Merged the Lead/Opportunity</span>"
+msgstr "<span>Sammanslagning av kundämne/möjlighet</span>"
+
+#. module: crm
+# override | officiell: '<span>Periodiskt tilldela leads baserat på
+# regler</span><br/>\n                                <span invisible="not
+# crm_use_auto_assignment">\n                                    Alla säljteam
+# kommer att använda den här inställningen som standard om\n
+# annat anges.\n                                </span>'
+msgid ""
+"<span>Periodically assign leads based on rules</span><br/>\n"
+"                                <span invisible=\"not crm_use_auto_assignment\">\n"
+"                                    All sales teams will use this setting by default unless\n"
+"                                    specified otherwise.\n"
+"                                </span>"
+msgstr ""
+"<span>Periodiskt tilldela kundämnen baserat på regler</span><br/>\n"
+"                                <span invisible=\"not crm_use_auto_assignment\">\n"
+"                                    Alla säljteam kommer att använda den här inställningen som standard om\n"
+"                                    annat anges.\n"
+"                                </span>"
+
+#. module: crm
+# override | officiell: 'En ny lead har skapats och är inte tilldelad något
+# team.'
+msgid "A new lead has been created and is not assigned to any team."
+msgstr "En ny kundämne har skapats och är inte tilldelad något team."
+
+#. module: crm
+# override | officiell: 'En ny lead har skapats för teamet %(team_name)s.'
+msgid "A new lead has been created for the team \"%(team_name)s\"."
+msgstr "En ny kundämne har skapats för teamet %(team_name)s."
+
+#. module: crm
+# override | officiell: 'Aktiva leads'
+msgid "Active Leads"
+msgstr "Aktiva kundämnen"
+
+#. module: crm
+# override | officiell: 'Aktiviteter som markerats som utförda på leads visas
+# här, vilket ger en översikt över interaktioner med leads.'
+msgid ""
+"Activities marked as Done on Leads will appear here, providing an overview "
+"of lead interactions."
+msgstr ""
+"Aktiviteter som markerats som utförda på kundämnen visas här, vilket ger en "
+"översikt över interaktioner med kundämnen."
+
+#. module: crm
+# override | officiell: 'Ytterligare filterdomän när man hämtar otilldelade
+# leads att fördela till team.'
+msgid ""
+"Additional filter domain when fetching unassigned leads to allocate to the "
+"team."
+msgstr ""
+"Ytterligare filterdomän när man hämtar otilldelade kundämnen att fördela "
+"till team."
+
+#. module: crm
+# override | officiell: 'Tilldela leads'
+msgid "Assign Leads"
+msgstr "Tilldela kundämnen"
+
+#. module: crm
+# override | officiell: 'Förknippad lead'
+msgid "Associated Lead"
+msgstr "Förknippad kundämne"
+
+#. module: crm
 # override | officiell: 'Genomsnittlig leadskapacitet (på 30 dagar)'
 msgid "Average Leads Capacity (on 30 days)"
 msgstr "Genomsnittlig kundämneskapacitet (på 30 dagar)"
+
+#. module: crm
+# override | officiell: 'CRM: Tilldelning av leads'
+msgid "CRM: Lead Assignment"
+msgstr "CRM: Tilldelning av kundämnen"
+
+#. module: crm
+# override | officiell: 'Kontrollera etapp för leads för att identifiera
+# flaskhalsar i din säljprocess.'
+msgid ""
+"Check the Stage Tracker of Leads to identify bottlenecks in your Sales "
+"process."
+msgstr ""
+"Kontrollera etapp för kundämnen för att identifiera flaskhalsar i din "
+"säljprocess."
+
+#. module: crm
+# override | officiell: 'Bocka i rutan för att filtrera och kvalificera
+# inkommande förfrågningar som leads innan de konverteras till möjligheter och
+# tilldelas en säljare.'
+msgid ""
+"Check this box to filter and qualify incoming requests as leads before "
+"converting them into opportunities and assigning them to a salesperson."
+msgstr ""
+"Bocka i rutan för att filtrera och kvalificera inkommande förfrågningar som "
+"kundämnen innan de konverteras till möjligheter och tilldelas en säljare."
+
+#. module: crm
+# override | officiell: 'Klassificera och analysera dina kategorier för
+# leads/möjligheter som till exempel: utbildning, service'
+msgid ""
+"Classify and analyze your lead/opportunity categories like: Training, "
+"Service"
+msgstr ""
+"Klassificera och analysera dina kategorier för kundämnen/möjligheter som "
+"till exempel: utbildning, service"
+
+#. module: crm
+# override | officiell: 'Avslutade/döda leads kan inte omvandlas till
+# möjligheter.'
+msgid "Closed/Dead leads cannot be converted into opportunities."
+msgstr "Avslutade/döda kundämnen kan inte omvandlas till möjligheter."
 
 #. module: crm
 # override | officiell: 'Företag'
@@ -59,6 +233,46 @@ msgid "Company:"
 msgstr "Bolag:"
 
 #. module: crm
+# override | officiell: 'Överväg leads som skapades från och med den:'
+msgid "Consider leads created as of the:"
+msgstr "Överväg kundämnen som skapades från och med den:"
+
+#. module: crm
+# override | officiell: 'Konverteringsdatum från lead till möjlighet'
+msgid "Conversion Date from Lead to Opportunity"
+msgstr "Konverteringsdatum från kundämne till möjlighet"
+
+#. module: crm
+# override | officiell: 'Konvertera leads till möjligheter (i batch)'
+msgid "Convert Lead to Opportunity (in mass)"
+msgstr "Konvertera kundämnen till möjligheter (i batch)"
+
+#. module: crm
+# override | officiell: 'Konvertera leads till möjlighet (ej batch)'
+msgid "Convert Lead to Opportunity (not in mass)"
+msgstr "Konvertera kundämnen till möjlighet (ej batch)"
+
+#. module: crm
+# override | officiell: 'Konvertera besökare på din webbplats till leads och
+# berika deras data baserat på IP-adressen'
+msgid ""
+"Convert visitors of your website into leads and perform data enrichment "
+"based on their IP address"
+msgstr ""
+"Konvertera besökare på din webbplats till kundämnen och berika deras data "
+"baserat på IP-adressen"
+
+#. module: crm
+# override | officiell: 'Skapa leads/möjligheter från webbplatsens trafik'
+msgid "Create Leads/Opportunities from your website's traffic"
+msgstr "Skapa kundämnen/möjligheter från webbplatsens trafik"
+
+#. module: crm
+# override | officiell: 'Skapa ett lead'
+msgid "Create a Lead"
+msgstr "Skapa ett kundämne"
+
+#. module: crm
 # override | officiell: 'Skapa en plan för leadsaktiviteter'
 msgid "Create a Lead Activity Plan"
 msgstr "Skapa en plan för kundämnesaktiviteter"
@@ -67,6 +281,11 @@ msgstr "Skapa en plan för kundämnesaktiviteter"
 # override | officiell: 'Skapa leadsgenerering direkt från din pipeline.'
 msgid "Create a lead mining request directly from the opportunity pipeline."
 msgstr "Skapa kundämnesgenerering direkt från din pipeline."
+
+#. module: crm
+# override | officiell: 'Skapa ny lead'
+msgid "Create a new lead"
+msgstr "Skapa ny kundämne"
 
 #. module: crm
 # override | officiell: 'Visste du att du kan söka efter ett företag eller
@@ -84,19 +303,40 @@ msgstr ""
 "etc."
 
 #. module: crm
+# override | officiell: 'Berika alla leads automatiskt'
+msgid "Enrich all leads automatically"
+msgstr "Berika alla kundämnen automatiskt"
+
+#. module: crm
+# override | officiell: 'Berika leads automatiskt'
+msgid "Enrich lead automatically"
+msgstr "Berika kundämnen automatiskt"
+
+#. module: crm
+# override | officiell: 'Berika leads endast på begäran'
+msgid "Enrich leads on demand only"
+msgstr "Berika kundämnen endast på begäran"
+
+#. module: crm
 # override | officiell: 'Berika dina leads automatiskt med företagsdata
 # baserad på deras e-postadress.'
 msgid ""
 "Enrich your leads automatically with company data based on their email "
 "address."
 msgstr ""
-"Berika dina leads automatiskt med bolagsdata baserad på deras e-postadress."
+"Berika dina kundämnen automatiskt med bolagsdata baserad på deras "
+"e-postadress."
 
 #. module: crm
 # override | officiell: 'Berika dina leads med företagsdata baserat på deras
 # e-postadresser'
 msgid "Enrich your leads with company data based on their email addresses"
-msgstr "Berika dina leads med bolagsdata baserat på deras e-postadresser"
+msgstr "Berika dina kundämnen med bolagsdata baserat på deras e-postadresser"
+
+#. module: crm
+# override | officiell: 'Överträffa månatlig tilldelning av leads'
+msgid "Exceed monthly lead assignement"
+msgstr "Överträffa månatlig tilldelning av kundämnen"
 
 #. module: crm
 # override | officiell: 'Fält som kan användas för beräkning av förutspådd
@@ -115,10 +355,32 @@ msgid ""
 "targeted to your needs: company size, industry, etc. To help you test the "
 "feature, we offer you 20 credits for free."
 msgstr ""
-"För ett säljteam finns det inget värre än att ha ont om leads. Lyckligtvis "
-"kan du med bara några klick generera leads som är specifikt inriktade på "
-"dina behov: bolagsstorlek, bransch osv. För att hjälpa dig att testa "
-"funktionen erbjuder vi dig 20 krediter gratis."
+"För ett säljteam finns det inget värre än att ha ont om kundämnen. "
+"Lyckligtvis kan du med bara några klick generera kundämnen som är specifikt "
+"inriktade på dina behov: bolagsstorlek, bransch osv. För att hjälpa dig att "
+"testa funktionen erbjuder vi dig 20 krediter gratis."
+
+#. module: crm
+# override | officiell: 'Skapa nya leads baserat på land, bransch, storlek,
+# etc.'
+msgid "Generate new leads based on their country, industries, size, etc."
+msgstr "Skapa nya kundämnen baserat på land, bransch, storlek, etc."
+
+#. module: crm
+# override | officiell: 'Skapa nya leads baserat på land, bransch, storlek,
+# etc.'
+msgid "Generate new leads based on their country, industry, size, etc."
+msgstr "Skapa nya kundämnen baserat på land, bransch, storlek, etc."
+
+#. module: crm
+# override | officiell: 'Importmall för leads och möjligheter'
+msgid "Import Template for Leads & Opportunities"
+msgstr "Importmall för kundämnen och möjligheter"
+
+#. module: crm
+# override | officiell: 'KPI-värde i CRM för lead'
+msgid "Kpi Crm Lead Created Value"
+msgstr "KPI-värde i CRM för kundämne"
 
 #. module: crm
 # override | officiell: 'Lead'
@@ -126,9 +388,24 @@ msgid "Lead"
 msgstr "Kundämne"
 
 #. module: crm
+# override | officiell: 'Tilldela lead'
+msgid "Lead Assign"
+msgstr "Tilldela kundämne"
+
+#. module: crm
 # override | officiell: 'Leadstilldelning begärd av %(user_name)s'
 msgid "Lead Assignment requested by %(user_name)s"
 msgstr "Kundämnestilldelning begärd av %(user_name)s"
+
+#. module: crm
+# override | officiell: 'Genomsnittlig kapacitet för leads'
+msgid "Lead Average Capacity"
+msgstr "Genomsnittlig kapacitet för kundämnen"
+
+#. module: crm
+# override | officiell: 'Berika lead'
+msgid "Lead Enrichment"
+msgstr "Berika kundämne"
 
 #. module: crm
 # override | officiell: 'Leadsgenerering'
@@ -144,6 +421,11 @@ msgstr "Kundämnesgenerering"
 # override | officiell: 'Leadsplaner'
 msgid "Lead Plans"
 msgstr "Kundämnesplaner"
+
+#. module: crm
+# override | officiell: 'Egenskaper för lead'
+msgid "Lead Properties"
+msgstr "Egenskaper för kundämne"
 
 #. module: crm
 # override | officiell: 'Frekvens för leadspoängsättning'
@@ -194,6 +476,16 @@ msgid "Lead or Opportunity"
 msgstr "Kundämne eller möjlighet"
 
 #. module: crm
+# override | officiell: 'Automatisk tilldelning av leads/möjligheter är
+# begränsad till chefer eller administratörer'
+msgid ""
+"Lead/Opportunities automatic assignment is limited to managers or "
+"administrators"
+msgstr ""
+"Automatisk tilldelning av kundämnen/möjligheter är begränsad till chefer "
+"eller administratörer"
+
+#. module: crm
 # override | officiell: 'Leads/möjlighet'
 msgid "Lead/Opportunity"
 msgstr "Kundämnen/möjlighet"
@@ -234,8 +526,23 @@ msgid ""
 "leads analysis by different groups to get accurate grained analysis."
 msgstr ""
 "Kundämnesanalys låter dig kontrollera olika CRM-relaterade uppgifter som "
-"ledtider i behandlingen och antal leads per etapp. Du kan filtrera din "
+"ledtider i behandlingen och antal kundämnen per etapp. Du kan filtrera din "
 "analys på olika grupper för att få en mer specificerad analys."
+
+#. module: crm
+# override | officiell: 'Tilldelade leads'
+msgid "Leads Assigned"
+msgstr "Tilldelade kundämnen"
+
+#. module: crm
+# override | officiell: 'Antal leads'
+msgid "Leads Count"
+msgstr "Antal kundämnen"
+
+#. module: crm
+# override | officiell: 'Skapa leads'
+msgid "Leads Generation"
+msgstr "Skapa kundämnen"
 
 #. module: crm
 # override | officiell: 'Leads är kvalificeringssteget före skapandet av en
@@ -253,6 +560,11 @@ msgstr "Kundämne eller möjligheter"
 # override | officiell: 'Leads tilldelade mig'
 msgid "Leads that are assigned to me"
 msgstr "Kundämnen tilldelade mig"
+
+#. module: crm
+# override | officiell: 'Otilldelade leads'
+msgid "Leads that are not assigned"
+msgstr "Otilldelade kundämnen"
 
 #. module: crm
 # override | officiell: 'Leads som du valt som har dubbletter. Om listan är
@@ -273,6 +585,109 @@ msgstr "Kundämnen med befintliga dubbletter (för information)"
 # override | officiell: 'Leads/möjligheter'
 msgid "Leads/Opportunities"
 msgstr "Kundämnen/möjligheter"
+
+#. module: crm
+# override | officiell: 'Antal leads/möjligheter'
+msgid "Leads/Opportunities count"
+msgstr "Antal kundämnen/möjligheter"
+
+#. module: crm
+# override | officiell: 'Länkad kontakt (valfri). Oftast skapad när en lead
+# konverteras. Ni kan finna en partner via dess namn, TIN, mejl, eller intern
+# referens.'
+msgid ""
+"Linked partner (optional). Usually created when converting the lead. You can"
+" find a partner by its Name, TIN, Email or Internal Reference."
+msgstr ""
+"Länkad kontakt (valfri). Oftast skapad när en kundämne konverteras. Ni kan "
+"finna en partner via dess namn, TIN, mejl, eller intern referens."
+
+#. module: crm
+# override | officiell: 'Förlorad lead'
+msgid "Lost Lead"
+msgstr "Förlorad kundämne"
+
+#. module: crm
+# override | officiell: 'Sammanslagning av leads/möjligheter'
+msgid "Merge Leads/Opportunities"
+msgstr "Sammanslagning av kundämnen/möjligheter"
+
+#. module: crm
+# override | officiell: 'Sammanfoga med befintliga leads/möjligheter för
+# respektive kontakt'
+msgid "Merge with existing leads/opportunities of each partner"
+msgstr ""
+"Sammanfoga med befintliga kundämnen/möjligheter för respektive kontakt"
+
+#. module: crm
+# override | officiell: 'Månatlig genomsnittlig kapacitet för leads för alla
+# säljare som ingår i teamet'
+msgid "Monthly average leads capacity for all salesmen belonging to the team"
+msgstr ""
+"Månatlig genomsnittlig kapacitet för kundämnen för alla säljare som ingår i "
+"teamet"
+
+#. module: crm
+# override | officiell: 'Mina leads'
+msgid "My Leads"
+msgstr "Mina kundämnen"
+
+#. module: crm
+# override | officiell: 'Ny lead'
+msgid "New Lead"
+msgstr "Ny kundämne"
+
+#. module: crm
+# override | officiell: 'Nya leads'
+msgid "New Leads"
+msgstr "Nya kundämnen"
+
+#. module: crm
+# override | officiell: 'Inga tilldelade leads till teamet %(team_name)s och
+# dess säljare eftersom ingen otilldelad lead matchar dess domän.'
+msgid ""
+"No allocated leads to %(team_name)s team and its salespersons because no "
+"unassigned lead matches its domain."
+msgstr ""
+"Inga tilldelade kundämnen till teamet %(team_name)s och dess säljare "
+"eftersom ingen otilldelad kundämne matchar dess domän."
+
+#. module: crm
+# override | officiell: 'Inga allokerade leads till teamet %(team_name)s
+# eftersom det inte har någon kapacitet. Lägg till kapacitet till dess
+# säljare.'
+msgid ""
+"No allocated leads to %(team_name)s team because it has no capacity. Add "
+"capacity to its salespersons."
+msgstr ""
+"Inga allokerade kundämnen till teamet %(team_name)s eftersom det inte har "
+"någon kapacitet. Lägg till kapacitet till dess säljare."
+
+#. module: crm
+# override | officiell: 'Inga tilldelade leads till något team eller säljare.
+# Kontrollera konfigurationen för säljteam och säljare samt ej tilldelade
+# leads.'
+msgid ""
+"No allocated leads to any team or salesperson. Check your Sales Teams and "
+"Salespersons configuration as well as unassigned leads."
+msgstr ""
+"Inga tilldelade kundämnen till något team eller säljare. Kontrollera "
+"konfigurationen för säljteam och säljare samt ej tilldelade kundämnen."
+
+#. module: crm
+# override | officiell: 'Ingen leadtilldelad till säljare eftersom ingen
+# tilldelad lead matchar deras domäner.'
+msgid ""
+"No lead assigned to salespersons because no unassigned lead matches their "
+"domains."
+msgstr ""
+"Ingen kundämnetilldelad till säljare eftersom ingen tilldelad kundämne "
+"matchar deras domäner."
+
+#. module: crm
+# override | officiell: 'Prediktiv poängsättning av leads'
+msgid "Predictive Lead Scoring"
+msgstr "Prediktiv poängsättning av kundämnen"
 
 #. module: crm
 # override | officiell: 'Välj minst två Leads/Opportunities från listan för
@@ -301,228 +716,3 @@ msgstr "UX: Begränsa till kundämnen eller alla om inget bolag"
 # override | officiell: 'Användarföretag'
 msgid "User Company"
 msgstr "Användarbolag"
-
-#. module: crm
-# override | officiell: '<table border="0" cellpadding="0" cellspacing="0"
-# style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana,
-# Arial,sans-serif; color: #454748; width: 100%; border-
-# collapse:separate;"><tr><td align="center">\n<table border="0"
-# cellpadding="0" cellspacing="0" width="590" style="padding: 24px;
-# background-color: white; color: #454748; border-
-# collapse:separate;">\n<tbody>\n    <!-- HEADER -->\n    <tr>\n        <td
-# align="center" style="min-width: 590px;">\n            <table border="0"
-# cellpadding="0" cellspacing="0" width="100%" style="background-color: white;
-# padding: 0; border-collapse:separate;">\n                <tr><td
-# valign="middle">\n                    <span style="font-size: 10px;">Din
-# lead/möjlighet</span><br/>\n                    <span style="font-size:
-# 20px; font-weight: bold;" t-out="object.name or \'\'">Intresse av dina
-# produkter</span>\n                </td><td valign="middle" align="right">\n
-# <img t-attf-src="/logo.png?company={{ object.company_id.id }}"
-# style="padding: 0px; margin: 0px; height: 48px;" t-att-
-# alt="object.company_id.name"/>\n                </td></tr>\n
-# <tr><td colspan="2" style="text-align:center;">\n                    <hr
-# width="100%" style="background-color:rgb(204,204,204);border:medium
-# none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0;
-# margin:4px 0px 32px 0px;"/>\n                </td></tr>\n
-# </table>\n        </td>\n    </tr>\n    <!-- CONTENT -->\n    <tr>\n
-# <td style="min-width: 590px;">\n            <table border="0"
-# cellpadding="0" cellspacing="0" width="590" style="min-width: 590px;
-# background-color: white; padding: 0px 8px 0px 8px; border-
-# collapse:separate;">\n                <tr>\n                    <td
-# valign="top" style="font-size: 13px;">\n                        <div>\n
-# Hej <t t-out="object.partner_id and object.partner_id.name or \'\'">Deco
-# Addict</t>,<br/><br/>\n                            Välkommen till <t
-# t-out="object.company_id.name or \'\'">MittFöretag (Storstad)</t>.\n
-# Härligt att få träffa på dig! Nu när du är registrerad tänkte jag visa dig
-# vad <t t-out="object.company_id.name or \'\'">MittFöretag (Storstad)</t> har
-# att erbjuda. Jag heter <t t-out="object.user_id.name or \'\'">Marc Demo</t>
-# och jag ska hjälpa dig att få ut det absolut mesta ur Odoo. Skulle vi kunna
-# boka in en snabb demo inom en snar framtid?<br/>\n
-# Du är alltid välkommen att höra av dig till mig, när som helst!<br/><br/>\n
-# Vänliga hälsningar,<br/>\n                            <t
-# t-if="object.user_id">\n                                <b><t
-# t-out="object.user_id.name or \'\'">Marc Demo</t></b>\n
-# <br/>Email: <t t-out="object.user_id.email or
-# \'\'">mark.brown23@example.com</t>\n
-# <br/>Phone: <t t-out="object.user_id.phone or \'\'">+1 650-123-4567</t>\n
-# </t>\n                            <t t-else="">\n
-# <t t-out="object.company_id.name or \'\'">MittFöretag (Storstad)</t>\n
-# </t>\n                        </div>\n                    </td>\n
-# </tr>\n            </table>\n        </td>\n    </tr>\n    <!-- FOOTER -->\n
-# <tr>\n        <td align="center" style="min-width: 590px; padding: 0 8px 0
-# 8px; font-size:11px;">\n            <hr width="100%" style="background-
-# color:rgb(204,204,204);border:medium none;clear:both;display:block;font-
-# size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;"/>\n
-# <b t-out="object.company_id.name or \'\'">MittFöretag (Storstad)</b><br/>\n
-# <div style="color: #999999;">\n                <t
-# t-out="object.company_id.phone or \'\'">+1 650-123-4567</t>\n
-# <t t-if="object.company_id.email">\n                    | <a t-attf-
-# href="\'mailto:%s\' % {{ object.company_id.email }}" style="text-
-# decoration:none; color: #999999;" t-out="object.company_id.email or
-# \'\'">info@yourcompany.com</a>\n                </t>\n                <t
-# t-if="object.company_id.website">\n                    | <a t-attf-
-# href="\'%s\' % {{ object.company_id.website }}" style="text-decoration:none;
-# color: #999999;" t-out="object.company_id.website or
-# \'\'">http://www.example.com</a>\n                </t>\n            </div>\n
-# </td>\n    </tr>\n</tbody>\n</table>\n</td></tr>\n<!-- POWERED BY
-# -->\n<tr><td align="center" style="min-width: 590px;">\n    Powered by <a
-# target="_blank"
-# href="https://www.odoo.com?utm_source=db&amp;utm_medium=email" style="color:
-# #875A7B;">Odoo</a>\n</td></tr>\n</table>'
-msgid ""
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 24px; background-color: white; color: #454748; border-collapse:separate;\">\n"
-"<tbody>\n"
-"    <!-- HEADER -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
-"                <tr><td valign=\"middle\">\n"
-"                    <span style=\"font-size: 10px;\">Your Lead/Opportunity</span><br/>\n"
-"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Interest in your products</span>\n"
-"                </td><td valign=\"middle\" align=\"right\">\n"
-"                    <img t-attf-src=\"/logo.png?company={{ object.company_id.id }}\" style=\"padding: 0px; margin: 0px; height: 48px;\" t-att-alt=\"object.company_id.name\"/>\n"
-"                </td></tr>\n"
-"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
-"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
-"                </td></tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"    <!-- CONTENT -->\n"
-"    <tr>\n"
-"        <td style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
-"                <tr>\n"
-"                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
-"                        <div>\n"
-"                            Hi <t t-out=\"object.partner_id and object.partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
-"                            Welcome to <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t> has to offer. My name is <t t-out=\"object.user_id.name or ''\">Marc Demo</t> and I'll help you get the most out of Odoo. Could we plan a quick demo soon?<br/>\n"
-"                            Feel free to reach out at any time!<br/><br/>\n"
-"                            Best,<br/>\n"
-"                            <t t-if=\"object.user_id\">\n"
-"                                <b><t t-out=\"object.user_id.name or ''\">Marc Demo</t></b>\n"
-"                                <br/>Email: <t t-out=\"object.user_id.email or ''\">mark.brown23@example.com</t>\n"
-"                                <br/>Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
-"                            </t>\n"
-"                            <t t-else=\"\">\n"
-"                                <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>\n"
-"                            </t>\n"
-"                        </div>\n"
-"                    </td>\n"
-"                </tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"    <!-- FOOTER -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
-"            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
-"            <b t-out=\"object.company_id.name or ''\">My Company (San Francisco)</b><br/>\n"
-"            <div style=\"color: #999999;\">\n"
-"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</t>\n"
-"                <t t-if=\"object.company_id.email\">\n"
-"                    | <a t-attf-href=\"'mailto:%s' % {{ object.company_id.email }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
-"                </t>\n"
-"                <t t-if=\"object.company_id.website\">\n"
-"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
-"                </t>\n"
-"            </div>\n"
-"        </td>\n"
-"    </tr>\n"
-"</tbody>\n"
-"</table>\n"
-"</td></tr>\n"
-"<!-- POWERED BY -->\n"
-"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
-"</td></tr>\n"
-"</table>\n"
-"        "
-msgstr ""
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 24px; background-color: white; color: #454748; border-collapse:separate;\">\n"
-"<tbody>\n"
-"    <!-- HEADER -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
-"                <tr><td valign=\"middle\">\n"
-"                    <span style=\"font-size: 10px;\">Din lead/möjlighet</span><br/>\n"
-"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Intresse av dina produkter</span>\n"
-"                </td><td valign=\"middle\" align=\"right\">\n"
-"                    <img t-attf-src=\"/logo.png?company={{ object.company_id.id }}\" style=\"padding: 0px; margin: 0px; height: 48px;\" t-att-alt=\"object.company_id.name\"/>\n"
-"                </td></tr>\n"
-"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
-"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
-"                </td></tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"    <!-- CONTENT -->\n"
-"    <tr>\n"
-"        <td style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
-"                <tr>\n"
-"                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
-"                        <div>\n"
-"                            Hej <t t-out=\"object.partner_id and object.partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
-"                            Välkommen till <t t-out=\"object.company_id.name or ''\">MittBolag (Storstad)</t>.\n"
-"                            Härligt att få träffa på dig! Nu när du är registrerad tänkte jag visa dig vad <t t-out=\"object.company_id.name or ''\">MittBolag (Storstad)</t> har att erbjuda. Jag heter <t t-out=\"object.user_id.name or ''\">Marc Demo</t> och jag ska hjälpa dig att få ut det absolut mesta ur Odoo. Skulle vi kunna boka in en snabb demo inom en snar framtid?<br/>\n"
-"                            Du är alltid välkommen att höra av dig till mig, när som helst!<br/><br/>\n"
-"                            Vänliga hälsningar,<br/>\n"
-"                            <t t-if=\"object.user_id\">\n"
-"                                <b><t t-out=\"object.user_id.name or ''\">Marc Demo</t></b>\n"
-"                                <br/>Email: <t t-out=\"object.user_id.email or ''\">mark.brown23@example.com</t>\n"
-"                                <br/>Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
-"                            </t>\n"
-"                            <t t-else=\"\">\n"
-"                                <t t-out=\"object.company_id.name or ''\">MittBolag (Storstad)</t>\n"
-"                            </t>\n"
-"                        </div>\n"
-"                    </td>\n"
-"                </tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"    <!-- FOOTER -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
-"            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
-"            <b t-out=\"object.company_id.name or ''\">MittBolag (Storstad)</b><br/>\n"
-"            <div style=\"color: #999999;\">\n"
-"                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</t>\n"
-"                <t t-if=\"object.company_id.email\">\n"
-"                    | <a t-attf-href=\"'mailto:%s' % {{ object.company_id.email }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.email or ''\">info@yourcompany.com</a>\n"
-"                </t>\n"
-"                <t t-if=\"object.company_id.website\">\n"
-"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.example.com</a>\n"
-"                </t>\n"
-"            </div>\n"
-"        </td>\n"
-"    </tr>\n"
-"</tbody>\n"
-"</table>\n"
-"</td></tr>\n"
-"<!-- POWERED BY -->\n"
-"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
-"</td></tr>\n"
-"</table>"
-
-#. module: crm
-# override | officiell: 'För ett säljteam finns inget värre än att inte ha
-# några leads. Som tur är kan du, med bara några klick, generera leads
-# specifikt för ditt behov: företagsstorlek, bransch, etc. För att hjälpa dig
-# testa funktionen får du 200 krediter gratis.'
-msgid ""
-"For a sales team, there is nothing worse than being dry on leads. "
-"Fortunately, in just a few clicks, you can generate leads specifically "
-"targeted to your needs: company size, industry, etc. To help you test the "
-"feature, we offer you 200 credits for free."
-msgstr ""
-"För ett säljteam finns inget värre än att inte ha några leads. Som tur är "
-"kan du, med bara några klick, generera leads specifikt för ditt behov: "
-"bolagsstorlek, bransch, etc. För att hjälpa dig testa funktionen får du 200 "
-"krediter gratis."

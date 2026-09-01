@@ -24,17 +24,3 @@ msgstr ""
 # underleverantörer'
 msgid "You cannot alter the company's subcontracting location"
 msgstr "Du kan inte ändra bolagets plats för underleverantörer"
-
-#. module: mrp_subcontracting
-# override | officiell: 'Markera denna ruta för att skapa en ny särskild
-# underleverantörsplats för detta företag. Observera att standardrutterna för
-# underleverantörer kommer att anpassas så att de automatiskt tar hänsyn till
-# dessa.'
-msgid ""
-"Check this box to create a new dedicated subcontracting location for this "
-"company. Note that standard subcontracting routes will be adapted so as to "
-"take these into account automatically."
-msgstr ""
-"Markera denna ruta för att skapa en ny särskild underleverantörsplats för "
-"detta bolag. Observera att standardrutterna för underleverantörer kommer att"
-" anpassas så att de automatiskt tar hänsyn till dessa."

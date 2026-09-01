@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-hr_expense\n"
-"POT-Creation-Date: 2026-09-01 14:24\n"
-"PO-Revision-Date: 2026-09-01 14:24\n"
+"POT-Creation-Date: 2026-09-01 14:39\n"
+"PO-Revision-Date: 2026-09-01 14:39\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -73,15 +73,3 @@ msgstr ""
 "Använd en kostnad som skiljer sig från 0 för utgiftskategorier som "
 "finansieras av bolaget till fast kostnad, t.ex. milersättning, traktamente, "
 "logi eller måltid."
-
-#. module: hr_expense
-msgid "An expense report must contain only lines from the same company."
-msgstr "En utläggsrapport får endast innehålla rader från samma bolag."
-
-#. module: hr_expense
-msgid "Price in Company Currency"
-msgstr "Pris i bolagets valuta"
-
-#. module: hr_expense
-msgid "You can only generate accounting entry for approved expense(s)."
-msgstr "Du kan bara skapa verifikat för godkända utlägg."

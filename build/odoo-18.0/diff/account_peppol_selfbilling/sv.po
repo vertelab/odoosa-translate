@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-account_peppol_selfbilling\n"
 "Language: sv\n"
-
-#. module: account_peppol_selfbilling
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"

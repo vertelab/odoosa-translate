@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-survey\n"
-"POT-Creation-Date: 2026-09-01 14:24\n"
-"PO-Revision-Date: 2026-09-01 14:24\n"
+"POT-Creation-Date: 2026-09-01 14:39\n"
+"PO-Revision-Date: 2026-09-01 14:39\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -14,11 +14,3 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey.field_res_users__certifications_company_count
 msgid "Company Certifications Count"
 msgstr "Bolagets antal certifieringar"
-
-#. module: survey
-msgid "Our Company in a few questions ..."
-msgstr "VårtBolag i några frågor ..."
-
-#. module: survey
-msgid "Quiz about our Company"
-msgstr "Frågesport om vårt bolag"

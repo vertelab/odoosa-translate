@@ -23,17 +23,3 @@ msgstr ""
 "                miljö för ditt bolag, men de tar alltid hänsyn till den redan\n"
 "                installerade IT-programvaran i åtanke. Det är därför Idealis\n"
 "                Consulting levererar spetskompetens inom HR och SC Management."
-
-#. module: website_event_exhibitor
-# override | officiell: 'Deco Addict integrerar ERP för globala företag och
-# stöder PME\n                med programvara från öppna källor för att
-# hantera sin verksamhet. Våra\n                konsulter är experter inom
-# följande områden:'
-msgid ""
-"Deco Addict integrates ERP for Global Companies and supports PME\n"
-"                with Open Sources software to manage their businesses. Our\n"
-"                consultants are experts in the following areas:"
-msgstr ""
-"Deco Addict integrerar ERP för globala bolag och stöder PME\n"
-"                med programvara från öppna källor för att hantera sin verksamhet. Våra\n"
-"                konsulter är experter inom följande områden:"

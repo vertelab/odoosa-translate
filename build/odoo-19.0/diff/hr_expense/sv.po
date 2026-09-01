@@ -70,20 +70,3 @@ msgstr ""
 "Använd en kostnad som skiljer sig från 0 för utgiftskategorier som "
 "finansieras av bolaget till fast kostnad, t.ex. milersättning, traktamente, "
 "logi eller måltid."
-
-#. module: hr_expense
-# override | officiell: 'En utläggsrapport får endast innehålla rader från
-# samma företag.'
-msgid "An expense report must contain only lines from the same company."
-msgstr "En utläggsrapport får endast innehålla rader från samma bolag."
-
-#. module: hr_expense
-# override | officiell: 'Pris i företagets valuta'
-msgid "Price in Company Currency"
-msgstr "Pris i bolagets valuta"
-
-#. module: hr_expense
-# override | officiell: 'Du kan bara skapa bokföringsposter för godkända
-# utlägg.'
-msgid "You can only generate accounting entry for approved expense(s)."
-msgstr "Du kan bara skapa verifikat för godkända utlägg."

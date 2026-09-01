@@ -1,8 +1,8 @@
 {
   "edition": "19.0",
-  "generated": "2026-09-01 14:24",
+  "generated": "2026-09-01 14:39",
   "totals": {
-    "override": 813,
+    "override": 826,
     "converged": 120,
     "conflict": 0,
     "new-correct": 0,
@@ -11,43 +11,43 @@
     "new-manual": 0,
     "flagged": 0,
     "removed": 0,
-    "noop": 64435
+    "noop": 59771
   },
   "delta": {
-    "override": -104,
-    "noop": 104
+    "override": -91,
+    "noop": -4560
   },
   "top_modules": [
     {
+      "module": "crm",
+      "count": 141
+    },
+    {
       "module": "base",
-      "count": 172
+      "count": 118
     },
     {
       "module": "account",
-      "count": 113
+      "count": 110
     },
     {
       "module": "website",
-      "count": 52
-    },
-    {
-      "module": "crm",
-      "count": 41
+      "count": 47
     },
     {
       "module": "account_peppol",
-      "count": 22
+      "count": 21
     },
     {
       "module": "mail_plugin",
       "count": 21
     },
     {
-      "module": "point_of_sale",
-      "count": 19
+      "module": "mass_mailing_themes",
+      "count": 18
     },
     {
-      "module": "mass_mailing_themes",
+      "module": "point_of_sale",
       "count": 18
     }
   ],

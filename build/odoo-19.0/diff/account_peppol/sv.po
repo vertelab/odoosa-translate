@@ -292,13 +292,3 @@ msgid ""
 "company '%s'."
 msgstr ""
 "[PEPPOL-EN16931-R020] En digital adress (EAS) måste anges för bolaget '%s'."
-
-#. module: account_peppol
-# override | officiell: 'Den rekommenderade identifieringsmetoden för Belgien
-# är ditt företagsregistreringsnummer.'
-msgid ""
-"The recommended identification method for Belgium is your Company Registry "
-"Number."
-msgstr ""
-"Den rekommenderade identifieringsmetoden för Belgien är ditt "
-"bolagsregistreringsnummer."

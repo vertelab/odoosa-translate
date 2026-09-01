@@ -1,6 +1,6 @@
-# odoosa-report — 18.0 — 2026-09-01 14:24
+# odoosa-report — 18.0 — 2026-09-01 14:39
 
-**Totalt:** {'override': 966, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 55712}
+**Totalt:** {'override': 1018, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 55191}
 
 ## account
 - override: 296
@@ -12,7 +12,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2650
+- oförändrad: 2616
   · [override] %(move)s reached an invalid state regarding its related stat → '%(move)s är i ett ogiltigt tillstånd när'
   · [override] -> View partially reconciled entries → '-> Visa delvis avstämda verifikat'
   · [override] . The journal entries need to be computed by Odoo before bei → '. Beloppet i verifikatet måste beräknas '
@@ -370,7 +370,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 31
+- oförändrad: 30
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] This company has an active user already created for this EDI → 'Bolaget har redan en aktiv användare för'
@@ -384,7 +384,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 216
+- oförändrad: 200
   · [override] %s should have a KVK or OIN number set in Company ID field o → '%s bör ha ett KVK- eller OIN-nummer angi'
   · [override] %s should have a valid KBO/BCE number in the Company ID fiel → '%s bör ha ett giltigt KBO/BCE-nummer ang'
   · [override] Belgian Company Registry → 'Bolagsregister i Belgien'
@@ -426,7 +426,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 127
+- oförändrad: 126
   · [override] Journal Entry → 'Verifikat'
   · [override] Overdue invoices should share the same company. → 'Förfallna fakturor bör ha samma bolag an'
 ## account_peppol
@@ -439,7 +439,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 258
+- oförändrad: 242
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagets namn'
@@ -465,7 +465,7 @@ The follow → 'Det är inte möjligt att redigera följand'
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## account_peppol_selfbilling
-- override: 1
+- override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -474,8 +474,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 20
-  · [override] Companies → 'Bolag'
+- oförändrad: 19
 ## account_qr_code_emv
 - override: 0
 - converged 🎉: 0
@@ -544,7 +543,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 160
+- oförändrad: 159
   · [override] Company → 'Bolag'
   · [override] Select a company for which the analytic distribution will be → 'Välj ett bolag för vilket den objektdist'
   · [override] You can't set a different company on your analytic account s → 'Du kan inte ange ett annat bolag på ditt'
@@ -630,7 +629,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - borttagen: 0
 - oförändrad: 1
 ## auth_signup
-- override: 2
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -639,8 +638,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 98
-  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
+- oförändrad: 94
   · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
 ## auth_totp
 - override: 0
@@ -708,9 +706,9 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 39
+- oförändrad: 38
 ## base
-- override: 135
+- override: 134
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -719,7 +717,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 6177
+- oförändrad: 6074
   · [override] 
 
 Austrian charts of accounts (Einheitskontenrahmen 2010).
@@ -996,7 +994,6 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Whether values for this field is company dependent → 'Huruvida värden för detta fält är bolags'
   · [override] You cannot reduce the number of decimal places of a currency → 'Du kan inte minska antalet decimaler i e'
   · [override] e.g. My Company → 't.ex. Mitt Bolag'
-  · [override] Deco Addict integrates ERP for Global Companies and supports → 'Deco Addict integrerar ERP för globala b'
 ## base_address_extended
 - override: 0
 - converged 🎉: 0
@@ -1119,7 +1116,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 45
+- oförändrad: 39
   · [override] Companies → 'Bolag'
   · [override] The country detected for this foreign VAT number does not ma → 'Landet som identifierats för detta utlän'
 ## board
@@ -1154,7 +1151,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 377
+- oförändrad: 373
 ## calendar_sms
 - override: 0
 - converged 🎉: 0
@@ -1234,7 +1231,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - borttagen: 0
 - oförändrad: 15
 ## crm
-- override: 49
+- override: 109
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1243,28 +1240,73 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 608
+- oförändrad: 545
   · [override] # Leads/Opps assigned this month → '# Kundämnen/möjligheter denna månad'
+  · [override] # Unassigned Leads → '# otilldelade kundämnen'
+  · [override] %(assigned)s leads allocated among %(team_count)s teams. → '%(assigned)s kundämnen fördelade mellan '
+  · [override] %(assigned)s leads allocated to %(team_name)s team. → '%(assigned)s kundämnen tilldelade till t'
+  · [override] %(attach_name)s (from %(lead_name)s) → '%(attach_name)s (från %(kundämne_name)s)'
+  · [override] %(duplicates)s duplicates leads have been merged. → '%(duplicates)s duplicerade kundämnen har'
+  · [override] %(members_assigned)s leads assigned among %(member_count)s s → '%(members_assigned)s kundämnen fördelade'
   · [override] <b>Write a few letters</b> to look for a company, or create  → '<b>Skriv ett par tecken</b> för att söka'
+  · [override] <i class="fa fa-info-circle me-2" title="Assigned Lead Count → '<i class="fa fa-info-circle me-2" title='
+  · [override] <span class="o_stat_text" invisible="duplicate_lead_count &l → '<span class="o_stat_text" invisible="dup'
   · [override] <span class="o_stat_text" invisible="not use_leads">Leads</s → '<span class="o_stat_text" invisible="not'
   · [override] <span class="o_stat_text"> Leads</span> → '<span class="o_stat_text">Kundämnen</spa'
+  · [override] <span> leads assigned this month
+                            → '<span> kundämnen tilldelade denna månad\n'
+  · [override] <span>Merged the Lead/Opportunity</span> → '<span>Sammanslagning av kundämne/möjligh'
+  · [override] <span>Periodically assign leads based on rules</span><br/>
+  → '<span>Periodiskt tilldela kundämnen base'
+  · [override] A new lead has been created and is not assigned to any team. → 'En ny kundämne har skapats och är inte t'
+  · [override] A new lead has been created for the team "%(team_name)s". → 'En ny kundämne har skapats för teamet %('
+  · [override] Active Leads → 'Aktiva kundämnen'
+  · [override] Activities marked as Done on Leads will appear here, providi → 'Aktiviteter som markerats som utförda på'
+  · [override] Additional filter domain when fetching unassigned leads to a → 'Ytterligare filterdomän när man hämtar o'
+  · [override] Assign Leads → 'Tilldela kundämnen'
+  · [override] Associated Lead → 'Förknippad kundämne'
   · [override] Average Leads Capacity (on 30 days) → 'Genomsnittlig kundämneskapacitet (på 30 '
+  · [override] CRM: Lead Assignment → 'CRM: Tilldelning av kundämnen'
+  · [override] Check the Stage Tracker of Leads to identify bottlenecks in  → 'Kontrollera etapp för kundämnen för att '
+  · [override] Check this box to filter and qualify incoming requests as le → 'Bocka i rutan för att filtrera och kvali'
+  · [override] Classify and analyze your lead/opportunity categories like:  → 'Klassificera och analysera dina kategori'
+  · [override] Closed/Dead leads cannot be converted into opportunities. → 'Avslutade/döda kundämnen kan inte omvand'
   · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Company Name: → 'Bolagsnamn:'
   · [override] Company: → 'Bolag:'
+  · [override] Consider leads created as of the: → 'Överväg kundämnen som skapades från och '
+  · [override] Conversion Date from Lead to Opportunity → 'Konverteringsdatum från kundämne till mö'
+  · [override] Convert Lead to Opportunity (in mass) → 'Konvertera kundämnen till möjligheter (i'
+  · [override] Convert Lead to Opportunity (not in mass) → 'Konvertera kundämnen till möjlighet (ej '
+  · [override] Convert visitors of your website into leads and perform data → 'Konvertera besökare på din webbplats til'
+  · [override] Create Leads/Opportunities from your website's traffic → 'Skapa kundämnen/möjligheter från webbpla'
+  · [override] Create a Lead → 'Skapa ett kundämne'
   · [override] Create a Lead Activity Plan → 'Skapa en plan för kundämnesaktiviteter'
   · [override] Create a lead mining request directly from the opportunity p → 'Skapa kundämnesgenerering direkt från di'
+  · [override] Create a new lead → 'Skapa ny kundämne'
   · [override] Did you know you can search a company by name or VAT number  → 'Visste du att du kan söka efter ett bola'
-  · [override] Enrich your leads automatically with company data based on t → 'Berika dina leads automatiskt med bolags'
-  · [override] Enrich your leads with company data based on their email add → 'Berika dina leads med bolagsdata baserat'
+  · [override] Enrich all leads automatically → 'Berika alla kundämnen automatiskt'
+  · [override] Enrich lead automatically → 'Berika kundämnen automatiskt'
+  · [override] Enrich leads on demand only → 'Berika kundämnen endast på begäran'
+  · [override] Enrich your leads automatically with company data based on t → 'Berika dina kundämnen automatiskt med bo'
+  · [override] Enrich your leads with company data based on their email add → 'Berika dina kundämnen med bolagsdata bas'
+  · [override] Exceed monthly lead assignement → 'Överträffa månatlig tilldelning av kundä'
   · [override] Fields that can be used for predictive lead scoring computat → 'Fält som kan användas för beräkning av f'
   · [override] For a sales team, there is nothing worse than being dry on l → 'För ett säljteam finns det inget värre ä'
+  · [override] Generate new leads based on their country, industries, size, → 'Skapa nya kundämnen baserat på land, bra'
+  · [override] Generate new leads based on their country, industry, size, e → 'Skapa nya kundämnen baserat på land, bra'
+  · [override] Import Template for Leads & Opportunities → 'Importmall för kundämnen och möjligheter'
+  · [override] Kpi Crm Lead Created Value → 'KPI-värde i CRM för kundämne'
   · [override] Lead → 'Kundämne'
+  · [override] Lead Assign → 'Tilldela kundämne'
   · [override] Lead Assignment requested by %(user_name)s → 'Kundämnestilldelning begärd av %(user_na'
+  · [override] Lead Average Capacity → 'Genomsnittlig kapacitet för kundämnen'
+  · [override] Lead Enrichment → 'Berika kundämne'
   · [override] Lead Generation → 'Kundämnesgenerering'
   · [override] Lead Mining → 'Kundämnesgenerering'
   · [override] Lead Plans → 'Kundämnesplaner'
+  · [override] Lead Properties → 'Egenskaper för kundämne'
   · [override] Lead Scoring Frequency → 'Frekvens för kundämnespoängsättning'
   · [override] Lead Scoring Frequency Fields → 'Fält för frekvens av kundämnespoängsättn'
   · [override] Lead Scoring Frequency Fields in String → 'Fält för frekvens av kundämnespoängsättn'
@@ -1274,6 +1316,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Lead assigned to this member this last day (lost one exclude → 'Kundämne tilldelad denna medlem den sena'
   · [override] Lead assigned to this member those last 30 days → 'Kundämne tilldelad denna medlem de senas'
   · [override] Lead or Opportunity → 'Kundämne eller möjlighet'
+  · [override] Lead/Opportunities automatic assignment is limited to manage → 'Automatisk tilldelning av kundämnen/möjl'
   · [override] Lead/Opportunity → 'Kundämnen/möjlighet'
   · [override] Lead/Opportunity created → 'Kundämne/möjlighet skapad'
   · [override] Leads → 'Kundämnen'
@@ -1281,18 +1324,34 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Leads (last 24h) → 'Kundämnen (senaste 24 timmarna)'
   · [override] Leads Analysis → 'Kundämnesanalys'
   · [override] Leads Analysis allows you to check different CRM related inf → 'Kundämnesanalys låter dig kontrollera ol'
+  · [override] Leads Assigned → 'Tilldelade kundämnen'
+  · [override] Leads Count → 'Antal kundämnen'
+  · [override] Leads Generation → 'Skapa kundämnen'
   · [override] Leads are the qualification step before the creation of an o → 'Kundämnen är kvalificeringssteget före s'
   · [override] Leads or Opportunities → 'Kundämne eller möjligheter'
   · [override] Leads that are assigned to me → 'Kundämnen tilldelade mig'
+  · [override] Leads that are not assigned → 'Otilldelade kundämnen'
   · [override] Leads that you selected that have duplicates. If the list is → 'Kundämnen som du valt som har dubbletter'
   · [override] Leads with existing duplicates (for information) → 'Kundämnen med befintliga dubbletter (för'
   · [override] Leads/Opportunities → 'Kundämnen/möjligheter'
+  · [override] Leads/Opportunities count → 'Antal kundämnen/möjligheter'
+  · [override] Linked partner (optional). Usually created when converting t → 'Länkad kontakt (valfri). Oftast skapad n'
+  · [override] Lost Lead → 'Förlorad kundämne'
+  · [override] Merge Leads/Opportunities → 'Sammanslagning av kundämnen/möjligheter'
+  · [override] Merge with existing leads/opportunities of each partner → 'Sammanfoga med befintliga kundämnen/möjl'
+  · [override] Monthly average leads capacity for all salesmen belonging to → 'Månatlig genomsnittlig kapacitet för kun'
+  · [override] My Leads → 'Mina kundämnen'
+  · [override] New Lead → 'Ny kundämne'
+  · [override] New Leads → 'Nya kundämnen'
+  · [override] No allocated leads to %(team_name)s team and its salesperson → 'Inga tilldelade kundämnen till teamet %('
+  · [override] No allocated leads to %(team_name)s team because it has no c → 'Inga allokerade kundämnen till teamet %('
+  · [override] No allocated leads to any team or salesperson. Check your Sa → 'Inga tilldelade kundämnen till något tea'
+  · [override] No lead assigned to salespersons because no unassigned lead  → 'Ingen kundämnetilldelad till säljare eft'
+  · [override] Predictive Lead Scoring → 'Prediktiv poängsättning av kundämnen'
   · [override] Select at least two Leads/Opportunities from the list to mer → 'Välj minst två Kundämnen/Opportunities f'
   · [override] The name of the future partner company that will be created  → 'Namnet på bolagskontakten som kommer att'
   · [override] UX: Limit to lead company or all if no company → 'UX: Begränsa till kundämnen eller alla o'
   · [override] User Company → 'Användarbolag'
-  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
-  · [override] For a sales team, there is nothing worse than being dry on l → 'För ett säljteam finns inget värre än at'
 ## crm_iap_enrich
 - override: 3
 - converged 🎉: 0
@@ -1308,7 +1367,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Enrich lead with company data → 'Berika lead med bolagsdata'
   · [override] Enrich opportunity with company data → 'Berika möjlighet med bolagsdata'
 ## crm_iap_mine
-- override: 7
+- override: 6
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1317,15 +1376,13 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 140
+- oförändrad: 139
   · [override] %(credit_count)d credits will be consumed to find %(company_ → '%(credit_count)d krediter kommer att för'
   · [override] <span class="col-md-6">Extra contacts per Company</span> → '<span class="col-md-6">Extra kontakter p'
   · [override] Companies → 'Bolag'
   · [override] Companies and their Contacts → 'Bolag och deras kontaktpersoner'
   · [override] Company Size Max → 'Bolags Maxstorlek'
   · [override] Up to %(credit_count)d additional credits will be consumed t → 'Upp till %(credit_count)d ytterligare kr'
-  · [override] <i class="fa fa-fw me-2 fa-building text-primary"/>
-         → '<i class="fa fa-fw me-2 fa-building text'
 ## crm_livechat
 - override: 0
 - converged 🎉: 0
@@ -1428,7 +1485,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 603
+- oförändrad: 598
   · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
   · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
   · [override] Company → 'Bolag'
@@ -1632,7 +1689,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 286
+- oförändrad: 280
   · [override] Allow a period of time (around working hours) where extra ti → 'Tillåt en tidsperiod (runt arbetstid) dä'
   · [override] Company → 'Bolag'
   · [override] Company Logo → 'Bolagslogo'
@@ -1673,7 +1730,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 418
+- oförändrad: 413
   · [override] An expense report must contain only lines from the same comp → 'En utläggsrapport får endast innehålla r'
   · [override] Do you really want to invoice your own company? Remove the " → 'Vill du verkligen fakturera ditt eget bo'
   · [override] Managers can approve the report here, then an accountant can → 'Chefer kan godkänna rapporten här, sedan'
@@ -1720,7 +1777,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 711
+- oförändrad: 708
   · [override] Allow to create requests in batchs:
 - By Employee: for a spe → 'Tillåt att skapa förfrågningar i batcher'
   · [override] Company → 'Bolag'
@@ -1838,7 +1895,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 530
+- oförändrad: 529
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Select the location where the applicant will work. Addresses → 'Välj den ort där den sökande ska arbeta.'
@@ -1885,7 +1942,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 363
+- oförändrad: 360
   · [override] Company → 'Bolag'
   · [override] Demo Company Name → 'Demo Bolagsnamn'
   · [override] Secretary, company → 'Sekreterare, bolag'
@@ -1921,7 +1978,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 218
+- oförändrad: 216
   · [override] Company → 'Bolag'
   · [override] The Internal Project of a company should be in that company. → 'Ett bolags interna projekt bör ligga ino'
   · [override] The project, the task and the analytic accounts of the times → 'Projektet, uppgiften och de analytiska k'
@@ -1982,7 +2039,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 328
+- oförändrad: 325
 ## http_routing
 - override: 0
 - converged 🎉: 0
@@ -2053,7 +2110,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 357
+- oförändrad: 356
   · [override] Livechat Support Channel Statistics allows you to easily che → 'Livechat Support Channel Statistics gör '
 ## l10n_se
 - override: 4
@@ -2091,7 +2148,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 362
+- oförändrad: 357
   · [override] Company → 'Bolag'
 ## lunch
 - override: 5
@@ -2120,7 +2177,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1821
+- oförändrad: 1808
   · [override] Companies → 'Bolag'
   · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
   · [override] Company → 'Bolag'
@@ -2150,7 +2207,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 251
+- oförändrad: 250
   · [override] My Company News → 'Nyheter om mitt bolag'
 ## mail_plugin
 - override: 21
@@ -2217,7 +2274,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 891
+- oförändrad: 885
   · [override] Company Name → 'Bolagsnamn'
   · [override] Founder and chief visionary, Tony is the driving force behin → 'Tony är bolagets grundare och visionär o'
   · [override] Iris, with her international experience, helps us easily und → 'Iris, med sin internationella erfarenhet'
@@ -2334,7 +2391,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 189
+- oförändrad: 187
 ## mass_mailing_themes
 - override: 18
 - converged 🎉: 0
@@ -2419,7 +2476,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1090
+- oförändrad: 1082
   · [override] Company → 'Bolag'
 ## mrp_account
 - override: 0
@@ -2431,7 +2488,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 99
+- oförändrad: 91
 ## mrp_landed_costs
 - override: 0
 - converged 🎉: 0
@@ -2781,7 +2838,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1502
+- oförändrad: 1477
   · [override] All available pricelists must be in the same currency as the → 'Alla tillgängliga prislistor måste vara '
   · [override] All payment methods must be in the same currency as the Sale → 'Alla betalningsmetoder måste vara i samm'
   · [override] Choose a specific fiscal position at the order depending on  → 'Välj en specifik skatteområde vid bestäl'
@@ -2883,7 +2940,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 22
+- oförändrad: 21
 ## pos_event
 - override: 0
 - converged 🎉: 0
@@ -2916,7 +2973,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 59
+- oförändrad: 58
 ## pos_loyalty
 - override: 0
 - converged 🎉: 0
@@ -2938,7 +2995,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 27
+- oförändrad: 26
 ## pos_mrp
 - override: 0
 - converged 🎉: 0
@@ -3016,7 +3073,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 257
+- oförändrad: 255
 ## pos_restaurant_adyen
 - override: 0
 - converged 🎉: 0
@@ -3161,7 +3218,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 32
+- oförändrad: 31
 ## privacy_lookup
 - override: 0
 - converged 🎉: 0
@@ -3183,7 +3240,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 666
+- oförändrad: 662
   · [override] Company Settings → 'Bolagsinställningar'
   · [override] You cannot define the decimal precision of 'Account' as grea → 'Du kan inte definiera decimalprecisionen'
 ## product_email_template
@@ -3513,7 +3570,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 192
+- oförändrad: 187
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
   · [override] Company Subtotal → 'Bolag Subtotal'
@@ -3607,7 +3664,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - borttagen: 0
 - oförändrad: 11
 ## sale
-- override: 11
+- override: 10
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3616,7 +3673,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 849
+- oförändrad: 846
   · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
   · [override] Company → 'Bolag'
   · [override] Company Document Layout → 'Layout för bolagsdokument'
@@ -3627,7 +3684,6 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Values set here are company-specific. → 'Värden som anges här är bolagsspecifika.'
   · [override] Warning for the change of your quotation's company → 'Varning för byte av bolag för din offert'
   · [override] Your quotation contains products from company %(product_comp → 'Ditt erbjudande innehåller produkter frå'
-  · [override] <span class="fa fa-lg fa-building-o p-2" title="Values set h → '<span class="fa fa-lg fa-building-o p-2"'
 ## sale_async_emails
 - override: 0
 - converged 🎉: 0
@@ -3716,7 +3772,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 92
+- oförändrad: 91
 ## sale_loyalty_delivery
 - override: 0
 - converged 🎉: 0
@@ -3729,7 +3785,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - borttagen: 0
 - oförändrad: 10
 ## sale_management
-- override: 5
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3738,12 +3794,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 101
+- oförändrad: 100
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Your quotation contains products from company %(product_comp → 'Ditt erbjudande innehåller produkter frå'
-  · [override] Your template cannot contain products from multiple companie → 'Din mall kan inte innehålla produkter fr'
-  · [override] Your template contains products from company %(product_compa → 'Din mall innehåller produkter från bolag'
 ## sale_margin
 - override: 0
 - converged 🎉: 0
@@ -3833,7 +3887,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 36
+- oförändrad: 35
 ## sale_purchase_project
 - override: 0
 - converged 🎉: 0
@@ -3944,7 +3998,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 277
+- oförändrad: 274
   · [override] Your sender name must be between 3 and 11 characters long an → 'Ditt avsändarnamn måste vara mellan 3 oc'
 ## sms_twilio
 - override: 1
@@ -4005,7 +4059,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1838
+- oförändrad: 1823
   · [override] Currency not available for this company. → 'Valuta ej tillgänglig för detta bolag.'
   · [override] The company to take the exchange rate from. → 'Bolaget som valutakursen ska hämtas från'
 ## spreadsheet_account
@@ -4177,7 +4231,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1746
+- oförändrad: 1737
   · [override] * Vendor Location: Virtual location representing the source  → '* Leverantörens plats: Virtuell plats so'
   · [override] All Companies → 'Alla bolag'
   · [override] Changing the company of this record is forbidden at this poi → 'Det är inte tillåtet att ändra bolaget p'
@@ -4208,7 +4262,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 195
+- oförändrad: 194
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Manual: The accounting entries to value the inventory are no → 'Manuell: Verifikaten för att värdera lag'
@@ -4275,7 +4329,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 200
+- oförändrad: 199
   · [override] Company → 'Bolag'
   · [override] The selected operations should belong to a unique company. → 'De utvalda verksamheterna ska tillhöra e'
   · [override] The selected pickings should belong to an unique company. → 'Den utvalda plockningen ska tillhöra ett'
@@ -4302,7 +4356,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 983
+- oförändrad: 972
   · [override] <div style="background:#F0F0F0;color:#515166;padding:10px 0p → '<div style="background:#F0F0F0;color:#51'
   · [override] Company Certifications Count → 'Bolagets antal certifieringar'
   · [override] Our Company in a few questions ... → 'Vårt Bolag i några frågor ...'
@@ -4352,7 +4406,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 4352
+- oförändrad: 4306
   · [override] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
   · [override] <strong>Company details block</strong> → '<strong>Block för bolagsuppgifter</stron'
   · [override] Companies → 'Bolag'
@@ -4379,7 +4433,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 556
+- oförändrad: 547
 ## web_hierarchy
 - override: 0
 - converged 🎉: 0
@@ -4412,7 +4466,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 26
+- oförändrad: 25
 ## website
 - override: 49
 - converged 🎉: 0
@@ -4423,7 +4477,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2741
+- oförändrad: 2700
   · [override] " This company transformed our business. <br/>Their solution → '" Det här bolaget förändrade vår verksam'
   · [override] 50,000+ companies run Odoo <br class="d-none d-lg-inline"/>t → '50 000+ bolag använder Odoo <br class="d'
   · [override] 50,000+ companies run Odoo to grow their businesses. → 'över 50 000 bolag använder Odoo för att '
@@ -4646,7 +4700,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - borttagen: 0
 - oförändrad: 3
 ## website_event_exhibitor
-- override: 2
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4655,9 +4709,8 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 184
+- oförändrad: 183
   · [override] Our experts invent, imagine and develop solutions which meet → 'Våra experter uppfinner, föreställer sig'
-  · [override] Deco Addict integrates ERP for Global Companies and supports → 'Deco Addict integrerar ERP för globala b'
 ## website_event_jitsi
 - override: 0
 - converged 🎉: 0
@@ -4712,7 +4765,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 441
+- oförändrad: 440
   · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Description of the partner (name, function and company name) → 'Beskrivning av partnern (namn, function '
@@ -4771,7 +4824,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 165
+- oförändrad: 164
   · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd på vårt bolag kommer du att'
   · [override] Each employee has a chance to see the impact of his work.
    → 'Varje anställd har en chans att se effek'
@@ -4787,7 +4840,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 30
+- oförändrad: 27
 ## website_links
 - override: 0
 - converged 🎉: 0
@@ -4855,7 +4908,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 7
+- oförändrad: 6
 ## website_membership
 - override: 0
 - converged 🎉: 0
@@ -4933,7 +4986,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 863
+- oförändrad: 858
   · [override] <small class="form-text text-muted">
                         → '<small class="form-text text-muted">\n   '
   · [override] Changing company name is not allowed once document(s) have b → 'Det är inte tillåtet att ändra bolagsnam'
@@ -5074,7 +5127,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 12
+- oförändrad: 11
 ## website_sale_wishlist
 - override: 0
 - converged 🎉: 0
@@ -5096,7 +5149,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1144
+- oförändrad: 1143
   · [override] Company Course Count → 'Bolagets kursräknare'
 ## website_slides_forum
 - override: 0

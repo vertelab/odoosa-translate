@@ -44,13 +44,3 @@ msgid ""
 msgstr ""
 "Upp till %(credit_count)d ytterligare krediter kommer att förbrukas för att "
 "identifiera %(contact_count)d kontakter per bolag."
-
-#. module: crm_iap_mine
-# override | officiell: '<i class="fa fa-fw me-2 fa-building text-primary"/>\n
-# <b>Typ av företag</b>'
-msgid ""
-"<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
-"                    <b>Company type</b>"
-msgstr ""
-"<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
-"                    <b>Typ av bolag</b>"

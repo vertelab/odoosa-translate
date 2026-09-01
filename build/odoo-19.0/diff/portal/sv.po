@@ -13,14 +13,3 @@ msgstr "Bolagsnamn"
 # override | officiell: 'Rapporter för flera företag stöds inte.'
 msgid "Multi company reports are not supported."
 msgstr "Rapporter för flera bolag stöds inte."
-
-#. module: portal
-# override | officiell: 'Det är inte tillåtet att ändra företagsnamn när
-# dokument har utfärdats för ditt konto. Kontakta oss direkt för denna
-# åtgärd.'
-msgid ""
-"Changing company name is not allowed once document(s) have been issued for "
-"your account. Please contact us directly for this operation."
-msgstr ""
-"Det är inte tillåtet att ändra bolagsnamn när dokument har utfärdats för "
-"ditt konto. Kontakta oss direkt för denna åtgärd."

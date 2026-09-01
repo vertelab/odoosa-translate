@@ -41,13 +41,3 @@ msgid ""
 msgstr ""
 "Peppol-destinationen är inte giltig. Den bör innehålla exakt 10 siffror "
 "(bolagets organisationsnummer). Det förväntade formatet är: 1234567890"
-
-#. module: account_edi_ubl_cii
-# override | officiell: '%s bör ha ett KVK- eller OIN-nummer angivet i fältet
-# för företags-ID eller som digital Peppol-adress (EAS-kod 0106 eller 0190).'
-msgid ""
-"%s should have a KVK or OIN number set in Company ID field or as Peppol "
-"e-address (EAS code 0106 or 0190)."
-msgstr ""
-"%s bör ha ett KVK- eller OIN-nummer angivet i fältet för bolags-ID eller som"
-" digital Peppol-adress (EAS-kod 0106 eller 0190)."

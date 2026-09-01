@@ -8,8 +8,3 @@ msgstr ""
 # override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
-
-#. module: spreadsheet_dashboard
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"

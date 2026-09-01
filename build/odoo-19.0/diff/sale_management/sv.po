@@ -13,21 +13,3 @@ msgstr "Bolag"
 # override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
-
-#. module: sale_management
-# override | officiell: 'Din mall kan inte innehålla produkter från flera
-# företag.'
-msgid "Your template cannot contain products from multiple companies."
-msgstr "Din mall kan inte innehålla produkter från flera bolag."
-
-#. module: sale_management
-# override | officiell: 'Din mall innehåller produkter från företaget
-# %(product_company)s medan din mall tillhör företaget %(template_company)s.
-# \n Vänligen ändra företaget för din mall eller ta bort produkterna från
-# andra företag.'
-msgid ""
-"Your template contains products from company %(product_company)s whereas your template belongs to company %(template_company)s. \n"
-" Please change the company of your template or remove the products from other companies."
-msgstr ""
-"Din mall innehåller produkter från bolaget %(product_company)s medan din mall tillhör bolaget %(template_company)s. \n"
-" Vänligen ändra bolaget för din mall eller ta bort produkterna från andra bolag."

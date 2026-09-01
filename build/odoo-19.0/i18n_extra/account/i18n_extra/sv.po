@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account\n"
-"POT-Creation-Date: 2026-09-01 14:24\n"
-"PO-Revision-Date: 2026-09-01 14:24\n"
+"POT-Creation-Date: 2026-09-01 14:39\n"
+"PO-Revision-Date: 2026-09-01 14:39\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -884,24 +884,3 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
 msgid "e.g. My Company"
 msgstr "t.ex. Mitt bolag"
-
-#. module: account
-msgid ""
-"This will update all taxes and accounts based on the currently selected "
-"fiscal position."
-msgstr ""
-"Detta kommer att uppdatera alla skatter och konton baserat på den aktuella "
-"valda skatteområdet."
-
-#. module: account
-msgid ""
-"<strong>This currency has already been used to generate accounting entries.</strong> <br/>\n"
-"                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
-msgstr ""
-"<strong>Denna valuta har redan använts för att generera verifikat.</strong> <br/>\n"
-"                        Ändringar av dess avrundningsfaktor nu kommer inte att ändra de avrundningar som har gjorts i tidigare poster, vilket kan leda till inkonsekvens med de nya posterna."
-
-#. module: account
-msgid "Write a company name to <b>create one</b> or <b>see suggestions</b>."
-msgstr ""
-"Skriv ett bolagsnamn för att <b>skapa ett</b> eller <b>se förslag</b>."

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website\n"
-"POT-Creation-Date: 2026-09-01 14:24\n"
-"PO-Revision-Date: 2026-09-01 14:24\n"
+"POT-Creation-Date: 2026-09-01 14:39\n"
+"PO-Revision-Date: 2026-09-01 14:39\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -374,33 +374,3 @@ msgid ""
 msgstr ""
 "organisation, bolag, människor, medlemmar, personal, profiler, biografier, "
 "roller, personal, besättning, mönstrad, trendig, social"
-
-#. module: website
-msgid "<b>Designed</b> <br/>for Companies"
-msgstr "<b>Designad</b> <br/>för bolag"
-
-#. module: website
-msgid ""
-"<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
-"Francisco CA 94134 <br/>United States"
-msgstr "<b>MittBolag</b><br/>Storgatan 1 <br/> 123 45 Storstad <br/>Sverige"
-
-#. module: website
-msgid ""
-"<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; Company "
-"name</span>"
-msgstr ""
-"<span class=\"o_footer_copyright_name me-2\">Copyright &amp;copy; "
-"Bolagsnamn</span>"
-
-#. module: website
-msgid "The company this website belongs to"
-msgstr "Bolaget den här webbsidan tillhör"
-
-#. module: website
-msgid ""
-"We are a team of passionate people whose goal is to improve everyone's "
-"life.<br/>Our services are designed for small to medium size companies."
-msgstr ""
-"Vi är ett team av passionerade människor vars mål är att förbättra livet för"
-" alla.<br/>Våra tjänster är utformade för små och medelstora bolag."

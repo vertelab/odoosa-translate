@@ -153,9 +153,3 @@ msgstr "Använd skatteområden för att få olika skatter i ordning"
 # override | officiell: 't.ex. företagsadress, webbplats'
 msgid "e.g. Company Address, Website"
 msgstr "t.ex. bolagsadress, webbplats"
-
-#. module: point_of_sale
-# override | officiell: 'Du kan inte fakturera order som hör till olika
-# företag.'
-msgid "You cannot invoice orders belonging to different companies."
-msgstr "Du kan inte fakturera order som hör till olika bolag."

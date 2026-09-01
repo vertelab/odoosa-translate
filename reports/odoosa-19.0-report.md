@@ -1,9 +1,9 @@
-# odoosa-report — 19.0 — 2026-09-01 14:24
+# odoosa-report — 19.0 — 2026-09-01 14:39
 
-**Totalt:** {'override': 813, 'converged': 120, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 64435}
+**Totalt:** {'override': 826, 'converged': 120, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 59771}
 
 ## account
-- override: 113
+- override: 110
 - converged 🎉: 32
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -12,7 +12,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 3293
+- oförändrad: 3029
   · [override] . The journal entries need to be computed by Odoo before bei → '. Beloppen i verifikationerna måste berä'
   · [override] A Ledger group name must be unique per company. → 'Namnet på en huvudboksgrupp måste vara u'
   · [override] A fiscal position with a foreign VAT already exists in this  → 'En skatteområde med momsregistrering i u'
@@ -124,9 +124,6 @@
   · [override] You should configure the 'Gain Exchange Rate Account' in you → "Du bör ställa in ett 'konto för vinst vi"
   · [override] You should configure the 'Loss Exchange Rate Account' in you → "Du bör ställa in ett 'konto för förluste"
   · [override] e.g. My Company → 't.ex. Mitt bolag'
-  · [override] This will update all taxes and accounts based on the current → 'Detta kommer att uppdatera alla skatter '
-  · [override] <strong>This currency has already been used to generate acco → '<strong>Denna valuta har redan använts f'
-  · [override] Write a company name to <b>create one</b> or <b>see suggesti → 'Skriv ett bolagsnamn för att <b>skapa et'
 ## account_add_gln
 - override: 0
 - converged 🎉: 0
@@ -148,7 +145,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 73
+- oförändrad: 69
   · [override] Companies → 'Bolag'
 ## account_debit_note
 - override: 0
@@ -182,12 +179,12 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 33
+- oförändrad: 32
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] This company has an active user already created for this EDI → 'Bolaget har redan en aktiv användare för'
 ## account_edi_ubl_cii
-- override: 6
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -196,13 +193,12 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 326
+- oförändrad: 315
   · [override] %s should have a valid KBO/BCE number in the Company ID fiel → '%s bör ha ett giltigt KBO/BCE-nummer ang'
   · [override] Belgian Company Registry → 'Bolagsregister i Belgien'
   · [override] Estonia Company code → 'Bolagsnummer i Estland'
   · [override] Please fill in your company's VAT or Peppol Address to gener → 'Vänligen fyll i bolagets momsregistrerin'
   · [override] The Peppol endpoint is not valid. It should contain exactly  → 'Peppol-destinationen är inte giltig. Den'
-  · [override] %s should have a KVK or OIN number set in Company ID field o → '%s bör ha ett KVK- eller OIN-nummer angi'
 ## account_fleet
 - override: 0
 - converged 🎉: 0
@@ -224,10 +220,10 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 125
+- oförändrad: 121
   · [override] Overdue invoices should share the same company. → 'Förfallna fakturor bör ha samma bolag an'
 ## account_peppol
-- override: 22
+- override: 21
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -236,7 +232,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 373
+- oförändrad: 343
   · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
   · [override] Active Parent Company → 'Aktivt överordnat bolag'
   · [override] Active Parent Company Name → 'Namn på aktivt överordnat bolag'
@@ -258,7 +254,6 @@
   · [override] You are about to register with your VAT number. Make sure yo → 'Du är på väg att använda ett momsregistr'
   · [override] Your company is already registered on an Access Point (%s) f → 'Ditt bolag är redan registrerat på en Åt'
   · [override] [PEPPOL-EN16931-R020] An electronic address (EAS) must be pr → '[PEPPOL-EN16931-R020] En digital adress '
-  · [override] The recommended identification method for Belgium is your Co → 'Den rekommenderade identifieringsmetoden'
 ## account_peppol_advanced_fields
 - override: 0
 - converged 🎉: 0
@@ -269,7 +264,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 27
+- oförändrad: 17
 ## account_peppol_response
 - override: 2
 - converged 🎉: 0
@@ -315,7 +310,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 24
+- oförändrad: 19
 ## account_test
 - override: 0
 - converged 🎉: 0
@@ -349,7 +344,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 168
+- oförändrad: 158
   · [override] Company → 'Bolag'
   · [override] Select a company for which the analytic distribution will be → 'Välj ett bolag för vilket den objektdist'
   · [override] You can't change the company of an analytic account that alr → 'Du kan inte ändra bolaget för ett objekt'
@@ -389,7 +384,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 48
+- oförändrad: 45
 ## auth_passkey
 - override: 0
 - converged 🎉: 0
@@ -400,7 +395,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 40
+- oförändrad: 38
 ## auth_passkey_portal
 - override: 0
 - converged 🎉: 0
@@ -455,7 +450,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 100
+- oförändrad: 88
   · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
 ## auth_timeout
 - override: 0
@@ -478,7 +473,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 80
+- oförändrad: 61
 ## auth_totp_mail
 - override: 0
 - converged 🎉: 0
@@ -489,7 +484,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 44
+- oförändrad: 42
 ## auth_totp_portal
 - override: 0
 - converged 🎉: 0
@@ -523,9 +518,9 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 41
+- oförändrad: 40
 ## base
-- override: 172
+- override: 118
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -534,7 +529,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 7213
+- oförändrad: 6451
   · [override] 
 
 Austrian charts of accounts (Einheitskontenrahmen 2010).
@@ -780,137 +775,6 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] We are a technology consulting &amp; strategic advisory firm → 'Vi är ett konsultbolag inom teknik och s'
   · [override] Whether values for this field is company dependent → 'Huruvida värden för detta fält är bolags'
   · [override] e.g. My Company → 't.ex. Mitt Bolag'
-  · [override] 
-Manage time off requests and allocations
-================== → 'Hantera ledighetsförfrågningar\n========='
-  · [override] Deco Addict integrates ERP for Global Companies and supports → 'Deco Addict integrerar ERP för globala b'
-  · [override] Odoo Human Resources
---------------------
-
-With Odoo <a href → 'Odoo Human Resources\n-------------------'
-  · [override] 
-Functional
-----------
-
-In some Latinamerica countries, incl → 'Funktionell\n----------\n\nI vissa länder i'
-  · [override] 
-
-Austrian charts of accounts (Einheitskontenrahmen 2010).
-= → 'Österrikiska kontoplaner (Einheitskonten'
-  · [override] 
-
-Overview:
----------
-
-* Chart of Accounts and Taxes templat → 'Översikt:\n---------\n\n* Mall för kontopla'
-  · [override] 
-        This module enables the generation of SEPA Direct D → 'Denna modul gör det möjligt att generera'
-  · [override] 
-       Auto-complete partner companies' data
-     → 'Automatisk komplettering av uppgifter om'
-  · [override] 
-Add all information on the employee form to manage contract → 'Lägg till all information i formuläret f'
-  · [override] 
-Assets management
-=================
-Manage assets owned by  → 'Hantering av tillgångar\n================'
-  · [override] 
-Australian Accounting Module
-============================
-
- → 'Australisk redovisningsmodul\n==========='
-  · [override] 
-Base module for the Brazilian localization
-================ → 'Basmodul för den brasilianska lokaliseri'
-  · [override] 
-Bridge module to integrate leaves in timesheet
-============ → 'Bryggmodul för att integrera ledighet i '
-  · [override] 
-Czech accounting chart and localization.  With Chart of Acc → 'Tjeckisk bokföringsschema och lokaliseri'
-  · [override] 
-EU One Stop Shop (OSS) VAT
-==========================
-
-From → 'EU:s enda kontaktpunkt (OSS) Moms\n======'
-  · [override] 
-Electronic Data Interchange
-=============================== → 'Elektroniskt datautbyte\n================'
-  · [override] 
-Functional
-----------
-
-This module add accounting features  → 'Funktionell\n----------\n\nDen här modulen '
-  · [override] 
-Generic Payroll system Integrated with Accounting.
-======== → 'Allmänt lönesystem integrerat med bokför'
-  · [override] 
-Manage expenses by Employees
-============================
-
- → 'Hantera utlägg per anställd\n============'
-  · [override] 
-Module to import OFX bank statements.
-===================== → 'Modul för att importera OFX-bankutdrag.\n'
-  · [override] 
-Send your shippings through bpost and track them online
-=== → 'Skicka dina försändelser via bpost och s'
-  · [override] 
-Show your company address/partner address on Google Maps. C → 'Visa ditt bolags adress/partneradress på'
-  · [override] 
-Singapore accounting chart and localization.
-============== → 'Bokföringsschema och lokalisering i Sing'
-  · [override] 
-Spanish charts of accounts (PGCE 2008).
-=================== → 'Spanska kontoplaner (PGCE 2008).\n======='
-  · [override] 
-The base module to manage lunch.
-========================== → 'Grundmodulen för hantering av lunch.\n==='
-  · [override] 
-This is the latest basic Israelian localisation necessary t → 'Detta är den senaste grundläggande israe'
-  · [override] 
-This is the module to manage the Accounting Chart, VAT stru → 'Detta är modulen för att hantera kontopl'
-  · [override] 
-This is the module to manage the Canadian accounting chart  → 'Det här är modulen för att hantera kanad'
-  · [override] 
-This is the module to manage the accounting chart for Franc → 'Det här är modulen för att hantera konto'
-  · [override] 
-This is the module to manage the accounting chart for Vietn → 'Det här är modulen för att hantera konto'
-  · [override] 
-This module allows to print your payments on pre-printed ch → 'Med denna modul kan du skriva ut dina be'
-  · [override] 
-VAT validation for Partner's VAT numbers.
-================= → 'Validering av moms för partnerns momsnum'
-  · [override] 
-WMS Accounting module
-======================
-This module ma → 'WMS Redovisningsmodul\n=================='
-  · [override]  Module for synchronization of Documents between several com → 'Modul för synkronisering av dokument mel'
-  · [override]  Module for synchronization of Documents between several com → 'Modul för synkronisering av dokument mel'
-  · [override] - %(record)r belongs to company %(company)r and %(field)r (% → '- %(record)r tillhör bolaget %(company)r'
-  · [override] - Record is company %(company)r and %(field)r (%(fname)s: %( → '- Post är bolaget %(company)r och %(fiel'
-  · [override] Account Consolidation Demo Data using a Belgium and a US com → 'Demodata för konsolidering av konton med'
-  · [override] Allowed Companies → 'Tillåtna bolag'
-  · [override] Changing the company of a contact should only be done if it  → 'Du bör endast ändra en kontakts bolag om'
-  · [override] Companies count → 'Antal bolag'
-  · [override] Company Data → 'Bolagets data'
-  · [override] Company Properties → 'Bolagsuppgifter'
-  · [override] Company Property → 'Bolagsuppgifter'
-  · [override] Create company → 'Skapa bolag'
-  · [override] Incompatible companies on records: → 'Inkompatibla bolag i registren:'
-  · [override] Note: this might be a multi-company issue. → 'Observera: Detta kan vara ett problem fö'
-  · [override] Odoo CRM
---------
-
-Boost sales productivity, improve win rat → 'Odoo CRM\n--------\n\nÖka försäljningsprodu'
-  · [override] Odoo Mass Mailing
------------------
-
-Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
-  · [override] Set your company data → 'Ange din bolagsinformation'
-  · [override] Set your company's data for documents header/footer. → 'Ställ in ditt bolags uppgifter för sidhu'
-  · [override] State of the onboarding company step → 'Status för bolaget för ombordstigning st'
-  · [override] You cannot create recursive companies. → 'Du kan inte skapa rekursiva bolag.'
-  · [override] You cannot reduce the number of decimal places of a currency → 'Du kan inte minska antalet decimaler i e'
 ## base_address_extended
 - override: 0
 - converged 🎉: 0
@@ -932,7 +796,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 172
+- oförändrad: 169
 ## base_geolocalize
 - override: 0
 - converged 🎉: 0
@@ -965,7 +829,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 158
+- oförändrad: 152
 ## base_import_module
 - override: 0
 - converged 🎉: 0
@@ -976,7 +840,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 57
+- oförändrad: 53
 ## base_install_request
 - override: 0
 - converged 🎉: 0
@@ -998,7 +862,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 99
+- oförändrad: 91
   · [override] <span class="o_form_label" invisible="company_count &gt; 1"> → '<span class="o_form_label" invisible="co'
   · [override] Automatically enrich your contact base with company data → 'Berika automatiskt din kontaktbas med bo'
   · [override] Companies → 'Bolag'
@@ -1022,7 +886,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 26
+- oförändrad: 25
 ## base_vat
 - override: 1
 - converged 🎉: 0
@@ -1033,7 +897,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 53
+- oförändrad: 43
   · [override] Companies → 'Bolag'
 ## board
 - override: 0
@@ -1056,7 +920,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 36
+- oförändrad: 27
 ## calendar
 - override: 0
 - converged 🎉: 23
@@ -1067,7 +931,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 415
+- oförändrad: 396
 ## calendar_sms
 - override: 0
 - converged 🎉: 0
@@ -1078,7 +942,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 17
+- oförändrad: 16
 ## certificate
 - override: 1
 - converged 🎉: 0
@@ -1101,7 +965,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 23
+- oförändrad: 22
 ## cloud_storage_azure
 - override: 0
 - converged 🎉: 0
@@ -1145,9 +1009,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 17
+- oförändrad: 16
 ## crm
-- override: 41
+- override: 141
 - converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1156,48 +1020,149 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 715
+- oförändrad: 566
+  · [override] # Leads/Opps assigned this month → '# kundämnen/möjligheter denna månad'
+  · [override] # Unassigned Leads → '# otilldelade kundämnen'
+  · [override] %(assigned)s leads allocated among %(team_count)s teams. → '%(assigned)s kundämnen fördelade mellan '
+  · [override] %(assigned)s leads allocated to %(team_name)s team. → '%(assigned)s kundämnen tilldelade till %'
+  · [override] %(attach_name)s (from %(lead_name)s) → '%(attach_name)s (från %(kundämne_name)s)'
+  · [override] %(duplicates)s duplicates leads have been merged. → '%(duplicates)s duplicerade kundämnen har'
+  · [override] %(members_assigned)s leads assigned among %(member_count)s s → '%(members_assigned)s kundämnen fördelade'
   · [override] <b>Write a few letters</b> to look for a company, or create  → '<b>Skriv ett par tecken</b> för att söka'
   · [override] <i class="fa fa-building" title="Company"/> → '<i class="fa fa-building" title="Bolag"/'
   · [override] <i class="fa fa-info-circle me-2" title="Assigned Lead Count → '<i class="fa fa-info-circle me-2" title='
+  · [override] <span class="o_stat_text" invisible="duplicate_lead_count &l → '<span class="o_stat_text" invisible="dup'
   · [override] <span class="o_stat_text" invisible="not use_leads">Leads</s → '<span class="o_stat_text" invisible="not'
   · [override] <span class="o_stat_text"> Leads</span> → '<span class="o_stat_text">Kundämnen</spa'
+  · [override] <span> leads assigned the last 30 days out of a maximum of < → '<span> kundämnen tilldelade de senaste 3'
+  · [override] <span> leads assigned this month
+                            → '<span> kundämnen tilldelade denna månad\n'
+  · [override] <span>Merged the Lead/Opportunity</span> → '<span>Sammanslagning av kundämne/möjligh'
+  · [override] <span>Periodically assign leads based on priorities and filt → '<span>Periodisk tilldelning av kundämnen'
+  · [override] A lead in a Won stage cannot be lost. Move it to another sta → 'En kundämne i ett Won-stadium kan inte f'
+  · [override] A new lead has been created and is not assigned to any team. → 'En ny kundämne har skapats och är inte t'
+  · [override] A new lead has been created for the team "%(team_name)s". → 'En ny kundämne har skapats för teamet "%'
+  · [override] Active Leads → 'Aktiva kundämnen'
+  · [override] Activities marked as Done on Leads will appear here, providi → 'Aktiviteter som markerats som utförda på'
+  · [override] Assign Leads → 'Tilldela kundämnen'
+  · [override] Associated Lead → 'Associerad kundämne'
   · [override] Average Leads Capacity (on 30 days) → 'Kundämnekapacitet i snitt (på 30 dagar)'
+  · [override] CRM: Lead Assignment → 'CRM: Tilldelning av kundämnen'
+  · [override] Check the Stage Tracker of Leads to identify bottlenecks in  → 'Kontrollera etapperna för kundämnen för '
+  · [override] Check this box to filter and qualify incoming requests as le → 'Bocka i rutan för att filtrera och kvali'
+  · [override] Classify and analyze your lead/opportunity categories like:  → 'Klassificera och analysera dina kategori'
+  · [override] Closed/Dead leads cannot be converted into opportunities. → 'Avslutade/döda kundämnen kan inte omvand'
   · [override] Company → 'Bolag'
   · [override] Company Information → 'Information om bolaget'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Company Name: → 'Bolagsnamn:'
   · [override] Company: → 'Bolag:'
+  · [override] Consider leads created as of the: → 'Överväg kundämnen som skapade från och m'
+  · [override] Conversion Date from Lead to Opportunity → 'Konverteringsdatum från kundämne till mö'
+  · [override] Convert Lead to Opportunity (in mass) → 'Konvertera kundämnen till möjligheter (i'
+  · [override] Convert Lead to Opportunity (not in mass) → 'Konvertera kundämnen till möjlighet (ej '
+  · [override] Convert visitors of your website into leads and perform data → 'Konvertera besökare på din webbplats til'
+  · [override] Create Leads/Opportunities from your website's traffic → 'Skapa kundämnen/möjligheter från webbpla'
+  · [override] Create a Lead → 'Skapa ett kundämne'
+  · [override] Create a Lead Activity Plan → 'Skapa en aktivitetsplan för kundämnen'
+  · [override] Create a lead mining request directly from the opportunity p → 'Skapa en kundämnegenerering direkt från '
+  · [override] Create a new lead → 'Skapa nytt kundämne'
   · [override] Customer Company → 'Kundbolag'
   · [override] Did you know you can search a company by name or VAT number  → 'Visste du att du kan söka efter ett bola'
   · [override] Don't link to a company → 'Länka inte till ett bolag'
-  · [override] Enrich your leads automatically with company data based on t → 'Berika dina leads automatiskt med bolags'
-  · [override] Enrich your leads with company data based on their email add → 'Berika dina leads med bolagsdata baserat'
+  · [override] Enrich all leads automatically → 'Berika alla kundämnen automatiskt'
+  · [override] Enrich lead automatically → 'Berika kundämnen automatiskt'
+  · [override] Enrich leads on demand only → 'Berika kundämnen endast på begäran'
+  · [override] Enrich your leads automatically with company data based on t → 'Berika dina kundämnen automatiskt med bo'
+  · [override] Enrich your leads with company data based on their email add → 'Berika dina kundämnen med bolagsdata bas'
+  · [override] Exceed monthly lead assignement → 'Överskrid den månatliga kundämnentilldel'
+  · [override] Fields that can be used for predictive lead scoring computat → 'Fält som kan användas för beräkning av f'
   · [override] For a sales team, there is nothing worse than being dry on l → 'För ett säljteam finns det inget värre ä'
+  · [override] Generate new leads based on their country, industries, size, → 'Generera nya kundämnen baserat på land, '
+  · [override] Generate new leads based on their country, industry, size, e → 'Generera nya kundämnen baserat på land, '
+  · [override] Import Template for Leads & Opportunities → 'Importmall för kundämnen och möjligheter'
+  · [override] Kpi Crm Lead Created Value → 'KPI-värde i CRM för kundämne'
   · [override] Lead → 'Kundämne'
+  · [override] Lead Assign → 'Tilldela kundämne'
+  · [override] Lead Assignment Filter → 'Filter för tilldelning av kundämnen'
+  · [override] Lead Assignment requested by %(user_name)s → 'Tilldelning av kundämne begärd av %(user'
+  · [override] Lead Average Capacity → 'Genomsnittlig kapacitet för kundämne'
+  · [override] Lead Enrichment → 'Berika kundämnen'
   · [override] Lead Generation → 'Kundämnegenerering'
   · [override] Lead Mining → 'Kundämnegenerering'
+  · [override] Lead Properties → 'Egenskaper för kundämne'
+  · [override] Lead Scoring Frequency → 'Frekvens för poängsättning av kundämne'
+  · [override] Lead Scoring Frequency Fields → 'Fält för frekvens för poängsättning av k'
+  · [override] Lead Scoring Frequency Fields in String → 'Fält för frekvens för poängsättning av k'
+  · [override] Lead Scoring Starting Date → 'Startdatum för poängsättning av kundämne'
+  · [override] Lead Scoring Starting Date in String → 'Startdatum för poängsättning av kundämne'
   · [override] Lead Tags → 'Kundämne taggar'
   · [override] Lead or Opportunity → 'Kundämne eller möjlighet'
+  · [override] Lead/Opportunities automatic assignment is limited to manage → 'Automatisk tilldelning av kundämnen/möjl'
   · [override] Lead/Opportunity created → 'Kundämne/möjlighet skapad'
   · [override] Leads → 'Kundämnen'
   · [override] Leads (30 days) → 'Kundämnen (30 dagar)'
   · [override] Leads (last 24h) → 'Kundämnen (senaste 24 timmarna)'
   · [override] Leads Analysis → 'Kundämnesanalys'
   · [override] Leads Analysis allows you to check different CRM related inf → 'Kundämnesanalys låter dig kontrollera ol'
+  · [override] Leads Assigned → 'Tilldelade kundämnen'
+  · [override] Leads Count → 'Antal kundämnen'
   · [override] Leads Generation → 'Kundämnengeneration'
   · [override] Leads are the qualification step before the creation of an o → 'Kundämnen är kvalificeringssteget före s'
   · [override] Leads or Opportunities → 'Kundämnen eller möjligheter'
   · [override] Leads that are assigned to me → 'Kundämnen tilldelade mig'
+  · [override] Leads that are not assigned → 'Otilldelade kundämnen'
   · [override] Leads that you selected that have duplicates. If the list is → 'Kundämnen som du valt som har dubbletter'
   · [override] Leads with existing duplicates (for information) → 'Kundämnen med befintliga dubbletter (för'
   · [override] Leads/Opportunities → 'Kundämnen/Möjligheter'
+  · [override] Leads/Opportunities count → 'Antal kundämnen/möjligheter'
+  · [override] Linked partner (optional). Usually created when converting t → 'Länkad kontakt (valfri). Oftast skapad n'
+  · [override] Lost Lead → 'Förlorad kundämne'
+  · [override] Manage members or partners. Members get grades and pricelist → 'Hantera medlemmar eller partners. Medlem'
+  · [override] Merge Leads/Opportunities → 'Sammanfoga kundämnen/möjligheter'
+  · [override] Merge with existing leads/opportunities of each partner → 'Sammanfoga med befintliga kundämnen/möjl'
+  · [override] Monthly average leads capacity for all salesmen belonging to → 'Månatlig genomsnittlig kapacitet för kun'
+  · [override] My Leads → 'Mina kundämnen'
+  · [override] New Lead → 'Ny kundämne'
+  · [override] New Leads → 'Nya kundämnen'
+  · [override] No allocated leads to %(team_name)s team and its salesperson → 'Inga tilldelade kundämnen till teamet %('
+  · [override] No allocated leads to %(team_name)s team because it has no c → 'Inga allokerade kundämnen till teamet %('
+  · [override] No allocated leads to any team or salesperson. Check your Sa → 'Inga tilldelade kundämnen till något tea'
+  · [override] No lead assigned to salespersons because no unassigned lead  → 'Inga kundämnen tilldelade till säljare e'
+  · [override] No new lead allocated to %(team_name)s team because no unass → 'Inga nya kundämnen tilldelade till teame'
+  · [override] No new lead allocated to the teams because no lead match the → 'Inga nya kundämnen har tilldelats teamen'
+  · [override] Number of leads and opportunities assigned this last month. → 'Antal kundämnen och möjligheter tilldela'
+  · [override] Number of leads assigned to this member in the last 24 hours → 'Antal kundämnen som tilldelats denna med'
+  · [override] Number of leads assigned to this member in the last 30 days → 'Antal kundämnen som tilldelats denna med'
+  · [override] Potential Duplicate Lead → 'Potentiell dubblett-kundämne'
+  · [override] Potential Duplicate Lead Count → 'Antal potentiella dubblett-kundämne'
+  · [override] Predictive Lead Scoring → 'Förutspådd poängsättning av kundämnen'
+  · [override] Predictive Lead Scoring Field Labels → 'Förutspådd poängsättning av kundämnen fä'
+  · [override] Predictive Lead Scoring: Recompute Automated Probabilities → 'Förutspådd poängsättning av kundämnen: o'
+  · [override] Search Leads → 'Sök kundämnen'
+  · [override] Select at least two Leads/Opportunities from the list to mer → 'Välj minst två kundämnen/möjligheter frå'
+  · [override] Show Lead Menu → 'Visa menyn för kundämnen'
+  · [override] Show only lead → 'Visa bara kundämnen'
+  · [override] Show only leads → 'Visa bara kundämnen'
+  · [override] The contacts below have been added as followers of this lead → 'Kontakterna nedan har lagts till som föl'
+  · [override] The email address associated with this channel. New emails r → 'E-postadressen som är kopplad till denna'
   · [override] The name of the future partner company that will be created  → 'Namnet på kontaktens bolag som kommer at'
+  · [override] This analysis shows you how many leads have been created per → 'Denna analys visar dig hur många kundämn'
+  · [override] This can be used to automatically assign leads to sales pers → 'Detta kan användas för att automatiskt t'
+  · [override] This can be used to compute statistical probability to close → 'Detta kan användas för att beräkna stati'
+  · [override] This new lead created by %(creation_source)s was automatical → 'Denna nya kundämne som skapades av %(cre'
+  · [override] This will assign leads to all members. Do you want to procee → 'Detta kommer att tilldela kundämnen till'
   · [override] Tip: Did you know Odoo has built-in lead mining? → 'Tips: visste du att Odoo har inbyggd kun'
-  · [override] UX: Limit to lead company or all if no company → 'UX: begränsa till leads bolag, eller all'
+  · [override] To prevent data loss, Leads and Opportunities can only be me → 'För att förhindra dataförlust kan kundäm'
+  · [override] Type is used to separate Leads and Opportunities → 'Typ används för att separera kundämnen f'
+  · [override] UX: Limit to lead company or all if no company → 'UX: begränsa till kundämnen bolag, eller'
+  · [override] Unassigned Leads → 'Otilldelade kundämnen'
+  · [override] Use Leads → 'Använd kundämnen'
+  · [override] Use leads if you need a qualification step before creating a → 'Använd kundämnen om du behöver ett kvali'
+  · [override] Use leads if you need a qualification step before creating a → 'Använd kundämnen om du behöver ett kvali'
   · [override] User Company → 'Bolag'
-  · [override] For a sales team, there is nothing worse than being dry on l → 'För ett säljteam finns inget värre än at'
-  · [override] <span class="o_stat_text" attrs="{'invisible': [('use_leads' → '<span class="o_stat_text" attrs="{\'invis'
+  · [override] Visits to Leads → 'Besökare till kundämnen'
+  · [override] for the leads created as of the → 'för de kundämnen som skapats från och me'
 ## crm_iap_enrich
 - override: 3
 - converged 🎉: 0
@@ -1222,7 +1187,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 140
+- oförändrad: 139
   · [override] %(credit_count)d credits will be consumed to find %(company_ → '%(credit_count)d krediter kommer att för'
   · [override] <span class="col-md-6">Extra contacts per Company</span> → '<span class="col-md-6">Extra kontakter p'
   · [override] Companies → 'Bolag'
@@ -1284,7 +1249,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 189
+- oförändrad: 187
   · [override] Amount of the order to benefit from a free shipping, express → 'Orderbeloppet för att dra nytta av grati'
   · [override] Company → 'Bolag'
 ## delivery_mondialrelay
@@ -1319,10 +1284,10 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 96
+- oförändrad: 95
   · [override] Company → 'Bolag'
 ## event
-- override: 8
+- override: 5
 - converged 🎉: 4
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1331,15 +1296,12 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 687
+- oförändrad: 634
   · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
   · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
   · [override] Check this for order-level questions (e.g., 'Company Name')  → 'Kontrollera detta för frågor på orderniv'
   · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
-  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
-  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
-  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
 ## event_booth
 - override: 0
 - converged 🎉: 0
@@ -1350,7 +1312,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 121
+- oförändrad: 120
 ## event_booth_sale
 - override: 0
 - converged 🎉: 0
@@ -1407,7 +1369,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 134
+- oförändrad: 107
   · [override] Company → 'Bolag'
 ## event_sms
 - override: 0
@@ -1430,7 +1392,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 480
+- oförändrad: 465
   · [override] Company → 'Bolag'
 ## gamification
 - override: 3
@@ -1442,7 +1404,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 413
+- oförändrad: 408
   · [override] Set your Company Data → 'Ange dina bolagsuppgifter'
   · [override] Set your Company Logo → 'Ange bolagets logotyp'
   · [override] The target and current value are defined in the company curr → 'Målet och det aktuella värdet definieras'
@@ -1489,7 +1451,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 73
+- oförändrad: 72
 ## google_gmail
 - override: 0
 - converged 🎉: 0
@@ -1500,7 +1462,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 47
+- oförändrad: 44
 ## google_recaptcha
 - override: 0
 - converged 🎉: 0
@@ -1522,7 +1484,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 868
+- oförändrad: 828
   · [override] <i class="fa fa-building-o" role="img" aria-label="Company"  → '<i class="fa fa-building-o" role="img" a'
   · [override] A user cannot be linked to multiple employees in the same co → 'En användare kan inte länkas till flera '
   · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd i vårt bolag kommer du att '
@@ -1550,7 +1512,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 410
+- oförändrad: 390
   · [override] Allow a period of time (around working hours) where extra ti → 'Tillåt en tidsperiod (runt arbetstid) dä'
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
@@ -1568,7 +1530,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 6
 ## hr_expense
-- override: 12
+- override: 9
 - converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1577,7 +1539,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 476
+- oförändrad: 390
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Payment method allowed for expenses paid by company. → 'Tillåten betalningsmetod för kostnader s'
@@ -1587,9 +1549,6 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] The company's default journal used when an employee expense  → 'Bolagets standardjournal som används när'
   · [override] The payment method used when the expense is paid by the comp → 'Betalningsmetoden som används när utlägg'
   · [override] When the cost of an expense product is different than 0, the → 'När kostnaden för en utläggsprodukt skil'
-  · [override] An expense report must contain only lines from the same comp → 'En utläggsrapport får endast innehålla r'
-  · [override] Price in Company Currency → 'Pris i bolagets valuta'
-  · [override] You can only generate accounting entry for approved expense( → 'Du kan bara skapa verifikat för godkända'
 ## hr_fleet
 - override: 2
 - converged 🎉: 0
@@ -1600,7 +1559,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 37
+- oförändrad: 36
   · [override] Company Car → 'Bolagsbil'
   · [override] Release Company Car → 'Frigör bolagsbil'
 ## hr_gamification
@@ -1613,7 +1572,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 53
+- oförändrad: 44
 ## hr_holidays
 - override: 5
 - converged 🎉: 1
@@ -1624,7 +1583,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 972
+- oförändrad: 843
   · [override] Allow to create requests in batchs:
 - By Employee: for a spe → 'Tillåt att skapa förfrågningar i batcher'
   · [override] Company → 'Bolag'
@@ -1641,7 +1600,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 68
+- oförändrad: 61
 ## hr_holidays_homeworking
 - override: 0
 - converged 🎉: 0
@@ -1663,7 +1622,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 59
+- oförändrad: 57
 ## hr_homeworking_calendar
 - override: 0
 - converged 🎉: 0
@@ -1674,7 +1633,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 24
+- oförändrad: 23
 ## hr_hourly_cost
 - override: 0
 - converged 🎉: 0
@@ -1707,7 +1666,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 23
+- oförändrad: 22
 ## hr_org_chart
 - override: 0
 - converged 🎉: 0
@@ -1718,7 +1677,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 34
+- oförändrad: 29
 ## hr_presence
 - override: 1
 - converged 🎉: 0
@@ -1729,7 +1688,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 39
+- oförändrad: 36
   · [override] Companies → 'Bolag'
 ## hr_recruitment
 - override: 3
@@ -1741,7 +1700,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 602
+- oförändrad: 566
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Select the location where the applicant will work. Addresses → 'Välj den ort där den sökande ska arbeta.'
@@ -1755,7 +1714,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 47
+- oförändrad: 43
 ## hr_recruitment_sms
 - override: 0
 - converged 🎉: 0
@@ -1788,7 +1747,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 427
+- oförändrad: 415
   · [override] Company → 'Bolag'
   · [override] Demo Company Name → 'Demo Bolagsnamn'
   · [override] Secretary, company → 'Sekreterare, bolag'
@@ -1813,7 +1772,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 33
+- oförändrad: 30
 ## hr_skills_survey
 - override: 0
 - converged 🎉: 0
@@ -1824,7 +1783,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 19
+- oförändrad: 18
 ## hr_timesheet
 - override: 5
 - converged 🎉: 1
@@ -1835,7 +1794,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 251
+- oförändrad: 223
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] The Internal Project of a company should be in that company. → 'Ett bolags interna projekt bör ligga ino'
@@ -1851,7 +1810,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 22
+- oförändrad: 21
   · [override] Company → 'Bolag'
 ## hr_work_entry
 - override: 1
@@ -1863,7 +1822,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 256
+- oförändrad: 242
   · [override] Company → 'Bolag'
 ## hr_work_entry_holidays
 - override: 0
@@ -1886,7 +1845,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 532
+- oförändrad: 527
 ## html_editor
 - override: 0
 - converged 🎉: 2
@@ -1897,7 +1856,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 405
+- oförändrad: 390
 ## http_routing
 - override: 0
 - converged 🎉: 0
@@ -1919,7 +1878,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 44
+- oförändrad: 41
   · [override] Company → 'Bolag'
   · [override] Get quality leads and opportunities: convert your website vi → 'Få leads och möjligheter av hög kvalitet'
 ## iap_crm
@@ -1943,7 +1902,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 40
+- oförändrad: 39
   · [override] <i class="fa fa-fw me-2 fa-building text-primary"/>
          → '<i class="fa fa-fw me-2 fa-building text'
   · [override] Company → 'Bolag'
@@ -1957,7 +1916,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 622
+- oförändrad: 522
 ## l10n_se
 - override: 4
 - converged 🎉: 0
@@ -1983,7 +1942,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 59
+- oförändrad: 56
 ## loyalty
 - override: 1
 - converged 🎉: 2
@@ -1994,7 +1953,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 360
+- oförändrad: 356
   · [override] Company → 'Bolag'
 ## lunch
 - override: 4
@@ -2006,7 +1965,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 381
+- oförändrad: 375
   · [override] A cashmove can either be an expense or a payment.<br>
        → 'En kassaförflyttning kan antingen vara e'
   · [override] Companies → 'Bolag'
@@ -2022,7 +1981,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2217
+- oförändrad: 2061
   · [override] Companies → 'Bolag'
   · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
   · [override] Company → 'Bolag'
@@ -2041,7 +2000,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 46
+- oförändrad: 45
 ## mail_group
 - override: 1
 - converged 🎉: 1
@@ -2052,7 +2011,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 266
+- oförändrad: 264
   · [override] My Company News → 'Nyheter om mitt bolag'
 ## mail_plugin
 - override: 21
@@ -2096,7 +2055,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 298
+- oförändrad: 273
   · [override] Company → 'Bolag'
 ## marketing_card
 - override: 0
@@ -2108,9 +2067,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 198
+- oförändrad: 196
 ## mass_mailing
-- override: 8
+- override: 7
 - converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2119,7 +2078,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1173
+- oförändrad: 1103
   · [override] Best practices to digitize your company → 'Bästa praxis för att digitalisera ditt b'
   · [override] Companies → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
@@ -2127,7 +2086,6 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] Iris, with her international experience, helps us easily und → 'Iris, med sin internationella erfarenhet'
   · [override] Mich loves taking on challenges. With his multi-year experie → 'Mich älskar att ta sig an utmaningar. Me'
   · [override] Want to import country, company name and more? → 'Vill du importera land, bolagsnamn och m'
-  · [override] Infographic: Our Company Throughout The Generations → 'Infografik: Vårt bolag genom generatione'
 ## mass_mailing_crm
 - override: 0
 - converged 🎉: 0
@@ -2182,7 +2140,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 7
+- oförändrad: 6
 ## mass_mailing_event_track_sms
 - override: 0
 - converged 🎉: 0
@@ -2237,7 +2195,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 189
+- oförändrad: 188
 ## mass_mailing_themes
 - override: 18
 - converged 🎉: 0
@@ -2248,7 +2206,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 225
+- oförändrad: 223
   · [override] . I put it on hold for 6 years, waiting for the right moment → '. Jag lade det på is i 6 år och väntade '
   · [override] After a few months of pitching investors, I got roughly 10 L → 'Efter några månaders pitchande av invest'
   · [override] As usual, I should have listened to my wife. She is way more → 'Som vanligt borde jag ha lyssnat på min '
@@ -2299,7 +2257,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 46
+- oförändrad: 43
 ## mrp
 - override: 2
 - converged 🎉: 0
@@ -2310,7 +2268,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1178
+- oförändrad: 1102
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## mrp_account
@@ -2323,7 +2281,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 109
+- oförändrad: 97
 ## mrp_landed_costs
 - override: 0
 - converged 🎉: 0
@@ -2358,7 +2316,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 11
 ## mrp_subcontracting
-- override: 4
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2367,11 +2325,10 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 112
+- oförändrad: 92
   · [override] Companies → 'Bolag'
   · [override] In order to manage stock accurately, subcontracting location → 'För att kunna hantera lager på ett korre'
   · [override] You cannot alter the company's subcontracting location → 'Du kan inte ändra bolagets plats för und'
-  · [override] Check this box to create a new dedicated subcontracting loca → 'Markera denna ruta för att skapa en ny s'
 ## mrp_subcontracting_account
 - override: 0
 - converged 🎉: 0
@@ -2382,9 +2339,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 6
+- oförändrad: 5
 ## mrp_subcontracting_dropshipping
-- override: 2
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2393,9 +2350,8 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 18
+- oförändrad: 15
   · [override] Companies → 'Bolag'
-  · [override] Check this box to create a new dedicated subcontracting loca → 'Markera denna ruta för att skapa en ny s'
 ## mrp_subcontracting_landed_costs
 - override: 0
 - converged 🎉: 0
@@ -2417,7 +2373,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 24
+- oförändrad: 23
 ## onboarding
 - override: 7
 - converged 🎉: 0
@@ -2446,7 +2402,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 28
+- oförändrad: 19
   · [override] Companies → 'Bolag'
   · [override] Unable to enrich company (no credit was consumed). → 'Kunde inte fylla i bolagsuppgifter (inge'
 ## partnership
@@ -2472,7 +2428,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 631
+- oförändrad: 587
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Please switch to company → 'Vänligen byt till bolag'
@@ -2499,7 +2455,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 21
+- oförändrad: 19
 ## payment_asiapay
 - override: 0
 - converged 🎉: 0
@@ -2510,7 +2466,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 32
+- oförändrad: 30
 ## payment_authorize
 - override: 0
 - converged 🎉: 0
@@ -2532,7 +2488,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 17
+- oförändrad: 15
 ## payment_custom
 - override: 0
 - converged 🎉: 0
@@ -2543,7 +2499,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 25
+- oförändrad: 21
 ## payment_demo
 - override: 0
 - converged 🎉: 0
@@ -2554,7 +2510,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 50
+- oförändrad: 48
 ## payment_dpo
 - override: 2
 - converged 🎉: 0
@@ -2589,7 +2545,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 24
+- oförändrad: 19
 ## payment_iyzico
 - override: 0
 - converged 🎉: 0
@@ -2611,7 +2567,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 59
+- oförändrad: 53
 ## payment_mollie
 - override: 0
 - converged 🎉: 0
@@ -2622,7 +2578,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 16
+- oförändrad: 12
 ## payment_nuvei
 - override: 0
 - converged 🎉: 0
@@ -2633,7 +2589,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 22
+- oförändrad: 20
 ## payment_paymob
 - override: 0
 - converged 🎉: 0
@@ -2677,7 +2633,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 52
+- oförändrad: 47
 ## payment_redsys
 - override: 0
 - converged 🎉: 0
@@ -2688,7 +2644,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 21
+- oförändrad: 20
 ## payment_stripe
 - override: 0
 - converged 🎉: 0
@@ -2699,7 +2655,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 42
+- oförändrad: 40
 ## payment_toss_payments
 - override: 0
 - converged 🎉: 0
@@ -2721,7 +2677,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 26
+- oförändrad: 21
 ## payment_xendit
 - override: 0
 - converged 🎉: 0
@@ -2732,7 +2688,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 36
+- oförändrad: 31
 ## phone_validation
 - override: 0
 - converged 🎉: 0
@@ -2743,9 +2699,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 69
+- oförändrad: 64
 ## point_of_sale
-- override: 19
+- override: 18
 - converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2754,7 +2710,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1879
+- oförändrad: 1761
   · [override] All available pricelists must be in the same currency as the → 'Alla tillgängliga prislistor måste vara '
   · [override] All payment methods must be in the same currency as the Sale → 'Alla betalningsmetoder måste vara i samm'
   · [override] Choose a specific fiscal position at the order depending on  → 'Välj en specifik skatteområde vid bestäl'
@@ -2773,9 +2729,8 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] There is no Chart of Accounts configured on the company. Ple → 'Det finns ingen kontoplan konfigurerad p'
   · [override] Use fiscal positions to get different taxes by order → 'Använd skatteområden för att få olika sk'
   · [override] e.g. Company Address, Website → 't.ex. bolagsadress, webbplats'
-  · [override] You cannot invoice orders belonging to different companies. → 'Du kan inte fakturera order som hör till'
 ## portal
-- override: 3
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2784,10 +2739,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 254
+- oförändrad: 227
   · [override] Company Name → 'Bolagsnamn'
   · [override] Multi company reports are not supported. → 'Rapporter för flera bolag stöds inte.'
-  · [override] Changing company name is not allowed once document(s) have b → 'Det är inte tillåtet att ändra bolagsnam'
 ## portal_rating
 - override: 0
 - converged 🎉: 0
@@ -2798,7 +2752,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 37
+- oförändrad: 34
 ## pos_account_tax_python
 - override: 0
 - converged 🎉: 0
@@ -2854,7 +2808,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 21
+- oförändrad: 20
 ## pos_dpopay
 - override: 0
 - converged 🎉: 0
@@ -2887,7 +2841,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 53
+- oförändrad: 52
 ## pos_event_sale
 - override: 0
 - converged 🎉: 0
@@ -2909,7 +2863,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 65
+- oförändrad: 62
 ## pos_hr
 - override: 0
 - converged 🎉: 0
@@ -2920,7 +2874,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 63
+- oförändrad: 60
 ## pos_imin
 - override: 0
 - converged 🎉: 0
@@ -2942,7 +2896,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 142
+- oförändrad: 138
 ## pos_mercado_pago
 - override: 0
 - converged 🎉: 0
@@ -2953,7 +2907,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 29
+- oförändrad: 28
 ## pos_mollie
 - override: 0
 - converged 🎉: 0
@@ -3053,7 +3007,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 303
+- oförändrad: 280
 ## pos_restaurant_adyen
 - override: 0
 - converged 🎉: 0
@@ -3086,7 +3040,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 98
+- oförändrad: 72
 ## pos_sale_loyalty
 - override: 0
 - converged 🎉: 0
@@ -3119,7 +3073,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 282
+- oförändrad: 275
 ## pos_self_order_adyen
 - override: 0
 - converged 🎉: 0
@@ -3241,7 +3195,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 54
+- oförändrad: 53
 ## product
 - override: 3
 - converged 🎉: 2
@@ -3252,7 +3206,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 820
+- oförändrad: 744
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Settings → 'Bolagsinställningar'
@@ -3277,7 +3231,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 98
+- oförändrad: 94
 ## product_margin
 - override: 0
 - converged 🎉: 0
@@ -3288,7 +3242,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 59
+- oförändrad: 58
 ## product_matrix
 - override: 2
 - converged 🎉: 0
@@ -3312,7 +3266,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 915
+- oförändrad: 847
   · [override] Company → 'Bolag'
   · [override] Partner company cannot be different from its assigned projec → 'Partnerbolaget får inte vara ett annat ä'
   · [override] Partner company cannot be different from its assigned tasks' → 'Partnerbolaget får inte vara annorlunda '
@@ -3387,7 +3341,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 14
+- oförändrad: 13
 ## project_mrp_stock_landed_costs
 - override: 0
 - converged 🎉: 0
@@ -3486,7 +3440,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 28
+- oförändrad: 26
   · [override] Companies → 'Bolag'
 ## project_todo
 - override: 0
@@ -3498,7 +3452,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 102
+- oförändrad: 98
 ## purchase
 - override: 8
 - converged 🎉: 0
@@ -3509,7 +3463,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 658
+- oförändrad: 579
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
@@ -3539,7 +3493,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 24
+- oförändrad: 22
 ## purchase_product_matrix
 - override: 0
 - converged 🎉: 0
@@ -3550,7 +3504,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 19
+- oförändrad: 18
 ## purchase_repair
 - override: 0
 - converged 🎉: 0
@@ -3572,7 +3526,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 205
+- oförändrad: 176
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
   · [override] Company Subtotal → 'Bolag Subtotal'
@@ -3610,7 +3564,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 220
+- oförändrad: 206
   · [override] Companies → 'Bolag'
   · [override] Put an address if you want to deliver directly from the vend → 'Ange en adress om du vill leverera direk'
 ## rating
@@ -3623,7 +3577,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 99
+- oförändrad: 93
   · [override] " or someone from the same company can give it a rating. → '" eller så kan någon från samma bolag ge'
 ## repair
 - override: 1
@@ -3635,7 +3589,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 309
+- oförändrad: 261
   · [override] Company → 'Bolag'
 ## resource
 - override: 5
@@ -3647,7 +3601,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 169
+- oförändrad: 164
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] If empty, this is a generic time off for the company. If a r → 'Om det är tomt är detta en generisk ledi'
@@ -3665,7 +3619,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 18
 ## sale
-- override: 11
+- override: 10
 - converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3674,7 +3628,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 992
+- oförändrad: 850
   · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
@@ -3685,7 +3639,6 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] There does not seem to be any discount product configured fo → 'Det verkar inte finnas någon rabattprodu'
   · [override] Warning for the change of your quotation's company → 'Varning för byte av bolag för din offert'
   · [override] Your quotation contains products from company %(product_comp → 'Ditt erbjudande innehåller produkter frå'
-  · [override] <span class="fa fa-lg fa-building-o p-2" title="Values set h → '<span class="fa fa-lg fa-building-o p-2"'
 ## sale_crm
 - override: 0
 - converged 🎉: 0
@@ -3696,7 +3649,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 41
+- oförändrad: 35
 ## sale_edi_ubl
 - override: 0
 - converged 🎉: 0
@@ -3718,7 +3671,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 23
+- oförändrad: 20
 ## sale_expense_margin
 - override: 0
 - converged 🎉: 0
@@ -3763,7 +3716,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 99
+- oförändrad: 97
 ## sale_loyalty_delivery
 - override: 0
 - converged 🎉: 0
@@ -3776,7 +3729,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 12
 ## sale_management
-- override: 4
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3785,11 +3738,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 103
+- oförändrad: 81
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
-  · [override] Your template cannot contain products from multiple companie → 'Din mall kan inte innehålla produkter fr'
-  · [override] Your template contains products from company %(product_compa → 'Din mall innehåller produkter från bolag'
 ## sale_margin
 - override: 0
 - converged 🎉: 0
@@ -3811,7 +3762,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 27
+- oförändrad: 26
 ## sale_pdf_quote_builder
 - override: 2
 - converged 🎉: 0
@@ -3822,7 +3773,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 118
+- oförändrad: 117
   · [override] Company → 'Bolag'
   · [override] Provide header pages and footer pages to compose an attracti → 'Tillhandahåll sidhuvud och sidfot för at'
 ## sale_product_matrix
@@ -3846,7 +3797,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 139
+- oförändrad: 135
 ## sale_project_stock
 - override: 0
 - converged 🎉: 0
@@ -3923,7 +3874,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 152
+- oförändrad: 143
   · [override] Companies → 'Bolag'
   · [override] You must have a warehouse for line using a delivery in diffe → 'Du måste ha ett lager för linje som anvä'
 ## sale_stock_margin
@@ -3949,7 +3900,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 8
 ## sale_timesheet
-- override: 5
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3958,14 +3909,12 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 263
+- oförändrad: 236
   · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd på vårt bolag kommer du att'
   · [override] Each employee has a chance to see the impact of his work.
    → 'Varje anställd har en chans att se effek'
   · [override] Real responsibilities and challenges in a fast evolving comp → 'Verkligt ansvar och utmaningar i ett sna'
   · [override] Sales order item that will be selected by default on the tim → 'Försäljningsorderobjekt som kommer att v'
-  · [override] Great quotation templates will significantly
-                → 'Grymma offertmallar kommer definitivt at'
 ## sale_timesheet_margin
 - override: 0
 - converged 🎉: 0
@@ -3987,7 +3936,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 127
+- oförändrad: 119
   · [override] <i class="fa fa-fw me-1 fa-building text-primary" title="Com → '<i class="fa fa-fw me-1 fa-building text'
   · [override] Company → 'Bolag'
   · [override] Member Company → 'Medlemsbolag'
@@ -4004,7 +3953,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 272
+- oförändrad: 237
   · [override] Companies → 'Bolag'
   · [override] Your sender name must be between 3 and 11 characters long an → 'Ditt avsändarnamn måste vara mellan 3 oc'
 ## sms_twilio
@@ -4055,7 +4004,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 12
+- oförändrad: 11
   · [override] Companies → 'Bolag'
 ## spreadsheet
 - override: 2
@@ -4067,7 +4016,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2176
+- oförändrad: 2150
   · [override] Currency not available for this company. → 'Valuta ej tillgänglig för detta bolag.'
   · [override] The company to take the exchange rate from. → 'Bolaget som valutakursen ska hämtas från'
 ## spreadsheet_account
@@ -4086,7 +4035,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] The company to target (Advanced). → 'Bolaget att rikta in sig på (avancerat).'
   · [override] The company. → 'Bolaget'
 ## spreadsheet_dashboard
-- override: 2
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4097,7 +4046,6 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - borttagen: 0
 - oförändrad: 63
   · [override] Companies → 'Bolag'
-  · [override] Company → 'Bolag'
 ## spreadsheet_dashboard_account
 - override: 0
 - converged 🎉: 0
@@ -4240,7 +4188,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1932
+- oförändrad: 1791
   · [override] Changing the company of this record is forbidden at this poi → 'Det är inte tillåtet att ändra bolaget p'
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
@@ -4260,7 +4208,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] You can't deactivate the multi-location if you have more tha → 'Du kan inte avaktivera multi-location om'
   · [override] You cannot change the company of a lot/serial number current → 'Du kan inte byta bolag för ett parti-/se'
 ## stock_account
-- override: 6
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4269,15 +4217,14 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 202
+- oförändrad: 174
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
   · [override] Standard Price: The products are valued at their standard co → 'Standardpris: Produkterna värderas till '
   · [override] Technical field to correctly show the currently selected com → 'Tekniskt fält för att korrekt visa den v'
-  · [override] Manual: The accounting entries to value the inventory are no → 'Manuell: Verifikaten för att värdera lag'
 ## stock_delivery
-- override: 1
+- override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4286,8 +4233,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 110
-  · [override] Company → 'Bolag'
+- oförändrad: 100
 ## stock_dropshipping
 - override: 1
 - converged 🎉: 0
@@ -4298,7 +4244,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 20
+- oförändrad: 18
   · [override] Companies → 'Bolag'
 ## stock_fleet
 - override: 0
@@ -4310,9 +4256,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 58
+- oförändrad: 57
 ## stock_landed_costs
-- override: 3
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4321,10 +4267,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 126
+- oförändrad: 121
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
-  · [override] Company related to this journal → 'Bolag relaterat till denna journal'
 ## stock_maintenance
 - override: 0
 - converged 🎉: 0
@@ -4346,7 +4291,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 221
+- oförändrad: 216
   · [override] Company → 'Bolag'
   · [override] The selected operations should belong to a unique company. → 'De utvalda verksamheterna ska tillhöra e'
   · [override] The selected pickings should belong to an unique company. → 'Den utvalda plockningen ska tillhöra ett'
@@ -4361,10 +4306,10 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 22
+- oförändrad: 20
   · [override] Companies → 'Bolag'
 ## survey
-- override: 3
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4373,10 +4318,8 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 999
+- oförändrad: 894
   · [override] Company Certifications Count → 'Bolagets antal certifieringar'
-  · [override] Our Company in a few questions ... → 'VårtBolag i några frågor ...'
-  · [override] Quiz about our Company → 'Frågesport om vårt bolag'
 ## survey_crm
 - override: 0
 - converged 🎉: 0
@@ -4398,7 +4341,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 21
+- oförändrad: 20
 ## uom
 - override: 0
 - converged 🎉: 0
@@ -4409,7 +4352,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 85
+- oförändrad: 63
 ## utm
 - override: 0
 - converged 🎉: 0
@@ -4420,7 +4363,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 110
+- oförändrad: 109
 ## web
 - override: 16
 - converged 🎉: 0
@@ -4431,7 +4374,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 4612
+- oförändrad: 4359
   · [override] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
   · [override] <strong>Company details block</strong> → '<strong>Block för bolagsuppgifter</stron'
   · [override] Companies → 'Bolag'
@@ -4469,7 +4412,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 69
+- oförändrad: 56
 ## web_unsplash
 - override: 0
 - converged 🎉: 0
@@ -4480,9 +4423,9 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 28
+- oförändrad: 27
 ## website
-- override: 52
+- override: 47
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4491,7 +4434,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 3277
+- oförändrad: 3037
   · [override] " This company transformed our business. <br/>Their solution → '"Det här bolaget förändrade vår verksamh'
   · [override] 50,000+ companies run Odoo <br class="d-none d-lg-inline"/>t → '50 000+ bolag använder Odoo <br class="d'
   · [override] 50,000+ companies run Odoo to grow their businesses. → '50 000+ bolag använder Odoo för att utve'
@@ -4539,11 +4482,6 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
   · [override] organization, company, people, column, members, staffs, prof → 'organisation, bolag, människor, kolumn, '
   · [override] organization, company, people, members, staffs, profiles, bi → 'organisation, bolag, människor, medlemma'
   · [override] organization, company, people, members, staffs, profiles, bi → 'organisation, bolag, människor, medlemma'
-  · [override] <b>Designed</b> <br/>for Companies → '<b>Designad</b> <br/>för bolag'
-  · [override] <b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <b → '<b>MittBolag</b><br/>Storgatan 1 <br/> 1'
-  · [override] <span class="o_footer_copyright_name me-2">Copyright &amp;co → '<span class="o_footer_copyright_name me-'
-  · [override] The company this website belongs to → 'Bolaget den här webbsidan tillhör'
-  · [override] We are a team of passionate people whose goal is to improve  → 'Vi är ett team av passionerade människor'
 ## website_blog
 - override: 2
 - converged 🎉: 0
@@ -4554,7 +4492,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 391
+- oförändrad: 382
   · [override] A traveler may choose to explore the area by hiking around t → 'En resenär kan välja att utforska område'
   · [override] Write a small text here to describe your blog or company. → 'Skriv en liten text här för att beskriva'
 ## website_cf_turnstile
@@ -4578,7 +4516,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 29
+- oförändrad: 28
   · [override] Your Company → 'Ditt bolag'
 ## website_crm_iap_reveal
 - override: 8
@@ -4620,7 +4558,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 277
+- oförändrad: 237
 ## website_crm_sms
 - override: 0
 - converged 🎉: 0
@@ -4642,7 +4580,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 74
+- oförändrad: 62
 ## website_event
 - override: 3
 - converged 🎉: 0
@@ -4653,7 +4591,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 367
+- oförändrad: 327
   · [override] Company → 'Bolag'
   · [override] The website must be from the same company as the event. → 'Webbplatsen måste vara från samma bolag '
   · [override] Use this paragraph to write a short text about your events o → 'Använd detta stycke för att skriva en ko'
@@ -4736,7 +4674,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 33
+- oförändrad: 31
 ## website_event_track
 - override: 4
 - converged 🎉: 0
@@ -4747,7 +4685,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 475
+- oförändrad: 465
   · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Description of the partner (name, function and company name) → 'Beskrivning av partnern (namn, function '
@@ -4795,7 +4733,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 738
+- oförändrad: 705
 ## website_hr_recruitment
 - override: 4
 - converged 🎉: 0
@@ -4806,7 +4744,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 184
+- oförändrad: 172
   · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd på vårt bolag kommer du att'
   · [override] Each employee has a chance to see the impact of his work.
    → 'Varje anställd har en chans att se effek'
@@ -4833,7 +4771,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 66
+- oförändrad: 54
 ## website_livechat
 - override: 0
 - converged 🎉: 0
@@ -4844,7 +4782,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 75
+- oförändrad: 45
 ## website_mail
 - override: 0
 - converged 🎉: 0
@@ -4877,7 +4815,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 65
+- oförändrad: 55
   · [override] Companies → 'Bolag'
   · [override] Get all the latest news, blog posts and product updates from → 'Få alla de senaste nyheterna, blogginläg'
 ## website_mass_mailing_sms
@@ -4890,7 +4828,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 9
+- oförändrad: 8
 ## website_partner
 - override: 0
 - converged 🎉: 0
@@ -4901,7 +4839,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 19
+- oförändrad: 18
 ## website_payment
 - override: 0
 - converged 🎉: 0
@@ -4912,7 +4850,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 114
+- oförändrad: 99
 ## website_profile
 - override: 0
 - converged 🎉: 0
@@ -4937,7 +4875,7 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - oförändrad: 21
   · [override] Company Name → 'Bolagsnamn'
 ## website_sale
-- override: 7
+- override: 5
 - converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4946,15 +4884,13 @@ Easily send mass mailin → 'Odoo massutskick\n-----------------\n\nSkic'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1215
+- oförändrad: 1011
   · [override] Companies → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Created in 2021, the company is young and dynamic. Discover  → 'Bolaget bildades 2021 och är ungt och dy'
   · [override] Only the company's websites are allowed.
 Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
   · [override] The company of the website you are trying to sell from (%(we → 'Bolaget på webbplatsen som du försöker s'
-  · [override] <small class="form-text text-muted">Changing company name or → '<small class="form-text text-muted">Det '
-  · [override] Changing company name is not allowed once document(s) have b → 'Det är inte tillåtet att ändra bolagsnam'
 ## website_sale_autocomplete
 - override: 0
 - converged 🎉: 0
@@ -4998,7 +4934,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 67
+- oförändrad: 51
 ## website_sale_comparison_wishlist
 - override: 0
 - converged 🎉: 0
@@ -5086,7 +5022,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 69
+- oförändrad: 57
 ## website_sale_stock_wishlist
 - override: 0
 - converged 🎉: 0
@@ -5108,7 +5044,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 72
+- oförändrad: 63
 ## website_slides
 - override: 1
 - converged 🎉: 0
@@ -5119,7 +5055,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1179
+- oförändrad: 1141
   · [override] Company Course Count → 'Bolagets kursräknare'
 ## website_slides_forum
 - override: 0
