@@ -1,8 +1,8 @@
 {
   "edition": "18.0",
-  "generated": "2026-08-31 05:31",
+  "generated": "2026-09-01 14:24",
   "totals": {
-    "override": 1028,
+    "override": 966,
     "converged": 0,
     "conflict": 0,
     "new-correct": 0,
@@ -11,11 +11,11 @@
     "new-manual": 0,
     "flagged": 0,
     "removed": 0,
-    "noop": 55650
+    "noop": 55712
   },
   "delta": {
-    "converged": -141,
-    "noop": 141
+    "override": -62,
+    "noop": 62
   },
   "top_modules": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "module": "crm",
-      "count": 111
+      "count": 49
     },
     {
       "module": "website",

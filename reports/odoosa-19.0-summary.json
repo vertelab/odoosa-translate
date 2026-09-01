@@ -1,8 +1,8 @@
 {
   "edition": "19.0",
-  "generated": "2026-08-31 05:33",
+  "generated": "2026-09-01 14:24",
   "totals": {
-    "override": 917,
+    "override": 813,
     "converged": 120,
     "conflict": 0,
     "new-correct": 0,
@@ -11,21 +11,16 @@
     "new-manual": 0,
     "flagged": 0,
     "removed": 0,
-    "noop": 64331
+    "noop": 64435
   },
   "delta": {
-    "override": -1,
-    "converged": 120,
-    "noop": -119
+    "override": -104,
+    "noop": 104
   },
   "top_modules": [
     {
       "module": "base",
       "count": 172
-    },
-    {
-      "module": "crm",
-      "count": 145
     },
     {
       "module": "account",
@@ -34,6 +29,10 @@
     {
       "module": "website",
       "count": 52
+    },
+    {
+      "module": "crm",
+      "count": 41
     },
     {
       "module": "account_peppol",
