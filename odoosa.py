@@ -50,6 +50,7 @@ CACHE_DIR = ROOT / "cache"
 BUILD_DIR = ROOT / "build"
 RULES_DIR = ROOT / "rules"
 REPORTS_DIR = ROOT / "reports"
+MANUAL_DIR = ROOT / "manual"
 
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "odoosa-translate/0.1"})
@@ -504,6 +505,67 @@ def write_if_changed(path, text):
     return True
 
 
+# ---------------------------------------------------------------------------
+# MANUELLA ÖVERSÄTTNINGAR (manual/) — poster som inte kan produceras av
+# regelmotorn (t.ex. mail.template body_html som Odoo SA lämnat tomma i
+# officiell sv.po). Ligger i manual/<edition>/<module>.po och överlagras på
+# i18n_extra under bygg. Filerna committas och publiceras med pipelinen.
+# ---------------------------------------------------------------------------
+
+def load_manual_po(edition, module):
+    """Läs manual/<edition>/<module>.po om den finns → polib.POFile (eller None)."""
+    p = MANUAL_DIR / f"odoo-{edition}" / f"{module}.po"
+    if not p.exists():
+        return None
+    try:
+        return polib.pofile(str(p))
+    except Exception as e:
+        log(f"   ⚠️ manual/{edition}/{module}.po kunde inte läsas: {e}")
+        return None
+
+
+def merge_manual_into_extra(extra_po, manual_po, module):
+    """Slå samman manuella översättningar in i i18n_extra-PO:n.
+
+    Manuella poster läggs till om deras msgid inte redan finns i extra-PO:n
+    (då behålls den befintliga — regelmotorn vinner). Poster som saknar
+    module:-kommentar får den tillagd (krav för Odoo 18:s PoFileReader).
+    """
+    if manual_po is None:
+        return extra_po
+    existing = {e.msgid for e in extra_po if not getattr(e, "obsolete", False)}
+    added = 0
+    for entry in manual_po:
+        if getattr(entry, "obsolete", False):
+            continue
+        if not entry.msgid or not entry.msgid.strip():
+            continue
+        if not entry.msgstr:
+            continue  # Hoppa över oöversatta (tom msgstr)
+        if entry.msgid in existing:
+            continue
+        # Säkerställ module:-kommentar (Odoo 18-krav)
+        comment = entry.comment or ""
+        if not re.match(r"(module[s]?): (\w+)", comment):
+            comment = f"module: {module}\n" + comment if comment.strip() else f"module: {module}"
+        new_entry = polib.POEntry(
+            msgid=entry.msgid,
+            msgstr=entry.msgstr,
+            msgid_plural=entry.msgid_plural,
+            msgstr_plural=entry.msgstr_plural,
+        )
+        new_entry.comment = comment
+        new_entry.tcomment = entry.tcomment
+        new_entry.occurrences = entry.occurrences
+        new_entry.flags = entry.flags
+        extra_po.append(new_entry)
+        existing.add(entry.msgid)
+        added += 1
+    if added:
+        log(f"   ➕ manual: {added} poster från manual/{module}.po lagts till i i18n_extra")
+    return extra_po
+
+
 def rule_changes():
     """Regeländringar sedan förra commiten (git diff HEAD -- rules/).
 
@@ -574,8 +636,11 @@ def build_edition(edition, modules=None):
         # i18n/sv.po = officiell orörd
         write_if_changed(out_i18n / module / "sv.po", now_path.read_text(encoding="utf-8"))
 
-        # i18n_extra/sv.po = våra avvikelser
+        # i18n_extra/sv.po = våra avvikelser + manuella översättningar
         extra = build_i18n_extra(module, res["merged"])
+        manual_po = load_manual_po(edition, module)
+        if manual_po is not None:
+            extra = merge_manual_into_extra(extra, manual_po, module)
         write_if_changed(out_extra / module / "i18n_extra" / "sv.po", str(extra))
 
         # diff.po = granskning
@@ -895,9 +960,9 @@ def publish(dry_run=False, message=None):
     if git(["git", "config", "user.email"], check=False).returncode != 0:
         git(["git", "config", "user.email", "odoosa@vertel.se"])
 
-    # Stega: artefakter + regler + ordlista + pipeline + rapporter + docs
+    # Stega: artefakter + regler + ordlista + pipeline + rapporter + docs + manual
     git(["git", "add", "-A", "build/", "reports/", "rules/", "glossary.csv",
-         "odoosa.py", "odoo18-sv-translations.txt", "README.md", "docs/", ".gitignore"])
+         "odoosa.py", "odoo18-sv-translations.txt", "README.md", "docs/", ".gitignore", "manual/"])
 
     staged = git(["git", "diff", "--cached", "--name-only"], check=False).stdout.strip()
     if not staged:
