@@ -887,11 +887,6 @@ msgid "Journal Entries to Hash"
 msgstr "Verifikat att hasha"
 
 #. module: account
-# override | officiell: 'Bokföringspost'
-msgid "Journal Entry"
-msgstr "Verifikat"
-
-#. module: account
 # override | officiell: 'Information om bokföringspost'
 msgid "Journal Entry Info"
 msgstr "Information om verifikat"

@@ -3118,6 +3118,243 @@ msgstr ""
 "Jämför intäkter med prognoser och budgetar i realtid."
 
 #. module: base
+# conflict | officiell: 'Odoo HR\n--------------------\n\nMed hjälp av Odoos
+# <a href="https://www.odoo.com/app/employees">HR-funktioner</a>,\nkan du
+# hantera den viktigaste tillgången i ditt företag: Människor\n\nHantera alla
+# HR-funktioner snabbt och enkelt: dela kunskap, rekrytera,\nutvärdera,
+# registrera tidrapporter, skriv avtal, mät närvaro, betala ut löner,
+# osv.\n\nAlla funktioner täcks in av specifika appar som du kan aktivera vid
+# behov.\n\nHantera dina anställda\n---------------------\n\nSpara all
+# nödvändig information i ditt företags kontaktregister. Viss\ninformation
+# begränsas till HR-chefer, andra blir offentliga och tillgängliga även
+# för\nkollegorna.\n\nSpara anställningsavtal och få påminnelser när de ska
+# förnyas.\n\nEffektivisera
+# rekryteringsprocessen\n-----------------------------------\n\nOrganisera
+# CV:n, spåra ansökanden, och sök bland profiler med <a
+# href="https://www.odoo.com/app/employees">Odoo HR</a>.\n\nPublicera lediga
+# tjänster och håll koll på alla inlämnade ansökningar. Följ ansökande\ngenom
+# hela rekryteringsprocessen med den smarta Kanban-vyn.\n\nSpara tid genom att
+# automatisera viss kommunikation genom e-postmallar. CV:n\norganiseras
+# automatiskt, vilket gör det enklare att hitta specifika profiler.\n\nSociala
+# medier\n-------------------------\n\nBryt ner informationsnät. Dela kunskap
+# och bästa praxis bland alla\nanställda. Följ specifika profiler eller
+# dokument och gå med i intressanta grupper för\natt kunna dela expertis och
+# dokument.\n\nKommunicera med dina medarbetare genom en livechatt.\n\nMät tid
+# och närvaro\n--------------------------\n\nHåll koll på tid spenderad per
+# projekt, kund eller uppgift. Det är enkelt att registrera\ntidrapporter
+# eller kolla närvaro för varje anställd. Den analytiska
+# bokföringen\nuppdateras automatiskt baserat på tid som spenderas på
+# projekt.\n\nHantera ledighet\n-------------------\n\nHåll koll på
+# semesterdagar per anställd. Anställda skickar in sina\nansökningar (betald
+# semester, sjukfrånvaro, osv.), till chefer som granskar och\ngodkänner dem.
+# Allt görs med ett par klick. Varje anställds schema\nuppdateras
+# direkt.\n\nHåll koll på anställdas
+# utgifter\n-------------------------------\n\nMinimera pappersarbete genom
+# att följa anställdas utgifter direkt i Odoo.\nSe till att tid och resurser
+# spenderas klokt genom hela arbetsflödet: validering av utgifter,\nersättning
+# till anställda, bokföring och vidarefakturering till\nkunder.\n\nGenomför
+# periodvisa utvärderingar\n--------------------------\n\nKonfigurera
+# utvärderingsplaner och/eller enkäter för att hålla koll på
+# anställdas\nutveckling. Ange specifika utvärderingssteg så påminner Odoo
+# automatiskt chefer\nnär det är dags för att genomföra en utvärdering. Håll
+# uppsikt över hur dina anställda\nutvecklas över tid genom regelbundna
+# utvärderingar.\n\nÖka engagemang med
+# spelifiering\n----------------------------------\n\n### Ange tydliga mål och
+# ge aktuell respons\n\nÖka motivationen med utmaningar, mål och belöningar.
+# Ange tydliga mål\noch ge aktuell respons och mätbara resultat. Visa upp
+# anställda\nmed toppresultat för att belöna dem som gjort ett bra
+# jobb.\n\n### Resultattavlor\n\nÖka motivationen genom att låta säljteam
+# konkurrera om bästa resultat.\n\n### Personliga mål\n\nAnge tydliga
+# personliga mål för att se till att dem stämmer överens med företagets
+# målsättning.\n\n### Team-mål\n\nJämför aktuella intäkter med prognoser och
+# budgetar.'
+msgid ""
+"Odoo Human Resources\n"
+"--------------------\n"
+"\n"
+"With Odoo <a href=\"https://www.odoo.com/app/employees\">Human Resources</a>,\n"
+"manage the most important asset in your company: People\n"
+"\n"
+"Get all your HR operations managed easily: knowledge sharing, recruitments,\n"
+"appraisals, timesheets, contracts, attendances, payroll, etc.\n"
+"\n"
+"Each need is provided by a specific app that you activate on demand.\n"
+"\n"
+"Manage Your Employees\n"
+"---------------------\n"
+"\n"
+"Oversee all important information in your company address book. Some\n"
+"information are restricted to HR managers, others are public to easily look\n"
+"colleagues.\n"
+"\n"
+"Record employee contracts and get alerts when they have to be renewed.\n"
+"\n"
+"Streamline Your Recruitment Process\n"
+"-----------------------------------\n"
+"\n"
+"Index resumes, track applicants, search profiles with <a href=\"https://www.odoo.com/app/employees\">Odoo HR</a>.\n"
+"\n"
+"Post job offers and keep track of each application received. Follow applicants\n"
+"in your recruitment process with the smart kanban view.\n"
+"\n"
+"Save time by automating some communications with email templates. Resumes are\n"
+"indexed automatically, allowing you to easily find for specific profiles.\n"
+"\n"
+"Enterprise Social Network\n"
+"-------------------------\n"
+"\n"
+"Break down information silos. Share knowledge and best practices amongst all\n"
+"employees. Follow specific people or documents and join groups of interests to\n"
+"share expertise and documents.\n"
+"\n"
+"Interact with your coworkers in real time with website live chat.\n"
+"\n"
+"Track time and attendances\n"
+"--------------------------\n"
+"\n"
+"Keep track of the time spent by project, client or task. It's easy to record\n"
+"timesheets or check attendances for each employee. Get your analytic accounting\n"
+"posted automatically based on time spent on your projects.\n"
+"\n"
+"Time Off Management\n"
+"-------------------\n"
+"\n"
+"Keep track of the vacation days accrued by each employee. Employees enter their\n"
+"requests (paid time off, sick time off, etc), for managers to approve and\n"
+"validate. It's all done in just a few clicks. The agenda of each employee is\n"
+"updated accordingly.\n"
+"\n"
+"Keep Track of Employee Expenses\n"
+"-------------------------------\n"
+"\n"
+"Get rid of the paper work and follow employee's expenses directly in Odoo.\n"
+"Don't loose time or money by controlling the full flow: expense validation,\n"
+"reimbursement of employees, posting in the accounting and re-invoicing to\n"
+"customers.\n"
+"\n"
+"Follow Periodic Appraisals\n"
+"--------------------------\n"
+"\n"
+"Set-up appraisals plans and/or surveys for your employees and watch their\n"
+"evolution. Define steps for interviews and Odoo will notify managers or\n"
+"subordinates automatically to prepare appraisals. Keep track of the progress of\n"
+"your staff periodically.\n"
+"\n"
+"Boost Engagement With Gamification\n"
+"----------------------------------\n"
+"\n"
+"### Define clear objective and provide real time feedback\n"
+"\n"
+"Inspire achievement with challenges, goals and rewards. Define clear objectives\n"
+"and provide real time feedback and tangible results. Showcase the top\n"
+"performers to the entire channel and publicly recognize a job well done.\n"
+"\n"
+"### Leaderboards\n"
+"\n"
+"Promote leaders and competition amongst Sales Team with performance ratios.\n"
+"\n"
+"### Personal Objectives\n"
+"\n"
+"Assign clear goals to users to align them with the company objectives.\n"
+"\n"
+"### Team Targets\n"
+"\n"
+"Compare revenues with forecasts and budgets in real time.\n"
+"\n"
+msgstr ""
+"Odoo HR\n"
+"--------------------\n"
+"\n"
+"Med hjälp av Odoos <a href=\"https://www.odoo.com/app/employees\">HR-funktioner</a>,\n"
+"kan du hantera den viktigaste tillgången i ditt bolag: Människor\n"
+"\n"
+"Hantera alla HR-funktioner snabbt och enkelt: dela kunskap, rekrytera,\n"
+"utvärdera, registrera tidrapporter, skriv avtal, mät närvaro, betala ut löner, osv.\n"
+"\n"
+"Alla funktioner täcks in av specifika appar som du kan aktivera vid behov.\n"
+"\n"
+"Hantera dina anställda\n"
+"---------------------\n"
+"\n"
+"Spara all nödvändig information i ditt bolags kontaktregister. Viss\n"
+"information begränsas till HR-chefer, andra blir offentliga och tillgängliga även för\n"
+"kollegorna.\n"
+"\n"
+"Spara anställningsavtal och få påminnelser när de ska förnyas.\n"
+"\n"
+"Effektivisera rekryteringsprocessen\n"
+"-----------------------------------\n"
+"\n"
+"Organisera CV:n, spåra ansökanden, och sök bland profiler med <a href=\"https://www.odoo.com/app/employees\">Odoo HR</a>.\n"
+"\n"
+"Publicera lediga tjänster och håll koll på alla inlämnade ansökningar. Följ ansökande\n"
+"genom hela rekryteringsprocessen med den smarta Kanban-vyn.\n"
+"\n"
+"Spara tid genom att automatisera viss kommunikation genom e-postmallar. CV:n\n"
+"organiseras automatiskt, vilket gör det enklare att hitta specifika profiler.\n"
+"\n"
+"Sociala medier\n"
+"-------------------------\n"
+"\n"
+"Bryt ner informationsnät. Dela kunskap och bästa praxis bland alla\n"
+"anställda. Följ specifika profiler eller dokument och gå med i intressanta grupper för\n"
+"att kunna dela expertis och dokument.\n"
+"\n"
+"Kommunicera med dina medarbetare genom en livechatt.\n"
+"\n"
+"Mät tid och närvaro\n"
+"--------------------------\n"
+"\n"
+"Håll koll på tid spenderad per projekt, kund eller uppgift. Det är enkelt att registrera\n"
+"tidrapporter eller kolla närvaro för varje anställd. Den analytiska bokföringen\n"
+"uppdateras automatiskt baserat på tid som spenderas på projekt.\n"
+"\n"
+"Hantera ledighet\n"
+"-------------------\n"
+"\n"
+"Håll koll på semesterdagar per anställd. Anställda skickar in sina\n"
+"ansökningar (betald semester, sjukfrånvaro, osv.), till chefer som granskar och\n"
+"godkänner dem. Allt görs med ett par klick. Varje anställds schema\n"
+"uppdateras direkt.\n"
+"\n"
+"Håll koll på anställdas utgifter\n"
+"-------------------------------\n"
+"\n"
+"Minimera pappersarbete genom att följa anställdas utgifter direkt i Odoo.\n"
+"Se till att tid och resurser spenderas klokt genom hela arbetsflödet: validering av utgifter,\n"
+"ersättning till anställda, bokföring och vidarefakturering till\n"
+"kunder.\n"
+"\n"
+"Genomför periodvisa utvärderingar\n"
+"--------------------------\n"
+"\n"
+"Konfigurera utvärderingsplaner och/eller enkäter för att hålla koll på anställdas\n"
+"utveckling. Ange specifika utvärderingssteg så påminner Odoo automatiskt chefer\n"
+"när det är dags för att genomföra en utvärdering. Håll uppsikt över hur dina anställda\n"
+"utvecklas över tid genom regelbundna utvärderingar.\n"
+"\n"
+"Öka engagemang med spelifiering\n"
+"----------------------------------\n"
+"\n"
+"### Ange tydliga mål och ge aktuell respons\n"
+"\n"
+"Öka motivationen med utmaningar, mål och belöningar. Ange tydliga mål\n"
+"och ge aktuell respons och mätbara resultat. Visa upp anställda\n"
+"med toppresultat för att belöna dem som gjort ett bra jobb.\n"
+"\n"
+"### Resultattavlor\n"
+"\n"
+"Öka motivationen genom att låta säljteam konkurrera om bästa resultat.\n"
+"\n"
+"### Personliga mål\n"
+"\n"
+"Ange tydliga personliga mål för att se till att dem stämmer överens med bolagets målsättning.\n"
+"\n"
+"### Team-mål\n"
+"\n"
+"Jämför aktuella intäkter med prognoser och budgetar."
+
+#. module: base
 # override | officiell: 'Odoo Massutskick\n-----------------\n\nSkicka enkelt
 # massutskick till dina leads, möjligheter eller kunder\nmed Odoo <a
 # href="https://www.odoo.com/app/email-marketing">E-postmarknadsföring</a>.

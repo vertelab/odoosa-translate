@@ -1,30 +1,31 @@
 {
   "edition": "19.0",
-  "generated": "2026-09-07 05:33",
+  "generated": "2026-09-14 05:33",
   "totals": {
     "override": 826,
-    "converged": 0,
-    "conflict": 0,
+    "converged": 295,
+    "conflict": 2,
     "new-correct": 0,
     "new-corrected": 0,
     "new-ours": 0,
     "new-manual": 0,
     "flagged": 0,
     "removed": 0,
-    "noop": 59891
+    "noop": 59594
   },
   "delta": {
-    "converged": -120,
-    "noop": 120
+    "converged": 295,
+    "conflict": 2,
+    "noop": -297
   },
   "top_modules": [
     {
       "module": "crm",
-      "count": 141
+      "count": 142
     },
     {
       "module": "base",
-      "count": 118
+      "count": 119
     },
     {
       "module": "account",
@@ -55,7 +56,16 @@
     "terms": [],
     "flagged": []
   },
-  "conflicts": [],
+  "conflicts": [
+    {
+      "module": "base",
+      "count": 1
+    },
+    {
+      "module": "crm",
+      "count": 1
+    }
+  ],
   "new": [],
   "flagged": []
 }
