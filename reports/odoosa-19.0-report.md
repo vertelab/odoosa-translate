@@ -1,10 +1,10 @@
-# odoosa-report — 19.0 — 2026-09-14 05:33
+# odoosa-report — 19.0 — 2026-09-21 05:32
 
-**Totalt:** {'override': 826, 'converged': 295, 'conflict': 2, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 59594}
+**Totalt:** {'override': 828, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 59889}
 
 ## account
 - override: 110
-- converged 🎉: 9
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -12,7 +12,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 3052
+- oförändrad: 3061
   · [override] . The journal entries need to be computed by Odoo before bei → '. Beloppen i verifikationerna måste berä'
   · [override] A Ledger group name must be unique per company. → 'Namnet på en huvudboksgrupp måste vara u'
   · [override] A fiscal position with a foreign VAT already exists in this  → 'En skatteområde med momsregistrering i u'
@@ -224,7 +224,7 @@
   · [override] Overdue invoices should share the same company. → 'Förfallna fakturor bör ha samma bolag an'
 ## account_peppol
 - override: 21
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -232,7 +232,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 342
+- oförändrad: 343
   · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
   · [override] Active Parent Company → 'Aktivt överordnat bolag'
   · [override] Active Parent Company Name → 'Namn på aktivt överordnat bolag'
@@ -336,7 +336,7 @@
   · [override] Company → 'Bolag'
 ## analytic
 - override: 4
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -344,7 +344,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 156
+- oförändrad: 158
   · [override] Company → 'Bolag'
   · [override] Select a company for which the analytic distribution will be → 'Välj ett bolag för vilket den objektdist'
   · [override] You can't change the company of an analytic account that alr → 'Du kan inte ändra bolaget för ett objekt'
@@ -520,9 +520,9 @@
 - borttagen: 0
 - oförändrad: 40
 ## base
-- override: 118
+- override: 119
 - converged 🎉: 0
-- conflict ⚠️: 1
+- conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
@@ -748,7 +748,7 @@ VAT validation for Partner's VAT numbers.
 --------
 
 Boost sales productivity, improve win rat → 'Odoo CRM\n--------\n\nÖka försäljningsprodu'
-  · [conflict] Odoo Human Resources
+  · [override] Odoo Human Resources
 --------------------
 
 With Odoo <a href → 'Odoo HR\n--------------------\n\nMed hjälp '
@@ -792,7 +792,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 30
 ## base_automation
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -800,7 +800,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 168
+- oförändrad: 170
 ## base_geolocalize
 - override: 0
 - converged 🎉: 0
@@ -927,7 +927,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 27
 ## calendar
 - override: 0
-- converged 🎉: 7
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -935,7 +935,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 412
+- oförändrad: 419
 ## calendar_sms
 - override: 0
 - converged 🎉: 0
@@ -994,7 +994,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 14
 ## cloud_storage_migration
 - override: 0
-- converged 🎉: 3
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1002,7 +1002,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 44
+- oförändrad: 47
 ## contacts
 - override: 0
 - converged 🎉: 0
@@ -1015,16 +1015,16 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - borttagen: 0
 - oförändrad: 17
 ## crm
-- override: 141
-- converged 🎉: 2
-- conflict ⚠️: 1
+- override: 142
+- converged 🎉: 0
+- conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 564
+- oförändrad: 566
   · [override] # Leads/Opps assigned this month → '# kundämnen/möjligheter denna månad'
   · [override] # Unassigned Leads → '# otilldelade kundämnen'
   · [override] %(assigned)s leads allocated among %(team_count)s teams. → '%(assigned)s kundämnen fördelade mellan '
@@ -1043,7 +1043,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
                             → '<span> kundämnen tilldelade denna månad\n'
   · [override] <span>Merged the Lead/Opportunity</span> → '<span>Sammanslagning av kundämne/möjligh'
   · [override] <span>Periodically assign leads based on priorities and filt → '<span>Periodisk tilldelning av kundämnen'
-  · [conflict] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
+  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
   · [override] A lead in a Won stage cannot be lost. Move it to another sta → 'En kundämne i ett Won-stadium kan inte f'
   · [override] A new lead has been created and is not assigned to any team. → 'En ny kundämne har skapats och är inte t'
   · [override] A new lead has been created for the team "%(team_name)s". → 'En ny kundämne har skapats för teamet "%'
@@ -1293,7 +1293,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
 ## event
 - override: 5
-- converged 🎉: 3
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1301,7 +1301,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 635
+- oförändrad: 638
   · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
   · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
   · [override] Check this for order-level questions (e.g., 'Company Name')  → 'Kontrollera detta för frågor på orderniv'
@@ -1309,7 +1309,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company Name → 'Bolagsnamn'
 ## event_booth
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1317,7 +1317,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 118
+- oförändrad: 120
 ## event_booth_sale
 - override: 0
 - converged 🎉: 0
@@ -1389,7 +1389,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 13
 ## fleet
 - override: 1
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1397,11 +1397,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 464
+- oförändrad: 466
   · [override] Company → 'Bolag'
 ## gamification
 - override: 3
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1409,7 +1409,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 407
+- oförändrad: 409
   · [override] Set your Company Data → 'Ange dina bolagsuppgifter'
   · [override] Set your Company Logo → 'Ange bolagets logotyp'
   · [override] The target and current value are defined in the company curr → 'Målet och det aktuella värdet definieras'
@@ -1481,7 +1481,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 22
 ## hr
 - override: 16
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1489,7 +1489,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 828
+- oförändrad: 830
   · [override] <i class="fa fa-building-o" role="img" aria-label="Company"  → '<i class="fa fa-building-o" role="img" a'
   · [override] A user cannot be linked to multiple employees in the same co → 'En användare kan inte länkas till flera '
   · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd i vårt bolag kommer du att '
@@ -1509,7 +1509,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] To avoid multi company issues (losing the access to your pre → 'För att undvika problem med flera bolag '
 ## hr_attendance
 - override: 5
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1517,7 +1517,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 389
+- oförändrad: 391
   · [override] Allow a period of time (around working hours) where extra ti → 'Tillåt en tidsperiod (runt arbetstid) dä'
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
@@ -1536,7 +1536,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 6
 ## hr_expense
 - override: 9
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1544,7 +1544,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 389
+- oförändrad: 391
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Payment method allowed for expenses paid by company. → 'Tillåten betalningsmetod för kostnader s'
@@ -1580,7 +1580,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 44
 ## hr_holidays
 - override: 5
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1588,7 +1588,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 842
+- oförändrad: 844
   · [override] Allow to create requests in batchs:
 - By Employee: for a spe → 'Tillåt att skapa förfrågningar i batcher'
   · [override] Company → 'Bolag'
@@ -1697,7 +1697,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Companies → 'Bolag'
 ## hr_recruitment
 - override: 3
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1705,7 +1705,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 564
+- oförändrad: 568
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Select the location where the applicant will work. Addresses → 'Välj den ort där den sökande ska arbeta.'
@@ -1853,7 +1853,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 527
 ## html_editor
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1861,10 +1861,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 391
+- oförändrad: 392
 ## http_routing
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1872,7 +1872,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 25
+- oförändrad: 26
 ## iap
 - override: 2
 - converged 🎉: 0
@@ -1899,7 +1899,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 5
 ## iap_mail
 - override: 2
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1907,13 +1907,13 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 37
+- oförändrad: 39
   · [override] <i class="fa fa-fw me-2 fa-building text-primary"/>
          → '<i class="fa fa-fw me-2 fa-building text'
   · [override] Company → 'Bolag'
 ## im_livechat
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1921,7 +1921,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 522
+- oförändrad: 523
 ## l10n_se
 - override: 4
 - converged 🎉: 0
@@ -1950,7 +1950,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 56
 ## loyalty
 - override: 1
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1958,11 +1958,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 356
+- oförändrad: 358
   · [override] Company → 'Bolag'
 ## lunch
 - override: 4
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1970,7 +1970,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 372
+- oförändrad: 376
   · [override] A cashmove can either be an expense or a payment.<br>
        → 'En kassaförflyttning kan antingen vara e'
   · [override] Companies → 'Bolag'
@@ -1978,7 +1978,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Here you can see your cash moves.<br>A cash move can either  → 'Här kan du se dina kontantrörelser.<br>E'
 ## mail
 - override: 8
-- converged 🎉: 27
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1986,7 +1986,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2055
+- oförändrad: 2082
   · [override] Companies → 'Bolag'
   · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
   · [override] Company → 'Bolag'
@@ -1997,7 +1997,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] You cannot delete those groups, as the Whole Company group i → 'Du kan inte ta bort dessa grupper, efter'
 ## mail_bot
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2005,10 +2005,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 43
+- oförändrad: 45
 ## mail_group
 - override: 1
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2016,7 +2016,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 264
+- oförändrad: 265
   · [override] My Company News → 'Nyheter om mitt bolag'
 ## mail_plugin
 - override: 21
@@ -2052,7 +2052,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] This contact has no email address, no company could be enric → 'Denna kontakt har ingen e-postadress, in'
 ## maintenance
 - override: 1
-- converged 🎉: 3
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2060,11 +2060,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 271
+- oförändrad: 274
   · [override] Company → 'Bolag'
 ## marketing_card
 - override: 0
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2072,10 +2072,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 192
+- oförändrad: 196
 ## mass_mailing
 - override: 7
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2083,7 +2083,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1100
+- oförändrad: 1104
   · [override] Best practices to digitize your company → 'Bästa praxis för att digitalisera ditt b'
   · [override] Companies → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
@@ -2192,7 +2192,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 5
 ## mass_mailing_sms
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2200,7 +2200,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 186
+- oförändrad: 188
 ## mass_mailing_themes
 - override: 18
 - converged 🎉: 0
@@ -2265,7 +2265,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 43
 ## mrp
 - override: 2
-- converged 🎉: 5
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2273,7 +2273,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1097
+- oförändrad: 1102
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## mrp_account
@@ -2412,7 +2412,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Unable to enrich company (no credit was consumed). → 'Kunde inte fylla i bolagsuppgifter (inge'
 ## partnership
 - override: 2
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2420,7 +2420,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 42
+- oförändrad: 43
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## payment
@@ -2531,7 +2531,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] DPO Company Token → 'Bolagstoken hos DPO'
 ## payment_ecpay
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2539,7 +2539,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 15
+- oförändrad: 17
 ## payment_flutterwave
 - override: 0
 - converged 🎉: 0
@@ -2696,7 +2696,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 31
 ## phone_validation
 - override: 0
-- converged 🎉: 3
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2704,10 +2704,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 61
+- oförändrad: 64
 ## point_of_sale
 - override: 18
-- converged 🎉: 5
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2715,7 +2715,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1757
+- oförändrad: 1762
   · [override] All available pricelists must be in the same currency as the → 'Alla tillgängliga prislistor måste vara '
   · [override] All payment methods must be in the same currency as the Sale → 'Alla betalningsmetoder måste vara i samm'
   · [override] Choose a specific fiscal position at the order depending on  → 'Välj en specifik skatteområde vid bestäl'
@@ -2783,7 +2783,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Terminal %(terminal)s is already used in company %(company)s → 'Terminal %(terminal)s används redan i bo'
 ## pos_cashdro
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2791,10 +2791,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 20
+- oförändrad: 22
 ## pos_cashmatic
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2802,7 +2802,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 13
+- oförändrad: 15
 ## pos_discount
 - override: 0
 - converged 🎉: 0
@@ -3004,7 +3004,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 5
 ## pos_restaurant
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3012,7 +3012,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 279
+- oförändrad: 280
 ## pos_restaurant_adyen
 - override: 0
 - converged 🎉: 0
@@ -3026,7 +3026,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 7
 ## pos_safaricom
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3034,10 +3034,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 50
+- oförändrad: 52
 ## pos_sale
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3045,7 +3045,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 71
+- oförändrad: 72
 ## pos_sale_loyalty
 - override: 0
 - converged 🎉: 0
@@ -3192,7 +3192,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 37
 ## privacy_lookup
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3200,10 +3200,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 52
+- oförändrad: 53
 ## product
 - override: 3
-- converged 🎉: 5
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3211,7 +3211,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 741
+- oförändrad: 746
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Settings → 'Bolagsinställningar'
@@ -3263,7 +3263,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Show your company love around you =). → 'Visa din omgivning hur mycket du älskar '
 ## project
 - override: 9
-- converged 🎉: 14
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3271,7 +3271,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 834
+- oförändrad: 848
   · [override] Company → 'Bolag'
   · [override] Partner company cannot be different from its assigned projec → 'Partnerbolaget får inte vara ett annat ä'
   · [override] Partner company cannot be different from its assigned tasks' → 'Partnerbolaget får inte vara annorlunda '
@@ -3449,7 +3449,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Companies → 'Bolag'
 ## project_todo
 - override: 0
-- converged 🎉: 9
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3457,10 +3457,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 89
+- oförändrad: 98
 ## purchase
 - override: 8
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3468,7 +3468,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 575
+- oförändrad: 579
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
@@ -3523,7 +3523,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 9
 ## purchase_requisition
 - override: 5
-- converged 🎉: 5
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3531,7 +3531,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 171
+- oförändrad: 176
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
   · [override] Company Subtotal → 'Bolag Subtotal'
@@ -3574,7 +3574,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Put an address if you want to deliver directly from the vend → 'Ange en adress om du vill leverera direk'
 ## rating
 - override: 1
-- converged 🎉: 8
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3582,11 +3582,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 85
+- oförändrad: 93
   · [override] " or someone from the same company can give it a rating. → '" eller så kan någon från samma bolag ge'
 ## repair
 - override: 1
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3594,11 +3594,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 258
+- oförändrad: 262
   · [override] Company → 'Bolag'
 ## resource
 - override: 5
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3606,7 +3606,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 163
+- oförändrad: 164
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] If empty, this is a generic time off for the company. If a r → 'Om det är tomt är detta en generisk ledi'
@@ -3625,7 +3625,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 18
 ## sale
 - override: 10
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3633,7 +3633,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 848
+- oförändrad: 852
   · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
@@ -3735,7 +3735,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 12
 ## sale_management
 - override: 2
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3743,7 +3743,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 80
+- oförändrad: 81
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## sale_margin
@@ -3770,7 +3770,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 26
 ## sale_pdf_quote_builder
 - override: 2
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3778,7 +3778,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 115
+- oförändrad: 117
   · [override] Company → 'Bolag'
   · [override] Provide header pages and footer pages to compose an attracti → 'Tillhandahåll sidhuvud och sidfot för at'
 ## sale_product_matrix
@@ -3933,7 +3933,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 3
 ## sales_team
 - override: 6
-- converged 🎉: 3
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3941,7 +3941,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 116
+- oförändrad: 119
   · [override] <i class="fa fa-fw me-1 fa-building text-primary" title="Com → '<i class="fa fa-fw me-1 fa-building text'
   · [override] Company → 'Bolag'
   · [override] Member Company → 'Medlemsbolag'
@@ -3950,7 +3950,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] User Company → 'Användarbolag'
 ## sms
 - override: 2
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3958,7 +3958,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 236
+- oförändrad: 237
   · [override] Companies → 'Bolag'
   · [override] Your sender name must be between 3 and 11 characters long an → 'Ditt avsändarnamn måste vara mellan 3 oc'
 ## sms_twilio
@@ -3976,7 +3976,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
 ## snailmail
 - override: 2
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3984,7 +3984,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 99
+- oförändrad: 100
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## snailmail_account
@@ -4013,7 +4013,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Companies → 'Bolag'
 ## spreadsheet
 - override: 2
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4021,7 +4021,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2149
+- oförändrad: 2153
   · [override] Currency not available for this company. → 'Valuta ej tillgänglig för detta bolag.'
   · [override] The company to take the exchange rate from. → 'Bolaget som valutakursen ska hämtas från'
 ## spreadsheet_account
@@ -4041,7 +4041,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] The company. → 'Bolaget'
 ## spreadsheet_dashboard
 - override: 1
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4049,7 +4049,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 59
+- oförändrad: 63
   · [override] Companies → 'Bolag'
 ## spreadsheet_dashboard_account
 - override: 0
@@ -4185,7 +4185,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 25
 ## stock
 - override: 18
-- converged 🎉: 6
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4193,7 +4193,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1785
+- oförändrad: 1791
   · [override] Changing the company of this record is forbidden at this poi → 'Det är inte tillåtet att ändra bolaget p'
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
@@ -4264,7 +4264,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 57
 ## stock_landed_costs
 - override: 2
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4272,7 +4272,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 117
+- oförändrad: 121
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## stock_maintenance
@@ -4288,7 +4288,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 10
 ## stock_picking_batch
 - override: 4
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4296,7 +4296,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 212
+- oförändrad: 216
   · [override] Company → 'Bolag'
   · [override] The selected operations should belong to a unique company. → 'De utvalda verksamheterna ska tillhöra e'
   · [override] The selected pickings should belong to an unique company. → 'Den utvalda plockningen ska tillhöra ett'
@@ -4315,7 +4315,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Companies → 'Bolag'
 ## survey
 - override: 1
-- converged 🎉: 30
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4323,7 +4323,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 864
+- oförändrad: 894
   · [override] Company Certifications Count → 'Bolagets antal certifieringar'
 ## survey_crm
 - override: 0
@@ -4349,7 +4349,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 20
 ## uom
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4357,10 +4357,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 62
+- oförändrad: 63
 ## utm
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4368,10 +4368,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 108
+- oförändrad: 109
 ## web
 - override: 16
-- converged 🎉: 11
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4379,7 +4379,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 4348
+- oförändrad: 4359
   · [override] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
   · [override] <strong>Company details block</strong> → '<strong>Block för bolagsuppgifter</stron'
   · [override] Companies → 'Bolag'
@@ -4431,7 +4431,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 27
 ## website
 - override: 47
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4439,7 +4439,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 3035
+- oförändrad: 3037
   · [override] " This company transformed our business. <br/>Their solution → '"Det här bolaget förändrade vår verksamh'
   · [override] 50,000+ companies run Odoo <br class="d-none d-lg-inline"/>t → '50 000+ bolag använder Odoo <br class="d'
   · [override] 50,000+ companies run Odoo to grow their businesses. → '50 000+ bolag använder Odoo för att utve'
@@ -4489,7 +4489,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] organization, company, people, members, staffs, profiles, bi → 'organisation, bolag, människor, medlemma'
 ## website_blog
 - override: 2
-- converged 🎉: 3
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4497,7 +4497,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 379
+- oförändrad: 382
   · [override] A traveler may choose to explore the area by hiking around t → 'En resenär kan välja att utforska område'
   · [override] Write a small text here to describe your blog or company. → 'Skriv en liten text här för att beskriva'
 ## website_cf_turnstile
@@ -4525,7 +4525,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Your Company → 'Ditt bolag'
 ## website_crm_iap_reveal
 - override: 8
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4533,7 +4533,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 81
+- oförändrad: 82
   · [override] 1 credit is consumed per visitor matching the website traffi → '1 kredit förbrukas per besökare som uppf'
   · [override] Choose whether to track companies only or companies and thei → 'Välj om du vill spåra endast bolag eller'
   · [override] Companies → 'Bolag'
@@ -4555,7 +4555,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 9
 ## website_crm_partner_assign
 - override: 0
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4563,7 +4563,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 235
+- oförändrad: 237
 ## website_crm_sms
 - override: 0
 - converged 🎉: 0
@@ -4577,7 +4577,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 3
 ## website_customer
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4585,7 +4585,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 61
+- oförändrad: 62
 ## website_event
 - override: 3
 - converged 🎉: 0
@@ -4660,7 +4660,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 5
 ## website_event_exhibitor
 - override: 0
-- converged 🎉: 6
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4668,7 +4668,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 154
+- oförändrad: 160
 ## website_event_sale
 - override: 0
 - converged 🎉: 0
@@ -4682,7 +4682,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 31
 ## website_event_track
 - override: 4
-- converged 🎉: 9
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4690,7 +4690,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 456
+- oförändrad: 465
   · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Description of the partner (name, function and company name) → 'Beskrivning av partnern (namn, function '
@@ -4730,7 +4730,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 103
 ## website_forum
 - override: 0
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4738,7 +4738,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 701
+- oförändrad: 705
 ## website_hr_recruitment
 - override: 4
 - converged 🎉: 0
@@ -4858,7 +4858,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 99
 ## website_profile
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4866,7 +4866,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 106
+- oförändrad: 107
 ## website_project
 - override: 1
 - converged 🎉: 0
@@ -4881,7 +4881,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company Name → 'Bolagsnamn'
 ## website_sale
 - override: 5
-- converged 🎉: 4
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4889,7 +4889,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1008
+- oförändrad: 1012
   · [override] Companies → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Created in 2021, the company is young and dynamic. Discover  → 'Bolaget bildades 2021 och är ungt och dy'
@@ -5052,7 +5052,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - oförändrad: 63
 ## website_slides
 - override: 1
-- converged 🎉: 9
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -5060,7 +5060,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1132
+- oförändrad: 1141
   · [override] Company Course Count → 'Bolagets kursräknare'
 ## website_slides_forum
 - override: 0

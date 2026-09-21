@@ -53,18 +53,6 @@ msgid "<span class=\"o_stat_text\">Reconciled Items</span>"
 msgstr "<span class=\"o_stat_text\">Avstämda verifikatsrader</span>"
 
 #. module: account
-# override | officiell: '<span class="text-muted">\n
-# <i>Säkra bokföringsposter upp till</i>\n                            </span>'
-msgid ""
-"<span class=\"text-muted\">\n"
-"                                <i>Secure entries up to</i>\n"
-"                            </span>"
-msgstr ""
-"<span class=\"text-muted\">\n"
-"                                <i>Säkra verifikat upp till</i>\n"
-"                            </span>"
-
-#. module: account
 # override | officiell: '<span>bokföringsposten har skapats genom appen
 # Faktura innan Bokföring installerades. Saldot har importerats
 # separat.</span>'
@@ -1103,16 +1091,6 @@ msgstr "Rätta verifikat"
 # override | officiell: 'Sök efter journalhändelser'
 msgid "Search Journal Items"
 msgstr "Sök efter verifikatsrader"
-
-#. module: account
-# override | officiell: 'Säkra inmatningar'
-msgid "Secure Entries"
-msgstr "Stäng period"
-
-#. module: account
-# override | officiell: 'Säkra bokföringsposter'
-msgid "Secure Journal Entries"
-msgstr "Säkra verifikat"
 
 #. module: account
 # override | officiell: 'Säkra bokföringsposter med hashning'

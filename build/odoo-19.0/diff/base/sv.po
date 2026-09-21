@@ -3118,7 +3118,7 @@ msgstr ""
 "Jämför intäkter med prognoser och budgetar i realtid."
 
 #. module: base
-# conflict | officiell: 'Odoo HR\n--------------------\n\nMed hjälp av Odoos
+# override | officiell: 'Odoo HR\n--------------------\n\nMed hjälp av Odoos
 # <a href="https://www.odoo.com/app/employees">HR-funktioner</a>,\nkan du
 # hantera den viktigaste tillgången i ditt företag: Människor\n\nHantera alla
 # HR-funktioner snabbt och enkelt: dela kunskap, rekrytera,\nutvärdera,
