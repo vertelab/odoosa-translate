@@ -7,3 +7,7 @@ cache/
 # Python
 __pycache__/
 *.pyc
+.shazam/
+PLAN*
+graphify-out/
+openspec/
