@@ -1,6 +1,6 @@
-# odoosa-report — 18.0 — 2026-10-12 05:31
+# odoosa-report — 18.0 — 2026-10-19 05:31
 
-**Totalt:** {'override': 1014, 'converged': 3, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 55192}
+**Totalt:** {'override': 1014, 'converged': 4, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 55191}
 
 ## account
 - override: 292
@@ -323,7 +323,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - oförändrad: 3
 ## account_check_printing
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -331,7 +331,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 64
+- oförändrad: 63
   · [override] Companies → 'Bolag'
 ## account_debit_note
 - override: 0
@@ -1138,7 +1138,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 32
 ## calendar
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1146,7 +1146,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 373
+- oförändrad: 371
 ## calendar_sms
 - override: 0
 - converged 🎉: 0
@@ -2164,7 +2164,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Here you can see your cash moves.<br>A cash move can either  → 'Här kan du se dina kontantrörelser.<br>E'
 ## mail
 - override: 8
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2172,7 +2172,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1807
+- oförändrad: 1808
   · [override] Companies → 'Bolag'
   · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
   · [override] Company → 'Bolag'
@@ -4393,7 +4393,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 109
 ## web
 - override: 16
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4401,7 +4401,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 4304
+- oförändrad: 4306
   · [override] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
   · [override] <strong>Company details block</strong> → '<strong>Block för bolagsuppgifter</stron'
   · [override] Companies → 'Bolag'
@@ -4464,7 +4464,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 25
 ## website
 - override: 49
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4472,7 +4472,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2700
+- oförändrad: 2699
   · [override] " This company transformed our business. <br/>Their solution → '" Det här bolaget förändrade vår verksam'
   · [override] 50,000+ companies run Odoo <br class="d-none d-lg-inline"/>t → '50 000+ bolag använder Odoo <br class="d'
   · [override] 50,000+ companies run Odoo to grow their businesses. → 'över 50 000 bolag använder Odoo för att '

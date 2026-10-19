@@ -1,6 +1,6 @@
-# odoosa-report — 19.0 — 2026-10-12 05:33
+# odoosa-report — 19.0 — 2026-10-19 05:33
 
-**Totalt:** {'override': 828, 'converged': 2, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 59887}
+**Totalt:** {'override': 828, 'converged': 1, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 59888}
 
 ## account
 - override: 110
@@ -1978,7 +1978,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Here you can see your cash moves.<br>A cash move can either  → 'Här kan du se dina kontantrörelser.<br>E'
 ## mail
 - override: 8
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1986,7 +1986,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2081
+- oförändrad: 2082
   · [override] Companies → 'Bolag'
   · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
   · [override] Company → 'Bolag'
@@ -4214,7 +4214,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] You cannot change the company of a lot/serial number current → 'Du kan inte byta bolag för ett parti-/se'
 ## stock_account
 - override: 5
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4222,7 +4222,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 174
+- oförändrad: 173
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
@@ -4371,7 +4371,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 109
 ## web
 - override: 16
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4379,7 +4379,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 4358
+- oförändrad: 4359
   · [override] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
   · [override] <strong>Company details block</strong> → '<strong>Block för bolagsuppgifter</stron'
   · [override] Companies → 'Bolag'
