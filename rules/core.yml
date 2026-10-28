@@ -187,3 +187,12 @@ terms:
       Corporate/Business. OBS: glossary.csv har motstridiga mål (Company→Företag,
       company→bolag) — denna regel är det operationella lagret (Bolag i
       Company-kontext). Att stämma av glossary är en öppen task.
+
+  # Lagt till via add-term 2026-10-28 (modul: sale)
+  - id: din-rabatt
+    old: "Din fördel"
+    new: "Din rabatt"
+    modules: [sale]
+    versions: [18, 19]
+    match: longest
+    note: "Vertel 2026-10-28: kundportalens rabattrad (sale_order_advantage) visar 'Din fördel' — ska vara 'Din rabatt'"
