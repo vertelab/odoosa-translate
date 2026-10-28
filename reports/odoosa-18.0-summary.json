@@ -1,6 +1,6 @@
 {
   "edition": "18.0",
-  "generated": "2026-10-26 05:31",
+  "generated": "2026-10-28 17:32",
   "totals": {
     "override": 1014,
     "converged": 50,
@@ -13,11 +13,7 @@
     "removed": 0,
     "noop": 55144
   },
-  "delta": {
-    "converged": 46,
-    "conflict": 1,
-    "noop": -47
-  },
+  "delta": {},
   "top_modules": [
     {
       "module": "account",
