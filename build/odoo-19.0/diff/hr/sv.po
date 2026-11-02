@@ -38,6 +38,68 @@ msgstr ""
 " disruptiva produkter. Kom och arbeta på ett växande bolag som erbjuder bra förmåner med möjligheter att gå framåt och lära dig från erfarna ledare. Vi söker en erfaren och enastående medarbetare. Denna position är både kreativ och rigorös till sin natur, du behöver tänka utanför boxen. Vi förväntar oss att kandidaten är proaktiv och har en \"få det gjort\" anda. För att lyckas behöver du ha goda problemlösningsfärdigheter."
 
 #. module: hr
+# conflict | officiell: 'Som teknikchef kommer du <b>ha ett nära samarbete med
+# våra team för produktutveckling, marknadsföring och driftsprocesser\n
+# för att skapa och lansera innovativa tekniklösningar som håller oss i
+# framkanten inom vår industri\n                                </b>. Gå med i
+# ett snabbt växande företag, där du kan ta fördel av konkurrenskraftiga
+# förmåner och\n                                tillväxtmöjligheter samtidigt
+# som du samarbetar med experter inom vårt verksamhetsområde.\n
+# \n                                <br>\n                                I
+# den här rollen kommer du att <b>definiera och implementera en strategi och
+# kartläggning för vår tekniska utveckling</b>,\n
+# samt kontrollera att strategin stämmer överens med verksamhetens långsiktiga
+# mål. Tjänsten är både <b>kreativ och\n
+# analytisk</b>, vilket kräver en del självständigt tänkande samtidigt som man
+# implementerar effektiva lösningar.\n                                Vi letar
+# efter någon som är proaktiv och handlingskraftig,\n
+# som gärna tar sig an utmaningar och tycker om att leda projekt till
+# framgång.\n                                <br>\n
+# För att kunna frodas i den här rollen krävs <b>omfattande erfarenhet av
+# mjukvaruarkitektur,\n                                molnutveckling, och
+# datasäkerhet</b>, tillsammans med en bakgrund inom\n
+# ledarskap och agil projektledning. En väldigt god kommunikationsförmåga
+# krävs \n                                för att kunna förmedla komplexa
+# tekniska idéer till delägare utan teknisk bakgrund, samt \n
+# för att kunna främja samarbete mellan företagets olika avdelningar.'
+msgid ""
+"As our Chief Technology Officer, you will <b>work closely with product, marketing, and\n"
+"                                operations teams to create and launch innovative technology solutions that set us apart\n"
+"                                in the industry</b>. Join our fast-growing company, where you’ll enjoy competitive\n"
+"                                benefits and opportunities for professional growth while collaborating with top experts\n"
+"                                in the field.\n"
+"                                <br>\n"
+"                                In this role, you will <b>define and execute our technology strategy and roadmap</b>,\n"
+"                                ensuring it aligns with our business goals. This position is both <b>creative and\n"
+"                                analytical</b>, requiring you to think outside the box while implementing effective\n"
+"                                solutions. We are looking for a proactive leader with a strong \"get it done\" mentality\n"
+"                                who can tackle challenges head-on and drive projects to successful completion.\n"
+"                                <br>\n"
+"                                To excel in this position, you will need <b>extensive experience in software\n"
+"                                architecture, cloud computing, and data security</b>, along with a strong background in\n"
+"                                team leadership and agile project management. Your excellent communication skills will\n"
+"                                be vital for conveying complex technical ideas to non-technical stakeholders and\n"
+"                                fostering collaboration across all departments."
+msgstr ""
+"Som teknikchef kommer du <b>ha ett nära samarbete med våra team för produktutveckling, marknadsföring och driftsprocesser\n"
+"                                för att skapa och lansera innovativa tekniklösningar som håller oss i framkanten inom vår industri\n"
+"                                </b>. Gå med i ett snabbt växande bolag, där du kan ta fördel av konkurrenskraftiga förmåner och\n"
+"                                tillväxtmöjligheter samtidigt som du samarbetar med experter inom vårt verksamhetsområde.\n"
+"                                \n"
+"                                <br>\n"
+"                                I den här rollen kommer du att <b>definiera och implementera en strategi och kartläggning för vår tekniska utveckling</b>,\n"
+"                                samt kontrollera att strategin stämmer överens med verksamhetens långsiktiga mål. Tjänsten är både <b>kreativ och\n"
+"                                analytisk</b>, vilket kräver en del självständigt tänkande samtidigt som man implementerar effektiva lösningar.\n"
+"                                Vi letar efter någon som är proaktiv och handlingskraftig,\n"
+"                                som gärna tar sig an utmaningar och tycker om att leda projekt till framgång.\n"
+"                                <br>\n"
+"                                För att kunna frodas i den här rollen krävs <b>omfattande erfarenhet av mjukvaruarkitektur,\n"
+"                                molnutveckling, och datasäkerhet</b>, tillsammans med en bakgrund inom\n"
+"                                ledarskap och agil projektledning. En väldigt god kommunikationsförmåga krävs \n"
+"                                för att kunna förmedla komplexa tekniska idéer till delägare utan teknisk bakgrund, samt \n"
+"                                för att kunna främja samarbete mellan bolagets olika avdelningar."
+
+#. module: hr
 # override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"

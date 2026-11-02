@@ -204,11 +204,16 @@ msgid "Company information"
 msgstr "Bolagsinformation"
 
 #. module: account_peppol
-# override | officiell: 'Jag försäkrar om att jag har tillåtelse att
-# registrera det här företaget.'
-msgid "I reckon I'm allowed to register this company."
+# new-corrected | officiell: 'Om du inte är momspliktig, bör du inte ha ett
+# angivet momsregistreringsnummer i dina företagskontakter och dina kunder bör
+# inte ha det heller.'
+msgid ""
+"If you are not subject to VAT, you should not have a VAT number on your "
+"company/contacts and your clients should not have one either."
 msgstr ""
-"Jag försäkrar om att jag har tillåtelse att registrera det här bolaget."
+"Om du inte är momspliktig, bör du inte ha ett angivet "
+"momsregistreringsnummer i dina bolagskontakter och dina kunder bör inte ha "
+"det heller."
 
 #. module: account_peppol
 # override | officiell: 'Är en filial av ett företag'

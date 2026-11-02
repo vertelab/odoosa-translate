@@ -21,7 +21,7 @@ msgstr ""
 "            </small>"
 
 #. module: portal
-# conflict | officiell: '<t t-set="user_name" t-value="object.user_id.name or
+# override | officiell: '<t t-set="user_name" t-value="object.user_id.name or
 # object.partner_id.name or \'\'"/>\n            <t t-set="company_name"
 # t-value="object.user_id.company_id.name or object.partner_id.company_id.name
 # or \'\'"/>\n            <t t-set="signup_url"

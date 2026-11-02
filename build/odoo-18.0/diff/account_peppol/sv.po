@@ -20,6 +20,18 @@ msgid "Company Name"
 msgstr "Bolagets namn"
 
 #. module: account_peppol
+# conflict | officiell: 'Om du inte är momspliktig, bör du inte ha ett angivet
+# momsregistreringsnummer i dina företagskontakter och dina kunder bör inte ha
+# det heller.'
+msgid ""
+"If you are not subject to VAT, you should not have a VAT number on your "
+"company/contacts and your clients should not have one either."
+msgstr ""
+"Om du inte är momspliktig, bör du inte ha ett angivet "
+"momsregistreringsnummer i dina bolagskontakter och dina kunder bör inte ha "
+"det heller."
+
+#. module: account_peppol
 # override | officiell: 'Överordnat företag'
 msgid "Parent Company"
 msgstr "Överordnat bolag"

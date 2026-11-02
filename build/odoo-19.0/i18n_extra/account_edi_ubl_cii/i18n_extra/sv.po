@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account_edi_ubl_cii\n"
-"POT-Creation-Date: 2026-10-28 17:32\n"
-"PO-Revision-Date: 2026-10-28 17:32\n"
+"POT-Creation-Date: 2026-11-02 05:33\n"
+"PO-Revision-Date: 2026-11-02 05:33\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0208
 msgid "Belgian Company Registry"
 msgstr "Bolagsregister i Belgien"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model,name:account_edi_ubl_cii.model_res_company
+msgid "Companies"
+msgstr "Bolag"
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0191

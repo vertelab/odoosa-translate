@@ -1121,7 +1121,7 @@ msgstr ""
 "Steg 4: Upprepa steg 1,2,3 för alla GSTIN du har i odoo. Om du har ett flerbolag med samma GST-nummer utför du steg 1 endast för det första bolaget."
 
 #. module: base
-# conflict | officiell: 'Hantera
+# override | officiell: 'Hantera
 # ledighetsansökningar\n========================================\n\nDen här
 # appen hanterar ledighetsscheman inom ditt företag. Anställda kan ansöka om
 # ledighet. Därefter kan chefer granska ledighetsansökningar och antingen

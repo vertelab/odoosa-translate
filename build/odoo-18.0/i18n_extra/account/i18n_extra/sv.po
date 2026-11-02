@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account\n"
-"POT-Creation-Date: 2026-10-28 17:32\n"
-"PO-Revision-Date: 2026-10-28 17:32\n"
+"POT-Creation-Date: 2026-11-02 05:31\n"
+"PO-Revision-Date: 2026-11-02 05:31\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -37,11 +37,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span class=\"o_stat_text\">Cash Basis Entries</span>"
 msgstr "<span class=\"o_stat_text\">Verifikat enligt kontantmetoden</span>"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
-msgid "<span class=\"o_stat_text\">Journal Entries</span>"
-msgstr "<span class=\"o_stat_text\">Verifikat</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
@@ -1892,24 +1887,6 @@ msgstr "Du försöker stämma av verifikat som redan är avstämda."
 
 #. module: account
 #. odoo-python
-#: code:addons/account/models/account_journal.py:0
-msgid ""
-"You can not archive a journal containing draft journal entries.\n"
-"\n"
-"To proceed:\n"
-"1/ click on the top-right button 'Journal Entries' from this journal form\n"
-"2/ then filter on 'Draft' entries\n"
-"3/ select them all and post or delete them through the action menu"
-msgstr ""
-"Det är inte möjligt att arkivera en journal som innehåller utkast till verifikat.\n"
-"\n"
-"Fortsätt såhär:\n"
-"1/ klicka på knappen 'Verifikat' längst upp till höger i formuläret\n"
-"2/ filtrera sedan efter \"Utkast\"\n"
-"3/ markera utkasten och bokför eller radera dem genom åtgärdsmenyn"
-
-#. module: account
-#. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "You can only register payment for posted journal entries."
 msgstr ""
@@ -1992,16 +1969,6 @@ msgid ""
 msgstr ""
 "Du kan inte ha två rader med betalningsmetoder av samma betalningstyp "
 "(%(payment_type)s) och med samma namn (%(name)s) på en och samma verifikat."
-
-#. module: account
-#. odoo-python
-#: code:addons/account/models/account_move.py:0
-msgid ""
-"You can't reset to draft those journal entries. You need to request a "
-"cancellation instead."
-msgstr ""
-"Det är inte möjligt återställa de verifikaten till utkast. Du måste istället"
-" begära en makulering."
 
 #. module: account
 #. odoo-python

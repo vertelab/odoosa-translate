@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account_peppol\n"
-"POT-Creation-Date: 2026-10-28 17:32\n"
-"PO-Revision-Date: 2026-10-28 17:32\n"
+"POT-Creation-Date: 2026-11-02 05:31\n"
+"PO-Revision-Date: 2026-11-02 05:31\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,17 @@ msgstr "Bolag"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_name
 msgid "Company Name"
 msgstr "Bolagets namn"
+
+#. module: account_peppol
+#. odoo-python
+#: code:addons/account_peppol/tools/peppol_errors.py:0
+msgid ""
+"If you are not subject to VAT, you should not have a VAT number on your "
+"company/contacts and your clients should not have one either."
+msgstr ""
+"Om du inte är momspliktig, bör du inte ha ett angivet "
+"momsregistreringsnummer i dina bolagskontakter och dina kunder bör inte ha "
+"det heller."
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_id
