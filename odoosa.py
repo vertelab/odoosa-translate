@@ -936,14 +936,18 @@ PUBLISH_KEY = "/root/.ssh/odoosa_translate"
 
 
 def git(cmd, cwd=None, check=True):
+    import os
     import subprocess
-    env = None
+    # Ärv alltid processens miljö — env= ERSÄTTER den annars, så HOME/PATH
+    # försvinner och git tappar sin config (driftlärdom 2026-11-09).
+    env = dict(os.environ)
     if Path(PUBLISH_KEY).exists():
-        env = {"GIT_SSH_COMMAND": f"ssh -i {PUBLISH_KEY} -o IdentitiesOnly=yes"}
+        env["GIT_SSH_COMMAND"] = f"ssh -i {PUBLISH_KEY} -o IdentitiesOnly=yes"
     r = subprocess.run(cmd, cwd=cwd or ROOT, capture_output=True, text=True,
                        env=env, timeout=300)
     if check and r.returncode != 0:
-        raise RuntimeError(f"git {' '.join(cmd)} misslyckades: {r.stderr.strip()[:500]}")
+        # cmd[0] är redan "git" — skriv inte "git git push" i felmeddelandet.
+        raise RuntimeError(f"{' '.join(cmd)} misslyckades: {r.stderr.strip()[:500]}")
     return r
 
 
