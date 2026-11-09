@@ -1,38 +1,23 @@
-# odoosa-report — 18.0 — 2026-11-02 05:31
+# odoosa-report — 18.0 — 2026-11-09 05:31
 
-**Totalt:** {'override': 1012, 'converged': 54, 'conflict': 1, 'new-correct': 73, 'new-corrected': 1, 'new-ours': 0, 'new-manual': 58, 'flagged': 0, 'removed': 56, 'noop': 55086}
+**Totalt:** {'override': 814, 'converged': 639, 'conflict': 28, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 4, 'flagged': 0, 'removed': 1, 'noop': 54803}
 
 ## account
-- override: 289
-- converged 🎉: 2
-- conflict ⚠️: 0
-- ny (redan rätt): 5
+- override: 89
+- converged 🎉: 309
+- conflict ⚠️: 20
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 2
-- oförändrad: 2619
+- borttagen: 0
+- oförändrad: 2497
   · [override] %(move)s reached an invalid state regarding its related stat → '%(move)s är i ett ogiltigt tillstånd när'
-  · [override] -> View partially reconciled entries → '-> Visa delvis avstämda verifikat'
-  · [override] . The journal entries need to be computed by Odoo before bei → '. Beloppet i verifikatet måste beräknas '
-  · [override] <span class="o_stat_text">Cash Basis Entries</span> → '<span class="o_stat_text">Verifikat enli'
-  · [override] <span class="o_stat_text">Journal Entry</span> → '<span class="o_stat_text">Verifikat</spa'
-  · [override] <span class="o_stat_text">Reconciled Items</span> → '<span class="o_stat_text">Avstämda verif'
-  · [override] <span>This entry has been generated through the Invoicing ap → '<span>verifikatet har skapats genom appe'
-  · [override] A Cash Register allows you to manage cash entries in your ca → 'Ett kassaregister låter dig hantera kont'
+  · [conflict] . The journal entries need to be computed by Odoo before bei → '. Beloppen i verifikationerna måste berä'
   · [override] A Ledger group name must be unique per company. → 'Namnet på en huvudboksgrupp måste vara u'
-  · [override] A journal entry consists of several journal items, each of
-  → 'En verifikat består av flera verifikatsr'
-  · [override] A payment with an outstanding account cannot be confirmed wi → 'En betalning med ett utestående konto ka'
   · [override] Account %(account)s will be split in %(num_accounts)s, one f → 'Kontot %(account)s kommer att delas upp '
   · [override] Account %s cannot be unmerged as it already belongs to a sin → 'Kontot %s kan inte delas upp eftersom de'
-  · [override] Account Entry → 'Verifikat'
-  · [override] Account Has Hashed Entries → 'Konto har hashade verifikat'
-  · [override] Account that will be set on lines created in cash basis jour → 'Konto som anges på rader i verifikat ska'
-  · [override] Account with Entries → 'Konto med verifikat'
-  · [override] Account: Post draft entries with auto_post enabled and accou → 'Konto: Bokför utkast till verifikat med '
-  · [override] Adjusting Entry → 'Justering av verifikat'
   · [override] All Companies → 'Alla bolag'
   · [override] All selected moves for reversal must belong to the same comp → 'Alla markerade rättningsrörelser måste v'
   · [override] Always positive amount concerned by this matching expressed  → 'Enbart positivt belopp kopplat till denn'
@@ -40,7 +25,6 @@
   · [override] Amount to Pay (company currency) → 'Belopp att betala (bolagets valuta)'
   · [override] An account is part of a ledger allowing your company
         → 'Ett konto är en del av ett huvudbok som '
-  · [override] An error occurred when computing the inalterability. All ent → 'Ett fel inträffade vid beräkningen av of'
   · [override] Analytic Account → 'Objektkonto'
   · [override] Analytic Accounting → 'Objektredovisning'
   · [override] Analytic Accounts → 'Objektkonton'
@@ -54,23 +38,11 @@
   · [override] Analytic Precision → 'Objektprecision'
   · [override] Analytic Reporting → 'Objektrapporter'
   · [override] Analytic lines → 'Objektrader'
-  · [override] Another entry with the same name already exists. → 'En annan verifikat med samma namn finns '
-  · [override] Any entry up to and including that date will be postponed to → 'Alla verifikat fram till och inklusive d'
-  · [override] Any entry up to and including that date will be postponed to → 'Alla verifikat fram till och inklusive d'
-  · [override] Any entry with taxes up to and including that date will be p → 'Alla verifikat med skatter till och med '
-  · [override] Any journal item on a payable account must have a due date a → 'Alla verifikat på ett konto med leverant'
-  · [override] Any journal item on a receivable account must have a due dat → 'Alla verifikat på ett konto med kundford'
-  · [override] Any purchase entry prior to and including this date will be  → 'Alla inköpsverifikat fram till och inklu'
-  · [override] Any sales entry prior to and including this date will be pos → 'Alla försäljningsverifikat fram till och'
-  · [override] Automatic Entry Default Journal → 'Standard bokföringsjournal för automatis'
   · [override] Bank & Cash accounts cannot be shared between companies. → 'Bank- och kassakonton kan inte delas mel'
   · [override] Bank Account Number to which the invoice will be paid. A Com → 'Kontonummer för det bankkonto som faktur'
   · [override] Belongs to the same company as %s. → 'Tillhör samma bolag som %s.'
-  · [override] Cancel Entry → 'Avbryt verifikat'
   · [override] Cannot find a chart of accounts for this company, You should → 'Ingen kontoplan hittades för det här bol'
-  · [override] Cash Basis Entries → 'Verifikat enligt kontantmetoden'
-  · [override] Check this box if this account allows invoices & payments ma → 'Markera denna ruta om kontot tillåter ma'
-  · [override] Comma-separated list of fields from account.move.line (Journ → 'Lista över fält separerade med kommateck'
+  · [conflict] Changing your company name is not allowed once invoices have → 'Att ändra bolagsnamn är inte tillåtet nä'
   · [override] Companies → 'Bolag'
   · [override] Companies that refers to partner → 'Bolag kopplade till partner'
   · [override] Company → 'Bolag'
@@ -85,227 +57,71 @@
   · [override] Company Vat Placeholder → 'Platshållare för bolagets momsregistreri'
   · [override] Company has a chart of accounts → 'Bolaget har en kontoplan'
   · [override] Company related to this journal → 'Bolag relaterade till denna journal'
-  · [override] Contains hashed entries, but %s also has hashed entries. → 'Innehåller hashade verifikat, men %s har'
-  · [override] Corrupted data on journal entry with id %(id)s (%(name)s). → 'Skadad data i verifikatet med id %(id)s '
-  · [override] Counterpart Items → 'Motsvarande verifikatsrader'
   · [override] Countries for which the company has a VAT number → 'Länder för vilka bolaget har ett momsreg'
-  · [override] Create Automatic Entries → 'Skapa verifikat automatiskt'
-  · [override] Create Entry → 'Skapa verifikat'
-  · [override] Create Journal Entries → 'Skapa verifikat'
-  · [override] Create a journal entry → 'Skapa en verifikat'
-  · [override] Credit journal items that are matched with this journal item → 'Verifikatsrader med kreditbelopp som mat'
-  · [override] Currency of the credit journal item. → 'Valutan som verifikatsradens kreditbelop'
-  · [override] Currency of the debit journal item. → 'Valutan som verifikatsradens debetbelopp'
   · [override] Currency rate from company currency to document currency. → 'Växelkurs vid omvandling från bolagets v'
-  · [override] Date (inclusive) to which the numbers are resequenced. If no → 'Datum (till och med) då numren ska omord'
-  · [override] Debit journal items that are matched with this journal item. → 'Debitera verifikatsrader som matchar den'
   · [override] Default Incoterm of your company → 'Standard incotermer för bolaget'
   · [override] Default on whether the sales price used on the product and i → 'Standard om huruvida det försäljningspri'
   · [override] Define which company can select the multi-ledger in report f → 'Ange vilket bolag som kan välja flerbola'
-  · [override] Draft Entries → 'Utkast till verifikat'
-  · [override] Draft Entry → 'Utkast till verifikat'
-  · [override] Drop to create journal entries with attachments. → 'Släpp för att skapa verifikat med bilago'
-  · [override] Entries → 'Verifikat'
-  · [override] Entries Count → 'Antal verifikat'
-  · [override] Entries are correctly hashed → 'Verifikaten är korrekt hashade'
-  · [override] Entries are not from the same account: %s → 'Verifikat utgår inte från samma konto: %'
-  · [override] Entries can only be created for a single company at a time. → 'Verifikat kan endast skapas för ett bola'
-  · [override] Entries don't belong to the same company: %s → 'Verifikat tillhör inte samma bolag: %s'
-  · [override] Entries in the future are set to be auto-posted by default.  → 'Framtida verifikat som har som standard '
-  · [override] Entries to Review → 'Verifikat att granska'
-  · [override] Entries: %(account)s → 'Verifikat: %(account)s'
-  · [override] Entry Name → 'Namn på verifikat'
-  · [override] Exchange difference entries: → 'Verifikat som redovisar växlingsskillnad'
-  · [override] First Entry → 'Första verifikatet'
-  · [override] First recurring entry → 'Första återkommande verifikatet'
+  · [conflict] Entries can only be created for a single company at a time. → 'Verifikat kan endast skapas för ett bola'
+  · [conflict] Entries don't belong to the same company: %s → 'Följande verifikat tillhör inte samma bo'
   · [override] Fiscal Positions → 'Skatteområde'
-  · [override] Forces all journal items in this account to have a specific  → 'Tvingar fram att alla verifikatsrader in'
-  · [override] Generated Entries → 'Skapta verifikat'
-  · [override] Has Accounting Entries → 'Har verifikat'
-  · [override] Has Entries → 'Har verifikat'
-  · [override] Has Posted Entries → 'Har bokförda verifikat'
-  · [override] Has Reconciled Entries → 'Har avstämda verifikat'
-  · [override] Hash All Entries → 'Hasha alla verifikat'
-  · [override] Highest Date such that all posted journal entries prior to ( → 'Högsta datum så att alla bokförda verifi'
-  · [override] If activated, user-defined filters on journal items can be s → 'Om funktionen är aktiverad kan användard'
-  · [override] If empty, uses the journal of the journal entry to be revers → 'Om fältet lämnas tomt så används journal'
-  · [override] If set, this account is used to automatically balance entrie → 'Om så är angivet, så kommer detta konto '
-  · [override] If ticked, when an entry is posted, we retroactively hash al → 'Om rutan är ikryssad så hashar vi retroa'
-  · [override] If you want to use "Off-Balance Sheet" accounts, all the acc → 'Om du vill använda konton som är "Utanfö'
-  · [override] Import Template for Journal Items → 'Importmall för verifikatsrader'
-  · [override] Indicates that this journal item is a tax line → 'Indikerar att denna verifikatsrad utgörs'
-  · [override] Invoices whose journal items have been reconciled with these → 'Fakturor vars verifikatsrader har stämts'
-  · [override] Is Entries → 'Är verifikat'
   · [override] Items With Missing Analytic Distribution → 'Objekt som saknar objektfördelning'
-  · [override] Journal Entries → 'Verifikat'
-  · [override] Journal Entries by Date → 'Verifikat sorterade efter datum'
-  · [override] Journal Entries to Hash → 'Verifikat att hasha'
-  · [override] Journal Entry Info → 'Information om verifikat'
-  · [override] Journal Item → 'Verifikatsrad'
-  · [override] Journal Item %s created → 'Verifikatsrad %s skapad'
-  · [override] Journal Item %s deleted → 'Verifikatsrad %s bottagen'
-  · [override] Journal Item %s updated → 'Verifikatsrad %s uppdaterades'
-  · [override] Journal Item Label → 'Etikett för verifikatsrader'
-  · [override] Journal Items → 'Verifikatsrader'
   · [override] Journal codes must be unique per company. → 'Journalkoder måste vara unika för varje '
-  · [override] Journal items → 'Verifikatsrader'
-  · [override] Journal items where matching number isn't set → 'Verifikatsrader utan angivna matchande n'
-  · [override] Journal items where the account allows reconciliation no mat → 'Verifikatsrader där kontot tillåter avst'
-  · [override] Journal should be the same type as the reversed entry. → 'Journalen bör vara av samma typ som jour'
-  · [override] Journal used by default for moving the period of an entry → 'Den journal som används som standard för'
   · [override] Journal where the opening entry of this company's accounting → 'Journal där bolagets ingående balans har'
-  · [override] Journal where to create the entry. → 'Journal där verifikatet ska skapas.'
-  · [override] Last Entry → 'Sista verifikat'
   · [override] Main currency of the company. → 'Bolagets huvudsakliga valuta.'
   · [override] Main currency of your company → 'Bolagets huvudsakliga valuta'
   · [override] Mapping of account codes per company → 'Kartläggning av kontokoder per bolag'
-  · [override] Matched Journal Items → 'Matchade verifikatsrader'
   · [override] Multi-Company → 'Flera bolag'
   · [override] No journal could be found in company %(company_name)s for an → 'Ingen journal hittades i bolaget %(compa'
-  · [override] No payment journal entries → 'Inga verifikat för betalningar'
   · [override] Onboarding Company Data → 'Introduktion till bolagsdata'
   · [override] One or more lines require a 100% analytic distribution. → 'En eller flera rader kräver en objektför'
-  · [override] Only draft journal entries can be cancelled. → 'Endast utkast till verifikat kan avbryta'
-  · [override] Only posted/cancelled journal entries can be reset to draft. → 'Endast bokförda/avbrutna verifikat kan å'
-  · [override] Opening Journal Entry → 'Ingående verifikat'
   · [override] Overrides the Company's default on whether the price you use → 'Gör det möjligt att bortse från bolagets'
   · [override] Partner Company Registry Placeholder → 'Platshållare för partner i bolagsregiste'
-  · [override] Partners that are used in hashed entries cannot be merged. → 'Partners som används i hashade verifikat'
-  · [override] Post All Entries → 'Bokför alla verifikat'
-  · [override] Posted Journal Entries → 'Bokförda verifikat'
-  · [override] Posted Journal Items → 'Bokförda verifikatsrader'
-  · [override] Preset to create journal entries during a invoices and payme → 'Ställ in att skapa verifikat vid matchni'
-  · [override] Remake the sequence of Journal Entries. → 'Gör om sekvensen för verifikat.'
-  · [override] Reverse Journal Entry → 'Rätta verifikat'
-  · [override] Search Journal Items → 'Sök efter verifikatsrader'
-  · [override] Secure Posted Entries with Hash → 'Säkra verifikat med hashning'
-  · [override] Securing these entries will also secure entries after the se → 'Genom att säkra dessa verifikat säkras ä'
-  · [override] Securing these entries will create at least one gap in the s → 'Genom att säkra dessa verifikat skapas å'
   · [override] Select a product category which will use analytic account sp → 'Välj ett specifikt objektkonto för en vi'
   · [override] Select a product for which the analytic distribution will be → 'Välj en specifik produkt för vilken obje'
-  · [override] Select this if the taxes should use cash basis, which will c → 'Markera om skatterna ska tillämpas enlig'
   · [override] Set Company Data → 'Ange bolagsdata'
   · [override] Set your company data → 'Ange bolagsuppgifter'
   · [override] Set your company's data for documents header/footer. → 'Ställ in information om ditt bolag som s'
-  · [override] Shorter name used for display. The journal entries of this j → 'Förkortning som används som visningsnamn'
-  · [override] Show draft entries → 'Visa utkast till verifikat'
-  · [override] Specify whether this entry is posted automatically on its ac → 'Ange om denna verifikat ska bokföras aut'
-  · [override] Status with secured indicator for Journal Entries → 'Status med säkerhetsindikator för verifi'
-  · [override] Tags to be set on the base and tax journal items created for → 'Taggar som ska anges på de verifikatsrad'
-  · [override] Tax Cash Basis Entry of → 'Verifikat för beskattning enligt kontant'
-  · [override] Tax current account used as a counterpart to the Tax Closing → 'Skattekontot används för att beräkna utg'
-  · [override] Taxes exigible on payment and on invoice cannot be mixed on  → 'Skatter som befriats från en betalning e'
+  · [conflict] Tax current account used as a counterpart to the Tax Closing → 'Skattekontot används för att beräkna utg'
   · [override] Taxes in company currency → 'Skatter i bolagets valuta'
   · [override] Technical field containing the countries for which this comp → 'Tekniskt fält som innehåller de länder f'
   · [override] Technical field giving the date the company lock date at the → 'Tekniskt fält som anger bolagets låsning'
-  · [override] The %(date_field)s (%(date)s) you've entered isn't aligned w → 'Det %(date_field)s (%(date)s) som du har'
-  · [override] The Journal Entry sequence is not conform to the current for → 'Verifikatets nummerföljd följer inte med'
-  · [override] The account selected on your journal entry forces to provide → 'Det konto som angetts för verifikatet kr'
-  · [override] The amount expressed in an optional other currency if it is  → 'Beloppet uttryckt i valfri sekundär valu'
   · [override] The amount expressed in the secondary currency must be posit → 'Beloppet som uttrycks i den sekundära va'
   · [override] The bank account of a bank journal must belong to the same c → 'Bankkontot kopplat till en bankjournal m'
   · [override] The bank account of your company is not trusted. Please ask  → 'Bolagets angivna bankkonto är ej betrott'
-  · [override] The cash basis entries created from the taxes on this entry, → 'Verifikaten som skapats när skatterelate'
   · [override] The code must be set for every company to which this account → 'Koden måste anges för varje bolag som de'
-  · [override] The commercial partner has been updated for all related acco → 'Handelspartnern har uppdaterats för alla'
   · [override] The company this distribution line belongs to. → 'Det bolag som denna fördelningsrad är ko'
   · [override] The country to use the tax reports from for this company → 'Landet från vilket skatterapporter ska a'
-  · [override] The date is being set prior to: %(lock_date_info)s. The Jour → 'Datumet anges innan: %(lock_date_info)s.'
-  · [override] The entry %(name)s (id %(id)s) must be in draft. → 'Verifikatet %(name)s (id-nummer %(id)s) '
-  · [override] The entry is secured with an inalterable hash. → 'Verifikatet är säkrad med hjälp av en of'
-  · [override] The entry is using accounts (%(accounts_codes_names)s) from  → 'Verifikatet använder sig av konton (%(ac'
-  · [override] The following Journal Entries will be generated → 'Följande verifikat kommer att skapas'
+  · [conflict] The entry is using accounts (%(accounts_codes_names)s) from  → 'Verifikatet använder sig av konton (%(ac'
   · [override] The following accounts must be assigned to at least one comp → 'Följande konton måste vara kopplade till'
-  · [override] The following entries are unbalanced:
-
- → 'Följande verifikat är inte balanserade:'
   · [override] The foreign fiscal position for which this external value is → 'Den utländska skatteområde för vilken de'
   · [override] The holder of a journal's bank account must be the company ( → 'Den angivna kontoinnehavaren för en jour'
-  · [override] The journal entry %s reached an invalid state regarding its  → 'Verifikatet %s nådde ett ogiltigt tillst'
-  · [override] The journal entry containing the initial balance of all this → 'Verifikatet som innehåller det öppningss'
-  · [override] The journal entry from which this tax cash basis journal ent → 'Den verifikat utifrån vilken denna verif'
-  · [override] The journal item is not linked to the correct financial acco → 'Verifikatsraden är inte kopplad till rät'
-  · [override] The operation is refused as it would impact an already issue → 'Åtgärden nekas eftersom den skulle påver'
-  · [override] The optional other currency if it is a multi-currency entry. → 'Den valfria alternativa valutan om det ä'
+  · [conflict] The journal entry containing the initial balance of all this → 'Verifikatet som innehåller ingående sald'
   · [override] The partners of the journal's company and the related bank a → 'Uppgifterna som angivits om de partners '
-  · [override] The payment reference to set on journal items. → 'Betalningsreferensen att angiva för veri'
-  · [override] The payment that created this entry → 'Betalningen som verifikatet skapades uti'
-  · [override] The residual amount on a journal item expressed in its curre → 'Det återstående beloppet för en verifika'
-  · [override] The residual amount on a journal item expressed in the compa → 'Restbeloppet för en verifikat angiven i '
-  · [override] The selected destination account is set to use a specific cu → 'Det valda kontot är inställt för att anv'
-  · [override] The statement line that created this entry → 'Den rad i ett kontoutdrag som skapade ve'
+  · [conflict] The residual amount on a journal item expressed in its curre → 'Det återstående beloppet för en verifika'
+  · [conflict] The residual amount on a journal item expressed in the compa → 'Det återstående beloppet för en verifika'
   · [override] The tax ID of your company in the region mapped by this fisc → 'Skatteregistreringsnumret för ditt bolag'
-  · [override] There are entries that cannot be hashed. They can be protect → 'Det finns verifikat som inte kan hashas.'
-  · [override] There are no journal items in the draft state to post. → 'Det finns inga utkast till verifikatsrad'
-  · [override] There are still draft entries before the selected date. → 'Det finns utkast till verifikat som är d'
-  · [override] There are still draft entries in the period you want to hard → 'Det finns fortfarande utkast till verifi'
-  · [override] There are still unreconciled bank statement lines before the → 'Det finns fortfarande icke-avstämda rade'
-  · [override] There is no journal entry flagged for accounting data inalte → 'Det finns ännu ingen verifikat som är fl'
   · [override] There is no tax cash basis journal defined for the '%s' comp → 'Det finns ingen skattejournal enligt kon'
   · [override] This allows accountants to manage analytic and crossovered b → 'Detta gör det möjligt för revisorer att '
   · [override] This analytic distribution will apply to all financial accou → 'Objektfördelningen gäller för alla finan'
-  · [override] This can only be used on journal items → 'Detta kan endast användas för verifikats'
-  · [override] This entry contains one or more taxes that are incompatible  → 'Den här verifikatet innehåller en eller '
-  · [override] This entry contains taxes that are not compatible with your  → 'Den här verifikatet innehåller en eller '
-  · [override] This entry has been %s → 'Den här verifikatet har blivit %s'
-  · [override] This entry has been duplicated from %s → 'Verifikatet har dubblerats från %s'
-  · [override] This entry has been reversed from %s → 'Den här verifikatet har återkallats från'
-  · [override] This entry transfers the following amounts to %(destination) → 'Verifikatet överför följande belopp till'
-  · [override] This field is used for payable and receivable journal entrie → 'Fältet används för verifikat för leveran'
-  · [override] This product is already being used in posted Journal Entries → 'Den här produkten används redan i bokför'
-  · [override] This reconciliation model has created no entry so far → 'Avstämningsmodellen har ännu inte skapat'
-  · [override] This recurring entry originated from %s → 'Denna återkommande verifikatet härstamma'
-  · [override] This setting locks once a journal entry is created. → 'Inställningarna låses så snart som en ve'
+  · [conflict] This entry contains one or more taxes that are incompatible  → 'Det här verifikatet innehåller en eller '
   · [override] This will update all taxes and accounts based on the current → 'Detta kommer att uppdatera alla skatter '
-  · [override] Those can be used to quickly create a journal items when rec → 'Dessa kan användas för att snabbt skapa '
-  · [override] Total amount impacted by the automatic entry. → 'Det totala beloppet som påverkas av den '
-  · [override] Transfer Journal Items → 'Överför verifikatsrader'
-  · [override] Transfer entry to %s → 'Flytta verifikat till %s'
-  · [override] Unhashed Entries → 'Ohashade verifikat'
-  · [override] Unhashed entries → 'Ohashade verifikat'
-  · [override] Unposted Journal Entries → 'Icke-bokförda verifikat'
-  · [override] Unposted Journal Items → 'Icke-bokförda verifikatsrader'
   · [override] Use Company Selector → 'Använd bolagsväljare'
-  · [override] Used in reports to know if we should consider journal items  → 'Används i rapporter för att avgöra om ve'
-  · [override] Utility field to express whether the journal item is subject → 'Verktygsfält för att ange om verifikatsr'
   · [override] We can't leave this document without any company. Please sel → 'Vi kan inte låta det här dokument vara u'
   · [override] We cannot find a chart of accounts for this company, you sho → 'Vi kan inte hitta bolagets kontoplan, du'
-  · [override] Wrong credit or debit value in accounting entry! → 'Fel kredit- eller debetvärde i verifikat'
-  · [override] You are trying to reconcile some entries that are already re → 'Du försöker stämma av verifikat som reda'
-  · [override] You can only register payment for posted journal entries. → 'Det är endast möjligt att registrera bet'
-  · [override] You can only resequence items from the same journal → 'Det är endast möjligt att återställa ver'
-  · [override] You can't change the company of your journal since there are → 'Det är inte möjligt att byta journalens '
-  · [override] You can't change the company of your tax since there are som → 'Det är inte möjligt att byta skattens an'
+  · [conflict] You can't change the company of your journal since there are → 'Det är inte möjligt att byta journalens '
+  · [conflict] You can't change the company of your tax since there are som → 'Det är inte möjligt att byta skattens an'
   · [override] You can't create a new payment without an outstanding paymen → 'Det är inte möjligt att skapa en ny beta'
-  · [override] You can't create payments for entries belonging to different → 'Du är inte möjligt att skapa betalningar'
-  · [override] You can't create payments for entries belonging to different → 'Det är inte möjligt att skapa betalninga'
-  · [override] You can't delete a posted journal item. Don’t play games wit → 'Det är inte möjligt att radera en bokför'
-  · [override] You can't have two payment method lines of the same payment  → 'Du kan inte ha två rader med betalningsm'
-  · [override] You can't unlink this company from this account since there  → 'Det är inte möjligt att koppla bort det '
-  · [override] You cannot add/modify entries prior to and inclusive of: %(l → 'Det är inte möjligt att lägga till/ändra'
-  · [override] You cannot change the currency of the company since some jou → 'Det är inte möjligt att ändra bolagets v'
-  · [override] You cannot delete journal items belonging to a locked journa → 'Det är inte möjligt att radera verifikat'
-  · [override] You cannot delete this entry, as it has already consumed a s → 'Det är inte möjligt att ta bort verifika'
-  · [override] You cannot do this modification on a reconciled journal entr → 'Det är inte möjligt att genomföra ändrin'
-  · [override] You cannot edit the following fields: %(fields)s.
-The follow → 'Det är inte möjligt att redigera följand'
-  · [override] You cannot modify the field %s of a journal that already has → 'Det är inte möjligt att redigera fältet '
-  · [override] You cannot modify the taxes related to a posted journal item → 'Det är inte möjligt att redigera skatter'
-  · [override] You cannot perform this action on an account that contains j → 'Det är inte möjligt att genomföra den hä'
-  · [override] You cannot post an entry in an archived journal (%(journal)s → 'Det är inte möjligt att bokföra en verif'
-  · [override] You cannot post an entry with an archived analytic account:  → 'Det är inte möjligt att bokföra en verif'
-  · [override] You cannot reduce the number of decimal places of a currency → 'Det är inte möjligt att minska antalet d'
-  · [override] You cannot register payments for miscellaneous entries. → 'Det är inte möjligt registrera betalning'
-  · [override] You cannot reset to draft a locked journal entry. → 'Det är inte möjligt att återställa en lå'
-  · [override] You cannot reset to draft a tax cash basis journal entry. → 'Det är inte möjligt att återställa en ve'
-  · [override] You cannot reset to draft an exchange difference journal ent → 'Det är inte möjligt att återställa en ve'
-  · [override] You cannot set a currency on this account as it already has  → 'Det är inte möjligt att ange en valuta f'
-  · [override] You cannot use this wizard on journal entries belonging to d → 'Det är inte möjligt att använda den här '
+  · [conflict] You can't create payments for entries belonging to different → 'Det är inte möjligt att skapa betalninga'
+  · [conflict] You can't unlink this company from this account since there  → 'Det är inte möjligt att koppla bort det '
+  · [conflict] You cannot change the currency of the company since some jou → 'Det är inte möjligt att ändra bolagets v'
+  · [conflict] You cannot post an entry with an archived analytic account:  → 'Det är inte möjligt att bokföra ett veri'
+  · [conflict] You cannot use this wizard on journal entries belonging to d → 'Det är inte möjligt att använda den här '
   · [override] You do not have the right to perform this operation as you d → 'Du har inte behörighet att genomföra den'
-  · [override] You have to configure the 'Exchange Gain or Loss Journal' in → "Du bör ställa in en journal för 'vinst e"
+  · [conflict] You have to configure the 'Exchange Gain or Loss Journal' in → "Du bör ställa in en journal för 'vinst e"
   · [override] You must specify the Profit Account (company dependent) → 'Du måste ange ett vinstkonto (beroende p'
-  · [override] You should configure the 'Gain Exchange Rate Account' in you → "Du bör ställa in 'kontot för vinst vid v"
-  · [override] You should configure the 'Loss Exchange Rate Account' in you → "Du bör ställa in 'kontot för förluster v"
+  · [conflict] You should configure the 'Gain Exchange Rate Account' in you → "Du bör ställa in ett 'konto för vinst vi"
+  · [conflict] You should configure the 'Loss Exchange Rate Account' in you → "Du bör ställa in ett 'konto för förluste"
   · [override] e.g. My Company → 't.ex. Mitt bolag'
 ## account_add_gln
 - override: 0
@@ -332,7 +148,7 @@ The follow → 'Det är inte möjligt att redigera följand'
   · [override] Companies → 'Bolag'
 ## account_debit_note
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -340,10 +156,10 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 34
+- oförändrad: 33
 ## account_edi
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 53
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -351,12 +167,12 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 73
+- oförändrad: 20
 ## account_edi_proxy_client
 - override: 3
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
-- ny (redan rätt): 1
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
@@ -367,26 +183,28 @@ The follow → 'Det är inte möjligt att redigera följand'
   · [override] Company → 'Bolag'
   · [override] This company has an active user already created for this EDI → 'Bolaget har redan en aktiv användare för'
 ## account_edi_ubl_cii
-- override: 6
-- converged 🎉: 0
+- override: 7
+- converged 🎉: 1
 - conflict ⚠️: 0
-- ny (redan rätt): 25
-- ny (korrigerad): 1
+- ny (redan rätt): 0
+- ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 0
+- ny (manuell): 2
 - flagged 🚫: 0
 - borttagen: 1
-- oförändrad: 199
+- oförändrad: 222
   · [override] %s should have a KVK or OIN number set in Company ID field o → '%s bör ha ett KVK- eller OIN-nummer angi'
   · [override] %s should have a valid KBO/BCE number in the Company ID fiel → '%s bör ha ett giltigt KBO/BCE-nummer ang'
   · [override] Belgian Company Registry → 'Bolagsregister i Belgien'
-  · [ny] Companies → 'Bolag'
+  · [override] Companies → 'Bolag'
+  · [ny] Could not retrieve a partner corresponding to '%s' with the same VAT a → ''
   · [override] Estonia Company code → 'Bolagsnummer i Estland'
   · [override] Please fill in your company's VAT or Peppol Address to gener → 'Vänligen fyll i bolagets momsregistrerin'
   · [override] The Peppol endpoint is not valid. It should contain exactly  → 'Peppol-destinationen är inte giltig. Den'
+  · [ny] The Peppol endpoint is not valid. Please enter a valid 10-digit Tax Id → ''
 ## account_edi_ubl_cii_tax_extension
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 71
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -394,7 +212,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 108
+- oförändrad: 37
 ## account_fleet
 - override: 3
 - converged 🎉: 0
@@ -411,7 +229,7 @@ The follow → 'Det är inte möjligt att redigera följand'
   · [override] You cannot modify amount of services linked to an account mo → 'Det är inte möjligt att ändra antalet tj'
 ## account_payment
 - override: 2
-- converged 🎉: 0
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -419,69 +237,61 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 126
+- oförändrad: 124
   · [override] Journal Entry → 'Verifikat'
   · [override] Overdue invoices should share the same company. → 'Förfallna fakturor bör ha samma bolag an'
 ## account_peppol
-- override: 11
-- converged 🎉: 12
-- conflict ⚠️: 1
-- ny (redan rätt): 30
+- override: 12
+- converged 🎉: 26
+- conflict ⚠️: 4
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 12
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 23
-- oförändrad: 206
-  · [ny] Authentication is required but not available. Please contact Odoo supp → ''
-  · [ny] Cannot initiate KYC for your selected scheme. Please try a different o → ''
+- borttagen: 0
+- oförändrad: 230
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagets namn'
-  · [ny] Could not connect to Peppol proxy → ''
-  · [ny] Error importing %(proxy_type)s document (UUID: %(uuid)s): → ''
-  · [conflict] If you are not subject to VAT, you should not have a VAT num → 'Om du inte är momspliktig, bör du inte h'
+  · [override] If you are not subject to VAT, you should not have a VAT num → 'Om du inte är momspliktig, bör du inte h'
   · [override] Parent Company → 'Överordnat bolag'
   · [override] Peppol ID should be different from main company. → 'Peppol-ID bör skilja sig från huvudbolag'
   · [override] Peppol Parent Company → 'Peppol överordnat bolag'
   · [override] Peppol Parent Company Name → 'Peppol namn på överordnat bolag'
   · [override] Peppol Use Parent Company → 'Peppol använd överordnat bolag'
+  · [conflict] Register using the current company → 'Registrera dig med nuvarande bolag'
+  · [conflict] Register using the parent company by setting the same EAS/En → 'Registrera dig med det överordnade bolag'
   · [override] Selected Company → 'Utvalda bolag'
-  · [ny] The partner has indicated it does not accept this document type, so yo → ''
-  · [ny] The partner is missing their %(identifier_name)s. → ''
-  · [ny] You accept that any fraudulent activity or spam will result in immedia → ''
   · [override] You are about to register with your VAT number. Make sure yo → 'Du är på väg att använda ett momsregistr'
-  · [ny] You authorize Odoo to act as your Peppol Service Provider to send and  → ''
-  · [ny] You confirm that you are authorized to register this company on the Pe → ''
-  · [ny] You remain fully responsible for the content, accuracy, and legal comp → ''
-  · [ny] Your identifier does not have a valid format. → ''
-  · [ny] Your identifier does not have a valid format. Expected format: %s. → ''
+  · [conflict] You confirm that you are authorized to register this company → 'Du bekräftar att du har behörighet att r'
+  · [conflict] Your company is already registered on another Access Point f → 'Bolaget är redan registrerat vid en anna'
   · [override] [PEPPOL-EN16931-R020] An electronic address (EAS) must be pr → '[PEPPOL-EN16931-R020] En digital adress '
 ## account_peppol_response
 - override: 2
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 1
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 68
-  · [ny] A Peppol response declaring you %(status)s this document could not be  → ''
-  · [override] Companies → 'Bolag'
-  · [override] Company → 'Bolag'
-## account_peppol_selfbilling
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 1
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 19
+- oförändrad: 68
+  · [override] Companies → 'Bolag'
+  · [override] Company → 'Bolag'
+## account_peppol_selfbilling
+- override: 0
+- converged 🎉: 16
+- conflict ⚠️: 1
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 3
+  · [conflict] This journal is for self-billing invoices. If the company ha → 'Den här journalen är för egenutfärdade f'
 ## account_qr_code_emv
 - override: 0
 - converged 🎉: 0
@@ -542,7 +352,7 @@ The follow → 'Det är inte möjligt att redigera följand'
   · [override] Updating tax tags on existing Journal Entries is an <b>irrev → 'Att uppdatera skattetaggar för befintlig'
 ## analytic
 - override: 4
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -550,7 +360,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 159
+- oförändrad: 158
   · [override] Company → 'Bolag'
   · [override] Select a company for which the analytic distribution will be → 'Välj ett bolag för vilket den objektdist'
   · [override] You can't set a different company on your analytic account s → 'Du kan inte ange ett annat bolag på ditt'
@@ -637,18 +447,6 @@ The follow → 'Det är inte möjligt att redigera följand'
 - oförändrad: 1
 ## auth_signup
 - override: 1
-- converged 🎉: 1
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 93
-  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
-## auth_totp
-- override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -657,7 +455,19 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 62
+- oförändrad: 94
+  · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
+## auth_totp
+- override: 0
+- converged 🎉: 1
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 61
 ## auth_totp_mail
 - override: 0
 - converged 🎉: 0
@@ -671,7 +481,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - oförändrad: 21
 ## auth_totp_mail_enforce
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -679,7 +489,7 @@ The follow → 'Det är inte möjligt att redigera följand'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 31
+- oförändrad: 30
 ## auth_totp_portal
 - override: 0
 - converged 🎉: 0
@@ -1054,7 +864,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 1
+- borttagen: 0
 - oförändrad: 149
 ## base_import_module
 - override: 0
@@ -1080,7 +890,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 31
 ## base_setup
 - override: 13
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1088,7 +898,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 84
+- oförändrad: 83
   · [override] <span class="o_form_label" invisible="company_count &gt; 1"> → '<span class="o_form_label" invisible="co'
   · [override] Automatically enrich your contact base with company data → 'Berika automatiskt din kontaktbas med bo'
   · [override] Automatically generate counterpart documents in recipient co → 'Generera automatiskt motpartsdokument i '
@@ -1150,7 +960,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 32
 ## calendar
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1158,7 +968,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 373
+- oförändrad: 372
 ## calendar_sms
 - override: 0
 - converged 🎉: 0
@@ -1172,7 +982,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 15
 ## certificate
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1180,7 +990,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 84
+- oförändrad: 83
   · [override] Company → 'Bolag'
 ## cloud_storage
 - override: 0
@@ -1239,15 +1049,15 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 15
 ## crm
 - override: 109
-- converged 🎉: 0
-- conflict ⚠️: 0
+- converged 🎉: 3
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 545
+- oförändrad: 541
   · [override] # Leads/Opps assigned this month → '# Kundämnen/möjligheter denna månad'
   · [override] # Unassigned Leads → '# otilldelade kundämnen'
   · [override] %(assigned)s leads allocated among %(team_count)s teams. → '%(assigned)s kundämnen fördelade mellan '
@@ -1265,6 +1075,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] <span>Merged the Lead/Opportunity</span> → '<span>Sammanslagning av kundämne/möjligh'
   · [override] <span>Periodically assign leads based on rules</span><br/>
   → '<span>Periodiskt tilldela kundämnen base'
+  · [conflict] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
   · [override] A new lead has been created and is not assigned to any team. → 'En ny kundämne har skapats och är inte t'
   · [override] A new lead has been created for the team "%(team_name)s". → 'En ny kundämne har skapats för teamet %('
   · [override] Active Leads → 'Aktiva kundämnen'
@@ -1450,7 +1261,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
 ## delivery_mondialrelay
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1458,7 +1269,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 17
+- oförändrad: 16
 ## delivery_stock_picking_batch
 - override: 0
 - converged 🎉: 0
@@ -1484,26 +1295,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
 ## event
 - override: 5
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 3
-- flagged 🚫: 0
-- borttagen: 3
-- oförändrad: 595
-  · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
-  · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
-  · [ny] <table border="0" cellpadding="0" cellspacing="0" style="padding-top:  → ''
-  · [ny] <table border="0" cellpadding="0" cellspacing="0" style="padding-top:  → ''
-  · [ny] <table border="0" cellpadding="0" cellspacing="0" style="padding-top:  → ''
-  · [override] Company → 'Bolag'
-  · [override] Company Logo → 'Bolagslogo'
-  · [override] Company Name → 'Bolagsnamn'
-## event_booth
-- override: 0
-- converged 🎉: 0
+- converged 🎉: 6
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1511,7 +1303,23 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 121
+- oförändrad: 592
+  · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
+  · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
+  · [override] Company → 'Bolag'
+  · [override] Company Logo → 'Bolagslogo'
+  · [override] Company Name → 'Bolagsnamn'
+## event_booth
+- override: 0
+- converged 🎉: 3
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 118
 ## event_booth_sale
 - override: 0
 - converged 🎉: 0
@@ -1583,7 +1391,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 11
 ## fleet
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 4
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1591,11 +1399,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 444
+- oförändrad: 440
   · [override] Company → 'Bolag'
 ## gamification
 - override: 4
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1603,7 +1411,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 406
+- oförändrad: 405
   · [override] <table border="0" cellpadding="0" style="padding-top: 16px;  → '<table border="0" cellpadding="0" style='
   · [override] Set your Company Data → 'Ange dina bolagsuppgifter'
   · [override] Set your Company Logo → 'Ange bolagets logotyp'
@@ -1637,11 +1445,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 72
-  · [ny] This event has more than 5 reminders, only the first 5 will be synced  → ''
+- oförändrad: 73
 ## google_gmail
 - override: 0
 - converged 🎉: 0
@@ -1666,15 +1473,15 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 18
 ## hr
 - override: 14
-- converged 🎉: 1
+- converged 🎉: 5
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 1
-- oförändrad: 531
+- borttagen: 0
+- oförändrad: 528
   · [override] <i class="fa fa-building-o" role="img" aria-label="Company"  → '<i class="fa fa-building-o" role="img" a'
   · [override] A user cannot be linked to multiple employees in the same co → 'En användare kan inte länkas till flera '
   · [override] As an employee of our company, you will <b>collaborate with  → 'Som anställd i vårt bolag kommer du att '
@@ -1688,12 +1495,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
    → 'Varje anställd har en chans att se effek'
   · [override] Real responsibilities and challenges in a fast evolving comp → 'Verkligt ansvar och utmaningar i ett sna'
   · [override] Set default company schedule to manage your employees workin → 'Ange standardschema för bolaget för att '
-  · [ny] The Badge ID must contain only printable ASCII characters, without spa → ''
   · [override] The name of the job position must be unique per department i → 'Jobbets namn måste vara unikt per avdeln'
   · [override] To avoid multi company issues (losing the access to your pre → 'För att undvika problem med flera bolag '
 ## hr_attendance
 - override: 4
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1701,7 +1507,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 280
+- oförändrad: 277
   · [override] Allow a period of time (around working hours) where extra ti → 'Tillåt en tidsperiod (runt arbetstid) dä'
   · [override] Company → 'Bolag'
   · [override] Company Logo → 'Bolagslogo'
@@ -1719,7 +1525,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 5
 ## hr_contract
 - override: 4
-- converged 🎉: 0
+- converged 🎉: 9
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1727,25 +1533,25 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 175
+- oförändrad: 166
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Vehicle → 'Bolagsbil'
   · [override] Company country → 'Bolagets land'
 ## hr_expense
 - override: 12
-- converged 🎉: 0
-- conflict ⚠️: 0
+- converged 🎉: 3
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 413
+- oförändrad: 410
   · [override] An expense report must contain only lines from the same comp → 'En utläggsrapport får endast innehålla r'
+  · [conflict] Company → 'Bolag'
   · [override] Do you really want to invoice your own company? Remove the " → 'Vill du verkligen fakturera ditt eget bo'
-  · [ny] Hr Expense → ''
   · [override] Managers can approve the report here, then an accountant can → 'Chefer kan godkänna rapporten här, sedan'
   · [override] Payment method allowed for expenses paid by company. → 'Tillåten betalningsmetod för kostnader s'
   · [override] Payment methods available for expenses paid by company → 'Tillgängliga betalningsmetoder för kostn'
@@ -1782,20 +1588,19 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 34
 ## hr_holidays
 - override: 7
-- converged 🎉: 0
+- converged 🎉: 4
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 708
+- oförändrad: 705
   · [override] Allow to create requests in batchs:
 - By Employee: for a spe → 'Tillåt att skapa förfrågningar i batcher'
   · [override] Company → 'Bolag'
   · [override] Employee Company → 'Anställda Bolag'
-  · [ny] If this field is checked, every leave request of this type will have a → ''
   · [override] The employee no longer works in the company → 'Den anställde arbetar inte längre i bola'
   · [override] There is no employee set on the time off. Please make sure y → 'Det finns ingen anställd som är inställd'
   · [override] Validity End date has been updated because Employee no longe → 'Giltighet Slutdatum har uppdaterats efte'
@@ -1901,7 +1706,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 36
 ## hr_recruitment
 - override: 3
-- converged 🎉: 0
+- converged 🎉: 5
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1909,7 +1714,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 529
+- oförändrad: 524
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Select the location where the applicant will work. Addresses → 'Välj den ort där den sökande ska arbeta.'
@@ -2011,7 +1816,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
 ## hr_work_entry
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2019,7 +1824,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 74
+- oförändrad: 73
   · [override] Company → 'Bolag'
 ## hr_work_entry_contract
 - override: 0
@@ -2050,13 +1855,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 3
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 2
-- oförändrad: 323
-  · [ny] Convert columns to regular content → ''
-  · [ny] Only internal users can use AI text generation. → ''
-  · [ny] Remove column layout → ''
+- borttagen: 0
+- oförändrad: 326
 ## http_routing
 - override: 0
 - converged 🎉: 0
@@ -2081,18 +1883,17 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 4
 ## iap
 - override: 2
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 42
+- oförändrad: 44
   · [override] Company → 'Bolag'
   · [override] Get quality leads and opportunities: convert your website vi → 'Få leads och möjligheter av hög kvalitet'
-  · [ny] The IAP server is unreachable and the information may not be up to dat → ''
 ## iap_crm
 - override: 0
 - converged 🎉: 0
@@ -2120,17 +1921,15 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
 ## im_livechat
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 5
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 1
-- oförändrad: 355
-  · [ny] * 'Show' displays the chat button on the pages.
-* 'Show with notificat → ''
+- borttagen: 0
+- oförändrad: 351
   · [override] Livechat Support Channel Statistics allows you to easily che → 'Livechat Support Channel Statistics gör '
 ## l10n_se
 - override: 4
@@ -2160,20 +1959,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 55
 ## loyalty
 - override: 1
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 1
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 357
-  · [override] Company → 'Bolag'
-  · [ny] Free Product - [%(products)s, and %(count)s more] → ''
-## lunch
-- override: 5
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2181,7 +1967,19 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 368
+- oförändrad: 355
+  · [override] Company → 'Bolag'
+## lunch
+- override: 5
+- converged 🎉: 1
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 367
   · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
   · [override] A cashmove can either be an expense or a payment.<br>
        → 'En kassaförflyttning kan antingen vara e'
@@ -2190,20 +1988,18 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Here you can see your cash moves.<br>A cash move can either  → 'Här kan du se dina kontantrörelser.<br>E'
 ## mail
 - override: 8
-- converged 🎉: 2
+- converged 🎉: 3
 - conflict ⚠️: 0
-- ny (redan rätt): 1
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 2
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 1
-- oförändrad: 1805
+- borttagen: 0
+- oförändrad: 1807
   · [override] Companies → 'Bolag'
   · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
   · [override] Company → 'Bolag'
-  · [ny] Language code used as the target for the translation request. → ''
-  · [ny] Pop out is not supported on mobile. → ''
   · [override] Related Company → 'Relaterat bolag'
   · [override] The records must belong to the same company. → 'Posterna måste tillhöra samma bolag.'
   · [override] We could not create alias %(alias_name)s because domain %(al → 'Vi kunde inte skapa alias %(alias_name)s'
@@ -2266,7 +2062,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] This contact has no email address, no company could be enric → 'Denna kontakt har ingen e-postadress, in'
 ## maintenance
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2274,11 +2070,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 273
+- oförändrad: 272
   · [override] Company → 'Bolag'
 ## marketing_card
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2286,18 +2082,18 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 185
+- oförändrad: 182
 ## mass_mailing
 - override: 7
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
-- ny (redan rätt): 1
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 885
+- oförändrad: 883
   · [override] Company Name → 'Bolagsnamn'
   · [override] Founder and chief visionary, Tony is the driving force behin → 'Tony är bolagets grundare och visionär o'
   · [override] Iris, with her international experience, helps us easily und → 'Iris, med sin internationella erfarenhet'
@@ -2406,7 +2202,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 3
 ## mass_mailing_sms
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2414,7 +2210,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 187
+- oförändrad: 184
 ## mass_mailing_themes
 - override: 18
 - converged 🎉: 0
@@ -2491,7 +2287,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 37
 ## mrp
 - override: 1
-- converged 🎉: 1
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2499,7 +2295,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1081
+- oförändrad: 1079
   · [override] Company → 'Bolag'
 ## mrp_account
 - override: 0
@@ -2639,20 +2435,19 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Unable to enrich company (no credit was consumed). → 'Kunde inte fylla i bolagsuppgifter (inge'
 ## payment
 - override: 5
-- converged 🎉: 9
+- converged 🎉: 1
 - conflict ⚠️: 0
-- ny (redan rätt): 1
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 566
+- oförändrad: 576
   · [override] Company → 'Bolag'
   · [override] No manual payment method could be found for this company. Pl → 'Ingen manuell betalningsmetod kunde hitt'
   · [override] Please switch to company → 'Vänligen byt till bolag'
   · [override] The main currency of the company, used to display monetary f → 'Bolagets huvudvaluta, används för att vi'
-  · [ny] This payment provider is not available. → ''
   · [override] You cannot change the company of a payment provider with exi → 'Du kan inte byta bolag för en betalnings'
 ## payment_adyen
 - override: 0
@@ -2837,18 +2632,13 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 5
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 18
-- oförändrad: 16
-  · [ny] The payment requires authentication from the customer, which isn't pos → ''
-  · [ny] Update the Xendit webhook configuration → ''
-  · [ny] Xendit Dashboard → ''
-  · [ny] Xendit replaced the single webhook field used by the %(provider)s paym → ''
-  · [ny] webhook configuration → ''
+- borttagen: 0
+- oförändrad: 21
 ## phone_validation
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2856,18 +2646,18 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 66
+- oförändrad: 65
 ## point_of_sale
 - override: 19
-- converged 🎉: 3
+- converged 🎉: 6
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 4
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1474
+- oförändrad: 1475
   · [override] All available pricelists must be in the same currency as the → 'Alla tillgängliga prislistor måste vara '
   · [override] All payment methods must be in the same currency as the Sale → 'Alla betalningsmetoder måste vara i samm'
   · [override] Choose a specific fiscal position at the order depending on  → 'Välj en specifik skatteområde vid bestäl'
@@ -2878,22 +2668,18 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Is Using Company Currency → 'Använder bolagets valuta'
   · [override] Leave empty to use the default account from the company sett → 'Lämna tomt för att använda standardkonto'
   · [override] Leave empty to use the default account from the company sett → 'Lämna tomt för att använda standardkonto'
-  · [ny] Only Point of Sale managers can modify a Point of Sale configuration. → ''
-  · [ny] The combo choice '%s' is no longer available in this combo. Please rel → ''
   · [override] The default pricelist must belong to no company or the compa → 'Standardprislistan får inte tillhöra någ'
   · [override] The fiscal position used in the original order is not loaded → 'Den skatteområde som användes i den ursp'
   · [override] The invoice journal must be in the same currency as the Sale → 'Fakturaverifikatet måste vara i samma va'
   · [override] The payment methods for the point of sale %s must belong to  → 'Betalningsmetoderna för försäljningsstäl'
-  · [ny] The register cannot be opened while offline. Please try again. → ''
   · [override] The selected pricelists must belong to no company or the com → 'De valda prislistorna får inte tillhöra '
   · [override] There is no Chart of Accounts configured on the company. Ple → 'Det finns ingen kontoplan konfigurerad p'
   · [override] Use fiscal positions to get different taxes by order → 'Använd skatteområden för att få olika sk'
   · [override] You cannot invoice orders belonging to different companies. → 'Du kan inte fakturera order som hör till'
-  · [ny] You cannot modify a fiscal position used in a POS order. You should ar → ''
   · [override] e.g. Company Address, Website → 't.ex. bolagsadress, webbplats'
 ## portal
 - override: 5
-- converged 🎉: 0
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -2901,7 +2687,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 203
+- oförändrad: 201
   · [override] <small class="form-text text-muted">
                 Company → '<small class="form-text text-muted">\n   '
   · [override] <t t-set="user_name" t-value="object.user_id.name or object. → '<t t-set="user_name" t-value="object.use'
@@ -3121,7 +2907,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 5
 ## pos_sale
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3129,7 +2915,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 69
+- oförändrad: 70
 ## pos_sale_loyalty
 - override: 0
 - converged 🎉: 0
@@ -3159,13 +2945,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 3
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 234
-  · [ny] Invalid product attribute → ''
-  · [ny] Invalid product configuration → ''
-  · [ny] Invalid product quantity → ''
+- oförändrad: 237
 ## pos_self_order_adyen
 - override: 0
 - converged 🎉: 0
@@ -3252,12 +3035,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 2
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 31
-  · [ny] There are some issues between us and Viva Wallet, try again later. → ''
-  · [ny] Unable to retrieve Viva Wallet webhook verification key: Please verify → ''
+- oförändrad: 33
 ## privacy_lookup
 - override: 0
 - converged 🎉: 0
@@ -3271,15 +3052,16 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 53
 ## product
 - override: 2
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 1
+- converged 🎉: 1
+- conflict ⚠️: 1
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 662
+- oförändrad: 661
+  · [conflict] Company → 'Bolag'
   · [override] Company Settings → 'Bolagsinställningar'
   · [override] You cannot define the decimal precision of 'Account' as grea → 'Du kan inte definiera decimalprecisionen'
 ## product_email_template
@@ -3341,7 +3123,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Show your company love around you =). → 'Visa din omgivning hur mycket du älskar '
 ## project
 - override: 9
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3349,7 +3131,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 824
+- oförändrad: 821
   · [override] Company → 'Bolag'
   · [override] Partner company cannot be different from its assigned projec → 'Partnerbolaget får inte vara ett annat ä'
   · [override] Partner company cannot be different from its assigned tasks' → 'Partnerbolaget får inte vara annorlunda '
@@ -3539,21 +3321,20 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 81
 ## purchase
 - override: 7
-- converged 🎉: 0
+- converged 🎉: 4
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 597
+- oförändrad: 594
   · [override] Company → 'Bolag'
   · [override] Company Total → 'Bolag Totalt'
   · [override] Default on whether the sales price used on the product and i → 'Standard om huruvida det försäljningspri'
   · [override] Put an address if you want to deliver directly from the vend → 'Ange en adress om du vill leverera direk'
   · [override] Technical field to filter the available taxes depending on t → 'Tekniskt fält för att filtrera de tillgä'
-  · [ny] The partner cannot be deleted because it is used as a dropship address → ''
   · [override] This analysis allows you to easily check and analyse your co → 'Med denna analys kan du enkelt kontrolle'
   · [override] Your quotation contains products from company %(product_comp → 'Ditt erbjudande innehåller produkter frå'
 ## purchase_edi_ubl_bis3
@@ -3602,7 +3383,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 7
 ## purchase_requisition
 - override: 5
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3610,7 +3391,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 187
+- oförändrad: 184
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
   · [override] Company Subtotal → 'Bolag Subtotal'
@@ -3653,7 +3434,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Put an address if you want to deliver directly from the vend → 'Ange en adress om du vill leverera direk'
 ## rating
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3661,11 +3442,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 93
+- oförändrad: 92
   · [override] " or someone from the same company can give it a rating. → '" eller så kan någon från samma bolag ge'
 ## repair
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3673,7 +3454,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 270
+- oförändrad: 267
   · [override] Company → 'Bolag'
 ## resource
 - override: 6
@@ -3705,15 +3486,15 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 11
 ## sale
 - override: 10
-- converged 🎉: 3
+- converged 🎉: 6
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 2
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 2
-- oförändrad: 841
+- borttagen: 0
+- oförändrad: 840
   · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
   · [override] Company → 'Bolag'
   · [override] Company Document Layout → 'Layout för bolagsdokument'
@@ -3721,10 +3502,8 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] The company is required, please select one before making any → 'Bolaget är obligatoriskt, vänligen välj '
   · [override] The following products cannot be restricted to the company % → 'Följande produkter kan inte begränsas ti'
   · [override] There does not seem to be any discount product configured fo → 'Det verkar inte finnas någon rabattprodu'
-  · [ny] Validity of the quotation. After this date, you will no longer be able → ''
   · [override] Values set here are company-specific. → 'Värden som anges här är bolagsspecifika.'
   · [override] Warning for the change of your quotation's company → 'Varning för byte av bolag för din offert'
-  · [ny] You should not change the product type because this product is already → ''
   · [override] Your quotation contains products from company %(product_comp → 'Ditt erbjudande innehåller produkter frå'
 ## sale_async_emails
 - override: 0
@@ -3739,7 +3518,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 4
 ## sale_crm
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3747,7 +3526,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 36
+- oförändrad: 37
 ## sale_edi_ubl
 - override: 0
 - converged 🎉: 0
@@ -3965,7 +3744,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 1
 ## sale_stock
 - override: 1
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3973,7 +3752,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 137
+- oförändrad: 138
   · [override] You must have a warehouse for line using a delivery in diffe → 'Du måste ha ett lager för linje som anvä'
 ## sale_stock_margin
 - override: 0
@@ -4016,7 +3795,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 1
 ## sales_team
 - override: 5
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4024,7 +3803,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 119
+- oförändrad: 118
   · [override] Company → 'Bolag'
   · [override] Member Company → 'Medlemsbolag'
   · [override] The default company for this user. → 'Standardbolaget för den här användaren.'
@@ -4032,19 +3811,21 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] User Company → 'Användarbolag'
 ## sms
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 5
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 0
+- ny (manuell): 2
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 274
+- oförändrad: 269
+  · [ny] Your country is not supported due to sender registration legislation → ''
+  · [ny] Your database is not activated → ''
   · [override] Your sender name must be between 3 and 11 characters long an → 'Ditt avsändarnamn måste vara mellan 3 oc'
 ## sms_twilio
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4052,7 +3833,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 63
+- oförändrad: 62
   · [override] Company → 'Bolag'
 ## snailmail
 - override: 2
@@ -4093,19 +3874,17 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Companies → 'Bolag'
 ## spreadsheet
 - override: 2
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 2
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 1
-- oförändrad: 1822
-  · [ny] Cannot perform this action on merged cells. Unmerge the cells and try  → ''
+- borttagen: 0
+- oförändrad: 1823
   · [override] Currency not available for this company. → 'Valuta ej tillgänglig för detta bolag.'
   · [override] The company to take the exchange rate from. → 'Bolaget som valutakursen ska hämtas från'
-  · [ny] This operation would cause tables to overlap. Move or remove the confl → ''
 ## spreadsheet_account
 - override: 4
 - converged 🎉: 0
@@ -4267,7 +4046,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 25
 ## stock
 - override: 20
-- converged 🎉: 5
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4275,7 +4054,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1732
+- oförändrad: 1734
   · [override] * Vendor Location: Virtual location representing the source  → '* Leverantörens plats: Virtuell plats so'
   · [override] All Companies → 'Alla bolag'
   · [override] Changing the company of this record is forbidden at this poi → 'Det är inte tillåtet att ändra bolaget p'
@@ -4317,30 +4096,6 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] The move lines are not in a consistent states: they do not s → 'Flyttrader är inte i konsekventa tillstå'
 ## stock_delivery
 - override: 1
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 102
-  · [override] Company → 'Bolag'
-## stock_dropshipping
-- override: 1
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 1
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 19
-  · [override] Companies → 'Bolag'
-## stock_fleet
-- override: 0
 - converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4349,9 +4104,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 48
-## stock_landed_costs
-- override: 2
+- oförändrad: 101
+  · [override] Company → 'Bolag'
+## stock_dropshipping
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4360,12 +4116,35 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 121
+- oförändrad: 20
+  · [override] Companies → 'Bolag'
+## stock_fleet
+- override: 0
+- converged 🎉: 0
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 49
+## stock_landed_costs
+- override: 2
+- converged 🎉: 3
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 118
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
 ## stock_picking_batch
 - override: 4
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4373,7 +4152,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 199
+- oförändrad: 196
   · [override] Company → 'Bolag'
   · [override] The selected operations should belong to a unique company. → 'De utvalda verksamheterna ska tillhöra e'
   · [override] The selected pickings should belong to an unique company. → 'Den utvalda plockningen ska tillhöra ett'
@@ -4392,7 +4171,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Companies → 'Bolag'
 ## survey
 - override: 6
-- converged 🎉: 1
+- converged 🎉: 6
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4400,7 +4179,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 971
+- oförändrad: 966
   · [override] <div style="background:#F0F0F0;color:#515166;padding:10px 0p → '<div style="background:#F0F0F0;color:#51'
   · [override] Company Certifications Count → 'Bolagets antal certifieringar'
   · [override] Our Company in a few questions ... → 'Vårt Bolag i några frågor ...'
@@ -4442,15 +4221,15 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 109
 ## web
 - override: 16
-- converged 🎉: 4
+- converged 🎉: 2
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 4302
+- oförändrad: 4305
   · [override] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
   · [override] <strong>Company details block</strong> → '<strong>Block för bolagsuppgifter</stron'
   · [override] Companies → 'Bolag'
@@ -4466,21 +4245,18 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Contains the company address. → 'Innehåller bolagets adress.'
   · [override] Contains the company details. → 'Innehåller uppgifter om bolaget.'
   · [override] Is Company Details Empty → 'Is Bolagsuppgifter Tom'
-  · [ny] Search a record... → ''
   · [override] Values set here are company-specific. → 'Värden som anges här är bolagsspecifika.'
 ## web_editor
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 4
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 2
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 547
-  · [ny] Lengthen → ''
-  · [ny] Shorten → ''
+- oförändrad: 553
 ## web_hierarchy
 - override: 0
 - converged 🎉: 0
@@ -4516,7 +4292,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 25
 ## website
 - override: 49
-- converged 🎉: 2
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4524,7 +4300,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2698
+- oförändrad: 2700
   · [override] " This company transformed our business. <br/>Their solution → '" Det här bolaget förändrade vår verksam'
   · [override] 50,000+ companies run Odoo <br class="d-none d-lg-inline"/>t → '50 000+ bolag använder Odoo <br class="d'
   · [override] 50,000+ companies run Odoo to grow their businesses. → 'över 50 000 bolag använder Odoo för att '
@@ -4576,7 +4352,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] organization, company, people, members, staffs, profiles, bi → 'organisation, bolag, människor, medlemma'
 ## website_blog
 - override: 2
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4584,7 +4360,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 364
+- oförändrad: 361
   · [override] A traveler may choose to explore the area by hiking around t → 'En resenär kan välja att utforska område'
   · [override] Write a small text here to describe your blog or company. → 'Skriv en liten text här för att beskriva'
 ## website_cf_turnstile
@@ -4748,7 +4524,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 3
 ## website_event_exhibitor
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4756,7 +4532,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 183
+- oförändrad: 180
   · [override] Our experts invent, imagine and develop solutions which meet → 'Våra experter uppfinner, föreställer sig'
 ## website_event_jitsi
 - override: 0
@@ -4804,7 +4580,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 35
 ## website_event_track
 - override: 4
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4812,7 +4588,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 440
+- oförändrad: 437
   · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Description of the partner (name, function and company name) → 'Beskrivning av partnern (namn, function '
@@ -4852,7 +4628,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 103
 ## website_forum
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4860,7 +4636,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 704
+- oförändrad: 701
 ## website_hr_recruitment
 - override: 4
 - converged 🎉: 0
@@ -4939,13 +4715,12 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 40
+- oförändrad: 41
   · [override] Companies → 'Bolag'
   · [override] Get all the latest news, blog posts and product updates from → 'Få alla de senaste nyheterna, blogginläg'
-  · [ny] Invalid mailing list. → ''
 ## website_mass_mailing_sms
 - override: 0
 - converged 🎉: 0
@@ -5003,7 +4778,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 5
 ## website_profile
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -5011,7 +4786,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 101
+- oförändrad: 102
 ## website_project
 - override: 1
 - converged 🎉: 0
@@ -5026,15 +4801,15 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company Name → 'Bolagsnamn'
 ## website_sale
 - override: 7
-- converged 🎉: 0
+- converged 🎉: 3
 - conflict ⚠️: 0
-- ny (redan rätt): 1
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 4
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 858
+- oförändrad: 860
   · [override] <small class="form-text text-muted">
                         → '<small class="form-text text-muted">\n   '
   · [override] Changing company name is not allowed once document(s) have b → 'Det är inte tillåtet att ändra bolagsnam'
@@ -5043,11 +4818,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Created in 2021, the company is young and dynamic. Discover  → 'Bolaget bildades 2021 och är ungt och dy'
   · [override] Only the company's websites are allowed.
 Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
-  · [ny] Some products in your cart are not available for purchase in your coun → ''
-  · [ny] Taxes have been updated based on your address. Your payment method has → ''
   · [override] The company of the website you are trying to sell from (%(we → 'Bolaget på webbplatsen som du försöker s'
-  · [ny] This product is not available for purchase in your country. → ''
-  · [ny] This product is part of a combo and can't be updated individually. → ''
 ## website_sale_autocomplete
 - override: 0
 - converged 🎉: 0
@@ -5107,15 +4878,13 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 1
+- ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 2
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 58
-  · [ny] Cannot process payment: Gift cards and eWallets are not compatible wit → ''
-  · [ny] incompatible with gift cards and eWallets → ''
+- oförändrad: 61
 ## website_sale_mass_mailing
 - override: 0
 - converged 🎉: 0
@@ -5195,7 +4964,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - oförändrad: 35
 ## website_slides
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 5
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -5203,7 +4972,7 @@ Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1143
+- oförändrad: 1138
   · [override] Company Course Count → 'Bolagets kursräknare'
 ## website_slides_forum
 - override: 0

@@ -1,25 +1,27 @@
 {
   "edition": "19.0",
-  "generated": "2026-11-02 05:33",
+  "generated": "2026-11-09 05:33",
   "totals": {
-    "override": 828,
-    "converged": 40,
-    "conflict": 1,
-    "new-correct": 74,
-    "new-corrected": 2,
+    "override": 831,
+    "converged": 101,
+    "conflict": 4,
+    "new-correct": 0,
+    "new-corrected": 0,
     "new-ours": 0,
-    "new-manual": 159,
+    "new-manual": 18,
     "flagged": 0,
-    "removed": 81,
-    "noop": 59767
+    "removed": 5,
+    "noop": 59930
   },
   "delta": {
-    "converged": -12,
-    "new-correct": 74,
-    "new-corrected": 2,
-    "new-manual": 159,
-    "removed": 81,
-    "noop": -69
+    "override": 3,
+    "converged": 61,
+    "conflict": 3,
+    "new-correct": -74,
+    "new-corrected": -2,
+    "new-manual": -141,
+    "removed": -76,
+    "noop": 163
   },
   "top_modules": [
     {
@@ -27,20 +29,16 @@
       "count": 142
     },
     {
-      "module": "account",
-      "count": 125
-    },
-    {
       "module": "base",
       "count": 120
     },
     {
-      "module": "website",
-      "count": 56
+      "module": "account",
+      "count": 112
     },
     {
-      "module": "point_of_sale",
-      "count": 34
+      "module": "website",
+      "count": 47
     },
     {
       "module": "account_peppol",
@@ -51,8 +49,12 @@
       "count": 21
     },
     {
-      "module": "web",
-      "count": 19
+      "module": "hr",
+      "count": 18
+    },
+    {
+      "module": "mass_mailing_themes",
+      "count": 18
     }
   ],
   "rule_changes": {
@@ -61,559 +63,82 @@
   },
   "conflicts": [
     {
-      "module": "hr",
+      "module": "account",
+      "count": 2
+    },
+    {
+      "module": "account_payment_interco",
+      "count": 1
+    },
+    {
+      "module": "account_peppol",
       "count": 1
     }
   ],
   "new": [
     {
-      "module": "account",
-      "msgid": "<span class=\"o_stat_text\">Journal Items</span>",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Account Move Line",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Account Reconcile Model Line",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Back to Credit Note",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Back to Refund",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Email addresses that should receive invoices copy/return reminders. Separate ent",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Fiscal Country Code of the Company",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Invoice generated but not sent.",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Label sanitize",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "No valid sending method could be applied, so this invoice was not sent automatic",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "Only Accounting managers can create foreign taxes.",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "The account code can only contain alphanumeric characters and dots. (account cod",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "The entry is using taxes (%(tax_names)s) from a different company.",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "You can not archive a journal containing draft journal entries.\n\nTo proceed:\n1/ ",
-      "translation": ""
-    },
-    {
-      "module": "account",
-      "msgid": "You cannot modify the following readonly fields on the posted move %(move)s: %(f",
+      "module": "account_edi_ubl_cii",
+      "msgid": "Could not retrieve a partner corresponding to '%s' with the same VAT and country",
       "translation": ""
     },
     {
       "module": "account_edi_ubl_cii",
-      "msgid": "Companies",
-      "translation": "Bolag"
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Account Payable",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Account Receivable",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Companies",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Config Settings",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Display Name",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "ID",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Interco Settlement - %s",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Intercompany Clearing",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Intercompany Clearing Journal",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Intercompany Clearing Payable Account",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Intercompany Clearing Receivable Account",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Journal",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "Journal Entry",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "The account where Intercompany credit note payments will be cleared",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "The account where Intercompany invoice payments will be cleared",
-      "translation": ""
-    },
-    {
-      "module": "account_payment_interco",
-      "msgid": "The accounting journal where Intercompany payments will be cleared",
+      "msgid": "The Peppol endpoint is not valid. Please enter a valid 10-digit Tax Identificati",
       "translation": ""
     },
     {
       "module": "account_peppol",
-      "msgid": "Error importing %(proxy_type)s document (UUID: %(uuid)s):",
+      "msgid": "<strong>Contact us</strong>",
       "translation": ""
     },
     {
       "module": "account_peppol",
-      "msgid": "If you are not subject to VAT, you should not have a VAT number on your company/",
-      "translation": "Om du inte är momspliktig, bör du inte ha ett angivet momsre"
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "You accept that any fraudulent activity or spam will result in immediate and per",
+      "msgid": "There was an error while importing the bill, you can find attached the incoming ",
       "translation": ""
     },
     {
       "module": "account_peppol",
-      "msgid": "You authorize Odoo to act as your Peppol Service Provider to send and receive e-",
+      "msgid": "Your database is not linked to Peppol anymore. This might be due to a database d",
       "translation": ""
     },
     {
       "module": "account_peppol",
-      "msgid": "You confirm that you are authorized to register this company on the Peppol netwo",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "You remain fully responsible for the content, accuracy, and legal compliance of ",
-      "translation": ""
-    },
-    {
-      "module": "event",
-      "msgid": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; back",
-      "translation": ""
-    },
-    {
-      "module": "event",
-      "msgid": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; back",
-      "translation": ""
-    },
-    {
-      "module": "event",
-      "msgid": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; back",
-      "translation": ""
-    },
-    {
-      "module": "google_calendar",
-      "msgid": "This event has more than 5 reminders, only the first 5 will be synced to Google ",
+      "msgid": "to reconnect your database to Peppol.",
       "translation": ""
     },
     {
       "module": "hr",
-      "msgid": "The Badge ID must contain only printable ASCII characters, without spaces, and b",
-      "translation": ""
-    },
-    {
-      "module": "hr_attendance",
-      "msgid": "Display Attendances",
-      "translation": ""
-    },
-    {
-      "module": "hr_expense",
-      "msgid": "Hr Expense",
-      "translation": ""
-    },
-    {
-      "module": "hr_expense",
-      "msgid": "Select the user responsible for approving \"Expenses\" of this employee.\nIf empty,",
-      "translation": ""
-    },
-    {
-      "module": "hr_expense",
-      "msgid": "The current user has no related employee. Please, create one in %(company)s, or ",
+      "msgid": "You do not have the rights to trust or un-trust accounts.",
       "translation": ""
     },
     {
       "module": "hr_holidays",
-      "msgid": "A supporting document is required for this type of time off.",
+      "msgid": "%(success_count)s time off request(s) created successfully.",
       "translation": ""
     },
     {
       "module": "hr_holidays",
-      "msgid": "If this field is checked, every leave request of this type will have a correspon",
+      "msgid": "Time Off Generated",
       "translation": ""
     },
     {
-      "module": "hr_skills_event",
-      "msgid": "Event",
-      "translation": ""
-    },
-    {
-      "module": "hr_work_entry",
-      "msgid": "Overtime Off-days",
-      "translation": ""
-    },
-    {
-      "module": "hr_work_entry",
-      "msgid": "Overtime Weekdays Daytime",
-      "translation": ""
-    },
-    {
-      "module": "hr_work_entry",
-      "msgid": "Overtime Weekdays Nighttime",
-      "translation": ""
-    },
-    {
-      "module": "hr_work_entry",
-      "msgid": "Sick Leave 1",
-      "translation": ""
-    },
-    {
-      "module": "html_builder",
-      "msgid": "Anchor copied to clipboard",
-      "translation": ""
-    },
-    {
-      "module": "html_editor",
-      "msgid": "Convert columns to regular content",
-      "translation": ""
-    },
-    {
-      "module": "html_editor",
-      "msgid": "Dynamic element",
-      "translation": ""
-    },
-    {
-      "module": "html_editor",
-      "msgid": "Only internal users can use AI text generation.",
-      "translation": ""
-    },
-    {
-      "module": "html_editor",
-      "msgid": "Remove column layout",
-      "translation": ""
-    },
-    {
-      "module": "iap",
-      "msgid": "In-App Purchase Accounts",
-      "translation": ""
-    },
-    {
-      "module": "iap",
-      "msgid": "Manage",
-      "translation": ""
-    },
-    {
-      "module": "iap",
-      "msgid": "Rotate",
-      "translation": ""
-    },
-    {
-      "module": "iap",
-      "msgid": "The IAP server is unreachable and the information may not be up to date. Please ",
-      "translation": ""
-    },
-    {
-      "module": "iap",
-      "msgid": "This is useful if you think it may have leaked. It will also deactivate auto-ref",
-      "translation": ""
-    },
-    {
-      "module": "iap",
-      "msgid": "Unable to rotate token, another process is busy. Please try later.",
-      "translation": ""
-    },
-    {
-      "module": "iap",
-      "msgid": "Unexpected while contacting IAP. Please contact the support.",
-      "translation": ""
-    },
-    {
-      "module": "im_livechat",
-      "msgid": "* 'Show' displays the chat button on the pages.\n* 'Show with notification' is 'S",
-      "translation": ""
-    },
-    {
-      "module": "im_livechat",
-      "msgid": "Go to <strong>Website</strong> &gt; <strong>Configuration</strong> &gt; <strong>",
-      "translation": ""
-    },
-    {
-      "module": "im_livechat",
-      "msgid": "The URL Regex '%(regex)s' is not valid.",
-      "translation": ""
-    },
-    {
-      "module": "loyalty",
-      "msgid": "Free Product - [%(products)s, and %(count)s more]",
-      "translation": ""
-    },
-    {
-      "module": "mail",
-      "msgid": "1 message found",
-      "translation": ""
-    },
-    {
-      "module": "mail",
-      "msgid": "CMD",
-      "translation": ""
-    },
-    {
-      "module": "mail",
-      "msgid": "Language code used as the target for the translation request.",
-      "translation": ""
-    },
-    {
-      "module": "mail",
-      "msgid": "Pop out is not supported on mobile.",
-      "translation": ""
-    },
-    {
-      "module": "mail",
-      "msgid": "Showing the first %(count)s messages found. Narrow your search or scroll to see ",
-      "translation": ""
-    },
-    {
-      "module": "mass_mailing",
-      "msgid": "Attachment",
-      "translation": ""
-    },
-    {
-      "module": "payment",
-      "msgid": "This payment provider is not available.",
-      "translation": ""
-    },
-    {
-      "module": "payment",
-      "msgid": "Zip Code",
-      "translation": ""
-    },
-    {
-      "module": "payment_authorize",
-      "msgid": "Could not retrieve the transaction details.",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "The payment requires authentication from the customer, which isn't possible for ",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "Update the Xendit webhook configuration",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "Xendit Dashboard",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "Xendit replaced the single webhook field used by the %(provider)s payment provid",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "webhook configuration",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "A QR code payment already covers the amount due. Send it or remove it first.",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Access printer configuration panel by putting this URL in your search bar:",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Access the below URL but replace [printer_ip] with your current Printer IP addre",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "If this endpoint does not return a 404 error and displays a blank page, everythi",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Message: %(messages)s\nPlease update the %(invalid_fields)s",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Offline",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Only Point of Sale managers can modify a Point of Sale configuration.",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Printer's local IP address is printed",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Secure printing enabled",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "The %s must be filled in your details.",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "The register cannot be opened while offline. Please try again.",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "This action will delete all unsaved orders and other locally stored data",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Variant does not exist",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "You cannot refund more than the outstanding quantity for this product.",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "order",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "orders",
-      "translation": ""
-    },
-    {
-      "module": "pos_dpopay",
-      "msgid": "%s. Please ensure the device is online and confirm that the Merchant ID (MID) an",
-      "translation": ""
-    },
-    {
-      "module": "pos_event",
-      "msgid": "%s limit exceeded",
-      "translation": ""
-    },
-    {
-      "module": "pos_event",
-      "msgid": "Slot",
-      "translation": ""
-    },
-    {
-      "module": "pos_event",
-      "msgid": "Ticket limit exceeded",
-      "translation": ""
-    },
-    {
-      "module": "pos_event",
-      "msgid": "You selected more tickets than available seats (max %s). Please select a smaller",
+      "module": "mrp_subcontracting_dropshipping",
+      "msgid": "Journal Item",
       "translation": ""
     },
     {
       "module": "pos_glory_cash",
-      "msgid": "Error code:",
+      "msgid": "Failed to cancel cash machine transaction: %s.",
       "translation": ""
     },
     {
       "module": "pos_glory_cash",
-      "msgid": "Failed to cancel cash machine transaction.",
+      "msgid": "Glory error animation.",
       "translation": ""
     },
     {
       "module": "pos_glory_cash",
-      "msgid": "Please remove the cash from the exit of the cash machine before starting a trans",
-      "translation": ""
-    },
-    {
-      "module": "pos_glory_cash",
-      "msgid": "The cash machine is busy counting its inventory, please wait a few seconds and r",
-      "translation": ""
-    },
-    {
-      "module": "pos_glory_cash",
-      "msgid": "The cash machine is not ready to start a transaction. Check all the covers are c",
+      "msgid": "The Glory machine is in an unknown error state.",
       "translation": ""
     },
     {
@@ -623,252 +148,22 @@
     },
     {
       "module": "pos_glory_cash",
+      "msgid": "There is an error with the bill or coin device. The machine will now be reset an",
+      "translation": ""
+    },
+    {
+      "module": "pos_glory_cash",
       "msgid": "There is insufficient cash in the machine to give change. You will need to refun",
       "translation": ""
     },
     {
-      "module": "pos_mollie",
-      "msgid": "You do not have the necessary permissions to access this payment.",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Invalid combo line",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Invalid product attribute",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Invalid product configuration",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Invalid quantity",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Preset is not available in self-ordering",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Preset is not available in this configuration",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Select an hour",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "The order ID isn't linked to the order UUID. This is a sign of a tampered payloa",
-      "translation": ""
-    },
-    {
-      "module": "pos_stripe",
-      "msgid": "Do not have access to fetch the Stripe account",
-      "translation": ""
-    },
-    {
-      "module": "pos_viva_com",
-      "msgid": "There are some issues between us and Viva.com, try again later.",
-      "translation": ""
-    },
-    {
-      "module": "product",
-      "msgid": "Sorry, you are not allowed to access this document.",
-      "translation": ""
-    },
-    {
-      "module": "product_matrix",
-      "msgid": "%(products)s have more than %(limit)s attribute combinations and cannot be selec",
-      "translation": ""
-    },
-    {
-      "module": "product_matrix",
-      "msgid": "Too many combinations",
-      "translation": ""
-    },
-    {
-      "module": "project_todo",
-      "msgid": "The To-do description was empty at the time.",
-      "translation": ""
-    },
-    {
-      "module": "purchase",
-      "msgid": "The partner cannot be deleted because it is used as a dropship address",
-      "translation": ""
-    },
-    {
-      "module": "resource",
-      "msgid": "When printing documents and exporting/importing data, time values are computed a",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "<strong>\n                            Invoicing Address\n                        <",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "<strong>\n                            Shipping Address\n                        </",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "<strong>\n                        Invoicing and Shipping Address\n                ",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "Validity of the quotation. After this date, you will no longer be able to sign a",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "You should not change the product type because this product is already used in s",
-      "translation": ""
-    },
-    {
-      "module": "sale_loyalty_delivery",
-      "msgid": "Cannot process payment: Gift cards and eWallets are not compatible with on site ",
-      "translation": ""
-    },
-    {
-      "module": "sale_loyalty_delivery",
-      "msgid": "Payment Provider",
-      "translation": ""
-    },
-    {
-      "module": "sale_loyalty_delivery",
-      "msgid": "incompatible with gift cards and eWallets",
-      "translation": ""
-    },
-    {
-      "module": "spreadsheet",
-      "msgid": "Cannot perform this action on merged cells. Unmerge the cells and try again.",
-      "translation": ""
-    },
-    {
-      "module": "spreadsheet",
-      "msgid": "This operation would cause tables to overlap. Move or remove the conflicting tab",
-      "translation": ""
-    },
-    {
-      "module": "web",
-      "msgid": "Copy Arch",
-      "translation": ""
-    },
-    {
-      "module": "web",
-      "msgid": "Search a record...",
-      "translation": ""
-    },
-    {
-      "module": "web",
-      "msgid": "The autocomplete value for %(field)s has not been found: the record with id %(id",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "(%(count)s found)",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "Drag blocks here",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "External ID can not be loaded: %(error)s (website: %(website_id)s)",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "Google Maps configuration has changed. Please reload the page for changes to tak",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "Places API (NEW)",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "Template does not exist or has been deleted: %(error)s (website: %(website_id)s)",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "Template not found: '%(error)s' (website: %(website_id)s)",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "This form cannot be submitted. Please contact the website administrator.",
-      "translation": ""
-    },
-    {
-      "module": "website",
-      "msgid": "You cannot duplicate this image.",
-      "translation": ""
-    },
-    {
-      "module": "website_forum",
-      "msgid": "Oh no! Please sign in to perform this action",
-      "translation": ""
-    },
-    {
-      "module": "website_mass_mailing",
-      "msgid": "Invalid mailing list.",
+      "module": "website_sale",
+      "msgid": "Linked lines must be added to the cart with their parent.",
       "translation": ""
     },
     {
       "module": "website_sale",
-      "msgid": "Some products in your cart are not available for purchase in your country. Pleas",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "The number of selected combo items must match the number of available combo choi",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "This product is not available for purchase in your country.",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "This product is part of a combo and can't be updated individually.",
-      "translation": ""
-    },
-    {
-      "module": "website_slides",
-      "msgid": "<div style=\"margin: 0px; padding: 0px;\">\n                    <p style=\"margin: 0",
-      "translation": ""
-    },
-    {
-      "module": "website_slides",
-      "msgid": "<div style=\"margin: 0px; padding: 0px;\">\n                    <p style=\"margin: 0",
+      "msgid": "You cannot add a combo item separately from its combo.",
       "translation": ""
     }
   ],

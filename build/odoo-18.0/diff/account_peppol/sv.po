@@ -20,7 +20,7 @@ msgid "Company Name"
 msgstr "Bolagets namn"
 
 #. module: account_peppol
-# conflict | officiell: 'Om du inte är momspliktig, bör du inte ha ett angivet
+# override | officiell: 'Om du inte är momspliktig, bör du inte ha ett angivet
 # momsregistreringsnummer i dina företagskontakter och dina kunder bör inte ha
 # det heller.'
 msgid ""
@@ -57,6 +57,19 @@ msgid "Peppol Use Parent Company"
 msgstr "Peppol använd överordnat bolag"
 
 #. module: account_peppol
+# conflict | officiell: 'Registrera dig med nuvarande företag'
+msgid "Register using the current company"
+msgstr "Registrera dig med nuvarande bolag"
+
+#. module: account_peppol
+# conflict | officiell: 'Registrera dig med det överordnade företaget genom
+# att ange samma EAS/slutdestination'
+msgid "Register using the parent company by setting the same EAS/Endpoint"
+msgstr ""
+"Registrera dig med det överordnade bolaget genom att ange samma "
+"EAS/slutdestination"
+
+#. module: account_peppol
 # override | officiell: 'Utvalda företag'
 msgid "Selected Company"
 msgstr "Utvalda bolag"
@@ -73,6 +86,27 @@ msgstr ""
 "Du är på väg att använda ett momsregistreringsnummer för att registrera dig."
 " Försäkra dig om att du registrerar dig med ditt bolagsregisternummer "
 "(BCE/KBO) för att följa gällande lagstiftning."
+
+#. module: account_peppol
+# conflict | officiell: 'Du bekräftar att du har behörighet att registrera
+# företaget på Peppol-nätverket i rollen som juridisk representant.'
+msgid ""
+"You confirm that you are authorized to register this company on the Peppol "
+"network as a legal representative."
+msgstr ""
+"Du bekräftar att du har behörighet att registrera bolaget på Peppol-"
+"nätverket i rollen som juridisk representant."
+
+#. module: account_peppol
+# conflict | officiell: 'Företaget är redan registrerat vid en annan
+# accesspunkt för att ta emot fakturor. Vi kommer endast att registrera dig
+# som avsändare.'
+msgid ""
+"Your company is already registered on another Access Point for receiving "
+"invoices.We will register you as a sender only."
+msgstr ""
+"Bolaget är redan registrerat vid en annan accesspunkt för att ta emot "
+"fakturor. Vi kommer endast att registrera dig som avsändare."
 
 #. module: account_peppol
 # override | officiell: "[PEPPOL-EN16931-R020] En digital adress (EAS) måste

@@ -27,7 +27,7 @@ msgid "Belgian Company Registry"
 msgstr "Bolagsregister i Belgien"
 
 #. module: account_edi_ubl_cii
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 

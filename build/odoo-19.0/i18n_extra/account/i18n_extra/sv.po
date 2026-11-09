@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account\n"
-"POT-Creation-Date: 2026-11-02 05:33\n"
-"PO-Revision-Date: 2026-11-02 05:33\n"
+"POT-Creation-Date: 2026-11-09 05:33\n"
+"PO-Revision-Date: 2026-11-09 05:33\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -407,6 +407,11 @@ msgid ""
 msgstr "Kostnader för reparationer och underhåll av bolagsbilar och lastbilar"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_tax__company_country_code
+msgid "Fiscal Country Code of the Company"
+msgstr "Bolagets skatterättsliga hemvistkod"
+
+#. module: account
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Items With Missing Analytic Distribution"
@@ -621,6 +626,12 @@ msgid ""
 msgstr ""
 "Verifikatet använder sig av konton (%(accounts_codes_names)s) från ett annat"
 " bolag."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+msgid "The entry is using taxes (%(tax_names)s) from a different company."
+msgstr "Verifikationen använder skatter (%(tax_names)s) från ett annat bolag."
 
 #. module: account
 #. odoo-python

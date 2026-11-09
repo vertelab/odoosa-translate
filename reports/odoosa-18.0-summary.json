@@ -1,51 +1,44 @@
 {
   "edition": "18.0",
-  "generated": "2026-11-02 05:31",
+  "generated": "2026-11-09 05:31",
   "totals": {
-    "override": 1012,
-    "converged": 54,
-    "conflict": 1,
-    "new-correct": 73,
-    "new-corrected": 1,
+    "override": 814,
+    "converged": 639,
+    "conflict": 28,
+    "new-correct": 0,
+    "new-corrected": 0,
     "new-ours": 0,
-    "new-manual": 58,
+    "new-manual": 4,
     "flagged": 0,
-    "removed": 56,
-    "noop": 55086
+    "removed": 1,
+    "noop": 54803
   },
   "delta": {
-    "override": -2,
-    "converged": 4,
-    "new-correct": 73,
-    "new-corrected": 1,
-    "new-manual": 58,
-    "removed": 56,
-    "noop": -58
+    "override": -198,
+    "converged": 585,
+    "conflict": 27,
+    "new-correct": -73,
+    "new-corrected": -1,
+    "new-manual": -54,
+    "removed": -55,
+    "noop": -283
   },
   "top_modules": [
-    {
-      "module": "account",
-      "count": 289
-    },
     {
       "module": "base",
       "count": 134
     },
     {
       "module": "crm",
+      "count": 110
+    },
+    {
+      "module": "account",
       "count": 109
     },
     {
       "module": "website",
       "count": 49
-    },
-    {
-      "module": "account_peppol",
-      "count": 24
-    },
-    {
-      "module": "point_of_sale",
-      "count": 23
     },
     {
       "module": "mail_plugin",
@@ -54,6 +47,14 @@
     {
       "module": "stock",
       "count": 20
+    },
+    {
+      "module": "point_of_sale",
+      "count": 19
+    },
+    {
+      "module": "mass_mailing_themes",
+      "count": 18
     }
   ],
   "rule_changes": {
@@ -62,304 +63,49 @@
   },
   "conflicts": [
     {
+      "module": "account",
+      "count": 20
+    },
+    {
       "module": "account_peppol",
+      "count": 4
+    },
+    {
+      "module": "account_peppol_selfbilling",
+      "count": 1
+    },
+    {
+      "module": "crm",
+      "count": 1
+    },
+    {
+      "module": "hr_expense",
+      "count": 1
+    },
+    {
+      "module": "product",
       "count": 1
     }
   ],
   "new": [
     {
       "module": "account_edi_ubl_cii",
-      "msgid": "Companies",
-      "translation": "Bolag"
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "Authentication is required but not available. Please contact Odoo support.",
+      "msgid": "Could not retrieve a partner corresponding to '%s' with the same VAT and country",
       "translation": ""
     },
     {
-      "module": "account_peppol",
-      "msgid": "Cannot initiate KYC for your selected scheme. Please try a different one",
+      "module": "account_edi_ubl_cii",
+      "msgid": "The Peppol endpoint is not valid. Please enter a valid 10-digit Tax Identificati",
       "translation": ""
     },
     {
-      "module": "account_peppol",
-      "msgid": "Could not connect to Peppol proxy",
+      "module": "sms",
+      "msgid": "Your country is not supported due to sender registration legislation",
       "translation": ""
     },
     {
-      "module": "account_peppol",
-      "msgid": "Error importing %(proxy_type)s document (UUID: %(uuid)s):",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "The partner has indicated it does not accept this document type, so you cannot s",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "The partner is missing their %(identifier_name)s.",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "You accept that any fraudulent activity or spam will result in immediate and per",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "You authorize Odoo to act as your Peppol Service Provider to send and receive e-",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "You confirm that you are authorized to register this company on the Peppol netwo",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "You remain fully responsible for the content, accuracy, and legal compliance of ",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "Your identifier does not have a valid format.",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "Your identifier does not have a valid format. Expected format: %s.",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol_response",
-      "msgid": "A Peppol response declaring you %(status)s this document could not be sent to th",
-      "translation": ""
-    },
-    {
-      "module": "event",
-      "msgid": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; back",
-      "translation": ""
-    },
-    {
-      "module": "event",
-      "msgid": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; back",
-      "translation": ""
-    },
-    {
-      "module": "event",
-      "msgid": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; back",
-      "translation": ""
-    },
-    {
-      "module": "google_calendar",
-      "msgid": "This event has more than 5 reminders, only the first 5 will be synced to Google ",
-      "translation": ""
-    },
-    {
-      "module": "hr",
-      "msgid": "The Badge ID must contain only printable ASCII characters, without spaces, and b",
-      "translation": ""
-    },
-    {
-      "module": "hr_expense",
-      "msgid": "Hr Expense",
-      "translation": ""
-    },
-    {
-      "module": "hr_holidays",
-      "msgid": "If this field is checked, every leave request of this type will have a correspon",
-      "translation": ""
-    },
-    {
-      "module": "html_editor",
-      "msgid": "Convert columns to regular content",
-      "translation": ""
-    },
-    {
-      "module": "html_editor",
-      "msgid": "Only internal users can use AI text generation.",
-      "translation": ""
-    },
-    {
-      "module": "html_editor",
-      "msgid": "Remove column layout",
-      "translation": ""
-    },
-    {
-      "module": "iap",
-      "msgid": "The IAP server is unreachable and the information may not be up to date. Please ",
-      "translation": ""
-    },
-    {
-      "module": "im_livechat",
-      "msgid": "* 'Show' displays the chat button on the pages.\n* 'Show with notification' is 'S",
-      "translation": ""
-    },
-    {
-      "module": "loyalty",
-      "msgid": "Free Product - [%(products)s, and %(count)s more]",
-      "translation": ""
-    },
-    {
-      "module": "mail",
-      "msgid": "Language code used as the target for the translation request.",
-      "translation": ""
-    },
-    {
-      "module": "mail",
-      "msgid": "Pop out is not supported on mobile.",
-      "translation": ""
-    },
-    {
-      "module": "payment",
-      "msgid": "This payment provider is not available.",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "The payment requires authentication from the customer, which isn't possible for ",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "Update the Xendit webhook configuration",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "Xendit Dashboard",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "Xendit replaced the single webhook field used by the %(provider)s payment provid",
-      "translation": ""
-    },
-    {
-      "module": "payment_xendit",
-      "msgid": "webhook configuration",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "Only Point of Sale managers can modify a Point of Sale configuration.",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "The combo choice '%s' is no longer available in this combo. Please reload your d",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "The register cannot be opened while offline. Please try again.",
-      "translation": ""
-    },
-    {
-      "module": "point_of_sale",
-      "msgid": "You cannot modify a fiscal position used in a POS order. You should archive it a",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Invalid product attribute",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Invalid product configuration",
-      "translation": ""
-    },
-    {
-      "module": "pos_self_order",
-      "msgid": "Invalid product quantity",
-      "translation": ""
-    },
-    {
-      "module": "pos_viva_wallet",
-      "msgid": "There are some issues between us and Viva Wallet, try again later.",
-      "translation": ""
-    },
-    {
-      "module": "pos_viva_wallet",
-      "msgid": "Unable to retrieve Viva Wallet webhook verification key: Please verify that the ",
-      "translation": ""
-    },
-    {
-      "module": "purchase",
-      "msgid": "The partner cannot be deleted because it is used as a dropship address",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "Validity of the quotation. After this date, you will no longer be able to sign a",
-      "translation": ""
-    },
-    {
-      "module": "sale",
-      "msgid": "You should not change the product type because this product is already used in s",
-      "translation": ""
-    },
-    {
-      "module": "spreadsheet",
-      "msgid": "Cannot perform this action on merged cells. Unmerge the cells and try again.",
-      "translation": ""
-    },
-    {
-      "module": "spreadsheet",
-      "msgid": "This operation would cause tables to overlap. Move or remove the conflicting tab",
-      "translation": ""
-    },
-    {
-      "module": "web",
-      "msgid": "Search a record...",
-      "translation": ""
-    },
-    {
-      "module": "web_editor",
-      "msgid": "Lengthen",
-      "translation": ""
-    },
-    {
-      "module": "web_editor",
-      "msgid": "Shorten",
-      "translation": ""
-    },
-    {
-      "module": "website_mass_mailing",
-      "msgid": "Invalid mailing list.",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "Some products in your cart are not available for purchase in your country. Pleas",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "Taxes have been updated based on your address. Your payment method has not been ",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "This product is not available for purchase in your country.",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "This product is part of a combo and can't be updated individually.",
-      "translation": ""
-    },
-    {
-      "module": "website_sale_loyalty",
-      "msgid": "Cannot process payment: Gift cards and eWallets are not compatible with on site ",
-      "translation": ""
-    },
-    {
-      "module": "website_sale_loyalty",
-      "msgid": "incompatible with gift cards and eWallets",
+      "module": "sms",
+      "msgid": "Your database is not activated",
       "translation": ""
     }
   ],

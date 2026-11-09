@@ -16,87 +16,20 @@ msgstr ""
 "För att upprätthålla konsekvens måste verifikatet alltid ha exakt en interimrad."
 
 #. module: account
-# override | officiell: '-> Visa delvis avstämda bokföringsposter'
-msgid "-> View partially reconciled entries"
-msgstr "-> Visa delvis avstämda verifikat"
-
-#. module: account
-# override | officiell: '. Beloppet i bokföringsposten måste beräknas av Odoo
-# innan den kan bokföras i ditt företags valuta.'
+# conflict | officiell: '. Beloppen i verifikationerna måste beräknas av Odoo
+# innan de kan bokföras i ditt företags valuta.'
 msgid ""
 ". The journal entries need to be computed by Odoo before being posted in "
 "your company's currency."
 msgstr ""
-". Beloppet i verifikatet måste beräknas av Odoo innan den kan bokföras i "
-"ditt bolags valuta."
-
-#. module: account
-# override | officiell: '<span class="o_stat_text">Bokföringsposter enligt
-# kontantmetoden</span>'
-msgid "<span class=\"o_stat_text\">Cash Basis Entries</span>"
-msgstr "<span class=\"o_stat_text\">Verifikat enligt kontantmetoden</span>"
-
-#. module: account
-# override | officiell: '<span class="o_stat_text">Bokföringspost</span>'
-msgid "<span class=\"o_stat_text\">Journal Entry</span>"
-msgstr "<span class=\"o_stat_text\">Verifikat</span>"
-
-#. module: account
-# override | officiell: '<span class="o_stat_text">Avstämda
-# journalhändelser</span>'
-msgid "<span class=\"o_stat_text\">Reconciled Items</span>"
-msgstr "<span class=\"o_stat_text\">Avstämda verifikatsrader</span>"
-
-#. module: account
-# override | officiell: '<span>bokföringsposten har skapats genom appen
-# Faktura innan Bokföring installerades. Saldot har importerats
-# separat.</span>'
-msgid ""
-"<span>This entry has been generated through the Invoicing app, before "
-"installing Accounting. Its balance has been imported separately.</span>"
-msgstr ""
-"<span>verifikatet har skapats genom appen Faktura innan Bokföring "
-"installerades. Saldot har importerats separat.</span>"
-
-#. module: account
-# override | officiell: 'Ett kassaregister låter dig hantera kontanta
-# bokföringsposter genom dina\n                kontantjournaler. Funktionen
-# gör det enkelt att dagligen hålla uppsikt\n                över kontanta
-# betalningar.'
-msgid ""
-"A Cash Register allows you to manage cash entries in your cash\n"
-"                journals. This feature provides an easy way to follow up cash\n"
-"                payments on a daily basis."
-msgstr ""
-"Ett kassaregister låter dig hantera kontanta verifikat genom dina\n"
-"                kontantjournaler. Funktionen gör det enkelt att dagligen hålla uppsikt\n"
-"                över kontanta betalningar."
+". Beloppen i verifikationerna måste beräknas av Odoo innan de kan bokföras i"
+" ditt bolags valuta."
 
 #. module: account
 # override | officiell: 'Namnet på en huvudboksgrupp måste vara unikt för
 # varje företag.'
 msgid "A Ledger group name must be unique per company."
 msgstr "Namnet på en huvudboksgrupp måste vara unikt för varje bolag."
-
-#. module: account
-# override | officiell: 'En bokföringspost består av flera journalhändelser
-# där varje \n                händelse antingen utgör en debet- eller
-# kredittransaktion.'
-msgid ""
-"A journal entry consists of several journal items, each of\n"
-"                which is either a debit or a credit transaction."
-msgstr ""
-"En verifikat består av flera verifikatsrader där varje \n"
-"                händelse antingen utgör en debet- eller kredittransaktion."
-
-#. module: account
-# override | officiell: 'En betalning med ett utestående konto kan inte
-# bekräftas utan en bokföringspost.'
-msgid ""
-"A payment with an outstanding account cannot be confirmed without having a "
-"journal entry."
-msgstr ""
-"En betalning med ett utestående konto kan inte bekräftas utan en verifikat."
 
 #. module: account
 # override | officiell: 'Kontot %(account)s kommer att delas upp i
@@ -118,47 +51,6 @@ msgid ""
 msgstr ""
 "Kontot %s kan inte delas upp eftersom det redan tillhör ett enskilt bolag. "
 "Åtgärden delar bara upp ett konto baserat på dess bolag."
-
-#. module: account
-# override | officiell: 'Bokföringspost'
-msgid "Account Entry"
-msgstr "Verifikat"
-
-#. module: account
-# override | officiell: 'Konto har hashade bokföringsposter'
-msgid "Account Has Hashed Entries"
-msgstr "Konto har hashade verifikat"
-
-#. module: account
-# override | officiell: 'Konto som anges på rader i bokföringsposter skapade
-# enligt kontantmetoden och som används för att spåra det grundläggande
-# skattebeloppet.'
-msgid ""
-"Account that will be set on lines created in cash basis journal entry and "
-"used to keep track of the tax base amount."
-msgstr ""
-"Konto som anges på rader i verifikat skapade enligt kontantmetoden och som "
-"används för att spåra det grundläggande skattebeloppet."
-
-#. module: account
-# override | officiell: 'Konto med bokföringsposter'
-msgid "Account with Entries"
-msgstr "Konto med verifikat"
-
-#. module: account
-# override | officiell: 'Konto: Bokför utkast till bokföringsposter med
-# auto_post aktiverat och bokföringsdatum fram till idag'
-msgid ""
-"Account: Post draft entries with auto_post enabled and accounting date up to"
-" today"
-msgstr ""
-"Konto: Bokför utkast till verifikat med auto_post aktiverat och "
-"bokföringsdatum fram till idag"
-
-#. module: account
-# override | officiell: 'Justering av bokföringspost'
-msgid "Adjusting Entry"
-msgstr "Justering av verifikat"
 
 #. module: account
 # override | officiell: 'Alla företag'
@@ -212,16 +104,6 @@ msgstr ""
 "Bolag presenterar sina årsredovisningar i två huvuddelar: en balansräkning\n"
 "och en resultaträkning (konton för vinster och förluster). Bolag är skyldiga enligt lag\n"
 "att genom årsredovisningen presentera viss information."
-
-#. module: account
-# override | officiell: 'Ett fel inträffade vid beräkningen av
-# oföränderligheten. Alla bokföringsposter måste stämmas av.'
-msgid ""
-"An error occurred when computing the inalterability. All entries have to be "
-"reconciled."
-msgstr ""
-"Ett fel inträffade vid beräkningen av oföränderligheten. Alla verifikat "
-"måste stämmas av."
 
 #. module: account
 # override | officiell: 'Analytiskt konto'
@@ -289,102 +171,6 @@ msgid "Analytic lines"
 msgstr "Objektrader"
 
 #. module: account
-# override | officiell: 'En annan bokföringspost med samma namn finns redan.'
-msgid "Another entry with the same name already exists."
-msgstr "En annan verifikat med samma namn finns redan."
-
-#. module: account
-# override | officiell: 'Alla bokföringsposter fram till och inklusive detta
-# datum kommer att skjutas upp till ett senare tillfälle, i enlighet med de
-# relaterade journalernas nummerföljder. Detta låsningsdatum är oåterkalleligt
-# och tillåter inga undantag.'
-msgid ""
-"Any entry up to and including that date will be postponed to a later time, "
-"in accordance with its journal sequence. This lock date is irreversible and "
-"does not allow any exception."
-msgstr ""
-"Alla verifikat fram till och inklusive detta datum kommer att skjutas upp "
-"till ett senare tillfälle, i enlighet med de relaterade journalernas "
-"nummerföljder. Detta låsningsdatum är oåterkalleligt och tillåter inga "
-"undantag."
-
-#. module: account
-# override | officiell: 'Alla bokföringsposter fram till och inklusive detta
-# datum kommer att skjutas upp till ett senare tillfälle, i enlighet med de
-# relaterade journalernas nummerföljder.'
-msgid ""
-"Any entry up to and including that date will be postponed to a later time, "
-"in accordance with its journal's sequence."
-msgstr ""
-"Alla verifikat fram till och inklusive detta datum kommer att skjutas upp "
-"till ett senare tillfälle, i enlighet med de relaterade journalernas "
-"nummerföljder."
-
-#. module: account
-# override | officiell: 'Alla bokföringsposter med skatter till och med detta
-# datum kommer att skjutas upp till en senare tidpunkt, i enlighet med
-# journalens nummerföljd. Låsningsdatumet för skatter anges automatiskt
-# skatteberäkningsposten bokförs.'
-msgid ""
-"Any entry with taxes up to and including that date will be postponed to a "
-"later time, in accordance with its journal's sequence. The tax lock date is "
-"automatically set when the tax closing entry is posted."
-msgstr ""
-"Alla verifikat med skatter till och med detta datum kommer att skjutas upp "
-"till en senare tidpunkt, i enlighet med journalens nummerföljd. "
-"Låsningsdatumet för skatter anges automatiskt skatteberäkningsposten "
-"bokförs."
-
-#. module: account
-# override | officiell: 'Alla bokföringsposter på ett konto med
-# leverantörsskulder måste ha ett förfallodatum och vice versa.'
-msgid ""
-"Any journal item on a payable account must have a due date and vice versa."
-msgstr ""
-"Alla verifikat på ett konto med leverantörsskulder måste ha ett "
-"förfallodatum och vice versa."
-
-#. module: account
-# override | officiell: 'Alla bokföringsposter på ett konto med kundfordringar
-# måste ha ett förfallodatum och vice versa.'
-msgid ""
-"Any journal item on a receivable account must have a due date and vice "
-"versa."
-msgstr ""
-"Alla verifikat på ett konto med kundfordringar måste ha ett förfallodatum "
-"och vice versa."
-
-#. module: account
-# override | officiell: 'Alla inköpsbokföringsposter fram till och inklusive
-# detta datum kommer att skjutas upp till ett senare tillfälle, i enlighet med
-# de relaterade journalernas nummerföljder.'
-msgid ""
-"Any purchase entry prior to and including this date will be postponed to a "
-"later date, in accordance with its journal's sequence."
-msgstr ""
-"Alla inköpsverifikat fram till och inklusive detta datum kommer att skjutas "
-"upp till ett senare tillfälle, i enlighet med de relaterade journalernas "
-"nummerföljder."
-
-#. module: account
-# override | officiell: 'Alla försäljningsbokföringsposter fram till och
-# inklusive detta datum kommer att skjutas upp till ett senare tillfälle, i
-# enlighet med de relaterade journalernas nummerföljder.'
-msgid ""
-"Any sales entry prior to and including this date will be postponed to a "
-"later date, in accordance with its journal's sequence."
-msgstr ""
-"Alla försäljningsverifikat fram till och inklusive detta datum kommer att "
-"skjutas upp till ett senare tillfälle, i enlighet med de relaterade "
-"journalernas nummerföljder."
-
-#. module: account
-# override | officiell: 'Standard bokföringsjournal för automatiska
-# bokföringsposter'
-msgid "Automatic Entry Default Journal"
-msgstr "Standard bokföringsjournal för automatiska verifikat"
-
-#. module: account
 # override | officiell: 'Bank- och kassakonton kan inte delas mellan företag.'
 msgid "Bank & Cash accounts cannot be shared between companies."
 msgstr "Bank- och kassakonton kan inte delas mellan bolag."
@@ -408,11 +194,6 @@ msgid "Belongs to the same company as %s."
 msgstr "Tillhör samma bolag som %s."
 
 #. module: account
-# override | officiell: 'Avbryt bokföringspost'
-msgid "Cancel Entry"
-msgstr "Avbryt verifikat"
-
-#. module: account
 # override | officiell: 'Ingen kontoplan hittades för det här företaget, den
 # bör därmed konfigureras.\nVänligen gå till Kontoinställningar.'
 msgid ""
@@ -423,32 +204,15 @@ msgstr ""
 "Vänligen gå till Kontoinställningar."
 
 #. module: account
-# override | officiell: 'Bokföringsposter enligt kontantmetoden'
-msgid "Cash Basis Entries"
-msgstr "Verifikat enligt kontantmetoden"
-
-#. module: account
-# override | officiell: 'Markera denna ruta om kontot tillåter matchning av
-# fakturor och betalningar kopplade till specifika journalhändelser.'
+# conflict | officiell: 'Att ändra företagsnamn är inte tillåtet när fakturor
+# har utfärdats för ditt konto. Vänligen kontakta oss direkt för att genomföra
+# åtgärden.'
 msgid ""
-"Check this box if this account allows invoices & payments matching of "
-"journal items."
+"Changing your company name is not allowed once invoices have been issued for"
+" your account. Please contact us directly for this operation."
 msgstr ""
-"Markera denna ruta om kontot tillåter matchning av fakturor och betalningar "
-"kopplade till specifika verifikatsrader."
-
-#. module: account
-# override | officiell: 'Lista över fält separerade med kommatecken som
-# genererats med account.move.line (Journalhändelse). När detta är angivet
-# kommer raden att skapa underordnade rader grupperade efter de angivna
-# nycklarna.'
-msgid ""
-"Comma-separated list of fields from account.move.line (Journal Item). When "
-"set, this line will generate sublines grouped by those keys."
-msgstr ""
-"Lista över fält separerade med kommatecken som genererats med "
-"account.move.line (Verifikatsrad). När detta är angivet kommer raden att "
-"skapa underordnade rader grupperade efter de angivna nycklarna."
+"Att ändra bolagsnamn är inte tillåtet när fakturor har utfärdats för ditt "
+"konto. Vänligen kontakta oss direkt för att genomföra åtgärden."
 
 #. module: account
 # override | officiell: 'Företag'
@@ -521,65 +285,10 @@ msgid "Company related to this journal"
 msgstr "Bolag relaterade till denna journal"
 
 #. module: account
-# override | officiell: 'Innehåller hashade bokföringsposter, men %s har också
-# hashade bokföringsposter.'
-msgid "Contains hashed entries, but %s also has hashed entries."
-msgstr "Innehåller hashade verifikat, men %s har också hashade verifikat."
-
-#. module: account
-# override | officiell: 'Skadad data i bokföringsposten med id %(id)s
-# (%(name)s).'
-msgid "Corrupted data on journal entry with id %(id)s (%(name)s)."
-msgstr "Skadad data i verifikatet med id %(id)s (%(name)s)."
-
-#. module: account
-# override | officiell: 'Motsvarande journalhändelser'
-msgid "Counterpart Items"
-msgstr "Motsvarande verifikatsrader"
-
-#. module: account
 # override | officiell: 'Länder för vilka företaget har ett
 # momsregistreringsnummer'
 msgid "Countries for which the company has a VAT number"
 msgstr "Länder för vilka bolaget har ett momsregistreringsnummer"
-
-#. module: account
-# override | officiell: 'Skapa bokföringsposter automatiskt'
-msgid "Create Automatic Entries"
-msgstr "Skapa verifikat automatiskt"
-
-#. module: account
-# override | officiell: 'Skapa bokföringspost'
-msgid "Create Entry"
-msgstr "Skapa verifikat"
-
-#. module: account
-# override | officiell: 'Skapa bokföringsposter'
-msgid "Create Journal Entries"
-msgstr "Skapa verifikat"
-
-#. module: account
-# override | officiell: 'Skapa en bokföringspost'
-msgid "Create a journal entry"
-msgstr "Skapa en verifikat"
-
-#. module: account
-# override | officiell: 'Journalhändelser med kreditbelopp som matchas med
-# denna journalhändelse.'
-msgid "Credit journal items that are matched with this journal item."
-msgstr "Verifikatsrader med kreditbelopp som matchas med denna verifikatsrad."
-
-#. module: account
-# override | officiell: 'Valutan som journalhändelsens kreditbelopp är angivet
-# i.'
-msgid "Currency of the credit journal item."
-msgstr "Valutan som verifikatsradens kreditbelopp är angivet i."
-
-#. module: account
-# override | officiell: 'Valutan som journalhändelsens debetbelopp är angivet
-# i.'
-msgid "Currency of the debit journal item."
-msgstr "Valutan som verifikatsradens debetbelopp är angivet i."
 
 #. module: account
 # override | officiell: 'Växelkurs vid omvandling från företagets valuta till
@@ -587,22 +296,6 @@ msgstr "Valutan som verifikatsradens debetbelopp är angivet i."
 msgid "Currency rate from company currency to document currency."
 msgstr ""
 "Växelkurs vid omvandling från bolagets valuta till dokumentets valuta."
-
-#. module: account
-# override | officiell: 'Datum (till och med) då numren ska omordnas. Om inget
-# datum anges, så omordnas alla bokföringsposter fram till periodens slut.'
-msgid ""
-"Date (inclusive) to which the numbers are resequenced. If not set, all "
-"Journal Entries up to the end of the period are resequenced."
-msgstr ""
-"Datum (till och med) då numren ska omordnas. Om inget datum anges, så "
-"omordnas alla verifikat fram till periodens slut."
-
-#. module: account
-# override | officiell: 'Debitera journalhändelser som matchar denna
-# journalhändelse.'
-msgid "Debit journal items that are matched with this journal item."
-msgstr "Debitera verifikatsrader som matchar denna verifikatsrad."
 
 #. module: account
 # override | officiell: 'Standard incotermer för företaget'
@@ -631,90 +324,15 @@ msgstr ""
 "inget bolag anges så är det tillgängligt för alla bolag"
 
 #. module: account
-# override | officiell: 'Utkast till bokföringspost'
-msgid "Draft Entries"
-msgstr "Utkast till verifikat"
-
-#. module: account
-# override | officiell: 'Utkast till bokföringspost'
-msgid "Draft Entry"
-msgstr "Utkast till verifikat"
-
-#. module: account
-# override | officiell: 'Släpp för att skapa bokföringsposter med bilagor.'
-msgid "Drop to create journal entries with attachments."
-msgstr "Släpp för att skapa verifikat med bilagor."
-
-#. module: account
-# override | officiell: 'Bokföringsposter'
-msgid "Entries"
-msgstr "Verifikat"
-
-#. module: account
-# override | officiell: 'Antal bokföringsposter'
-msgid "Entries Count"
-msgstr "Antal verifikat"
-
-#. module: account
-# override | officiell: 'Bokföringsposterna är korrekt hashade'
-msgid "Entries are correctly hashed"
-msgstr "Verifikaten är korrekt hashade"
-
-#. module: account
-# override | officiell: 'Bokföringsposter utgår inte från samma konto: %s'
-msgid "Entries are not from the same account: %s"
-msgstr "Verifikat utgår inte från samma konto: %s"
-
-#. module: account
-# override | officiell: 'Bokföringsposter kan endast skapas för ett företag åt
+# conflict | officiell: 'Verifikat kan endast skapas för ett företag åt
 # gången.'
 msgid "Entries can only be created for a single company at a time."
 msgstr "Verifikat kan endast skapas för ett bolag åt gången."
 
 #. module: account
-# override | officiell: 'Bokföringsposter tillhör inte samma företag: %s'
+# conflict | officiell: 'Följande verifikat tillhör inte samma företag: %s'
 msgid "Entries don't belong to the same company: %s"
-msgstr "Verifikat tillhör inte samma bolag: %s"
-
-#. module: account
-# override | officiell: 'Framtida bokföringsposter som har som standard att
-# bli bokförda automatiskt. Markera rutan för att bokföra dem nu.'
-msgid ""
-"Entries in the future are set to be auto-posted by default. Check this "
-"checkbox to post them now."
-msgstr ""
-"Framtida verifikat som har som standard att bli bokförda automatiskt. "
-"Markera rutan för att bokföra dem nu."
-
-#. module: account
-# override | officiell: 'Bokföringsposter att granska'
-msgid "Entries to Review"
-msgstr "Verifikat att granska"
-
-#. module: account
-# override | officiell: 'Bokföringsposter: %(account)s'
-msgid "Entries: %(account)s"
-msgstr "Verifikat: %(account)s"
-
-#. module: account
-# override | officiell: 'Namn på bokföringspost'
-msgid "Entry Name"
-msgstr "Namn på verifikat"
-
-#. module: account
-# override | officiell: 'Bokföringsposter som redovisar växlingsskillnad:'
-msgid "Exchange difference entries:"
-msgstr "Verifikat som redovisar växlingsskillnad:"
-
-#. module: account
-# override | officiell: 'Första bokföringsposten'
-msgid "First Entry"
-msgstr "Första verifikatet"
-
-#. module: account
-# override | officiell: 'Första återkommande bokföringsposten'
-msgid "First recurring entry"
-msgstr "Första återkommande verifikatet"
+msgstr "Följande verifikat tillhör inte samma bolag: %s"
 
 #. module: account
 # override | officiell: 'Skattepositioner'
@@ -722,187 +340,9 @@ msgid "Fiscal Positions"
 msgstr "Skatteområde"
 
 #. module: account
-# override | officiell: 'Tvingar fram att alla journalhändelser inom en viss
-# grupp konton eller journaler har en specifik valuta (t.ex. bankjournaler).
-# Om ingen valuta är angiven kan bokföringsposter använda sig av valfri
-# valuta.'
-msgid ""
-"Forces all journal items in this account to have a specific currency (i.e. "
-"bank journals). If no currency is set, entries can use any currency."
-msgstr ""
-"Tvingar fram att alla verifikatsrader inom en viss grupp konton eller "
-"journaler har en specifik valuta (t.ex. bankjournaler). Om ingen valuta är "
-"angiven kan verifikat använda sig av valfri valuta."
-
-#. module: account
-# override | officiell: 'Skapta bokföringsposter'
-msgid "Generated Entries"
-msgstr "Skapta verifikat"
-
-#. module: account
-# override | officiell: 'Har bokföringsposter'
-msgid "Has Accounting Entries"
-msgstr "Har verifikat"
-
-#. module: account
-# override | officiell: 'Har bokföringsposter'
-msgid "Has Entries"
-msgstr "Har verifikat"
-
-#. module: account
-# override | officiell: 'Har bokförda bokföringsposter'
-msgid "Has Posted Entries"
-msgstr "Har bokförda verifikat"
-
-#. module: account
-# override | officiell: 'Har avstämda bokföringsposter'
-msgid "Has Reconciled Entries"
-msgstr "Har avstämda verifikat"
-
-#. module: account
-# override | officiell: 'Hasha alla bokföringsposter'
-msgid "Hash All Entries"
-msgstr "Hasha alla verifikat"
-
-#. module: account
-# override | officiell: 'Högsta datum så att alla bokförda bokföringsposter
-# till och med datumet är säkrade. Endast bokföringsposter efter det
-# slutgiltiga låsningsdatumet beaktas.'
-msgid ""
-"Highest Date such that all posted journal entries prior to (including) the "
-"date are secured. Only journal entries after the hard lock date are "
-"considered."
-msgstr ""
-"Högsta datum så att alla bokförda verifikat till och med datumet är säkrade."
-" Endast verifikat efter det slutgiltiga låsningsdatumet beaktas."
-
-#. module: account
-# override | officiell: 'Om funktionen är aktiverad kan användardefinierade
-# filter för journalhändelser användas i denna rapport'
-msgid ""
-"If activated, user-defined filters on journal items can be selected on this "
-"report"
-msgstr ""
-"Om funktionen är aktiverad kan användardefinierade filter för "
-"verifikatsrader användas i denna rapport"
-
-#. module: account
-# override | officiell: 'Om fältet lämnas tomt så används journalen kopplad
-# till den bokföringspost som ska rättas.'
-msgid "If empty, uses the journal of the journal entry to be reversed."
-msgstr ""
-"Om fältet lämnas tomt så används journalen kopplad till den verifikat som "
-"ska rättas."
-
-#. module: account
-# override | officiell: 'Om så är angivet, så kommer detta konto att användas
-# för att automatiskt reglera bokföringsposter.'
-msgid "If set, this account is used to automatically balance entries."
-msgstr ""
-"Om så är angivet, så kommer detta konto att användas för att automatiskt "
-"reglera verifikat."
-
-#. module: account
-# override | officiell: 'Om rutan är ikryssad så hashar vi retroaktivt alla
-# rörelser i sekvensen från bokföringsposten till den senast hashade
-# bokföringsposten. Hashningen kan också genomföras vid behov genom guiden för
-# Säkra bokföringsposter.'
-msgid ""
-"If ticked, when an entry is posted, we retroactively hash all moves in the "
-"sequence from the entry back to the last hashed entry. The hash can also be "
-"performed on demand by the Secure Entries wizard."
-msgstr ""
-"Om rutan är ikryssad så hashar vi retroaktivt alla rörelser i sekvensen från"
-" verifikatet till den senast hashade verifikatet. Hashningen kan också "
-"genomföras vid behov genom guiden för Säkra verifikat."
-
-#. module: account
-# override | officiell: 'Om du vill använda konton som är "Utanför
-# balansräkningen", så måste alla konton kopplade bokföringsposten vara av den
-# typen'
-msgid ""
-"If you want to use \"Off-Balance Sheet\" accounts, all the accounts of the "
-"journal entry must be of this type"
-msgstr ""
-"Om du vill använda konton som är \"Utanför balansräkningen\", så måste alla "
-"konton kopplade verifikatet vara av den typen"
-
-#. module: account
-# override | officiell: 'Importmall för journalhändelser'
-msgid "Import Template for Journal Items"
-msgstr "Importmall för verifikatsrader"
-
-#. module: account
-# override | officiell: 'Indikerar att denna journalhändelse utgörs av en
-# skatterad'
-msgid "Indicates that this journal item is a tax line"
-msgstr "Indikerar att denna verifikatsrad utgörs av en skatterad"
-
-#. module: account
-# override | officiell: 'Fakturor vars journalhändelser har stämts av med
-# dessa betalningar.'
-msgid "Invoices whose journal items have been reconciled with these payments."
-msgstr "Fakturor vars verifikatsrader har stämts av med dessa betalningar."
-
-#. module: account
-# override | officiell: 'Är bokföringsposter'
-msgid "Is Entries"
-msgstr "Är verifikat"
-
-#. module: account
 # override | officiell: 'Objekt som saknar analytisk fördelning'
 msgid "Items With Missing Analytic Distribution"
 msgstr "Objekt som saknar objektfördelning"
-
-#. module: account
-# override | officiell: 'Bokföringsposter'
-msgid "Journal Entries"
-msgstr "Verifikat"
-
-#. module: account
-# override | officiell: 'Bokföringsposter sorterade efter datum'
-msgid "Journal Entries by Date"
-msgstr "Verifikat sorterade efter datum"
-
-#. module: account
-# override | officiell: 'Bokföringsposter att hasha'
-msgid "Journal Entries to Hash"
-msgstr "Verifikat att hasha"
-
-#. module: account
-# override | officiell: 'Information om bokföringspost'
-msgid "Journal Entry Info"
-msgstr "Information om verifikat"
-
-#. module: account
-# override | officiell: 'Journalhändelse'
-msgid "Journal Item"
-msgstr "Verifikatsrad"
-
-#. module: account
-# override | officiell: 'Journalhändelse %s skapad'
-msgid "Journal Item %s created"
-msgstr "Verifikatsrad %s skapad"
-
-#. module: account
-# override | officiell: 'Journalhändelse %s bottagen'
-msgid "Journal Item %s deleted"
-msgstr "Verifikatsrad %s bottagen"
-
-#. module: account
-# override | officiell: 'Journalhändelse %s uppdaterades'
-msgid "Journal Item %s updated"
-msgstr "Verifikatsrad %s uppdaterades"
-
-#. module: account
-# override | officiell: 'Etikett för journalhändelser'
-msgid "Journal Item Label"
-msgstr "Etikett för verifikatsrader"
-
-#. module: account
-# override | officiell: 'Journalhändelser'
-msgid "Journal Items"
-msgstr "Verifikatsrader"
 
 #. module: account
 # override | officiell: 'Journalkoder måste vara unika för varje företag.'
@@ -910,55 +350,11 @@ msgid "Journal codes must be unique per company."
 msgstr "Journalkoder måste vara unika för varje bolag."
 
 #. module: account
-# override | officiell: 'Journalhändelser'
-msgid "Journal items"
-msgstr "Verifikatsrader"
-
-#. module: account
-# override | officiell: 'Journalhändelser utan angivna matchande nummer'
-msgid "Journal items where matching number isn't set"
-msgstr "Verifikatsrader utan angivna matchande nummer"
-
-#. module: account
-# override | officiell: 'Journalhändelser där kontot tillåter avstämning
-# oavsett återstående belopp'
-msgid ""
-"Journal items where the account allows reconciliation no matter the residual"
-" amount"
-msgstr ""
-"Verifikatsrader där kontot tillåter avstämning oavsett återstående belopp"
-
-#. module: account
-# override | officiell: 'Journalen bör vara av samma typ som journalen för
-# bokföringsposten som nu rättas.'
-msgid "Journal should be the same type as the reversed entry."
-msgstr ""
-"Journalen bör vara av samma typ som journalen för verifikatet som nu rättas."
-
-#. module: account
-# override | officiell: 'Den journal som används som standard för att ändra
-# perioden som angetts för en bokföringspost'
-msgid "Journal used by default for moving the period of an entry"
-msgstr ""
-"Den journal som används som standard för att ändra perioden som angetts för "
-"en verifikat"
-
-#. module: account
 # override | officiell: 'Journal där företagets ingående balans har bokförts.'
 msgid ""
 "Journal where the opening entry of this company's accounting has been "
 "posted."
 msgstr "Journal där bolagets ingående balans har bokförts."
-
-#. module: account
-# override | officiell: 'Journal där bokföringsposten ska skapas.'
-msgid "Journal where to create the entry."
-msgstr "Journal där verifikatet ska skapas."
-
-#. module: account
-# override | officiell: 'Sista bokföringsposter'
-msgid "Last Entry"
-msgstr "Sista verifikat"
 
 #. module: account
 # override | officiell: 'Företagets huvudsakliga valuta.'
@@ -976,11 +372,6 @@ msgid "Mapping of account codes per company"
 msgstr "Kartläggning av kontokoder per bolag"
 
 #. module: account
-# override | officiell: 'Matchade journalhändelser'
-msgid "Matched Journal Items"
-msgstr "Matchade verifikatsrader"
-
-#. module: account
 # override | officiell: 'Flera företag'
 msgid "Multi-Company"
 msgstr "Flera bolag"
@@ -996,11 +387,6 @@ msgstr ""
 "typer: %(journal_types)s"
 
 #. module: account
-# override | officiell: 'Inga bokföringsposter för betalningar'
-msgid "No payment journal entries"
-msgstr "Inga verifikat för betalningar"
-
-#. module: account
 # override | officiell: 'Introduktion till företagsdata'
 msgid "Onboarding Company Data"
 msgstr "Introduktion till bolagsdata"
@@ -1010,22 +396,6 @@ msgstr "Introduktion till bolagsdata"
 # på 100 %.'
 msgid "One or more lines require a 100% analytic distribution."
 msgstr "En eller flera rader kräver en objektfördelning på 100 %."
-
-#. module: account
-# override | officiell: 'Endast utkast till bokföringsposter kan avbrytas.'
-msgid "Only draft journal entries can be cancelled."
-msgstr "Endast utkast till verifikat kan avbrytas."
-
-#. module: account
-# override | officiell: 'Endast bokförda/avbrutna bokföringsposter kan
-# återställas till utkast.'
-msgid "Only posted/cancelled journal entries can be reset to draft."
-msgstr "Endast bokförda/avbrutna verifikat kan återställas till utkast."
-
-#. module: account
-# override | officiell: 'Ingående bokföringspost'
-msgid "Opening Journal Entry"
-msgstr "Ingående verifikat"
 
 #. module: account
 # override | officiell: 'Gör det möjligt att bortse från företagets
@@ -1042,71 +412,6 @@ msgstr ""
 # override | officiell: 'Platshållare för partner i företagsregister'
 msgid "Partner Company Registry Placeholder"
 msgstr "Platshållare för partner i bolagsregister"
-
-#. module: account
-# override | officiell: 'Partners som används i hashade bokföringsposter kan
-# inte sammanfogas.'
-msgid "Partners that are used in hashed entries cannot be merged."
-msgstr "Partners som används i hashade verifikat kan inte sammanfogas."
-
-#. module: account
-# override | officiell: 'Bokför alla bokföringsposter'
-msgid "Post All Entries"
-msgstr "Bokför alla verifikat"
-
-#. module: account
-# override | officiell: 'Bokförda bokföringsposter'
-msgid "Posted Journal Entries"
-msgstr "Bokförda verifikat"
-
-#. module: account
-# override | officiell: 'Bokförda journalhändelser'
-msgid "Posted Journal Items"
-msgstr "Bokförda verifikatsrader"
-
-#. module: account
-# override | officiell: 'Ställ in att skapa bokföringsposter vid matchning av
-# fakturor och betalningar'
-msgid ""
-"Preset to create journal entries during a invoices and payments matching"
-msgstr ""
-"Ställ in att skapa verifikat vid matchning av fakturor och betalningar"
-
-#. module: account
-# override | officiell: 'Gör om sekvensen för bokföringsposter.'
-msgid "Remake the sequence of Journal Entries."
-msgstr "Gör om sekvensen för verifikat."
-
-#. module: account
-# override | officiell: 'Rätta bokföringspost'
-msgid "Reverse Journal Entry"
-msgstr "Rätta verifikat"
-
-#. module: account
-# override | officiell: 'Sök efter journalhändelser'
-msgid "Search Journal Items"
-msgstr "Sök efter verifikatsrader"
-
-#. module: account
-# override | officiell: 'Säkra bokföringsposter med hashning'
-msgid "Secure Posted Entries with Hash"
-msgstr "Säkra verifikat med hashning"
-
-#. module: account
-# override | officiell: 'Genom att säkra dessa bokföringsposter säkras även
-# bokföringsposter efter det valda datumet.'
-msgid ""
-"Securing these entries will also secure entries after the selected date."
-msgstr ""
-"Genom att säkra dessa verifikat säkras även verifikat efter det valda "
-"datumet."
-
-#. module: account
-# override | officiell: 'Genom att säkra dessa bokföringsposter skapas
-# åtminstone en lucka i nummerföljden.'
-msgid "Securing these entries will create at least one gap in the sequence."
-msgstr ""
-"Genom att säkra dessa verifikat skapas åtminstone en lucka i nummerföljden."
 
 #. module: account
 # override | officiell: 'Välj ett specifikt analytiskt konto för en viss
@@ -1141,19 +446,6 @@ msgstr ""
 "automatiskt till rätt analytiska konto)"
 
 #. module: account
-# override | officiell: 'Markera om skatterna ska tillämpas enligt
-# kontantmetoden, vilket kommer att innebära att en bokföringspost för skatter
-# upprättas enligt den metoden och placeras på ett specifikt konto under
-# avstämning.'
-msgid ""
-"Select this if the taxes should use cash basis, which will create an entry "
-"for such taxes on a given account during reconciliation."
-msgstr ""
-"Markera om skatterna ska tillämpas enligt kontantmetoden, vilket kommer att "
-"innebära att en verifikat för skatter upprättas enligt den metoden och "
-"placeras på ett specifikt konto under avstämning."
-
-#. module: account
 # override | officiell: 'Ange företagsdata'
 msgid "Set Company Data"
 msgstr "Ange bolagsdata"
@@ -1172,67 +464,14 @@ msgstr ""
 "i dokument."
 
 #. module: account
-# override | officiell: 'Förkortning som används som visningsnamn.
-# Bokföringsposter i journalen får som standard förkortningen som prefix.'
-msgid ""
-"Shorter name used for display. The journal entries of this journal will also"
-" be named using this prefix by default."
-msgstr ""
-"Förkortning som används som visningsnamn. Verifikat i journalen får som "
-"standard förkortningen som prefix."
-
-#. module: account
-# override | officiell: 'Visa utkast till bokföringsposter'
-msgid "Show draft entries"
-msgstr "Visa utkast till verifikat"
-
-#. module: account
-# override | officiell: 'Ange om denna bokföringspost ska bokföras automatiskt
-# på dess bokföringsdatum, samt eventuella liknande återkommande fakturor.'
-msgid ""
-"Specify whether this entry is posted automatically on its accounting date, "
-"and any similar recurring invoices."
-msgstr ""
-"Ange om denna verifikat ska bokföras automatiskt på dess bokföringsdatum, "
-"samt eventuella liknande återkommande fakturor."
-
-#. module: account
-# override | officiell: 'Status med säkerhetsindikator för bokföringsposter'
-msgid "Status with secured indicator for Journal Entries"
-msgstr "Status med säkerhetsindikator för verifikat"
-
-#. module: account
-# override | officiell: 'Taggar som ska anges på de journalhändelser som
-# skapats för denna produkt.'
-msgid ""
-"Tags to be set on the base and tax journal items created for this product."
-msgstr ""
-"Taggar som ska anges på de verifikatsrader som skapats för denna produkt."
-
-#. module: account
-# override | officiell: 'Bokföringspost för beskattning enligt kontantmetoden'
-msgid "Tax Cash Basis Entry of"
-msgstr "Verifikat för beskattning enligt kontantmetoden"
-
-#. module: account
-# override | officiell: 'Skattekontot används för att beräkna utgående
-# skattebalans när det är till förmån för företaget.'
+# conflict | officiell: 'Skattekontot används för att beräkna utgående
+# skattesaldo när det är till förmån för företaget.'
 msgid ""
 "Tax current account used as a counterpart to the Tax Closing Entry when in "
 "favor of the company."
 msgstr ""
-"Skattekontot används för att beräkna utgående skattebalans när det är till "
+"Skattekontot används för att beräkna utgående skattesaldo när det är till "
 "förmån för bolaget."
-
-#. module: account
-# override | officiell: 'Skatter som befriats från en betalning eller en
-# faktura kan inte sammanföras i samma journalhändelse om de delar samma tag.'
-msgid ""
-"Taxes exigible on payment and on invoice cannot be mixed on the same journal"
-" item if they share some tag."
-msgstr ""
-"Skatter som befriats från en betalning eller en faktura kan inte sammanföras"
-" i samma verifikatsrad om de delar samma tag."
 
 #. module: account
 # override | officiell: 'Skatter i företagets valuta'
@@ -1261,51 +500,6 @@ msgid ""
 msgstr ""
 "Tekniskt fält som anger bolagets låsningsdatum vid det tillfälle då "
 "undantaget skapades."
-
-#. module: account
-# override | officiell: 'Det %(date_field)s (%(date)s) som du har angett
-# stämmer inte överens med det befintliga sekvensnumret (%(sequence)s). Rensa
-# sekvensnumret för att gå vidare.\nOm du vill behålla datumbaserade
-# sekvenser, vänligen markera relaterade bokföringsposter och använd
-# alternativet för omordning i åtgärdsmenyn, som finns tillgängligt genom
-# utvecklarläget.'
-msgid ""
-"The %(date_field)s (%(date)s) you've entered isn't aligned with the existing sequence number (%(sequence)s). Clear the sequence number to proceed.\n"
-"To maintain date-based sequences, select entries and use the resequence option from the actions menu, available in developer mode."
-msgstr ""
-"Det %(date_field)s (%(date)s) som du har angett stämmer inte överens med det befintliga sekvensnumret (%(sequence)s). Rensa sekvensnumret för att gå vidare.\n"
-"Om du vill behålla datumbaserade sekvenser, vänligen markera relaterade verifikat och använd alternativet för omordning i åtgärdsmenyn, som finns tillgängligt genom utvecklarläget."
-
-#. module: account
-# override | officiell: 'Bokföringspostens nummerföljd följer inte med det
-# aktuella formatet. Endast revisorn kan göra ändringar.'
-msgid ""
-"The Journal Entry sequence is not conform to the current format. Only the "
-"Accountant can change it."
-msgstr ""
-"Verifikatets nummerföljd följer inte med det aktuella formatet. Endast "
-"revisorn kan göra ändringar."
-
-#. module: account
-# override | officiell: 'Det konto som angetts för bokföringsposten kräver
-# användning av en sekundär valuta. Du bör ta bort den sekundära valutan från
-# kontot.'
-msgid ""
-"The account selected on your journal entry forces to provide a secondary "
-"currency. You should remove the secondary currency on the account."
-msgstr ""
-"Det konto som angetts för verifikatet kräver användning av en sekundär "
-"valuta. Du bör ta bort den sekundära valutan från kontot."
-
-#. module: account
-# override | officiell: 'Beloppet uttryckt i valfri sekundär valuta om det är
-# en bokföringspost med flera valutor.'
-msgid ""
-"The amount expressed in an optional other currency if it is a multi-currency"
-" entry."
-msgstr ""
-"Beloppet uttryckt i valfri sekundär valuta om det är en verifikat med flera "
-"valutor."
 
 #. module: account
 # override | officiell: 'Beloppet som uttrycks i den sekundära valutan måste
@@ -1341,27 +535,10 @@ msgstr ""
 " någon med behörighet att kontrollera bankkontot."
 
 #. module: account
-# override | officiell: 'Bokföringsposterna som skapats när skatterelaterade
-# rader som skapats enligt kontantmetoden i denna bokföringspost stäms av.'
-msgid ""
-"The cash basis entries created from the taxes on this entry, when "
-"reconciling its lines."
-msgstr ""
-"Verifikaten som skapats när skatterelaterade rader som skapats enligt "
-"kontantmetoden i denna verifikat stäms av."
-
-#. module: account
 # override | officiell: 'Koden måste anges för varje företag som detta konto
 # tillhör.'
 msgid "The code must be set for every company to which this account belongs."
 msgstr "Koden måste anges för varje bolag som detta konto tillhör."
-
-#. module: account
-# override | officiell: 'Handelspartnern har uppdaterats för alla relaterade
-# bokföringsposter.'
-msgid ""
-"The commercial partner has been updated for all related accounting entries."
-msgstr "Handelspartnern har uppdaterats för alla relaterade verifikat."
 
 #. module: account
 # override | officiell: 'Det företag som denna fördelningsrad är kopplad
@@ -1376,29 +553,7 @@ msgid "The country to use the tax reports from for this company"
 msgstr "Landet från vilket skatterapporter ska användas för detta bolag"
 
 #. module: account
-# override | officiell: 'Datumet anges innan: %(lock_date_info)s.
-# Bokföringsposten kommer att bokföras den %(invoice_date)s.'
-msgid ""
-"The date is being set prior to: %(lock_date_info)s. The Journal Entry will "
-"be accounted on %(invoice_date)s upon posting."
-msgstr ""
-"Datumet anges innan: %(lock_date_info)s. Verifikatet kommer att bokföras den"
-" %(invoice_date)s."
-
-#. module: account
-# override | officiell: 'Bokföringsposten %(name)s (id-nummer %(id)s) måste
-# vara i utkast.'
-msgid "The entry %(name)s (id %(id)s) must be in draft."
-msgstr "Verifikatet %(name)s (id-nummer %(id)s) måste vara i utkast."
-
-#. module: account
-# override | officiell: 'Bokföringsposten är säkrad med hjälp av en
-# oföränderlig hash.'
-msgid "The entry is secured with an inalterable hash."
-msgstr "Verifikatet är säkrad med hjälp av en oföränderlig hash."
-
-#. module: account
-# override | officiell: 'Bokföringsposten använder sig av konton
+# conflict | officiell: 'Verifikatet använder sig av konton
 # (%(accounts_codes_names)s) från ett annat företag.'
 msgid ""
 "The entry is using accounts (%(accounts_codes_names)s) from a different "
@@ -1408,22 +563,10 @@ msgstr ""
 " bolag."
 
 #. module: account
-# override | officiell: 'Följande bokföringsposter kommer att skapas'
-msgid "The following Journal Entries will be generated"
-msgstr "Följande verifikat kommer att skapas"
-
-#. module: account
 # override | officiell: 'Följande konton måste vara kopplade till minst ett
 # företag:'
 msgid "The following accounts must be assigned to at least one company:"
 msgstr "Följande konton måste vara kopplade till minst ett bolag:"
-
-#. module: account
-# override | officiell: 'Följande bokföringsposter är inte balanserade:'
-msgid ""
-"The following entries are unbalanced:\n"
-"\n"
-msgstr "Följande verifikat är inte balanserade:"
 
 #. module: account
 # override | officiell: 'Den utländska skatteposition för vilken detta externa
@@ -1440,61 +583,12 @@ msgstr ""
 "(%s)."
 
 #. module: account
-# override | officiell: 'Bokföringsposten %s nådde ett ogiltigt tillstånd vad
-# gäller den relaterade raden i ett kontoutdrag.\nFör att vara konsekvent
-# måste bokföringsposten alltid ha exakt en journalhändelse kopplad till ett
-# bank-/kassakonto.'
-msgid ""
-"The journal entry %s reached an invalid state regarding its related statement line.\n"
-"To be consistent, the journal entry must always have exactly one journal item involving the bank/cash account."
-msgstr ""
-"Verifikatet %s nådde ett ogiltigt tillstånd vad gäller den relaterade raden i ett kontoutdrag.\n"
-"För att vara konsekvent måste verifikatet alltid ha exakt en verifikatsrad kopplad till ett bank-/kassakonto."
-
-#. module: account
-# override | officiell: 'Bokföringsposten som innehåller det öppningssaldon
-# för alla företagets konton.'
+# conflict | officiell: 'Verifikatet som innehåller ingående saldon för alla
+# företagets konton.'
 msgid ""
 "The journal entry containing the initial balance of all this company's "
 "accounts."
-msgstr ""
-"Verifikatet som innehåller det öppningssaldon för alla bolagets konton."
-
-#. module: account
-# override | officiell: 'Den bokföringspost utifrån vilken denna
-# bokföringspost för skatter enligt kontantmetoden har skapats.'
-msgid ""
-"The journal entry from which this tax cash basis journal entry has been "
-"created."
-msgstr ""
-"Den verifikat utifrån vilken denna verifikat för skatter enligt "
-"kontantmetoden har skapats."
-
-#. module: account
-# override | officiell: 'Journalhändelsen är inte kopplad till rätt
-# finansiellt konto'
-msgid "The journal item is not linked to the correct financial account"
-msgstr "Verifikatsraden är inte kopplad till rätt finansiellt konto"
-
-#. module: account
-# override | officiell: 'Åtgärden nekas eftersom den skulle påverka en redan
-# utfärdad skattedeklaration. Ändra bokföringspostens datum eller följande
-# låsningsdatum för att gå vidare: %(lock_date_info)s.'
-msgid ""
-"The operation is refused as it would impact an already issued tax statement."
-" Please change the journal entry date or the following lock dates to "
-"proceed: %(lock_date_info)s."
-msgstr ""
-"Åtgärden nekas eftersom den skulle påverka en redan utfärdad "
-"skattedeklaration. Ändra verifikatets datum eller följande låsningsdatum för"
-" att gå vidare: %(lock_date_info)s."
-
-#. module: account
-# override | officiell: 'Den valfria alternativa valutan om det är en
-# bokföringspost med flera valutor.'
-msgid "The optional other currency if it is a multi-currency entry."
-msgstr ""
-"Den valfria alternativa valutan om det är en verifikat med flera valutor."
+msgstr "Verifikatet som innehåller ingående saldon för alla bolagets konton."
 
 #. module: account
 # override | officiell: 'Uppgifterna som angivits om de partners som ingår i
@@ -1508,51 +602,23 @@ msgstr ""
 "bankkonton."
 
 #. module: account
-# override | officiell: 'Betalningsreferensen att angiva för
-# journalhändelser.'
-msgid "The payment reference to set on journal items."
-msgstr "Betalningsreferensen att angiva för verifikatsrader."
-
-#. module: account
-# override | officiell: 'Betalningen som bokföringsposten skapades utifrån'
-msgid "The payment that created this entry"
-msgstr "Betalningen som verifikatet skapades utifrån"
-
-#. module: account
-# override | officiell: 'Det återstående beloppet för en journalhändelse
+# conflict | officiell: 'Det återstående beloppet för en verifikationsrad
 # uttryckt i dess angivna valuta (inte nödvändigtvis samma som företagets
 # valuta).'
 msgid ""
 "The residual amount on a journal item expressed in its currency (possibly "
 "not the company currency)."
 msgstr ""
-"Det återstående beloppet för en verifikatsrad uttryckt i dess angivna valuta"
-" (inte nödvändigtvis samma som bolagets valuta)."
+"Det återstående beloppet för en verifikationsrad uttryckt i dess angivna "
+"valuta (inte nödvändigtvis samma som bolagets valuta)."
 
 #. module: account
-# override | officiell: 'Restbeloppet för en bokföringspost angiven i
-# företagets valuta.'
+# conflict | officiell: 'Det återstående beloppet för en verifikationsrad
+# angivet i företagets valuta.'
 msgid ""
 "The residual amount on a journal item expressed in the company currency."
-msgstr "Restbeloppet för en verifikat angiven i bolagets valuta."
-
-#. module: account
-# override | officiell: 'Det valda kontot är inställt för att använda en
-# specifik valuta. Beloppet i varje bokföringspost som överförs till kontot
-# kommer att omvandlas till denna valuta, \n                        vilket gör
-# att man förlorar eventuellt befintligt belopp i en annan valuta.'
-msgid ""
-"The selected destination account is set to use a specific currency. Every entry transferred to it will be converted into this currency, causing\n"
-"                        the loss of any pre-existing foreign currency amount."
 msgstr ""
-"Det valda kontot är inställt för att använda en specifik valuta. Beloppet i varje verifikat som överförs till kontot kommer att omvandlas till denna valuta, \n"
-"                        vilket gör att man förlorar eventuellt befintligt belopp i en annan valuta."
-
-#. module: account
-# override | officiell: 'Den rad i ett kontoutdrag som skapade
-# bokföringsposten'
-msgid "The statement line that created this entry"
-msgstr "Den rad i ett kontoutdrag som skapade verifikatet"
+"Det återstående beloppet för en verifikationsrad angivet i bolagets valuta."
 
 #. module: account
 # override | officiell: 'Skatteregistreringsnumret för ditt företag i regionen
@@ -1562,62 +628,6 @@ msgid ""
 msgstr ""
 "Skatteregistreringsnumret för ditt bolag i regionen som kartlagts av detta "
 "skatteområde."
-
-#. module: account
-# override | officiell: 'Det finns bokföringsposter som inte kan hashas. De
-# kan istället skyddas med ett slutgiltigt låsningsdatum.'
-msgid ""
-"There are entries that cannot be hashed. They can be protected by the Hard "
-"Lock Date."
-msgstr ""
-"Det finns verifikat som inte kan hashas. De kan istället skyddas med ett "
-"slutgiltigt låsningsdatum."
-
-#. module: account
-# override | officiell: 'Det finns inga utkast till journalhändelser kvar att
-# bokföra.'
-msgid "There are no journal items in the draft state to post."
-msgstr "Det finns inga utkast till verifikatsrader kvar att bokföra."
-
-#. module: account
-# override | officiell: 'Det finns utkast till bokföringsposter som är
-# daterade innan det valda datumet.'
-msgid "There are still draft entries before the selected date."
-msgstr ""
-"Det finns utkast till verifikat som är daterade innan det valda datumet."
-
-#. module: account
-# override | officiell: 'Det finns fortfarande utkast till bokföringsposter i
-# den period som du vill låsa slutgiltigt. Du bör antingen bokföra eller
-# radera dem.'
-msgid ""
-"There are still draft entries in the period you want to hard lock. You "
-"should either post or delete them."
-msgstr ""
-"Det finns fortfarande utkast till verifikat i den period som du vill låsa "
-"slutgiltigt. Du bör antingen bokföra eller radera dem."
-
-#. module: account
-# override | officiell: 'Det finns fortfarande icke-avstämda rader i
-# kontoutdrag före det valda datumet. Bokföringsposter från journaler med
-# följande prefix kommer inte att säkras: %(prefix_info)s'
-msgid ""
-"There are still unreconciled bank statement lines before the selected date. "
-"The entries from journal prefixes containing them will not be secured: "
-"%(prefix_info)s"
-msgstr ""
-"Det finns fortfarande icke-avstämda rader i kontoutdrag före det valda "
-"datumet. Verifikat från journaler med följande prefix kommer inte att "
-"säkras: %(prefix_info)s"
-
-#. module: account
-# override | officiell: 'Det finns ännu ingen bokföringspost som är flaggad
-# för oföränderlighet hos bokföringsdatan.'
-msgid ""
-"There is no journal entry flagged for accounting data inalterability yet."
-msgstr ""
-"Det finns ännu ingen verifikat som är flaggad för oföränderlighet hos "
-"bokföringsdatan."
 
 #. module: account
 # override | officiell: 'Det finns ingen skattejournal enligt kontantmetoden
@@ -1655,13 +665,8 @@ msgstr ""
 "prefixet."
 
 #. module: account
-# override | officiell: 'Detta kan endast användas för journalhändelser'
-msgid "This can only be used on journal items"
-msgstr "Detta kan endast användas för verifikatsrader"
-
-#. module: account
-# override | officiell: 'Den här bokföringsposten innehåller en eller flera
-# skatter som är oförenliga med ditt skatteområde. Kontrollera företagets
+# conflict | officiell: 'Det här verifikatet innehåller en eller flera skatter
+# som är oförenliga med ditt skatteområde. Kontrollera företagets
 # skatterättsliga hemvist i företagets inställningar samt inställningarna för
 # skatter.'
 msgid ""
@@ -1669,83 +674,9 @@ msgid ""
 " country. Check company fiscal country in the settings and tax country in "
 "taxes configuration."
 msgstr ""
-"Den här verifikatet innehåller en eller flera skatter som är oförenliga med "
+"Det här verifikatet innehåller en eller flera skatter som är oförenliga med "
 "ditt skatteområde. Kontrollera bolagets skatterättsliga hemvist i bolagets "
 "inställningar samt inställningarna för skatter."
-
-#. module: account
-# override | officiell: 'Den här bokföringsposten innehåller en eller flera
-# skatter som är oförenliga med ditt skatteområde. Kontrollera företagets
-# skatterättsliga hemvist i företagets inställningar samt inställningarna för
-# skatter.'
-msgid ""
-"This entry contains taxes that are not compatible with your fiscal position."
-" Check the country set in fiscal position and in your tax configuration."
-msgstr ""
-"Den här verifikatet innehåller en eller flera skatter som är oförenliga med "
-"ditt skatteområde. Kontrollera företagets skatterättsliga hemvist i "
-"företagets inställningar samt inställningarna för skatter."
-
-#. module: account
-# override | officiell: 'Den här bokföringsposten har blivit %s'
-msgid "This entry has been %s"
-msgstr "Den här verifikatet har blivit %s"
-
-#. module: account
-# override | officiell: 'Bokföringsposten har dubblerats från %s'
-msgid "This entry has been duplicated from %s"
-msgstr "Verifikatet har dubblerats från %s"
-
-#. module: account
-# override | officiell: 'Den här bokföringsposten har återkallats från %s'
-msgid "This entry has been reversed from %s"
-msgstr "Den här verifikatet har återkallats från %s"
-
-#. module: account
-# override | officiell: 'Bokföringsposten överför följande belopp till
-# %(destination)s'
-msgid "This entry transfers the following amounts to %(destination)s"
-msgstr "Verifikatet överför följande belopp till %(destination)s"
-
-#. module: account
-# override | officiell: 'Fältet används för bokföringsposter för
-# leverantörsskulder och kundfordringar. Du kan ange en sista betalningsdag
-# för denna rad.'
-msgid ""
-"This field is used for payable and receivable journal entries. You can put "
-"the limit date for the payment of this line."
-msgstr ""
-"Fältet används för verifikat för leverantörsskulder och kundfordringar. Du "
-"kan ange en sista betalningsdag för denna rad."
-
-#. module: account
-# override | officiell: 'Den här produkten används redan i bokförda
-# bokföringsposter.\nOm du vill ändra dess måttenhet, vänligen arkivera
-# produkten och skapa en ny.'
-msgid ""
-"This product is already being used in posted Journal Entries.\n"
-"If you want to change its Unit of Measure, please archive this product and create a new one."
-msgstr ""
-"Den här produkten används redan i bokförda verifikat.\n"
-"Om du vill ändra dess måttenhet, vänligen arkivera produkten och skapa en ny."
-
-#. module: account
-# override | officiell: 'Avstämningsmodellen har ännu inte skapat några
-# bokföringsposter'
-msgid "This reconciliation model has created no entry so far"
-msgstr "Avstämningsmodellen har ännu inte skapat några verifikat"
-
-#. module: account
-# override | officiell: 'Denna återkommande bokföringsposten härstammar från
-# %s'
-msgid "This recurring entry originated from %s"
-msgstr "Denna återkommande verifikatet härstammar från %s"
-
-#. module: account
-# override | officiell: 'Inställningarna låses så snart som en bokföringspost
-# har skapats.'
-msgid "This setting locks once a journal entry is created."
-msgstr "Inställningarna låses så snart som en verifikat har skapats."
 
 #. module: account
 # override | officiell: 'Detta kommer att uppdatera alla skatter och konton
@@ -1758,82 +689,9 @@ msgstr ""
 "valda skatteområdet."
 
 #. module: account
-# override | officiell: 'Dessa kan användas för att snabbt skapa
-# journalhändelser vid avstämning\n                 med ett kontoutdrag eller
-# ett konto.'
-msgid ""
-"Those can be used to quickly create a journal items when reconciling\n"
-"                a bank statement or an account."
-msgstr ""
-"Dessa kan användas för att snabbt skapa verifikatsrader vid avstämning\n"
-"                 med ett kontoutdrag eller ett konto."
-
-#. module: account
-# override | officiell: 'Det totala beloppet som påverkas av den automatiska
-# bokföringsposten.'
-msgid "Total amount impacted by the automatic entry."
-msgstr "Det totala beloppet som påverkas av den automatiska verifikatet."
-
-#. module: account
-# override | officiell: 'Överför journalhändelser'
-msgid "Transfer Journal Items"
-msgstr "Överför verifikatsrader"
-
-#. module: account
-# override | officiell: 'Flytta bokföringspost till %s'
-msgid "Transfer entry to %s"
-msgstr "Flytta verifikat till %s"
-
-#. module: account
-# override | officiell: 'Ohashade bokföringsposter'
-msgid "Unhashed Entries"
-msgstr "Ohashade verifikat"
-
-#. module: account
-# override | officiell: 'Ohashade bokföringsposter'
-msgid "Unhashed entries"
-msgstr "Ohashade verifikat"
-
-#. module: account
-# override | officiell: 'Icke-bokförda bokföringsposter'
-msgid "Unposted Journal Entries"
-msgstr "Icke-bokförda verifikat"
-
-#. module: account
-# override | officiell: 'Icke-bokförda journalhändelser'
-msgid "Unposted Journal Items"
-msgstr "Icke-bokförda verifikatsrader"
-
-#. module: account
 # override | officiell: 'Använd företagsväljare'
 msgid "Use Company Selector"
 msgstr "Använd bolagsväljare"
-
-#. module: account
-# override | officiell: 'Används i rapporter för att avgöra om
-# journalhändelser ska tas med i beräkningen från den första journalhändelsen
-# eller endast för nuvarande räkenskapsår. Kontotyper som bör nollställas vid
-# varje nytt räkenskapsår (som utgifter, intäkter...) ska inte ha detta
-# alternativ angivet.'
-msgid ""
-"Used in reports to know if we should consider journal items from the "
-"beginning of time instead of from the fiscal year only. Account types that "
-"should be reset to zero at each new fiscal year (like expenses, revenue..) "
-"should not have this option set."
-msgstr ""
-"Används i rapporter för att avgöra om verifikatsrader ska tas med i "
-"beräkningen från den första verifikatsraden eller endast för nuvarande "
-"räkenskapsår. Kontotyper som bör nollställas vid varje nytt räkenskapsår "
-"(som utgifter, intäkter...) ska inte ha detta alternativ angivet."
-
-#. module: account
-# override | officiell: 'Verktygsfält för att ange om journalhändelsen
-# behandlas med Storno-bokföring'
-msgid ""
-"Utility field to express whether the journal item is subject to storno "
-"accounting"
-msgstr ""
-"Verktygsfält för att ange om verifikatsraden behandlas med Storno-bokföring"
 
 #. module: account
 # override | officiell: 'Vi kan inte låta det här dokument vara utan ett
@@ -1857,43 +715,18 @@ msgstr ""
 "Gå till Inställningar och välj eller installera en skattelokalisering."
 
 #. module: account
-# override | officiell: 'Fel kredit- eller debetvärde i bokföringsposten!'
-msgid "Wrong credit or debit value in accounting entry!"
-msgstr "Fel kredit- eller debetvärde i verifikatet!"
-
-#. module: account
-# override | officiell: 'Du försöker stämma av bokföringsposter som redan är
-# avstämda.'
-msgid "You are trying to reconcile some entries that are already reconciled."
-msgstr "Du försöker stämma av verifikat som redan är avstämda."
-
-#. module: account
-# override | officiell: 'Det är endast möjligt att registrera betalningar för
-# bokförda bokföringsposter.'
-msgid "You can only register payment for posted journal entries."
-msgstr ""
-"Det är endast möjligt att registrera betalningar för bokförda verifikat."
-
-#. module: account
-# override | officiell: 'Det är endast möjligt att återställa journalhändelser
-# från samma journal'
-msgid "You can only resequence items from the same journal"
-msgstr ""
-"Det är endast möjligt att återställa verifikatsrader från samma journal"
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att byta journalens angivna
-# företag eftersom journalen redan har aktiva bokföringsposter.'
+# conflict | officiell: 'Det är inte möjligt att byta journalens angivna
+# företag eftersom journalen redan har aktiva verifikationer.'
 msgid ""
 "You can't change the company of your journal since there are some journal "
 "entries linked to it."
 msgstr ""
 "Det är inte möjligt att byta journalens angivna bolag eftersom journalen "
-"redan har aktiva verifikat."
+"redan har aktiva verifikationer."
 
 #. module: account
-# override | officiell: 'Det är inte möjligt att byta skattens angivna företag
-# eftersom journalen redan har aktiva bokföringsposter.'
+# conflict | officiell: 'Det är inte möjligt att byta skattens angivna företag
+# eftersom journalen redan har aktiva verifikat.'
 msgid ""
 "You can't change the company of your tax since there are some journal items "
 "linked to it."
@@ -1916,18 +749,8 @@ msgstr ""
 "för betalningsmetoden %(payment_method)s i journalen %(journal)s."
 
 #. module: account
-# override | officiell: 'Du är inte möjligt att skapa betalningar för
-# bokföringsposter som tillhör olika filialer utan åtkomst till moderbolaget.'
-msgid ""
-"You can't create payments for entries belonging to different branches "
-"without access to parent company."
-msgstr ""
-"Du är inte möjligt att skapa betalningar för verifikat som tillhör olika "
-"filialer utan åtkomst till moderbolaget."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att skapa betalningar för
-# bokföringsposter som tillhör olika företag.'
+# conflict | officiell: 'Det är inte möjligt att skapa betalningar för
+# verifikat som tillhör olika företag.'
 msgid ""
 "You can't create payments for entries belonging to different companies."
 msgstr ""
@@ -1935,205 +758,43 @@ msgstr ""
 "bolag."
 
 #. module: account
-# override | officiell: 'Det är inte möjligt att radera en bokförd
-# journalhändelse. Bokföring är inte att leka med; återställ bokföringsposter
-# till utkast innan du raderar dem.'
-msgid ""
-"You can't delete a posted journal item. Don’t play games with your "
-"accounting records; reset the journal entry to draft before deleting it."
-msgstr ""
-"Det är inte möjligt att radera en bokförd verifikatsrad. Bokföring är inte "
-"att leka med; återställ verifikat till utkast innan du raderar dem."
-
-#. module: account
-# override | officiell: 'Du kan inte ha två rader med betalningsmetoder av
-# samma betalningstyp (%(payment_type)s) och med samma namn (%(name)s) på en
-# och samma bokföringspost.'
-msgid ""
-"You can't have two payment method lines of the same payment type "
-"(%(payment_type)s) and with the same name (%(name)s) on a single journal."
-msgstr ""
-"Du kan inte ha två rader med betalningsmetoder av samma betalningstyp "
-"(%(payment_type)s) och med samma namn (%(name)s) på en och samma verifikat."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att koppla bort det här företaget
-# från det här kontot eftersom det finns några journalhändelser kopplade till
-# det.'
+# conflict | officiell: 'Det är inte möjligt att koppla bort det här företaget
+# från det här kontot eftersom det finns några verifikationsrader kopplade
+# till det.'
 msgid ""
 "You can't unlink this company from this account since there are some journal"
 " items linked to it."
 msgstr ""
 "Det är inte möjligt att koppla bort det här bolaget från det här kontot "
-"eftersom det finns några verifikatsrader kopplade till det."
+"eftersom det finns några verifikationsrader kopplade till det."
 
 #. module: account
-# override | officiell: 'Det är inte möjligt att lägga till/ändra
-# bokföringsposter fram till och inklusive: %(lock_date_info)s.'
-msgid ""
-"You cannot add/modify entries prior to and inclusive of: %(lock_date_info)s."
-msgstr ""
-"Det är inte möjligt att lägga till/ändra verifikat fram till och inklusive: "
-"%(lock_date_info)s."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att ändra företagets valuta
-# eftersom vissa journalhändelser redan skapats'
+# conflict | officiell: 'Det är inte möjligt att ändra företagets valuta
+# eftersom vissa verifikationsrader redan skapats'
 msgid ""
 "You cannot change the currency of the company since some journal items "
 "already exist"
 msgstr ""
-"Det är inte möjligt att ändra bolagets valuta eftersom vissa verifikatsrader"
-" redan skapats"
+"Det är inte möjligt att ändra bolagets valuta eftersom vissa "
+"verifikationsrader redan skapats"
 
 #. module: account
-# override | officiell: 'Det är inte möjligt att radera journalhändelser
-# kopplade till en låst bokföringspost.'
-msgid "You cannot delete journal items belonging to a locked journal entry."
-msgstr ""
-"Det är inte möjligt att radera verifikatsrader kopplade till en låst "
-"verifikat."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att ta bort bokföringsposten,
-# eftersom den redan har förbrukat ett sekvensnummer och den inte är den sista
-# i kedjan. Vi rekommenderar att istället återkalla den.'
-msgid ""
-"You cannot delete this entry, as it has already consumed a sequence number "
-"and is not the last one in the chain. You should probably revert it instead."
-msgstr ""
-"Det är inte möjligt att ta bort verifikatet, eftersom den redan har "
-"förbrukat ett sekvensnummer och den inte är den sista i kedjan. Vi "
-"rekommenderar att istället återkalla den."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att genomföra ändringen på en
-# bokföringspost som redan stämts av. Du kan bara ändra vissa icke-juridiska
-# fält eller så måste du först återkalla avstämningen.\nBokföringspost (ID-
-# nummer): %(entry)s (%(id)s)'
-msgid ""
-"You cannot do this modification on a reconciled journal entry. You can just change some non legal fields or you must unreconcile first.\n"
-"Journal Entry (id): %(entry)s (%(id)s)"
-msgstr ""
-"Det är inte möjligt att genomföra ändringen på en verifikat som redan stämts av. Du kan bara ändra vissa icke-juridiska fält eller så måste du först återkalla avstämningen.\n"
-"Verifikat (ID-nummer): %(entry)s (%(id)s)"
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att redigera följande fält:
-# %(fields)s.\nFöljande bokföringsposter har redan hashats:\n%(entries)s'
-msgid ""
-"You cannot edit the following fields: %(fields)s.\n"
-"The following entries are already hashed:\n"
-"%(entries)s"
-msgstr ""
-"Det är inte möjligt att redigera följande fält: %(fields)s.\n"
-"Följande verifikat har redan hashats:\n"
-"%(entries)s"
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att redigera fältet %s för en
-# journal som redan har skapade bokföringsposter.'
-msgid ""
-"You cannot modify the field %s of a journal that already has accounting "
-"entries."
-msgstr ""
-"Det är inte möjligt att redigera fältet %s för en journal som redan har "
-"skapade verifikat."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att redigera skatter relaterade
-# till bokförda journalhändelser, du bör först återställa bokföringsposten
-# till utkast.'
-msgid ""
-"You cannot modify the taxes related to a posted journal item, you should "
-"reset the journal entry to draft to do so."
-msgstr ""
-"Det är inte möjligt att redigera skatter relaterade till bokförda "
-"verifikatsrader, du bör först återställa verifikatet till utkast."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att genomföra den här åtgärden på
-# ett konto som innehåller bokföringsposter.'
-msgid ""
-"You cannot perform this action on an account that contains journal items."
-msgstr ""
-"Det är inte möjligt att genomföra den här åtgärden på ett konto som "
-"innehåller verifikat."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att bokföra en bokföringspost i
-# en arkiverad journal (%(journal)s)'
-msgid "You cannot post an entry in an archived journal (%(journal)s)"
-msgstr ""
-"Det är inte möjligt att bokföra en verifikat i en arkiverad journal "
-"(%(journal)s)"
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att bokföra en bokföringspost
-# kopplad till ett arkiverat analytiskt konto: %s'
+# conflict | officiell: 'Det är inte möjligt att bokföra ett verifikat kopplat
+# till ett arkiverat analytiskt konto: %s'
 msgid "You cannot post an entry with an archived analytic account: %s"
 msgstr ""
-"Det är inte möjligt att bokföra en verifikat kopplad till ett arkiverat "
+"Det är inte möjligt att bokföra ett verifikat kopplat till ett arkiverat "
 "objektkonto: %s"
 
 #. module: account
-# override | officiell: 'Det är inte möjligt att minska antalet decimaler för
-# en valuta som redan har använts i bokföringsposter.'
-msgid ""
-"You cannot reduce the number of decimal places of a currency which has "
-"already been used to make accounting entries."
-msgstr ""
-"Det är inte möjligt att minska antalet decimaler för en valuta som redan har"
-" använts i verifikat."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt registrera betalningar för
-# diverse bokföringsposter.'
-msgid "You cannot register payments for miscellaneous entries."
-msgstr "Det är inte möjligt registrera betalningar för diverse verifikat."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att återställa en låst
-# bokföringspost till utkast.'
-msgid "You cannot reset to draft a locked journal entry."
-msgstr "Det är inte möjligt att återställa en låst verifikat till utkast."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att återställa en bokföringspost
-# enligt kontantmetoden till utkast.'
-msgid "You cannot reset to draft a tax cash basis journal entry."
-msgstr ""
-"Det är inte möjligt att återställa en verifikat enligt kontantmetoden till "
-"utkast."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att återställa en bokföringspost
-# för en växlingsskillnad till utkast.'
-msgid "You cannot reset to draft an exchange difference journal entry."
-msgstr ""
-"Det är inte möjligt att återställa en verifikat för en växlingsskillnad till"
-" utkast."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att ange en valuta för det här
-# kontot eftersom det redan har några bokföringsposter med en annan utländsk
-# valuta.'
-msgid ""
-"You cannot set a currency on this account as it already has some journal "
-"entries having a different foreign currency."
-msgstr ""
-"Det är inte möjligt att ange en valuta för det här kontot eftersom det redan"
-" har några verifikat med en annan utländsk valuta."
-
-#. module: account
-# override | officiell: 'Det är inte möjligt att använda den här guiden med
-# bokföringsposter som tillhör olika företag.'
+# conflict | officiell: 'Det är inte möjligt att använda den här guiden med
+# verifikationer som tillhör olika företag.'
 msgid ""
 "You cannot use this wizard on journal entries belonging to different "
 "companies."
 msgstr ""
-"Det är inte möjligt att använda den här guiden med verifikat som tillhör "
-"olika bolag."
+"Det är inte möjligt att använda den här guiden med verifikationer som "
+"tillhör olika bolag."
 
 #. module: account
 # override | officiell: 'Du har inte behörighet att genomföra den här
@@ -2146,9 +807,9 @@ msgstr ""
 "åtkomst till följande bolag: %s."
 
 #. module: account
-# override | officiell: "Du bör ställa in en journal för 'vinst eller förlust
+# conflict | officiell: "Du bör ställa in en journal för 'vinst eller förlust
 # vid valutaomvandling' i företagets inställningar för att automatiskt hantera
-# bokföringen av bokföringsposter relaterade till växelkursskillnader."
+# bokföringen av verifikat relaterade till växelskillnader."
 msgid ""
 "You have to configure the 'Exchange Gain or Loss Journal' in your company "
 "settings, to manage automatically the booking of accounting entries related "
@@ -2156,7 +817,7 @@ msgid ""
 msgstr ""
 "Du bör ställa in en journal för 'vinst eller förlust vid valutaomvandling' i"
 " bolagets inställningar för att automatiskt hantera bokföringen av verifikat"
-" relaterade till växelkursskillnader."
+" relaterade till växelskillnader."
 
 #. module: account
 # override | officiell: 'Du måste ange ett vinstkonto (beroende på företaget)'
@@ -2164,28 +825,28 @@ msgid "You must specify the Profit Account (company dependent)"
 msgstr "Du måste ange ett vinstkonto (beroende på bolaget)"
 
 #. module: account
-# override | officiell: "Du bör ställa in 'kontot för vinst vid
+# conflict | officiell: "Du bör ställa in ett 'konto för vinst vid
 # valutaomvandling' i företagets inställningar för att automatiskt hantera
-# bokföringen av bokföringsposter relaterade till växelkursskillnader."
+# bokföringen av verifikat relaterade till växelskillnader."
 msgid ""
 "You should configure the 'Gain Exchange Rate Account' in your company "
 "settings, to manage automatically the booking of accounting entries related "
 "to differences between exchange rates."
 msgstr ""
-"Du bör ställa in 'kontot för vinst vid valutaomvandling' i bolagets "
+"Du bör ställa in ett 'konto för vinst vid valutaomvandling' i bolagets "
 "inställningar för att automatiskt hantera bokföringen av verifikat "
-"relaterade till växelkursskillnader."
+"relaterade till växelskillnader."
 
 #. module: account
-# override | officiell: "Du bör ställa in 'kontot för förluster vid
+# conflict | officiell: "Du bör ställa in ett 'konto för förluster vid
 # valutaomvandling' i företagets inställningar för att automatiskt hantera
-# bokföringen av bokföringsposter relaterade till växelkursskillnader."
+# bokföringen av verifikat relaterade till växelkursskillnader."
 msgid ""
 "You should configure the 'Loss Exchange Rate Account' in your company "
 "settings, to manage automatically the booking of accounting entries related "
 "to differences between exchange rates."
 msgstr ""
-"Du bör ställa in 'kontot för förluster vid valutaomvandling' i bolagets "
+"Du bör ställa in ett 'konto för förluster vid valutaomvandling' i bolagets "
 "inställningar för att automatiskt hantera bokföringen av verifikat "
 "relaterade till växelkursskillnader."
 

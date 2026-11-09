@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: product
+# conflict | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: product
 # override | officiell: 'Företagsinställningar'
 msgid "Company Settings"
 msgstr "Bolagsinställningar"

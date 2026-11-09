@@ -204,9 +204,9 @@ msgid "Company information"
 msgstr "Bolagsinformation"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Om du inte är momspliktig, bör du inte ha ett
-# angivet momsregistreringsnummer i dina företagskontakter och dina kunder bör
-# inte ha det heller.'
+# override | officiell: 'Om du inte är momspliktig, bör du inte ha ett angivet
+# momsregistreringsnummer i dina företagskontakter och dina kunder bör inte ha
+# det heller.'
 msgid ""
 "If you are not subject to VAT, you should not have a VAT number on your "
 "company/contacts and your clients should not have one either."
@@ -277,6 +277,16 @@ msgstr ""
 "Du är på väg att använda ett momsregistreringsnummer för att registrera dig."
 " Försäkra dig om att du registrerar dig med ditt bolagsregisternummer "
 "(BCE/KBO) för att följa gällande lagstiftning."
+
+#. module: account_peppol
+# conflict | officiell: 'Du bekräftar att du har behörighet att registrera
+# företaget på Peppol-nätverket i rollen som juridisk representant.'
+msgid ""
+"You confirm that you are authorized to register this company on the Peppol "
+"network as a legal representative."
+msgstr ""
+"Du bekräftar att du har behörighet att registrera bolaget på Peppol-"
+"nätverket i rollen som juridisk representant."
 
 #. module: account_peppol
 # override | officiell: 'Ditt företag är redan registrerat på en Åtkomstpunkt
