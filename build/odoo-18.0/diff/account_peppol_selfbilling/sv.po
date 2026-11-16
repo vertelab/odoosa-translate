@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account_peppol_selfbilling
-# conflict | officiell: 'Den här journalen är för egenutfärdade fakturor. Om
+# override | officiell: 'Den här journalen är för egenutfärdade fakturor. Om
 # företaget har aktiverat försändelser av egenutfärdade fakturor genom Peppol,
 # kommer leverantörsfakturor att skickas som egenutfärdade fakturor via
 # Peppol.'

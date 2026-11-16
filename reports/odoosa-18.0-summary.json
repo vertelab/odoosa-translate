@@ -1,27 +1,25 @@
 {
   "edition": "18.0",
-  "generated": "2026-11-09 05:31",
+  "generated": "2026-11-16 05:31",
   "totals": {
-    "override": 814,
-    "converged": 639,
-    "conflict": 28,
-    "new-correct": 0,
+    "override": 840,
+    "converged": 112,
+    "conflict": 0,
+    "new-correct": 1,
     "new-corrected": 0,
     "new-ours": 0,
-    "new-manual": 4,
+    "new-manual": 7,
     "flagged": 0,
     "removed": 1,
-    "noop": 54803
+    "noop": 55335
   },
   "delta": {
-    "override": -198,
-    "converged": 585,
-    "conflict": 27,
-    "new-correct": -73,
-    "new-corrected": -1,
-    "new-manual": -54,
-    "removed": -55,
-    "noop": -283
+    "override": 26,
+    "converged": -527,
+    "conflict": -28,
+    "new-correct": 1,
+    "new-manual": 3,
+    "noop": 532
   },
   "top_modules": [
     {
@@ -34,7 +32,7 @@
     },
     {
       "module": "account",
-      "count": 109
+      "count": 107
     },
     {
       "module": "website",
@@ -61,51 +59,41 @@
     "terms": [],
     "flagged": []
   },
-  "conflicts": [
+  "conflicts": [],
+  "new": [
     {
-      "module": "account",
-      "count": 20
+      "module": "account_edi_ubl_cii_tax_extension",
+      "msgid": "Ubl Cii Available Tax Category Codes",
+      "translation": ""
+    },
+    {
+      "module": "account_edi_ubl_cii_tax_extension",
+      "msgid": "Ubl Cii Available Tax Exemption Reason Codes",
+      "translation": ""
     },
     {
       "module": "account_peppol",
-      "count": 4
-    },
-    {
-      "module": "account_peppol_selfbilling",
-      "count": 1
-    },
-    {
-      "module": "crm",
-      "count": 1
-    },
-    {
-      "module": "hr_expense",
-      "count": 1
-    },
-    {
-      "module": "product",
-      "count": 1
-    }
-  ],
-  "new": [
-    {
-      "module": "account_edi_ubl_cii",
-      "msgid": "Could not retrieve a partner corresponding to '%s' with the same VAT and country",
+      "msgid": "You cannot delete an entry that has already been sent via Electronic Invoicing.",
       "translation": ""
     },
     {
-      "module": "account_edi_ubl_cii",
-      "msgid": "The Peppol endpoint is not valid. Please enter a valid 10-digit Tax Identificati",
+      "module": "purchase",
+      "msgid": "Only a purchase manager can approve this purchase order.",
       "translation": ""
     },
     {
-      "module": "sms",
-      "msgid": "Your country is not supported due to sender registration legislation",
+      "module": "sale_project",
+      "msgid": "Confirmation Required",
       "translation": ""
     },
     {
-      "module": "sms",
-      "msgid": "Your database is not activated",
+      "module": "sale_project",
+      "msgid": "Making this project non-billable will unlink it from any products that create ta",
+      "translation": ""
+    },
+    {
+      "module": "website_event_booth_sale",
+      "msgid": "The booth doesn't match with this product.",
       "translation": ""
     }
   ],

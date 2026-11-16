@@ -279,7 +279,7 @@ msgstr ""
 "(BCE/KBO) för att följa gällande lagstiftning."
 
 #. module: account_peppol
-# conflict | officiell: 'Du bekräftar att du har behörighet att registrera
+# override | officiell: 'Du bekräftar att du har behörighet att registrera
 # företaget på Peppol-nätverket i rollen som juridisk representant.'
 msgid ""
 "You confirm that you are authorized to register this company on the Peppol "

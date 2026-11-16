@@ -11,7 +11,7 @@ msgid "An expense report must contain only lines from the same company."
 msgstr "En utläggsrapport får endast innehålla rader från samma bolag."
 
 #. module: hr_expense
-# conflict | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 

@@ -16,7 +16,7 @@ msgstr ""
 "För att upprätthålla konsekvens måste verifikatet alltid ha exakt en interimrad."
 
 #. module: account
-# conflict | officiell: '. Beloppen i verifikationerna måste beräknas av Odoo
+# override | officiell: '. Beloppen i verifikationerna måste beräknas av Odoo
 # innan de kan bokföras i ditt företags valuta.'
 msgid ""
 ". The journal entries need to be computed by Odoo before being posted in "
@@ -204,7 +204,7 @@ msgstr ""
 "Vänligen gå till Kontoinställningar."
 
 #. module: account
-# conflict | officiell: 'Att ändra företagsnamn är inte tillåtet när fakturor
+# override | officiell: 'Att ändra företagsnamn är inte tillåtet när fakturor
 # har utfärdats för ditt konto. Vänligen kontakta oss direkt för att genomföra
 # åtgärden.'
 msgid ""
@@ -324,13 +324,13 @@ msgstr ""
 "inget bolag anges så är det tillgängligt för alla bolag"
 
 #. module: account
-# conflict | officiell: 'Verifikat kan endast skapas för ett företag åt
+# override | officiell: 'Verifikat kan endast skapas för ett företag åt
 # gången.'
 msgid "Entries can only be created for a single company at a time."
 msgstr "Verifikat kan endast skapas för ett bolag åt gången."
 
 #. module: account
-# conflict | officiell: 'Följande verifikat tillhör inte samma företag: %s'
+# override | officiell: 'Följande verifikat tillhör inte samma företag: %s'
 msgid "Entries don't belong to the same company: %s"
 msgstr "Följande verifikat tillhör inte samma bolag: %s"
 
@@ -464,7 +464,7 @@ msgstr ""
 "i dokument."
 
 #. module: account
-# conflict | officiell: 'Skattekontot används för att beräkna utgående
+# override | officiell: 'Skattekontot används för att beräkna utgående
 # skattesaldo när det är till förmån för företaget.'
 msgid ""
 "Tax current account used as a counterpart to the Tax Closing Entry when in "
@@ -553,7 +553,7 @@ msgid "The country to use the tax reports from for this company"
 msgstr "Landet från vilket skatterapporter ska användas för detta bolag"
 
 #. module: account
-# conflict | officiell: 'Verifikatet använder sig av konton
+# override | officiell: 'Verifikatet använder sig av konton
 # (%(accounts_codes_names)s) från ett annat företag.'
 msgid ""
 "The entry is using accounts (%(accounts_codes_names)s) from a different "
@@ -569,12 +569,6 @@ msgid "The following accounts must be assigned to at least one company:"
 msgstr "Följande konton måste vara kopplade till minst ett bolag:"
 
 #. module: account
-# override | officiell: 'Den utländska skatteposition för vilken detta externa
-# värde är skapat.'
-msgid "The foreign fiscal position for which this external value is made."
-msgstr "Den utländska skatteområde för vilken detta externa värde är skapat."
-
-#. module: account
 # override | officiell: 'Den angivna kontoinnehavaren för en journals
 # bankkonto måste vara företaget (%s).'
 msgid "The holder of a journal's bank account must be the company (%s)."
@@ -583,7 +577,7 @@ msgstr ""
 "(%s)."
 
 #. module: account
-# conflict | officiell: 'Verifikatet som innehåller ingående saldon för alla
+# override | officiell: 'Verifikatet som innehåller ingående saldon för alla
 # företagets konton.'
 msgid ""
 "The journal entry containing the initial balance of all this company's "
@@ -602,7 +596,7 @@ msgstr ""
 "bankkonton."
 
 #. module: account
-# conflict | officiell: 'Det återstående beloppet för en verifikationsrad
+# override | officiell: 'Det återstående beloppet för en verifikationsrad
 # uttryckt i dess angivna valuta (inte nödvändigtvis samma som företagets
 # valuta).'
 msgid ""
@@ -613,7 +607,7 @@ msgstr ""
 "valuta (inte nödvändigtvis samma som bolagets valuta)."
 
 #. module: account
-# conflict | officiell: 'Det återstående beloppet för en verifikationsrad
+# override | officiell: 'Det återstående beloppet för en verifikationsrad
 # angivet i företagets valuta.'
 msgid ""
 "The residual amount on a journal item expressed in the company currency."
@@ -665,7 +659,7 @@ msgstr ""
 "prefixet."
 
 #. module: account
-# conflict | officiell: 'Det här verifikatet innehåller en eller flera skatter
+# override | officiell: 'Det här verifikatet innehåller en eller flera skatter
 # som är oförenliga med ditt skatteområde. Kontrollera företagets
 # skatterättsliga hemvist i företagets inställningar samt inställningarna för
 # skatter.'
@@ -677,16 +671,6 @@ msgstr ""
 "Det här verifikatet innehåller en eller flera skatter som är oförenliga med "
 "ditt skatteområde. Kontrollera bolagets skatterättsliga hemvist i bolagets "
 "inställningar samt inställningarna för skatter."
-
-#. module: account
-# override | officiell: 'Detta kommer att uppdatera alla skatter och konton
-# baserat på den aktuella valda skattepositionen.'
-msgid ""
-"This will update all taxes and accounts based on the currently selected "
-"fiscal position."
-msgstr ""
-"Detta kommer att uppdatera alla skatter och konton baserat på den aktuella "
-"valda skatteområdet."
 
 #. module: account
 # override | officiell: 'Använd företagsväljare'
@@ -715,7 +699,7 @@ msgstr ""
 "Gå till Inställningar och välj eller installera en skattelokalisering."
 
 #. module: account
-# conflict | officiell: 'Det är inte möjligt att byta journalens angivna
+# override | officiell: 'Det är inte möjligt att byta journalens angivna
 # företag eftersom journalen redan har aktiva verifikationer.'
 msgid ""
 "You can't change the company of your journal since there are some journal "
@@ -725,7 +709,7 @@ msgstr ""
 "redan har aktiva verifikationer."
 
 #. module: account
-# conflict | officiell: 'Det är inte möjligt att byta skattens angivna företag
+# override | officiell: 'Det är inte möjligt att byta skattens angivna företag
 # eftersom journalen redan har aktiva verifikat.'
 msgid ""
 "You can't change the company of your tax since there are some journal items "
@@ -749,7 +733,7 @@ msgstr ""
 "för betalningsmetoden %(payment_method)s i journalen %(journal)s."
 
 #. module: account
-# conflict | officiell: 'Det är inte möjligt att skapa betalningar för
+# override | officiell: 'Det är inte möjligt att skapa betalningar för
 # verifikat som tillhör olika företag.'
 msgid ""
 "You can't create payments for entries belonging to different companies."
@@ -758,7 +742,7 @@ msgstr ""
 "bolag."
 
 #. module: account
-# conflict | officiell: 'Det är inte möjligt att koppla bort det här företaget
+# override | officiell: 'Det är inte möjligt att koppla bort det här företaget
 # från det här kontot eftersom det finns några verifikationsrader kopplade
 # till det.'
 msgid ""
@@ -769,7 +753,7 @@ msgstr ""
 "eftersom det finns några verifikationsrader kopplade till det."
 
 #. module: account
-# conflict | officiell: 'Det är inte möjligt att ändra företagets valuta
+# override | officiell: 'Det är inte möjligt att ändra företagets valuta
 # eftersom vissa verifikationsrader redan skapats'
 msgid ""
 "You cannot change the currency of the company since some journal items "
@@ -779,7 +763,7 @@ msgstr ""
 "verifikationsrader redan skapats"
 
 #. module: account
-# conflict | officiell: 'Det är inte möjligt att bokföra ett verifikat kopplat
+# override | officiell: 'Det är inte möjligt att bokföra ett verifikat kopplat
 # till ett arkiverat analytiskt konto: %s'
 msgid "You cannot post an entry with an archived analytic account: %s"
 msgstr ""
@@ -787,7 +771,7 @@ msgstr ""
 "objektkonto: %s"
 
 #. module: account
-# conflict | officiell: 'Det är inte möjligt att använda den här guiden med
+# override | officiell: 'Det är inte möjligt att använda den här guiden med
 # verifikationer som tillhör olika företag.'
 msgid ""
 "You cannot use this wizard on journal entries belonging to different "
@@ -807,7 +791,7 @@ msgstr ""
 "åtkomst till följande bolag: %s."
 
 #. module: account
-# conflict | officiell: "Du bör ställa in en journal för 'vinst eller förlust
+# override | officiell: "Du bör ställa in en journal för 'vinst eller förlust
 # vid valutaomvandling' i företagets inställningar för att automatiskt hantera
 # bokföringen av verifikat relaterade till växelskillnader."
 msgid ""
@@ -825,7 +809,7 @@ msgid "You must specify the Profit Account (company dependent)"
 msgstr "Du måste ange ett vinstkonto (beroende på bolaget)"
 
 #. module: account
-# conflict | officiell: "Du bör ställa in ett 'konto för vinst vid
+# override | officiell: "Du bör ställa in ett 'konto för vinst vid
 # valutaomvandling' i företagets inställningar för att automatiskt hantera
 # bokföringen av verifikat relaterade till växelskillnader."
 msgid ""
@@ -838,7 +822,7 @@ msgstr ""
 "relaterade till växelskillnader."
 
 #. module: account
-# conflict | officiell: "Du bör ställa in ett 'konto för förluster vid
+# override | officiell: "Du bör ställa in ett 'konto för förluster vid
 # valutaomvandling' i företagets inställningar för att automatiskt hantera
 # bokföringen av verifikat relaterade till växelkursskillnader."
 msgid ""

@@ -1,27 +1,25 @@
 {
   "edition": "19.0",
-  "generated": "2026-11-09 05:33",
+  "generated": "2026-11-16 05:33",
   "totals": {
-    "override": 831,
-    "converged": 101,
-    "conflict": 4,
+    "override": 835,
+    "converged": 38,
+    "conflict": 0,
     "new-correct": 0,
     "new-corrected": 0,
     "new-ours": 0,
-    "new-manual": 18,
+    "new-manual": 7,
     "flagged": 0,
-    "removed": 5,
-    "noop": 59930
+    "removed": 2,
+    "noop": 60009
   },
   "delta": {
-    "override": 3,
-    "converged": 61,
-    "conflict": 3,
-    "new-correct": -74,
-    "new-corrected": -2,
-    "new-manual": -141,
-    "removed": -76,
-    "noop": 163
+    "override": 4,
+    "converged": -63,
+    "conflict": -4,
+    "new-manual": -11,
+    "removed": -3,
+    "noop": 79
   },
   "top_modules": [
     {
@@ -38,22 +36,22 @@
     },
     {
       "module": "website",
-      "count": 47
+      "count": 49
     },
     {
       "module": "account_peppol",
-      "count": 26
+      "count": 23
     },
     {
       "module": "mail_plugin",
       "count": 21
     },
     {
-      "module": "hr",
+      "module": "mass_mailing_themes",
       "count": 18
     },
     {
-      "module": "mass_mailing_themes",
+      "module": "point_of_sale",
       "count": 18
     }
   ],
@@ -61,109 +59,41 @@
     "terms": [],
     "flagged": []
   },
-  "conflicts": [
-    {
-      "module": "account",
-      "count": 2
-    },
-    {
-      "module": "account_payment_interco",
-      "count": 1
-    },
-    {
-      "module": "account_peppol",
-      "count": 1
-    }
-  ],
+  "conflicts": [],
   "new": [
     {
       "module": "account_edi_ubl_cii",
-      "msgid": "Could not retrieve a partner corresponding to '%s' with the same VAT and country",
+      "msgid": "Ubl Cii Available Tax Category Codes",
       "translation": ""
     },
     {
       "module": "account_edi_ubl_cii",
-      "msgid": "The Peppol endpoint is not valid. Please enter a valid 10-digit Tax Identificati",
+      "msgid": "Ubl Cii Available Tax Exemption Reason Codes",
       "translation": ""
     },
     {
       "module": "account_peppol",
-      "msgid": "<strong>Contact us</strong>",
+      "msgid": "%(msg)s (EDI Proxy User Id client \"%(id_client)s\")",
       "translation": ""
     },
     {
-      "module": "account_peppol",
-      "msgid": "There was an error while importing the bill, you can find attached the incoming ",
+      "module": "mail",
+      "msgid": "Background blur could not be loaded",
       "translation": ""
     },
     {
-      "module": "account_peppol",
-      "msgid": "Your database is not linked to Peppol anymore. This might be due to a database d",
+      "module": "website",
+      "msgid": "This field is mandatory for this action. You cannot remove it. Try hiding it wit",
       "translation": ""
     },
     {
-      "module": "account_peppol",
-      "msgid": "to reconnect your database to Peppol.",
+      "module": "website",
+      "msgid": "Visibility Rule",
       "translation": ""
     },
     {
-      "module": "hr",
-      "msgid": "You do not have the rights to trust or un-trust accounts.",
-      "translation": ""
-    },
-    {
-      "module": "hr_holidays",
-      "msgid": "%(success_count)s time off request(s) created successfully.",
-      "translation": ""
-    },
-    {
-      "module": "hr_holidays",
-      "msgid": "Time Off Generated",
-      "translation": ""
-    },
-    {
-      "module": "mrp_subcontracting_dropshipping",
-      "msgid": "Journal Item",
-      "translation": ""
-    },
-    {
-      "module": "pos_glory_cash",
-      "msgid": "Failed to cancel cash machine transaction: %s.",
-      "translation": ""
-    },
-    {
-      "module": "pos_glory_cash",
-      "msgid": "Glory error animation.",
-      "translation": ""
-    },
-    {
-      "module": "pos_glory_cash",
-      "msgid": "The Glory machine is in an unknown error state.",
-      "translation": ""
-    },
-    {
-      "module": "pos_glory_cash",
-      "msgid": "The cash machine is unable to return the inserted cash, please refund the client",
-      "translation": ""
-    },
-    {
-      "module": "pos_glory_cash",
-      "msgid": "There is an error with the bill or coin device. The machine will now be reset an",
-      "translation": ""
-    },
-    {
-      "module": "pos_glory_cash",
-      "msgid": "There is insufficient cash in the machine to give change. You will need to refun",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "Linked lines must be added to the cart with their parent.",
-      "translation": ""
-    },
-    {
-      "module": "website_sale",
-      "msgid": "You cannot add a combo item separately from its combo.",
+      "module": "website_event_booth_sale",
+      "msgid": "The booth doesn't match with this product.",
       "translation": ""
     }
   ],

@@ -358,7 +358,7 @@ msgid ""
 msgstr "Kostnader för reparationer och underhåll av bolagsbilar och lastbilar"
 
 #. module: account
-# conflict | officiell: 'Företagets skatterättsliga hemvistkod'
+# override | officiell: 'Företagets skatterättsliga hemvistkod'
 msgid "Fiscal Country Code of the Company"
 msgstr "Bolagets skatterättsliga hemvistkod"
 
@@ -594,7 +594,7 @@ msgstr ""
 " bolag."
 
 #. module: account
-# conflict | officiell: 'Verifikationen använder skatter (%(tax_names)s) från
+# override | officiell: 'Verifikationen använder skatter (%(tax_names)s) från
 # ett annat företag.'
 msgid "The entry is using taxes (%(tax_names)s) from a different company."
 msgstr "Verifikationen använder skatter (%(tax_names)s) från ett annat bolag."

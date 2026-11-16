@@ -57,12 +57,12 @@ msgid "Peppol Use Parent Company"
 msgstr "Peppol använd överordnat bolag"
 
 #. module: account_peppol
-# conflict | officiell: 'Registrera dig med nuvarande företag'
+# override | officiell: 'Registrera dig med nuvarande företag'
 msgid "Register using the current company"
 msgstr "Registrera dig med nuvarande bolag"
 
 #. module: account_peppol
-# conflict | officiell: 'Registrera dig med det överordnade företaget genom
+# override | officiell: 'Registrera dig med det överordnade företaget genom
 # att ange samma EAS/slutdestination'
 msgid "Register using the parent company by setting the same EAS/Endpoint"
 msgstr ""
@@ -88,7 +88,7 @@ msgstr ""
 "(BCE/KBO) för att följa gällande lagstiftning."
 
 #. module: account_peppol
-# conflict | officiell: 'Du bekräftar att du har behörighet att registrera
+# override | officiell: 'Du bekräftar att du har behörighet att registrera
 # företaget på Peppol-nätverket i rollen som juridisk representant.'
 msgid ""
 "You confirm that you are authorized to register this company on the Peppol "
@@ -98,7 +98,7 @@ msgstr ""
 "nätverket i rollen som juridisk representant."
 
 #. module: account_peppol
-# conflict | officiell: 'Företaget är redan registrerat vid en annan
+# override | officiell: 'Företaget är redan registrerat vid en annan
 # accesspunkt för att ta emot fakturor. Vi kommer endast att registrera dig
 # som avsändare.'
 msgid ""
