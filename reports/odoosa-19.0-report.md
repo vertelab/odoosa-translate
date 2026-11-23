@@ -1,6 +1,6 @@
-# odoosa-report — 19.0 — 2026-11-16 05:33
+# odoosa-report — 19.0 — 2026-11-23 05:33
 
-**Totalt:** {'override': 835, 'converged': 38, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 7, 'flagged': 0, 'removed': 2, 'noop': 60009}
+**Totalt:** {'override': 831, 'converged': 212, 'conflict': 7, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 9, 'flagged': 0, 'removed': 0, 'noop': 59839}
 
 ## account
 - override: 112
@@ -192,18 +192,16 @@
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 2
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 341
+- oförändrad: 343
   · [override] %s should have a valid KBO/BCE number in the Company ID fiel → '%s bör ha ett giltigt KBO/BCE-nummer ang'
   · [override] Belgian Company Registry → 'Bolagsregister i Belgien'
   · [override] Companies → 'Bolag'
   · [override] Estonia Company code → 'Bolagsnummer i Estland'
   · [override] Please fill in your company's VAT or Peppol Address to gener → 'Vänligen fyll i bolagets momsregistrerin'
   · [override] The Peppol endpoint is not valid. It should contain exactly  → 'Peppol-destinationen är inte giltig. Den'
-  · [ny] Ubl Cii Available Tax Category Codes → ''
-  · [ny] Ubl Cii Available Tax Exemption Reason Codes → ''
 ## account_fleet
 - override: 0
 - converged 🎉: 0
@@ -241,16 +239,15 @@
   · [override] Companies → 'Bolag'
 ## account_peppol
 - override: 22
-- converged 🎉: 4
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 367
-  · [ny] %(msg)s (EDI Proxy User Id client "%(id_client)s") → ''
+- oförändrad: 371
   · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
   · [override] Active Parent Company → 'Aktivt överordnat bolag'
   · [override] Active Parent Company Name → 'Namn på aktivt överordnat bolag'
@@ -495,7 +492,7 @@
 - oförändrad: 61
 ## auth_totp_mail
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -503,7 +500,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 41
+- oförändrad: 42
 ## auth_totp_portal
 - override: 0
 - converged 🎉: 0
@@ -1315,7 +1312,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
 ## event
 - override: 5
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1323,7 +1320,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 637
+- oförändrad: 638
   · [override] <i class="fa fa-building" title="Attendee Company"/> → '<i class="fa fa-building" title="Deltaga'
   · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
   · [override] Check this for order-level questions (e.g., 'Company Name')  → 'Kontrollera detta för frågor på orderniv'
@@ -1331,7 +1328,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company Name → 'Bolagsnamn'
 ## event_booth
 - override: 0
-- converged 🎉: 28
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1339,7 +1336,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 92
+- oförändrad: 120
 ## event_booth_sale
 - override: 0
 - converged 🎉: 0
@@ -1865,7 +1862,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 11
 ## html_builder
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 5
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1873,7 +1870,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 527
+- oförändrad: 522
 ## html_editor
 - override: 0
 - converged 🎉: 0
@@ -1973,7 +1970,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 56
 ## loyalty
 - override: 1
-- converged 🎉: 0
+- converged 🎉: 1
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -1981,7 +1978,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 359
+- oförändrad: 358
   · [override] Company → 'Bolag'
 ## lunch
 - override: 4
@@ -2009,13 +2006,13 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 1
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2085
-  · [ny] Background blur could not be loaded → ''
+- oförändrad: 2086
   · [override] Companies → 'Bolag'
   · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
   · [override] Company → 'Bolag'
   · [override] Related Company → 'Relaterat bolag'
   · [override] The records must belong to the same company. → 'Posterna måste tillhöra samma bolag.'
+  · [ny] Translation service unavailable → ''
   · [override] We could not create alias %(alias_name)s because domain %(al → 'Vi kunde inte skapa alias %(alias_name)s'
   · [override] We could not create alias %(alias_name)s because domain %(al → 'Vi kunde inte skapa alias %(alias_name)s'
   · [override] You cannot delete those groups, as the Whole Company group i → 'Du kan inte ta bort dessa grupper, efter'
@@ -2302,15 +2299,16 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
 ## mrp_account
 - override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
+- converged 🎉: 41
+- conflict ⚠️: 1
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 97
+- oförändrad: 55
+  · [conflict] Companies → 'Bolag'
 ## mrp_landed_costs
 - override: 0
 - converged 🎉: 0
@@ -2441,12 +2439,13 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 0
+- ny (manuell): 1
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 43
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
+  · [ny] Partners Label → ''
 ## payment
 - override: 5
 - converged 🎉: 0
@@ -3362,7 +3361,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 12
 ## project_mrp_account
 - override: 0
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3370,7 +3369,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 12
+- oförändrad: 13
 ## project_mrp_stock_landed_costs
 - override: 0
 - converged 🎉: 0
@@ -3489,7 +3488,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 0
+- ny (manuell): 1
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 580
@@ -3497,6 +3496,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
   · [override] Default on whether the sales price used on the product and i → 'Standard om huruvida det försäljningspri'
+  · [ny] Only a purchase manager can approve this purchase order. → ''
   · [override] Put an address if you want to deliver directly from the vend → 'Ange en adress om du vill leverera direk'
   · [override] Technical field to filter the available taxes depending on t → 'Tekniskt fält för att filtrera de tillgä'
   · [override] This analysis allows you to easily check and analyse your co → 'Med denna analys kan du enkelt kontrolle'
@@ -3649,7 +3649,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 18
 ## sale
 - override: 10
-- converged 🎉: 1
+- converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -3657,7 +3657,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 853
+- oförändrad: 854
   · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
@@ -3823,10 +3823,12 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 0
+- ny (manuell): 2
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 135
+  · [ny] Confirmation Required → ''
+  · [ny] Making this project non-billable will unlink it from any products that → ''
 ## sale_project_stock
 - override: 0
 - converged 🎉: 0
@@ -4042,27 +4044,30 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 0
+- ny (manuell): 3
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 2154
+  · [ny] Add missing columns → ''
+  · [ny] Add missing columns and rows → ''
+  · [ny] Add missing rows → ''
   · [override] Currency not available for this company. → 'Valuta ej tillgänglig för detta bolag.'
   · [override] The company to take the exchange rate from. → 'Bolaget som valutakursen ska hämtas från'
 ## spreadsheet_account
-- override: 4
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 2
+- converged 🎉: 27
+- conflict ⚠️: 2
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 47
+- oförändrad: 20
   · [override] Companies → 'Bolag'
   · [override] The company fiscal year could not be found. → 'Bolagets räkenskapsår kunde inte hittas.'
-  · [override] The company to target (Advanced). → 'Bolaget att rikta in sig på (avancerat).'
-  · [override] The company. → 'Bolaget'
+  · [conflict] The company to target (Advanced). → 'Det gällande bolaget (avancerat).'
+  · [conflict] The company. → 'Bolaget.'
 ## spreadsheet_dashboard
 - override: 1
 - converged 🎉: 0
@@ -4176,7 +4181,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 28
 ## spreadsheet_dashboard_stock_account
 - override: 0
-- converged 🎉: 0
+- converged 🎉: 26
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
@@ -4184,7 +4189,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 47
+- oförändrad: 21
 ## spreadsheet_dashboard_website_sale
 - override: 0
 - converged 🎉: 0
@@ -4237,21 +4242,23 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] You can't deactivate the multi-location if you have more tha → 'Du kan inte avaktivera multi-location om'
   · [override] You cannot change the company of a lot/serial number current → 'Du kan inte byta bolag för ett parti-/se'
 ## stock_account
-- override: 5
-- converged 🎉: 0
-- conflict ⚠️: 0
+- override: 3
+- converged 🎉: 102
+- conflict ⚠️: 4
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 174
+- oförändrad: 70
+  · [conflict] Closing: Stock Variation Global for company [%(company)s] → 'Bokslut: Global lagerdifferens för bolag'
   · [override] Companies → 'Bolag'
   · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
-  · [override] Standard Price: The products are valued at their standard co → 'Standardpris: Produkterna värderas till '
-  · [override] Technical field to correctly show the currently selected com → 'Tekniskt fält för att korrekt visa den v'
+  · [conflict] Is valued inside the company → 'Värderas inuti bolaget'
+  · [conflict] Is valued outside the company → 'Är värderat utanför bolaget'
+  · [conflict] Technical field to correctly show the currently selected com → 'Tekniskt fält för att korrekt visa det v'
 ## stock_delivery
 - override: 0
 - converged 🎉: 0
@@ -4427,10 +4434,11 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 0
+- ny (manuell): 1
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 17
+  · [ny] The hierarchy cannot display more than %s records. Try to refine your  → ''
 ## web_tour
 - override: 0
 - converged 🎉: 0
@@ -4455,15 +4463,15 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - oförändrad: 27
 ## website
 - override: 47
-- converged 🎉: 0
+- converged 🎉: 7
 - conflict ⚠️: 0
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 2
+- ny (manuell): 0
 - flagged 🚫: 0
-- borttagen: 2
-- oförändrad: 3041
+- borttagen: 0
+- oförändrad: 3036
   · [override] " This company transformed our business. <br/>Their solution → '"Det här bolaget förändrade vår verksamh'
   · [override] 50,000+ companies run Odoo <br class="d-none d-lg-inline"/>t → '50 000+ bolag använder Odoo <br class="d'
   · [override] 50,000+ companies run Odoo to grow their businesses. → '50 000+ bolag använder Odoo för att utve'
@@ -4503,9 +4511,7 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
   · [override] Our company specializes in consulting, product development,  → 'Vårt bolag är specialiserat på konsultve'
   · [override] The company “%(company_name)s” cannot be archived because it → 'Bolaget "%(company_name)s" kan inte arki'
   · [override] The evolution of our company → 'Utvecklingen av vårt bolag'
-  · [ny] This field is mandatory for this action. You cannot remove it. Try hid → ''
   · [override] Use this section to boost your company's credibility. → 'Använd detta avsnitt för att öka ditt bo'
-  · [ny] Visibility Rule → ''
   · [override] We are a team of passionate people whose goal is to improve  → 'Vi är ett team av passionerade människor'
   · [override] We are a team of passionate people whose goal is to improve  → 'Vi är ett team av passionerade människor'
   · [override] Website Company → 'Webbplatsbolag'
@@ -4658,11 +4664,10 @@ Odoo's <a  → 'Odoo Point of Sale\n---------------------'
 - ny (redan rätt): 0
 - ny (korrigerad): 0
 - ny (vår): 0
-- ny (manuell): 1
+- ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 11
-  · [ny] The booth doesn't match with this product. → ''
+- oförändrad: 12
 ## website_event_booth_sale_exhibitor
 - override: 0
 - converged 🎉: 0

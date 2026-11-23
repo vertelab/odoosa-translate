@@ -1,25 +1,25 @@
 {
   "edition": "19.0",
-  "generated": "2026-11-16 05:33",
+  "generated": "2026-11-23 05:33",
   "totals": {
-    "override": 835,
-    "converged": 38,
-    "conflict": 0,
+    "override": 831,
+    "converged": 212,
+    "conflict": 7,
     "new-correct": 0,
     "new-corrected": 0,
     "new-ours": 0,
-    "new-manual": 7,
+    "new-manual": 9,
     "flagged": 0,
-    "removed": 2,
-    "noop": 60009
+    "removed": 0,
+    "noop": 59839
   },
   "delta": {
-    "override": 4,
-    "converged": -63,
-    "conflict": -4,
-    "new-manual": -11,
-    "removed": -3,
-    "noop": 79
+    "override": -4,
+    "converged": 174,
+    "conflict": 7,
+    "new-manual": 2,
+    "removed": -2,
+    "noop": -170
   },
   "top_modules": [
     {
@@ -36,11 +36,11 @@
     },
     {
       "module": "website",
-      "count": 49
+      "count": 47
     },
     {
       "module": "account_peppol",
-      "count": 23
+      "count": 22
     },
     {
       "module": "mail_plugin",
@@ -59,41 +59,64 @@
     "terms": [],
     "flagged": []
   },
-  "conflicts": [],
+  "conflicts": [
+    {
+      "module": "mrp_account",
+      "count": 1
+    },
+    {
+      "module": "spreadsheet_account",
+      "count": 2
+    },
+    {
+      "module": "stock_account",
+      "count": 4
+    }
+  ],
   "new": [
     {
-      "module": "account_edi_ubl_cii",
-      "msgid": "Ubl Cii Available Tax Category Codes",
-      "translation": ""
-    },
-    {
-      "module": "account_edi_ubl_cii",
-      "msgid": "Ubl Cii Available Tax Exemption Reason Codes",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "%(msg)s (EDI Proxy User Id client \"%(id_client)s\")",
-      "translation": ""
-    },
-    {
       "module": "mail",
-      "msgid": "Background blur could not be loaded",
+      "msgid": "Translation service unavailable",
       "translation": ""
     },
     {
-      "module": "website",
-      "msgid": "This field is mandatory for this action. You cannot remove it. Try hiding it wit",
+      "module": "partnership",
+      "msgid": "Partners Label",
       "translation": ""
     },
     {
-      "module": "website",
-      "msgid": "Visibility Rule",
+      "module": "purchase",
+      "msgid": "Only a purchase manager can approve this purchase order.",
       "translation": ""
     },
     {
-      "module": "website_event_booth_sale",
-      "msgid": "The booth doesn't match with this product.",
+      "module": "sale_project",
+      "msgid": "Confirmation Required",
+      "translation": ""
+    },
+    {
+      "module": "sale_project",
+      "msgid": "Making this project non-billable will unlink it from any products that create ta",
+      "translation": ""
+    },
+    {
+      "module": "spreadsheet",
+      "msgid": "Add missing columns",
+      "translation": ""
+    },
+    {
+      "module": "spreadsheet",
+      "msgid": "Add missing columns and rows",
+      "translation": ""
+    },
+    {
+      "module": "spreadsheet",
+      "msgid": "Add missing rows",
+      "translation": ""
+    },
+    {
+      "module": "web_hierarchy",
+      "msgid": "The hierarchy cannot display more than %s records. Try to refine your search cri",
       "translation": ""
     }
   ],

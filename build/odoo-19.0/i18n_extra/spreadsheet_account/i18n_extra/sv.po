@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-spreadsheet_account\n"
-"POT-Creation-Date: 2026-11-16 05:33\n"
-"PO-Revision-Date: 2026-11-16 05:33\n"
+"POT-Creation-Date: 2026-11-23 05:33\n"
+"PO-Revision-Date: 2026-11-23 05:33\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -24,10 +24,10 @@ msgstr "Bolagets räkenskapsår kunde inte hittas."
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The company to target (Advanced)."
-msgstr "Bolaget att rikta in sig på (avancerat)."
+msgstr "Det gällande bolaget (avancerat)."
 
 #. module: spreadsheet_account
 #. odoo-javascript
 #: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
 msgid "The company."
-msgstr "Bolaget"
+msgstr "Bolaget."

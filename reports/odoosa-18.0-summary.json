@@ -1,25 +1,26 @@
 {
   "edition": "18.0",
-  "generated": "2026-11-16 05:31",
+  "generated": "2026-11-23 05:31",
   "totals": {
-    "override": 840,
-    "converged": 112,
-    "conflict": 0,
-    "new-correct": 1,
+    "override": 834,
+    "converged": 229,
+    "conflict": 3,
+    "new-correct": 0,
     "new-corrected": 0,
     "new-ours": 0,
-    "new-manual": 7,
+    "new-manual": 1,
     "flagged": 0,
-    "removed": 1,
-    "noop": 55335
+    "removed": 0,
+    "noop": 55229
   },
   "delta": {
-    "override": 26,
-    "converged": -527,
-    "conflict": -28,
-    "new-correct": 1,
-    "new-manual": 3,
-    "noop": 532
+    "override": -6,
+    "converged": 117,
+    "conflict": 3,
+    "new-correct": -1,
+    "new-manual": -6,
+    "removed": -1,
+    "noop": -106
   },
   "top_modules": [
     {
@@ -59,41 +60,20 @@
     "terms": [],
     "flagged": []
   },
-  "conflicts": [],
+  "conflicts": [
+    {
+      "module": "spreadsheet_account",
+      "count": 2
+    },
+    {
+      "module": "stock_account",
+      "count": 1
+    }
+  ],
   "new": [
     {
-      "module": "account_edi_ubl_cii_tax_extension",
-      "msgid": "Ubl Cii Available Tax Category Codes",
-      "translation": ""
-    },
-    {
-      "module": "account_edi_ubl_cii_tax_extension",
-      "msgid": "Ubl Cii Available Tax Exemption Reason Codes",
-      "translation": ""
-    },
-    {
-      "module": "account_peppol",
-      "msgid": "You cannot delete an entry that has already been sent via Electronic Invoicing.",
-      "translation": ""
-    },
-    {
-      "module": "purchase",
-      "msgid": "Only a purchase manager can approve this purchase order.",
-      "translation": ""
-    },
-    {
-      "module": "sale_project",
-      "msgid": "Confirmation Required",
-      "translation": ""
-    },
-    {
-      "module": "sale_project",
-      "msgid": "Making this project non-billable will unlink it from any products that create ta",
-      "translation": ""
-    },
-    {
-      "module": "website_event_booth_sale",
-      "msgid": "The booth doesn't match with this product.",
+      "module": "mail",
+      "msgid": "Translation service unavailable",
       "translation": ""
     }
   ],

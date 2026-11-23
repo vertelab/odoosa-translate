@@ -15,11 +15,11 @@ msgid "The company fiscal year could not be found."
 msgstr "Bolagets räkenskapsår kunde inte hittas."
 
 #. module: spreadsheet_account
-# override | officiell: 'Företaget att rikta in sig på (avancerat).'
+# conflict | officiell: 'Det gällande företaget (avancerat).'
 msgid "The company to target (Advanced)."
-msgstr "Bolaget att rikta in sig på (avancerat)."
+msgstr "Det gällande bolaget (avancerat)."
 
 #. module: spreadsheet_account
-# override | officiell: 'Företaget'
+# conflict | officiell: 'Företaget.'
 msgid "The company."
-msgstr "Bolaget"
+msgstr "Bolaget."

@@ -5,6 +5,12 @@ msgstr ""
 "Language: sv\n"
 
 #. module: stock_account
+# conflict | officiell: 'Bokslut: Global lagerdifferens för företaget
+# [%(company)s]'
+msgid "Closing: Stock Variation Global for company [%(company)s]"
+msgstr "Bokslut: Global lagerdifferens för bolaget [%(company)s]"
+
+#. module: stock_account
 # override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
@@ -20,28 +26,22 @@ msgid "Company Currency"
 msgstr "Bolagets valuta"
 
 #. module: stock_account
-# override | officiell: 'Standardpris: Produkterna värderas till deras
-# standardkostnad definierad på produkten.\n        Genomsnittskostnad (AVCO):
-# Produkterna värderas till vägt genomsnittskostnad.\n        First In First
-# Out (FIFO): Produkterna värderas med antagandet att de som kommer in i
-# företaget först också kommer att lämna det först.'
-msgid ""
-"Standard Price: The products are valued at their standard cost defined on the product.\n"
-"        Average Cost (AVCO): The products are valued at weighted average cost.\n"
-"        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
-"        "
-msgstr ""
-"Standardpris: Produkterna värderas till deras standardkostnad definierad på produkten.\n"
-"        Genomsnittskostnad (AVCO): Produkterna värderas till vägt genomsnittskostnad.\n"
-"        First In First Out (FIFO): Produkterna värderas med antagandet att de som kommer in i bolaget först också kommer att lämna det först."
+# conflict | officiell: 'Värderas inuti företaget'
+msgid "Is valued inside the company"
+msgstr "Värderas inuti bolaget"
 
 #. module: stock_account
-# override | officiell: 'Tekniskt fält för att korrekt visa den valda
+# conflict | officiell: 'Är värderat utanför företaget'
+msgid "Is valued outside the company"
+msgstr "Är värderat utanför bolaget"
+
+#. module: stock_account
+# conflict | officiell: 'Tekniskt fält för att korrekt visa det valda
 # företagets valuta som motsvarar det totala värdet av produktens
 # värderingslager'
 msgid ""
 "Technical field to correctly show the currently selected company's currency "
 "that corresponds to the totaled value of the product's valuation layers"
 msgstr ""
-"Tekniskt fält för att korrekt visa den valda bolagets valuta som motsvarar "
+"Tekniskt fält för att korrekt visa det valda bolagets valuta som motsvarar "
 "det totala värdet av produktens värderingslager"
