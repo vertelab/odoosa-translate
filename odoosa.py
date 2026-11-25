@@ -496,6 +496,29 @@ def content_hash(text):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
 
 
+# ---------------------------------------------------------------------------
+# REDAKTION (2026-11-25) — GitHub Push Protection nekade pushen (GH013)
+# ---------------------------------------------------------------------------
+# Odoo SA:s egen sv.po för sms_twilio innehåller en EXEMPEL-sträng som matchar
+# GitHubs Twilio-mönster (AC + 32 hex). Den är ingen hemlighet — det är en
+# platshållare i en vy — men GitHub vägrar pushen och rapporterna publiceras
+# dessutom till Driftsloggen. Vi maskerar därför träffarna i RAPPORTERNA
+# (report.md + summary.json). Byggartefakterna (i18n/, i18n_extra/) lämnas
+# orörda: de är Odoo SAs officiella text och får aldrig ändras.
+SECRET_PATTERNS = [
+    (re.compile(r"AC[0-9a-fA-F]{32}"), "AC<redacted>"),
+]
+
+
+def redact(text):
+    """Maskera sekretessmönster i rapporttext (aldrig i byggartefakter)."""
+    if not text:
+        return text
+    for pat, repl in SECRET_PATTERNS:
+        text = pat.sub(repl, text)
+    return text
+
+
 def write_if_changed(path, text):
     """Idempotens: skriv bara om innehållet ändrats. Returnerar True om skriven."""
     if path.exists() and path.read_text(encoding="utf-8") == text:
@@ -681,7 +704,7 @@ def build_edition(edition, modules=None):
 
     report_lines.insert(1, f"\n**Totalt:** {total}")
     report_path = REPORTS_DIR / f"odoosa-{edition}-report.md"
-    write_if_changed(report_path, "\n".join(report_lines) + "\n")
+    write_if_changed(report_path, redact("\n".join(report_lines) + "\n"))
 
     # Översynsdata: delta vs förra veckan, toppmoduler, regeländringar (git diff)
     delta = {k: total[k] - prev_totals.get(k, total[k]) for k in total
@@ -702,7 +725,7 @@ def build_edition(edition, modules=None):
         "flagged": summary_flagged,
     }
     write_if_changed(REPORTS_DIR / f"odoosa-{edition}-summary.json",
-                     json.dumps(summary, ensure_ascii=False, indent=2) + "\n")
+                     redact(json.dumps(summary, ensure_ascii=False, indent=2) + "\n"))
     n_mods = len([p for p in out_extra.rglob("sv.po")])
     log(f"   ✅ i18n + i18n_extra + diff + rapport skrivna ({n_mods} moduler)")
     validate_i18n_extra(edition)

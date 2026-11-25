@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-spreadsheet_dashboard_stock_account\n"
+"Language: sv\n"

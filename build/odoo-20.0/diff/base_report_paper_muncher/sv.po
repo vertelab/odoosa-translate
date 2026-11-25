@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-base_report_paper_muncher\n"
+"Language: sv\n"

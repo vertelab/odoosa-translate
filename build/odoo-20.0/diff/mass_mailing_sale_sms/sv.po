@@ -1,0 +1,5 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoosa-diff-mass_mailing_sale_sms\n"
+"Language: sv\n"

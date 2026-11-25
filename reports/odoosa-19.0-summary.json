@@ -1,6 +1,6 @@
 {
   "edition": "19.0",
-  "generated": "2026-11-23 05:33",
+  "generated": "2026-11-25 11:18",
   "totals": {
     "override": 831,
     "converged": 212,
@@ -13,14 +13,7 @@
     "removed": 0,
     "noop": 59839
   },
-  "delta": {
-    "override": -4,
-    "converged": 174,
-    "conflict": 7,
-    "new-manual": 2,
-    "removed": -2,
-    "noop": -170
-  },
+  "delta": {},
   "top_modules": [
     {
       "module": "crm",
