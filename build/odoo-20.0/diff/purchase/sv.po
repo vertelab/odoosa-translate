@@ -3,3 +3,50 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-purchase\n"
 "Language: sv\n"
+
+#. module: purchase
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: purchase
+# new-corrected | officiell: 'Standard om huruvida det försäljningspris som
+# används på produkten och fakturor med detta företag inkluderar skatter.'
+msgid ""
+"Default on whether the sales price used on the product and invoices with "
+"this Company includes its taxes."
+msgstr ""
+"Standard om huruvida det försäljningspris som används på produkten och "
+"fakturor med detta bolag inkluderar skatter."
+
+#. module: purchase
+# new-corrected | officiell: 'Ange en adress om du vill leverera direkt från
+# leverantören till kunden. Lämna annars tom för att leverera till ditt eget
+# företag.'
+msgid ""
+"Put an address if you want to deliver directly from the vendor to the "
+"customer. Otherwise, keep empty to deliver to your own company."
+msgstr ""
+"Ange en adress om du vill leverera direkt från leverantören till kunden. "
+"Lämna annars tom för att leverera till ditt eget bolag."
+
+#. module: purchase
+# new-corrected | officiell: 'Tekniskt fält för att filtrera de tillgängliga
+# skatterna beroende på skatteland och skatteposition.'
+msgid ""
+"Technical field to filter the available taxes depending on the fiscal "
+"country and fiscal position."
+msgstr ""
+"Tekniskt fält för att filtrera de tillgängliga skatterna beroende på "
+"skatteland och skatteområde."
+
+#. module: purchase
+# new-corrected | officiell: 'Med denna analys kan du enkelt kontrollera och
+# analysera ditt företags inköpshistorik och resultat.\n                Du kan
+# spåra dina förhandlingsresultat, dina leverantörers leveransresultat etc'
+msgid ""
+"This analysis allows you to easily check and analyse your company purchase history and performance.\n"
+"                You can track your negotiation performance, the delivery performance of your vendors, etc"
+msgstr ""
+"Med denna analys kan du enkelt kontrollera och analysera ditt bolags inköpshistorik och resultat.\n"
+"                Du kan spåra dina förhandlingsresultat, dina leverantörers leveransresultat etc"

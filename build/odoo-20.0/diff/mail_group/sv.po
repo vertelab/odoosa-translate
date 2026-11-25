@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-mail_group\n"
 "Language: sv\n"
+
+#. module: mail_group
+# new-corrected | officiell: 'Nyheter om mitt företag'
+msgid "My Company News"
+msgstr "Nyheter om mitt bolag"

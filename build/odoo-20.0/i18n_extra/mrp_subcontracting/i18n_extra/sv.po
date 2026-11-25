@@ -2,9 +2,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-mrp_subcontracting\n"
-"POT-Creation-Date: 2026-11-25 11:19\n"
-"PO-Revision-Date: 2026-11-25 11:19\n"
+"POT-Creation-Date: 2026-11-25 11:32\n"
+"PO-Revision-Date: 2026-11-25 11:32\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: mrp_subcontracting
+#: model:ir.model,name:mrp_subcontracting.model_res_company
+msgid "Company"
+msgstr "Bolag"
+
+#. module: mrp_subcontracting
+#. odoo-python
+#: code:addons/mrp_subcontracting/models/stock_location.py:0
+msgid ""
+"In order to manage stock accurately, subcontracting locations must be type "
+"Internal, linked to the appropriate company."
+msgstr ""
+"För att kunna hantera lager på ett korrekt sätt måste "
+"underleverantörsplatser vara av typen internt, kopplade till rätt bolag."
+
+#. module: mrp_subcontracting
+#. odoo-python
+#: code:addons/mrp_subcontracting/models/stock_location.py:0
+msgid "You cannot alter the company's subcontracting location"
+msgstr "Du kan inte ändra bolagets plats för underleverantörer"

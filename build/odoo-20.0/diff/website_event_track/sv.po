@@ -3,3 +3,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-website_event_track\n"
 "Language: sv\n"
+
+#. module: website_event_track
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: website_event_track
+# new-corrected | officiell: 'Företagsnamn'
+msgid "Company Name"
+msgstr "Bolagsnamn"
+
+#. module: website_event_track
+# new-corrected | officiell: 'Beskrivning av partnern (namn, function och
+# företagsnamn)'
+msgid "Description of the partner (name, function and company name)"
+msgstr "Beskrivning av partnern (namn, function och bolagsnamn)"
+
+#. module: website_event_track
+# new-corrected | officiell: 'Mitt företags globala presentation'
+msgid "My Company global presentation"
+msgstr "Mitt bolags globala presentation"

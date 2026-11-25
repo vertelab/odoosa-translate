@@ -3,3 +3,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-crm_iap_mine\n"
 "Language: sv\n"
+
+#. module: crm_iap_mine
+# new-corrected | officiell: '%(credit_count)d krediter kommer att förbrukas
+# för att hitta%(company_count)d företag.'
+msgid ""
+"%(credit_count)d credits will be consumed to find %(company_count)d "
+"companies."
+msgstr ""
+"%(credit_count)d krediter kommer att förbrukas för att "
+"hitta%(company_count)d bolag."
+
+#. module: crm_iap_mine
+# new-corrected | officiell: 'Företags Maxstorlek'
+msgid "Company Size Max"
+msgstr "Bolags Maxstorlek"

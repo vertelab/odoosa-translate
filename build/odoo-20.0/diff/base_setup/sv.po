@@ -3,3 +3,100 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-base_setup\n"
 "Language: sv\n"
+
+#. module: base_setup
+# new-corrected | officiell: '<span class="o_form_label"
+# invisible="company_count &gt; 1">\n
+# Företag\n                                    </span>\n
+# <span class="o_form_label" invisible="company_count &lt;= 1">\n
+# Företag\n                                    </span>\n
+# <br/>'
+msgid ""
+"<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
+"                                        Company\n"
+"                                    </span>\n"
+"                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+"                                        Companies\n"
+"                                    </span>\n"
+"                                    <br/>"
+msgstr ""
+"<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
+"                                        Bolag\n"
+"                                    </span>\n"
+"                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+"                                        Bolag\n"
+"                                    </span>\n"
+"                                    <br/>"
+
+#. module: base_setup
+# new-corrected | officiell: 'Berika automatiskt din kontaktbas med
+# företagsuppgifter'
+msgid "Automatically enrich your contact base with company data"
+msgstr "Berika automatiskt din kontaktbas med bolagsuppgifter"
+
+#. module: base_setup
+# new-corrected | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: base_setup
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: base_setup
+# new-corrected | officiell: 'Företagets landskod'
+msgid "Company Country Code"
+msgstr "Bolagets landskod"
+
+#. module: base_setup
+# new-corrected | officiell: 'Information om företaget'
+msgid "Company Informations"
+msgstr "Information om bolaget"
+
+#. module: base_setup
+# new-corrected | officiell: 'Företagsnamn'
+msgid "Company Name"
+msgstr "Bolagsnamn"
+
+#. module: base_setup
+# new-corrected | officiell: 'Skapa motsvarande in-/utorder och fakturor när
+# du säljer/köper mellan dina företag'
+msgid ""
+"Create corresponding in/out orders and bills when you sell/buy between your "
+"companies"
+msgstr ""
+"Skapa motsvarande in-/utorder och fakturor när du säljer/köper mellan dina "
+"bolag"
+
+#. module: base_setup
+# new-corrected | officiell: 'Transaktioner mellan koncernföretag'
+msgid "Inter-Company Transactions"
+msgstr "Transaktioner mellan koncernbolag"
+
+#. module: base_setup
+# new-corrected | officiell: 'Företaget Is Root'
+msgid "Is Root Company"
+msgstr "Bolaget Is Root"
+
+#. module: base_setup
+# new-corrected | officiell: 'Hantera företag'
+msgid "Manage Companies"
+msgstr "Hantera bolag"
+
+#. module: base_setup
+# new-corrected | officiell: 'Antal företag'
+msgid "Number of Companies"
+msgstr "Antal bolag"
+
+#. module: base_setup
+# new-corrected | officiell: 'När du fyller i din adressbok ger Odoo en lista
+# över matchande företag. När du väljer ett objekt fylls företagsdata och
+# logotyp i automatiskt.'
+msgid ""
+"When populating your address book, Odoo provides a list of matching "
+"companies. When selecting one item, the company data and logo are auto-"
+"filled."
+msgstr ""
+"När du fyller i din adressbok ger Odoo en lista över matchande bolag. När du"
+" väljer ett objekt fylls bolagsdata och logotyp i automatiskt."

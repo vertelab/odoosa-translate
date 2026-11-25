@@ -3,3 +3,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-website_sale\n"
 "Language: sv\n"
+
+#. module: website_sale
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: website_sale
+# new-corrected | officiell: 'Företagsnamn'
+msgid "Company Name"
+msgstr "Bolagsnamn"
+
+#. module: website_sale
+# new-corrected | officiell: 'Endast företagets hemsidor är tillåtna.\nLämna
+# företagsfältet tomt eller välj en webbplats från det företaget.'
+msgid ""
+"Only the company's websites are allowed.\n"
+"Leave the Company field empty or select a website from that company."
+msgstr ""
+"Endast bolagets hemsidor är tillåtna.\n"
+"Lämna bolagsfältet tomt eller välj en webbplats från det bolaget."
+
+#. module: website_sale
+# new-corrected | officiell: 'Företaget på webbplatsen som du försöker sälja
+# från (%(website_company)s) är ett annat än det du vill använda
+# (%(company)s)'
+msgid ""
+"The company of the website you are trying to sell from (%(website_company)s)"
+" is different than the one you want to use (%(company)s)"
+msgstr ""
+"Bolaget på webbplatsen som du försöker sälja från (%(website_company)s) är "
+"ett annat än det du vill använda (%(company)s)"

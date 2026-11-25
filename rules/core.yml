@@ -33,7 +33,7 @@ terms:
       - old: "bokföringspost"
         new: "verifikat"
     modules: [account, account_fleet, account_payment, account_update_tax_tags, base, hr_expense, stock_account]
-    versions: [18, 19]
+    versions: [18, 19, 20]
     match: longest
 
   # === Skatteposition → Skatteområde (base + account-familjen) ===
@@ -51,7 +51,7 @@ terms:
       - old: "skatteposition"
         new: "skatteområde"
     modules: [base, account, base_vat, point_of_sale, purchase]
-    versions: [18, 19]
+    versions: [18, 19, 20]
     match: longest
     note: "Ingen stor bokstav Skattepositionen i källfilen — endast små bokstäver."
 
@@ -72,7 +72,7 @@ terms:
       - old: "journalhändelse"
         new: "verifikatsrad"
     modules: [account]
-    versions: [18, 19]
+    versions: [18, 19, 20]
     match: longest
 
   # === Säkra inmatningar → Stäng period (account) ===
@@ -81,7 +81,7 @@ terms:
     old: "Säkra inmatningar"
     new: "Stäng period"
     modules: [account]
-    versions: [18, 19]
+    versions: [18, 19, 20]
     match: longest
 
   # === Analytiska → Objekt (account) ===
@@ -129,7 +129,7 @@ terms:
       - old: "analytiskt konto"
         new: "objektkonto"
     modules: [account]
-    versions: [18, 19]
+    versions: [18, 19, 20]
     match: longest
 
   # === Lead → Kundämne (crm) ===
@@ -167,7 +167,7 @@ terms:
       - old: "lead"
         new: "kundämne"
     modules: [crm]
-    versions: [18, 19]
+    versions: [18, 19, 20]
     match: longest
 
   # === Företag → Bolag (Company/Companies-kontext endast, INTE Corporate/Business) ===
@@ -179,7 +179,7 @@ terms:
       - old: "företag"
         new: "bolag"
     modules: "*"
-    versions: [18, 19]
+    versions: [18, 19, 20]
     match: longest
     only_if_msgid: '(?i)\b(company|companies)\b'
     note: >-
@@ -193,6 +193,6 @@ terms:
     old: "Din fördel"
     new: "Din rabatt"
     modules: [sale]
-    versions: [18, 19]
+    versions: [18, 19, 20]
     match: longest
     note: "Vertel 2026-10-28: kundportalens rabattrad (sale_order_advantage) visar 'Din fördel' — ska vara 'Din rabatt'"

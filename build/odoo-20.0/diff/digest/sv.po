@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-digest\n"
 "Language: sv\n"
+
+#. module: digest
+# new-corrected | officiell: 'Alla företag'
+msgid "All Companies"
+msgstr "Alla bolag"
+
+#. module: digest
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

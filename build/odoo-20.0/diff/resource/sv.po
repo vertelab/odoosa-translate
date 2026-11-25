@@ -3,3 +3,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-resource\n"
 "Language: sv\n"
+
+#. module: resource
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: resource
+# new-corrected | officiell: 'Om det är tomt är detta en generisk ledighet för
+# företaget. Om en resurs är angiven är ledigheten endast för denna resurs'
+msgid ""
+"If empty, this is a generic time off for the company. If a resource is set, "
+"the time off is only for this resource"
+msgstr ""
+"Om det är tomt är detta en generisk ledighet för bolaget. Om en resurs är "
+"angiven är ledigheten endast för denna resurs"
+
+#. module: resource
+# new-corrected | officiell: 'Antal timmar att arbeta enligt företagets schema
+# för att betraktas som heltid.'
+msgid ""
+"Number of hours to work on the company schedule to be considered as "
+"fulltime."
+msgstr ""
+"Antal timmar att arbeta enligt bolagets schema för att betraktas som heltid."

@@ -3,3 +3,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-purchase_stock\n"
 "Language: sv\n"
+
+#. module: purchase_stock
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: purchase_stock
+# new-corrected | officiell: 'Ange en adress om du vill leverera direkt från
+# leverantören till kunden. Lämna annars tom för att leverera till ditt eget
+# företag.'
+msgid ""
+"Put an address if you want to deliver directly from the vendor to the "
+"customer. Otherwise, keep empty to deliver to your own company."
+msgstr ""
+"Ange en adress om du vill leverera direkt från leverantören till kunden. "
+"Lämna annars tom för att leverera till ditt eget bolag."

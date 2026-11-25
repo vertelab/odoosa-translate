@@ -3,3 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-website_blog\n"
 "Language: sv\n"
+
+#. module: website_blog
+# new-corrected | officiell: 'Skriv en liten text här för att beskriva din
+# blogg eller ditt företag.'
+msgid "Write a small text here to describe your blog or company."
+msgstr "Skriv en liten text här för att beskriva din blogg eller ditt bolag."

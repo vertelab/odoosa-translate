@@ -3,3 +3,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-account_edi\n"
 "Language: sv\n"
+
+#. module: account_edi
+# new-corrected | officiell: 'Electronic Data
+# Interchange\n=======================================\nEDI är ett digitalt
+# utbyte av företagsinformation genom ett standardiserat format.\n\nDet här är
+# den grundläggande modulen för importer och exporter av fakturor i flera EDI-
+# format, samt överföring\nav dessa dokumenttyper till flera berörda parter
+# (andra företag,\nstatliga myndigheter, och så vidare)'
+msgid ""
+"\n"
+"Electronic Data Interchange\n"
+"=======================================\n"
+"EDI is the electronic interchange of business information using a standardized format.\n"
+"\n"
+"This is the base module for import and export of invoices in various EDI formats, and the\n"
+"the transmission of said documents to various parties involved in the exchange (other company,\n"
+"governements, etc.)\n"
+msgstr ""
+"Electronic Data Interchange\n"
+"=======================================\n"
+"EDI är ett digitalt utbyte av bolagsinformation genom ett standardiserat format.\n"
+"\n"
+"Det här är den grundläggande modulen för importer och exporter av fakturor i flera EDI-format, samt överföring\n"
+"av dessa dokumenttyper till flera berörda parter (andra bolag,\n"
+"statliga myndigheter, och så vidare)"

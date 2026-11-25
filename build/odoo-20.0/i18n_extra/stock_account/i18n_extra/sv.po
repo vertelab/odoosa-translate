@@ -2,9 +2,59 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-stock_account\n"
-"POT-Creation-Date: 2026-11-25 11:19\n"
-"PO-Revision-Date: 2026-11-25 11:19\n"
+"POT-Creation-Date: 2026-11-25 11:32\n"
+"PO-Revision-Date: 2026-11-25 11:32\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: stock_account
+#: model:ir.model,name:stock_account.model_res_company
+#: model:ir.model.fields,field_description:stock_account.field_product_value__company_id
+#: model:ir.model.fields,field_description:stock_account.field_stock_avco_report__company_id
+msgid "Company"
+msgstr "Bolag"
+
+#. module: stock_account
+#: model:ir.model.fields,field_description:stock_account.field_stock_move__company_currency_id
+msgid "Company Currency"
+msgstr "Bolagets valuta"
+
+#. module: stock_account
+#: model:ir.model.fields,help:stock_account.field_stock_move__order_partner_id
+msgid ""
+"If the move originates from a document from another company, contains that "
+"company's partner, otherwise the move's partner."
+msgstr ""
+"Om transporten har sitt ursprung i ett dokument från ett annat bolag, så "
+"används det bolagets partner, annars används den partner som angetts på "
+"transporten."
+
+#. module: stock_account
+#: model:ir.model.fields,field_description:stock_account.field_stock_location__is_valued
+msgid "Is valued inside the company"
+msgstr "Värderas inuti bolaget"
+
+#. module: stock_account
+#: model:ir.model.fields,help:stock_account.field_stock_move__origin_company_id
+msgid ""
+"Only set if the move is generated from a document belonging to another "
+"company"
+msgstr ""
+"Anges endast om verifikationen skapas från ett dokument som tillhör ett "
+"annat bolag"
+
+#. module: stock_account
+#: model:ir.model.fields,field_description:stock_account.field_stock_move__origin_company_id
+msgid "Origin Company"
+msgstr "Ursprungsbolag"
+
+#. module: stock_account
+#: model:ir.model.fields,help:stock_account.field_product_product__company_currency_id
+msgid ""
+"Technical field to correctly show the currently selected company's currency "
+"that corresponds to the totaled value of the product's valuation layers"
+msgstr ""
+"Tekniskt fält för att korrekt visa det valda bolagets valuta som motsvarar "
+"det totala värdet av produktens värderingslager"

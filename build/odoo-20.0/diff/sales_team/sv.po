@@ -3,3 +3,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-sales_team\n"
 "Language: sv\n"
+
+#. module: sales_team
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: sales_team
+# new-corrected | officiell: 'Medlemsföretag'
+msgid "Member Company"
+msgstr "Medlemsbolag"
+
+#. module: sales_team
+# new-corrected | officiell: 'Standardföretaget för den här användaren.'
+msgid "The default company for this user."
+msgstr "Standardbolaget för den här användaren."
+
+#. module: sales_team
+# new-corrected | officiell: 'UX: Begränsa till teamföretag eller alla om
+# inget företag'
+msgid "UX: Limit to team company or all if no company"
+msgstr "UX: Begränsa till teambolag eller alla om inget bolag"
+
+#. module: sales_team
+# new-corrected | officiell: 'Användarföretag'
+msgid "User Company"
+msgstr "Användarbolag"

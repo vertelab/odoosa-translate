@@ -3,3 +3,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-payment\n"
 "Language: sv\n"
+
+#. module: payment
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: payment
+# new-corrected | officiell: 'Vänligen byt till företag'
+msgid "Please switch to company"
+msgstr "Vänligen byt till bolag"
+
+#. module: payment
+# new-corrected | officiell: 'Företagets huvudvaluta, används för att visa
+# monetära fält.'
+msgid "The main currency of the company, used to display monetary fields."
+msgstr "Bolagets huvudvaluta, används för att visa monetära fält."
+
+#. module: payment
+# new-corrected | officiell: 'Du kan inte byta företag för en
+# betalningsleverantör med befintliga transaktioner.'
+msgid ""
+"You cannot change the company of a payment provider with existing "
+"transactions."
+msgstr ""
+"Du kan inte byta bolag för en betalningsleverantör med befintliga "
+"transaktioner."

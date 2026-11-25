@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-website_slides\n"
 "Language: sv\n"
+
+#. module: website_slides
+# new-corrected | officiell: 'Antal företagskurser'
+msgid "Company Course Count"
+msgstr "Antal bolagskurser"

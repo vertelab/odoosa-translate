@@ -3,3 +3,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-product\n"
 "Language: sv\n"
+
+#. module: product
+# new-corrected | officiell: 'Alla företag'
+msgid "All Companies"
+msgstr "Alla bolag"
+
+#. module: product
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: product
+# new-corrected | officiell: 'Företagsinställningar'
+msgid "Company Settings"
+msgstr "Bolagsinställningar"

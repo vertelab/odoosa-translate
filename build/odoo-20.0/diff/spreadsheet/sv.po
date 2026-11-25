@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-spreadsheet\n"
 "Language: sv\n"
+
+#. module: spreadsheet
+# new-corrected | officiell: 'Företaget som valutakursen ska hämtas från.'
+msgid "The company to take the exchange rate from."
+msgstr "Bolaget som valutakursen ska hämtas från."

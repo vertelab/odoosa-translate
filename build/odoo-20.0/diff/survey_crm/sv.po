@@ -3,3 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-survey_crm\n"
 "Language: sv\n"
+
+#. module: survey_crm
+# new-corrected | officiell: 'Kände du till vårt företag innan den här
+# enkäten?'
+msgid "Before this survey, were you aware of our company?"
+msgstr "Kände du till vårt bolag innan den här enkäten?"
+
+#. module: survey_crm
+# new-corrected | officiell: 'Vad heter ditt företag?'
+msgid "How is your company named?"
+msgstr "Vad heter ditt bolag?"

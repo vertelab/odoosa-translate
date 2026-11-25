@@ -3,3 +3,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-l10n_se\n"
 "Language: sv\n"
+
+#. module: l10n_se
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: l10n_se
+# new-corrected | officiell: 'Skulder till intresseföretag och gemensamt
+# styrda företag'
+msgid "Liabilities to associated companies and jointly controlled companies"
+msgstr "Skulder till intressebolag och gemensamt styrda bolag"
+
+#. module: l10n_se
+# new-corrected | officiell: 'Skulder till företagsgrupper'
+msgid "Liabilities to group companies"
+msgstr "Skulder till bolagsgrupper"
+
+#. module: l10n_se
+# new-corrected | officiell: 'Skulder till övriga företag som det finns ett
+# ägarintresse i'
+msgid "Liabilities to other companies in which there is an ownership interest"
+msgstr "Skulder till övriga bolag som det finns ett ägarintresse i"

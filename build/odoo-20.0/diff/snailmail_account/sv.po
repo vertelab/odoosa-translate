@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-snailmail_account\n"
 "Language: sv\n"
+
+#. module: snailmail_account
+# new-corrected | officiell: '<span class="oi oi-lg" data-icon="business"
+# title="Värden som anges här är företagsspecifika."/>'
+msgid ""
+"<span class=\"oi oi-lg\" data-icon=\"business\" title=\"Values set here are "
+"company-specific.\"/>"
+msgstr ""
+"<span class=\"oi oi-lg\" data-icon=\"business\" title=\"Värden som anges här"
+" är bolagsspecifika.\"/>"

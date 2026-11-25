@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-stock_sms\n"
 "Language: sv\n"
+
+#. module: stock_sms
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

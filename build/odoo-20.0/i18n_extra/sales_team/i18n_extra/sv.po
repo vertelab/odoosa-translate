@@ -2,9 +2,37 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-sales_team\n"
-"POT-Creation-Date: 2026-11-25 11:19\n"
-"PO-Revision-Date: 2026-11-25 11:19\n"
+"POT-Creation-Date: 2026-11-25 11:32\n"
+"PO-Revision-Date: 2026-11-25 11:32\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: sales_team
+#: model:ir.model.fields,field_description:sales_team.field_crm_team__company_id
+#: model:ir.model.fields,field_description:sales_team.field_crm_team_member__company_id
+#: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_search
+msgid "Company"
+msgstr "Bolag"
+
+#. module: sales_team
+#: model:ir.model.fields,field_description:sales_team.field_crm_team__member_company_ids
+msgid "Member Company"
+msgstr "Medlemsbolag"
+
+#. module: sales_team
+#: model:ir.model.fields,help:sales_team.field_crm_team_member__company_id
+msgid "The default company for this user."
+msgstr "Standardbolaget för den här användaren."
+
+#. module: sales_team
+#: model:ir.model.fields,help:sales_team.field_crm_team__member_company_ids
+#: model:ir.model.fields,help:sales_team.field_crm_team_member__user_company_ids
+msgid "UX: Limit to team company or all if no company"
+msgstr "UX: Begränsa till teambolag eller alla om inget bolag"
+
+#. module: sales_team
+#: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
+msgid "User Company"
+msgstr "Användarbolag"

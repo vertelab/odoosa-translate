@@ -1,29 +1,143 @@
-# odoosa-report — 20.0 — 2026-11-25 11:19
+# odoosa-report — 20.0 — 2026-11-25 11:32
 
-**Totalt:** {'override': 0, 'converged': 0, 'conflict': 0, 'new-correct': 44997, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 19017, 'flagged': 0, 'removed': 0, 'noop': 0}
+**Totalt:** {'override': 0, 'converged': 0, 'conflict': 0, 'new-correct': 44334, 'new-corrected': 663, 'new-ours': 0, 'new-manual': 19017, 'flagged': 0, 'removed': 0, 'noop': 0}
 
 ## account
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 3424
-- ny (korrigerad): 0
+- ny (redan rätt): 3314
+- ny (korrigerad): 110
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] . The journal entries need to be computed by Odoo before being posted  → '. Beloppen i verifikationerna måste beräknas '
+  · [ny] A partner cannot have both an individual identifier (%(individual)s) a → 'En partner kan inte ha både en individuell id'
+  · [ny] Account %(account)s will be split in %(num_accounts)s, one for each co → 'Kontot %(account)s kommer att delas upp i %(n'
+  · [ny] Account %s cannot be unmerged as it already belongs to a single compan → 'Kontot %s kan inte delas upp eftersom det red'
+  · [ny] All selected moves for reversal must belong to the same company. → 'Alla markerade rättningsrörelser måste vara k'
+  · [ny] Always positive amount concerned by this matching expressed in the com → 'Enbart positivt belopp kopplat till denna mat'
+  · [ny] Amount Company Currency Signed → 'Undertecknat belopp i bolagets valuta'
+  · [ny] Amount to Pay (company currency) → 'Belopp att betala (bolagets valuta)'
+  · [ny] An account is part of a ledger allowing your company
+                t → 'Ett konto är en del av ett huvudbok som gör d'
+  · [ny] Analytic Account → 'Objektkonto'
+  · [ny] Analytic Accounting → 'Objektredovisning'
+  · [ny] Analytic Accounts → 'Objektkonton'
+  · [ny] Analytic Distribution → 'Objektfördelning'
+  · [ny] Analytic Distribution Model → 'Objektfördelning'
+  · [ny] Analytic Distribution Models → 'Objektfördelning'
+  · [ny] Analytic Lines → 'Objektrader'
+  · [ny] Analytic Plan's Applicabilities → 'Objektreglers användningsgrad'
+  · [ny] Analytic Plans → 'Objektregler'
+  · [ny] Analytic Precision → 'Objektprecision'
+  · [ny] Analytic Reporting → 'Objektrapporter'
+  · [ny] Analytic lines → 'Objektrader'
+  · [ny] Bank & Cash accounts cannot be shared between companies. → 'Bank- och kassakonton kan inte delas mellan b'
+  · [ny] Bank Account Number to which the invoice will be paid. A Company bank  → 'Kontonummer för det bankkonto som fakturan ko'
+  · [ny] Belongs to the same company as %s. → 'Tillhör samma bolag som %s.'
+  · [ny] Business licenses and permits that your company must pay to operate → 'Bolagslicenser och tillstånd som ditt bolag m'
+  · [ny] Cannot find a chart of accounts for this company, You should configure → 'Ingen kontoplan hittades för det här bolaget,'
+  · [ny] Closing: Stock Variation Global for company [%(company)s] → 'Bokslut: Global lagervärdering per bolag [%(c'
+  · [ny] Companies → 'Bolag'
+  · [ny] Companies that refers to partner → 'Bolag kopplade till partner'
+  · [ny] Company → 'Bolag'
+  · [ny] Company  → 'Bolag'
+  · [ny] Company Bank Account → 'Bolagets bankkonto'
+  · [ny] Company Country → 'Bolagets land'
+  · [ny] Company Currency → 'Bolagets valuta'
+  · [ny] Company Document Layout → 'Bolagets dokumentlayout'
+  · [ny] Company Fiscal Country Code → 'Landskod för bolagets skatterättsliga hemvist'
+  · [ny] Company Storno Accounting → 'Bolag med Storno-bokföring'
+  · [ny] Company Vat Placeholder → 'Platshållare för bolagets momsregistreringsnu'
+  · [ny] Company has a chart of accounts → 'Bolaget har en kontoplan'
+  · [ny] Company of the Journal → 'Bolaget som är kopplat till journalen'
+  · [ny] Company related to this journal → 'Bolag relaterade till denna journal'
+  · [ny] Company's personnel costs excluding compensations, contributions and v → 'Bolagets personalkostnader exklusive tjänstee'
+  · [ny] Compensation paid to employees and workers employed by the company → 'Tjänsteersättning till anställda och arbetare'
+  · [ny] Countries for which the company has a Tax ID → 'Länder i vilka bolaget har ett skattenummer'
+  · [ny] Currency rate from company currency to document currency. → 'Växelkurs vid omvandling från bolagets valuta'
+  · [ny] Default Incoterm of your company → 'Standard incotermer för bolaget'
+  · [ny] Default on whether the sales price used on the product and invoices wi → 'Standard om huruvida det försäljningspris som'
+  · [ny] Enable multi company consolidation → 'Aktivera konsolidering mellan flera bolag'
+  · [ny] Entries can only be created for a single company at a time. → 'Verifikat kan endast skapas för ett bolag åt '
+  · [ny] Entries don't belong to the same company: %s → 'Följande verifikat tillhör inte samma bolag: '
+  · [ny] Expenses made for the repair and maintenance of company cars and truck → 'Kostnader för reparationer och underhåll av b'
+  · [ny] Fiscal Country Code of the Company → 'Bolagets skatterättsliga hemvistkod'
+  · [ny] Items With Missing Analytic Distribution → 'Objekt som saknar objektfördelning'
+  · [ny] Journal codes must be unique per company. → 'Journalkoder måste vara unika för varje bolag'
+  · [ny] Journal where the opening entry of this company's accounting has been  → 'Journal där bolagets ingående balans har bokf'
+  · [ny] Main currency of the company. → 'Bolagets huvudsakliga valuta.'
+  · [ny] Main currency of your company → 'Bolagets huvudsakliga valuta'
+  · [ny] Mapping of account codes per company → 'Kartläggning av kontokoder per bolag'
+  · [ny] Multi-Company → 'Flera bolag'
+  · [ny] No journal could be found in company %(company_name)s for any of those → 'Ingen journal hittades i bolaget %(company_na'
+  · [ny] Onboarding Company Data → 'Introduktion till bolagsdata'
+  · [ny] One or more lines require a 100% analytic distribution. → 'En eller flera rader kräver en objektfördelni'
+  · [ny] Overrides the Company's default on whether the price you use on the pr → 'Gör det möjligt att bortse från bolagets stan'
+  · [ny] Premiums paid for insurance coverage on company-owned or leased vehicl → 'Premier för fordonsförsäkringar för fordon so'
+  · [ny] Select a product category which will use analytic account specified in → 'Välj ett specifikt objektkonto för en viss pr'
+  · [ny] Select a product for which the analytic distribution will be used (e.g → 'Välj en specifik produkt för vilken objektför'
+  · [ny] Set Company Data → 'Ange bolagsdata'
+  · [ny] Set your Company Data → 'Ange dina bolagsuppgifter'
+  · [ny] Set your company data → 'Ange bolagsuppgifter'
+  · [ny] Set your company's data for documents header/footer. → 'Ställ in information om ditt bolag som ska vi'
+  · [ny] Taxes in company currency → 'Skatter i bolagets valuta'
+  · [ny] Technical field containing the countries for which this company is usi → 'Tekniskt fält som innehåller de länder för vi'
+  · [ny] Technical field giving the date the company lock date at the time the  → 'Tekniskt fält som anger bolagets låsningsdatu'
+  · [ny] The amount expressed in the secondary currency must be positive when a → 'Beloppet som uttrycks i den sekundära valutan'
+  · [ny] The bank account of a bank journal must belong to the same company (%s → 'Bankkontot kopplat till en bankjournal måste '
+  · [ny] The bank account of your company is not trusted. Please ask an admin o → 'Bolagets angivna bankkonto är ej betrott. Vän'
+  · [ny] The company this distribution line belongs to. → 'Det bolag som denna fördelningsrad är kopplad'
+  · [ny] The country to use the tax reports from for this company → 'Landet från vilket skatterapporter ska använd'
+  · [ny] The entry is using accounts (%(accounts_codes_names)s) from a differen → 'Verifikatet använder sig av konton (%(account'
+  · [ny] The entry is using taxes (%(tax_names)s) from a different company. → 'Verifikationen använder skatter (%(tax_names)'
+  · [ny] The following accounts must be assigned to at least one company:
+%(acc → 'Följande konton måste vara kopplade till mins'
+  · [ny] The holder of a journal's bank account must be the company (%s). → 'Den angivna kontoinnehavaren för en journals '
+  · [ny] The journal entry containing the initial balance of all this company's → 'Verifikatet som innehåller ingående saldon fö'
+  · [ny] The partners of the journal's company and the related bank account mis → 'Uppgifterna som angivits om de partners som i'
+  · [ny] The residual amount (at date) on a journal item expressed in the compa → 'Det kvarvarande beloppet (vid ett visst datum'
+  · [ny] The residual amount on a journal item expressed in its currency (possi → 'Det återstående beloppet för en verifikations'
+  · [ny] The residual amount on a journal item expressed in the company currenc → 'Det återstående beloppet för en verifikations'
+  · [ny] The tax ID of your company in the region mapped by this fiscal positio → 'Skatteregistreringsnumret för ditt bolag i re'
+  · [ny] There is no tax cash basis journal defined for the '%s' company.
+Confi → 'Det finns ingen skattejournal enligt kontantm'
+  · [ny] This action is irreversible: the credit/debit cannot be modified again → 'Åtgärden är oåterkallelig: kredit/debet kan i'
+  · [ny] This allows accountants to manage analytic and crossovered budgets. On → 'Detta gör det möjligt för revisorer att hante'
+  · [ny] This analytic distribution will apply to all financial accounts sharin → 'Objektfördelningen gäller för alla finansiell'
+  · [ny] This entry contains one or more taxes that are incompatible with your  → 'Det här verifikatet innehåller en eller flera'
+  · [ny] Use Company Selector → 'Använd bolagsväljare'
+  · [ny] We can't leave this document without any company. Please select a comp → 'Vi kan inte låta det här dokument vara utan e'
+  · [ny] We cannot find a chart of accounts for this company, you should config → 'Vi kan inte hitta bolagets kontoplan, du bör '
+  · [ny] You can't change the company of your journal since there are some jour → 'Det är inte möjligt att byta journalens angiv'
+  · [ny] You can't change the company of your tax since there are some journal  → 'Det är inte möjligt att byta skattens angivna'
+  · [ny] You can't create a new payment without an outstanding payments/receipt → 'Det är inte möjligt att skapa en ny betalning'
+  · [ny] You can't create payments for entries belonging to different companies → 'Det är inte möjligt att skapa betalningar för'
+  · [ny] You can't unlink this company from this account since there are some j → 'Det är inte möjligt att koppla bort det här b'
+  · [ny] You cannot change the currency of the company since some journal items → 'Det är inte möjligt att ändra bolagets valuta'
+  · [ny] You cannot configure the document layout for this company. → 'Det är inte möjligt att konfigurera en dokume'
+  · [ny] You cannot post an entry with an archived analytic account: %s → 'Det är inte möjligt att bokföra ett verifikat'
+  · [ny] You cannot use this wizard on journal entries belonging to different c → 'Det är inte möjligt att använda den här guide'
+  · [ny] You do not have the right to perform this operation as you do not have → 'Du har inte behörighet att genomföra den här '
+  · [ny] You have to configure the 'Exchange Gain or Loss Journal' in your comp → "Du bör ställa in en journal för 'vinst eller "
+  · [ny] You should configure the 'Gain Exchange Rate Account' in your company  → "Du bör ställa in ett 'konto för vinst vid val"
+  · [ny] You should configure the 'Loss Exchange Rate Account' in your company  → "Du bör ställa in ett 'konto för förluster vid"
+  · [ny] e.g. My Company → 't.ex. Mitt bolag'
 ## account_check_printing
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 70
-- ny (korrigerad): 0
+- ny (redan rätt): 69
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company → 'Bolag'
 ## account_debit_note
 - override: 0
 - converged 🎉: 0
@@ -39,35 +153,53 @@
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 75
-- ny (korrigerad): 0
+- ny (redan rätt): 74
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] 
+Electronic Data Interchange
+=======================================
+E → 'Electronic Data Interchange\n================='
 ## account_edi_proxy_client
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 37
-- ny (korrigerad): 0
+- ny (redan rätt): 34
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] 
+This module adds generic features to register an Odoo DB on the proxy → 'Den här modulen lägger till allmänna funktion'
+  · [ny] Company → 'Bolag'
+  · [ny] This company has an active user already created for this EDI type → 'Bolaget har redan en aktiv användare för denn'
 ## account_edi_ubl_cii
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 358
-- ny (korrigerad): 0
+- ny (redan rätt): 352
+- ny (korrigerad): 6
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] 
+Electronic invoicing module
+===========================
+
+Allows to ex → 'Modul för digital fakturering\n==============='
+  · [ny] Belgian Company Registry → 'Bolagsregister i Belgien'
+  · [ny] Company → 'Bolag'
+  · [ny] Estonia Company code → 'Bolagsnummer i Estland'
+  · [ny] Please fill in your company's VAT or Peppol Address to generate a comp → 'Vänligen fyll i bolagets momsregistreringsnum'
+  · [ny] [PEPPOL-EN16931-R020] An electronic address (EAS) must be provided on  → '[PEPPOL-EN16931-R020] En digital adress (EAS)'
 ## account_fleet
 - override: 0
 - converged 🎉: 0
@@ -83,13 +215,14 @@
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 128
-- ny (korrigerad): 0
+- ny (redan rätt): 127
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Overdue invoices should share the same company. → 'Förfallna fakturor bör ha samma bolag angivet'
 ## account_payment_custom
 - override: 0
 - converged 🎉: 0
@@ -105,35 +238,54 @@
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 18
-- ny (korrigerad): 0
+- ny (redan rätt): 17
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company → 'Bolag'
 ## account_peppol
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 409
-- ny (korrigerad): 0
+- ny (redan rätt): 392
+- ny (korrigerad): 17
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] <table border="0" cellpadding="0" cellspacing="0" style="padding-top:  → '<table border="0" cellpadding="0" cellspacing'
+  · [ny] Company → 'Bolag'
+  · [ny] Company Name → 'Bolagets namn'
+  · [ny] If you are not subject to VAT, you should not have a VAT number on you → 'Om du inte är momspliktig, bör du inte ha ett'
+  · [ny] Parent Company → 'Överordnat bolag'
+  · [ny] Peppol ID should be different from main company. → 'Peppol-ID bör skilja sig från huvudbolaget.'
+  · [ny] Peppol Parent Company → 'Peppol överordnat bolag'
+  · [ny] Peppol Parent Company Name → 'Peppol namn på överordnat bolag'
+  · [ny] Peppol Use Parent Company → 'Peppol använd överordnat bolag'
+  · [ny] Please fill in the company's routing identification. → 'Vänligen ange bolagets routing-ID.'
+  · [ny] Please select a country for your company. → 'Vänligen välj ett land för ditt bolag.'
+  · [ny] Register this company on peppol → 'Registrera bolaget hos peppol'
+  · [ny] Selected Company → 'Utvalda bolag'
+  · [ny] Send from parent company → 'Skicka från överordnat bolag'
+  · [ny] You are about to register with your VAT number. Make sure you register → 'Du är på väg att använda ett momsregistrering'
+  · [ny] You confirm that you are authorized to register this company on the Pe → 'Du bekräftar att du har behörighet att regist'
+  · [ny] Your company is already registered on an Access Point (%s) for receivi → 'Ditt bolag har redan en registrerad accesspun'
 ## account_qr_code_emv
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 23
-- ny (korrigerad): 0
+- ny (redan rätt): 22
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company Qr Code → 'Bolagets QR-kod'
 ## account_qr_code_sepa
 - override: 0
 - converged 🎉: 0
@@ -193,19 +345,20 @@
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 19
-- ny (korrigerad): 0
+- ny (redan rätt): 18
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company → 'Bolag'
 ## analytic
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 157
-- ny (korrigerad): 0
+- ny (redan rätt): 153
+- ny (korrigerad): 4
 - ny (vår): 0
 - ny (manuell): 7
 - flagged 🚫: 0
@@ -217,9 +370,13 @@ Module for defining analytic accounting object.
   · [ny] Access Groups → ''
   · [ny] Acme Corporation → ''
   · [ny] Analytic → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Select a company for which the analytic distribution will be used (e.g → 'Välj ett bolag för vilket den objektdistribut'
   · [ny] System Parameter → ''
   · [ny] The value for %s must be the ID to a valid analytic plan that is not a → ''
   · [ny] Wrong analytic distribution format → ''
+  · [ny] You can't change the company of an analytic account that already has a → 'Du kan inte ändra bolaget för ett objektkonto'
+  · [ny] You defined a distribution with analytic account(s) belonging to a spe → 'Du har angivit en fördelning med objektkonton'
 ## api_doc
 - override: 0
 - converged 🎉: 0
@@ -253,8 +410,8 @@ Attachments list and document indexation
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 35
-- ny (korrigerad): 0
+- ny (redan rätt): 33
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 11
 - flagged 🚫: 0
@@ -265,6 +422,8 @@ Attachments list and document indexation
   · [ny] An error occurred: %(error)s → ''
   · [ny] Authentication via LDAP → ''
   · [ny] Cannot contact LDAP server at %(server)s:%(port)d → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company LDAP configuration → 'Bolagets LDAP-konfiguration'
   · [ny] Connection Test Failed! → ''
   · [ny] Connection Test Successful! → ''
   · [ny] Connection to LDAP server at %(server)s:%(port)d timed out → ''
@@ -470,8 +629,8 @@ Dear <t t-ou → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 52
-- ny (korrigerad): 0
+- ny (redan rätt): 51
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 8
 - flagged 🚫: 0
@@ -480,6 +639,7 @@ Dear <t t-ou → ''
   · [ny] Apply → ''
   · [ny] Barcode must start with `042` → ''
   · [ny] Click the icon in the browser on the left of the address bar and toggl → ''
+  · [ny] Company → 'Bolag'
   · [ny] Edit access to scan → ''
   · [ny] Enter a barcode → ''
   · [ny] No access to your camera → ''
@@ -503,8 +663,8 @@ Dear <t t-ou → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 3008
-- ny (korrigerad): 0
+- ny (redan rätt): 2973
+- ny (korrigerad): 35
 - ny (vår): 0
 - ny (manuell): 547
 - flagged 🚫: 0
@@ -658,6 +818,7 @@ The troub → ''
   · [ny] Card → ''
   · [ny] Certain countries apply withholding at source on the amount of invoice → ''
   · [ny] Certain countries apply withholding at source on the amount of invoice → ''
+  · [ny] Check if the contact is a company, otherwise it is a person → 'Markera denna ruta om kontakten är ett bolag,'
   · [ny] Citizen Identification → ''
   · [ny] Clearing Label → ''
   · [ny] Colleen Diaz works in IT sector <b>since 10 years</b>. He is known
@@ -666,8 +827,15 @@ The troub → ''
   · [ny] Come see us live, we hope to meet you! → ''
   · [ny] Commercial Registration Number → ''
   · [ny] Compact → ''
+  · [ny] Company → 'Bolag'
   · [ny] Company Currency → ''
+  · [ny] Company Employer → 'Bolag'
+  · [ny] Company Logo → 'Bolagslogo'
+  · [ny] Company Name → 'Bolagsnamn'
+  · [ny] Company Name Entity → 'Bolagets namn'
+  · [ny] Company Tagline → 'Bolagets slogan'
   · [ny] Company identification number → ''
+  · [ny] Company tagline, which is included in a printed document's header or f → 'Bolagets slogan, som inkluderas i ett tryckt '
   · [ny] Company used for the original currency (only used for t-out). By defau → ''
   · [ny] Complete Address inline → ''
   · [ny] Configuration Wizard → ''
@@ -676,6 +844,8 @@ The troub → ''
   · [ny] Consumer Identification → ''
   · [ny] Couldn't generate a company-dependent domain for field %s. The model d → ''
   · [ny] Create %(model_name)s → ''
+  · [ny] Create a new company → 'Skapa ett nytt bolag'
+  · [ny] Create and manage the companies that will be managed by Odoo from here → 'Skapa och hantera de bolag som ska hanteras a'
   · [ny] Create, Delete → ''
   · [ny] Create, Read → ''
   · [ny] Create, Read, Delete → ''
@@ -695,6 +865,7 @@ The troub → ''
   · [ny] Danish tax entity number (SE-nummer). → ''
   · [ny] Databases → ''
   · [ny] Date used for the original currency (only used for t-out). by default  → ''
+  · [ny] Default Company → 'Standardbolag'
   · [ny] Default Value → ''
   · [ny] Default access for new light users → ''
   · [ny] Default access for new regular users → ''
@@ -702,6 +873,7 @@ The troub → ''
   · [ny] Defines the number of days the API keys will be alive for users in thi → ''
   · [ny] Deleting the public user is not allowed. Deleting this profile will co → ''
   · [ny] Desk Manufacturers → ''
+  · [ny] Determines where the customer/company name should be placed, i.e. afte → 'Bestämmer var kundens/bolagets namn ska place'
   · [ny] Device → ''
   · [ny] Douglas Fletcher is a mighty functional consultant at Acme Corporation → ''
   · [ny] Douglas Fletcher works in IT sector <b>since 10 years</b>. He is known → ''
@@ -709,6 +881,7 @@ The troub → ''
   · [ny] Duplicate %(record)s → ''
   · [ny] Duplicate ... → ''
   · [ny] Duplicate this access to customize it → ''
+  · [ny] Duplicating a company is not allowed. Please create a new company inst → 'Det är inte tillåtet att duplicera ett bolag.'
   · [ny] Dutch Chamber of Commerce registration number. → ''
   · [ny] Dutch government Organisation Identification Number. → ''
   · [ny] E.g. https://www.mydomain.com → ''
@@ -718,6 +891,7 @@ The troub → ''
   · [ny] Estonian business registry code. → ''
   · [ny] Example: '219999830019' (format: 12 digits, all numbers, valid check d → ''
   · [ny] Exchange rate expressed as reference-currency units per 1 unit of this → ''
+  · [ny] Exchange rate from the company currency to this currency → 'Värde motsvarande 1 enhet av bolagets valuta '
   · [ny] Expected singleton: %(record)s → ''
   · [ny] Explanation → ''
   · [ny] Failed to write field %s → ''
@@ -769,6 +943,7 @@ The troub → ''
   · [ny] IVA → ''
   · [ny] If a payment is still outstanding more than sixty (60) days after the  → ''
   · [ny] If a payment is still outstanding more than sixty (60) days after the  → ''
+  · [ny] If set, action binding only applies for this company → 'Om angiven knyts åtgärden bara till detta bol'
   · [ny] If you are trying to input a European number, this is the expected for → ''
   · [ny] Impacted Application Count → ''
   · [ny] Impacted Module Count → ''
@@ -790,10 +965,15 @@ The troub → ''
   · [ny] Invalid user group. → ''
   · [ny] Invalid value in Default Value field. Expected type '%(field_type)s' f → ''
   · [ny] Inventory and Warehouse management → ''
+  · [ny] Inverse Company Rate → 'Omvänd bolagsränta'
   · [ny] Iqama ID Number → ''
   · [ny] Iqama Number → ''
   · [ny] Ireland Personal Public Service Number. → ''
+  · [ny] Is Company → 'Är bolag'
+  · [ny] Is Company Details Empty → 'Is Bolagsuppgifter Tom'
+  · [ny] Is Current Company Currency → 'Är bolagets nuvarande valuta'
   · [ny] Is Standard → ''
+  · [ny] Is a Company → 'Är ett bolag'
   · [ny] It provides post-graduate education in fluid dynamics
                  → ''
   · [ny] It undertakes and promotes research in the field of fluid
@@ -837,6 +1017,7 @@ The troub → ''
   · [ny] Model Count → ''
   · [ny] Models to be deleted → ''
   · [ny] Moroccan joint business identifier (Identifiant Commun de l'Entreprise → ''
+  · [ny] Multi Companies → 'Flera bolag'
   · [ny] My Company (San Francisco) undertakes to do its best to supply perform → ''
   · [ny] NCC → ''
   · [ny] NPWP/NIK → ''
@@ -862,6 +1043,7 @@ The troub → ''
   · [ny] Note: the expected format is %(expected_format)s → ''
   · [ny] Note: this might be a multi-company issue. Switching company may help  → ''
   · [ny] Noto Sans Mono → ''
+  · [ny] Number of Companies → 'Antal bolag'
   · [ny] OB → ''
   · [ny] OB-number cannot be computed from the VAT for sole proprietorships. → ''
   · [ny] OIN → ''
@@ -914,6 +1096,7 @@ The troub → ''
   · [ny] Record has no field “%s” → ''
   · [ny] Recursion found in child server actions → ''
   · [ny] Registrikood → ''
+  · [ny] Related Company → 'Relaterat bolag'
   · [ny] Relation Model Field → ''
   · [ny] Remote Work → ''
   · [ny] Remove from the 'Print' menu → ''
@@ -979,6 +1162,11 @@ The troub → ''
   · [ny] The IBAN does not seem to be correct. You should have entered somethin → ''
   · [ny] The IBAN is invalid, it should begin with the country code → ''
   · [ny] The Jackson Group brings honesty and seriousness to wood industry whil → ''
+  · [ny] The company %(company_name)s cannot be archived because it is still us → 'Bolaget %(company_name)s kan inte arkiveras e'
+  · [ny] The company assigned to this partner does not match the company this p → 'Det bolag som tilldelats denna partner stämme'
+  · [ny] The company hierarchy cannot be changed. → 'Bolagshierarkin kan inte ändras.'
+  · [ny] The company name must be unique! → 'Bolagsnamnet måste vara unikt!'
+  · [ny] The default company for this user. → 'Standardbolaget för den här användaren.'
   · [ny] The field value you're saving (%(model)s %(field)s)(%(record)s) includ → ''
   · [ny] The following languages are not activated: %(missing_names)s → ''
   · [ny] The kind of database index requested for this field. B-tree indexes su → ''
@@ -989,6 +1177,7 @@ The troub → ''
   · [ny] The provided API key is invalid or does not belong to the current user → ''
   · [ny] The provided API key is invalid. → ''
   · [ny] The record %(xml_id)s has the module prefix %(module_name)s. This is t → ''
+  · [ny] The selected company is not compatible with the companies of the relat → 'Det valda bolaget är inte kompatibelt med bol'
   · [ny] The type of the report that will be rendered, each one having its own  → ''
   · [ny] The value for %(field_display)s already exists.
 
@@ -997,6 +1186,8 @@ Detail: %(detail)s
   · [ny] There is no IBAN code. → ''
   · [ny] This CLABE does not pass the checksum check, please verify it. → ''
   · [ny] This IBAN does not pass the validation check, please verify it. → ''
+  · [ny] This currency is set on a company and therefore cannot be deactivated. → 'Denna valuta är inställd på ett bolag och kan'
+  · [ny] This is your company's currency. → 'Detta är bolagets valuta.'
   · [ny] This makes a group imply two disjoint groups. → ''
   · [ny] This seems to be a multi-company issue, but you do not have access to  → ''
   · [ny] This seems to be a multi-company issue, you might be able to access th → ''
@@ -1033,6 +1224,7 @@ Detail: %(detail)s
   · [ny] Update %(model_name)s → ''
   · [ny] Update, Delete → ''
   · [ny] Updating records with different property fields definitions is not sup → ''
+  · [ny] Used to order Companies in the company switcher → 'Används för att beställa bolag i bolagsväxlar'
   · [ny] User API Key → ''
   · [ny] User Agent → ''
   · [ny] User Sessions → ''
@@ -1041,6 +1233,7 @@ Detail: %(detail)s
   · [ny] Users in the current group are implicitly part of the implied groups → ''
   · [ny] Users in the current group cannot be added in disjoint groups. For exa → ''
   · [ny] VAT Registry (VAT ID) → ''
+  · [ny] Value of 1 unit of this currency in the company currency → 'Värde motsvarande 1 enhet av grundvalutan i b'
   · [ny] Verbose description of what is this model for → ''
   · [ny] Verbose description of what this action actually does → ''
   · [ny] View's Technical Usage → ''
@@ -1059,6 +1252,7 @@ Detail: %(detail)s
   · [ny] Whether this access record applies for operation 'unlink' → ''
   · [ny] Whether this access record applies for operation 'write' → ''
   · [ny] Whether this record adds (permission) or restricts (restriction) acces → ''
+  · [ny] Whether values for this field is company dependent → 'Huruvida värden för detta fält är bolagsberoe'
   · [ny] Which operation(s) this access applies to, a subset of 'crud'. → ''
   · [ny] Wood Corner brings honesty and seriousness to wood industry while help → ''
   · [ny] X → ''
@@ -1080,6 +1274,7 @@ Attachment %(record)s canno → ''
   · [ny] e.g. 'report ' + (object.name) + '.pdf' → ''
   · [ny] e.g. Bank of America → ''
   · [ny] e.g. Lumber Inc or Brandon Freeman → ''
+  · [ny] e.g. My Company → 't.ex. Mitt Bolag'
   · [ny] e.g. Sales Order → ''
   · [ny] e.g. module_name.report_name → ''
   · [ny] either 11 digits for CPF or 14 characters for CNPJ → ''
@@ -1279,8 +1474,8 @@ wlhtmltoimag → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 98
-- ny (korrigerad): 0
+- ny (redan rätt): 85
+- ny (korrigerad): 13
 - ny (vår): 0
 - ny (manuell): 4
 - flagged 🚫: 0
@@ -1288,9 +1483,23 @@ wlhtmltoimag → ''
 - oförändrad: 0
   · [ny] 
 This module helps to configure the system at the installation of a ne → ''
+  · [ny] <span class="o_form_label" invisible="company_count &gt; 1">
+          → '<span class="o_form_label" invisible="company'
+  · [ny] Automatically enrich your contact base with company data → 'Berika automatiskt din kontaktbas med bolagsu'
+  · [ny] Companies → 'Bolag'
+  · [ny] Company → 'Bolag'
+  · [ny] Company Country Code → 'Bolagets landskod'
+  · [ny] Company Informations → 'Information om bolaget'
+  · [ny] Company Name → 'Bolagsnamn'
+  · [ny] Create corresponding in/out orders and bills when you sell/buy between → 'Skapa motsvarande in-/utorder och fakturor nä'
   · [ny] Initial Setup Tools → ''
+  · [ny] Inter-Company Transactions → 'Transaktioner mellan koncernbolag'
+  · [ny] Is Root Company → 'Bolaget Is Root'
+  · [ny] Manage Companies → 'Hantera bolag'
+  · [ny] Number of Companies → 'Antal bolag'
   · [ny] Number of active users → ''
   · [ny] Reset Updating States → ''
+  · [ny] When populating your address book, Odoo provides a list of matching co → 'När du fyller i din adressbok ger Odoo en lis'
 ## base_sparse_field
 - override: 0
 - converged 🎉: 0
@@ -1339,8 +1548,8 @@ The purpose of this module is to implement "sparse" fields, i.e., fie → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 374
-- ny (korrigerad): 0
+- ny (redan rätt): 373
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 157
 - flagged 🚫: 0
@@ -1410,6 +1619,7 @@ This is a full-featured calendar system.
   · [ny] Calendar name → ''
   · [ny] Calendar: Event Canceled → ''
   · [ny] Canceled event: {{ object.name }} → ''
+  · [ny] Company → 'Bolag'
   · [ny] Contact created through Calendar sync. → ''
   · [ny] Create Calendar → ''
   · [ny] Current Membership Record → ''
@@ -1521,8 +1731,8 @@ This is a full-featured calendar system.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 84
-- ny (korrigerad): 0
+- ny (redan rätt): 83
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 6
 - flagged 🚫: 0
@@ -1530,6 +1740,7 @@ This is a full-featured calendar system.
 - oförändrad: 0
   · [ny] CA certificates → ''
   · [ny] Certificate Authority → ''
+  · [ny] Company → 'Bolag'
   · [ny] Cryptographic Key → ''
   · [ny] Issuer Certificate → ''
   · [ny] Manage certificate → ''
@@ -1643,57 +1854,108 @@ This module gives you a quick view of your contacts directory, access → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 657
-- ny (korrigerad): 0
+- ny (redan rätt): 528
+- ny (korrigerad): 129
 - ny (vår): 0
 - ny (manuell): 90
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] # Leads/Opps assigned this month → '# kundämnen/möjligheter denna månad'
+  · [ny] # Unassigned Leads → '# otilldelade kundämnen'
+  · [ny] %(assigned)s leads allocated among %(team_count)s teams. → '%(assigned)s kundämnen fördelade mellan %(tea'
+  · [ny] %(assigned)s leads allocated to %(team_name)s team. → '%(assigned)s kundämnen tilldelade till %(team'
+  · [ny] %(attach_name)s (from %(lead_name)s) → '%(attach_name)s (från %(kundämne_name)s)'
   · [ny] %(converted_count)s leads have been converted → ''
+  · [ny] %(duplicates)s duplicates leads have been merged. → '%(duplicates)s duplicerade kundämnen har slag'
+  · [ny] %(members_assigned)s leads assigned among %(member_count)s salesperson → '%(members_assigned)s kundämnen fördelade blan'
   · [ny] 1 lead has been converted → ''
+  · [ny] <b>Write a few letters</b> to look for a company, or create a new one. → '<b>Skriv ett par tecken</b> för att söka efte'
   · [ny] <i class="oi" data-icon="warning" title="Exceeded" invisible="not lead → ''
   · [ny] <span class="me-1"> of </span> → ''
   · [ny] <span class="mx-3 mb-1" invisible="type == 'lead'"> at</span> → ''
+  · [ny] <span class="o_stat_text" invisible="duplicate_lead_count &lt; 2">Simi → '<span class="o_stat_text" invisible="duplicat'
+  · [ny] <span class="o_stat_text" invisible="not use_leads">Leads</span>
+      → '<span class="o_stat_text" invisible="not use_'
+  · [ny] <span class="o_stat_text"> Leads</span> → '<span class="o_stat_text">Kundämnen</span>'
   · [ny] <span class="o_stat_text">Opportunities</span> → ''
   · [ny] <span invisible="name != 'convert'">
                         Potential → ''
   · [ny] <span> leads per 30 days </span> → ''
+  · [ny] <span>Merged the Lead/Opportunity</span> → '<span>Sammanslagning av kundämne/möjlighet</s'
+  · [ny] <span>Periodically assign leads based on priorities and filters.</span → '<span>Tilldela regelbundet kundämnen baserat '
   · [ny] <span>~ </span> → ''
   · [ny] <t>
 Hi <t t-out="object.partner_id and object.partner_id.name or ''">A → ''
+  · [ny] A lead in a Won stage cannot be lost. Move it to another stage first. → 'En kundämne i ett Won-stadium kan inte förlor'
   · [ny] Access Groups → ''
   · [ny] Access request for "%s" → ''
+  · [ny] Active Leads → 'Aktiva kundämnen'
+  · [ny] Activities marked as Done on Leads will appear here, providing an over → 'Aktiviteter som markerats som utförda på kund'
   · [ny] Always in rotation → ''
   · [ny] As you are a member of no Sales Team, you are showed the entire Pipeli → ''
   · [ny] Ask your Team Leader to get access → ''
+  · [ny] Assign Leads → 'Tilldela kundämnen'
   · [ny] Auto-Assignment Rules → ''
+  · [ny] Average Leads Capacity (on 30 days) → 'Kundämnekapacitet i snitt (på 30 dagar)'
   · [ny] Bring Odoo into your inbox: → ''
   · [ny] CRM Recurring Revenue Plan → ''
   · [ny] CRM Stage → ''
+  · [ny] CRM: Lead Assignment → 'CRM: Tilldelning av kundämnen'
+  · [ny] Check the Stage Tracker of Leads to identify bottlenecks in your Sales → 'Kontrollera etapperna för kundämnen för att i'
+  · [ny] Check this box to filter and qualify incoming requests as leads before → 'Bocka i rutan för att filtrera och kvalificer'
+  · [ny] Classify and analyze your lead/opportunity categories like: Training,  → 'Klassificera och analysera dina kategorier fö'
   · [ny] Click on the breadcrumbs to go back to your Pipeline. Odoo will save a → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company Information → 'Information om bolaget'
+  · [ny] Company Name → 'Bolagsnamn'
+  · [ny] Company Name: → 'Bolagsnamn:'
+  · [ny] Company: → 'Bolag:'
   · [ny] Connect to Gmail or Outlook accounts. → ''
+  · [ny] Consider leads created as of the: → 'Överväg kundämnen som skapade från och med de'
+  · [ny] Conversion Date from Lead to Opportunity → 'Konverteringsdatum från kundämne till möjligh'
   · [ny] Convert → ''
   · [ny] Convert & Merge with Opportunities → ''
+  · [ny] Convert Lead to Opportunity (in mass) → 'Konvertera kundämnen till möjligheter (i batc'
   · [ny] Convert into an Opportunity to see it in your Pipeline → ''
+  · [ny] Convert visitors of your website into leads and perform data enrichmen → 'Konvertera besökare på din webbplats till kun'
   · [ny] Create Contacts, Leads, Tickets, Projects and Tasks. → ''
+  · [ny] Create Leads/Opportunities from your website's traffic → 'Skapa kundämnen/möjligheter från webbplatsens'
+  · [ny] Create a Lead → 'Skapa ett kundämne'
+  · [ny] Create a Lead Activity Plan → 'Skapa en aktivitetsplan för kundämnen'
+  · [ny] Create a lead mining request directly from the opportunity pipeline. → 'Skapa en kundämnegenerering direkt från din p'
+  · [ny] Create a new lead → 'Skapa nytt kundämne'
   · [ny] Create your new contact. → ''
+  · [ny] Did you know you can search a company by name or VAT number to instant → 'Visste du att du kan söka efter ett bolag ell'
   · [ny] Discussion Channel → ''
   · [ny] Display your partners on a dedicated website page. → ''
   · [ny] Do you want to install the "%(module_name)s" App? → ''
   · [ny] Duplicated Lead → ''
   · [ny] Duplicated Lead Ids Domain → ''
   · [ny] Email Marketing → ''
+  · [ny] Enrich all leads automatically → 'Berika alla kundämnen automatiskt'
+  · [ny] Enrich lead automatically → 'Berika kundämnen automatiskt'
+  · [ny] Enrich leads on demand only → 'Berika kundämnen endast på begäran'
+  · [ny] Enrich your leads automatically with company data based on their email → 'Berika dina kundämnen automatiskt med bolagsd'
+  · [ny] Enrich your leads with company data based on their email addresses → 'Berika dina kundämnen med bolagsdata baserat '
   · [ny] Even if assigned → ''
   · [ny] Every → ''
   · [ny] Failed to install "%(module_name)s" → ''
+  · [ny] Fields that can be used for predictive lead scoring computation → 'Fält som kan användas för beräkning av föruts'
   · [ny] Find any Odoo record without leaving your inbox. → ''
   · [ny] Fold by Default → ''
+  · [ny] For a sales team, there is nothing worse than being dry on leads. Fort → 'För ett säljteam finns det inget värre än att'
+  · [ny] Generate → 'Nya kundämnen'
+  · [ny] Generate leads from Outlook & Gmail → 'Skapa kundämnen från Outlook och Gmail'
+  · [ny] Generate new leads based on their country, industries, size, etc. → 'Generera nya kundämnen baserat på land, brans'
+  · [ny] Generate new leads based on their country, industry, size, etc. → 'Generera nya kundämnen baserat på land, brans'
   · [ny] Get it for Gmail → ''
   · [ny] Get it for Outlook → ''
   · [ny] Get our Mail Plugins! → ''
   · [ny] Give priority if → ''
   · [ny] Gmail → ''
+  · [ny] Import leads from CSV → 'Importera kundämnen från en CSV-fil'
+  · [ny] Import leads from a CSV or Excel file → 'Importera kundämnen från en CSV- eller Excel-'
   · [ny] In rotation, with a limit → ''
   · [ny] In sales team → ''
   · [ny] Install request for "%s" → ''
@@ -1701,17 +1963,64 @@ Hi <t t-out="object.partner_id and object.partner_id.name or ''">A → ''
   · [ny] Keep current teams → ''
   · [ny] Keep current user → ''
   · [ny] Keep current users → ''
+  · [ny] Kpi Crm Lead Created Value → 'KPI-värde i CRM för kundämne'
+  · [ny] Lead Assign → 'Tilldela kundämne'
+  · [ny] Lead Assignment requested by %(user_name)s → 'Tilldelning av kundämne begärd av %(user_name'
+  · [ny] Lead Average Capacity → 'Genomsnittlig kapacitet för kundämne'
+  · [ny] Lead Enrichment → 'Berika kundämnen'
+  · [ny] Lead Generation → 'Kundämnegenerering'
+  · [ny] Lead Mining → 'Kundämnegenerering'
+  · [ny] Lead Properties → 'Egenskaper för kundämne'
+  · [ny] Lead Scoring Frequency → 'Frekvens för poängsättning av kundämne'
+  · [ny] Lead Scoring Frequency Fields → 'Fält för frekvens för poängsättning av kundäm'
+  · [ny] Lead Scoring Frequency Fields in String → 'Fält för frekvens för poängsättning av kundäm'
+  · [ny] Lead Scoring Starting Date → 'Startdatum för poängsättning av kundämne'
+  · [ny] Lead Scoring Starting Date in String → 'Startdatum för poängsättning av kundämne i st'
   · [ny] Lead Sourcing → ''
+  · [ny] Lead Tags → 'Kundämne taggar'
+  · [ny] Lead or Opportunity → 'Kundämne eller möjlighet'
+  · [ny] Lead/Opportunities automatic assignment is limited to managers or admi → 'Automatisk tilldelning av kundämnen/möjlighet'
+  · [ny] Lead/Opportunity created → 'Kundämne/möjlighet skapad'
   · [ny] Lead/Opportunity created<br/> → ''
+  · [ny] Leads (30 days) → 'Kundämnen (30 dagar)'
+  · [ny] Leads (last 24h) → 'Kundämnen (senaste 24 timmarna)'
+  · [ny] Leads Analysis → 'Kundämnesanalys'
+  · [ny] Leads Analysis allows you to check different CRM related information l → 'Kundämnesanalys låter dig kontrollera olika C'
+  · [ny] Leads Assigned → 'Tilldelade kundämnen'
+  · [ny] Leads Count → 'Antal kundämnen'
+  · [ny] Leads Generation → 'Kundämnengeneration'
+  · [ny] Leads are the qualification step before the creation of an opportunity → 'Kundämnen är kvalificeringssteget före skapan'
   · [ny] Leads merged → ''
+  · [ny] Leads or Opportunities → 'Kundämnen eller möjligheter'
+  · [ny] Leads that are assigned to me → 'Kundämnen tilldelade mig'
+  · [ny] Leads that are not assigned → 'Otilldelade kundämnen'
+  · [ny] Leads/Opportunities → 'Kundämnen/möjligheter'
+  · [ny] Leads/Opportunities count → 'Antal kundämnen/möjligheter'
   · [ny] Leads/Opportunities to merge → ''
   · [ny] Learn More → ''
   · [ny] Link these opportunities to customers by either finding a match or cre → ''
   · [ny] Link to matching customers → ''
+  · [ny] Linked partner (optional). Usually created when converting the lead. Y → 'Länkad kontakt (valfri). Oftast skapad när ma'
+  · [ny] Lost Lead → 'Förlorad kundämne'
   · [ny] Mail plugins → ''
   · [ny] Manage Teams → ''
+  · [ny] Manage members or partners. Members get levels and pricelists, partner → 'Hantera medlemmar eller partners. Medlemmar f'
   · [ny] Maximum Leads To Assign → ''
+  · [ny] Merge Leads/Opportunities → 'Sammanfoga kundämnen/möjligheter'
+  · [ny] Monthly average leads capacity for all salesmen belonging to the team → 'Månatlig genomsnittlig kapacitet för kundämne'
+  · [ny] My Leads → 'Mina kundämnen'
+  · [ny] New Lead → 'Ny kundämne'
+  · [ny] New Leads → 'Nya kundämnen'
+  · [ny] No allocated leads to %(team_name)s team and its salespersons because  → 'Inga tilldelade kundämnen till teamet %(team_'
+  · [ny] No allocated leads to %(team_name)s team because it has no capacity. A → 'Inga allokerade kundämnen till teamet %(team_'
+  · [ny] No allocated leads to any team or salesperson. Check your Sales Teams  → 'Inga tilldelade kundämnen till något team ell'
+  · [ny] No lead assigned to salespersons because no unassigned lead matches th → 'Inga kundämnen tilldelade till säljare efters'
+  · [ny] No new lead allocated to %(team_name)s team because no unassigned lead → 'Inga nya kundämnen tilldelade till teamet %(t'
+  · [ny] No new lead allocated to the teams because no lead match their domains → 'Inga nya kundämnen har tilldelats teamen efte'
   · [ny] Number of assigned opportunities → ''
+  · [ny] Number of leads and opportunities assigned this last month. → 'Antal kundämnen och möjligheter tilldelade de'
+  · [ny] Number of leads assigned to this member in the last 24 hours (lost lea → 'Antal kundämnen som tilldelats denna medlem u'
+  · [ny] Number of leads assigned to this member in the last 30 days → 'Antal kundämnen som tilldelats denna medlem u'
   · [ny] Odoo CRM
 --------
 
@@ -1721,23 +2030,56 @@ Boost sales productivity, improve win rates, grow r → ''
   · [ny] Outlook → ''
   · [ny] Partners Website Page → ''
   · [ny] Pause auto assignment → ''
+  · [ny] Potential Duplicate Lead → 'Potentiell dubblett-kundämne'
+  · [ny] Potential Duplicate Lead Count → 'Antal potentiella dubblett-kundämne'
+  · [ny] Predictive Lead Scoring → 'Förutspådd poängsättning av kundämnen'
+  · [ny] Predictive Lead Scoring Field Labels → 'Förutspådd poängsättning av kundämnen fälteti'
+  · [ny] Predictive Lead Scoring: Recompute Automated Probabilities → 'Förutspådd poängsättning av kundämnen: omberä'
   · [ny] Preview records and open their forms in one click. → ''
+  · [ny] Qualify leads with a Survey → 'Kvalificera kundämnen med en enkät'
   · [ny] Reassign To → ''
   · [ny] Reference → ''
   · [ny] Rotting in → ''
   · [ny] Save emails and attachments directly to Odoo. → ''
+  · [ny] Search Leads → 'Sök kundämnen'
+  · [ny] Select at least two Leads/Opportunities from the list to merge them. → 'Välj minst två kundämnen/möjligheter från lis'
   · [ny] Select or create a contact... → ''
+  · [ny] Send an email and get leads from replies → 'Skicka e-post och få kundämnen baserat på sva'
   · [ny] Show Assignment Max → ''
+  · [ny] Show Lead Menu → 'Visa menyn för kundämnen'
+  · [ny] Show only lead → 'Visa bara kundämnen'
+  · [ny] Show only leads → 'Visa bara kundämnen'
   · [ny] Show to all teams → ''
   · [ny] Something went wrong, please try again later → ''
   · [ny] Survey → ''
   · [ny] Team → ''
   · [ny] Template for Leads & Opportunities → ''
+  · [ny] The contacts below have been added as followers of this lead
+          → 'Kontakterna nedan har lagts till som följare '
+  · [ny] The email address associated with this channel. New emails received wi → 'E-postadressen som är kopplad till denna kana'
+  · [ny] The name of the future partner company that will be created while conv → 'Namnet på kontaktens bolag som kommer att ska'
+  · [ny] This analysis shows you how many leads have been created per month. → 'Denna analys visar dig hur många kundämnen so'
+  · [ny] This can be used to automatically assign leads to sales persons based  → 'Detta kan användas för att automatiskt tillde'
+  · [ny] This can be used to compute statistical probability to close a lead → 'Detta kan användas för att beräkna statistisk'
+  · [ny] This new lead created by %(creation_source)s was automatically assigne → 'Denna nya kundämne som skapades av %(creation'
+  · [ny] This will assign leads to all members. Do you want to proceed? → 'Detta kommer att tilldela kundämnen till alla'
+  · [ny] Tip: Did you know Odoo has built-in lead mining? → 'Tips: visste du att Odoo har inbyggd kundämne'
   · [ny] Tired of copy-pasting emails? → ''
+  · [ny] To prevent data loss, Leads and Opportunities can only be merged by gr → 'För att förhindra dataförlust kan kundämnen o'
   · [ny] To work with the CRM, you should <a name="%d" type="action" tabindex=" → ''
   · [ny] To work with the CRM, you should be added to a Team. → ''
   · [ny] Track leads and close opportunities → ''
+  · [ny] Turn visitors into leads via a form → 'Omvandla besökare till kundämnen via ett form'
+  · [ny] Type is used to separate Leads and Opportunities → 'Typ används för att separera kundämnen från m'
   · [ny] UTM Reference → ''
+  · [ny] UX: Limit to lead company or all if no company → 'UX: begränsa till kundämnen bolag, eller alla'
+  · [ny] Unassigned Leads → 'Otilldelade kundämnen'
+  · [ny] Use Leads → 'Använd kundämnen'
+  · [ny] Use leads if you need a qualification step before creating an
+         → 'Använd kundämnen om du behöver ett kvalificer'
+  · [ny] Use leads if you need a qualification step before creating an opportun → 'Använd kundämnen om du behöver ett kvalificer'
+  · [ny] User Company → 'Bolag'
+  · [ny] Visits to Leads → 'Besökare till kundämnen'
   · [ny] What are the requirements to move an opportunity to this stage? → ''
   · [ny] You can make your opportunity advance through your pipeline by clickin → ''
   · [ny] assigned) → ''
@@ -1745,28 +2087,33 @@ Boost sales productivity, improve win rates, grow r → ''
   · [ny] e.g. (555) 555-0199 → ''
   · [ny] e.g. Qualification → ''
   · [ny] e.g. john.doe@email.com → ''
+  · [ny] for the leads created as of the → 'för de kundämnen som skapats från och med'
 ## crm_iap_enrich
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 21
-- ny (korrigerad): 0
+- ny (redan rätt): 18
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] <span> No company data found based on the email address or email addre → '<span>Ingen bolagsinformation hittades basera'
+  · [ny] Enrich lead with company data → 'Berika lead med bolagsdata'
+  · [ny] Enrich opportunity with company data → 'Berika möjlighet med bolagsdata'
 ## crm_iap_mine
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 99
-- ny (korrigerad): 0
+- ny (redan rätt): 97
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 110
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] %(credit_count)d credits will be consumed to find %(company_count)d co → '%(credit_count)d krediter kommer att förbruka'
   · [ny] <div style="margin: 0px; padding: 0px;">
     <p>Dear,</p>
     <p>There → ''
@@ -1794,6 +2141,7 @@ Boost sales productivity, improve win rates, grow r → ''
   · [ny] Chemicals → ''
   · [ny] Click here to generate some leads. → ''
   · [ny] Coal Mining → ''
+  · [ny] Company Size Max → 'Bolags Maxstorlek'
   · [ny] Construction → ''
   · [ny] Crop Farming → ''
   · [ny] Depository Institutions → ''
@@ -1961,19 +2309,20 @@ Boost sales productivity, improve win rates, grow r → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 73
-- ny (korrigerad): 0
+- ny (redan rätt): 72
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company → 'Bolag'
 ## delivery
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 155
-- ny (korrigerad): 0
+- ny (redan rätt): 154
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 64
 - flagged 🚫: 0
@@ -2004,6 +2353,7 @@ Allows you to add delivery methods in sale orders.
   · [ny] Cash on delivery is only allowed if a sales order exists → ''
   · [ny] Cash on delivery not allowed by selected delivery method → ''
   · [ny] Cash on delivery not allowed to pay less than the order remaining bala → ''
+  · [ny] Company → 'Bolag'
   · [ny] Confirm Shipment → ''
   · [ny] Delivery Costs → ''
   · [ny] Delivery Currency → ''
@@ -2052,8 +2402,8 @@ Allows you to add delivery methods in sale orders.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 98
-- ny (korrigerad): 0
+- ny (redan rätt): 96
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 14
 - flagged 🚫: 0
@@ -2063,6 +2413,8 @@ Allows you to add delivery methods in sale orders.
 Send KPI Digests periodically
 =============================
  → ''
+  · [ny] All Companies → 'Alla bolag'
+  · [ny] Company → 'Bolag'
   · [ny] Digest Tip → ''
   · [ny] Digest sent! → ''
   · [ny] Digests → ''
@@ -2080,8 +2432,8 @@ Send KPI Digests periodically
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 628
-- ny (korrigerad): 0
+- ny (redan rätt): 623
+- ny (korrigerad): 5
 - ny (vår): 0
 - ny (manuell): 49
 - flagged 🚫: 0
@@ -2095,13 +2447,18 @@ Organization and management of Events.
   · [ny] <i class="oi oi-fw" data-icon="check" aria-label="Registered" title="R → ''
   · [ny] <i class="oi oi-fw" data-icon="close" aria-label="Cancelled" title="Ca → ''
   · [ny] <i class="oi oi-fw" data-icon="schedule" aria-label="Unconfirmed" titl → ''
+  · [ny] <i class="oi" data-icon="business" title="Attendee Company"/> → '<i class="oi" data-icon="business" title="Del'
+  · [ny] <span class="o_event_badge_font_faded">My Placeholder Company</span> → '<span class="o_event_badge_font_faded">Mitt p'
   · [ny] A slot cannot be scheduled outside of its event time range.
 
 Event:	%( → ''
   · [ny] Access all your event tickets → ''
   · [ny] Adding these slots will automatically adjust the event's time range to → ''
   · [ny] All → ''
+  · [ny] Check this for order-level questions (e.g., 'Company Name') where the  → 'Kontrollera detta för frågor på ordernivå (t.'
   · [ny] Close → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company Name → 'Bolagsnamn'
   · [ny] Confirm attendance? → ''
   · [ny] Confirm the selected dates. → ''
   · [ny] Confirmation → ''
@@ -2173,13 +2530,15 @@ Sell your event booths and track payments on sale orders.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 96
-- ny (korrigerad): 0
+- ny (redan rätt): 94
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company → 'Bolag'
+  · [ny] Restrict the trigger of this rule to events belonging to a specific co → 'Begränsa regelns trigger till händelser som t'
 ## event_crm_sale
 - override: 0
 - converged 🎉: 0
@@ -2218,8 +2577,8 @@ Sell your event booths and track payments on sale orders.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 108
-- ny (korrigerad): 0
+- ny (redan rätt): 107
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 4
 - flagged 🚫: 0
@@ -2229,6 +2588,7 @@ Sell your event booths and track payments on sale orders.
 Creating registration with sales orders.
 ============================ → ''
   · [ny] Additional Products → ''
+  · [ny] Company → 'Bolag'
   · [ny] Events Sales → ''
   · [ny] Select products to include with each registration. They will also show → ''
 ## event_sms
@@ -2250,8 +2610,8 @@ Creating registration with sales orders.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 450
-- ny (korrigerad): 0
+- ny (redan rätt): 449
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 35
 - flagged 🚫: 0
@@ -2269,6 +2629,7 @@ Vehicle, leasing, insurances, cost
   · [ny] Cars History → ''
   · [ny] Catalog Value (Tax Incl.) → ''
   · [ny] Close → ''
+  · [ny] Company → 'Bolag'
   · [ny] Contact → ''
   · [ny] Contract Type → ''
   · [ny] Contract Types → ''
@@ -2318,8 +2679,8 @@ Vehicle, leasing, insurances, cost
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 408
-- ny (korrigerad): 0
+- ny (redan rätt): 405
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 8
 - flagged 🚫: 0
@@ -2337,7 +2698,10 @@ The Gamification module pro → ''
 <div>Hi <strong><t t-out="object.user_id.name or ''"></t></strong> → ''
   · [ny] A field is required to compute the sum for '%s'. → ''
   · [ny] Gamification → ''
+  · [ny] Set your Company Data → 'Ange dina bolagsuppgifter'
+  · [ny] Set your Company Logo → 'Ange bolagets logotyp'
   · [ny] The sum cannot be computed for '%(definition)s' on '%(field)s'. → ''
+  · [ny] The target and current value are defined in the company currency. → 'Målet och det aktuella värdet definieras i bo'
   · [ny] Your Badge → ''
 ## gamification_sale_crm
 - override: 0
@@ -2456,8 +2820,8 @@ This module implements reCaptchaV3 so that you can prevent bot spam o → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 588
-- ny (korrigerad): 0
+- ny (redan rätt): 573
+- ny (korrigerad): 15
 - ny (vår): 0
 - ny (manuell): 427
 - flagged 🚫: 0
@@ -2484,6 +2848,7 @@ Please  → ''
                                  → ''
   · [ny] <i class="oi oi-filled d-none d-md-block" data-icon="mail" title="Work → ''
   · [ny] <i class="oi oi-filled d-none d-md-block" data-icon="phone" title="Wor → ''
+  · [ny] <i class="oi" data-icon="business" role="img" aria-label="Company" tit → '<i class="oi" data-icon="business" role="img"'
   · [ny] <span class="d-flex w-50">
                                             → ''
   · [ny] <span class="o_stat_text">Contact</span> → ''
@@ -2516,6 +2881,7 @@ Please  → ''
   · [ny] A portal user already exist with the following login: %(login)s. User  → ''
   · [ny] A signup link was sent by email → ''
   · [ny] A user already exist with the following login: %(login)s. User Name: % → ''
+  · [ny] A user cannot be linked to multiple employees in the same company. → 'En användare kan inte länkas till flera anstä'
   · [ny] A user with the same login (%(login)s) already has an employee in this → ''
   · [ny] AI → ''
   · [ny] Ability to build client relationships. → ''
@@ -2573,6 +2939,14 @@ Please  → ''
   · [ny] Choose a date → ''
   · [ny] Collaborate with cross-functional departments → ''
   · [ny] Collaboration across teams is encouraged → ''
+  · [ny] Companies → 'Bolag'
+  · [ny] Company → 'Bolag'
+  · [ny] Company Country → 'Bolagsland'
+  · [ny] Company Country Code → 'Bolagets landskod'
+  · [ny] Company Logo → 'Bolagslogo'
+  · [ny] Company Timezone → 'Bolagets tidszon'
+  · [ny] Company Working Hours → 'Bolagets arbetstid'
+  · [ny] Company employee → 'Bolagsanställd'
   · [ny] Conduct thorough business needs assessments → ''
   · [ny] Confirmation → ''
   · [ny] Confirmation Warning → ''
@@ -2622,6 +2996,8 @@ Please  → ''
   · [ny] Driving License Name → ''
   · [ny] Duplicate & Edit for Current Employee → ''
   · [ny] Each amount percentage must be a number between 0 and 100. → ''
+  · [ny] Each employee has a chance to see the impact of his work.
+             → 'Varje anställd har en chans att se effekterna'
   · [ny] Eagerness to learn and adapt → ''
   · [ny] Element association → ''
   · [ny] Element to observe → ''
@@ -2776,6 +3152,7 @@ With Odoo <a href="https:// → ''
   · [ny] Publisher Warranty Contract → ''
   · [ny] Radio followed by element → ''
   · [ny] Reactivate → ''
+  · [ny] Real responsibilities and challenges in a fast evolving company → 'Verkligt ansvar och utmaningar i ett snabbt u'
   · [ny] Reference another date/datetime field to use as minimum date → ''
   · [ny] Related employee (public) → ''
   · [ny] Related employees from all companies → ''
@@ -2791,6 +3168,7 @@ With Odoo <a href="https:// → ''
   · [ny] Send Email → ''
   · [ny] September → ''
   · [ny] Set a manager or reports to show in org chart. → ''
+  · [ny] Set default company schedule to manage your employees working time → 'Ange standardschema för bolaget för att hante'
   · [ny] Show Birthday To Employees → ''
   · [ny] Show To All Employees → ''
   · [ny] Show all records whose next activity date is past → ''
@@ -2821,6 +3199,7 @@ With Odoo <a href="https:// → ''
   · [ny] The employee is already in contract on %s. Please select a date outsid → ''
   · [ny] The following users have been archived: %s → ''
   · [ny] The following users have not been archived as they are still linked to → ''
+  · [ny] The name of the job position must be unique per department in company! → 'Jobbets namn måste vara unikt per avdelning i'
   · [ny] The user will be able to create and edit employees. → ''
   · [ny] The wage must be a positive value. → ''
   · [ny] The work permit of %(employee_name)s is about to expire. → ''
@@ -2836,6 +3215,7 @@ With Odoo <a href="https:// → ''
   · [ny] This will create a new schedule copy and automatically reassign it to  → ''
   · [ny] This working schedule is shared across → ''
   · [ny] This working schedule is used by %s employee(s), are you sure you want → ''
+  · [ny] To avoid multi company issues (losing the access to your previous cont → 'För att undvika problem med flera bolag (förl'
   · [ny] Today Location Name → ''
   · [ny] Total → ''
   · [ny] Total percentage allocation must equal 100%. → ''
@@ -2926,8 +3306,8 @@ Please archive the → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 222
-- ny (korrigerad): 0
+- ny (redan rätt): 220
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 163
 - flagged 🚫: 0
@@ -2989,6 +3369,8 @@ This module aims to manage employee's attendances.
   · [ny] Check-In Image → ''
   · [ny] Check-in image captured → ''
   · [ny] Check-in is recorded, but picture could not be captured → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company Logo → 'Bolagslogo'
   · [ny] Connection lost. Check in/out could not be recorded. → ''
   · [ny] Could not save break duration. Please identify again. → ''
   · [ny] Could not update this attendance. → ''
@@ -3157,8 +3539,8 @@ This module aims to manage employee's attendances.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 292
-- ny (korrigerad): 0
+- ny (redan rätt): 279
+- ny (korrigerad): 13
 - ny (vår): 0
 - ny (manuell): 159
 - flagged 🚫: 0
@@ -3176,6 +3558,7 @@ This appli → ''
   · [ny] --<br/> → ''
   · [ny] <span class="mx-1" invisible="split_possible">/</span> → ''
   · [ny] <span class="o_stat_text">Expense</span> → ''
+  · [ny] <span class="o_stat_text">Journal Entry</span> → '<span class="o_stat_text">Verifikat</span>'
   · [ny] <span class="o_stat_text">Payment</span> → ''
   · [ny] <span class="text-muted" invisible="standard_price">Per expense</span> → ''
   · [ny] <span class="text-muted">A bill is sent separately</span> → ''
@@ -3197,6 +3580,7 @@ Are → ''
   · [ny] Cap Reimbursement to Policy → ''
   · [ny] Click here to create your employee profile. → ''
   · [ny] Click on all expenses → ''
+  · [ny] Company → 'Bolag'
   · [ny] Company Card → ''
   · [ny] Cost Currency → ''
   · [ny] Create a new expense → ''
@@ -3242,9 +3626,14 @@ Are → ''
   · [ny] Job Position Limit in Currency → ''
   · [ny] Job Position Limits → ''
   · [ny] Job Positions → ''
+  · [ny] Journal Entry → 'Verifikat'
+  · [ny] Journal Entry Deleted → 'Verifikat har raderats'
+  · [ny] Journal Entry Reset to Draft → 'Återställ verifikat till utkast'
   · [ny] Journal Entry Status → ''
   · [ny] Journal entry created from these expenses: %(links)s → ''
   · [ny] Journal entry created from this expense: %(link)s → ''
+  · [ny] Journal entry deleted → 'Verifikat har raderats'
+  · [ny] Journal entry reset to draft → 'Återställ verifikat till utkast'
   · [ny] Last Notification Date → ''
   · [ny] Leave empty to define the limit for all job positions. → ''
   · [ny] Limit → ''
@@ -3275,6 +3664,8 @@ Are → ''
   · [ny] Paid by → ''
   · [ny] Paid by Company card → ''
   · [ny] Pay → ''
+  · [ny] Payment method allowed for expenses paid by company. → 'Tillåten betalningsmetod för kostnader som be'
+  · [ny] Payment methods available for expenses paid by company → 'Tillgängliga betalningsmetoder för kostnader '
   · [ny] Please specify if the expenses were paid by the company, reimbursed to → ''
   · [ny] Print → ''
   · [ny] Product: → ''
@@ -3282,6 +3673,7 @@ Are → ''
   · [ny] Publisher Warranty Contract → ''
   · [ny] Ready? You can save it manually or discard modifications from here. Yo → ''
   · [ny] Related → ''
+  · [ny] Report Company Currency → 'Rapport bolagets valuta'
   · [ny] Review Expenses → ''
   · [ny] Save the employee profile. → ''
   · [ny] Scan → ''
@@ -3294,15 +3686,18 @@ Are → ''
   · [ny] Submit Expense → ''
   · [ny] Submit, validate and reinvoice employee expenses → ''
   · [ny] Switch to the list view. → ''
+  · [ny] Tax amount in company currency → 'Skattebelopp i bolagets valuta'
   · [ny] Taxes included → ''
   · [ny] Thanks, → ''
   · [ny] The account %(name)s (%(code)s) is archived. Activate it to continue → ''
   · [ny] The attachment (%(attachment_name)s) has not been added to the report  → ''
+  · [ny] The company's default journal used when an employee expense is created → 'Bolagets standardjournal som används när en p'
   · [ny] The current user has no related employee. Please, create one in %(comp → ''
   · [ny] The employee expense journal must be a purchase journal. → ''
   · [ny] The first word of the email subject did not correspond to any product  → ''
   · [ny] The following approved expenses have similar employee, amount and prod → ''
   · [ny] The following expenses payment method leads to several accounts payabl → ''
+  · [ny] The payment method used when the expense is paid by the company. → 'Betalningsmetoden som används när utlägget be'
   · [ny] The vendor is required for expenses using SEPA Credit Transfer as the  → ''
   · [ny] There are draft expenses linked to this product. Updating the product  → ''
   · [ny] This expense exceeds the limit of → ''
@@ -3371,8 +3766,8 @@ The HR officer can → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 464
-- ny (korrigerad): 0
+- ny (redan rätt): 460
+- ny (korrigerad): 4
 - ny (vår): 0
 - ny (manuell): 420
 - flagged 🚫: 0
@@ -3507,6 +3902,7 @@ Manage time off requests and allocations
   · [ny] Click on the 25st → ''
   · [ny] Click on this button to request a time-off → ''
   · [ny] Click on this button to request time-off or allocation → ''
+  · [ny] Company → 'Bolag'
   · [ny] Company Holidays → ''
   · [ny] Company Holidays are non-working days that don't impact employees' bal → ''
   · [ny] Confirm → ''
@@ -3539,6 +3935,7 @@ Manage time off requests and allocations
   · [ny] Do you want to save the changes made to the accrual plan before editin → ''
   · [ny] Duration Type → ''
   · [ny] Eligible for Accrual Rate → ''
+  · [ny] Employee Company → 'Anställda Bolag'
   · [ny] Employee Departure → ''
   · [ny] Employee's image → ''
   · [ny] End date has been updated because the employee will leave the company  → ''
@@ -3674,6 +4071,7 @@ Manage time off requests and allocations
   · [ny] The time off is outside the working schedule of the employee → ''
   · [ny] The time off request has been cancelled for the following reason:%(rea → ''
   · [ny] The total negative allocation within this validity period cannot excee → ''
+  · [ny] There is no employee set on the time off. Please make sure you're logg → 'Det finns ingen anställd som är inställd på l'
   · [ny] There is no valid allocation to cover this request for the following e → ''
   · [ny] These companies do not have a country set: %(companies)s. → ''
   · [ny] They should be carried over. → ''
@@ -3788,6 +4186,7 @@ Please request an a → ''
   · [ny] day → ''
   · [ny] day(s) → ''
   · [ny] e.g. Company Event → ''
+  · [ny] e.g. Extra recuperation, Company unavailability, ... → 't.ex. extra återhämtning, bolaget är inte til'
   · [ny] e.g. New Year's Day → ''
   · [ny] e.g. Seniority Plan, PTO, RTT, ... → ''
   · [ny] e.g. Time Type (From validity start to validity end / no limit) → ''
@@ -3819,8 +4218,8 @@ Please request an a → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 37
-- ny (korrigerad): 0
+- ny (redan rätt): 36
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 15
 - flagged 🚫: 0
@@ -3834,6 +4233,7 @@ Convert employee's extra hours to leave allocations.
   · [ny] Attendance → ''
   · [ny] Attendance Holidays → ''
   · [ny] Attendance Time Type → ''
+  · [ny] Company → 'Bolag'
   · [ny] Employee Contract → ''
   · [ny] HR Attendance Holidays → ''
   · [ny] Overtime Entries → ''
@@ -3879,8 +4279,8 @@ Bridge between HR and Maintenance. → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 26
-- ny (korrigerad): 0
+- ny (redan rätt): 25
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 6
 - flagged 🚫: 0
@@ -3894,6 +4294,7 @@ Based on:
      → ''
   · [ny] <div>
                     Dear <t t-out="object.name or ''">Abigail Pe → ''
+  · [ny] Company → 'Bolag'
   · [ny] Employee → ''
   · [ny] Employee Presence Control → ''
   · [ny] Public Employee → ''
@@ -3902,8 +4303,8 @@ Based on:
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 454
-- ny (korrigerad): 0
+- ny (redan rätt): 452
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 135
 - flagged 🚫: 0
@@ -3948,6 +4349,7 @@ Based on:
   · [ny] Bi-Week → ''
   · [ny] By Talent Pools → ''
   · [ny] Campaigns → ''
+  · [ny] Company → 'Bolag'
   · [ny] Company Partner → ''
   · [ny] Create Talent → ''
   · [ny] Created %(amount)s new applications for: %(names)s → ''
@@ -4012,6 +4414,7 @@ Based on:
   · [ny] Score should be between 0 and 100% → ''
   · [ny] Secondary Education → ''
   · [ny] Select the campaign the applicant was part of → ''
+  · [ny] Select the location where the applicant will work. Addresses listed he → 'Välj den ort där den sökande ska arbeta. Adre'
   · [ny] Select the way applicant found the offer → ''
   · [ny] Select where the applicant comes from → ''
   · [ny] Send applications to → ''
@@ -4131,8 +4534,8 @@ This module is integr → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 369
-- ny (korrigerad): 0
+- ny (redan rätt): 366
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 49
 - flagged 🚫: 0
@@ -4146,6 +4549,7 @@ This module introd → ''
   · [ny] <p class="o_view_nocontent_smiling_face">No Certifications available!< → ''
   · [ny] <p class="o_view_nocontent_smiling_face">No Certifications available.  → ''
   · [ny] C# → ''
+  · [ny] Company → 'Bolag'
   · [ny] Create Resume Lines → ''
   · [ny] Create Skills → ''
   · [ny] Current → ''
@@ -4153,6 +4557,7 @@ This module introd → ''
   · [ny] Current Job Skill → ''
   · [ny] Current Level → ''
   · [ny] Day Format → ''
+  · [ny] Demo Company Name → 'Demo Bolagsnamn'
   · [ny] Display Certification Page → ''
   · [ny] Display Warning Message → ''
   · [ny] If skills are missing, they can be created by an HR officer. → ''
@@ -4168,6 +4573,7 @@ This module introd → ''
   · [ny] Resume Lines → ''
   · [ny] Resume Section → ''
   · [ny] Scrum Master → ''
+  · [ny] Secretary, company → 'Sekreterare, bolag'
   · [ny] Sections Properties → ''
   · [ny] Skill for job position → ''
   · [ny] Skill level → ''
@@ -4258,8 +4664,8 @@ This → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 185
-- ny (korrigerad): 0
+- ny (redan rätt): 181
+- ny (korrigerad): 4
 - ny (vår): 0
 - ny (manuell): 55
 - flagged 🚫: 0
@@ -4285,6 +4691,7 @@ This module implements a timesheet system.
   · [ny] Can only manage their own timesheets. → ''
   · [ny] Choose an employee to create their timesheet. → ''
   · [ny] Color Index → ''
+  · [ny] Company → 'Bolag'
   · [ny] Confirmation → ''
   · [ny] Default project value for timesheet generated from time type. → ''
   · [ny] Delete Employee → ''
@@ -4309,10 +4716,13 @@ This module implements a timesheet system.
   · [ny] Sub-Task of ' → ''
   · [ny] Task Logs → ''
   · [ny] Template for Timesheets → ''
+  · [ny] The Internal Project of a company should be in that company. → 'Ett bolags interna projekt bör ligga inom bol'
+  · [ny] The project, the task and the analytic accounts of the timesheet must  → 'Projektet, uppgiften och de analytiska konton'
   · [ny] There are no timesheets to print for this project → ''
   · [ny] There are no timesheets to print for this task → ''
   · [ny] This task can’t be deleted because it’s linked to timesheets. Please c → ''
   · [ny] Time Spent on Sub-tasks: → ''
+  · [ny] Timesheets must be created with an active employee in the selected com → 'Tidrapporter måste skapas med en aktiv anstäl'
   · [ny] Timesheets of %(name)s → ''
   · [ny] Timesheets successfully created → ''
   · [ny] Total Hours Spent → ''
@@ -4331,8 +4741,8 @@ This module implements a timesheet system.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 19
-- ny (korrigerad): 0
+- ny (redan rätt): 18
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 2
 - flagged 🚫: 0
@@ -4341,13 +4751,14 @@ This module implements a timesheet system.
   · [ny] 
 Module linking the attendance module to the timesheet app.
  → ''
+  · [ny] Company → 'Bolag'
   · [ny] Timesheets/attendances reporting → ''
 ## hr_work_entry
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 71
-- ny (korrigerad): 0
+- ny (redan rätt): 70
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 619
 - flagged 🚫: 0
@@ -4464,6 +4875,7 @@ Time type "%(name)s" of code "%(code → ''
   · [ny] Code used in manual exports → ''
   · [ny] Code used in work entry exports → ''
   · [ny] Community Service Leave → ''
+  · [ny] Company → 'Bolag'
   · [ny] Company External Code → ''
   · [ny] Company default schedule → ''
   · [ny] Compassionate Leave → ''
@@ -5695,8 +6107,8 @@ Proposes advanced routing options not available in web or base to kee → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 38
-- ny (korrigerad): 0
+- ny (redan rätt): 36
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 30
 - flagged 🚫: 0
@@ -5708,9 +6120,11 @@ This module provides standard tools (account model, context manager a → ''
   · [ny] Balance Amount → ''
   · [ny] Basic models and helpers to support In-App Purchase. → ''
   · [ny] Buy Credits → ''
+  · [ny] Company → 'Bolag'
   · [ny] Config Settings → ''
   · [ny] Credit → ''
   · [ny] Email Alert → ''
+  · [ny] Get quality leads and opportunities: convert your website visitors int → 'Få leads och möjligheter av hög kvalitet: kon'
   · [ny] IAP Service Pack → ''
   · [ny] Iap Service Pack Identifier → ''
   · [ny] In-App Purchase → ''
@@ -5748,8 +6162,8 @@ This module provides standard tools (account model, context manager a → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 31
-- ny (korrigerad): 0
+- ny (redan rätt): 30
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 13
 - flagged 🚫: 0
@@ -5770,6 +6184,7 @@ This module provides standard tools (account model, context manager a → ''
   · [ny] <i class="oi oi-fw oi-filled me-2 text-primary" data-icon="mail" style → ''
   · [ny] Bridge between IAP and mail → ''
   · [ny] Buy → ''
+  · [ny] Company → 'Bolag'
   · [ny] IAP / Mail → ''
   · [ny] Once you have this many credits or less, the system will automatically → ''
 ## im_livechat
@@ -6031,8 +6446,8 @@ Allow to drop instant m → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 113
-- ny (korrigerad): 0
+- ny (redan rätt): 109
+- ny (korrigerad): 4
 - ny (vår): 0
 - ny (manuell): 2
 - flagged 🚫: 0
@@ -6043,6 +6458,10 @@ Swedish Accounting
 ------------------
 
 This is the base module to man → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Liabilities to associated companies and jointly controlled companies → 'Skulder till intressebolag och gemensamt styr'
+  · [ny] Liabilities to group companies → 'Skulder till bolagsgrupper'
+  · [ny] Liabilities to other companies in which there is an ownership interest → 'Skulder till övriga bolag som det finns ett ä'
   · [ny] Sweden - Accounting → ''
 ## link_tracker
 - override: 0
@@ -6070,8 +6489,8 @@ Shorten URLs and use them to track clicks and UTMs
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 330
-- ny (korrigerad): 0
+- ny (redan rätt): 329
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 40
 - flagged 🚫: 0
@@ -6094,6 +6513,7 @@ Shorten URLs and use them to track clicks and UTMs
   · [ny] Add money to your eWallet to pay for future orders. → ''
   · [ny] All Pricelist → ''
   · [ny] Availability Dates → ''
+  · [ny] Company → 'Bolag'
   · [ny] Coupons & Loyalty → ''
   · [ny] Create one from scratch, or use a template below. → ''
   · [ny] Create one from scratch, or use one of the templates below: → ''
@@ -6123,8 +6543,8 @@ Shorten URLs and use them to track clicks and UTMs
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 354
-- ny (korrigerad): 0
+- ny (redan rätt): 351
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 26
 - flagged 🚫: 0
@@ -6138,6 +6558,8 @@ Ma → ''
   · [ny] <t>
 <t t-set="lines" t-value="ctx.get('lines', [])"></t>
 <t t-set="ord → ''
+  · [ny] A cashmove can either be an expense or a payment.<br>
+            An e → 'En kassaförflyttning kan antingen vara en utg'
   · [ny] Access Groups → ''
   · [ny] Already Paid → ''
   · [ny] Automatic Email Sending Time should be between 0 and 24 → ''
@@ -6146,8 +6568,10 @@ Ma → ''
   · [ny] Clear Order → ''
   · [ny] Click on the <span class="oi text-success" data-icon="phone" role="img → ''
   · [ny] Close → ''
+  · [ny] Company → 'Bolag'
   · [ny] Decrease quantity → ''
   · [ny] Handle lunch orders of your employees → ''
+  · [ny] Here you can see your cash moves.<br>A cash move can either be an expe → 'Här kan du se dina kontantrörelser.<br>En kon'
   · [ny] Increase quantity → ''
   · [ny] No → ''
   · [ny] No location found → ''
@@ -6166,8 +6590,8 @@ Ma → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 1528
-- ny (korrigerad): 0
+- ny (redan rätt): 1520
+- ny (korrigerad): 8
 - ny (vår): 0
 - ny (manuell): 1002
 - flagged 🚫: 0
@@ -6286,6 +6710,7 @@ Chat, mail gateway and private channel.
   · [ny] A chat should have unique member combination. → ''
   · [ny] A mail presence must have a user or a guest. → ''
   · [ny] A personal mail server is using that address, you can not use it. → ''
+  · [ny] A place to connect and exchange news with colleagues across the compan → 'Ett ställe där man kan knyta samman med och d'
   · [ny] A recording is being processed and will be available %(anchor_start)sh → ''
   · [ny] A role with the same name already exists. → ''
   · [ny] A scheduled date is needed to schedule a message → ''
@@ -6435,6 +6860,9 @@ Th → ''
   · [ny] Comma-separated ids of recipient To partners (placeholders may be used → ''
   · [ny] Comment Options → ''
   · [ny] Communication Bus → ''
+  · [ny] Companies → 'Bolag'
+  · [ny] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som standard f'
+  · [ny] Company → 'Bolag'
   · [ny] Compose Mail → ''
   · [ny] Compress → ''
   · [ny] Conference: %s → ''
@@ -6863,6 +7291,7 @@ Error: %(error_ → ''
   · [ny] Recording stopped due to an internal error → ''
   · [ny] Recording stopped due to timeout → ''
   · [ny] Register new shortcut → ''
+  · [ny] Related Company → 'Relaterat bolag'
   · [ny] Remove Emoji → ''
   · [ny] Remove Member → ''
   · [ny] Remove Vote → ''
@@ -7000,6 +7429,7 @@ Error: %(error_ → ''
   · [ny] The model of the mail template is different from the one on the action → ''
   · [ny] The operations will only be allowed for records in this domain → ''
   · [ny] The question cannot be empty. → ''
+  · [ny] The records must belong to the same company. → 'Posterna måste tillhöra samma bolag.'
   · [ny] The role '%(role_name)s' is not supported for the channel type '%(chan → ''
   · [ny] The role of the member in the channel. The owner can add and remove ad → ''
   · [ny] The server "%s" cannot be forced as it belongs to a user and is archiv → ''
@@ -7108,6 +7538,8 @@ Please apply additional filters to  → ''
   · [ny] Vote → ''
   · [ny] Vote Percentage → ''
   · [ny] Want to spice up your conversations with GIFs? Turn on this feature in → ''
+  · [ny] We could not create alias %(alias_name)s because domain %(alias_domain → 'Vi kunde inte skapa alias %(alias_name)s efte'
+  · [ny] We could not create alias %(alias_name)s because domain %(alias_domain → 'Vi kunde inte skapa alias %(alias_name)s efte'
   · [ny] Welcome to the #General channel 🎉 → ''
   · [ny] What question do you want to ask? → ''
   · [ny] What's the email address of → ''
@@ -7241,8 +7673,8 @@ Please apply additional filters to  → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 240
-- ny (korrigerad): 0
+- ny (redan rätt): 239
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 26
 - flagged 🚫: 0
@@ -7271,6 +7703,7 @@ Manage your mailing lists from Odoo.
   · [ny] Is Closed → ''
   · [ny] Manage your mailing lists → ''
   · [ny] Moderate → ''
+  · [ny] My Company News → 'Nyheter om mitt bolag'
   · [ny] Oops, there are no messages here. → ''
   · [ny] Responsibles → ''
   · [ny] Select users → ''
@@ -7412,8 +7845,8 @@ technical tracki → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 248
-- ny (korrigerad): 0
+- ny (redan rätt): 247
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 26
 - flagged 🚫: 0
@@ -7425,6 +7858,7 @@ Track equipment and maintenance requests → ''
   · [ny] Approved → ''
   · [ny] Assignees → ''
   · [ny] Changes Requested → ''
+  · [ny] Company → 'Bolag'
   · [ny] Email alias for this maintenance team. → ''
   · [ny] End date cannot be earlier than start date. → ''
   · [ny] Expected completion date and time of the maintenance request. → ''
@@ -7622,8 +8056,8 @@ Track equipment and maintenance requests → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 669
-- ny (korrigerad): 0
+- ny (redan rätt): 662
+- ny (korrigerad): 7
 - ny (vår): 0
 - ny (manuell): 500
 - flagged 🚫: 0
@@ -7736,6 +8170,7 @@ Track equipment and maintenance requests → ''
   · [ny] Beautiful snippets → ''
   · [ny] Become a Member → ''
   · [ny] Benefit from tax-free shopping, simplifying your purchase and enhancin → ''
+  · [ny] Best practices to digitize your company → 'Bästa praxis för att digitalisera ditt bolag'
   · [ny] Best, → ''
   · [ny] Big → ''
   · [ny] Browse our documentation → ''
@@ -7764,6 +8199,8 @@ Track equipment and maintenance requests → ''
   · [ny] Code View → ''
   · [ny] Collection launch → ''
   · [ny] Color blocks are a simple and effective way to → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company Name → 'Bolagsnamn'
   · [ny] Complete CRM for any team → ''
   · [ny] Configure Company → ''
   · [ny] Configure your Social Media Links for %s → ''
@@ -7834,6 +8271,7 @@ Track equipment and maintenance requests → ''
   · [ny] Focus on the unique spark that gave it personality. → ''
   · [ny] Follow Us on → ''
   · [ny] For over 13 years → ''
+  · [ny] Founder and chief visionary, Tony is the driving force behind the comp → 'Tony är bolagets grundare och främsta visionä'
   · [ny] Free shipping → ''
   · [ny] GET $20 OFF → ''
   · [ny] Gain real-time insights. → ''
@@ -7867,6 +8305,7 @@ Track equipment and maintenance requests → ''
   · [ny] Integrate with your favorite apps. → ''
   · [ny] Invest in the Future → ''
   · [ny] Iris Joe → ''
+  · [ny] Iris, with her international experience, helps us easily understand th → 'Iris, med sin internationella erfarenhet, hjä'
   · [ny] Is Template → ''
   · [ny] Is the website user-friendly? → ''
   · [ny] Issue → ''
@@ -7904,6 +8343,7 @@ Track equipment and maintenance requests → ''
   · [ny] Mass Mailing Technical → ''
   · [ny] Men → ''
   · [ny] Mich Stark → ''
+  · [ny] Mich loves taking on challenges. With his multi-year experience as Com → 'Mich älskar att ta sig an utmaningar. Med sin'
   · [ny] Mobile Preview → ''
   · [ny] Model id → ''
   · [ny] Monday → ''
@@ -8074,6 +8514,7 @@ Easily send mass mailing to your  → ''
   · [ny] View → ''
   · [ny] View in Browser → ''
   · [ny] Visit → ''
+  · [ny] Want to import country, company name and more? → 'Vill du importera land, bolagsnamn och mer?'
   · [ny] We blend heritage craft with the finest materials. → ''
   · [ny] We deliver personalized solutions, ensuring that every customer receiv → ''
   · [ny] We don't just offer tools; we provide a competitive advantage. Our pla → ''
@@ -8328,8 +8769,8 @@ Bridge module addi → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 188
-- ny (korrigerad): 0
+- ny (redan rätt): 170
+- ny (korrigerad): 18
 - ny (vår): 0
 - ny (manuell): 123
 - flagged 🚫: 0
@@ -8340,6 +8781,7 @@ Design gorgeous mails
  → ''
   · [ny] 's services, you'll need to accept the updated Terms &amp; Conditions. → ''
   · [ny] - 4:30 PM → ''
+  · [ny] . I put it on hold for 6 years, waiting for the right moment to use it → '. Jag lade det på is i 6 år och väntade på rä'
   · [ny] 10 Books To Read in → ''
   · [ny] <br/>
                             <font style="color: rgb(255, 255, 25 → ''
@@ -8397,14 +8839,20 @@ Design gorgeous mails
   · [ny] Action required → ''
   · [ny] Add a caption or a short message to reinforce the visual. → ''
   · [ny] Add a short intro to set the context before the visuals. → ''
+  · [ny] After a few months of pitching investors, I got roughly 10 LOI from di → 'Efter några månaders pitchande av investerare'
+  · [ny] As usual, I should have listened to my wife. She is way more lucid tha → 'Som vanligt borde jag ha lyssnat på min fru. '
+  · [ny] Being a Mature Company → 'Att vara ett moget bolag'
+  · [ny] Best practices to digitize your company → 'Bästa praxis för att digitalisera ditt bolag'
   · [ny] Browse chatrooms → ''
   · [ny] Buy tickets → ''
   · [ny] Catalog → ''
   · [ny] Check the agenda → ''
   · [ny] Collection launch → ''
+  · [ny] Company News → 'Nyheter om bolaget'
   · [ny] Design gorgeous mails → ''
   · [ny] Dining Table → ''
   · [ny] Discount Offer → ''
+  · [ny] Discover Odoo, the all-in-one management platform, and its apps design → 'Upptäck Odoo, allt-i-ett-hanteringsplattforme'
   · [ny] Discover more → ''
   · [ny] Discover the full catalog → ''
   · [ny] Event Promotion → ''
@@ -8413,11 +8861,17 @@ Design gorgeous mails
   · [ny] For everyone else, your account continues to function exactly as befor → ''
   · [ny] Gifts → ''
   · [ny] Grab your ticket! → ''
+  · [ny] I needed to change the world. I wanted to... You know how it is when y → 'Jag behövde förändra världen. Jag ville... Du'
+  · [ny] I signed the LOI. I didn't realize that this contract could have turne → 'Jag skrev under avsiktsförklaringen. Jag inså'
   · [ny] If you do not accept the new terms by the end of June, your account wi → ''
+  · [ny] If you wish to evaluate Odoo while taking into account your company's  → 'Om du vill utvärdera Odoo och samtidigt ta hä'
+  · [ny] In May 2014, we renamed the company and product to Odoo. → 'I maj 2014 bytte vi namn på bolaget och produ'
   · [ny] In most cases, these changes will be invisible in your day-to-day use  → ''
+  · [ny] Infographic: Our Company Throughout The Generations → 'Infografik: Vårt bolag genom generationerna'
   · [ny] Learn more → ''
   · [ny] Loft Table → ''
   · [ny] Luna &amp; The Satellites → ''
+  · [ny] Making companies a better place, one app at a time → 'Att göra bolag till en bättre plats, en app i'
   · [ny] Mass Mailing Themes → ''
   · [ny] Men → ''
   · [ny] Monitor revenue trends with simple, dynamic charts. → ''
@@ -8441,6 +8895,7 @@ Design gorgeous mails
   · [ny] Starlight Hall, Brussels → ''
   · [ny] Terms update → ''
   · [ny] The Neon Comets → ''
+  · [ny] The new financing will support the acceleration of the outstanding gro → 'Den nya finansieringen kommer att bidra till '
   · [ny] The vast majority of our Terms remain exactly as they were. In particu → ''
   · [ny] There are new events for artists you follow. Don't miss out. → ''
   · [ny] To continue using → ''
@@ -8449,12 +8904,15 @@ Design gorgeous mails
   · [ny] View in Browser → ''
   · [ny] Visit → ''
   · [ny] We selected the best upcoming concerts based on the artists you like. → ''
+  · [ny] We wanted to switch from a service company to a software publisher com → 'Vi ville gå från att vara ett servicebolag ti'
   · [ny] What it changes for you → ''
   · [ny] What stays the same → ''
   · [ny] What's changing → ''
+  · [ny] With this money in our bank account, we boosted two departments: R&amp → 'Med dessa pengar på vårt bankkonto förstärkte'
   · [ny] Women → ''
   · [ny] X → ''
   · [ny] YOUR COMPANY → ''
+  · [ny] You may then take part in round table discussions with experts who wil → 'Du kan sedan delta i rundabordssamtal med exp'
   · [ny] You received this email because your account is subject to the updated → ''
   · [ny] You're seeing this because you've shopped with us or joined our mailin → ''
   · [ny] Your ability to cancel your subscription at any time → ''
@@ -8464,6 +8922,7 @@ Design gorgeous mails
   · [ny] has also added clearer language around failed payment retries and grac → ''
   · [ny] has clarified and limited the scope of data shared with third-party pa → ''
   · [ny] is reducing the default data retention period from 5 years to 2 years. → ''
+  · [ny] the fastest growing company of Belgium → 'det snabbast växande bolaget i Belgien'
 ## microsoft_account
 - override: 0
 - converged 🎉: 0
@@ -8514,8 +8973,8 @@ Design gorgeous mails
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 892
-- ny (korrigerad): 0
+- ny (redan rätt): 891
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 274
 - flagged 🚫: 0
@@ -8588,6 +9047,7 @@ This action  → ''
   · [ny] Clears the selected lot/serial number → ''
   · [ny] Close Production → ''
   · [ny] Columns → ''
+  · [ny] Company → 'Bolag'
   · [ny] Compare BoMs → ''
   · [ny] Component Count → ''
   · [ny] Computed → ''
@@ -8813,13 +9273,14 @@ It will allow us to retrieve the → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 107
-- ny (korrigerad): 0
+- ny (redan rätt): 106
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company → 'Bolag'
 ## mrp_delivery
 - override: 0
 - converged 🎉: 0
@@ -8878,8 +9339,8 @@ This module allows you to easily add extra costs on manufacturing ord → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 84
-- ny (korrigerad): 0
+- ny (redan rätt): 81
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 17
 - flagged 🚫: 0
@@ -8889,7 +9350,9 @@ This module allows you to easily add extra costs on manufacturing ord → ''
   · [ny] <span class="o_stat_text">Overview</span> → ''
   · [ny] Assign serial numbers to production order → ''
   · [ny] Availabilities on subcontract location. → ''
+  · [ny] Company → 'Bolag'
   · [ny] Create New Production → ''
+  · [ny] In order to manage stock accurately, subcontracting locations must be  → 'För att kunna hantera lager på ett korrekt sä'
   · [ny] MO Overview Report → ''
   · [ny] MRP Subcontracting → ''
   · [ny] Please set a lot/serial for the currently opened subcontracting MO fir → ''
@@ -8902,6 +9365,7 @@ This module allows you to easily add extra costs on manufacturing ord → ''
   · [ny] To Order → ''
   · [ny] Transfers → ''
   · [ny] You can't unbuild a subcontracted Manufacturing Order. → ''
+  · [ny] You cannot alter the company's subcontracting location → 'Du kan inte ändra bolagets plats för underlev'
 ## mrp_subcontracting_account
 - override: 0
 - converged 🎉: 0
@@ -8917,8 +9381,8 @@ This module allows you to easily add extra costs on manufacturing ord → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 16
-- ny (korrigerad): 0
+- ny (redan rätt): 15
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 4
 - flagged 🚫: 0
@@ -8926,6 +9390,7 @@ This module allows you to easily add extra costs on manufacturing ord → ''
 - oförändrad: 0
   · [ny] 
 This bridge module allows to manage subcontracting with the dropshipp → ''
+  · [ny] Company → 'Bolag'
   · [ny] Dropship and Subcontracting Management → ''
   · [ny] Journal Item → ''
   · [ny] Traceability Report → ''
@@ -9052,8 +9517,8 @@ Bridge module between MRP subcontracting and Repair
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 69
-- ny (korrigerad): 0
+- ny (redan rätt): 62
+- ny (korrigerad): 7
 - ny (vår): 0
 - ny (manuell): 4
 - flagged 🚫: 0
@@ -9062,15 +9527,22 @@ Bridge module between MRP subcontracting and Repair
   · [ny] 
 This module allows to manage onboardings and their progress
 ========= → ''
+  · [ny] All Onboarding Progress Records (across companies). → 'Alla register över framsteg inom onboarding ('
+  · [ny] All related Onboarding Progress Step Records (across companies) → 'Alla relaterade poster för Onboarding Progres'
+  · [ny] Company → 'Bolag'
   · [ny] Discard → ''
+  · [ny] Is per company → 'Är per bolag'
   · [ny] Material Symbols Icon when completed → ''
+  · [ny] Onboarding Progress Step for the current context (company). → 'Introduktionsförlopps steg för den aktuella k'
+  · [ny] Onboarding Progress for the current context (company). → 'Introduktions förlopp för det aktuella samman'
   · [ny] Onboarding Toolbox → ''
+  · [ny] Should be done per company? → 'Bör detta göras per bolag?'
 ## partner_autocomplete
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 19
-- ny (korrigerad): 0
+- ny (redan rätt): 17
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 9
 - flagged 🚫: 0
@@ -9081,18 +9553,20 @@ Auto-complete partner companies' data
  → ''
   · [ny] Auto-complete partner companies' data → ''
   · [ny] Buy → ''
+  · [ny] Company → 'Bolag'
   · [ny] Enrich notification → ''
   · [ny] It seems that we didn't found some information for the following partn → ''
   · [ny] Partner Autocomplete → ''
   · [ny] Search Worldwide 🌎 → ''
   · [ny] Set Your Account Token → ''
   · [ny] Some errors occurred during the enrich: %s → ''
+  · [ny] Unable to enrich company (no credit was consumed). → 'Kunde inte fylla i bolagsuppgifter (ingen kre'
 ## partnership
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 11
-- ny (korrigerad): 0
+- ny (redan rätt): 10
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 35
 - flagged 🚫: 0
@@ -9105,6 +9579,7 @@ This module allows you to manage all operations for managing membersh → ''
   · [ny] Assigned Grade → ''
   · [ny] Assigned Level → ''
   · [ny] Bronze → ''
+  · [ny] Company → 'Bolag'
   · [ny] Contact → ''
   · [ny] Create a Partner Level → ''
   · [ny] Create on Order → ''
@@ -9138,8 +9613,8 @@ This module allows you to manage all operations for managing membersh → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 277
-- ny (korrigerad): 0
+- ny (redan rätt): 273
+- ny (korrigerad): 4
 - ny (vår): 0
 - ny (manuell): 121
 - flagged 🚫: 0
@@ -9159,6 +9634,7 @@ This module allows you to manage all operations for managing membersh → ''
   · [ny] Are you sure you want to void the authorized transaction? This         → ''
   · [ny] Capture the amount from Odoo, when the delivery is completed. Use this → ''
   · [ny] Child Transaction Count → ''
+  · [ny] Company → 'Bolag'
   · [ny] Connect → ''
   · [ny] Could not establish the connection to the payment provider. → ''
   · [ny] Create → ''
@@ -9209,6 +9685,7 @@ This module allows you to manage all operations for managing membersh → ''
   · [ny] Pending payment data payload to process → ''
   · [ny] Please choose another payment method. → ''
   · [ny] Please find the payment details below. → ''
+  · [ny] Please switch to company → 'Vänligen byt till bolag'
   · [ny] Portal Entry → ''
   · [ny] Post-process → ''
   · [ny] Post-processed → ''
@@ -9231,6 +9708,7 @@ This module allows you to manage all operations for managing membersh → ''
   · [ny] The following payment methods must be disabled in order to enable manu → ''
   · [ny] The label to be displayed on the payment buttons for 'Pay Later' payme → ''
   · [ny] The label to be displayed on the payment buttons for 'Pay Now' payment → ''
+  · [ny] The main currency of the company, used to display monetary fields. → 'Bolagets huvudvaluta, används för att visa mo'
   · [ny] The minimum payment amount that this payment provider is available for → ''
   · [ny] The payment engine used by payment provider modules. → ''
   · [ny] The payment provider rejected the request.
@@ -9255,6 +9733,7 @@ This module allows you to manage all operations for managing membersh → ''
   · [ny] Transactions → ''
   · [ny] Whether the transaction happened in a production environment. False fo → ''
   · [ny] You can't unarchive tokens linked to inactive payment methods or archi → ''
+  · [ny] You cannot change the company of a payment provider with existing tran → 'Du kan inte byta bolag för en betalningslever'
   · [ny] You cannot delete the default payment method. → ''
   · [ny] You cannot delete the payment provider %s; archive or uninstall it ins → ''
   · [ny] Your order is confirmed, you will receive your invoice shortly. → ''
@@ -9557,8 +10036,8 @@ This module allows you to manage all operations for managing membersh → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 13
-- ny (korrigerad): 0
+- ny (redan rätt): 11
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 7
 - flagged 🚫: 0
@@ -9567,6 +10046,8 @@ This module allows you to manage all operations for managing membersh → ''
   · [ny] A Kenyan payment provider covering several African countries. → ''
   · [ny] American Express → ''
   · [ny] Card → ''
+  · [ny] Company Token → 'Bolagstoken'
+  · [ny] DPO Company Token → 'Bolagstoken hos DPO'
   · [ny] MasterCard → ''
   · [ny] Mobile → ''
   · [ny] Payment Provider: DPO → ''
@@ -10274,8 +10755,8 @@ This module adds t → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 1100
-- ny (korrigerad): 0
+- ny (redan rätt): 1084
+- ny (korrigerad): 16
 - ny (vår): 0
 - ny (manuell): 829
 - flagged 🚫: 0
@@ -10369,7 +10850,9 @@ This module adds t → ''
   · [ny] After 19.1: → ''
   · [ny] All Orders → ''
   · [ny] All Providers Installed → ''
+  · [ny] All available pricelists must be in the same currency as the company o → 'Alla tillgängliga prislistor måste vara i sam'
   · [ny] All data will be downloaded again from the server. On databases with m → ''
+  · [ny] All payment methods must be in the same currency as the Sales Journal  → 'Alla betalningsmetoder måste vara i samma val'
   · [ny] All quantity in the cart will be in negative. Ideal for return managme → ''
   · [ny] Allow → ''
   · [ny] Allow to print receipt before payment → ''
@@ -10446,6 +10929,7 @@ It should → ''
   · [ny] Choose → ''
   · [ny] Choose Customer → ''
   · [ny] Choose a combo to apply → ''
+  · [ny] Choose a specific fiscal position at the order depending on the kind o → 'Välj en specifik skatteområde vid beställning'
   · [ny] City → ''
   · [ny] Close debug widget → ''
   · [ny] Closing Balance → ''
@@ -10455,8 +10939,11 @@ It should → ''
   · [ny] Closing entries → ''
   · [ny] Coin/Bill → ''
   · [ny] Combo Line → ''
+  · [ny] Company → 'Bolag'
   · [ny] Company Employer → ''
   · [ny] Company currency → ''
+  · [ny] Company has chart of accounts → 'Bolaget har en kontoplan'
+  · [ny] Company: → 'Bolag:'
   · [ny] Complete Name → ''
   · [ny] Computed tax amount: %(price_excl)s → %(price_recalc)s incl. → ''
   · [ny] Computed tax amount: %(price_incl)s → %(price_excl)s excl. → ''
@@ -10475,6 +10962,7 @@ It should → ''
   · [ny] Connection Timeout (ms) → ''
   · [ny] Consolidation Currency → ''
   · [ny] Continuous printing of high-density printing caused a printing error.  → ''
+  · [ny] Conversion rate from company currency to order currency. → 'Omräkningskurs från bolagets valuta till orde'
   · [ny] Correction Entries → ''
   · [ny] Count Linked Config → ''
   · [ny] Count Linked Orders → ''
@@ -10537,6 +11025,7 @@ It should → ''
   · [ny] Enable the “Use Local Network Access” checkbox directly on the printer → ''
   · [ny] Enable this option if the product should be sold by weight. When enabl → ''
   · [ny] End Time → ''
+  · [ny] Ensure that there is an existing bank journal. Check if chart of accou → 'Se till att det finns en befintlig bankjourna'
   · [ny] Ensure you validate the refund before taking another order. → ''
   · [ny] Enter → ''
   · [ny] Environment check → ''
@@ -10595,6 +11084,7 @@ It should → ''
   · [ny] Is Globally Invoiced → ''
   · [ny] Is Singly Invoiced → ''
   · [ny] Is Upsell → ''
+  · [ny] Is Using Company Currency → 'Använder bolagets valuta'
   · [ny] It seems like you do not have enough rights to create a shop. → ''
   · [ny] It seems like you don't have enough rights to load data. → ''
   · [ny] It seems that no barcode nomenclature is set in your point of sale. Yo → ''
@@ -10616,6 +11106,8 @@ It should → ''
   · [ny] LNA Permission status → ''
   · [ny] LNA not supported message → ''
   · [ny] Last Write Date → ''
+  · [ny] Leave empty to use the default account from the company setting.
+Overr → 'Lämna tomt för att använda standardkontot frå'
   · [ny] Leave empty to use the receivable account of customer.
 Defines the jou → ''
   · [ny] Link Cashdrawer → ''
@@ -10949,7 +11441,9 @@ Odoo's Point of Sale → ''
   · [ny] The currency in which the payment was made, if different from the orde → ''
   · [ny] The cutter has a foreign matter, please check the cutter mechanism → ''
   · [ny] The default customer used in PoS session closing → ''
+  · [ny] The default pricelist must belong to no company or the company of the  → 'Standardprislistan får inte tillhöra något bo'
   · [ny] The device is not connected, please check the printer power / connecti → ''
+  · [ny] The fiscal position used in the original order is not loaded. Make sur → 'Den skatteområde som användes i den ursprungl'
   · [ny] The following error code was given by the printer: %s 
 To find more de → ''
   · [ny] The following refund orders can't be part of a consolidated invoice be → ''
@@ -10975,6 +11469,7 @@ To find more de → ''
   · [ny] The product will be available until this hour for online order and sel → ''
   · [ny] The register cannot be opened while offline. Please try again. → ''
   · [ny] The rounding strategy of the point of sale %(pos)s must be: '%(value)s → ''
+  · [ny] The selected pricelists must belong to no company or the company of th → 'De valda prislistorna får inte tillhöra något'
   · [ny] The start time must be before the end time. → ''
   · [ny] The time at which the POS will post its accounting entries. → ''
   · [ny] The tip has been added to the order. However,the selected payment line → ''
@@ -10989,6 +11484,7 @@ To find more de → ''
   · [ny] The type of the payment method must be the same as the type of the jou → ''
   · [ny] The value of a coin/bill must be greater than 0. → ''
   · [ny] There is more than one cash payment method for this PoS Config. Please → ''
+  · [ny] There is no Chart of Accounts configured on the company. Please go to  → 'Det finns ingen kontoplan konfigurerad på bol'
   · [ny] There is no cash payment method available in this point of sale to han → ''
   · [ny] These payment methods will be available for fast payment → ''
   · [ny] This action will delete all unsaved orders and other locally stored da → ''
@@ -11031,6 +11527,7 @@ To find more de → ''
   · [ny] Use Local Network Access → ''
   · [ny] Use Presets → ''
   · [ny] Use Type: → ''
+  · [ny] Use fiscal positions to get different taxes by order → 'Använd skatteområden för att få olika skatter'
   · [ny] VAT: → ''
   · [ny] Validation Error: You cannot assign multiple Cash payment methods to t → ''
   · [ny] Validation Error: You cannot assign the same Cash payment method to mu → ''
@@ -11090,6 +11587,7 @@ Invoices: %(inv → ''
   · [ny] discount on → ''
   · [ny] e.g. "B2B", "VIP", "Consulting", ... → ''
   · [ny] e.g. BE0477472701 → ''
+  · [ny] e.g. Company Address, Website → 't.ex. bolagsadress, webbplats'
   · [ny] e.g. Dine in → ''
   · [ny] e.g. Kitchen Printer → ''
   · [ny] ePOS print enabled → ''
@@ -11270,8 +11768,8 @@ Definition that failed:
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 184
-- ny (korrigerad): 0
+- ny (redan rätt): 182
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 68
 - flagged 🚫: 0
@@ -11301,6 +11799,7 @@ This module adds required base code for a fully integrated customer p → ''
   · [ny] Changing your country is not allowed once document(s) have been issued → ''
   · [ny] City... → ''
   · [ny] Communication History → ''
+  · [ny] Company → 'Bolag'
   · [ny] Config Card → ''
   · [ny] Connection & Security → ''
   · [ny] Copied to clipboard → ''
@@ -11315,6 +11814,7 @@ This module adds required base code for a fully integrated customer p → ''
   · [ny] Image → ''
   · [ny] Key Name — your only way to identify that key → ''
   · [ny] Main Address → ''
+  · [ny] Multi company reports are not supported. → 'Rapporter för flera bolag stöds inte.'
   · [ny] My addresses → ''
   · [ny] Oops! Something went wrong. Try to reload the page and log in. → ''
   · [ny] Placeholder Count → ''
@@ -11399,8 +11899,8 @@ Bridge module adding rating capabilities on portal. It includes notab → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 29
-- ny (korrigerad): 0
+- ny (redan rätt): 28
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 6
 - flagged 🚫: 0
@@ -11412,12 +11912,13 @@ Bridge module adding rating capabilities on portal. It includes notab → ''
   · [ny] Point of Sale Order → ''
   · [ny] Point of Sale Payment → ''
   · [ny] Point of Sale Payment Method → ''
+  · [ny] Terminal %(terminal)s is already used in company %(company)s on paymen → 'Terminal %(terminal)s används redan i bolaget'
 ## pos_bancontact_pay
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 3
-- ny (korrigerad): 0
+- ny (redan rätt): 2
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 53
 - flagged 🚫: 0
@@ -11445,6 +11946,7 @@ The lin → ''
   · [ny] Bancontact sticker URL can only be generated for payment methods confi → ''
   · [ny] Bancontact sticker URL can only be generated for payment methods using → ''
   · [ny] Close → ''
+  · [ny] Company → 'Bolag'
   · [ny] Defines how the QR Code is presented to the customer:
 - On-Screen Disp → ''
   · [ny] Download Sticker → ''
@@ -11995,8 +12497,8 @@ This is a link module between Point of Sale and Mrp.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 72
-- ny (korrigerad): 0
+- ny (redan rätt): 71
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 20
 - flagged 🚫: 0
@@ -12005,6 +12507,7 @@ This is a link module between Point of Sale and Mrp.
   · [ny] <i class="oi me-2" data-icon="lock"/>Payment secured · Don't close thi → ''
   · [ny] <span class="text-500">Order</span> → ''
   · [ny] <span class="text-500">Total</span> → ''
+  · [ny] All payment providers configured for an online payment method must use → 'Alla betalningsleverantörer som är konfigurer'
   · [ny] Almost there! → ''
   · [ny] It looks like a payment for this order is already being processed — ma → ''
   · [ny] Online Payment Transfer → ''
@@ -12869,8 +13372,8 @@ Kiosk: %(config)s → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 9
-- ny (korrigerad): 0
+- ny (redan rätt): 8
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 97
 - flagged 🚫: 0
@@ -12887,6 +13390,7 @@ This issue occurs because the quantity becomes zero after rounding du → ''
   · [ny] At the session closing → ''
   · [ny] At the session closing: A picking is created for the entire session wh → ''
   · [ny] Available → ''
+  · [ny] Company → 'Bolag'
   · [ny] Confirm → ''
   · [ny] Conversion Error: The following unit of measure conversions result in  → ''
   · [ny] Create Lot/Serial number... → ''
@@ -12979,8 +13483,8 @@ Continue with → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 16
-- ny (korrigerad): 0
+- ny (redan rätt): 15
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 12
 - flagged 🚫: 0
@@ -12993,6 +13497,7 @@ Continue with → ''
   · [ny] Integrate your POS with a Stripe payment terminal → ''
   · [ny] POS Stripe → ''
   · [ny] Point of Sale Payment Method → ''
+  · [ny] Stripe payment provider for company %s is missing → 'Stripe-betalningsleverantör för bolaget %s sa'
   · [ny] Stripe's documentation → ''
   · [ny] Tips can't be added to this Stripe payment. Stripe only allows tips af → ''
   · [ny] You cannot refund a non-Stripe payment via Stripe → ''
@@ -13131,8 +13636,8 @@ Continue with → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 570
-- ny (korrigerad): 0
+- ny (redan rätt): 567
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 304
 - flagged 🚫: 0
@@ -13168,6 +13673,7 @@ This is the base module for managing products and pricelists in Odoo. → ''
       → ''
   · [ny] Additional packagings for this product which can be used for sales → ''
   · [ny] Adidas → ''
+  · [ny] All Companies → 'Alla bolag'
   · [ny] Allowed Uom → ''
   · [ny] Alternative (2.00" x 1.00") → ''
   · [ny] Applied on → ''
@@ -13197,6 +13703,8 @@ This is the base module for managing products and pricelists in Odoo. → ''
   · [ny] Colgate → ''
   · [ny] Combo products can't have attributes. → ''
   · [ny] Comfortable yellow chair for daily work → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company Settings → 'Bolagsinställningar'
   · [ny] Copies → ''
   · [ny] Create a new product category → ''
   · [ny] Current quantity of products.
@@ -13542,8 +14050,8 @@ Adds a reporting menu in products that computes sales, purchases, mar → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 15
-- ny (korrigerad): 0
+- ny (redan rätt): 13
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 3
 - flagged 🚫: 0
@@ -13551,14 +14059,16 @@ Adds a reporting menu in products that computes sales, purchases, mar → ''
 - oförändrad: 0
   · [ny] 
 Please refer to Sale Matrix or Purchase Matrix for the use of this mo → ''
+  · [ny] My Company Tshirt (GRID) → 'T-shirt med Mitt Bolag (RUTNÄT)'
   · [ny] Product Matrix → ''
+  · [ny] Show your company love around you =). → 'Visa din omgivning hur mycket du älskar ditt '
   · [ny] Technical module: Matrix Implementation → ''
 ## project
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 681
-- ny (korrigerad): 0
+- ny (redan rätt): 672
+- ny (korrigerad): 9
 - ny (vår): 0
 - ny (manuell): 237
 - flagged 🚫: 0
@@ -13644,6 +14154,7 @@ Are you sure you want to continue? → ''
   · [ny] Click the Kanban progress bar to quickly filter tasks by status within → ''
   · [ny] Collect feedback from your customers by sending them a rating request  → ''
   · [ny] Communicate with customers on the task using the email gateway. Attach → ''
+  · [ny] Company → 'Bolag'
   · [ny] Complete → ''
   · [ny] Configure Project → ''
   · [ny] Convert Project to Template → ''
@@ -13697,6 +14208,8 @@ Are you sure you want to continue? → ''
   · [ny] On a periodic basis → ''
   · [ny] Organize priorities amongst orders using the → ''
   · [ny] Overview → ''
+  · [ny] Partner company cannot be different from its assigned projects' compan → 'Partnerbolaget får inte vara ett annat än bol'
+  · [ny] Partner company cannot be different from its assigned tasks' company → 'Partnerbolaget får inte vara annorlunda än de'
   · [ny] Plumber → ''
   · [ny] Prioritize your tasks by marking important ones using the → ''
   · [ny] Private (non-template) tasks cannot be converted into sub-tasks. Pleas → ''
@@ -13761,11 +14274,16 @@ Control who can access this project:
   · [ny] Template converted back to regular task → ''
   · [ny] Template created from %s. → ''
   · [ny] Template for Tasks → ''
+  · [ny] The project and the associated partner must be linked to the same comp → 'Projektet och den associerade partnern måste '
+  · [ny] The project's company cannot be changed if its analytic account has an → 'Projektets bolag kan inte ändras om dess anal'
+  · [ny] The task and the associated partner must be linked to the same company → 'Uppgiften och den tillhörande partnern måste '
   · [ny] The view must be grouped by date and by Stage - Burndown chart → ''
   · [ny] This new task has been created in the "%(project_name)s" project. → ''
   · [ny] This new task is not part of any project. → ''
   · [ny] This project can’t be shared with external people. → ''
+  · [ny] This project is associated with %(project_company)s, whereas the selec → 'Det här projektet är associerat med %(project'
   · [ny] This project is currently a template. Would you like to convert it bac → ''
+  · [ny] This project is not associated with any company, while the stage is as → 'Det här projektet är inte knutet till något b'
   · [ny] This task can’t be shared with external people. → ''
   · [ny] This task is currently a template. Would you like to convert it back i → ''
   · [ny] This task is currently blocked by → ''
@@ -13798,6 +14316,7 @@ Edit: can create and update  → ''
   · [ny] Worker → ''
   · [ny] Write a message… → ''
   · [ny] Write a task name → ''
+  · [ny] You are not able to switch the company of this stage to %(company_name → 'Du kan inte byta bolag för detta steg till %('
   · [ny] You cannot convert this task into a sub-task because it is recurrent. → ''
   · [ny] You need Advanced Edit access to change the stage or priority of a tas → ''
   · [ny] Your managers decide which feedback is accepted → ''
@@ -14021,8 +14540,8 @@ Search project tasks according to the assignees' skills
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 18
-- ny (korrigerad): 0
+- ny (redan rätt): 17
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 12
 - flagged 🚫: 0
@@ -14031,6 +14550,7 @@ Search project tasks according to the assignees' skills
   · [ny] 
 Bridge module to integrate leaves in timesheet
 ====================== → ''
+  · [ny] Company → 'Bolag'
   · [ny] Employee Departure → ''
   · [ny] Schedule timesheet when on time off → ''
   · [ny] The default project used when automatically generating timesheets via  → ''
@@ -14094,8 +14614,8 @@ Bridge module to integrate leaves in timesheet
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 498
-- ny (korrigerad): 0
+- ny (redan rätt): 493
+- ny (korrigerad): 5
 - ny (vår): 0
 - ny (manuell): 161
 - flagged 🚫: 0
@@ -14150,9 +14670,11 @@ Bridge module to integrate leaves in timesheet
   · [ny] Billed Not Received Account Active → ''
   · [ny] Bills to Receive Account → ''
   · [ny] Bills to Receive Account Active → ''
+  · [ny] Company → 'Bolag'
   · [ny] Confirm the price. → ''
   · [ny] Consolidation Currency → ''
   · [ny] Days to Order → ''
+  · [ny] Default on whether the sales price used on the product and invoices wi → 'Standard om huruvida det försäljningspris som'
   · [ny] Difference between demand and quantity but not affected by invoice pol → ''
   · [ny] Display Auto Complete Field → ''
   · [ny] Display Matching Tag → ''
@@ -14210,6 +14732,7 @@ Automate requisition-to-pay, cont → ''
   · [ny] Purchase orders, tenders and agreements → ''
   · [ny] Purchased in the last 365 days. Incoming represents confirmed purchase → ''
   · [ny] Purchases & Bills Union → ''
+  · [ny] Put an address if you want to deliver directly from the vendor to the  → 'Ange en adress om du vill leverera direkt frå'
   · [ny] Qty not invoiced → ''
   · [ny] Qty to Invoice → ''
   · [ny] Qty to invoice → ''
@@ -14235,6 +14758,7 @@ Automate requisition-to-pay, cont → ''
   · [ny] Tax Excl. → ''
   · [ny] Tax Incl. → ''
   · [ny] Technical field for price computation → ''
+  · [ny] Technical field to filter the available taxes depending on the fiscal  → 'Tekniskt fält för att filtrera de tillgänglig'
   · [ny] Technical field to get the vendor pricelist used to generate this line → ''
   · [ny] Template for Products → ''
   · [ny] Template for Requests for Quotation → ''
@@ -14244,6 +14768,7 @@ Automate requisition-to-pay, cont → ''
   · [ny] The ordered quantity has been updated. → ''
   · [ny] The partner cannot be deleted because it is used as a dropship address → ''
   · [ny] The unit price has been updated. → ''
+  · [ny] This analysis allows you to easily check and analyse your company purc → 'Med denna analys kan du enkelt kontrollera oc'
   · [ny] This currency will be used for purchases from the current partner → ''
   · [ny] To Invoice → ''
   · [ny] Total Forecasted → ''
@@ -14425,8 +14950,8 @@ by choosing produc → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 134
-- ny (korrigerad): 0
+- ny (redan rätt): 132
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 21
 - flagged 🚫: 0
@@ -14442,6 +14967,7 @@ This module allows you to manage your Purchase Agreements.
   · [ny] Add a product → ''
   · [ny] Add a section → ''
   · [ny] Amount → ''
+  · [ny] Company → 'Bolag'
   · [ny] Display Type → ''
   · [ny] Line Description → ''
   · [ny] Note → ''
@@ -14454,6 +14980,7 @@ This module allows you to manage your Purchase Agreements.
   · [ny] Subsection Name → ''
   · [ny] Subsection title → ''
   · [ny] Technical field for UX purpose. → ''
+  · [ny] You cannot change the Agreement Type or Company of a not draft purchas → 'Du kan inte ändra avtalstyp eller bolag för e'
   · [ny] You cannot change the type of a purchase agreement line. Instead you s → ''
 ## purchase_requisition_stock
 - override: 0
@@ -14470,8 +14997,8 @@ This module allows you to manage your Purchase Agreements.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 136
-- ny (korrigerad): 0
+- ny (redan rätt): 134
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 78
 - flagged 🚫: 0
@@ -14493,6 +15020,7 @@ This module allows you to manage your Purchase Agreements.
   · [ny] Allow Make to Order, or automate PO, when a product is sold and get di → ''
   · [ny] Any vendor on the product's pricelist → ''
   · [ny] Available Vendor → ''
+  · [ny] Company → 'Bolag'
   · [ny] Completion date of the last receipt order. → ''
   · [ny] Date promised by the vendor for at least 1 or more products to be deli → ''
   · [ny] Days To Arrive → ''
@@ -14524,6 +15052,7 @@ This module allows you to manage your Purchase Agreements.
   · [ny] Promised Date → ''
   · [ny] Purchase Orders, Receipts, Vendor Bills for Stock → ''
   · [ny] Purchase Stock → ''
+  · [ny] Put an address if you want to deliver directly from the vendor to the  → 'Ange en adress om du vill leverera direkt frå'
   · [ny] Receipt Date → ''
   · [ny] Received quantity is less than the expected quantity for transfer → ''
   · [ny] Reference between stock documents → ''
@@ -14559,8 +15088,8 @@ This module allows you to manage your Purchase Agreements.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 90
-- ny (korrigerad): 0
+- ny (redan rätt): 89
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 6
 - flagged 🚫: 0
@@ -14569,6 +15098,7 @@ This module allows you to manage your Purchase Agreements.
   · [ny] 
 This module allows a customer to give rating.
  → ''
+  · [ny] " or someone from the same company can give it a rating. → '" eller så kan någon från samma bolag ge det '
   · [ny] Customer Rating → ''
   · [ny] Incorrect rating: should be %(rating_unhappy)d, %(rating_neutral)d or  → ''
   · [ny] Not Rated yet → ''
@@ -14578,8 +15108,8 @@ This module allows a customer to give rating.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 227
-- ny (korrigerad): 0
+- ny (redan rätt): 226
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 56
 - flagged 🚫: 0
@@ -14594,6 +15124,7 @@ The aim is to have a complete module to manage all products repairs.
   · [ny] Can Create Extra Invoice → ''
   · [ny] Can Create Sale Or Invoice → ''
   · [ny] Cancel → ''
+  · [ny] Company → 'Bolag'
   · [ny] Component Destination Location → ''
   · [ny] Confirm → ''
   · [ny] Consumed → ''
@@ -14648,8 +15179,8 @@ Please → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 93
-- ny (korrigerad): 0
+- ny (redan rätt): 90
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 73
 - flagged 🚫: 0
@@ -14679,6 +15210,7 @@ All the attendances will  → ''
   · [ny] Calendar One2Many → ''
   · [ny] Calendar Type → ''
   · [ny] Color → ''
+  · [ny] Company → 'Bolag'
   · [ny] Confirm the calendar type change → ''
   · [ny] Continue → ''
   · [ny] Count As → ''
@@ -14693,6 +15225,7 @@ All the attendances will  → ''
   · [ny] Full Time Equivalent → ''
   · [ny] Hours per Day → ''
   · [ny] Hours per week must be between 0 and 168. → ''
+  · [ny] If empty, this is a generic time off for the company. If a resource is → 'Om det är tomt är detta en generisk ledighet '
   · [ny] Interval → ''
   · [ny] Issue on %(date)s: → ''
   · [ny] Issue on %(dayofweek)s: → ''
@@ -14700,6 +15233,7 @@ All the attendances will  → ''
   · [ny] Material Resources → ''
   · [ny] Number of Repetitions → ''
   · [ny] Number of days or weeks between each occurrence. → ''
+  · [ny] Number of hours to work on the company schedule to be considered as fu → 'Antal timmar att arbeta enligt bolagets schem'
   · [ny] Occurrences → ''
   · [ny] Overlap of attendances → ''
   · [ny] Partial working schedules → ''
@@ -14768,8 +15302,8 @@ All the attendances will  → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 710
-- ny (korrigerad): 0
+- ny (redan rätt): 701
+- ny (korrigerad): 9
 - ny (vår): 0
 - ny (manuell): 191
 - flagged 🚫: 0
@@ -14836,6 +15370,7 @@ Fr → ''
   · [ny] Bill for the work you deliver → ''
   · [ny] Cancelling this order will set its status to 'Cancelled' and will upda → ''
   · [ny] Cannot close %(orders_name)s: must be in 'Sales Order' state. → ''
+  · [ny] Changing the company of an existing quotation might need some manual a → 'Att ändra bolag för en befintlig offert kan k'
   · [ny] Click to configure → ''
   · [ny] Client's most used account → ''
   · [ny] Close Invoicing → ''
@@ -14843,9 +15378,12 @@ Fr → ''
   · [ny] Collapse Prices → ''
   · [ny] Combo → ''
   · [ny] Combo Product → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company Document Layout → 'Layout för bolagsdokument'
   · [ny] Confirmation → ''
   · [ny] Consolidation Currency → ''
   · [ny] Create one invoice for all orders related to same customer, same invoi → ''
+  · [ny] Default on whether the sales price used on the product and invoices wi → 'Standard om huruvida det försäljningspris som'
   · [ny] Deferred Revenue → ''
   · [ny] Deliver → ''
   · [ny] Delivered (%) → ''
@@ -14950,9 +15488,12 @@ Fr → ''
   · [ny] Template for Quotations → ''
   · [ny] The amount is lower than the prepayment amount. → ''
   · [ny] The amount that must be paid by the customer to confirm the order. → ''
+  · [ny] The company is required, please select one before making any other cha → 'Bolaget är obligatoriskt, vänligen välj ett i'
+  · [ny] The following products cannot be restricted to the company %(company)s → 'Följande produkter kan inte begränsas till bo'
   · [ny] The following sale orders %(invalid_orders)s can't be delivered. Cance → ''
   · [ny] The percentage of the amount that must be paid by the customer to conf → ''
   · [ny] The sale order has expired. → ''
+  · [ny] There does not seem to be any discount product configured for this com → 'Det verkar inte finnas någon rabattprodukt ko'
   · [ny] Total Advantage → ''
   · [ny] Total Free To Use → ''
   · [ny] Transaction Count → ''
@@ -14962,6 +15503,8 @@ Fr → ''
   · [ny] Used by salespeople when they send pro forma to prospects → ''
   · [ny] Valid until → ''
   · [ny] Validity of the quotation. After this date, you will no longer be able → ''
+  · [ny] Values set here are company-specific. → 'Värden som anges här är bolagsspecifika.'
+  · [ny] Warning for the change of your quotation's company → 'Varning för byte av bolag för din offert'
   · [ny] Warning on Sales Orders → ''
   · [ny] Warning on Sales Orders and Invoices → ''
   · [ny] Yes, cancel order → ''
@@ -15067,8 +15610,8 @@ Create some pr → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 17
-- ny (korrigerad): 0
+- ny (redan rätt): 16
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 48
 - flagged 🚫: 0
@@ -15077,6 +15620,7 @@ Create some pr → ''
   · [ny] <div style="margin: 0px; padding: 0px; font-size: 13px;">
              → ''
   · [ny] <i title="All print images are set" invisible="gelato_missing_images"  → ''
+  · [ny] Company → 'Bolag'
   · [ny] Could not establish the connection to the Gelato API. → ''
   · [ny] Could not synchronize with Gelato → ''
   · [ny] Delivery Method → ''
@@ -15200,8 +15744,8 @@ R → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 66
-- ny (korrigerad): 0
+- ny (redan rätt): 65
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 78
 - flagged 🚫: 0
@@ -15225,6 +15769,7 @@ PTZ conference camera, auto-framing → ''
   · [ny] Catalog → ''
   · [ny] Collapse Composition → ''
   · [ny] Collapse Prices → ''
+  · [ny] Company → 'Bolag'
   · [ny] Conference Room → ''
   · [ny] Confirmation → ''
   · [ny] Connectivity → ''
@@ -15368,8 +15913,8 @@ This module provides facility to the user to install mrp and sales mo → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 103
-- ny (korrigerad): 0
+- ny (redan rätt): 102
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 12
 - flagged 🚫: 0
@@ -15378,6 +15923,7 @@ This module provides facility to the user to install mrp and sales mo → ''
   · [ny] Add By Default → ''
   · [ny] Available Quotation Documents → ''
   · [ny] Build nice quotations → ''
+  · [ny] Company → 'Bolag'
   · [ny] Fields → ''
   · [ny] Has Thumbnail → ''
   · [ny] If checked, this header or footer will be added by default on new quot → ''
@@ -15598,8 +16144,8 @@ Allows to display sale information in the SOL services apps
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 110
-- ny (korrigerad): 0
+- ny (redan rätt): 108
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 53
 - flagged 🚫: 0
@@ -15629,6 +16175,7 @@ Manage sales quotations and orders
   · [ny] As soon as possible, with back orders → ''
   · [ny] Availability Time → ''
   · [ny] Choose the maximum number of days within which the product should be a → ''
+  · [ny] Company → 'Bolag'
   · [ny] Continue → ''
   · [ny] Download Return Label → ''
   · [ny] Expected delivery → ''
@@ -15662,6 +16209,7 @@ Manage sales quotations and orders
   · [ny] Sequence → ''
   · [ny] Stock delivery time information → ''
   · [ny] True if any related picking has late availability → ''
+  · [ny] You must have a warehouse for line using a delivery in different compa → 'Du måste ha ett lager för linje som använder '
 ## sale_stock_margin
 - override: 0
 - converged 🎉: 0
@@ -15693,8 +16241,8 @@ Manage sales quotations and orders
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 200
-- ny (korrigerad): 0
+- ny (redan rätt): 197
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 32
 - flagged 🚫: 0
@@ -15714,13 +16262,17 @@ Allows to sell timesheets in your sales order
   · [ny] <strong class="s_rating_title">Technical Expertise</strong> → ''
   · [ny] According to product configuration, the delivered quantity can be auto → ''
   · [ny] As an employee of our company, you will <b>collaborate with each depar → ''
+  · [ny] Each employee has a chance to see the impact of his work.
+             → 'Varje anställd har en chans att se effekterna'
   · [ny] Employee Departure → ''
   · [ny] Journal Entry Reversal → ''
   · [ny] Last Sol Of Customer → ''
   · [ny] Mine → ''
   · [ny] Notify the salesperson about an upsell opportunity when completed work → ''
   · [ny] Order → ''
+  · [ny] Real responsibilities and challenges in a fast evolving company → 'Verkligt ansvar och utmaningar i ett snabbt u'
   · [ny] Sales Timesheet → ''
+  · [ny] Sales order item that will be selected by default on the timesheets of → 'Försäljningsorderobjekt som kommer att väljas'
   · [ny] Sell based on timesheets → ''
   · [ny] Shared Send Invoice Wizard Functions → ''
   · [ny] The %s product is required by the Timesheets app and cannot be archive → ''
@@ -15756,8 +16308,8 @@ Allows to compute accurate margin for Service sales.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 116
-- ny (korrigerad): 0
+- ny (redan rätt): 111
+- ny (korrigerad): 5
 - ny (vår): 0
 - ny (manuell): 13
 - flagged 🚫: 0
@@ -15773,16 +16325,21 @@ Using this application you can manage Sales Teams with CRM and/or Sal → ''
   · [ny] <i class="oi oi-fw oi-filled me-1 text-primary" data-icon="group" titl → ''
   · [ny] Activate "Multi-team" → ''
   · [ny] An error occurred while activating the Multi-Team option. → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Member Company → 'Medlemsbolag'
   · [ny] No → ''
+  · [ny] The default company for this user. → 'Standardbolaget för den här användaren.'
   · [ny] The following team members are not allowed in company '%(company)s' of → ''
+  · [ny] UX: Limit to team company or all if no company → 'UX: Begränsa till teambolag eller alla om ing'
   · [ny] User '%(user)s' is not allowed in the company '%(company)s' of the Sal → ''
+  · [ny] User Company → 'Användarbolag'
   · [ny] Working in multiple teams? → ''
 ## sms
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 216
-- ny (korrigerad): 0
+- ny (redan rätt): 214
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 38
 - flagged 🚫: 0
@@ -15797,6 +16354,7 @@ This module gives a framework for SMS text messaging
   · [ny] Alert → ''
   · [ny] An error occurred when sending an SMS on “%(record_name)s” → ''
   · [ny] Bad parameters → ''
+  · [ny] Company → 'Bolag'
   · [ny] Create an SMS Template → ''
   · [ny] Database non active → ''
   · [ny] Document Follower → ''
@@ -15827,13 +16385,14 @@ This module gives a framework for SMS text messaging
   · [ny] Use Exclusion List → ''
   · [ny] Your country is not supported due to sender registration legislation → ''
   · [ny] Your database is not activated → ''
+  · [ny] Your sender name must be between 3 and 11 characters long and only con → 'Ditt avsändarnamn måste vara mellan 3 och 11 '
   · [ny] e.g: Send order confirmation → ''
 ## sms_twilio
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 21
-- ny (korrigerad): 0
+- ny (redan rätt): 20
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 46
 - flagged 🚫: 0
@@ -15852,6 +16411,7 @@ The  → ''
   · [ny] Auth Token → ''
   · [ny] Authentication Error → ''
   · [ny] Authentication Error" → ''
+  · [ny] Company → 'Bolag'
   · [ny] Configure Twilio Account → ''
   · [ny] From / To identic → ''
   · [ny] Incorrect callback URL → ''
@@ -15892,8 +16452,8 @@ The  → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 92
-- ny (korrigerad): 0
+- ny (redan rätt): 91
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 19
 - flagged 🚫: 0
@@ -15904,6 +16464,7 @@ Allows users to send documents by post
 ============================== → ''
   · [ny] An error occurred when sending a letter with Snailmail on “%(record_na → ''
   · [ny] Bounced → ''
+  · [ny] Company → 'Bolag'
   · [ny] Dispatched → ''
   · [ny] LETTER_UNDELIVERABLE → ''
   · [ny] Letter Undeliverable → ''
@@ -15925,19 +16486,20 @@ If the letter is co → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 17
-- ny (korrigerad): 0
+- ny (redan rätt): 16
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] <span class="oi oi-lg" data-icon="business" title="Values set here are → '<span class="oi oi-lg" data-icon="business" t'
 ## social_media
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 12
-- ny (korrigerad): 0
+- ny (redan rätt): 11
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 2
 - flagged 🚫: 0
@@ -15946,13 +16508,14 @@ If the letter is co → ''
   · [ny] 
 The purpose of this technical module is to provide a front for
 social → ''
+  · [ny] Company → 'Bolag'
   · [ny] Social media connectors for company settings. → ''
 ## spreadsheet
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 455
-- ny (korrigerad): 0
+- ny (redan rätt): 454
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 2018
 - flagged 🚫: 0
@@ -17242,6 +17805,7 @@ social → ''
   · [ny] The columns argument (%s) must be strictly positive. → ''
   · [ny] The columns arguments (%s) must be greater or equal than the number of → ''
   · [ny] The columns arguments must be between -%s and %s (got %s), excluding 0 → ''
+  · [ny] The company to take the exchange rate from. → 'Bolaget som valutakursen ska hämtas från.'
   · [ny] The condition to be evaluated. It can be a boolean, a number, an array → ''
   · [ny] The cost (%s) must be positive or null. → ''
   · [ny] The cost (%s) must be strictly positive. → ''
@@ -17984,19 +18548,24 @@ If you meant to crea → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 57
-- ny (korrigerad): 0
+- ny (redan rätt): 52
+- ny (korrigerad): 5
 - ny (vår): 0
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company → 'Bolag'
+  · [ny] Currency not available for this company. → 'Valutan är inte tillgänglig för det här bolag'
+  · [ny] The company fiscal year could not be found. → 'Bolagets räkenskapsår kunde inte hittas.'
+  · [ny] The company to target (Advanced). → 'Det gällande bolaget (avancerat).'
+  · [ny] The company. → 'Bolaget.'
 ## spreadsheet_dashboard
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 57
-- ny (korrigerad): 0
+- ny (redan rätt): 56
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 48
 - flagged 🚫: 0
@@ -18009,6 +18578,7 @@ If you meant to crea → ''
   · [ny] Allowed Users → ''
   · [ny] An error occurred while loading the dashboard → ''
   · [ny] Choose a dashboard section... → ''
+  · [ny] Companies → 'Bolag'
   · [ny] Dashboard Favorite Filter → ''
   · [ny] Dashboard Filters → ''
   · [ny] Dashboard Section → ''
@@ -18215,14 +18785,15 @@ If you meant to crea → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 43
-- ny (korrigerad): 0
+- ny (redan rätt): 42
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 11
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
   · [ny] Best Selling Categories → ''
+  · [ny] Company → 'Bolag'
   · [ny] Map → ''
   · [ny] Order → ''
   · [ny] Order Date → ''
@@ -18299,8 +18870,8 @@ If you meant to crea → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 1486
-- ny (korrigerad): 0
+- ny (redan rätt): 1470
+- ny (korrigerad): 16
 - ny (vår): 0
 - ny (manuell): 435
 - flagged 🚫: 0
@@ -18410,7 +18981,9 @@ The quantity done for the product %(product)s doesn't respect the rou → ''
   · [ny] Can't move a container having packages in another location (%(old_loca → ''
   · [ny] Cannot create wave transfers → ''
   · [ny] Categories to consider when grouping waves. → ''
+  · [ny] Changing the company of this record is forbidden at this point, you sh → 'Det är inte tillåtet att ändra bolaget på det'
   · [ny] Cluster transfers → ''
+  · [ny] Company → 'Bolag'
   · [ny] Configure Methods → ''
   · [ny] Configure your horizon to trigger reordering rules earlier to get
      → ''
@@ -18508,6 +19081,8 @@ Automatically calculated as  → ''
   · [ny] Lead Days → ''
   · [ny] Lead Horizon Date → ''
   · [ny] Lead Time Information → ''
+  · [ny] Leave this field empty if this route is shared between all companies → 'Lämna detta fält tomt om rutten delas av alla'
+  · [ny] Let this field empty if this location is shared between companies → 'Lämna detta fält tomt om platsen delas av fle'
   · [ny] Line → ''
   · [ny] Lines → ''
   · [ny] List of transfers associated to this batch → ''
@@ -18539,6 +19114,7 @@ A sa → ''
   · [ny] Move a Pack → ''
   · [ny] Move lines → ''
   · [ny] Multiple destinations → ''
+  · [ny] My Company (Chicago) undertakes to do its best to supply performant se → 'Mitt bolag (Chicago) åtar sig att göra sitt b'
   · [ny] Next Serial → ''
   · [ny] Next month last year → ''
   · [ny] No Package → ''
@@ -18570,6 +19146,7 @@ A sa → ''
   · [ny] Pick multiple orders in one trip and prepare orders as you pick. This  → ''
   · [ny] Picking Instructions → ''
   · [ny] Please contact your administrator to configure your warehouse. → ''
+  · [ny] Please create a warehouse for company %s. → 'Vänligen skapa ett lager för bolaget %s.'
   · [ny] Please put this document inside your return parcel.<br/> → ''
   · [ny] Please select at least two batch/wave transfers to merge. → ''
   · [ny] Precision to consider when grouping waves. → ''
@@ -18604,6 +19181,7 @@ A sa → ''
   · [ny] Result Package ID → ''
   · [ny] Reusable Box (totes) → ''
   · [ny] Reverted Moves → ''
+  · [ny] Route Company → 'Ruttbolag'
   · [ny] Route Id Placeholder → ''
   · [ny] Routes propagated from the package type → ''
   · [ny] Same month last year → ''
@@ -18673,21 +19251,28 @@ A sa → ''
   · [ny] Text Confirmation → ''
   · [ny] The actual date when the transfer was processed. → ''
   · [ny] The backorder %(backorder_picking_link)s has been created. → ''
+  · [ny] The barcode for a location must be unique per company! → 'Streckkoden för en plats måste vara unik för '
+  · [ny] The combination of lot/serial number and product must be unique within → 'Kombinationen av parti-/serienummer och produ'
+  · [ny] The company is automatically set from your user preferences. → 'Bolaget ställs automatiskt in från dina använ'
   · [ny] The following batch transfer has been created → ''
   · [ny] The following batch transfer has been updated → ''
   · [ny] The following transfers cannot be added to batch transfer %(batch)s. P → ''
+  · [ny] The name of the warehouse must be unique per company! → 'Namnet på lagerplatsen måste vara unikt för v'
   · [ny] The procurement quantity will be rounded up to a multiple of this unit → ''
   · [ny] The selected operations should belong to a unique company. → ''
   · [ny] The selected pickings should belong to an unique company. → ''
   · [ny] The selected transfers should belong to a unique company. → ''
   · [ny] The selected transfers should belong to the same operation type → ''
   · [ny] The sequence 'picking.batch' is misconfigured. Its prefix should end w → ''
+  · [ny] The short name of the warehouse must be unique per company! → 'Kortnamnet på lagret måste vara unikt per bol'
   · [ny] There is nothing to reserve. → ''
   · [ny] This adds a Replenish On Order (MTO) route to apply on products in ord → ''
   · [ny] This batch is a wave → ''
   · [ny] This location will be used as the source location for stock moves gene → ''
   · [ny] This location will be used as the source location for stock moves gene → ''
   · [ny] This package is currently set to be sent in %(location_names_list)s. → ''
+  · [ny] This product's company cannot be changed as long as there are quantiti → 'Denna produkts bolag kan inte ändras så länge'
+  · [ny] This product's company cannot be changed as long as there are stock mo → 'Denna produkts bolag kan inte ändras så länge'
   · [ny] This record already exists → ''
   · [ny] This report cannot be used for done and not done %(doc_type)s at the s → ''
   · [ny] Time to replenish: → ''
@@ -18720,8 +19305,10 @@ A sa → ''
   · [ny] When checked, create the batch in draft status → ''
   · [ny] When checked, the route will be selectable on package types → ''
   · [ny] X → ''
+  · [ny] You can only move positive quantities stored in locations used by a si → 'Du kan endast flytta positiva kvantiteter som'
   · [ny] You can't deactivate the multi-location feature if you have more than  → ''
   · [ny] You cannot change the Scheduled Date on a cancelled transfer. → ''
+  · [ny] You cannot change the company of a lot/serial number currently in a lo → 'Du kan inte byta bolag för ett parti-/serienu'
   · [ny] You cannot delete Done batch transfers. → ''
   · [ny] You cannot merge done or cancelled batch/wave transfers. → ''
   · [ny] You cannot pack products into the same package when they are from diff → ''
@@ -18771,14 +19358,21 @@ A sa → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 160
-- ny (korrigerad): 0
+- ny (redan rätt): 153
+- ny (korrigerad): 7
 - ny (vår): 0
 - ny (manuell): 2
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] Company → 'Bolag'
+  · [ny] Company Currency → 'Bolagets valuta'
+  · [ny] If the move originates from a document from another company, contains  → 'Om transporten har sitt ursprung i ett dokume'
+  · [ny] Is valued inside the company → 'Värderas inuti bolaget'
+  · [ny] Only set if the move is generated from a document belonging to another → 'Anges endast om verifikationen skapas från et'
+  · [ny] Origin Company → 'Ursprungsbolag'
   · [ny] Others → ''
+  · [ny] Technical field to correctly show the currently selected company's cur → 'Tekniskt fält för att korrekt visa det valda '
   · [ny] Valuation correction following a cost change on: %s → ''
 ## stock_delivery
 - override: 0
@@ -18860,8 +19454,8 @@ Allows you to add delivery methods in pickings.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 18
-- ny (korrigerad): 0
+- ny (redan rätt): 17
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 5
 - flagged 🚫: 0
@@ -18872,6 +19466,7 @@ Manage drop shipping orders
 ===========================
 
 This module  → ''
+  · [ny] Company → 'Bolag'
   · [ny] Drop Shipping → ''
   · [ny] Journal Item → ''
   · [ny] Product Moves (Stock Move Line) → ''
@@ -18975,8 +19570,8 @@ This module  → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 115
-- ny (korrigerad): 0
+- ny (redan rätt): 114
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 12
 - flagged 🚫: 0
@@ -18993,6 +19588,7 @@ This module allows yo → ''
   · [ny] All Products → ''
   · [ny] Allowed Product → ''
   · [ny] Apply Landed Cost On → ''
+  · [ny] Company → 'Bolag'
   · [ny] Pickings Count → ''
   · [ny] The landed cost is by default applied only on these products, if they  → ''
   · [ny] Valuation Adjustment Line → ''
@@ -19020,8 +19616,8 @@ Open the record of the seri → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 19
-- ny (korrigerad): 0
+- ny (redan rätt): 18
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 3
 - flagged 🚫: 0
@@ -19029,14 +19625,15 @@ Open the record of the seri → ''
 - oförändrad: 0
   · [ny] 
                 {{ (object.company_id.name + ': Your order n° ' + obj → ''
+  · [ny] Company → 'Bolag'
   · [ny] Send text messages when final stock move → ''
   · [ny] Stock - SMS → ''
 ## survey
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 801
-- ny (korrigerad): 0
+- ny (redan rätt): 800
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 110
 - flagged 🚫: 0
@@ -19101,6 +19698,7 @@ Create beautiful surveys and visualize answers
   · [ny] Classic #2 → ''
   · [ny] Classic #2 Black → ''
   · [ny] Click to copy link → ''
+  · [ny] Company Certifications Count → 'Bolagets antal certifieringar'
   · [ny] Copy session link → ''
   · [ny] Demo certified name → ''
   · [ny] Digest → ''
@@ -19161,8 +19759,8 @@ Create beautiful surveys and visualize answers
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 32
-- ny (korrigerad): 0
+- ny (redan rätt): 30
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 39
 - flagged 🚫: 0
@@ -19183,12 +19781,14 @@ Enables the creation of a lead  → ''
   · [ny] An IT-oriented company? → ''
   · [ny] Assign Leads to → ''
   · [ny] At least one of the question answers can generate leads. → ''
+  · [ny] Before this survey, were you aware of our company? → 'Kände du till vårt bolag innan den här enkäte'
   · [ny] Create Leads → ''
   · [ny] Create leads when key answers are chosen → ''
   · [ny] Creates a lead when participants choose this answer → ''
   · [ny] Expanding sales → ''
   · [ny] Generate leads from surveys → ''
   · [ny] Getting to know you → ''
+  · [ny] How is your company named? → 'Vad heter ditt bolag?'
   · [ny] Improving efficiency → ''
   · [ny] Lead Generating → ''
   · [ny] Lead creation → ''
@@ -19275,8 +19875,8 @@ Doing so would be like tearing → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 4125
-- ny (korrigerad): 0
+- ny (redan rätt): 4109
+- ny (korrigerad): 16
 - ny (vår): 0
 - ny (manuell): 1062
 - flagged 🚫: 0
@@ -19349,6 +19949,8 @@ This module provides  → ''
                 <span>INV/2023/00003</span> → ''
   · [ny] <span>[FURN_8220] Four Person Desk<br/>
                                → ''
+  · [ny] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
+  · [ny] <strong>Company details block</strong> → '<strong>Block för bolagsuppgifter</strong>'
   · [ny] ?|about|answer|assistance|button|circle|circular|documentation|element → ''
   · [ny] ?|ask|assistance|circle|clue|curious|curve|dot|doubt|education|faq|gly → ''
   · [ny] ?|assistance|circle|help|info|information|outline|punctuation|question → ''
@@ -19418,10 +20020,22 @@ This module provides  → ''
   · [ny] ClickBot ✓ → ''
   · [ny] ClickBot ✗ → ''
   · [ny] Color dot tags → ''
+  · [ny] Companies → 'Bolag'
+  · [ny] Company → 'Bolag'
+  · [ny] Company Details → 'Bolagsuppgifter'
+  · [ny] Company Document Layout → 'Bolagets dokumentlayout'
+  · [ny] Company Logo → 'Bolagslogo'
+  · [ny] Company Name → 'Bolagsnamn'
+  · [ny] Company Tagline → 'Bolagets slogan'
+  · [ny] Company name → 'Bolagsnamn'
+  · [ny] Company tagline → 'Bolagets slogan'
+  · [ny] Company tagline, which is included in a printed document's header or f → 'Bolagets slogan, som inkluderas i ett tryckt '
   · [ny] Condition: → ''
   · [ny] Confirm access → ''
   · [ny] Constant Time → ''
   · [ny] Contact Statistics → ''
+  · [ny] Contains the company address. → 'Innehåller bolagets adress.'
+  · [ny] Contains the company details. → 'Innehåller uppgifter om bolaget.'
   · [ny] Copy Arch → ''
   · [ny] Count Limit → ''
   · [ny] Count LoC → ''
@@ -19508,6 +20122,7 @@ This module provides  → ''
   · [ny] Invalid data → ''
   · [ny] Invalid domain → ''
   · [ny] Invalid time range → ''
+  · [ny] Is Company Details Empty → 'Is Bolagsuppgifter Tom'
   · [ny] It is possible that the "t-call" time does not correspond to the overa → ''
   · [ny] It will be removed for everyone using the "%(parentName)s" %(parentFie → ''
   · [ny] It will be removed for everyone! → ''
@@ -19681,6 +20296,7 @@ This module provides  → ''
   · [ny] Use your password → ''
   · [ny] User Settings for Embedded Actions → ''
   · [ny] User customization → ''
+  · [ny] Values set here are company-specific. → 'Värden som anges här är bolagsspecifika.'
   · [ny] Verify your identity → ''
   · [ny] View extra groups → ''
   · [ny] View non-deletable records → ''
@@ -20442,14 +21058,15 @@ All changes will be  → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 2174
-- ny (korrigerad): 0
+- ny (redan rätt): 2136
+- ny (korrigerad): 38
 - ny (vår): 0
 - ny (manuell): 1369
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
   · [ny] " Their team understood our needs from day one. The result was a relia → ''
+  · [ny] " This company transformed our business. <br/>Their solutions are inno → '"Det här bolaget förändrade vår verksamhet. <'
   · [ny] " We were impressed by their attention to detail. Every step was clear → ''
   · [ny] "%(keyword)s" is used in page content → ''
   · [ny] "%(keyword)s" is used in page description → ''
@@ -20495,6 +21112,10 @@ All changes will be  → ''
   · [ny] 3 out of 5 stars → ''
   · [ny] 30% Off Your First Purchase → ''
   · [ny] 30% off wooden desks → ''
+  · [ny] 50,000+ companies run Odoo <br class="d-none d-lg-inline"/>to grow the → '50 000+ bolag använder Odoo <br class="d-none'
+  · [ny] 50,000+ companies run Odoo to grow their businesses. → '50 000+ bolag använder Odoo för att utveckla '
+  · [ny] 50,000+ companies run Odoo<br/>to grow their businesses. → '50 000+ bolag använder Odoo<br/>för att utvec'
+  · [ny] 50,000+ companies trust Odoo. → '50 000+ bolag litar på Odoo.'
   · [ny] 50,000+ companies use our services <br/>to grow their businesses. → ''
   · [ny] 75% of clients have been using the service for over a decade consisten → ''
   · [ny] 75% of the screen → ''
@@ -20521,8 +21142,10 @@ All changes will be  → ''
   · [ny] <a href="#table_of_content_heading_1_1" class="o_translate_inline tabl → ''
   · [ny] <a href="/" class="btn btn-primary o_translate_inline">Start your jour → ''
   · [ny] <a href="/website/cookie-policy" class="oe_unremovable small o_transla → ''
+  · [ny] <b>Designed</b> for companies → '<b>Designad</b> för bolag'
   · [ny] <b>My Company</b><br/>8000 Marina Blvd, Suite 300 <br/> Brisbane CA 94 → ''
   · [ny] <br/><br/><br/>Expert’s review<br/> → ''
+  · [ny] <br/>From revenue growth to customer retention and market expansion, o → '<br/>Från intäktstillväxt till kundlojalitet '
   · [ny] <font class="text-o-color-2">DISCOVER</font> → ''
   · [ny] <font class="text-o-color-2">WHY CHOOSE US</font> → ''
   · [ny] <font style="background-image: linear-gradient(135deg, var(--o-color-4 → ''
@@ -20605,6 +21228,7 @@ All changes will be  → ''
   · [ny] <span class="flex-grow-1">By Bike</span> → ''
   · [ny] <span class="flex-grow-1">By Car</span> → ''
   · [ny] <span class="flex-grow-1">By Train</span> → ''
+  · [ny] <span class="flex-grow-1">What services does your company offer ?</spa → '<span class="flex-grow-1">Vilka tjänster erbj'
   · [ny] <span class="h2-fs">Clients</span> → ''
   · [ny] <span class="h3-fs">
                                 "This collection  → ''
@@ -20662,6 +21286,8 @@ All changes will be  → ''
   · [ny] <span class="s_badge badge text-bg-secondary o_animable" data-name="Ba → ''
   · [ny] <span class="s_progress_bar_text small d-none">25%</span> → ''
   · [ny] <span class="s_progress_bar_text small d-none">80%</span> → ''
+  · [ny] <span class="s_website_form_label_content">Company</span> → '<span class="s_website_form_label_content">Bo'
+  · [ny] <span class="s_website_form_label_content">Your Company</span> → '<span class="s_website_form_label_content">Di'
   · [ny] <span class="visually-hidden">Slide 1 of 3</span> → ''
   · [ny] <span class="visually-hidden">Slide 2 of 3</span> → ''
   · [ny] <span class="visually-hidden">Slide 3 of 3</span> → ''
@@ -20764,6 +21390,8 @@ All changes will be  → ''
   · [ny] Amber → ''
   · [ny] Amethyst → ''
   · [ny] An error has occurred, the form has not been sent. → ''
+  · [ny] Analyzing the numbers behind our success: <br class="d-none d-xxl-inli → 'Objekta siffrorna bakom vår framgång: <br cla'
+  · [ny] Analyzing the numbers behind our success: an in-depth look at the key  → 'Objekta siffrorna bakom vår framgång: en djup'
   · [ny] Analyzing trends... → ''
   · [ny] Angular shape, with sharp corners → ''
   · [ny] Animate Text → ''
@@ -20863,6 +21491,7 @@ All changes will be  → ''
   · [ny] Chart Data → ''
   · [ny] Chat with us through or fill in this form to get information about any → ''
   · [ny] Check → ''
+  · [ny] Check out what's new in our company ! → 'Kolla in vad som är nytt i vårt bolag!'
   · [ny] Checkbox List → ''
   · [ny] Checking hyperlinks... → ''
   · [ny] Checking links... → ''
@@ -20895,10 +21524,13 @@ All changes will be  → ''
   · [ny] Come Visit Us → ''
   · [ny] Community Impact Award → ''
   · [ny] Compact → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company Logo → 'Bolagslogo'
   · [ny] Company Team Grid → ''
   · [ny] Comparisons Horizontal → ''
   · [ny] Complete access → ''
   · [ny] Contact Number → ''
+  · [ny] Contact us about anything related to our company or services. → 'Kontakta oss om frågor relaterade till vårt b'
   · [ny] Content ideas based on Google searches → ''
   · [ny] Content width → ''
   · [ny] Continue reading <i class="oi align-middle ms-1" data-icon="east"/> → ''
@@ -20913,6 +21545,7 @@ All changes will be  → ''
   · [ny] Could be used in many places, see here: → ''
   · [ny] Create a Google Project and Get a Key → ''
   · [ny] Create a new page → ''
+  · [ny] Created in 2021, the company is young and dynamic. Discover the compos → 'Bolaget bildades 2021 och är ungt och dynamis'
   · [ny] Crimson → ''
   · [ny] Custom Text → ''
   · [ny] Custom Url → ''
@@ -20951,6 +21584,7 @@ All changes will be  → ''
   · [ny] Discover what makes our story unique and see how it all comes together → ''
   · [ny] Discrete → ''
   · [ny] Display a customizable cookies bar on your website. Please ensure your → ''
+  · [ny] Dive deeper into our company’s abilities. → 'Dyk djupare in i vårt bolags förmågor.'
   · [ny] Documents → ''
   · [ny] Dominoes → ''
   · [ny] Don't show again → ''
@@ -21052,6 +21686,7 @@ All changes will be  → ''
   · [ny] Form Bold → ''
   · [ny] Form Cover → ''
   · [ny] Form Info → ''
+  · [ny] Founder and chief visionary, Tony is the driving force behind the comp → 'Tony är bolagets grundare och främsta visionä'
   · [ny] Fourth Slide
                                 <small class="oe_unbreaka → ''
   · [ny] Free Shipping • Secure payment • Easy Return • → ''
@@ -21092,6 +21727,7 @@ All changes will be  → ''
   · [ny] Header Search Suggestions → ''
   · [ny] Heartbeat → ''
   · [ny] Helpful guidance, quick answers, and proactive monitoring ensure issue → ''
+  · [ny] Here are some common questions about our company. → 'Här är några vanliga frågor om vårt bolag.'
   · [ny] Hero About → ''
   · [ny] Hero Maintenance → ''
   · [ny] Hero Minimalist → ''
@@ -21113,6 +21749,7 @@ All changes will be  → ''
   · [ny] I want → ''
   · [ny] Icon Class → ''
   · [ny] Identifier → ''
+  · [ny] If set, add the menu as a second level menu, as a child of "Company" m → 'Om inställd, lägg till menyn som en andra niv'
   · [ny] If you don't write one, the description will be generated by the searc → ''
   · [ny] If you need to add analytics or marketing tags, inject code in your <h → ''
   · [ny] If you proceed, your changes will be lost → ''
@@ -21129,6 +21766,7 @@ All changes will be  → ''
   · [ny] Indicators Inside → ''
   · [ny] Indicators Outside → ''
   · [ny] Industry-Specific Award → ''
+  · [ny] Info and stats about your company → 'Information och statistik om ditt bolag'
   · [ny] Innovation<br/>Center → ''
   · [ny] Insert a horizontal separator snippet → ''
   · [ny] Insert a text highlight snippet → ''
@@ -21151,6 +21789,7 @@ All changes will be  → ''
   · [ny] Invalid: field is not less than or equal to %s. → ''
   · [ny] Inverted colors → ''
   · [ny] Iris → ''
+  · [ny] Iris, with her international experience, helps us easily understand th → 'Iris, med sin internationella erfarenhet, hjä'
   · [ny] Is Url From Exist → ''
   · [ny] Is date after → ''
   · [ny] Is date after or equal to → ''
@@ -21164,9 +21803,11 @@ All changes will be  → ''
   · [ny] Is number less than or equal to → ''
   · [ny] Is within the last X years → ''
   · [ny] Iterations → ''
+  · [ny] James leads the tech strategy and innovation efforts at the company. → 'James leder arbetet med teknisk strategi och '
   · [ny] Jane Doe → ''
   · [ny] John Doe → ''
   · [ny] Join the waitlist → ''
+  · [ny] Join us and make your company a better place. → 'Gå med oss och gör ditt bolag till en bättre '
   · [ny] Jump Into <br class="d-none d-lg-inline"/>
                             → ''
   · [ny] KINETIC → ''
@@ -21223,6 +21864,7 @@ All changes will be  → ''
   · [ny] Mega Cards → ''
   · [ny] Mega Columns → ''
   · [ny] Mega Links → ''
+  · [ny] Menu Company → 'Menybolag'
   · [ny] Menu item → ''
   · [ny] Menu with Search Bar → ''
   · [ny] Menus cannot have more than two levels of hierarchy. → ''
@@ -21232,6 +21874,7 @@ All changes will be  → ''
   · [ny] Message only → ''
   · [ny] Messaging and visuals that make your offer instantly clear. → ''
   · [ny] Messaging is not available. Please contact us by another way. → ''
+  · [ny] Mich loves taking on challenges. With his multi-year experience as Com → 'Mich älskar att ta sig an utmaningar. Med sin'
   · [ny] Midnight → ''
   · [ny] Min Characters → ''
   · [ny] Min. Height → ''
@@ -21297,11 +21940,14 @@ Get an awesome and <a href= → ''
   · [ny] Organization Certification → ''
   · [ny] Organizes Information → ''
   · [ny] Other → ''
+  · [ny] Our Company → 'Vårt Bolag'
   · [ny] Our Features → ''
   · [ny] Our Pricing → ''
   · [ny] Our Projects → ''
   · [ny] Our case studies → ''
   · [ny] Our commitments → ''
+  · [ny] Our company → 'Vårt bolag'
+  · [ny] Our company specializes in consulting, product development, and custom → 'Vårt bolag är specialiserat på konsultverksam'
   · [ny] Our features → ''
   · [ny] Our products are designed for small to medium size companies willing t → ''
   · [ny] Our services are available only to adults of legal age. → ''
@@ -21544,7 +22190,10 @@ Get an awesome and <a href= → ''
   · [ny] The URL “%(url)s“ is contained in the “%(field)s” of the following “%( → ''
   · [ny] The Ultimate Experience of Connecting → ''
   · [ny] The alt attribute is used to describe the image, optimizing both acces → ''
+  · [ny] The company this website is linked to → 'Bolaget som hemsidan är kopplad till'
+  · [ny] The company “%(company_name)s” cannot be archived because it has a lin → 'Bolaget "%(company_name)s" kan inte arkiveras'
   · [ny] The domain path cannot contain relative path segments like '/./' or '/ → ''
+  · [ny] The evolution of our company → 'Utvecklingen av vårt bolag'
   · [ny] The field "%(fieldName)s" is mandatory for the action "%(actionName)s" → ''
   · [ny] The field '%(field)s' cannot be deleted because it is referenced in a  → ''
   · [ny] The field “%(fieldName)s” is mandatory for the selected action. → ''
@@ -21629,6 +22278,7 @@ Get an awesome and <a href= → ''
   · [ny] Url or Email → ''
   · [ny] Use in website → ''
   · [ny] Use the generated link to open the pop-up. → ''
+  · [ny] Use this section to boost your company's credibility. → 'Använd detta avsnitt för att öka ditt bolags '
   · [ny] Useful if you sell subscriptions → ''
   · [ny] User selects full birth date for precise verification → ''
   · [ny] User selects their birth year to confirm age → ''
@@ -21652,6 +22302,8 @@ Get an awesome and <a href= → ''
                → ''
   · [ny] We are a team of passionate people whose goal is to improve everyone's → ''
   · [ny] We are a team of passionate people whose goal is to improve everyone's → ''
+  · [ny] We are a team of passionate people whose goal is to improve everyone's → 'Vi är ett team av passionerade människor vars'
+  · [ny] We are a team of passionate people whose goal is to improve everyone's → 'Vi är ett team av passionerade människor vars'
   · [ny] We are a team of passionate people whose goal is to improve everyone's → ''
   · [ny] We bring our expertise, shaping brands with purpose and precision. → ''
   · [ny] We capture your visitors' attention and help them quickly understand t → ''
@@ -21673,6 +22325,7 @@ Get an awesome and <a href= → ''
   · [ny] Web design → ''
   · [ny] Website Absolute URL → ''
   · [ny] Website Address Autocomplete → ''
+  · [ny] Website Company → 'Webbplatsbolag'
   · [ny] Website Information → ''
   · [ny] Website Located Mixin → ''
   · [ny] Website Page URL → ''
@@ -21708,6 +22361,7 @@ Get an awesome and <a href= → ''
   · [ny] You don't have the necessary access rights to use the website configur → ''
   · [ny] You have uploaded too many files(Maximum %s files). → ''
   · [ny] You may opt-out of a third-party's use of cookies by visiting the <a c → ''
+  · [ny] Your Company → 'Ditt bolag'
   · [ny] Your Dynamic Snippet will be displayed here... This message is display → ''
   · [ny] Your Instagram account → ''
   · [ny] Your Instagram page must be public to be integrated into an Odoo websi → ''
@@ -21899,8 +22553,8 @@ Get an awesome and <a href= → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 177
-- ny (korrigerad): 0
+- ny (redan rätt): 176
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 261
 - flagged 🚫: 0
@@ -22186,6 +22840,7 @@ Write, Design, Promote and Engage with <a href=" → ''
   · [ny] Working from home has become the new normal for many professionals aro → ''
   · [ny] Working from home has become the new normal for many professionals aro → ''
   · [ny] Working from home has become the new normal for many professionals aro → ''
+  · [ny] Write a small text here to describe your blog or company. → 'Skriv en liten text här för att beskriva din '
   · [ny] Written by → ''
   · [ny] You don't need a huge budget to see the world. What you do need is a w → ''
   · [ny] You don't need capital to get started. Find out how you can launch a s → ''
@@ -22212,8 +22867,8 @@ This module implements Cloudflare Turnstile so that you can prevent b → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 29
-- ny (korrigerad): 0
+- ny (redan rätt): 28
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 3
 - flagged 🚫: 0
@@ -22223,23 +22878,32 @@ This module implements Cloudflare Turnstile so that you can prevent b → ''
 Add capability to your website forms to generate leads or opportuniti → ''
   · [ny] Contact Form → ''
   · [ny] Generate leads from a contact form → ''
+  · [ny] Your Company → 'Ditt bolag'
 ## website_crm_iap_reveal
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 90
-- ny (korrigerad): 0
+- ny (redan rätt): 82
+- ny (korrigerad): 8
 - ny (vår): 0
 - ny (manuell): 6
 - flagged 🚫: 0
 - borttagen: 0
 - oförändrad: 0
+  · [ny] 1 credit is consumed per visitor matching the website traffic conditio → '1 kredit förbrukas per besökare som uppfyller'
   · [ny] <b>Contacts</b> → ''
   · [ny] CRM Lead Generation Rule → ''
+  · [ny] Choose whether to track companies only or companies and their contacts → 'Välj om du vill spåra endast bolag eller bola'
+  · [ny] Companies → 'Bolag'
+  · [ny] Companies and their Contacts → 'Bolag och deras kontaktpersoner'
+  · [ny] Company Size → 'Bolagets storlek'
+  · [ny] Company Size Max → 'Bolags Maxstorlek'
   · [ny] Email → ''
+  · [ny] Filter companies based on their size. → 'Filtrera bolag baserat på deras storlek.'
   · [ny] Generate Leads/Opportunities from your website's traffic → ''
   · [ny] Lead Generation From Website Visits → ''
   · [ny] Phone → ''
+  · [ny] additional credit(s) are consumed if the company matches this rule. → 'ytterligare kredit(er) förbrukas om bolaget u'
 ## website_crm_livechat
 - override: 0
 - converged 🎉: 0
@@ -22335,8 +22999,8 @@ Publish your customers as business references on your website to attr → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 253
-- ny (korrigerad): 0
+- ny (redan rätt): 251
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 89
 - flagged 🚫: 0
@@ -22426,9 +23090,11 @@ Publish your customers as business references on your website to attr → ''
   · [ny] Sidebar Blocks → ''
   · [ny] The full absolute URL to access the document through the website. → ''
   · [ny] The full relative URL to access the document through the website. → ''
+  · [ny] The website must be from the same company as the event. → 'Webbplatsen måste vara från samma bolag som e'
   · [ny] Total number of views on events → ''
   · [ny] Unschedule → ''
   · [ny] Unsupported 'Not In' operation on visitors registrations → ''
+  · [ny] Use this paragraph to write a short text about your events or company. → 'Använd detta stycke för att skriva en kort te'
   · [ny] Use this shortcut to easily access your event web page. → ''
   · [ny] View More → ''
   · [ny] Visited Page → ''
@@ -22462,8 +23128,8 @@ Display your booths on your website for the users to register.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 28
-- ny (korrigerad): 0
+- ny (redan rätt): 26
+- ny (korrigerad): 2
 - ny (vår): 0
 - ny (manuell): 3
 - flagged 🚫: 0
@@ -22472,8 +23138,11 @@ Display your booths on your website for the users to register.
   · [ny] 
 Automatically create a sponsor when renting a booth.
  → ''
+  · [ny] <span>Company Name</span>
+                        <span class="mandato → '<span>Bolagets namn</span>\n                  '
   · [ny] Booths/Exhibitors Bridge → ''
   · [ny] Event Booths, automatically create a sponsor. → ''
+  · [ny] How can we showcase your company ? → 'Hur kan vi visa upp ditt bolag?'
 ## website_event_booth_sale
 - override: 0
 - converged 🎉: 0
@@ -22562,8 +23231,8 @@ Sell event tickets through eCommerce app.
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 391
-- ny (korrigerad): 0
+- ny (redan rätt): 387
+- ny (korrigerad): 4
 - ny (vår): 0
 - ny (manuell): 97
 - flagged 🚫: 0
@@ -22602,7 +23271,10 @@ Sell event tickets through eCommerce app.
   · [ny] Close → ''
   · [ny] Coming Up Sessions → ''
   · [ny] Coming up → ''
+  · [ny] Company → 'Bolag'
+  · [ny] Company Name → 'Bolagsnamn'
   · [ny] Contact Information → ''
+  · [ny] Description of the partner (name, function and company name) → 'Beskrivning av partnern (namn, function och b'
   · [ny] Do you want an invitation by email to add to your agenda? → ''
   · [ny] Drag blocks here to add them on all event agenda pages → ''
   · [ny] Drag blocks here to add them on all event proposal pages → ''
@@ -22623,6 +23295,7 @@ Sell event tickets through eCommerce app.
   · [ny] Lightning Talks → ''
   · [ny] Location Display Background → ''
   · [ny] Location Display Link → ''
+  · [ny] My Company global presentation → 'Mitt bolags globala presentation'
   · [ny] No Invitation → ''
   · [ny] No don't ask again → ''
   · [ny] No talks today → ''
@@ -22817,8 +23490,8 @@ Show your company address/partner address on Google Maps. Configure a → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 138
-- ny (korrigerad): 0
+- ny (redan rätt): 135
+- ny (korrigerad): 3
 - ny (vår): 0
 - ny (manuell): 47
 - flagged 🚫: 0
@@ -22841,6 +23514,8 @@ Show your company address/partner address on Google Maps. Configure a → ''
   · [ny] Automatically publish the page on the chosen date and time. → ''
   · [ny] Company Mismatch → ''
   · [ny] Drag blocks here to add them on all jobs → ''
+  · [ny] Each employee has a chance to see the impact of his work.
+             → 'Varje anställd har en chans att se effekterna'
   · [ny] Industries Filter → ''
   · [ny] Job Page → ''
   · [ny] Latest Job Positions → ''
@@ -22851,9 +23526,11 @@ Show your company address/partner address on Google Maps. Configure a → ''
   · [ny] Our Job Opportunities → ''
   · [ny] Publish On → ''
   · [ny] Published date → ''
+  · [ny] Real responsibilities and challenges in a fast evolving company → 'Verkligt ansvar och utmaningar i ett snabbt u'
   · [ny] Reset Filter → ''
   · [ny] Reset Filters → ''
   · [ny] Scheduled → ''
+  · [ny] Set if the application is published on the website of the company. → 'Ställ in om ansökan ska publiceras på bolaget'
   · [ny] Thank you (Recruitment) → ''
   · [ny] The full absolute URL to access the document through the website. → ''
   · [ny] The full relative URL to access the document through the website. → ''
@@ -22977,8 +23654,8 @@ Module holding mail improvements for website. It holds the follow wid → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 37
-- ny (korrigerad): 0
+- ny (redan rätt): 36
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 38
 - flagged 🚫: 0
@@ -23002,6 +23679,7 @@ This module brings a new building block with a mailing list widget to → ''
   · [ny] Avatars → ''
   · [ny] Be the first to know when we launch.<br/>Leave your email and we'll no → ''
   · [ny] Don't miss our upcoming updates → ''
+  · [ny] Get all the latest news, blog posts and product updates from our compa → 'Få alla de senaste nyheterna, blogginläggen o'
   · [ny] Invalid mailing list. → ''
   · [ny] Invalid subscription type → ''
   · [ny] Join our mailing list to receive carefully curated resources, tips, an → ''
@@ -23204,8 +23882,8 @@ This is a bridge module that adds multi-website support for payment p → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 17
-- ny (korrigerad): 0
+- ny (redan rätt): 16
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 9
 - flagged 🚫: 0
@@ -23215,6 +23893,7 @@ This is a bridge module that adds multi-website support for payment p → ''
 Generate tasks in Project app from a form published on your website.  → ''
   · [ny] Add a task suggestion form to your website → ''
   · [ny] Ask Your Question → ''
+  · [ny] Company Name → 'Bolagsnamn'
   · [ny] Message Subject → ''
   · [ny] Online Task Submission → ''
   · [ny] Our team will get right on it. → ''
@@ -23227,8 +23906,8 @@ Generate tasks in Project app from a form published on your website.  → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 612
-- ny (korrigerad): 0
+- ny (redan rätt): 608
+- ny (korrigerad): 4
 - ny (vår): 0
 - ny (manuell): 618
 - flagged 🚫: 0
@@ -23399,7 +24078,9 @@ Fr → ''
   · [ny] Collapse sidebar sections → ''
   · [ny] Color Filter → ''
   · [ny] Color combinations are defined in the Theme Tab → ''
+  · [ny] Company → 'Bolag'
   · [ny] Company Details → ''
+  · [ny] Company Name → 'Bolagsnamn'
   · [ny] Compare → ''
   · [ny] Compare Products → ''
   · [ny] Compare products → ''
@@ -23590,6 +24271,8 @@ Fr → ''
   · [ny] One year in high school. → ''
   · [ny] Online Catalog Template → ''
   · [ny] Only one ribbon with the assign %s is allowed. → ''
+  · [ny] Only the company's websites are allowed.
+Leave the Company field empty → 'Endast bolagets hemsidor är tillåtna.\nLämna b'
   · [ny] Opacity of the overlay → ''
   · [ny] Open Shop Page → ''
   · [ny] Order Number → ''
@@ -23756,6 +24439,7 @@ Fr → ''
   · [ny] Technical field to enhance performance when looking up default code of → ''
   · [ny] Text & content → ''
   · [ny] The building block will remain empty until the user visits a product p → ''
+  · [ny] The company of the website you are trying to sell from (%(website_comp → 'Bolaget på webbplatsen som du försöker sälja '
   · [ny] The estimated delivery date was no longer possible. We apologize for a → ''
   · [ny] The feed %(feed_name)s contains more than %(limit)s products, which ma → ''
   · [ny] The full absolute URL to access the document through the website. → ''
@@ -24085,8 +24769,8 @@ Manage the inventory of your products and display their availability  → ''
 - override: 0
 - converged 🎉: 0
 - conflict ⚠️: 0
-- ny (redan rätt): 1071
-- ny (korrigerad): 0
+- ny (redan rätt): 1070
+- ny (korrigerad): 1
 - ny (vår): 0
 - ny (manuell): 79
 - flagged 🚫: 0
@@ -24136,6 +24820,7 @@ Featuring
   · [ny] Certified Attendees → ''
   · [ny] Certified attendees → ''
   · [ny] Channel/Course Group → ''
+  · [ny] Company Course Count → 'Antal bolagskurser'
   · [ny] Completion date → ''
   · [ny] Copy the shareable link → ''
   · [ny] Course Slides → ''

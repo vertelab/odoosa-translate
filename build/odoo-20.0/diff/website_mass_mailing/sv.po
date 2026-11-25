@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-website_mass_mailing\n"
 "Language: sv\n"
+
+#. module: website_mass_mailing
+# new-corrected | officiell: 'Få alla de senaste nyheterna, blogginläggen och
+# produktuppdateringarna från vårt företag direkt till din inkorg.'
+msgid ""
+"Get all the latest news, blog posts and product updates from our company, "
+"delivered directly to your inbox."
+msgstr ""
+"Få alla de senaste nyheterna, blogginläggen och produktuppdateringarna från "
+"vårt bolag direkt till din inkorg."

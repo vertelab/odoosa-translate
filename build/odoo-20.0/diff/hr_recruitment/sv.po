@@ -3,3 +3,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-hr_recruitment\n"
 "Language: sv\n"
+
+#. module: hr_recruitment
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr_recruitment
+# new-corrected | officiell: 'Välj den ort där den sökande ska arbeta.
+# Adresser som anges här är definierade på företagets kontaktinformation.'
+msgid ""
+"Select the location where the applicant will work. Addresses listed here are"
+" defined on the company's contact information."
+msgstr ""
+"Välj den ort där den sökande ska arbeta. Adresser som anges här är "
+"definierade på bolagets kontaktinformation."

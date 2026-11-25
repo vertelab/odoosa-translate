@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-auth_ldap\n"
 "Language: sv\n"
+
+#. module: auth_ldap
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: auth_ldap
+# new-corrected | officiell: 'Företagets LDAP-konfiguration'
+msgid "Company LDAP configuration"
+msgstr "Bolagets LDAP-konfiguration"

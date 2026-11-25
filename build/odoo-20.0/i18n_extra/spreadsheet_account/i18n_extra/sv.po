@@ -2,9 +2,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-spreadsheet_account\n"
-"POT-Creation-Date: 2026-11-25 11:19\n"
-"PO-Revision-Date: 2026-11-25 11:19\n"
+"POT-Creation-Date: 2026-11-25 11:32\n"
+"PO-Revision-Date: 2026-11-25 11:32\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: spreadsheet_account
+#: model:ir.model,name:spreadsheet_account.model_res_company
+msgid "Company"
+msgstr "Bolag"
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+msgid "Currency not available for this company."
+msgstr "Valutan är inte tillgänglig för det här bolaget."
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+msgid "The company fiscal year could not be found."
+msgstr "Bolagets räkenskapsår kunde inte hittas."
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+msgid "The company to target (Advanced)."
+msgstr "Det gällande bolaget (avancerat)."
+
+#. module: spreadsheet_account
+#. odoo-javascript
+#: code:addons/spreadsheet_account/static/src/accounting_functions.js:0
+msgid "The company."
+msgstr "Bolaget."

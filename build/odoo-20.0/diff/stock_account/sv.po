@@ -3,3 +3,56 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-stock_account\n"
 "Language: sv\n"
+
+#. module: stock_account
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: stock_account
+# new-corrected | officiell: 'Företagets valuta'
+msgid "Company Currency"
+msgstr "Bolagets valuta"
+
+#. module: stock_account
+# new-corrected | officiell: 'Om transporten har sitt ursprung i ett dokument
+# från ett annat företag, så används det företagets partner, annars används
+# den partner som angetts på transporten.'
+msgid ""
+"If the move originates from a document from another company, contains that "
+"company's partner, otherwise the move's partner."
+msgstr ""
+"Om transporten har sitt ursprung i ett dokument från ett annat bolag, så "
+"används det bolagets partner, annars används den partner som angetts på "
+"transporten."
+
+#. module: stock_account
+# new-corrected | officiell: 'Värderas inuti företaget'
+msgid "Is valued inside the company"
+msgstr "Värderas inuti bolaget"
+
+#. module: stock_account
+# new-corrected | officiell: 'Anges endast om verifikationen skapas från ett
+# dokument som tillhör ett annat företag'
+msgid ""
+"Only set if the move is generated from a document belonging to another "
+"company"
+msgstr ""
+"Anges endast om verifikationen skapas från ett dokument som tillhör ett "
+"annat bolag"
+
+#. module: stock_account
+# new-corrected | officiell: 'Ursprungsföretag'
+msgid "Origin Company"
+msgstr "Ursprungsbolag"
+
+#. module: stock_account
+# new-corrected | officiell: 'Tekniskt fält för att korrekt visa det valda
+# företagets valuta som motsvarar det totala värdet av produktens
+# värderingslager'
+msgid ""
+"Technical field to correctly show the currently selected company's currency "
+"that corresponds to the totaled value of the product's valuation layers"
+msgstr ""
+"Tekniskt fält för att korrekt visa det valda bolagets valuta som motsvarar "
+"det totala värdet av produktens värderingslager"

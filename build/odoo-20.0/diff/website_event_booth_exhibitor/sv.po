@@ -3,3 +3,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-website_event_booth_exhibitor\n"
 "Language: sv\n"
+
+#. module: website_event_booth_exhibitor
+# new-corrected | officiell: '<span>Företagets namn</span>\n
+# <span class="mandatory_mark"> *</span>'
+msgid ""
+"<span>Company Name</span>\n"
+"                        <span class=\"mandatory_mark\"> *</span>"
+msgstr ""
+"<span>Bolagets namn</span>\n"
+"                        <span class=\"mandatory_mark\"> *</span>"
+
+#. module: website_event_booth_exhibitor
+# new-corrected | officiell: 'Hur kan vi visa upp ditt företag?'
+msgid "How can we showcase your company ?"
+msgstr "Hur kan vi visa upp ditt bolag?"

@@ -2,9 +2,41 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-payment\n"
-"POT-Creation-Date: 2026-11-25 11:19\n"
-"PO-Revision-Date: 2026-11-25 11:19\n"
+"POT-Creation-Date: 2026-11-25 11:32\n"
+"PO-Revision-Date: 2026-11-25 11:32\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: payment
+#: model:ir.model,name:payment.model_res_company
+#: model:ir.model.fields,field_description:payment.field_payment_link_wizard__company_id
+#: model:ir.model.fields,field_description:payment.field_payment_provider__company_id
+#: model:ir.model.fields,field_description:payment.field_payment_token__company_id
+#: model:ir.model.fields,field_description:payment.field_payment_transaction__company_id
+#: model_terms:ir.ui.view,arch_db:payment.payment_provider_search
+#: model_terms:ir.ui.view,arch_db:payment.payment_token_search
+#: model_terms:ir.ui.view,arch_db:payment.payment_transaction_search
+msgid "Company"
+msgstr "Bolag"
+
+#. module: payment
+#: model_terms:ir.ui.view,arch_db:payment.company_mismatch_warning
+msgid "Please switch to company"
+msgstr "Vänligen byt till bolag"
+
+#. module: payment
+#: model:ir.model.fields,help:payment.field_payment_provider__main_currency_id
+msgid "The main currency of the company, used to display monetary fields."
+msgstr "Bolagets huvudvaluta, används för att visa monetära fält."
+
+#. module: payment
+#. odoo-python
+#: code:addons/payment/models/payment_provider.py:0
+msgid ""
+"You cannot change the company of a payment provider with existing "
+"transactions."
+msgstr ""
+"Du kan inte byta bolag för en betalningsleverantör med befintliga "
+"transaktioner."

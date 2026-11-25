@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-snailmail\n"
 "Language: sv\n"
+
+#. module: snailmail
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

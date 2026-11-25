@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-website_crm\n"
 "Language: sv\n"
+
+#. module: website_crm
+# new-corrected | officiell: 'Ditt företag'
+msgid "Your Company"
+msgstr "Ditt bolag"

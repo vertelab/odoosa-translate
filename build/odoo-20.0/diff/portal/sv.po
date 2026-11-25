@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-portal\n"
 "Language: sv\n"
+
+#. module: portal
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: portal
+# new-corrected | officiell: 'Rapporter för flera företag stöds inte.'
+msgid "Multi company reports are not supported."
+msgstr "Rapporter för flera bolag stöds inte."

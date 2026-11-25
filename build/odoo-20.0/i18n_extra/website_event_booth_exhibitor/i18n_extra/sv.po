@@ -2,9 +2,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website_event_booth_exhibitor\n"
-"POT-Creation-Date: 2026-11-25 11:19\n"
-"PO-Revision-Date: 2026-11-25 11:19\n"
+"POT-Creation-Date: 2026-11-25 11:32\n"
+"PO-Revision-Date: 2026-11-25 11:32\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: website_event_booth_exhibitor
+#: model_terms:ir.ui.view,arch_db:website_event_booth_exhibitor.event_booth_registration_details
+msgid ""
+"<span>Company Name</span>\n"
+"                        <span class=\"mandatory_mark\"> *</span>"
+msgstr ""
+"<span>Bolagets namn</span>\n"
+"                        <span class=\"mandatory_mark\"> *</span>"
+
+#. module: website_event_booth_exhibitor
+#: model_terms:ir.ui.view,arch_db:website_event_booth_exhibitor.event_booth_registration_details
+msgid "How can we showcase your company ?"
+msgstr "Hur kan vi visa upp ditt bolag?"

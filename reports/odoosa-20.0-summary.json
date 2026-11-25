@@ -1,12 +1,12 @@
 {
   "edition": "20.0",
-  "generated": "2026-11-25 11:19",
+  "generated": "2026-11-25 11:32",
   "totals": {
     "override": 0,
     "converged": 0,
     "conflict": 0,
-    "new-correct": 44997,
-    "new-corrected": 0,
+    "new-correct": 44334,
+    "new-corrected": 663,
     "new-ours": 0,
     "new-manual": 19017,
     "flagged": 0,
@@ -17,35 +17,35 @@
   "top_modules": [
     {
       "module": "spreadsheet",
-      "count": 2018
+      "count": 2019
     },
     {
       "module": "website",
-      "count": 1369
+      "count": 1407
     },
     {
       "module": "web",
-      "count": 1062
+      "count": 1078
     },
     {
       "module": "mail",
-      "count": 1002
+      "count": 1010
     },
     {
       "module": "point_of_sale",
-      "count": 829
-    },
-    {
-      "module": "hr_work_entry",
-      "count": 619
+      "count": 845
     },
     {
       "module": "website_sale",
-      "count": 618
+      "count": 622
+    },
+    {
+      "module": "hr_work_entry",
+      "count": 620
     },
     {
       "module": "base",
-      "count": 547
+      "count": 582
     }
   ],
   "rule_changes": {
@@ -54,6 +54,711 @@
   },
   "conflicts": [],
   "new": [
+    {
+      "module": "account",
+      "msgid": ". The journal entries need to be computed by Odoo before being posted in your co",
+      "translation": ". Beloppen i verifikationerna måste beräknas av Odoo innan d"
+    },
+    {
+      "module": "account",
+      "msgid": "A partner cannot have both an individual identifier (%(individual)s) and a compa",
+      "translation": "En partner kan inte ha både en individuell identifierare (%("
+    },
+    {
+      "module": "account",
+      "msgid": "Account %(account)s will be split in %(num_accounts)s, one for each company:\n",
+      "translation": "Kontot %(account)s kommer att delas upp i %(num_accounts)s, "
+    },
+    {
+      "module": "account",
+      "msgid": "Account %s cannot be unmerged as it already belongs to a single company. The unm",
+      "translation": "Kontot %s kan inte delas upp eftersom det redan tillhör ett "
+    },
+    {
+      "module": "account",
+      "msgid": "All selected moves for reversal must belong to the same company.",
+      "translation": "Alla markerade rättningsrörelser måste vara kopplade till sa"
+    },
+    {
+      "module": "account",
+      "msgid": "Always positive amount concerned by this matching expressed in the company curre",
+      "translation": "Enbart positivt belopp kopplat till denna matchning och uttr"
+    },
+    {
+      "module": "account",
+      "msgid": "Amount Company Currency Signed",
+      "translation": "Undertecknat belopp i bolagets valuta"
+    },
+    {
+      "module": "account",
+      "msgid": "Amount to Pay (company currency)",
+      "translation": "Belopp att betala (bolagets valuta)"
+    },
+    {
+      "module": "account",
+      "msgid": "An account is part of a ledger allowing your company\n                to register",
+      "translation": "Ett konto är en del av ett huvudbok som gör det möjligt för "
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Account",
+      "translation": "Objektkonto"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Accounting",
+      "translation": "Objektredovisning"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Accounts",
+      "translation": "Objektkonton"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Distribution",
+      "translation": "Objektfördelning"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Distribution Model",
+      "translation": "Objektfördelning"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Distribution Models",
+      "translation": "Objektfördelning"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Lines",
+      "translation": "Objektrader"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Plan's Applicabilities",
+      "translation": "Objektreglers användningsgrad"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Plans",
+      "translation": "Objektregler"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Precision",
+      "translation": "Objektprecision"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic Reporting",
+      "translation": "Objektrapporter"
+    },
+    {
+      "module": "account",
+      "msgid": "Analytic lines",
+      "translation": "Objektrader"
+    },
+    {
+      "module": "account",
+      "msgid": "Bank & Cash accounts cannot be shared between companies.",
+      "translation": "Bank- och kassakonton kan inte delas mellan bolag."
+    },
+    {
+      "module": "account",
+      "msgid": "Bank Account Number to which the invoice will be paid. A Company bank account if",
+      "translation": "Kontonummer för det bankkonto som fakturan kommer att betala"
+    },
+    {
+      "module": "account",
+      "msgid": "Belongs to the same company as %s.",
+      "translation": "Tillhör samma bolag som %s."
+    },
+    {
+      "module": "account",
+      "msgid": "Business licenses and permits that your company must pay to operate",
+      "translation": "Bolagslicenser och tillstånd som ditt bolag måste betala för"
+    },
+    {
+      "module": "account",
+      "msgid": "Cannot find a chart of accounts for this company, You should configure it. \nPlea",
+      "translation": "Ingen kontoplan hittades för det här bolaget, den bör därmed"
+    },
+    {
+      "module": "account",
+      "msgid": "Closing: Stock Variation Global for company [%(company)s]",
+      "translation": "Bokslut: Global lagervärdering per bolag [%(company)s]"
+    },
+    {
+      "module": "account",
+      "msgid": "Companies",
+      "translation": "Bolag"
+    },
+    {
+      "module": "account",
+      "msgid": "Companies that refers to partner",
+      "translation": "Bolag kopplade till partner"
+    },
+    {
+      "module": "account",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "account",
+      "msgid": "Company ",
+      "translation": "Bolag"
+    },
+    {
+      "module": "account",
+      "msgid": "Company Bank Account",
+      "translation": "Bolagets bankkonto"
+    },
+    {
+      "module": "account",
+      "msgid": "Company Country",
+      "translation": "Bolagets land"
+    },
+    {
+      "module": "account",
+      "msgid": "Company Currency",
+      "translation": "Bolagets valuta"
+    },
+    {
+      "module": "account",
+      "msgid": "Company Document Layout",
+      "translation": "Bolagets dokumentlayout"
+    },
+    {
+      "module": "account",
+      "msgid": "Company Fiscal Country Code",
+      "translation": "Landskod för bolagets skatterättsliga hemvist"
+    },
+    {
+      "module": "account",
+      "msgid": "Company Storno Accounting",
+      "translation": "Bolag med Storno-bokföring"
+    },
+    {
+      "module": "account",
+      "msgid": "Company Vat Placeholder",
+      "translation": "Platshållare för bolagets momsregistreringsnummer"
+    },
+    {
+      "module": "account",
+      "msgid": "Company has a chart of accounts",
+      "translation": "Bolaget har en kontoplan"
+    },
+    {
+      "module": "account",
+      "msgid": "Company of the Journal",
+      "translation": "Bolaget som är kopplat till journalen"
+    },
+    {
+      "module": "account",
+      "msgid": "Company related to this journal",
+      "translation": "Bolag relaterade till denna journal"
+    },
+    {
+      "module": "account",
+      "msgid": "Company's personnel costs excluding compensations, contributions and vouchers",
+      "translation": "Bolagets personalkostnader exklusive tjänsteersättning, bidr"
+    },
+    {
+      "module": "account",
+      "msgid": "Compensation paid to employees and workers employed by the company",
+      "translation": "Tjänsteersättning till anställda och arbetare som är anställ"
+    },
+    {
+      "module": "account",
+      "msgid": "Countries for which the company has a Tax ID",
+      "translation": "Länder i vilka bolaget har ett skattenummer"
+    },
+    {
+      "module": "account",
+      "msgid": "Currency rate from company currency to document currency.",
+      "translation": "Växelkurs vid omvandling från bolagets valuta till dokumente"
+    },
+    {
+      "module": "account",
+      "msgid": "Default Incoterm of your company",
+      "translation": "Standard incotermer för bolaget"
+    },
+    {
+      "module": "account",
+      "msgid": "Default on whether the sales price used on the product and invoices with this Co",
+      "translation": "Standard om huruvida det försäljningspris som används för bo"
+    },
+    {
+      "module": "account",
+      "msgid": "Enable multi company consolidation",
+      "translation": "Aktivera konsolidering mellan flera bolag"
+    },
+    {
+      "module": "account",
+      "msgid": "Entries can only be created for a single company at a time.",
+      "translation": "Verifikat kan endast skapas för ett bolag åt gången."
+    },
+    {
+      "module": "account",
+      "msgid": "Entries don't belong to the same company: %s",
+      "translation": "Följande verifikat tillhör inte samma bolag: %s"
+    },
+    {
+      "module": "account",
+      "msgid": "Expenses made for the repair and maintenance of company cars and trucks",
+      "translation": "Kostnader för reparationer och underhåll av bolagsbilar och "
+    },
+    {
+      "module": "account",
+      "msgid": "Fiscal Country Code of the Company",
+      "translation": "Bolagets skatterättsliga hemvistkod"
+    },
+    {
+      "module": "account",
+      "msgid": "Items With Missing Analytic Distribution",
+      "translation": "Objekt som saknar objektfördelning"
+    },
+    {
+      "module": "account",
+      "msgid": "Journal codes must be unique per company.",
+      "translation": "Journalkoder måste vara unika för varje bolag."
+    },
+    {
+      "module": "account",
+      "msgid": "Journal where the opening entry of this company's accounting has been posted.",
+      "translation": "Journal där bolagets ingående balans har bokförts."
+    },
+    {
+      "module": "account",
+      "msgid": "Main currency of the company.",
+      "translation": "Bolagets huvudsakliga valuta."
+    },
+    {
+      "module": "account",
+      "msgid": "Main currency of your company",
+      "translation": "Bolagets huvudsakliga valuta"
+    },
+    {
+      "module": "account",
+      "msgid": "Mapping of account codes per company",
+      "translation": "Kartläggning av kontokoder per bolag"
+    },
+    {
+      "module": "account",
+      "msgid": "Multi-Company",
+      "translation": "Flera bolag"
+    },
+    {
+      "module": "account",
+      "msgid": "No journal could be found in company %(company_name)s for any of those types: %(",
+      "translation": "Ingen journal hittades i bolaget %(company_name)s för någon "
+    },
+    {
+      "module": "account",
+      "msgid": "Onboarding Company Data",
+      "translation": "Introduktion till bolagsdata"
+    },
+    {
+      "module": "account",
+      "msgid": "One or more lines require a 100% analytic distribution.",
+      "translation": "En eller flera rader kräver en objektfördelning på 100 %."
+    },
+    {
+      "module": "account",
+      "msgid": "Overrides the Company's default on whether the price you use on the product and ",
+      "translation": "Gör det möjligt att bortse från bolagets standardinställning"
+    },
+    {
+      "module": "account",
+      "msgid": "Premiums paid for insurance coverage on company-owned or leased vehicles",
+      "translation": "Premier för fordonsförsäkringar för fordon som ägs eller hyr"
+    },
+    {
+      "module": "account",
+      "msgid": "Select a product category which will use analytic account specified in analytic ",
+      "translation": "Välj ett specifikt objektkonto för en viss produktkategori, "
+    },
+    {
+      "module": "account",
+      "msgid": "Select a product for which the analytic distribution will be used (e.g. create n",
+      "translation": "Välj en specifik produkt för vilken objektfördelningen komme"
+    },
+    {
+      "module": "account",
+      "msgid": "Set Company Data",
+      "translation": "Ange bolagsdata"
+    },
+    {
+      "module": "account",
+      "msgid": "Set your Company Data",
+      "translation": "Ange dina bolagsuppgifter"
+    },
+    {
+      "module": "account",
+      "msgid": "Set your company data",
+      "translation": "Ange bolagsuppgifter"
+    },
+    {
+      "module": "account",
+      "msgid": "Set your company's data for documents header/footer.",
+      "translation": "Ställ in information om ditt bolag som ska visas i sidhuvude"
+    },
+    {
+      "module": "account",
+      "msgid": "Taxes in company currency",
+      "translation": "Skatter i bolagets valuta"
+    },
+    {
+      "module": "account",
+      "msgid": "Technical field containing the countries for which this company is using tax-rel",
+      "translation": "Tekniskt fält som innehåller de länder för vilka detta bolag"
+    },
+    {
+      "module": "account",
+      "msgid": "Technical field giving the date the company lock date at the time the exception ",
+      "translation": "Tekniskt fält som anger bolagets låsningsdatum vid det tillf"
+    },
+    {
+      "module": "account",
+      "msgid": "The amount expressed in the secondary currency must be positive when account is ",
+      "translation": "Beloppet som uttrycks i den sekundära valutan måste vara pos"
+    },
+    {
+      "module": "account",
+      "msgid": "The bank account of a bank journal must belong to the same company (%s).",
+      "translation": "Bankkontot kopplat till en bankjournal måste tillhöra samma "
+    },
+    {
+      "module": "account",
+      "msgid": "The bank account of your company is not trusted. Please ask an admin or someone ",
+      "translation": "Bolagets angivna bankkonto är ej betrott. Vänligen be en adm"
+    },
+    {
+      "module": "account",
+      "msgid": "The company this distribution line belongs to.",
+      "translation": "Det bolag som denna fördelningsrad är kopplad till."
+    },
+    {
+      "module": "account",
+      "msgid": "The country to use the tax reports from for this company",
+      "translation": "Landet från vilket skatterapporter ska användas för detta bo"
+    },
+    {
+      "module": "account",
+      "msgid": "The entry is using accounts (%(accounts_codes_names)s) from a different company.",
+      "translation": "Verifikatet använder sig av konton (%(accounts_codes_names)s"
+    },
+    {
+      "module": "account",
+      "msgid": "The entry is using taxes (%(tax_names)s) from a different company.",
+      "translation": "Verifikationen använder skatter (%(tax_names)s) från ett ann"
+    },
+    {
+      "module": "account",
+      "msgid": "The following accounts must be assigned to at least one company:\n%(accounts)s",
+      "translation": "Följande konton måste vara kopplade till minst ett bolag:\n%("
+    },
+    {
+      "module": "account",
+      "msgid": "The holder of a journal's bank account must be the company (%s).",
+      "translation": "Den angivna kontoinnehavaren för en journals bankkonto måste"
+    },
+    {
+      "module": "account",
+      "msgid": "The journal entry containing the initial balance of all this company's accounts.",
+      "translation": "Verifikatet som innehåller ingående saldon för alla bolagets"
+    },
+    {
+      "module": "account",
+      "msgid": "The partners of the journal's company and the related bank account mismatch.",
+      "translation": "Uppgifterna som angivits om de partners som ingår i det bola"
+    },
+    {
+      "module": "account",
+      "msgid": "The residual amount (at date) on a journal item expressed in the company currenc",
+      "translation": "Det kvarvarande beloppet (vid ett visst datum) på en verifik"
+    },
+    {
+      "module": "account",
+      "msgid": "The residual amount on a journal item expressed in its currency (possibly not th",
+      "translation": "Det återstående beloppet för en verifikationsrad uttryckt i "
+    },
+    {
+      "module": "account",
+      "msgid": "The residual amount on a journal item expressed in the company currency.",
+      "translation": "Det återstående beloppet för en verifikationsrad angivet i b"
+    },
+    {
+      "module": "account",
+      "msgid": "The tax ID of your company in the region mapped by this fiscal position.",
+      "translation": "Skatteregistreringsnumret för ditt bolag i regionen som kart"
+    },
+    {
+      "module": "account",
+      "msgid": "There is no tax cash basis journal defined for the '%s' company.\nConfigure it in",
+      "translation": "Det finns ingen skattejournal enligt kontantmetoden angiven "
+    },
+    {
+      "module": "account",
+      "msgid": "This action is irreversible: the credit/debit cannot be modified again from this",
+      "translation": "Åtgärden är oåterkallelig: kredit/debet kan inte ändras igen"
+    },
+    {
+      "module": "account",
+      "msgid": "This allows accountants to manage analytic and crossovered budgets. Once the mas",
+      "translation": "Detta gör det möjligt för revisorer att hantera analytiska b"
+    },
+    {
+      "module": "account",
+      "msgid": "This analytic distribution will apply to all financial accounts sharing the pref",
+      "translation": "Objektfördelningen gäller för alla finansiella konton som de"
+    },
+    {
+      "module": "account",
+      "msgid": "This entry contains one or more taxes that are incompatible with your fiscal cou",
+      "translation": "Det här verifikatet innehåller en eller flera skatter som är"
+    },
+    {
+      "module": "account",
+      "msgid": "Use Company Selector",
+      "translation": "Använd bolagsväljare"
+    },
+    {
+      "module": "account",
+      "msgid": "We can't leave this document without any company. Please select a company for th",
+      "translation": "Vi kan inte låta det här dokument vara utan ett angivet bola"
+    },
+    {
+      "module": "account",
+      "msgid": "We cannot find a chart of accounts for this company, you should configure it. \nP",
+      "translation": "Vi kan inte hitta bolagets kontoplan, du bör därmed ställa i"
+    },
+    {
+      "module": "account",
+      "msgid": "You can't change the company of your journal since there are some journal entrie",
+      "translation": "Det är inte möjligt att byta journalens angivna bolag efters"
+    },
+    {
+      "module": "account",
+      "msgid": "You can't change the company of your tax since there are some journal items link",
+      "translation": "Det är inte möjligt att byta skattens angivna bolag eftersom"
+    },
+    {
+      "module": "account",
+      "msgid": "You can't create a new payment without an outstanding payments/receipts account ",
+      "translation": "Det är inte möjligt att skapa en ny betalning utan att ett k"
+    },
+    {
+      "module": "account",
+      "msgid": "You can't create payments for entries belonging to different companies.",
+      "translation": "Det är inte möjligt att skapa betalningar för verifikat som "
+    },
+    {
+      "module": "account",
+      "msgid": "You can't unlink this company from this account since there are some journal ite",
+      "translation": "Det är inte möjligt att koppla bort det här bolaget från det"
+    },
+    {
+      "module": "account",
+      "msgid": "You cannot change the currency of the company since some journal items already e",
+      "translation": "Det är inte möjligt att ändra bolagets valuta eftersom vissa"
+    },
+    {
+      "module": "account",
+      "msgid": "You cannot configure the document layout for this company.",
+      "translation": "Det är inte möjligt att konfigurera en dokumentlayout för de"
+    },
+    {
+      "module": "account",
+      "msgid": "You cannot post an entry with an archived analytic account: %s",
+      "translation": "Det är inte möjligt att bokföra ett verifikat kopplat till e"
+    },
+    {
+      "module": "account",
+      "msgid": "You cannot use this wizard on journal entries belonging to different companies.",
+      "translation": "Det är inte möjligt att använda den här guiden med verifikat"
+    },
+    {
+      "module": "account",
+      "msgid": "You do not have the right to perform this operation as you do not have access to",
+      "translation": "Du har inte behörighet att genomföra den här processen efter"
+    },
+    {
+      "module": "account",
+      "msgid": "You have to configure the 'Exchange Gain or Loss Journal' in your company settin",
+      "translation": "Du bör ställa in en journal för 'vinst eller förlust vid val"
+    },
+    {
+      "module": "account",
+      "msgid": "You should configure the 'Gain Exchange Rate Account' in your company settings, ",
+      "translation": "Du bör ställa in ett 'konto för vinst vid valutaomvandling' "
+    },
+    {
+      "module": "account",
+      "msgid": "You should configure the 'Loss Exchange Rate Account' in your company settings, ",
+      "translation": "Du bör ställa in ett 'konto för förluster vid valutaomvandli"
+    },
+    {
+      "module": "account",
+      "msgid": "e.g. My Company",
+      "translation": "t.ex. Mitt bolag"
+    },
+    {
+      "module": "account_check_printing",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "account_edi",
+      "msgid": "\nElectronic Data Interchange\n=======================================\nEDI is the ",
+      "translation": "Electronic Data Interchange\n================================"
+    },
+    {
+      "module": "account_edi_proxy_client",
+      "msgid": "\nThis module adds generic features to register an Odoo DB on the proxy responsib",
+      "translation": "Den här modulen lägger till allmänna funktioner för att regi"
+    },
+    {
+      "module": "account_edi_proxy_client",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "account_edi_proxy_client",
+      "msgid": "This company has an active user already created for this EDI type",
+      "translation": "Bolaget har redan en aktiv användare för denna EDI-typ"
+    },
+    {
+      "module": "account_edi_ubl_cii",
+      "msgid": "\nElectronic invoicing module\n===========================\n\nAllows to export and i",
+      "translation": "Modul för digital fakturering\n===========================\n\nG"
+    },
+    {
+      "module": "account_edi_ubl_cii",
+      "msgid": "Belgian Company Registry",
+      "translation": "Bolagsregister i Belgien"
+    },
+    {
+      "module": "account_edi_ubl_cii",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "account_edi_ubl_cii",
+      "msgid": "Estonia Company code",
+      "translation": "Bolagsnummer i Estland"
+    },
+    {
+      "module": "account_edi_ubl_cii",
+      "msgid": "Please fill in your company's VAT or Peppol Address to generate a complete XML f",
+      "translation": "Vänligen fyll i bolagets momsregistreringsnummer eller Peppo"
+    },
+    {
+      "module": "account_edi_ubl_cii",
+      "msgid": "[PEPPOL-EN16931-R020] An electronic address (EAS) must be provided on the compan",
+      "translation": "[PEPPOL-EN16931-R020] En digital adress (EAS) måste anges fö"
+    },
+    {
+      "module": "account_payment",
+      "msgid": "Overdue invoices should share the same company.",
+      "translation": "Förfallna fakturor bör ha samma bolag angivet."
+    },
+    {
+      "module": "account_payment_interco",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; back",
+      "translation": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"pad"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Company Name",
+      "translation": "Bolagets namn"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "If you are not subject to VAT, you should not have a VAT number on your company/",
+      "translation": "Om du inte är momspliktig, bör du inte ha ett angivet momsre"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Parent Company",
+      "translation": "Överordnat bolag"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Peppol ID should be different from main company.",
+      "translation": "Peppol-ID bör skilja sig från huvudbolaget."
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Peppol Parent Company",
+      "translation": "Peppol överordnat bolag"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Peppol Parent Company Name",
+      "translation": "Peppol namn på överordnat bolag"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Peppol Use Parent Company",
+      "translation": "Peppol använd överordnat bolag"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Please fill in the company's routing identification.",
+      "translation": "Vänligen ange bolagets routing-ID."
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Please select a country for your company.",
+      "translation": "Vänligen välj ett land för ditt bolag."
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Register this company on peppol",
+      "translation": "Registrera bolaget hos peppol"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Selected Company",
+      "translation": "Utvalda bolag"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Send from parent company",
+      "translation": "Skicka från överordnat bolag"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "You are about to register with your VAT number. Make sure you register with your",
+      "translation": "Du är på väg att använda ett momsregistreringsnummer för att"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "You confirm that you are authorized to register this company on the Peppol netwo",
+      "translation": "Du bekräftar att du har behörighet att registrera bolaget på"
+    },
+    {
+      "module": "account_peppol",
+      "msgid": "Your company is already registered on an Access Point (%s) for receiving invoice",
+      "translation": "Ditt bolag har redan en registrerad accesspunkt (%s) för att"
+    },
+    {
+      "module": "account_qr_code_emv",
+      "msgid": "Company Qr Code",
+      "translation": "Bolagets QR-kod"
+    },
     {
       "module": "account_test",
       "msgid": "Account Test Report",
@@ -165,6 +870,11 @@
       "translation": ""
     },
     {
+      "module": "account_update_tax_tags",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
       "module": "analytic",
       "msgid": "\nModule for defining analytic accounting object.\n===============================",
       "translation": ""
@@ -186,6 +896,16 @@
     },
     {
       "module": "analytic",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "analytic",
+      "msgid": "Select a company for which the analytic distribution will be used (e.g. create n",
+      "translation": "Välj ett bolag för vilket den objektdistributionen ska använ"
+    },
+    {
+      "module": "analytic",
       "msgid": "System Parameter",
       "translation": ""
     },
@@ -198,6 +918,16 @@
       "module": "analytic",
       "msgid": "Wrong analytic distribution format",
       "translation": ""
+    },
+    {
+      "module": "analytic",
+      "msgid": "You can't change the company of an analytic account that already has analytic it",
+      "translation": "Du kan inte ändra bolaget för ett objektkonto som redan har "
+    },
+    {
+      "module": "analytic",
+      "msgid": "You defined a distribution with analytic account(s) belonging to a specific comp",
+      "translation": "Du har angivit en fördelning med objektkonton som tillhör et"
     },
     {
       "module": "api_doc",
@@ -243,6 +973,16 @@
       "module": "auth_ldap",
       "msgid": "Cannot contact LDAP server at %(server)s:%(port)d",
       "translation": ""
+    },
+    {
+      "module": "auth_ldap",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "auth_ldap",
+      "msgid": "Company LDAP configuration",
+      "translation": "Bolagets LDAP-konfiguration"
     },
     {
       "module": "auth_ldap",
@@ -553,6 +1293,11 @@
       "module": "barcodes",
       "msgid": "Click the icon in the browser on the left of the address bar and toggle Camera p",
       "translation": ""
+    },
+    {
+      "module": "barcodes",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "barcodes",
@@ -1261,6 +2006,11 @@
     },
     {
       "module": "base",
+      "msgid": "Check if the contact is a company, otherwise it is a person",
+      "translation": "Markera denna ruta om kontakten är ett bolag, annars är det "
+    },
+    {
+      "module": "base",
       "msgid": "Citizen Identification",
       "translation": ""
     },
@@ -1296,13 +2046,48 @@
     },
     {
       "module": "base",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "base",
       "msgid": "Company Currency",
       "translation": ""
     },
     {
       "module": "base",
+      "msgid": "Company Employer",
+      "translation": "Bolag"
+    },
+    {
+      "module": "base",
+      "msgid": "Company Logo",
+      "translation": "Bolagslogo"
+    },
+    {
+      "module": "base",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
+    },
+    {
+      "module": "base",
+      "msgid": "Company Name Entity",
+      "translation": "Bolagets namn"
+    },
+    {
+      "module": "base",
+      "msgid": "Company Tagline",
+      "translation": "Bolagets slogan"
+    },
+    {
+      "module": "base",
       "msgid": "Company identification number",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Company tagline, which is included in a printed document's header or footer (dep",
+      "translation": "Bolagets slogan, som inkluderas i ett tryckt dokuments sidhu"
     },
     {
       "module": "base",
@@ -1343,6 +2128,16 @@
       "module": "base",
       "msgid": "Create %(model_name)s",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Create a new company",
+      "translation": "Skapa ett nytt bolag"
+    },
+    {
+      "module": "base",
+      "msgid": "Create and manage the companies that will be managed by Odoo from here. Shops or",
+      "translation": "Skapa och hantera de bolag som ska hanteras av Odoo härifrån"
     },
     {
       "module": "base",
@@ -1441,6 +2236,11 @@
     },
     {
       "module": "base",
+      "msgid": "Default Company",
+      "translation": "Standardbolag"
+    },
+    {
+      "module": "base",
       "msgid": "Default Value",
       "translation": ""
     },
@@ -1476,6 +2276,11 @@
     },
     {
       "module": "base",
+      "msgid": "Determines where the customer/company name should be placed, i.e. after or befor",
+      "translation": "Bestämmer var kundens/bolagets namn ska placeras, dvs. efter"
+    },
+    {
+      "module": "base",
       "msgid": "Device",
       "translation": ""
     },
@@ -1508,6 +2313,11 @@
       "module": "base",
       "msgid": "Duplicate this access to customize it",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Duplicating a company is not allowed. Please create a new company instead.",
+      "translation": "Det är inte tillåtet att duplicera ett bolag. Skapa ett nytt"
     },
     {
       "module": "base",
@@ -1553,6 +2363,11 @@
       "module": "base",
       "msgid": "Exchange rate expressed as reference-currency units per 1 unit of this currency",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Exchange rate from the company currency to this currency",
+      "translation": "Värde motsvarande 1 enhet av bolagets valuta i grundvalutan."
     },
     {
       "module": "base",
@@ -1796,6 +2611,11 @@
     },
     {
       "module": "base",
+      "msgid": "If set, action binding only applies for this company",
+      "translation": "Om angiven knyts åtgärden bara till detta bolag"
+    },
+    {
+      "module": "base",
       "msgid": "If you are trying to input a European number, this is the expected format: ",
       "translation": ""
     },
@@ -1901,6 +2721,11 @@
     },
     {
       "module": "base",
+      "msgid": "Inverse Company Rate",
+      "translation": "Omvänd bolagsränta"
+    },
+    {
+      "module": "base",
       "msgid": "Iqama ID Number",
       "translation": ""
     },
@@ -1916,8 +2741,28 @@
     },
     {
       "module": "base",
+      "msgid": "Is Company",
+      "translation": "Är bolag"
+    },
+    {
+      "module": "base",
+      "msgid": "Is Company Details Empty",
+      "translation": "Is Bolagsuppgifter Tom"
+    },
+    {
+      "module": "base",
+      "msgid": "Is Current Company Currency",
+      "translation": "Är bolagets nuvarande valuta"
+    },
+    {
+      "module": "base",
       "msgid": "Is Standard",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Is a Company",
+      "translation": "Är ett bolag"
     },
     {
       "module": "base",
@@ -2126,6 +2971,11 @@
     },
     {
       "module": "base",
+      "msgid": "Multi Companies",
+      "translation": "Flera bolag"
+    },
+    {
+      "module": "base",
       "msgid": "My Company (San Francisco) undertakes to do its best to supply performant servic",
       "translation": ""
     },
@@ -2243,6 +3093,11 @@
       "module": "base",
       "msgid": "Noto Sans Mono",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Number of Companies",
+      "translation": "Antal bolag"
     },
     {
       "module": "base",
@@ -2498,6 +3353,11 @@
       "module": "base",
       "msgid": "Registrikood",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Related Company",
+      "translation": "Relaterat bolag"
     },
     {
       "module": "base",
@@ -2821,6 +3681,31 @@
     },
     {
       "module": "base",
+      "msgid": "The company %(company_name)s cannot be archived because it is still used as the ",
+      "translation": "Bolaget %(company_name)s kan inte arkiveras eftersom det for"
+    },
+    {
+      "module": "base",
+      "msgid": "The company assigned to this partner does not match the company this partner rep",
+      "translation": "Det bolag som tilldelats denna partner stämmer inte överens "
+    },
+    {
+      "module": "base",
+      "msgid": "The company hierarchy cannot be changed.",
+      "translation": "Bolagshierarkin kan inte ändras."
+    },
+    {
+      "module": "base",
+      "msgid": "The company name must be unique!",
+      "translation": "Bolagsnamnet måste vara unikt!"
+    },
+    {
+      "module": "base",
+      "msgid": "The default company for this user.",
+      "translation": "Standardbolaget för den här användaren."
+    },
+    {
+      "module": "base",
       "msgid": "The field value you're saving (%(model)s %(field)s)(%(record)s) includes content",
       "translation": ""
     },
@@ -2871,6 +3756,11 @@
     },
     {
       "module": "base",
+      "msgid": "The selected company is not compatible with the companies of the related user(s)",
+      "translation": "Det valda bolaget är inte kompatibelt med bolagen för den el"
+    },
+    {
+      "module": "base",
       "msgid": "The type of the report that will be rendered, each one having its own rendering ",
       "translation": ""
     },
@@ -2893,6 +3783,16 @@
       "module": "base",
       "msgid": "This IBAN does not pass the validation check, please verify it.",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "This currency is set on a company and therefore cannot be deactivated.",
+      "translation": "Denna valuta är inställd på ett bolag och kan därför inte av"
+    },
+    {
+      "module": "base",
+      "msgid": "This is your company's currency.",
+      "translation": "Detta är bolagets valuta."
     },
     {
       "module": "base",
@@ -3071,6 +3971,11 @@
     },
     {
       "module": "base",
+      "msgid": "Used to order Companies in the company switcher",
+      "translation": "Används för att beställa bolag i bolagsväxlaren"
+    },
+    {
+      "module": "base",
       "msgid": "User API Key",
       "translation": ""
     },
@@ -3108,6 +4013,11 @@
       "module": "base",
       "msgid": "VAT Registry (VAT ID)",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Value of 1 unit of this currency in the company currency",
+      "translation": "Värde motsvarande 1 enhet av grundvalutan i bolagets valuta."
     },
     {
       "module": "base",
@@ -3198,6 +4108,11 @@
       "module": "base",
       "msgid": "Whether this record adds (permission) or restricts (restriction) access to the g",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "Whether values for this field is company dependent",
+      "translation": "Huruvida värden för detta fält är bolagsberoende"
     },
     {
       "module": "base",
@@ -3298,6 +4213,11 @@
       "module": "base",
       "msgid": "e.g. Lumber Inc or Brandon Freeman",
       "translation": ""
+    },
+    {
+      "module": "base",
+      "msgid": "e.g. My Company",
+      "translation": "t.ex. Mitt Bolag"
     },
     {
       "module": "base",
@@ -3716,8 +4636,68 @@
     },
     {
       "module": "base_setup",
+      "msgid": "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n                   ",
+      "translation": "<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Automatically enrich your contact base with company data",
+      "translation": "Berika automatiskt din kontaktbas med bolagsuppgifter"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Companies",
+      "translation": "Bolag"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Company Country Code",
+      "translation": "Bolagets landskod"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Company Informations",
+      "translation": "Information om bolaget"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Create corresponding in/out orders and bills when you sell/buy between your comp",
+      "translation": "Skapa motsvarande in-/utorder och fakturor när du säljer/köp"
+    },
+    {
+      "module": "base_setup",
       "msgid": "Initial Setup Tools",
       "translation": ""
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Inter-Company Transactions",
+      "translation": "Transaktioner mellan koncernbolag"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Is Root Company",
+      "translation": "Bolaget Is Root"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Manage Companies",
+      "translation": "Hantera bolag"
+    },
+    {
+      "module": "base_setup",
+      "msgid": "Number of Companies",
+      "translation": "Antal bolag"
     },
     {
       "module": "base_setup",
@@ -3728,6 +4708,11 @@
       "module": "base_setup",
       "msgid": "Reset Updating States",
       "translation": ""
+    },
+    {
+      "module": "base_setup",
+      "msgid": "When populating your address book, Odoo provides a list of matching companies. W",
+      "translation": "När du fyller i din adressbok ger Odoo en lista över matchan"
     },
     {
       "module": "base_sparse_field",
@@ -4083,6 +5068,11 @@
       "module": "calendar",
       "msgid": "Canceled event: {{ object.name }}",
       "translation": ""
+    },
+    {
+      "module": "calendar",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "calendar",
@@ -4576,6 +5566,11 @@
     },
     {
       "module": "certificate",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "certificate",
       "msgid": "Cryptographic Key",
       "translation": ""
     },
@@ -4841,13 +5836,53 @@
     },
     {
       "module": "crm",
+      "msgid": "# Leads/Opps assigned this month",
+      "translation": "# kundämnen/möjligheter denna månad"
+    },
+    {
+      "module": "crm",
+      "msgid": "# Unassigned Leads",
+      "translation": "# otilldelade kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "%(assigned)s leads allocated among %(team_count)s teams.",
+      "translation": "%(assigned)s kundämnen fördelade mellan %(team_count)s team."
+    },
+    {
+      "module": "crm",
+      "msgid": "%(assigned)s leads allocated to %(team_name)s team.",
+      "translation": "%(assigned)s kundämnen tilldelade till %(team_name)s team."
+    },
+    {
+      "module": "crm",
+      "msgid": "%(attach_name)s (from %(lead_name)s)",
+      "translation": "%(attach_name)s (från %(kundämne_name)s)"
+    },
+    {
+      "module": "crm",
       "msgid": "%(converted_count)s leads have been converted",
       "translation": ""
     },
     {
       "module": "crm",
+      "msgid": "%(duplicates)s duplicates leads have been merged.",
+      "translation": "%(duplicates)s duplicerade kundämnen har slagits samman."
+    },
+    {
+      "module": "crm",
+      "msgid": "%(members_assigned)s leads assigned among %(member_count)s salespersons.",
+      "translation": "%(members_assigned)s kundämnen fördelade bland %(member_coun"
+    },
+    {
+      "module": "crm",
       "msgid": "1 lead has been converted",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "<b>Write a few letters</b> to look for a company, or create a new one.",
+      "translation": "<b>Skriv ett par tecken</b> för att söka efter ett bolag ell"
     },
     {
       "module": "crm",
@@ -4866,6 +5901,21 @@
     },
     {
       "module": "crm",
+      "msgid": "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Similar Leads<",
+      "translation": "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &l"
+    },
+    {
+      "module": "crm",
+      "msgid": "<span class=\"o_stat_text\" invisible=\"not use_leads\">Leads</span>\n               ",
+      "translation": "<span class=\"o_stat_text\" invisible=\"not use_leads\">Kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "<span class=\"o_stat_text\"> Leads</span>",
+      "translation": "<span class=\"o_stat_text\">Kundämnen</span>"
+    },
+    {
+      "module": "crm",
       "msgid": "<span class=\"o_stat_text\">Opportunities</span>",
       "translation": ""
     },
@@ -4881,6 +5931,16 @@
     },
     {
       "module": "crm",
+      "msgid": "<span>Merged the Lead/Opportunity</span>",
+      "translation": "<span>Sammanslagning av kundämne/möjlighet</span>"
+    },
+    {
+      "module": "crm",
+      "msgid": "<span>Periodically assign leads based on priorities and filters.</span><br/>\n   ",
+      "translation": "<span>Tilldela regelbundet kundämnen baserat på prioritet oc"
+    },
+    {
+      "module": "crm",
       "msgid": "<span>~ </span>",
       "translation": ""
     },
@@ -4891,6 +5951,11 @@
     },
     {
       "module": "crm",
+      "msgid": "A lead in a Won stage cannot be lost. Move it to another stage first.",
+      "translation": "En kundämne i ett Won-stadium kan inte förloras. Flytta den "
+    },
+    {
+      "module": "crm",
       "msgid": "Access Groups",
       "translation": ""
     },
@@ -4898,6 +5963,16 @@
       "module": "crm",
       "msgid": "Access request for \"%s\"",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Active Leads",
+      "translation": "Aktiva kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Activities marked as Done on Leads will appear here, providing an overview of le",
+      "translation": "Aktiviteter som markerats som utförda på kundämnen visas här"
     },
     {
       "module": "crm",
@@ -4916,8 +5991,18 @@
     },
     {
       "module": "crm",
+      "msgid": "Assign Leads",
+      "translation": "Tilldela kundämnen"
+    },
+    {
+      "module": "crm",
       "msgid": "Auto-Assignment Rules",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Average Leads Capacity (on 30 days)",
+      "translation": "Kundämnekapacitet i snitt (på 30 dagar)"
     },
     {
       "module": "crm",
@@ -4936,13 +6021,68 @@
     },
     {
       "module": "crm",
+      "msgid": "CRM: Lead Assignment",
+      "translation": "CRM: Tilldelning av kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Check the Stage Tracker of Leads to identify bottlenecks in your Sales process.",
+      "translation": "Kontrollera etapperna för kundämnen för att identifiera flas"
+    },
+    {
+      "module": "crm",
+      "msgid": "Check this box to filter and qualify incoming requests as leads before convertin",
+      "translation": "Bocka i rutan för att filtrera och kvalificera inkommande fö"
+    },
+    {
+      "module": "crm",
+      "msgid": "Classify and analyze your lead/opportunity categories like: Training, Service",
+      "translation": "Klassificera och analysera dina kategorier för kundämnen/möj"
+    },
+    {
+      "module": "crm",
       "msgid": "Click on the breadcrumbs to go back to your Pipeline. Odoo will save all your ch",
       "translation": ""
     },
     {
       "module": "crm",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "crm",
+      "msgid": "Company Information",
+      "translation": "Information om bolaget"
+    },
+    {
+      "module": "crm",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
+    },
+    {
+      "module": "crm",
+      "msgid": "Company Name:",
+      "translation": "Bolagsnamn:"
+    },
+    {
+      "module": "crm",
+      "msgid": "Company:",
+      "translation": "Bolag:"
+    },
+    {
+      "module": "crm",
       "msgid": "Connect to Gmail or Outlook accounts.",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Consider leads created as of the:",
+      "translation": "Överväg kundämnen som skapade från och med den:"
+    },
+    {
+      "module": "crm",
+      "msgid": "Conversion Date from Lead to Opportunity",
+      "translation": "Konverteringsdatum från kundämne till möjlighet"
     },
     {
       "module": "crm",
@@ -4956,8 +6096,18 @@
     },
     {
       "module": "crm",
+      "msgid": "Convert Lead to Opportunity (in mass)",
+      "translation": "Konvertera kundämnen till möjligheter (i batch)"
+    },
+    {
+      "module": "crm",
       "msgid": "Convert into an Opportunity to see it in your Pipeline",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Convert visitors of your website into leads and perform data enrichment based on",
+      "translation": "Konvertera besökare på din webbplats till kundämnen och beri"
     },
     {
       "module": "crm",
@@ -4966,8 +6116,38 @@
     },
     {
       "module": "crm",
+      "msgid": "Create Leads/Opportunities from your website's traffic",
+      "translation": "Skapa kundämnen/möjligheter från webbplatsens trafik"
+    },
+    {
+      "module": "crm",
+      "msgid": "Create a Lead",
+      "translation": "Skapa ett kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Create a Lead Activity Plan",
+      "translation": "Skapa en aktivitetsplan för kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Create a lead mining request directly from the opportunity pipeline.",
+      "translation": "Skapa en kundämnegenerering direkt från din pipeline."
+    },
+    {
+      "module": "crm",
+      "msgid": "Create a new lead",
+      "translation": "Skapa nytt kundämne"
+    },
+    {
+      "module": "crm",
       "msgid": "Create your new contact.",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Did you know you can search a company by name or VAT number to instantly fill in",
+      "translation": "Visste du att du kan söka efter ett bolag eller organisation"
     },
     {
       "module": "crm",
@@ -5001,6 +6181,31 @@
     },
     {
       "module": "crm",
+      "msgid": "Enrich all leads automatically",
+      "translation": "Berika alla kundämnen automatiskt"
+    },
+    {
+      "module": "crm",
+      "msgid": "Enrich lead automatically",
+      "translation": "Berika kundämnen automatiskt"
+    },
+    {
+      "module": "crm",
+      "msgid": "Enrich leads on demand only",
+      "translation": "Berika kundämnen endast på begäran"
+    },
+    {
+      "module": "crm",
+      "msgid": "Enrich your leads automatically with company data based on their email address.",
+      "translation": "Berika dina kundämnen automatiskt med bolagsdata baserad på "
+    },
+    {
+      "module": "crm",
+      "msgid": "Enrich your leads with company data based on their email addresses",
+      "translation": "Berika dina kundämnen med bolagsdata baserat på deras e-post"
+    },
+    {
+      "module": "crm",
       "msgid": "Even if assigned",
       "translation": ""
     },
@@ -5016,6 +6221,11 @@
     },
     {
       "module": "crm",
+      "msgid": "Fields that can be used for predictive lead scoring computation",
+      "translation": "Fält som kan användas för beräkning av förutspådd kundämne-p"
+    },
+    {
+      "module": "crm",
       "msgid": "Find any Odoo record without leaving your inbox.",
       "translation": ""
     },
@@ -5023,6 +6233,31 @@
       "module": "crm",
       "msgid": "Fold by Default",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "For a sales team, there is nothing worse than being dry on leads. Fortunately, i",
+      "translation": "För ett säljteam finns det inget värre än att ha ont om kund"
+    },
+    {
+      "module": "crm",
+      "msgid": "Generate",
+      "translation": "Nya kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Generate leads from Outlook & Gmail",
+      "translation": "Skapa kundämnen från Outlook och Gmail"
+    },
+    {
+      "module": "crm",
+      "msgid": "Generate new leads based on their country, industries, size, etc.",
+      "translation": "Generera nya kundämnen baserat på land, bransch, storlek, et"
+    },
+    {
+      "module": "crm",
+      "msgid": "Generate new leads based on their country, industry, size, etc.",
+      "translation": "Generera nya kundämnen baserat på land, bransch, storlek, et"
     },
     {
       "module": "crm",
@@ -5048,6 +6283,16 @@
       "module": "crm",
       "msgid": "Gmail",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Import leads from CSV",
+      "translation": "Importera kundämnen från en CSV-fil"
+    },
+    {
+      "module": "crm",
+      "msgid": "Import leads from a CSV or Excel file",
+      "translation": "Importera kundämnen från en CSV- eller Excel-fil"
     },
     {
       "module": "crm",
@@ -5086,8 +6331,93 @@
     },
     {
       "module": "crm",
+      "msgid": "Kpi Crm Lead Created Value",
+      "translation": "KPI-värde i CRM för kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Assign",
+      "translation": "Tilldela kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Assignment requested by %(user_name)s",
+      "translation": "Tilldelning av kundämne begärd av %(user_name)s"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Average Capacity",
+      "translation": "Genomsnittlig kapacitet för kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Enrichment",
+      "translation": "Berika kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Generation",
+      "translation": "Kundämnegenerering"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Mining",
+      "translation": "Kundämnegenerering"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Properties",
+      "translation": "Egenskaper för kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Scoring Frequency",
+      "translation": "Frekvens för poängsättning av kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Scoring Frequency Fields",
+      "translation": "Fält för frekvens för poängsättning av kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Scoring Frequency Fields in String",
+      "translation": "Fält för frekvens för poängsättning av kundämne i strängform"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Scoring Starting Date",
+      "translation": "Startdatum för poängsättning av kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Scoring Starting Date in String",
+      "translation": "Startdatum för poängsättning av kundämne i strängformat"
+    },
+    {
+      "module": "crm",
       "msgid": "Lead Sourcing",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead Tags",
+      "translation": "Kundämne taggar"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead or Opportunity",
+      "translation": "Kundämne eller möjlighet"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead/Opportunities automatic assignment is limited to managers or administrators",
+      "translation": "Automatisk tilldelning av kundämnen/möjligheter är begränsad"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lead/Opportunity created",
+      "translation": "Kundämne/möjlighet skapad"
     },
     {
       "module": "crm",
@@ -5096,8 +6426,73 @@
     },
     {
       "module": "crm",
+      "msgid": "Leads (30 days)",
+      "translation": "Kundämnen (30 dagar)"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads (last 24h)",
+      "translation": "Kundämnen (senaste 24 timmarna)"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads Analysis",
+      "translation": "Kundämnesanalys"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads Analysis allows you to check different CRM related information like the tr",
+      "translation": "Kundämnesanalys låter dig kontrollera olika CRM-relaterade u"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads Assigned",
+      "translation": "Tilldelade kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads Count",
+      "translation": "Antal kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads Generation",
+      "translation": "Kundämnengeneration"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads are the qualification step before the creation of an opportunity.",
+      "translation": "Kundämnen är kvalificeringssteget före skapandet av en möjli"
+    },
+    {
+      "module": "crm",
       "msgid": "Leads merged",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads or Opportunities",
+      "translation": "Kundämnen eller möjligheter"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads that are assigned to me",
+      "translation": "Kundämnen tilldelade mig"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads that are not assigned",
+      "translation": "Otilldelade kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads/Opportunities",
+      "translation": "Kundämnen/möjligheter"
+    },
+    {
+      "module": "crm",
+      "msgid": "Leads/Opportunities count",
+      "translation": "Antal kundämnen/möjligheter"
     },
     {
       "module": "crm",
@@ -5121,6 +6516,16 @@
     },
     {
       "module": "crm",
+      "msgid": "Linked partner (optional). Usually created when converting the lead. You can fin",
+      "translation": "Länkad kontakt (valfri). Oftast skapad när man konverterar e"
+    },
+    {
+      "module": "crm",
+      "msgid": "Lost Lead",
+      "translation": "Förlorad kundämne"
+    },
+    {
+      "module": "crm",
       "msgid": "Mail plugins",
       "translation": ""
     },
@@ -5131,13 +6536,88 @@
     },
     {
       "module": "crm",
+      "msgid": "Manage members or partners. Members get levels and pricelists, partners allow le",
+      "translation": "Hantera medlemmar eller partners. Medlemmar får nivåer och p"
+    },
+    {
+      "module": "crm",
       "msgid": "Maximum Leads To Assign",
       "translation": ""
     },
     {
       "module": "crm",
+      "msgid": "Merge Leads/Opportunities",
+      "translation": "Sammanfoga kundämnen/möjligheter"
+    },
+    {
+      "module": "crm",
+      "msgid": "Monthly average leads capacity for all salesmen belonging to the team",
+      "translation": "Månatlig genomsnittlig kapacitet för kundämnen för alla sälj"
+    },
+    {
+      "module": "crm",
+      "msgid": "My Leads",
+      "translation": "Mina kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "New Lead",
+      "translation": "Ny kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "New Leads",
+      "translation": "Nya kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "No allocated leads to %(team_name)s team and its salespersons because no unassig",
+      "translation": "Inga tilldelade kundämnen till teamet %(team_name)s och dess"
+    },
+    {
+      "module": "crm",
+      "msgid": "No allocated leads to %(team_name)s team because it has no capacity. Add capacit",
+      "translation": "Inga allokerade kundämnen till teamet %(team_name)s eftersom"
+    },
+    {
+      "module": "crm",
+      "msgid": "No allocated leads to any team or salesperson. Check your Sales Teams and Salesp",
+      "translation": "Inga tilldelade kundämnen till något team eller säljare. Kon"
+    },
+    {
+      "module": "crm",
+      "msgid": "No lead assigned to salespersons because no unassigned lead matches their domain",
+      "translation": "Inga kundämnen tilldelade till säljare eftersom inga otillde"
+    },
+    {
+      "module": "crm",
+      "msgid": "No new lead allocated to %(team_name)s team because no unassigned lead matches i",
+      "translation": "Inga nya kundämnen tilldelade till teamet %(team_name)s efte"
+    },
+    {
+      "module": "crm",
+      "msgid": "No new lead allocated to the teams because no lead match their domains.",
+      "translation": "Inga nya kundämnen har tilldelats teamen eftersom inga kundä"
+    },
+    {
+      "module": "crm",
       "msgid": "Number of assigned opportunities",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Number of leads and opportunities assigned this last month.",
+      "translation": "Antal kundämnen och möjligheter tilldelade den gångna månade"
+    },
+    {
+      "module": "crm",
+      "msgid": "Number of leads assigned to this member in the last 24 hours (lost leads exclude",
+      "translation": "Antal kundämnen som tilldelats denna medlem under de senaste"
+    },
+    {
+      "module": "crm",
+      "msgid": "Number of leads assigned to this member in the last 30 days",
+      "translation": "Antal kundämnen som tilldelats denna medlem under de senaste"
     },
     {
       "module": "crm",
@@ -5171,8 +6651,38 @@
     },
     {
       "module": "crm",
+      "msgid": "Potential Duplicate Lead",
+      "translation": "Potentiell dubblett-kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Potential Duplicate Lead Count",
+      "translation": "Antal potentiella dubblett-kundämne"
+    },
+    {
+      "module": "crm",
+      "msgid": "Predictive Lead Scoring",
+      "translation": "Förutspådd poängsättning av kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Predictive Lead Scoring Field Labels",
+      "translation": "Förutspådd poängsättning av kundämnen fältetiketter"
+    },
+    {
+      "module": "crm",
+      "msgid": "Predictive Lead Scoring: Recompute Automated Probabilities",
+      "translation": "Förutspådd poängsättning av kundämnen: omberäkna automatiser"
+    },
+    {
+      "module": "crm",
       "msgid": "Preview records and open their forms in one click.",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Qualify leads with a Survey",
+      "translation": "Kvalificera kundämnen med en enkät"
     },
     {
       "module": "crm",
@@ -5196,13 +6706,43 @@
     },
     {
       "module": "crm",
+      "msgid": "Search Leads",
+      "translation": "Sök kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Select at least two Leads/Opportunities from the list to merge them.",
+      "translation": "Välj minst två kundämnen/möjligheter från listan för att sam"
+    },
+    {
+      "module": "crm",
       "msgid": "Select or create a contact...",
       "translation": ""
     },
     {
       "module": "crm",
+      "msgid": "Send an email and get leads from replies",
+      "translation": "Skicka e-post och få kundämnen baserat på svar"
+    },
+    {
+      "module": "crm",
       "msgid": "Show Assignment Max",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "Show Lead Menu",
+      "translation": "Visa menyn för kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Show only lead",
+      "translation": "Visa bara kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Show only leads",
+      "translation": "Visa bara kundämnen"
     },
     {
       "module": "crm",
@@ -5231,8 +6771,58 @@
     },
     {
       "module": "crm",
+      "msgid": "The contacts below have been added as followers of this lead\n                   ",
+      "translation": "Kontakterna nedan har lagts till som följare av detta kundäm"
+    },
+    {
+      "module": "crm",
+      "msgid": "The email address associated with this channel. New emails received will automat",
+      "translation": "E-postadressen som är kopplad till denna kanal. Ny e-post ko"
+    },
+    {
+      "module": "crm",
+      "msgid": "The name of the future partner company that will be created while converting the",
+      "translation": "Namnet på kontaktens bolag som kommer att skapas när detta k"
+    },
+    {
+      "module": "crm",
+      "msgid": "This analysis shows you how many leads have been created per month.",
+      "translation": "Denna analys visar dig hur många kundämnen som har skapats p"
+    },
+    {
+      "module": "crm",
+      "msgid": "This can be used to automatically assign leads to sales persons based on rules",
+      "translation": "Detta kan användas för att automatiskt tilldela kundämnen ti"
+    },
+    {
+      "module": "crm",
+      "msgid": "This can be used to compute statistical probability to close a lead",
+      "translation": "Detta kan användas för att beräkna statistisk sannolikhet fö"
+    },
+    {
+      "module": "crm",
+      "msgid": "This new lead created by %(creation_source)s was automatically assigned to team ",
+      "translation": "Denna nya kundämne som skapades av %(creation_source)s tilld"
+    },
+    {
+      "module": "crm",
+      "msgid": "This will assign leads to all members. Do you want to proceed?",
+      "translation": "Detta kommer att tilldela kundämnen till alla medlemmar. Vil"
+    },
+    {
+      "module": "crm",
+      "msgid": "Tip: Did you know Odoo has built-in lead mining?",
+      "translation": "Tips: visste du att Odoo har inbyggd kundämnesgenerering?"
+    },
+    {
+      "module": "crm",
       "msgid": "Tired of copy-pasting emails?",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "To prevent data loss, Leads and Opportunities can only be merged by groups of %(",
+      "translation": "För att förhindra dataförlust kan kundämnen och möjligheter "
     },
     {
       "module": "crm",
@@ -5251,8 +6841,53 @@
     },
     {
       "module": "crm",
+      "msgid": "Turn visitors into leads via a form",
+      "translation": "Omvandla besökare till kundämnen via ett formulär"
+    },
+    {
+      "module": "crm",
+      "msgid": "Type is used to separate Leads and Opportunities",
+      "translation": "Typ används för att separera kundämnen från möjligheter"
+    },
+    {
+      "module": "crm",
       "msgid": "UTM Reference",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "UX: Limit to lead company or all if no company",
+      "translation": "UX: begränsa till kundämnen bolag, eller alla om inget bolag"
+    },
+    {
+      "module": "crm",
+      "msgid": "Unassigned Leads",
+      "translation": "Otilldelade kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Use Leads",
+      "translation": "Använd kundämnen"
+    },
+    {
+      "module": "crm",
+      "msgid": "Use leads if you need a qualification step before creating an\n                  ",
+      "translation": "Använd kundämnen om du behöver ett kvalificeringssteg innan "
+    },
+    {
+      "module": "crm",
+      "msgid": "Use leads if you need a qualification step before creating an opportunity or a c",
+      "translation": "Använd kundämnen om du behöver ett kvalificeringssteg innan "
+    },
+    {
+      "module": "crm",
+      "msgid": "User Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "crm",
+      "msgid": "Visits to Leads",
+      "translation": "Besökare till kundämnen"
     },
     {
       "module": "crm",
@@ -5288,6 +6923,31 @@
       "module": "crm",
       "msgid": "e.g. john.doe@email.com",
       "translation": ""
+    },
+    {
+      "module": "crm",
+      "msgid": "for the leads created as of the",
+      "translation": "för de kundämnen som skapats från och med"
+    },
+    {
+      "module": "crm_iap_enrich",
+      "msgid": "<span> No company data found based on the email address or email address is one ",
+      "translation": "<span>Ingen bolagsinformation hittades baserat på e-postadre"
+    },
+    {
+      "module": "crm_iap_enrich",
+      "msgid": "Enrich lead with company data",
+      "translation": "Berika lead med bolagsdata"
+    },
+    {
+      "module": "crm_iap_enrich",
+      "msgid": "Enrich opportunity with company data",
+      "translation": "Berika möjlighet med bolagsdata"
+    },
+    {
+      "module": "crm_iap_mine",
+      "msgid": "%(credit_count)d credits will be consumed to find %(company_count)d companies.",
+      "translation": "%(credit_count)d krediter kommer att förbrukas för att hitta"
     },
     {
       "module": "crm_iap_mine",
@@ -5398,6 +7058,11 @@
       "module": "crm_iap_mine",
       "msgid": "Coal Mining",
       "translation": ""
+    },
+    {
+      "module": "crm_iap_mine",
+      "msgid": "Company Size Max",
+      "translation": "Bolags Maxstorlek"
     },
     {
       "module": "crm_iap_mine",
@@ -5995,6 +7660,11 @@
       "translation": ""
     },
     {
+      "module": "data_recycle",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
       "module": "delivery",
       "msgid": "\n            \"Delivery Note - %s - %s\" % (object.partner_id.name or \"\", object.n",
       "translation": ""
@@ -6098,6 +7768,11 @@
       "module": "delivery",
       "msgid": "Cash on delivery not allowed to pay less than the order remaining balance",
       "translation": ""
+    },
+    {
+      "module": "delivery",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "delivery",
@@ -6321,6 +7996,16 @@
     },
     {
       "module": "digest",
+      "msgid": "All Companies",
+      "translation": "Alla bolag"
+    },
+    {
+      "module": "digest",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "digest",
       "msgid": "Digest Tip",
       "translation": ""
     },
@@ -6416,6 +8101,16 @@
     },
     {
       "module": "event",
+      "msgid": "<i class=\"oi\" data-icon=\"business\" title=\"Attendee Company\"/>",
+      "translation": "<i class=\"oi\" data-icon=\"business\" title=\"Deltagarens bolag\""
+    },
+    {
+      "module": "event",
+      "msgid": "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>",
+      "translation": "<span class=\"o_event_badge_font_faded\">Mitt platshållarbolag"
+    },
+    {
+      "module": "event",
       "msgid": "A slot cannot be scheduled outside of its event time range.\n\nEvent:\t%(event_star",
       "translation": ""
     },
@@ -6436,8 +8131,23 @@
     },
     {
       "module": "event",
+      "msgid": "Check this for order-level questions (e.g., 'Company Name') where the answer is ",
+      "translation": "Kontrollera detta för frågor på ordernivå (t.ex. \"Bolagsnamn"
+    },
+    {
+      "module": "event",
       "msgid": "Close",
       "translation": ""
+    },
+    {
+      "module": "event",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "event",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
     },
     {
       "module": "event",
@@ -6645,6 +8355,16 @@
       "translation": ""
     },
     {
+      "module": "event_crm",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "event_crm",
+      "msgid": "Restrict the trigger of this rule to events belonging to a specific company.\nIf ",
+      "translation": "Begränsa regelns trigger till händelser som tillhör ett spec"
+    },
+    {
       "module": "event_crm_sale",
       "msgid": "Add information of sale order linked to the registration for the creation of the",
       "translation": ""
@@ -6713,6 +8433,11 @@
       "module": "event_sale",
       "msgid": "Additional Products",
       "translation": ""
+    },
+    {
+      "module": "event_sale",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "event_sale",
@@ -6788,6 +8513,11 @@
       "module": "fleet",
       "msgid": "Close",
       "translation": ""
+    },
+    {
+      "module": "fleet",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "fleet",
@@ -6991,8 +8721,23 @@
     },
     {
       "module": "gamification",
+      "msgid": "Set your Company Data",
+      "translation": "Ange dina bolagsuppgifter"
+    },
+    {
+      "module": "gamification",
+      "msgid": "Set your Company Logo",
+      "translation": "Ange bolagets logotyp"
+    },
+    {
+      "module": "gamification",
       "msgid": "The sum cannot be computed for '%(definition)s' on '%(field)s'.",
       "translation": ""
+    },
+    {
+      "module": "gamification",
+      "msgid": "The target and current value are defined in the company currency.",
+      "translation": "Målet och det aktuella värdet definieras i bolagets valuta."
     },
     {
       "module": "gamification",
@@ -7296,6 +9041,11 @@
     },
     {
       "module": "hr",
+      "msgid": "<i class=\"oi\" data-icon=\"business\" role=\"img\" aria-label=\"Company\" title=\"Compan",
+      "translation": "<i class=\"oi\" data-icon=\"business\" role=\"img\" aria-label=\"Co"
+    },
+    {
+      "module": "hr",
       "msgid": "<span class=\"d-flex w-50\">\n                                                    <",
       "translation": ""
     },
@@ -7448,6 +9198,11 @@
       "module": "hr",
       "msgid": "A user already exist with the following login: %(login)s. User Name: %(user_name",
       "translation": ""
+    },
+    {
+      "module": "hr",
+      "msgid": "A user cannot be linked to multiple employees in the same company.",
+      "translation": "En användare kan inte länkas till flera anställda inom samma"
     },
     {
       "module": "hr",
@@ -7736,6 +9491,46 @@
     },
     {
       "module": "hr",
+      "msgid": "Companies",
+      "translation": "Bolag"
+    },
+    {
+      "module": "hr",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "hr",
+      "msgid": "Company Country",
+      "translation": "Bolagsland"
+    },
+    {
+      "module": "hr",
+      "msgid": "Company Country Code",
+      "translation": "Bolagets landskod"
+    },
+    {
+      "module": "hr",
+      "msgid": "Company Logo",
+      "translation": "Bolagslogo"
+    },
+    {
+      "module": "hr",
+      "msgid": "Company Timezone",
+      "translation": "Bolagets tidszon"
+    },
+    {
+      "module": "hr",
+      "msgid": "Company Working Hours",
+      "translation": "Bolagets arbetstid"
+    },
+    {
+      "module": "hr",
+      "msgid": "Company employee",
+      "translation": "Bolagsanställd"
+    },
+    {
+      "module": "hr",
       "msgid": "Conduct thorough business needs assessments",
       "translation": ""
     },
@@ -7978,6 +9773,11 @@
       "module": "hr",
       "msgid": "Each amount percentage must be a number between 0 and 100.",
       "translation": ""
+    },
+    {
+      "module": "hr",
+      "msgid": "Each employee has a chance to see the impact of his work.\n                      ",
+      "translation": "Varje anställd har en chans att se effekterna av sitt arbete"
     },
     {
       "module": "hr",
@@ -8731,6 +10531,11 @@
     },
     {
       "module": "hr",
+      "msgid": "Real responsibilities and challenges in a fast evolving company",
+      "translation": "Verkligt ansvar och utmaningar i ett snabbt utvecklande bola"
+    },
+    {
+      "module": "hr",
       "msgid": "Reference another date/datetime field to use as minimum date",
       "translation": ""
     },
@@ -8803,6 +10608,11 @@
       "module": "hr",
       "msgid": "Set a manager or reports to show in org chart.",
       "translation": ""
+    },
+    {
+      "module": "hr",
+      "msgid": "Set default company schedule to manage your employees working time",
+      "translation": "Ange standardschema för bolaget för att hantera de anställda"
     },
     {
       "module": "hr",
@@ -8951,6 +10761,11 @@
     },
     {
       "module": "hr",
+      "msgid": "The name of the job position must be unique per department in company!",
+      "translation": "Jobbets namn måste vara unikt per avdelning i bolaget!"
+    },
+    {
+      "module": "hr",
       "msgid": "The user will be able to create and edit employees.",
       "translation": ""
     },
@@ -9023,6 +10838,11 @@
       "module": "hr",
       "msgid": "This working schedule is used by %s employee(s), are you sure you want change it",
       "translation": ""
+    },
+    {
+      "module": "hr",
+      "msgid": "To avoid multi company issues (losing the access to your previous contracts, lea",
+      "translation": "För att undvika problem med flera bolag (förlora åtkomst til"
     },
     {
       "module": "hr",
@@ -9643,6 +11463,16 @@
       "module": "hr_attendance",
       "msgid": "Check-in is recorded, but picture could not be captured",
       "translation": ""
+    },
+    {
+      "module": "hr_attendance",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "hr_attendance",
+      "msgid": "Company Logo",
+      "translation": "Bolagslogo"
     },
     {
       "module": "hr_attendance",
@@ -10396,6 +12226,11 @@
     },
     {
       "module": "hr_expense",
+      "msgid": "<span class=\"o_stat_text\">Journal Entry</span>",
+      "translation": "<span class=\"o_stat_text\">Verifikat</span>"
+    },
+    {
+      "module": "hr_expense",
       "msgid": "<span class=\"o_stat_text\">Payment</span>",
       "translation": ""
     },
@@ -10493,6 +12328,11 @@
       "module": "hr_expense",
       "msgid": "Click on all expenses",
       "translation": ""
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "hr_expense",
@@ -10721,6 +12561,21 @@
     },
     {
       "module": "hr_expense",
+      "msgid": "Journal Entry",
+      "translation": "Verifikat"
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "Journal Entry Deleted",
+      "translation": "Verifikat har raderats"
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "Journal Entry Reset to Draft",
+      "translation": "Återställ verifikat till utkast"
+    },
+    {
+      "module": "hr_expense",
       "msgid": "Journal Entry Status",
       "translation": ""
     },
@@ -10733,6 +12588,16 @@
       "module": "hr_expense",
       "msgid": "Journal entry created from this expense: %(link)s",
       "translation": ""
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "Journal entry deleted",
+      "translation": "Verifikat har raderats"
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "Journal entry reset to draft",
+      "translation": "Återställ verifikat till utkast"
     },
     {
       "module": "hr_expense",
@@ -10886,6 +12751,16 @@
     },
     {
       "module": "hr_expense",
+      "msgid": "Payment method allowed for expenses paid by company.",
+      "translation": "Tillåten betalningsmetod för kostnader som betalas av bolage"
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "Payment methods available for expenses paid by company",
+      "translation": "Tillgängliga betalningsmetoder för kostnader som betalas av "
+    },
+    {
+      "module": "hr_expense",
       "msgid": "Please specify if the expenses were paid by the company, reimbursed to the emplo",
       "translation": ""
     },
@@ -10918,6 +12793,11 @@
       "module": "hr_expense",
       "msgid": "Related",
       "translation": ""
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "Report Company Currency",
+      "translation": "Rapport bolagets valuta"
     },
     {
       "module": "hr_expense",
@@ -10981,6 +12861,11 @@
     },
     {
       "module": "hr_expense",
+      "msgid": "Tax amount in company currency",
+      "translation": "Skattebelopp i bolagets valuta"
+    },
+    {
+      "module": "hr_expense",
       "msgid": "Taxes included",
       "translation": ""
     },
@@ -10998,6 +12883,11 @@
       "module": "hr_expense",
       "msgid": "The attachment (%(attachment_name)s) has not been added to the report due to the",
       "translation": ""
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "The company's default journal used when an employee expense is created.",
+      "translation": "Bolagets standardjournal som används när en personalkostnad "
     },
     {
       "module": "hr_expense",
@@ -11023,6 +12913,11 @@
       "module": "hr_expense",
       "msgid": "The following expenses payment method leads to several accounts payable and this",
       "translation": ""
+    },
+    {
+      "module": "hr_expense",
+      "msgid": "The payment method used when the expense is paid by the company.",
+      "translation": "Betalningsmetoden som används när utlägget betalas av bolage"
     },
     {
       "module": "hr_expense",
@@ -11786,6 +13681,11 @@
     },
     {
       "module": "hr_holidays",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "hr_holidays",
       "msgid": "Company Holidays",
       "translation": ""
     },
@@ -11943,6 +13843,11 @@
       "module": "hr_holidays",
       "msgid": "Eligible for Accrual Rate",
       "translation": ""
+    },
+    {
+      "module": "hr_holidays",
+      "msgid": "Employee Company",
+      "translation": "Anställda Bolag"
     },
     {
       "module": "hr_holidays",
@@ -12621,6 +14526,11 @@
     },
     {
       "module": "hr_holidays",
+      "msgid": "There is no employee set on the time off. Please make sure you're logged in the ",
+      "translation": "Det finns ingen anställd som är inställd på ledig tid. Kontr"
+    },
+    {
+      "module": "hr_holidays",
       "msgid": "There is no valid allocation to cover this request for the following employees: ",
       "translation": ""
     },
@@ -13176,6 +15086,11 @@
     },
     {
       "module": "hr_holidays",
+      "msgid": "e.g. Extra recuperation, Company unavailability, ...",
+      "translation": "t.ex. extra återhämtning, bolaget är inte tillgängligt, ..."
+    },
+    {
+      "module": "hr_holidays",
       "msgid": "e.g. New Year's Day",
       "translation": ""
     },
@@ -13336,6 +15251,11 @@
     },
     {
       "module": "hr_holidays_attendance",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "hr_holidays_attendance",
       "msgid": "Employee Contract",
       "translation": ""
     },
@@ -13433,6 +15353,11 @@
       "module": "hr_presence",
       "msgid": "<div>\n                    Dear <t t-out=\"object.name or ''\">Abigail Peterson</t>",
       "translation": ""
+    },
+    {
+      "module": "hr_presence",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "hr_presence",
@@ -13618,6 +15543,11 @@
       "module": "hr_recruitment",
       "msgid": "Campaigns",
       "translation": ""
+    },
+    {
+      "module": "hr_recruitment",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "hr_recruitment",
@@ -13933,6 +15863,11 @@
       "module": "hr_recruitment",
       "msgid": "Select the campaign the applicant was part of",
       "translation": ""
+    },
+    {
+      "module": "hr_recruitment",
+      "msgid": "Select the location where the applicant will work. Addresses listed here are def",
+      "translation": "Välj den ort där den sökande ska arbeta. Adresser som anges "
     },
     {
       "module": "hr_recruitment",
@@ -14341,6 +16276,11 @@
     },
     {
       "module": "hr_skills",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "hr_skills",
       "msgid": "Create Resume Lines",
       "translation": ""
     },
@@ -14373,6 +16313,11 @@
       "module": "hr_skills",
       "msgid": "Day Format",
       "translation": ""
+    },
+    {
+      "module": "hr_skills",
+      "msgid": "Demo Company Name",
+      "translation": "Demo Bolagsnamn"
     },
     {
       "module": "hr_skills",
@@ -14448,6 +16393,11 @@
       "module": "hr_skills",
       "msgid": "Scrum Master",
       "translation": ""
+    },
+    {
+      "module": "hr_skills",
+      "msgid": "Secretary, company",
+      "translation": "Sekreterare, bolag"
     },
     {
       "module": "hr_skills",
@@ -14736,6 +16686,11 @@
     },
     {
       "module": "hr_timesheet",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "hr_timesheet",
       "msgid": "Confirmation",
       "translation": ""
     },
@@ -14856,6 +16811,16 @@
     },
     {
       "module": "hr_timesheet",
+      "msgid": "The Internal Project of a company should be in that company.",
+      "translation": "Ett bolags interna projekt bör ligga inom bolaget."
+    },
+    {
+      "module": "hr_timesheet",
+      "msgid": "The project, the task and the analytic accounts of the timesheet must belong to ",
+      "translation": "Projektet, uppgiften och de analytiska kontona i tidrapporte"
+    },
+    {
+      "module": "hr_timesheet",
       "msgid": "There are no timesheets to print for this project",
       "translation": ""
     },
@@ -14873,6 +16838,11 @@
       "module": "hr_timesheet",
       "msgid": "Time Spent on Sub-tasks:",
       "translation": ""
+    },
+    {
+      "module": "hr_timesheet",
+      "msgid": "Timesheets must be created with an active employee in the selected companies.",
+      "translation": "Tidrapporter måste skapas med en aktiv anställd i de valda b"
     },
     {
       "module": "hr_timesheet",
@@ -14928,6 +16898,11 @@
       "module": "hr_timesheet_attendance",
       "msgid": "\nModule linking the attendance module to the timesheet app.\n",
       "translation": ""
+    },
+    {
+      "module": "hr_timesheet_attendance",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "hr_timesheet_attendance",
@@ -15463,6 +17438,11 @@
       "module": "hr_work_entry",
       "msgid": "Community Service Leave",
       "translation": ""
+    },
+    {
+      "module": "hr_work_entry",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "hr_work_entry",
@@ -21421,6 +23401,11 @@
     },
     {
       "module": "iap",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "iap",
       "msgid": "Config Settings",
       "translation": ""
     },
@@ -21433,6 +23418,11 @@
       "module": "iap",
       "msgid": "Email Alert",
       "translation": ""
+    },
+    {
+      "module": "iap",
+      "msgid": "Get quality leads and opportunities: convert your website visitors into leads, g",
+      "translation": "Få leads och möjligheter av hög kvalitet: konvertera dina we"
     },
     {
       "module": "iap",
@@ -21598,6 +23588,11 @@
       "module": "iap_mail",
       "msgid": "Buy",
       "translation": ""
+    },
+    {
+      "module": "iap_mail",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "iap_mail",
@@ -22801,6 +24796,26 @@
     },
     {
       "module": "l10n_se",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "l10n_se",
+      "msgid": "Liabilities to associated companies and jointly controlled companies",
+      "translation": "Skulder till intressebolag och gemensamt styrda bolag"
+    },
+    {
+      "module": "l10n_se",
+      "msgid": "Liabilities to group companies",
+      "translation": "Skulder till bolagsgrupper"
+    },
+    {
+      "module": "l10n_se",
+      "msgid": "Liabilities to other companies in which there is an ownership interest",
+      "translation": "Skulder till övriga bolag som det finns ett ägarintresse i"
+    },
+    {
+      "module": "l10n_se",
       "msgid": "Sweden - Accounting",
       "translation": ""
     },
@@ -22923,6 +24938,11 @@
       "module": "loyalty",
       "msgid": "Availability Dates",
       "translation": ""
+    },
+    {
+      "module": "loyalty",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "loyalty",
@@ -23061,6 +25081,11 @@
     },
     {
       "module": "lunch",
+      "msgid": "A cashmove can either be an expense or a payment.<br>\n            An expense is ",
+      "translation": "En kassaförflyttning kan antingen vara en utgift eller en be"
+    },
+    {
+      "module": "lunch",
       "msgid": "Access Groups",
       "translation": ""
     },
@@ -23101,6 +25126,11 @@
     },
     {
       "module": "lunch",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "lunch",
       "msgid": "Decrease quantity",
       "translation": ""
     },
@@ -23108,6 +25138,11 @@
       "module": "lunch",
       "msgid": "Handle lunch orders of your employees",
       "translation": ""
+    },
+    {
+      "module": "lunch",
+      "msgid": "Here you can see your cash moves.<br>A cash move can either be an expense or a p",
+      "translation": "Här kan du se dina kontantrörelser.<br>En kontantrörelse kan"
     },
     {
       "module": "lunch",
@@ -23678,6 +25713,11 @@
       "module": "mail",
       "msgid": "A personal mail server is using that address, you can not use it.",
       "translation": ""
+    },
+    {
+      "module": "mail",
+      "msgid": "A place to connect and exchange news with colleagues across the company.",
+      "translation": "Ett ställe där man kan knyta samman med och dela nyheter med"
     },
     {
       "module": "mail",
@@ -24413,6 +26453,21 @@
       "module": "mail",
       "msgid": "Communication Bus",
       "translation": ""
+    },
+    {
+      "module": "mail",
+      "msgid": "Companies",
+      "translation": "Bolag"
+    },
+    {
+      "module": "mail",
+      "msgid": "Companies using this domain as default for sending mails",
+      "translation": "Bolag som använder denna domän som standard för att skicka e"
+    },
+    {
+      "module": "mail",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "mail",
@@ -26536,6 +28591,11 @@
     },
     {
       "module": "mail",
+      "msgid": "Related Company",
+      "translation": "Relaterat bolag"
+    },
+    {
+      "module": "mail",
       "msgid": "Remove Emoji",
       "translation": ""
     },
@@ -27221,6 +29281,11 @@
     },
     {
       "module": "mail",
+      "msgid": "The records must belong to the same company.",
+      "translation": "Posterna måste tillhöra samma bolag."
+    },
+    {
+      "module": "mail",
       "msgid": "The role '%(role_name)s' is not supported for the channel type '%(channel_type)s",
       "translation": ""
     },
@@ -27753,6 +29818,16 @@
       "module": "mail",
       "msgid": "Want to spice up your conversations with GIFs? Turn on this feature in settings.",
       "translation": ""
+    },
+    {
+      "module": "mail",
+      "msgid": "We could not create alias %(alias_name)s because domain %(alias_domain_name)s be",
+      "translation": "Vi kunde inte skapa alias %(alias_name)s eftersom domänen %("
+    },
+    {
+      "module": "mail",
+      "msgid": "We could not create alias %(alias_name)s because domain %(alias_domain_name)s be",
+      "translation": "Vi kunde inte skapa alias %(alias_name)s eftersom domänen %("
     },
     {
       "module": "mail",
@@ -28361,6 +30436,11 @@
     },
     {
       "module": "mail_group",
+      "msgid": "My Company News",
+      "translation": "Nyheter om mitt bolag"
+    },
+    {
+      "module": "mail_group",
       "msgid": "Oops, there are no messages here.",
       "translation": ""
     },
@@ -28838,6 +30918,11 @@
       "module": "maintenance",
       "msgid": "Changes Requested",
       "translation": ""
+    },
+    {
+      "module": "maintenance",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "maintenance",
@@ -30161,6 +32246,11 @@
     },
     {
       "module": "mass_mailing",
+      "msgid": "Best practices to digitize your company",
+      "translation": "Bästa praxis för att digitalisera ditt bolag"
+    },
+    {
+      "module": "mass_mailing",
       "msgid": "Best,",
       "translation": ""
     },
@@ -30298,6 +32388,16 @@
       "module": "mass_mailing",
       "msgid": "Color blocks are a simple and effective way to",
       "translation": ""
+    },
+    {
+      "module": "mass_mailing",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "mass_mailing",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
     },
     {
       "module": "mass_mailing",
@@ -30646,6 +32746,11 @@
     },
     {
       "module": "mass_mailing",
+      "msgid": "Founder and chief visionary, Tony is the driving force behind the company. He lo",
+      "translation": "Tony är bolagets grundare och främsta visionär och den driva"
+    },
+    {
+      "module": "mass_mailing",
       "msgid": "Free shipping",
       "translation": ""
     },
@@ -30808,6 +32913,11 @@
       "module": "mass_mailing",
       "msgid": "Iris Joe",
       "translation": ""
+    },
+    {
+      "module": "mass_mailing",
+      "msgid": "Iris, with her international experience, helps us easily understand the numbers ",
+      "translation": "Iris, med sin internationella erfarenhet, hjälper oss att en"
     },
     {
       "module": "mass_mailing",
@@ -30993,6 +33103,11 @@
       "module": "mass_mailing",
       "msgid": "Mich Stark",
       "translation": ""
+    },
+    {
+      "module": "mass_mailing",
+      "msgid": "Mich loves taking on challenges. With his multi-year experience as Commercial Di",
+      "translation": "Mich älskar att ta sig an utmaningar. Med sin mångåriga erfa"
     },
     {
       "module": "mass_mailing",
@@ -31831,6 +33946,11 @@
     },
     {
       "module": "mass_mailing",
+      "msgid": "Want to import country, company name and more?",
+      "translation": "Vill du importera land, bolagsnamn och mer?"
+    },
+    {
+      "module": "mass_mailing",
       "msgid": "We blend heritage craft with the finest materials.",
       "translation": ""
     },
@@ -32441,6 +34561,11 @@
     },
     {
       "module": "mass_mailing_themes",
+      "msgid": ". I put it on hold for 6 years, waiting for the right moment to use it. I though",
+      "translation": ". Jag lade det på is i 6 år och väntade på rätt tillfälle at"
+    },
+    {
+      "module": "mass_mailing_themes",
       "msgid": "10 Books To Read in",
       "translation": ""
     },
@@ -32706,6 +34831,26 @@
     },
     {
       "module": "mass_mailing_themes",
+      "msgid": "After a few months of pitching investors, I got roughly 10 LOI from different VC",
+      "translation": "Efter några månaders pitchande av investerare fick jag ungef"
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "As usual, I should have listened to my wife. She is way more lucid than I am. Ev",
+      "translation": "Som vanligt borde jag ha lyssnat på min fru. Hon är mycket m"
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "Being a Mature Company",
+      "translation": "Att vara ett moget bolag"
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "Best practices to digitize your company",
+      "translation": "Bästa praxis för att digitalisera ditt bolag"
+    },
+    {
+      "module": "mass_mailing_themes",
       "msgid": "Browse chatrooms",
       "translation": ""
     },
@@ -32731,6 +34876,11 @@
     },
     {
       "module": "mass_mailing_themes",
+      "msgid": "Company News",
+      "translation": "Nyheter om bolaget"
+    },
+    {
+      "module": "mass_mailing_themes",
       "msgid": "Design gorgeous mails",
       "translation": ""
     },
@@ -32743,6 +34893,11 @@
       "module": "mass_mailing_themes",
       "msgid": "Discount Offer",
       "translation": ""
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "Discover Odoo, the all-in-one management platform, and its apps designed to impr",
+      "translation": "Upptäck Odoo, allt-i-ett-hanteringsplattformen, och dess app"
     },
     {
       "module": "mass_mailing_themes",
@@ -32786,13 +34941,38 @@
     },
     {
       "module": "mass_mailing_themes",
+      "msgid": "I needed to change the world. I wanted to... You know how it is when you are you",
+      "translation": "Jag behövde förändra världen. Jag ville... Du vet hur det är"
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "I signed the LOI. I didn't realize that this contract could have turned me into ",
+      "translation": "Jag skrev under avsiktsförklaringen. Jag insåg inte att dett"
+    },
+    {
+      "module": "mass_mailing_themes",
       "msgid": "If you do not accept the new terms by the end of June, your account will be paus",
       "translation": ""
     },
     {
       "module": "mass_mailing_themes",
+      "msgid": "If you wish to evaluate Odoo while taking into account your company's specific n",
+      "translation": "Om du vill utvärdera Odoo och samtidigt ta hänsyn till ditt "
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "In May 2014, we renamed the company and product to Odoo.",
+      "translation": "I maj 2014 bytte vi namn på bolaget och produkten till Odoo."
+    },
+    {
+      "module": "mass_mailing_themes",
       "msgid": "In most cases, these changes will be invisible in your day-to-day use of the pla",
       "translation": ""
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "Infographic: Our Company Throughout The Generations",
+      "translation": "Infografik: Vårt bolag genom generationerna"
     },
     {
       "module": "mass_mailing_themes",
@@ -32808,6 +34988,11 @@
       "module": "mass_mailing_themes",
       "msgid": "Luna &amp; The Satellites",
       "translation": ""
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "Making companies a better place, one app at a time",
+      "translation": "Att göra bolag till en bättre plats, en app i taget"
     },
     {
       "module": "mass_mailing_themes",
@@ -32926,6 +35111,11 @@
     },
     {
       "module": "mass_mailing_themes",
+      "msgid": "The new financing will support the acceleration of the outstanding growth the co",
+      "translation": "Den nya finansieringen kommer att bidra till att påskynda de"
+    },
+    {
+      "module": "mass_mailing_themes",
       "msgid": "The vast majority of our Terms remain exactly as they were. In particular:",
       "translation": ""
     },
@@ -32966,6 +35156,11 @@
     },
     {
       "module": "mass_mailing_themes",
+      "msgid": "We wanted to switch from a service company to a software publisher company. This",
+      "translation": "Vi ville gå från att vara ett servicebolag till att bli ett "
+    },
+    {
+      "module": "mass_mailing_themes",
       "msgid": "What it changes for you",
       "translation": ""
     },
@@ -32981,6 +35176,11 @@
     },
     {
       "module": "mass_mailing_themes",
+      "msgid": "With this money in our bank account, we boosted two departments: R&amp;D and Sal",
+      "translation": "Med dessa pengar på vårt bankkonto förstärkte vi två avdelni"
+    },
+    {
+      "module": "mass_mailing_themes",
       "msgid": "Women",
       "translation": ""
     },
@@ -32993,6 +35193,11 @@
       "module": "mass_mailing_themes",
       "msgid": "YOUR COMPANY",
       "translation": ""
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "You may then take part in round table discussions with experts who will give you",
+      "translation": "Du kan sedan delta i rundabordssamtal med experter som komme"
     },
     {
       "module": "mass_mailing_themes",
@@ -33038,6 +35243,11 @@
       "module": "mass_mailing_themes",
       "msgid": "is reducing the default data retention period from 5 years to 2 years. This alig",
       "translation": ""
+    },
+    {
+      "module": "mass_mailing_themes",
+      "msgid": "the fastest growing company of Belgium",
+      "translation": "det snabbast växande bolaget i Belgien"
     },
     {
       "module": "microsoft_calendar",
@@ -33413,6 +35623,11 @@
       "module": "mrp",
       "msgid": "Columns",
       "translation": ""
+    },
+    {
+      "module": "mrp",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "mrp",
@@ -34475,6 +36690,11 @@
       "translation": ""
     },
     {
+      "module": "mrp_account",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
       "module": "mrp_delivery",
       "msgid": "Carrier with kits",
       "translation": ""
@@ -34541,8 +36761,18 @@
     },
     {
       "module": "mrp_subcontracting",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "mrp_subcontracting",
       "msgid": "Create New Production",
       "translation": ""
+    },
+    {
+      "module": "mrp_subcontracting",
+      "msgid": "In order to manage stock accurately, subcontracting locations must be type Inter",
+      "translation": "För att kunna hantera lager på ett korrekt sätt måste underl"
     },
     {
       "module": "mrp_subcontracting",
@@ -34605,9 +36835,19 @@
       "translation": ""
     },
     {
+      "module": "mrp_subcontracting",
+      "msgid": "You cannot alter the company's subcontracting location",
+      "translation": "Du kan inte ändra bolagets plats för underleverantörer"
+    },
+    {
       "module": "mrp_subcontracting_dropshipping",
       "msgid": "\nThis bridge module allows to manage subcontracting with the dropshipping module",
       "translation": ""
+    },
+    {
+      "module": "mrp_subcontracting_dropshipping",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "mrp_subcontracting_dropshipping",
@@ -34986,8 +37226,28 @@
     },
     {
       "module": "onboarding",
+      "msgid": "All Onboarding Progress Records (across companies).",
+      "translation": "Alla register över framsteg inom onboarding (över alla bolag"
+    },
+    {
+      "module": "onboarding",
+      "msgid": "All related Onboarding Progress Step Records (across companies)",
+      "translation": "Alla relaterade poster för Onboarding Progress Steps (över a"
+    },
+    {
+      "module": "onboarding",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "onboarding",
       "msgid": "Discard",
       "translation": ""
+    },
+    {
+      "module": "onboarding",
+      "msgid": "Is per company",
+      "translation": "Är per bolag"
     },
     {
       "module": "onboarding",
@@ -34996,8 +37256,23 @@
     },
     {
       "module": "onboarding",
+      "msgid": "Onboarding Progress Step for the current context (company).",
+      "translation": "Introduktionsförlopps steg för den aktuella kontexten (bolag"
+    },
+    {
+      "module": "onboarding",
+      "msgid": "Onboarding Progress for the current context (company).",
+      "translation": "Introduktions förlopp för det aktuella sammanhanget (bolaget"
+    },
+    {
+      "module": "onboarding",
       "msgid": "Onboarding Toolbox",
       "translation": ""
+    },
+    {
+      "module": "onboarding",
+      "msgid": "Should be done per company?",
+      "translation": "Bör detta göras per bolag?"
     },
     {
       "module": "partner_autocomplete",
@@ -35013,6 +37288,11 @@
       "module": "partner_autocomplete",
       "msgid": "Buy",
       "translation": ""
+    },
+    {
+      "module": "partner_autocomplete",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "partner_autocomplete",
@@ -35045,6 +37325,11 @@
       "translation": ""
     },
     {
+      "module": "partner_autocomplete",
+      "msgid": "Unable to enrich company (no credit was consumed).",
+      "translation": "Kunde inte fylla i bolagsuppgifter (ingen kreditpoäng förbru"
+    },
+    {
       "module": "partnership",
       "msgid": "\nThis module allows you to manage all operations for managing memberships and pa",
       "translation": ""
@@ -35073,6 +37358,11 @@
       "module": "partnership",
       "msgid": "Bronze",
       "translation": ""
+    },
+    {
+      "module": "partnership",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "partnership",
@@ -35288,6 +37578,11 @@
       "module": "payment",
       "msgid": "Child Transaction Count",
       "translation": ""
+    },
+    {
+      "module": "payment",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "payment",
@@ -35541,6 +37836,11 @@
     },
     {
       "module": "payment",
+      "msgid": "Please switch to company",
+      "translation": "Vänligen byt till bolag"
+    },
+    {
+      "module": "payment",
       "msgid": "Portal Entry",
       "translation": ""
     },
@@ -35648,6 +37948,11 @@
       "module": "payment",
       "msgid": "The label to be displayed on the payment buttons for 'Pay Now' payment methods.",
       "translation": ""
+    },
+    {
+      "module": "payment",
+      "msgid": "The main currency of the company, used to display monetary fields.",
+      "translation": "Bolagets huvudvaluta, används för att visa monetära fält."
     },
     {
       "module": "payment",
@@ -35763,6 +38068,11 @@
       "module": "payment",
       "msgid": "You can't unarchive tokens linked to inactive payment methods or archived provid",
       "translation": ""
+    },
+    {
+      "module": "payment",
+      "msgid": "You cannot change the company of a payment provider with existing transactions.",
+      "translation": "Du kan inte byta bolag för en betalningsleverantör med befin"
     },
     {
       "module": "payment",
@@ -36873,6 +39183,16 @@
       "module": "payment_dpo",
       "msgid": "Card",
       "translation": ""
+    },
+    {
+      "module": "payment_dpo",
+      "msgid": "Company Token",
+      "translation": "Bolagstoken"
+    },
+    {
+      "module": "payment_dpo",
+      "msgid": "DPO Company Token",
+      "translation": "Bolagstoken hos DPO"
     },
     {
       "module": "payment_dpo",
@@ -39856,8 +42176,18 @@
     },
     {
       "module": "point_of_sale",
+      "msgid": "All available pricelists must be in the same currency as the company or as the S",
+      "translation": "Alla tillgängliga prislistor måste vara i samma valuta som b"
+    },
+    {
+      "module": "point_of_sale",
       "msgid": "All data will be downloaded again from the server. On databases with many record",
       "translation": ""
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "All payment methods must be in the same currency as the Sales Journal or the com",
+      "translation": "Alla betalningsmetoder måste vara i samma valuta som försälj"
     },
     {
       "module": "point_of_sale",
@@ -40231,6 +42561,11 @@
     },
     {
       "module": "point_of_sale",
+      "msgid": "Choose a specific fiscal position at the order depending on the kind of customer",
+      "translation": "Välj en specifik skatteområde vid beställningen beroende på "
+    },
+    {
+      "module": "point_of_sale",
       "msgid": "City",
       "translation": ""
     },
@@ -40276,6 +42611,11 @@
     },
     {
       "module": "point_of_sale",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "point_of_sale",
       "msgid": "Company Employer",
       "translation": ""
     },
@@ -40283,6 +42623,16 @@
       "module": "point_of_sale",
       "msgid": "Company currency",
       "translation": ""
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "Company has chart of accounts",
+      "translation": "Bolaget har en kontoplan"
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "Company:",
+      "translation": "Bolag:"
     },
     {
       "module": "point_of_sale",
@@ -40373,6 +42723,11 @@
       "module": "point_of_sale",
       "msgid": "Continuous printing of high-density printing caused a printing error. Please ret",
       "translation": ""
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "Conversion rate from company currency to order currency.",
+      "translation": "Omräkningskurs från bolagets valuta till orderns valuta."
     },
     {
       "module": "point_of_sale",
@@ -40686,6 +43041,11 @@
     },
     {
       "module": "point_of_sale",
+      "msgid": "Ensure that there is an existing bank journal. Check if chart of accounts is ins",
+      "translation": "Se till att det finns en befintlig bankjournal. Kontrollera "
+    },
+    {
+      "module": "point_of_sale",
       "msgid": "Ensure you validate the refund before taking another order.",
       "translation": ""
     },
@@ -40976,6 +43336,11 @@
     },
     {
       "module": "point_of_sale",
+      "msgid": "Is Using Company Currency",
+      "translation": "Använder bolagets valuta"
+    },
+    {
+      "module": "point_of_sale",
       "msgid": "It seems like you do not have enough rights to create a shop.",
       "translation": ""
     },
@@ -41068,6 +43433,11 @@
       "module": "point_of_sale",
       "msgid": "Last Write Date",
       "translation": ""
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "Leave empty to use the default account from the company setting.\nOverrides the c",
+      "translation": "Lämna tomt för att använda standardkontot från bolagets inst"
     },
     {
       "module": "point_of_sale",
@@ -42701,8 +45071,18 @@
     },
     {
       "module": "point_of_sale",
+      "msgid": "The default pricelist must belong to no company or the company of the point of s",
+      "translation": "Standardprislistan får inte tillhöra något bolag eller bolag"
+    },
+    {
+      "module": "point_of_sale",
       "msgid": "The device is not connected, please check the printer power / connection",
       "translation": ""
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "The fiscal position used in the original order is not loaded. Make sure it is lo",
+      "translation": "Den skatteområde som användes i den ursprungliga ordern är i"
     },
     {
       "module": "point_of_sale",
@@ -42826,6 +45206,11 @@
     },
     {
       "module": "point_of_sale",
+      "msgid": "The selected pricelists must belong to no company or the company of the point of",
+      "translation": "De valda prislistorna får inte tillhöra något bolag eller bo"
+    },
+    {
+      "module": "point_of_sale",
       "msgid": "The start time must be before the end time.",
       "translation": ""
     },
@@ -42893,6 +45278,11 @@
       "module": "point_of_sale",
       "msgid": "There is more than one cash payment method for this PoS Config. Please correct y",
       "translation": ""
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "There is no Chart of Accounts configured on the company. Please go to the invoic",
+      "translation": "Det finns ingen kontoplan konfigurerad på bolaget. Gå till f"
     },
     {
       "module": "point_of_sale",
@@ -43103,6 +45493,11 @@
       "module": "point_of_sale",
       "msgid": "Use Type:",
       "translation": ""
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "Use fiscal positions to get different taxes by order",
+      "translation": "Använd skatteområden för att få olika skatter i ordning"
     },
     {
       "module": "point_of_sale",
@@ -43393,6 +45788,11 @@
       "module": "point_of_sale",
       "msgid": "e.g. BE0477472701",
       "translation": ""
+    },
+    {
+      "module": "point_of_sale",
+      "msgid": "e.g. Company Address, Website",
+      "translation": "t.ex. bolagsadress, webbplats"
     },
     {
       "module": "point_of_sale",
@@ -44321,6 +46721,11 @@
     },
     {
       "module": "portal",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "portal",
       "msgid": "Config Card",
       "translation": ""
     },
@@ -44388,6 +46793,11 @@
       "module": "portal",
       "msgid": "Main Address",
       "translation": ""
+    },
+    {
+      "module": "portal",
+      "msgid": "Multi company reports are not supported.",
+      "translation": "Rapporter för flera bolag stöds inte."
     },
     {
       "module": "portal",
@@ -44650,6 +47060,11 @@
       "translation": ""
     },
     {
+      "module": "pos_adyen",
+      "msgid": "Terminal %(terminal)s is already used in company %(company)s on payment method %",
+      "translation": "Terminal %(terminal)s används redan i bolaget %(company)s på"
+    },
+    {
       "module": "pos_bancontact_pay",
       "msgid": "A Bancontact Pay payment method is linked to a journal that uses the company's d",
       "translation": ""
@@ -44753,6 +47168,11 @@
       "module": "pos_bancontact_pay",
       "msgid": "Close",
       "translation": ""
+    },
+    {
+      "module": "pos_bancontact_pay",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "pos_bancontact_pay",
@@ -46568,6 +48988,11 @@
       "module": "pos_online_payment",
       "msgid": "<span class=\"text-500\">Total</span>",
       "translation": ""
+    },
+    {
+      "module": "pos_online_payment",
+      "msgid": "All payment providers configured for an online payment method must use the same ",
+      "translation": "Alla betalningsleverantörer som är konfigurerade för en onli"
     },
     {
       "module": "pos_online_payment",
@@ -49531,6 +51956,11 @@
     },
     {
       "module": "pos_stock",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "pos_stock",
       "msgid": "Confirm",
       "translation": ""
     },
@@ -49998,6 +52428,11 @@
       "module": "pos_stripe",
       "msgid": "Point of Sale Payment Method",
       "translation": ""
+    },
+    {
+      "module": "pos_stripe",
+      "msgid": "Stripe payment provider for company %s is missing",
+      "translation": "Stripe-betalningsleverantör för bolaget %s saknas"
     },
     {
       "module": "pos_stripe",
@@ -50591,6 +53026,11 @@
     },
     {
       "module": "product",
+      "msgid": "All Companies",
+      "translation": "Alla bolag"
+    },
+    {
+      "module": "product",
       "msgid": "Allowed Uom",
       "translation": ""
     },
@@ -50733,6 +53173,16 @@
       "module": "product",
       "msgid": "Comfortable yellow chair for daily work",
       "translation": ""
+    },
+    {
+      "module": "product",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "product",
+      "msgid": "Company Settings",
+      "translation": "Bolagsinställningar"
     },
     {
       "module": "product",
@@ -52156,8 +54606,18 @@
     },
     {
       "module": "product_matrix",
+      "msgid": "My Company Tshirt (GRID)",
+      "translation": "T-shirt med Mitt Bolag (RUTNÄT)"
+    },
+    {
+      "module": "product_matrix",
       "msgid": "Product Matrix",
       "translation": ""
+    },
+    {
+      "module": "product_matrix",
+      "msgid": "Show your company love around you =).",
+      "translation": "Visa din omgivning hur mycket du älskar ditt bolag =)."
     },
     {
       "module": "product_matrix",
@@ -52531,6 +54991,11 @@
     },
     {
       "module": "project",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "project",
       "msgid": "Complete",
       "translation": ""
     },
@@ -52793,6 +55258,16 @@
       "module": "project",
       "msgid": "Overview",
       "translation": ""
+    },
+    {
+      "module": "project",
+      "msgid": "Partner company cannot be different from its assigned projects' company",
+      "translation": "Partnerbolaget får inte vara ett annat än bolaget för det ti"
+    },
+    {
+      "module": "project",
+      "msgid": "Partner company cannot be different from its assigned tasks' company",
+      "translation": "Partnerbolaget får inte vara annorlunda än det bolag som til"
     },
     {
       "module": "project",
@@ -53081,6 +55556,21 @@
     },
     {
       "module": "project",
+      "msgid": "The project and the associated partner must be linked to the same company.",
+      "translation": "Projektet och den associerade partnern måste vara kopplade t"
+    },
+    {
+      "module": "project",
+      "msgid": "The project's company cannot be changed if its analytic account has analytic lin",
+      "translation": "Projektets bolag kan inte ändras om dess analytiska konto ha"
+    },
+    {
+      "module": "project",
+      "msgid": "The task and the associated partner must be linked to the same company.",
+      "translation": "Uppgiften och den tillhörande partnern måste vara kopplade t"
+    },
+    {
+      "module": "project",
       "msgid": "The view must be grouped by date and by Stage - Burndown chart",
       "translation": ""
     },
@@ -53101,8 +55591,18 @@
     },
     {
       "module": "project",
+      "msgid": "This project is associated with %(project_company)s, whereas the selected stage ",
+      "translation": "Det här projektet är associerat med %(project_company)s, med"
+    },
+    {
+      "module": "project",
       "msgid": "This project is currently a template. Would you like to convert it back into a r",
       "translation": ""
+    },
+    {
+      "module": "project",
+      "msgid": "This project is not associated with any company, while the stage is associated w",
+      "translation": "Det här projektet är inte knutet till något bolag, medan sce"
     },
     {
       "module": "project",
@@ -53248,6 +55748,11 @@
       "module": "project",
       "msgid": "Write a task name",
       "translation": ""
+    },
+    {
+      "module": "project",
+      "msgid": "You are not able to switch the company of this stage to %(company_name)s since i",
+      "translation": "Du kan inte byta bolag för detta steg till %(company_name)s "
     },
     {
       "module": "project",
@@ -53493,6 +55998,11 @@
       "module": "project_timesheet_holidays",
       "msgid": "\nBridge module to integrate leaves in timesheet\n================================",
       "translation": ""
+    },
+    {
+      "module": "project_timesheet_holidays",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "project_timesheet_holidays",
@@ -53886,6 +56396,11 @@
     },
     {
       "module": "purchase",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "purchase",
       "msgid": "Confirm the price.",
       "translation": ""
     },
@@ -53898,6 +56413,11 @@
       "module": "purchase",
       "msgid": "Days to Order",
       "translation": ""
+    },
+    {
+      "module": "purchase",
+      "msgid": "Default on whether the sales price used on the product and invoices with this Co",
+      "translation": "Standard om huruvida det försäljningspris som används på pro"
     },
     {
       "module": "purchase",
@@ -54171,6 +56691,11 @@
     },
     {
       "module": "purchase",
+      "msgid": "Put an address if you want to deliver directly from the vendor to the customer. ",
+      "translation": "Ange en adress om du vill leverera direkt från leverantören "
+    },
+    {
+      "module": "purchase",
       "msgid": "Qty not invoiced",
       "translation": ""
     },
@@ -54296,6 +56821,11 @@
     },
     {
       "module": "purchase",
+      "msgid": "Technical field to filter the available taxes depending on the fiscal country an",
+      "translation": "Tekniskt fält för att filtrera de tillgängliga skatterna ber"
+    },
+    {
+      "module": "purchase",
       "msgid": "Technical field to get the vendor pricelist used to generate this line",
       "translation": ""
     },
@@ -54338,6 +56868,11 @@
       "module": "purchase",
       "msgid": "The unit price has been updated.",
       "translation": ""
+    },
+    {
+      "module": "purchase",
+      "msgid": "This analysis allows you to easily check and analyse your company purchase histo",
+      "translation": "Med denna analys kan du enkelt kontrollera och analysera dit"
     },
     {
       "module": "purchase",
@@ -54826,6 +57361,11 @@
     },
     {
       "module": "purchase_requisition",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "purchase_requisition",
       "msgid": "Display Type",
       "translation": ""
     },
@@ -54883,6 +57423,11 @@
       "module": "purchase_requisition",
       "msgid": "Technical field for UX purpose.",
       "translation": ""
+    },
+    {
+      "module": "purchase_requisition",
+      "msgid": "You cannot change the Agreement Type or Company of a not draft purchase agreemen",
+      "translation": "Du kan inte ändra avtalstyp eller bolag för ett icke upprätt"
     },
     {
       "module": "purchase_requisition",
@@ -54968,6 +57513,11 @@
       "module": "purchase_stock",
       "msgid": "Available Vendor",
       "translation": ""
+    },
+    {
+      "module": "purchase_stock",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "purchase_stock",
@@ -55123,6 +57673,11 @@
       "module": "purchase_stock",
       "msgid": "Purchase Stock",
       "translation": ""
+    },
+    {
+      "module": "purchase_stock",
+      "msgid": "Put an address if you want to deliver directly from the vendor to the customer. ",
+      "translation": "Ange en adress om du vill leverera direkt från leverantören "
     },
     {
       "module": "purchase_stock",
@@ -55286,6 +57841,11 @@
     },
     {
       "module": "rating",
+      "msgid": "\" or someone from the same company can give it a rating.",
+      "translation": "\" eller så kan någon från samma bolag ge det ett betyg."
+    },
+    {
+      "module": "rating",
       "msgid": "Customer Rating",
       "translation": ""
     },
@@ -55343,6 +57903,11 @@
       "module": "repair",
       "msgid": "Cancel",
       "translation": ""
+    },
+    {
+      "module": "repair",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "repair",
@@ -55676,6 +58241,11 @@
     },
     {
       "module": "resource",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "resource",
       "msgid": "Confirm the calendar type change",
       "translation": ""
     },
@@ -55746,6 +58316,11 @@
     },
     {
       "module": "resource",
+      "msgid": "If empty, this is a generic time off for the company. If a resource is set, the ",
+      "translation": "Om det är tomt är detta en generisk ledighet för bolaget. Om"
+    },
+    {
+      "module": "resource",
       "msgid": "Interval",
       "translation": ""
     },
@@ -55778,6 +58353,11 @@
       "module": "resource",
       "msgid": "Number of days or weeks between each occurrence.",
       "translation": ""
+    },
+    {
+      "module": "resource",
+      "msgid": "Number of hours to work on the company schedule to be considered as fulltime.",
+      "translation": "Antal timmar att arbeta enligt bolagets schema för att betra"
     },
     {
       "module": "resource",
@@ -56231,6 +58811,11 @@
     },
     {
       "module": "sale",
+      "msgid": "Changing the company of an existing quotation might need some manual adjustments",
+      "translation": "Att ändra bolag för en befintlig offert kan kräva manuella j"
+    },
+    {
+      "module": "sale",
       "msgid": "Click to configure",
       "translation": ""
     },
@@ -56266,6 +58851,16 @@
     },
     {
       "module": "sale",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "sale",
+      "msgid": "Company Document Layout",
+      "translation": "Layout för bolagsdokument"
+    },
+    {
+      "module": "sale",
       "msgid": "Confirmation",
       "translation": ""
     },
@@ -56278,6 +58873,11 @@
       "module": "sale",
       "msgid": "Create one invoice for all orders related to same customer, same invoicing addre",
       "translation": ""
+    },
+    {
+      "module": "sale",
+      "msgid": "Default on whether the sales price used on the product and invoices with this Co",
+      "translation": "Standard om huruvida det försäljningspris som används på pro"
     },
     {
       "module": "sale",
@@ -56801,6 +59401,16 @@
     },
     {
       "module": "sale",
+      "msgid": "The company is required, please select one before making any other changes to th",
+      "translation": "Bolaget är obligatoriskt, vänligen välj ett innan du gör någ"
+    },
+    {
+      "module": "sale",
+      "msgid": "The following products cannot be restricted to the company %(company)s because t",
+      "translation": "Följande produkter kan inte begränsas till bolaget %(company"
+    },
+    {
+      "module": "sale",
       "msgid": "The following sale orders %(invalid_orders)s can't be delivered. Cancelled all d",
       "translation": ""
     },
@@ -56813,6 +59423,11 @@
       "module": "sale",
       "msgid": "The sale order has expired.",
       "translation": ""
+    },
+    {
+      "module": "sale",
+      "msgid": "There does not seem to be any discount product configured for this company yet. ",
+      "translation": "Det verkar inte finnas någon rabattprodukt konfigurerad för "
     },
     {
       "module": "sale",
@@ -56858,6 +59473,16 @@
       "module": "sale",
       "msgid": "Validity of the quotation. After this date, you will no longer be able to sign a",
       "translation": ""
+    },
+    {
+      "module": "sale",
+      "msgid": "Values set here are company-specific.",
+      "translation": "Värden som anges här är bolagsspecifika."
+    },
+    {
+      "module": "sale",
+      "msgid": "Warning for the change of your quotation's company",
+      "translation": "Varning för byte av bolag för din offert"
     },
     {
       "module": "sale",
@@ -57108,6 +59733,11 @@
       "module": "sale_gelato",
       "msgid": "<i title=\"All print images are set\" invisible=\"gelato_missing_images\" class=\"oi ",
       "translation": ""
+    },
+    {
+      "module": "sale_gelato",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "sale_gelato",
@@ -57608,6 +60238,11 @@
       "module": "sale_management",
       "msgid": "Collapse Prices",
       "translation": ""
+    },
+    {
+      "module": "sale_management",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "sale_management",
@@ -58128,6 +60763,11 @@
       "module": "sale_pdf_quote_builder",
       "msgid": "Build nice quotations",
       "translation": ""
+    },
+    {
+      "module": "sale_pdf_quote_builder",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "sale_pdf_quote_builder",
@@ -58701,6 +61341,11 @@
     },
     {
       "module": "sale_stock",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "sale_stock",
       "msgid": "Continue",
       "translation": ""
     },
@@ -58865,6 +61510,11 @@
       "translation": ""
     },
     {
+      "module": "sale_stock",
+      "msgid": "You must have a warehouse for line using a delivery in different company.",
+      "translation": "Du måste ha ett lager för linje som använder en leverans i o"
+    },
+    {
       "module": "sale_stock_margin",
       "msgid": "Once the delivery is validated, update the cost on the SO to have an exact margi",
       "translation": ""
@@ -58951,6 +61601,11 @@
     },
     {
       "module": "sale_timesheet",
+      "msgid": "Each employee has a chance to see the impact of his work.\n                    Yo",
+      "translation": "Varje anställd har en chans att se effekterna av sitt arbete"
+    },
+    {
+      "module": "sale_timesheet",
       "msgid": "Employee Departure",
       "translation": ""
     },
@@ -58981,8 +61636,18 @@
     },
     {
       "module": "sale_timesheet",
+      "msgid": "Real responsibilities and challenges in a fast evolving company",
+      "translation": "Verkligt ansvar och utmaningar i ett snabbt utvecklande bola"
+    },
+    {
+      "module": "sale_timesheet",
       "msgid": "Sales Timesheet",
       "translation": ""
+    },
+    {
+      "module": "sale_timesheet",
+      "msgid": "Sales order item that will be selected by default on the timesheets of the corre",
+      "translation": "Försäljningsorderobjekt som kommer att väljas som standard p"
     },
     {
       "module": "sale_timesheet",
@@ -59111,8 +61776,23 @@
     },
     {
       "module": "sales_team",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "sales_team",
+      "msgid": "Member Company",
+      "translation": "Medlemsbolag"
+    },
+    {
+      "module": "sales_team",
       "msgid": "No",
       "translation": ""
+    },
+    {
+      "module": "sales_team",
+      "msgid": "The default company for this user.",
+      "translation": "Standardbolaget för den här användaren."
     },
     {
       "module": "sales_team",
@@ -59121,8 +61801,18 @@
     },
     {
       "module": "sales_team",
+      "msgid": "UX: Limit to team company or all if no company",
+      "translation": "UX: Begränsa till teambolag eller alla om inget bolag"
+    },
+    {
+      "module": "sales_team",
       "msgid": "User '%(user)s' is not allowed in the company '%(company)s' of the Sales Team '%",
       "translation": ""
+    },
+    {
+      "module": "sales_team",
+      "msgid": "User Company",
+      "translation": "Användarbolag"
     },
     {
       "module": "sales_team",
@@ -59163,6 +61853,11 @@
       "module": "sms",
       "msgid": "Bad parameters",
       "translation": ""
+    },
+    {
+      "module": "sms",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "sms",
@@ -59316,6 +62011,11 @@
     },
     {
       "module": "sms",
+      "msgid": "Your sender name must be between 3 and 11 characters long and only contain alpha",
+      "translation": "Ditt avsändarnamn måste vara mellan 3 och 11 tecken långt oc"
+    },
+    {
+      "module": "sms",
       "msgid": "e.g: Send order confirmation",
       "translation": ""
     },
@@ -59373,6 +62073,11 @@
       "module": "sms_twilio",
       "msgid": "Authentication Error\"",
       "translation": ""
+    },
+    {
+      "module": "sms_twilio",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "sms_twilio",
@@ -59566,6 +62271,11 @@
     },
     {
       "module": "snailmail",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "snailmail",
       "msgid": "Dispatched",
       "translation": ""
     },
@@ -59645,9 +62355,19 @@
       "translation": ""
     },
     {
+      "module": "snailmail_account",
+      "msgid": "<span class=\"oi oi-lg\" data-icon=\"business\" title=\"Values set here are company-s",
+      "translation": "<span class=\"oi oi-lg\" data-icon=\"business\" title=\"Värden so"
+    },
+    {
       "module": "social_media",
       "msgid": "\nThe purpose of this technical module is to provide a front for\nsocial media con",
       "translation": ""
+    },
+    {
+      "module": "social_media",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "social_media",
@@ -66071,6 +68791,11 @@
     },
     {
       "module": "spreadsheet",
+      "msgid": "The company to take the exchange rate from.",
+      "translation": "Bolaget som valutakursen ska hämtas från."
+    },
+    {
+      "module": "spreadsheet",
       "msgid": "The condition to be evaluated. It can be a boolean, a number, an array, or a ref",
       "translation": ""
     },
@@ -69745,6 +72470,31 @@
       "translation": ""
     },
     {
+      "module": "spreadsheet_account",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "spreadsheet_account",
+      "msgid": "Currency not available for this company.",
+      "translation": "Valutan är inte tillgänglig för det här bolaget."
+    },
+    {
+      "module": "spreadsheet_account",
+      "msgid": "The company fiscal year could not be found.",
+      "translation": "Bolagets räkenskapsår kunde inte hittas."
+    },
+    {
+      "module": "spreadsheet_account",
+      "msgid": "The company to target (Advanced).",
+      "translation": "Det gällande bolaget (avancerat)."
+    },
+    {
+      "module": "spreadsheet_account",
+      "msgid": "The company.",
+      "translation": "Bolaget."
+    },
+    {
       "module": "spreadsheet_dashboard",
       "msgid": "(Any value)",
       "translation": ""
@@ -69778,6 +72528,11 @@
       "module": "spreadsheet_dashboard",
       "msgid": "Choose a dashboard section...",
       "translation": ""
+    },
+    {
+      "module": "spreadsheet_dashboard",
+      "msgid": "Companies",
+      "translation": "Bolag"
     },
     {
       "module": "spreadsheet_dashboard",
@@ -70411,6 +73166,11 @@
     },
     {
       "module": "spreadsheet_dashboard_sale",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "spreadsheet_dashboard_sale",
       "msgid": "Map",
       "translation": ""
     },
@@ -71036,8 +73796,18 @@
     },
     {
       "module": "stock",
+      "msgid": "Changing the company of this record is forbidden at this point, you should rathe",
+      "translation": "Det är inte tillåtet att ändra bolaget på det här dokumentet"
+    },
+    {
+      "module": "stock",
       "msgid": "Cluster transfers",
       "translation": ""
+    },
+    {
+      "module": "stock",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "stock",
@@ -71496,6 +74266,16 @@
     },
     {
       "module": "stock",
+      "msgid": "Leave this field empty if this route is shared between all companies",
+      "translation": "Lämna detta fält tomt om rutten delas av alla bolag"
+    },
+    {
+      "module": "stock",
+      "msgid": "Let this field empty if this location is shared between companies",
+      "translation": "Lämna detta fält tomt om platsen delas av flera bolag"
+    },
+    {
+      "module": "stock",
       "msgid": "Line",
       "translation": ""
     },
@@ -71643,6 +74423,11 @@
       "module": "stock",
       "msgid": "Multiple destinations",
       "translation": ""
+    },
+    {
+      "module": "stock",
+      "msgid": "My Company (Chicago) undertakes to do its best to supply performant services in ",
+      "translation": "Mitt bolag (Chicago) åtar sig att göra sitt bästa för att ti"
     },
     {
       "module": "stock",
@@ -71798,6 +74583,11 @@
       "module": "stock",
       "msgid": "Please contact your administrator to configure your warehouse.",
       "translation": ""
+    },
+    {
+      "module": "stock",
+      "msgid": "Please create a warehouse for company %s.",
+      "translation": "Vänligen skapa ett lager för bolaget %s."
     },
     {
       "module": "stock",
@@ -71968,6 +74758,11 @@
       "module": "stock",
       "msgid": "Reverted Moves",
       "translation": ""
+    },
+    {
+      "module": "stock",
+      "msgid": "Route Company",
+      "translation": "Ruttbolag"
     },
     {
       "module": "stock",
@@ -72311,6 +75106,21 @@
     },
     {
       "module": "stock",
+      "msgid": "The barcode for a location must be unique per company!",
+      "translation": "Streckkoden för en plats måste vara unik för varje bolag!"
+    },
+    {
+      "module": "stock",
+      "msgid": "The combination of lot/serial number and product must be unique within a company",
+      "translation": "Kombinationen av parti-/serienummer och produkt måste vara u"
+    },
+    {
+      "module": "stock",
+      "msgid": "The company is automatically set from your user preferences.",
+      "translation": "Bolaget ställs automatiskt in från dina användarpreferenser."
+    },
+    {
+      "module": "stock",
       "msgid": "The following batch transfer has been created",
       "translation": ""
     },
@@ -72323,6 +75133,11 @@
       "module": "stock",
       "msgid": "The following transfers cannot be added to batch transfer %(batch)s. Please chec",
       "translation": ""
+    },
+    {
+      "module": "stock",
+      "msgid": "The name of the warehouse must be unique per company!",
+      "translation": "Namnet på lagerplatsen måste vara unikt för varje bolag!"
     },
     {
       "module": "stock",
@@ -72356,6 +75171,11 @@
     },
     {
       "module": "stock",
+      "msgid": "The short name of the warehouse must be unique per company!",
+      "translation": "Kortnamnet på lagret måste vara unikt per bolag!"
+    },
+    {
+      "module": "stock",
       "msgid": "There is nothing to reserve.",
       "translation": ""
     },
@@ -72383,6 +75203,16 @@
       "module": "stock",
       "msgid": "This package is currently set to be sent in %(location_names_list)s.",
       "translation": ""
+    },
+    {
+      "module": "stock",
+      "msgid": "This product's company cannot be changed as long as there are quantities of it b",
+      "translation": "Denna produkts bolag kan inte ändras så länge det finns kvan"
+    },
+    {
+      "module": "stock",
+      "msgid": "This product's company cannot be changed as long as there are stock moves of it ",
+      "translation": "Denna produkts bolag kan inte ändras så länge det finns lage"
     },
     {
       "module": "stock",
@@ -72546,6 +75376,11 @@
     },
     {
       "module": "stock",
+      "msgid": "You can only move positive quantities stored in locations used by a single compa",
+      "translation": "Du kan endast flytta positiva kvantiteter som lagras på plat"
+    },
+    {
+      "module": "stock",
       "msgid": "You can't deactivate the multi-location feature if you have more than one wareho",
       "translation": ""
     },
@@ -72553,6 +75388,11 @@
       "module": "stock",
       "msgid": "You cannot change the Scheduled Date on a cancelled transfer.",
       "translation": ""
+    },
+    {
+      "module": "stock",
+      "msgid": "You cannot change the company of a lot/serial number currently in a location bel",
+      "translation": "Du kan inte byta bolag för ett parti-/serienummer som för nä"
     },
     {
       "module": "stock",
@@ -72726,8 +75566,43 @@
     },
     {
       "module": "stock_account",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "stock_account",
+      "msgid": "Company Currency",
+      "translation": "Bolagets valuta"
+    },
+    {
+      "module": "stock_account",
+      "msgid": "If the move originates from a document from another company, contains that compa",
+      "translation": "Om transporten har sitt ursprung i ett dokument från ett ann"
+    },
+    {
+      "module": "stock_account",
+      "msgid": "Is valued inside the company",
+      "translation": "Värderas inuti bolaget"
+    },
+    {
+      "module": "stock_account",
+      "msgid": "Only set if the move is generated from a document belonging to another company",
+      "translation": "Anges endast om verifikationen skapas från ett dokument som "
+    },
+    {
+      "module": "stock_account",
+      "msgid": "Origin Company",
+      "translation": "Ursprungsbolag"
+    },
+    {
+      "module": "stock_account",
       "msgid": "Others",
       "translation": ""
+    },
+    {
+      "module": "stock_account",
+      "msgid": "Technical field to correctly show the currently selected company's currency that",
+      "translation": "Tekniskt fält för att korrekt visa det valda bolagets valuta"
     },
     {
       "module": "stock_account",
@@ -73043,6 +75918,11 @@
       "module": "stock_dropshipping",
       "msgid": "\nManage drop shipping orders\n===========================\n\nThis module adds a pre",
       "translation": ""
+    },
+    {
+      "module": "stock_dropshipping",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "stock_dropshipping",
@@ -73516,6 +76396,11 @@
     },
     {
       "module": "stock_landed_costs",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "stock_landed_costs",
       "msgid": "Pickings Count",
       "translation": ""
     },
@@ -73563,6 +76448,11 @@
       "module": "stock_sms",
       "msgid": "\n                {{ (object.company_id.name + ': Your order n° ' + object.origin",
       "translation": ""
+    },
+    {
+      "module": "stock_sms",
+      "msgid": "Company",
+      "translation": "Bolag"
     },
     {
       "module": "stock_sms",
@@ -73843,6 +76733,11 @@
       "module": "survey",
       "msgid": "Click to copy link",
       "translation": ""
+    },
+    {
+      "module": "survey",
+      "msgid": "Company Certifications Count",
+      "translation": "Bolagets antal certifieringar"
     },
     {
       "module": "survey",
@@ -74191,6 +77086,11 @@
     },
     {
       "module": "survey_crm",
+      "msgid": "Before this survey, were you aware of our company?",
+      "translation": "Kände du till vårt bolag innan den här enkäten?"
+    },
+    {
+      "module": "survey_crm",
       "msgid": "Create Leads",
       "translation": ""
     },
@@ -74218,6 +77118,11 @@
       "module": "survey_crm",
       "msgid": "Getting to know you",
       "translation": ""
+    },
+    {
+      "module": "survey_crm",
+      "msgid": "How is your company named?",
+      "translation": "Vad heter ditt bolag?"
     },
     {
       "module": "survey_crm",
@@ -74711,6 +77616,16 @@
     },
     {
       "module": "web",
+      "msgid": "<strong>Company address block</strong>",
+      "translation": "<strong>Adressblock för bolaget</strong>"
+    },
+    {
+      "module": "web",
+      "msgid": "<strong>Company details block</strong>",
+      "translation": "<strong>Block för bolagsuppgifter</strong>"
+    },
+    {
+      "module": "web",
       "msgid": "?|about|answer|assistance|button|circle|circular|documentation|element|faq|guide",
       "translation": ""
     },
@@ -75046,6 +77961,56 @@
     },
     {
       "module": "web",
+      "msgid": "Companies",
+      "translation": "Bolag"
+    },
+    {
+      "module": "web",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "web",
+      "msgid": "Company Details",
+      "translation": "Bolagsuppgifter"
+    },
+    {
+      "module": "web",
+      "msgid": "Company Document Layout",
+      "translation": "Bolagets dokumentlayout"
+    },
+    {
+      "module": "web",
+      "msgid": "Company Logo",
+      "translation": "Bolagslogo"
+    },
+    {
+      "module": "web",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
+    },
+    {
+      "module": "web",
+      "msgid": "Company Tagline",
+      "translation": "Bolagets slogan"
+    },
+    {
+      "module": "web",
+      "msgid": "Company name",
+      "translation": "Bolagsnamn"
+    },
+    {
+      "module": "web",
+      "msgid": "Company tagline",
+      "translation": "Bolagets slogan"
+    },
+    {
+      "module": "web",
+      "msgid": "Company tagline, which is included in a printed document's header or footer (dep",
+      "translation": "Bolagets slogan, som inkluderas i ett tryckt dokuments sidhu"
+    },
+    {
+      "module": "web",
       "msgid": "Condition:",
       "translation": ""
     },
@@ -75063,6 +78028,16 @@
       "module": "web",
       "msgid": "Contact Statistics",
       "translation": ""
+    },
+    {
+      "module": "web",
+      "msgid": "Contains the company address.",
+      "translation": "Innehåller bolagets adress."
+    },
+    {
+      "module": "web",
+      "msgid": "Contains the company details.",
+      "translation": "Innehåller uppgifter om bolaget."
     },
     {
       "module": "web",
@@ -75488,6 +78463,11 @@
       "module": "web",
       "msgid": "Invalid time range",
       "translation": ""
+    },
+    {
+      "module": "web",
+      "msgid": "Is Company Details Empty",
+      "translation": "Is Bolagsuppgifter Tom"
     },
     {
       "module": "web",
@@ -76348,6 +79328,11 @@
       "module": "web",
       "msgid": "User customization",
       "translation": ""
+    },
+    {
+      "module": "web",
+      "msgid": "Values set here are company-specific.",
+      "translation": "Värden som anges här är bolagsspecifika."
     },
     {
       "module": "web",
@@ -79921,6 +82906,11 @@
     },
     {
       "module": "website",
+      "msgid": "\" This company transformed our business. <br/>Their solutions are innovative and",
+      "translation": "\"Det här bolaget förändrade vår verksamhet. <br/> Deras lösn"
+    },
+    {
+      "module": "website",
       "msgid": "\" We were impressed by their attention to detail. Every step was clear, efficien",
       "translation": ""
     },
@@ -80116,6 +83106,26 @@
     },
     {
       "module": "website",
+      "msgid": "50,000+ companies run Odoo <br class=\"d-none d-lg-inline\"/>to grow their busines",
+      "translation": "50 000+ bolag använder Odoo <br class=\"d-none d-lg-inline\"/>"
+    },
+    {
+      "module": "website",
+      "msgid": "50,000+ companies run Odoo to grow their businesses.",
+      "translation": "50 000+ bolag använder Odoo för att utveckla sin verksamhet."
+    },
+    {
+      "module": "website",
+      "msgid": "50,000+ companies run Odoo<br/>to grow their businesses.",
+      "translation": "50 000+ bolag använder Odoo<br/>för att utveckla sin verksam"
+    },
+    {
+      "module": "website",
+      "msgid": "50,000+ companies trust Odoo.",
+      "translation": "50 000+ bolag litar på Odoo."
+    },
+    {
+      "module": "website",
       "msgid": "50,000+ companies use our services <br/>to grow their businesses.",
       "translation": ""
     },
@@ -80246,6 +83256,11 @@
     },
     {
       "module": "website",
+      "msgid": "<b>Designed</b> for companies",
+      "translation": "<b>Designad</b> för bolag"
+    },
+    {
+      "module": "website",
       "msgid": "<b>My Company</b><br/>8000 Marina Blvd, Suite 300 <br/> Brisbane CA 94005 <br/>U",
       "translation": ""
     },
@@ -80253,6 +83268,11 @@
       "module": "website",
       "msgid": "<br/><br/><br/>Expert’s review<br/>",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "<br/>From revenue growth to customer retention and market expansion, our key met",
+      "translation": "<br/>Från intäktstillväxt till kundlojalitet och marknadsexp"
     },
     {
       "module": "website",
@@ -80581,6 +83601,11 @@
     },
     {
       "module": "website",
+      "msgid": "<span class=\"flex-grow-1\">What services does your company offer ?</span>",
+      "translation": "<span class=\"flex-grow-1\">Vilka tjänster erbjuder ditt bolag"
+    },
+    {
+      "module": "website",
       "msgid": "<span class=\"h2-fs\">Clients</span>",
       "translation": ""
     },
@@ -80793,6 +83818,16 @@
       "module": "website",
       "msgid": "<span class=\"s_progress_bar_text small d-none\">80%</span>",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "<span class=\"s_website_form_label_content\">Company</span>",
+      "translation": "<span class=\"s_website_form_label_content\">Bolag</span>"
+    },
+    {
+      "module": "website",
+      "msgid": "<span class=\"s_website_form_label_content\">Your Company</span>",
+      "translation": "<span class=\"s_website_form_label_content\">Ditt bolag</span>"
     },
     {
       "module": "website",
@@ -81258,6 +84293,16 @@
       "module": "website",
       "msgid": "An error has occurred, the form has not been sent.",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Analyzing the numbers behind our success: <br class=\"d-none d-xxl-inline\"/>an in",
+      "translation": "Objekta siffrorna bakom vår framgång: <br class=\"d-none d-xx"
+    },
+    {
+      "module": "website",
+      "msgid": "Analyzing the numbers behind our success: an in-depth look at the key metrics dr",
+      "translation": "Objekta siffrorna bakom vår framgång: en djupgående titt på "
     },
     {
       "module": "website",
@@ -81756,6 +84801,11 @@
     },
     {
       "module": "website",
+      "msgid": "Check out what's new in our company !",
+      "translation": "Kolla in vad som är nytt i vårt bolag!"
+    },
+    {
+      "module": "website",
       "msgid": "Checkbox List",
       "translation": ""
     },
@@ -81916,6 +84966,16 @@
     },
     {
       "module": "website",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "website",
+      "msgid": "Company Logo",
+      "translation": "Bolagslogo"
+    },
+    {
+      "module": "website",
       "msgid": "Company Team Grid",
       "translation": ""
     },
@@ -81933,6 +84993,11 @@
       "module": "website",
       "msgid": "Contact Number",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Contact us about anything related to our company or services.",
+      "translation": "Kontakta oss om frågor relaterade till vårt bolag eller våra"
     },
     {
       "module": "website",
@@ -82003,6 +85068,11 @@
       "module": "website",
       "msgid": "Create a new page",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Created in 2021, the company is young and dynamic. Discover the composition of t",
+      "translation": "Bolaget bildades 2021 och är ungt och dynamiskt. Upptäck tea"
     },
     {
       "module": "website",
@@ -82193,6 +85263,11 @@
       "module": "website",
       "msgid": "Display a customizable cookies bar on your website. Please ensure your site is G",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Dive deeper into our company’s abilities.",
+      "translation": "Dyk djupare in i vårt bolags förmågor."
     },
     {
       "module": "website",
@@ -82686,6 +85761,11 @@
     },
     {
       "module": "website",
+      "msgid": "Founder and chief visionary, Tony is the driving force behind the company. He lo",
+      "translation": "Tony är bolagets grundare och främsta visionär och den driva"
+    },
+    {
+      "module": "website",
       "msgid": "Fourth Slide\n                                <small class=\"oe_unbreakable o_nav_",
       "translation": ""
     },
@@ -82881,6 +85961,11 @@
     },
     {
       "module": "website",
+      "msgid": "Here are some common questions about our company.",
+      "translation": "Här är några vanliga frågor om vårt bolag."
+    },
+    {
+      "module": "website",
       "msgid": "Hero About",
       "translation": ""
     },
@@ -82986,6 +86071,11 @@
     },
     {
       "module": "website",
+      "msgid": "If set, add the menu as a second level menu, as a child of \"Company\" menu.",
+      "translation": "Om inställd, lägg till menyn som en andra nivå meny, som ett"
+    },
+    {
+      "module": "website",
       "msgid": "If you don't write one, the description will be generated by the search engines ",
       "translation": ""
     },
@@ -83063,6 +86153,11 @@
       "module": "website",
       "msgid": "Industry-Specific Award",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Info and stats about your company",
+      "translation": "Information och statistik om ditt bolag"
     },
     {
       "module": "website",
@@ -83176,6 +86271,11 @@
     },
     {
       "module": "website",
+      "msgid": "Iris, with her international experience, helps us easily understand the numbers ",
+      "translation": "Iris, med sin internationella erfarenhet, hjälper oss att en"
+    },
+    {
+      "module": "website",
       "msgid": "Is Url From Exist",
       "translation": ""
     },
@@ -83241,6 +86341,11 @@
     },
     {
       "module": "website",
+      "msgid": "James leads the tech strategy and innovation efforts at the company.",
+      "translation": "James leder arbetet med teknisk strategi och innovation på b"
+    },
+    {
+      "module": "website",
       "msgid": "Jane Doe",
       "translation": ""
     },
@@ -83253,6 +86358,11 @@
       "module": "website",
       "msgid": "Join the waitlist",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Join us and make your company a better place.",
+      "translation": "Gå med oss och gör ditt bolag till en bättre plats."
     },
     {
       "module": "website",
@@ -83526,6 +86636,11 @@
     },
     {
       "module": "website",
+      "msgid": "Menu Company",
+      "translation": "Menybolag"
+    },
+    {
+      "module": "website",
       "msgid": "Menu item",
       "translation": ""
     },
@@ -83568,6 +86683,11 @@
       "module": "website",
       "msgid": "Messaging is not available. Please contact us by another way.",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Mich loves taking on challenges. With his multi-year experience as Commercial Di",
+      "translation": "Mich älskar att ta sig an utmaningar. Med sin mångåriga erfa"
     },
     {
       "module": "website",
@@ -83881,6 +87001,11 @@
     },
     {
       "module": "website",
+      "msgid": "Our Company",
+      "translation": "Vårt Bolag"
+    },
+    {
+      "module": "website",
       "msgid": "Our Features",
       "translation": ""
     },
@@ -83903,6 +87028,16 @@
       "module": "website",
       "msgid": "Our commitments",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Our company",
+      "translation": "Vårt bolag"
+    },
+    {
+      "module": "website",
+      "msgid": "Our company specializes in consulting, product development, and customer support",
+      "translation": "Vårt bolag är specialiserat på konsultverksamhet, produktutv"
     },
     {
       "module": "website",
@@ -85096,8 +88231,23 @@
     },
     {
       "module": "website",
+      "msgid": "The company this website is linked to",
+      "translation": "Bolaget som hemsidan är kopplad till"
+    },
+    {
+      "module": "website",
+      "msgid": "The company “%(company_name)s” cannot be archived because it has a linked websit",
+      "translation": "Bolaget \"%(company_name)s\" kan inte arkiveras eftersom det h"
+    },
+    {
+      "module": "website",
       "msgid": "The domain path cannot contain relative path segments like '/./' or '/../'.",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "The evolution of our company",
+      "translation": "Utvecklingen av vårt bolag"
     },
     {
       "module": "website",
@@ -85516,6 +88666,11 @@
     },
     {
       "module": "website",
+      "msgid": "Use this section to boost your company's credibility.",
+      "translation": "Använd detta avsnitt för att öka ditt bolags trovärdighet."
+    },
+    {
+      "module": "website",
       "msgid": "Useful if you sell subscriptions",
       "translation": ""
     },
@@ -85626,6 +88781,16 @@
     },
     {
       "module": "website",
+      "msgid": "We are a team of passionate people whose goal is to improve everyone's life thro",
+      "translation": "Vi är ett team av passionerade människor vars mål är att för"
+    },
+    {
+      "module": "website",
+      "msgid": "We are a team of passionate people whose goal is to improve everyone's life thro",
+      "translation": "Vi är ett team av passionerade människor vars mål är att för"
+    },
+    {
+      "module": "website",
       "msgid": "We are a team of passionate people whose goal is to improve everyone's life. Our",
       "translation": ""
     },
@@ -85728,6 +88893,11 @@
       "module": "website",
       "msgid": "Website Address Autocomplete",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Website Company",
+      "translation": "Webbplatsbolag"
     },
     {
       "module": "website",
@@ -85903,6 +89073,11 @@
       "module": "website",
       "msgid": "You may opt-out of a third-party's use of cookies by visiting the <a class=\"o_tr",
       "translation": ""
+    },
+    {
+      "module": "website",
+      "msgid": "Your Company",
+      "translation": "Ditt bolag"
     },
     {
       "module": "website",
@@ -88041,6 +91216,11 @@
     },
     {
       "module": "website_blog",
+      "msgid": "Write a small text here to describe your blog or company.",
+      "translation": "Skriv en liten text här för att beskriva din blogg eller dit"
+    },
+    {
+      "module": "website_blog",
       "msgid": "Written by",
       "translation": ""
     },
@@ -88105,6 +91285,16 @@
       "translation": ""
     },
     {
+      "module": "website_crm",
+      "msgid": "Your Company",
+      "translation": "Ditt bolag"
+    },
+    {
+      "module": "website_crm_iap_reveal",
+      "msgid": "1 credit is consumed per visitor matching the website traffic conditions and who",
+      "translation": "1 kredit förbrukas per besökare som uppfyller webbplatsens t"
+    },
+    {
       "module": "website_crm_iap_reveal",
       "msgid": "<b>Contacts</b>",
       "translation": ""
@@ -88116,8 +91306,38 @@
     },
     {
       "module": "website_crm_iap_reveal",
+      "msgid": "Choose whether to track companies only or companies and their contacts",
+      "translation": "Välj om du vill spåra endast bolag eller bolag och deras kon"
+    },
+    {
+      "module": "website_crm_iap_reveal",
+      "msgid": "Companies",
+      "translation": "Bolag"
+    },
+    {
+      "module": "website_crm_iap_reveal",
+      "msgid": "Companies and their Contacts",
+      "translation": "Bolag och deras kontaktpersoner"
+    },
+    {
+      "module": "website_crm_iap_reveal",
+      "msgid": "Company Size",
+      "translation": "Bolagets storlek"
+    },
+    {
+      "module": "website_crm_iap_reveal",
+      "msgid": "Company Size Max",
+      "translation": "Bolags Maxstorlek"
+    },
+    {
+      "module": "website_crm_iap_reveal",
       "msgid": "Email",
       "translation": ""
+    },
+    {
+      "module": "website_crm_iap_reveal",
+      "msgid": "Filter companies based on their size.",
+      "translation": "Filtrera bolag baserat på deras storlek."
     },
     {
       "module": "website_crm_iap_reveal",
@@ -88133,6 +91353,11 @@
       "module": "website_crm_iap_reveal",
       "msgid": "Phone",
       "translation": ""
+    },
+    {
+      "module": "website_crm_iap_reveal",
+      "msgid": "additional credit(s) are consumed if the company matches this rule.",
+      "translation": "ytterligare kredit(er) förbrukas om bolaget uppfyller denna "
     },
     {
       "module": "website_crm_livechat",
@@ -88736,6 +91961,11 @@
     },
     {
       "module": "website_event",
+      "msgid": "The website must be from the same company as the event.",
+      "translation": "Webbplatsen måste vara från samma bolag som evenemanget."
+    },
+    {
+      "module": "website_event",
       "msgid": "Total number of views on events",
       "translation": ""
     },
@@ -88748,6 +91978,11 @@
       "module": "website_event",
       "msgid": "Unsupported 'Not In' operation on visitors registrations",
       "translation": ""
+    },
+    {
+      "module": "website_event",
+      "msgid": "Use this paragraph to write a short text about your events or company.",
+      "translation": "Använd detta stycke för att skriva en kort text om ditt even"
     },
     {
       "module": "website_event",
@@ -88836,6 +92071,11 @@
     },
     {
       "module": "website_event_booth_exhibitor",
+      "msgid": "<span>Company Name</span>\n                        <span class=\"mandatory_mark\"> ",
+      "translation": "<span>Bolagets namn</span>\n                        <span cla"
+    },
+    {
+      "module": "website_event_booth_exhibitor",
       "msgid": "Booths/Exhibitors Bridge",
       "translation": ""
     },
@@ -88843,6 +92083,11 @@
       "module": "website_event_booth_exhibitor",
       "msgid": "Event Booths, automatically create a sponsor.",
       "translation": ""
+    },
+    {
+      "module": "website_event_booth_exhibitor",
+      "msgid": "How can we showcase your company ?",
+      "translation": "Hur kan vi visa upp ditt bolag?"
     },
     {
       "module": "website_event_booth_sale",
@@ -89121,8 +92366,23 @@
     },
     {
       "module": "website_event_track",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "website_event_track",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
+    },
+    {
+      "module": "website_event_track",
       "msgid": "Contact Information",
       "translation": ""
+    },
+    {
+      "module": "website_event_track",
+      "msgid": "Description of the partner (name, function and company name)",
+      "translation": "Beskrivning av partnern (namn, function och bolagsnamn)"
     },
     {
       "module": "website_event_track",
@@ -89223,6 +92483,11 @@
       "module": "website_event_track",
       "msgid": "Location Display Link",
       "translation": ""
+    },
+    {
+      "module": "website_event_track",
+      "msgid": "My Company global presentation",
+      "translation": "Mitt bolags globala presentation"
     },
     {
       "module": "website_event_track",
@@ -89946,6 +93211,11 @@
     },
     {
       "module": "website_hr_recruitment",
+      "msgid": "Each employee has a chance to see the impact of his work.\n                    Yo",
+      "translation": "Varje anställd har en chans att se effekterna av sitt arbete"
+    },
+    {
+      "module": "website_hr_recruitment",
       "msgid": "Industries Filter",
       "translation": ""
     },
@@ -89996,6 +93266,11 @@
     },
     {
       "module": "website_hr_recruitment",
+      "msgid": "Real responsibilities and challenges in a fast evolving company",
+      "translation": "Verkligt ansvar och utmaningar i ett snabbt utvecklande bola"
+    },
+    {
+      "module": "website_hr_recruitment",
       "msgid": "Reset Filter",
       "translation": ""
     },
@@ -90008,6 +93283,11 @@
       "module": "website_hr_recruitment",
       "msgid": "Scheduled",
       "translation": ""
+    },
+    {
+      "module": "website_hr_recruitment",
+      "msgid": "Set if the application is published on the website of the company.",
+      "translation": "Ställ in om ansökan ska publiceras på bolagets webbplats."
     },
     {
       "module": "website_hr_recruitment",
@@ -90378,6 +93658,11 @@
       "module": "website_mass_mailing",
       "msgid": "Don't miss our upcoming updates",
       "translation": ""
+    },
+    {
+      "module": "website_mass_mailing",
+      "msgid": "Get all the latest news, blog posts and product updates from our company, delive",
+      "translation": "Få alla de senaste nyheterna, blogginläggen och produktuppda"
     },
     {
       "module": "website_mass_mailing",
@@ -91003,6 +94288,11 @@
       "module": "website_project",
       "msgid": "Ask Your Question",
       "translation": ""
+    },
+    {
+      "module": "website_project",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
     },
     {
       "module": "website_project",
@@ -91771,8 +95061,18 @@
     },
     {
       "module": "website_sale",
+      "msgid": "Company",
+      "translation": "Bolag"
+    },
+    {
+      "module": "website_sale",
       "msgid": "Company Details",
       "translation": ""
+    },
+    {
+      "module": "website_sale",
+      "msgid": "Company Name",
+      "translation": "Bolagsnamn"
     },
     {
       "module": "website_sale",
@@ -92686,6 +95986,11 @@
     },
     {
       "module": "website_sale",
+      "msgid": "Only the company's websites are allowed.\nLeave the Company field empty or select",
+      "translation": "Endast bolagets hemsidor är tillåtna.\nLämna bolagsfältet tom"
+    },
+    {
+      "module": "website_sale",
       "msgid": "Opacity of the overlay",
       "translation": ""
     },
@@ -93513,6 +96818,11 @@
       "module": "website_sale",
       "msgid": "The building block will remain empty until the user visits a product page.",
       "translation": ""
+    },
+    {
+      "module": "website_sale",
+      "msgid": "The company of the website you are trying to sell from (%(website_company)s) is ",
+      "translation": "Bolaget på webbplatsen som du försöker sälja från (%(website"
     },
     {
       "module": "website_sale",
@@ -94788,6 +98098,11 @@
       "module": "website_slides",
       "msgid": "Channel/Course Group",
       "translation": ""
+    },
+    {
+      "module": "website_slides",
+      "msgid": "Company Course Count",
+      "translation": "Antal bolagskurser"
     },
     {
       "module": "website_slides",

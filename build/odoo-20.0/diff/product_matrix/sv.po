@@ -3,3 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-product_matrix\n"
 "Language: sv\n"
+
+#. module: product_matrix
+# new-corrected | officiell: 'T-shirt med Mitt Företag (RUTNÄT)'
+msgid "My Company Tshirt (GRID)"
+msgstr "T-shirt med Mitt Bolag (RUTNÄT)"
+
+#. module: product_matrix
+# new-corrected | officiell: 'Visa din omgivning hur mycket du älskar ditt
+# företag =).'
+msgid "Show your company love around you =)."
+msgstr "Visa din omgivning hur mycket du älskar ditt bolag =)."

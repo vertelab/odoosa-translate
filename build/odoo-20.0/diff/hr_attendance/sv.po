@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-hr_attendance\n"
 "Language: sv\n"
+
+#. module: hr_attendance
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr_attendance
+# new-corrected | officiell: 'Företagslogo'
+msgid "Company Logo"
+msgstr "Bolagslogo"

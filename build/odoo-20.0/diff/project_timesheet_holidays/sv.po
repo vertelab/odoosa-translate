@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-project_timesheet_holidays\n"
 "Language: sv\n"
+
+#. module: project_timesheet_holidays
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

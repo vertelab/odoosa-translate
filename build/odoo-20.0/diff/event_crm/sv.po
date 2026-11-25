@@ -3,3 +3,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-event_crm\n"
 "Language: sv\n"
+
+#. module: event_crm
+# new-corrected | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: event_crm
+# new-corrected | officiell: 'Begränsa regelns trigger till händelser som
+# tillhör ett specifikt företag.\nOm inget anges kommer inga
+# företagsbegränsningar att tillämpas.'
+msgid ""
+"Restrict the trigger of this rule to events belonging to a specific company.\n"
+"If not set, no company restriction will be applied."
+msgstr ""
+"Begränsa regelns trigger till händelser som tillhör ett specifikt bolag.\n"
+"Om inget anges kommer inga bolagsbegränsningar att tillämpas."
