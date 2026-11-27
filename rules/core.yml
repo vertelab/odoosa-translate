@@ -187,11 +187,21 @@ terms:
     # Regeln får därför ALDRIG röra res.partner-poster, där "Company" är
     # kontakttypen (is_company) och heter Företag på svenska.
     # Två lager: exclude_msgid (textmönster) + exclude_occurrences (modell).
-    exclude_msgid: '(?i)(^Company$|^Companies$|\bis (a )?company\b|\bcompany name entity\b|\brelated company\b|\bcompany employer\b|\bmy company\b|\bthe company assigned to this partner\b|\bselected company is not compatible\b|\bcheck if the contact is a company\b|\bgroup by is company\b)'
+    # OBS: INGA generiska 'Company'/'Companies' här. De msgid:erna är
+    # res.company i de flesta moduler (account, barcodes, auth_ldap …) och
+    # SKA bli Bolag. Bara exclude_occurrences kan skilja dem från
+    # res.partner. Mönstren nedan är fraser som antingen bevisligen är
+    # res.partner eller ligger i arch_db där modellen inte syns.
+    exclude_msgid: '(?i)(\bis (a )?company\b|\bcompany name entity\b|\brelated company\b|\bcompany employer\b|\bmy company\b|\bthe company assigned to this partner\b|\bselected company is not compatible\b|\bcheck if the contact is a company\b|\bgroup by is company\b)'
     exclude_occurrences:
       - 'res_partner'
       - 'res.partner'
       - 'is_company'
+      # Fynd 2026-11-27 (Odoo 20.0): portal.address_form_fields är
+      # res.partners adressformulär. Där är 'Company' kontakttypen
+      # (is_company) och SA skriver Företag. En arch_db-post har ingen
+      # modell i occurrence-strängen — bara vynamnet avslöjar den.
+      - 'portal.address_form_fields'
     note: >-
       118 moduler, 669 poster (base 115, account 84, website 48, ...). Ej
       Corporate/Business. BESLUT 2026-11-27: res.company → Bolag,

@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_attendance
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr_attendance
 # override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"

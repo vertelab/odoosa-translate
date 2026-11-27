@@ -3,3 +3,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-sms_twilio\n"
 "Language: sv\n"
+
+#. module: sms_twilio
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: sms_twilio
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

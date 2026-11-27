@@ -8,3 +8,8 @@ msgstr ""
 # override | officiell: 'Alla företag'
 msgid "All Companies"
 msgstr "Alla bolag"
+
+#. module: digest
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

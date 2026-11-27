@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: sms
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: sms
 # override | officiell: 'Ditt avsändarnamn måste vara mellan 3 och 11 tecken
 # långt och får endast innehålla alfanumeriska tecken.\n
 # Det måste passa ditt företagsnamn, och du får inte ändra det när du väl har

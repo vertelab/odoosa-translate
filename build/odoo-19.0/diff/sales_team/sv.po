@@ -11,6 +11,11 @@ msgid "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Company\"/>"
 msgstr "<i class=\"fa fa-fw me-1 fa-building text-primary\" title=\"Bolag\"/>"
 
 #. module: sales_team
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: sales_team
 # override | officiell: 'Medlemsföretag'
 msgid "Member Company"
 msgstr "Medlemsbolag"

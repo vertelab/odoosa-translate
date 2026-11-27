@@ -22,6 +22,11 @@ msgstr ""
 "%s bör ha ett giltigt KBO/BCE-nummer angivet i fältet för Bolagets ID-nummer"
 
 #. module: account_edi_ubl_cii
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: account_edi_ubl_cii
 # override | officiell: 'Vänligen fyll i företagets momsregistreringsnummer
 # eller Peppol-adress för att generera en fullständig XML-fil.'
 msgid ""

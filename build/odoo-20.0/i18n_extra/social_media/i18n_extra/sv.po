@@ -2,9 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-social_media\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:45\n"
+"PO-Revision-Date: 2026-11-27 16:45\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+
+#. module: social_media
+#: model:ir.model,name:social_media.model_res_company
+msgid "Company"
+msgstr "Bolag"

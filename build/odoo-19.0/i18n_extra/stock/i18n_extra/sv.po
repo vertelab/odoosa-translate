@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-stock\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:45\n"
+"PO-Revision-Date: 2026-11-27 16:45\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,39 @@ msgid ""
 msgstr ""
 "Det är inte tillåtet att ändra bolaget på det här dokumentet, du bör hellre "
 "arkivera det och skapa ett nytt."
+
+#. module: stock
+#: model:ir.model,name:stock.model_res_company
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_replenish__company_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_location__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_lot__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_history__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_type__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_relocate__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_route__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category_capacity__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__company_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+msgid "Company"
+msgstr "Bolag"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_route__company_id

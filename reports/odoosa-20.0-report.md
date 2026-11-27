@@ -1,9 +1,9 @@
-# odoosa-report — 20.0 — 2026-11-27 16:17
+# odoosa-report — 20.0 — 2026-11-27 16:45
 
-**Totalt:** {'override': 548, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 63466}
+**Totalt:** {'override': 633, 'converged': 0, 'conflict': 0, 'new-correct': 0, 'new-corrected': 0, 'new-ours': 0, 'new-manual': 0, 'flagged': 0, 'removed': 0, 'noop': 63381}
 
 ## account
-- override: 107
+- override: 109
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -12,7 +12,7 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 3317
+- oförändrad: 3315
   · [override] . The journal entries need to be computed by Odoo before bei → '. Beloppen i verifikationerna måste berä'
   · [override] A partner cannot have both an individual identifier (%(indiv → 'En partner kan inte ha både en individue'
   · [override] Account %(account)s will be split in %(num_accounts)s, one f → 'Kontot %(account)s kommer att delas upp '
@@ -41,6 +41,8 @@
   · [override] Business licenses and permits that your company must pay to  → 'Bolagslicenser och tillstånd som ditt bo'
   · [override] Cannot find a chart of accounts for this company, You should → 'Ingen kontoplan hittades för det här bol'
   · [override] Closing: Stock Variation Global for company [%(company)s] → 'Bokslut: Global lagervärdering per bolag'
+  · [override] Companies → 'Bolag'
+  · [override] Company → 'Bolag'
   · [override] Company  → 'Bolag'
   · [override] Company Bank Account → 'Bolagets bankkonto'
   · [override] Company Country → 'Bolagets land'
@@ -122,7 +124,7 @@
   · [override] You should configure the 'Gain Exchange Rate Account' in you → "Du bör ställa in ett 'konto för vinst vi"
   · [override] You should configure the 'Loss Exchange Rate Account' in you → "Du bör ställa in ett 'konto för förluste"
 ## account_check_printing
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -131,7 +133,8 @@
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 70
+- oförändrad: 69
+  · [override] Company → 'Bolag'
 ## account_debit_note
 - override: 0
 - converged 🎉: 0
@@ -158,20 +161,6 @@
 Electronic Data Interchange
 =============================== → 'Electronic Data Interchange\n============'
 ## account_edi_proxy_client
-- override: 2
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 35
-  · [override] 
-This module adds generic features to register an Odoo DB on → 'Den här modulen lägger till allmänna fun'
-  · [override] This company has an active user already created for this EDI → 'Bolaget har redan en aktiv användare för'
-## account_edi_ubl_cii
 - override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
@@ -181,12 +170,28 @@ This module adds generic features to register an Odoo DB on → 'Den här module
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 355
+- oförändrad: 34
+  · [override] 
+This module adds generic features to register an Odoo DB on → 'Den här modulen lägger till allmänna fun'
+  · [override] Company → 'Bolag'
+  · [override] This company has an active user already created for this EDI → 'Bolaget har redan en aktiv användare för'
+## account_edi_ubl_cii
+- override: 4
+- converged 🎉: 0
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 354
   · [override] 
 Electronic invoicing module
 ===========================
 
 Al → 'Modul för digital fakturering\n=========='
+  · [override] Company → 'Bolag'
   · [override] Please fill in your company's VAT or Peppol Address to gener → 'Vänligen fyll i bolagets momsregistrerin'
   · [override] [PEPPOL-EN16931-R020] An electronic address (EAS) must be pr → '[PEPPOL-EN16931-R020] En digital adress '
 ## account_fleet
@@ -224,7 +229,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 11
 ## account_payment_interco
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -233,9 +238,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 18
+- oförändrad: 17
+  · [override] Company → 'Bolag'
 ## account_peppol
-- override: 16
+- override: 17
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -244,8 +250,9 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 393
+- oförändrad: 392
   · [override] <table border="0" cellpadding="0" cellspacing="0" style="pad → '<table border="0" cellpadding="0" cellsp'
+  · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagets namn'
   · [override] If you are not subject to VAT, you should not have a VAT num → 'Om du inte är momspliktig, bör du inte h'
   · [override] Parent Company → 'Överordnat bolag'
@@ -306,7 +313,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 41
 ## account_update_tax_tags
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -315,9 +322,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 19
+- oförändrad: 18
+  · [override] Company → 'Bolag'
 ## analytic
-- override: 3
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -326,7 +334,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 161
+- oförändrad: 160
+  · [override] Company → 'Bolag'
   · [override] Select a company for which the analytic distribution will be → 'Välj ett bolag för vilket den objektdist'
   · [override] You can't change the company of an analytic account that alr → 'Du kan inte ändra bolaget för ett objekt'
   · [override] You defined a distribution with analytic account(s) belongin → 'Du har angivit en fördelning med objektk'
@@ -353,7 +362,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 5
 ## auth_ldap
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -362,7 +371,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 45
+- oförändrad: 44
+  · [override] Company → 'Bolag'
   · [override] Company LDAP configuration → 'Bolagets LDAP-konfiguration'
 ## auth_oauth
 - override: 0
@@ -486,7 +496,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 18
 ## barcodes
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -495,7 +505,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 60
+- oförändrad: 59
+  · [override] Company → 'Bolag'
 ## barcodes_gs1_nomenclature
 - override: 0
 - converged 🎉: 0
@@ -630,7 +641,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 14
 ## base_setup
-- override: 11
+- override: 13
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -639,9 +650,11 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 91
+- oförändrad: 89
   · [override] <span class="o_form_label" invisible="company_count &gt; 1"> → '<span class="o_form_label" invisible="co'
   · [override] Automatically enrich your contact base with company data → 'Berika automatiskt din kontaktbas med bo'
+  · [override] Companies → 'Bolag'
+  · [override] Company → 'Bolag'
   · [override] Company Country Code → 'Bolagets landskod'
   · [override] Company Informations → 'Information om bolaget'
   · [override] Company Name → 'Bolagsnamn'
@@ -707,7 +720,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 17
 ## certificate
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -716,7 +729,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 90
+- oförändrad: 89
+  · [override] Company → 'Bolag'
 ## cloud_storage
 - override: 0
 - converged 🎉: 0
@@ -773,7 +787,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 22
 ## crm
-- override: 128
+- override: 129
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -782,7 +796,7 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 619
+- oförändrad: 618
   · [override] # Leads/Opps assigned this month → '# kundämnen/möjligheter denna månad'
   · [override] # Unassigned Leads → '# otilldelade kundämnen'
   · [override] %(assigned)s leads allocated among %(team_count)s teams. → '%(assigned)s kundämnen fördelade mellan '
@@ -805,6 +819,7 @@ Al → 'Modul för digital fakturering\n=========='
   · [override] Check the Stage Tracker of Leads to identify bottlenecks in  → 'Kontrollera etapperna för kundämnen för '
   · [override] Check this box to filter and qualify incoming requests as le → 'Bocka i rutan för att filtrera och kvali'
   · [override] Classify and analyze your lead/opportunity categories like:  → 'Klassificera och analysera dina kategori'
+  · [override] Company → 'Bolag'
   · [override] Company Information → 'Information om bolaget'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Company Name: → 'Bolagsnamn:'
@@ -983,28 +998,6 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 4
 ## data_recycle
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 73
-## delivery
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 219
-## digest
 - override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
@@ -1014,10 +1007,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 111
-  · [override] All Companies → 'Alla bolag'
-## event
-- override: 4
+- oförändrad: 72
+  · [override] Company → 'Bolag'
+## delivery
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1026,10 +1019,36 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 673
+- oförändrad: 218
+  · [override] Company → 'Bolag'
+## digest
+- override: 2
+- converged 🎉: 0
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 110
+  · [override] All Companies → 'Alla bolag'
+  · [override] Company → 'Bolag'
+## event
+- override: 5
+- converged 🎉: 0
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 672
   · [override] <i class="oi" data-icon="business" title="Attendee Company"/ → '<i class="oi" data-icon="business" title'
   · [override] <span class="o_event_badge_font_faded">My Placeholder Compan → '<span class="o_event_badge_font_faded">M'
   · [override] Check this for order-level questions (e.g., 'Company Name')  → 'Kontrollera detta för frågor på orderniv'
+  · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
 ## event_booth
 - override: 0
@@ -1054,7 +1073,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 68
 ## event_crm
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1063,7 +1082,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 95
+- oförändrad: 94
+  · [override] Company → 'Bolag'
   · [override] Restrict the trigger of this rule to events belonging to a s → 'Begränsa regelns trigger till händelser '
 ## event_crm_sale
 - override: 0
@@ -1088,7 +1108,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 34
 ## event_sale
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1097,7 +1117,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 112
+- oförändrad: 111
+  · [override] Company → 'Bolag'
 ## event_sms
 - override: 0
 - converged 🎉: 0
@@ -1110,7 +1131,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 15
 ## fleet
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1119,7 +1140,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 485
+- oförändrad: 484
+  · [override] Company → 'Bolag'
 ## fleet_maintenance
 - override: 0
 - converged 🎉: 0
@@ -1212,7 +1234,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 24
 ## hr
-- override: 13
+- override: 15
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1221,9 +1243,11 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1002
+- oförändrad: 1000
   · [override] <i class="oi" data-icon="business" role="img" aria-label="Co → '<i class="oi" data-icon="business" role='
   · [override] A user cannot be linked to multiple employees in the same co → 'En användare kan inte länkas till flera '
+  · [override] Companies → 'Bolag'
+  · [override] Company → 'Bolag'
   · [override] Company Country → 'Bolagsland'
   · [override] Company Country Code → 'Bolagets landskod'
   · [override] Company Logo → 'Bolagslogo'
@@ -1248,7 +1272,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 10
 ## hr_attendance
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1257,7 +1281,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 384
+- oförändrad: 383
+  · [override] Company → 'Bolag'
   · [override] Company Logo → 'Bolagslogo'
 ## hr_calendar
 - override: 0
@@ -1282,7 +1307,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 9
 ## hr_expense
-- override: 12
+- override: 13
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1291,8 +1316,9 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 439
+- oförändrad: 438
   · [override] <span class="o_stat_text">Journal Entry</span> → '<span class="o_stat_text">Verifikat</spa'
+  · [override] Company → 'Bolag'
   · [override] Journal Entry → 'Verifikat'
   · [override] Journal Entry Deleted → 'Verifikat har raderats'
   · [override] Journal Entry Reset to Draft → 'Återställ verifikat till utkast'
@@ -1327,7 +1353,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 45
 ## hr_holidays
-- override: 3
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1336,12 +1362,13 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 881
+- oförändrad: 880
+  · [override] Company → 'Bolag'
   · [override] Employee Company → 'Anställda Bolag'
   · [override] There is no employee set on the time off. Please make sure y → 'Det finns ingen anställd som är inställd'
   · [override] e.g. Extra recuperation, Company unavailability, ... → 't.ex. extra återhämtning, bolaget är int'
 ## hr_holidays_attendance
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1350,7 +1377,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 52
+- oförändrad: 51
+  · [override] Company → 'Bolag'
 ## hr_livechat
 - override: 0
 - converged 🎉: 0
@@ -1374,17 +1402,6 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 23
 ## hr_presence
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 32
-## hr_recruitment
 - override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
@@ -1394,7 +1411,20 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 588
+- oförändrad: 31
+  · [override] Company → 'Bolag'
+## hr_recruitment
+- override: 2
+- converged 🎉: 0
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 587
+  · [override] Company → 'Bolag'
   · [override] Select the location where the applicant will work. Addresses → 'Välj den ort där den sökande ska arbeta.'
 ## hr_recruitment_skills
 - override: 0
@@ -1430,7 +1460,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 108
 ## hr_skills
-- override: 2
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1439,7 +1469,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 416
+- oförändrad: 415
+  · [override] Company → 'Bolag'
   · [override] Demo Company Name → 'Demo Bolagsnamn'
   · [override] Secretary, company → 'Sekreterare, bolag'
 ## hr_skills_event
@@ -1476,7 +1507,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 20
 ## hr_timesheet
-- override: 3
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1485,12 +1516,13 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 237
+- oförändrad: 236
+  · [override] Company → 'Bolag'
   · [override] The Internal Project of a company should be in that company. → 'Ett bolags interna projekt bör ligga ino'
   · [override] The project, the task and the analytic accounts of the times → 'Projektet, uppgiften och de analytiska k'
   · [override] Timesheets must be created with an active employee in the se → 'Tidrapporter måste skapas med en aktiv a'
 ## hr_timesheet_attendance
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1499,9 +1531,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 21
+- oförändrad: 20
+  · [override] Company → 'Bolag'
 ## hr_work_entry
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1510,7 +1543,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 690
+- oförändrad: 689
+  · [override] Company → 'Bolag'
 ## html_builder
 - override: 0
 - converged 🎉: 0
@@ -1545,7 +1579,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 31
 ## iap
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1554,7 +1588,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 67
+- oförändrad: 66
+  · [override] Company → 'Bolag'
   · [override] Get quality leads and opportunities: convert your website vi → 'Få leads och möjligheter av hög kvalitet'
 ## iap_crm
 - override: 0
@@ -1568,7 +1603,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 7
 ## iap_mail
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1577,7 +1612,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 44
+- oförändrad: 43
+  · [override] Company → 'Bolag'
 ## im_livechat
 - override: 0
 - converged 🎉: 0
@@ -1590,7 +1626,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 506
 ## l10n_se
-- override: 3
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1599,7 +1635,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 112
+- oförändrad: 111
+  · [override] Company → 'Bolag'
   · [override] Liabilities to associated companies and jointly controlled c → 'Skulder till intressebolag och gemensamt'
   · [override] Liabilities to group companies → 'Skulder till bolagsgrupper'
   · [override] Liabilities to other companies in which there is an ownershi → 'Skulder till övriga bolag som det finns '
@@ -1615,7 +1652,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 62
 ## loyalty
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1624,9 +1661,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 370
+- oförändrad: 369
+  · [override] Company → 'Bolag'
 ## lunch
-- override: 2
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1635,12 +1673,13 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 378
+- oförändrad: 377
   · [override] A cashmove can either be an expense or a payment.<br>
        → 'En kassaförflyttning kan antingen vara e'
+  · [override] Company → 'Bolag'
   · [override] Here you can see your cash moves.<br>A cash move can either  → 'Här kan du se dina kontantrörelser.<br>E'
 ## mail
-- override: 5
+- override: 7
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1649,9 +1688,11 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 2525
+- oförändrad: 2523
   · [override] A place to connect and exchange news with colleagues across  → 'Ett ställe där man kan knyta samman med '
+  · [override] Companies → 'Bolag'
   · [override] Companies using this domain as default for sending mails → 'Bolag som använder denna domän som stand'
+  · [override] Company → 'Bolag'
   · [override] The records must belong to the same company. → 'Posterna måste tillhöra samma bolag.'
   · [override] We could not create alias %(alias_name)s because domain %(al → 'Vi kunde inte skapa alias %(alias_name)s'
   · [override] We could not create alias %(alias_name)s because domain %(al → 'Vi kunde inte skapa alias %(alias_name)s'
@@ -1733,7 +1774,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 10
 ## maintenance
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1742,7 +1783,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 274
+- oförändrad: 273
+  · [override] Company → 'Bolag'
 ## marketing_card
 - override: 0
 - converged 🎉: 0
@@ -1766,7 +1808,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 10
 ## mass_mailing
-- override: 6
+- override: 7
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1775,8 +1817,9 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1163
+- oförändrad: 1162
   · [override] Best practices to digitize your company → 'Bästa praxis för att digitalisera ditt b'
+  · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Founder and chief visionary, Tony is the driving force behin → 'Tony är bolagets grundare och främsta vi'
   · [override] Iris, with her international experience, helps us easily und → 'Iris, med sin internationella erfarenhet'
@@ -1955,7 +1998,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 45
 ## mrp
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1964,9 +2007,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1166
+- oförändrad: 1165
+  · [override] Company → 'Bolag'
 ## mrp_account
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -1975,7 +2019,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 107
+- oförändrad: 106
+  · [override] Company → 'Bolag'
 ## mrp_delivery
 - override: 0
 - converged 🎉: 0
@@ -2021,7 +2066,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 12
 ## mrp_subcontracting
-- override: 2
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2030,7 +2075,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 99
+- oförändrad: 98
+  · [override] Company → 'Bolag'
   · [override] In order to manage stock accurately, subcontracting location → 'För att kunna hantera lager på ett korre'
   · [override] You cannot alter the company's subcontracting location → 'Du kan inte ändra bolagets plats för und'
 ## mrp_subcontracting_account
@@ -2045,7 +2091,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 6
 ## mrp_subcontracting_dropshipping
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2054,7 +2100,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 20
+- oförändrad: 19
+  · [override] Company → 'Bolag'
 ## mrp_subcontracting_landed_costs
 - override: 0
 - converged 🎉: 0
@@ -2100,7 +2147,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 62
 ## onboarding
-- override: 6
+- override: 7
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2109,15 +2156,16 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 67
+- oförändrad: 66
   · [override] All Onboarding Progress Records (across companies). → 'Alla register över framsteg inom onboard'
   · [override] All related Onboarding Progress Step Records (across compani → 'Alla relaterade poster för Onboarding Pr'
+  · [override] Company → 'Bolag'
   · [override] Is per company → 'Är per bolag'
   · [override] Onboarding Progress Step for the current context (company). → 'Introduktionsförlopps steg för den aktue'
   · [override] Onboarding Progress for the current context (company). → 'Introduktions förlopp för det aktuella s'
   · [override] Should be done per company? → 'Bör detta göras per bolag?'
 ## partner_autocomplete
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2126,7 +2174,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 28
+- oförändrad: 27
+  · [override] Company → 'Bolag'
 ## partnership
 - override: 0
 - converged 🎉: 0
@@ -2139,7 +2188,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 46
 ## payment
-- override: 3
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2148,7 +2197,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 395
+- oförändrad: 394
+  · [override] Company → 'Bolag'
   · [override] Please switch to company → 'Vänligen byt till bolag'
   · [override] The main currency of the company, used to display monetary f → 'Bolagets huvudvaluta, används för att vi'
   · [override] You cannot change the company of a payment provider with exi → 'Du kan inte byta bolag för en betalnings'
@@ -2430,7 +2480,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 70
 ## point_of_sale
-- override: 15
+- override: 16
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2439,10 +2489,11 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1914
+- oförändrad: 1913
   · [override] All available pricelists must be in the same currency as the → 'Alla tillgängliga prislistor måste vara '
   · [override] All payment methods must be in the same currency as the Sale → 'Alla betalningsmetoder måste vara i samm'
   · [override] Choose a specific fiscal position at the order depending on  → 'Välj en specifik skatteområde vid bestäl'
+  · [override] Company → 'Bolag'
   · [override] Company has chart of accounts → 'Bolaget har en kontoplan'
   · [override] Company: → 'Bolag:'
   · [override] Conversion rate from company currency to order currency. → 'Omräkningskurs från bolagets valuta till'
@@ -2524,7 +2575,7 @@ Al → 'Modul för digital fakturering\n=========='
 - oförändrad: 34
   · [override] Terminal %(terminal)s is already used in company %(company)s → 'Terminal %(terminal)s används redan i bo'
 ## pos_bancontact_pay
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2533,7 +2584,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 56
+- oförändrad: 55
+  · [override] Company → 'Bolag'
 ## pos_cashdro
 - override: 0
 - converged 🎉: 0
@@ -2965,7 +3017,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 12
 ## pos_stock
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -2974,7 +3026,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 106
+- oförändrad: 105
+  · [override] Company → 'Bolag'
 ## pos_stripe
 - override: 1
 - converged 🎉: 0
@@ -3032,7 +3085,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 53
 ## product
-- override: 2
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3041,8 +3094,9 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 872
+- oförändrad: 871
   · [override] All Companies → 'Alla bolag'
+  · [override] Company → 'Bolag'
   · [override] Company Settings → 'Bolagsinställningar'
 ## product_email_template
 - override: 0
@@ -3090,7 +3144,7 @@ Al → 'Modul för digital fakturering\n=========='
 - oförändrad: 17
   · [override] Show your company love around you =). → 'Visa din omgivning hur mycket du älskar '
 ## project
-- override: 6
+- override: 7
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3099,7 +3153,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 912
+- oförändrad: 911
+  · [override] Company → 'Bolag'
   · [override] The project and the associated partner must be linked to the → 'Projektet och den associerade partnern m'
   · [override] The project's company cannot be changed if its analytic acco → 'Projektets bolag kan inte ändras om dess'
   · [override] The task and the associated partner must be linked to the sa → 'Uppgiften och den tillhörande partnern m'
@@ -3272,7 +3327,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 5
 ## project_timesheet_holidays
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3281,7 +3336,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 30
+- oförändrad: 29
+  · [override] Company → 'Bolag'
 ## project_todo
 - override: 0
 - converged 🎉: 0
@@ -3294,7 +3350,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 103
 ## purchase
-- override: 4
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3303,7 +3359,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 655
+- oförändrad: 654
+  · [override] Company → 'Bolag'
   · [override] Default on whether the sales price used on the product and i → 'Standard om huruvida det försäljningspri'
   · [override] Put an address if you want to deliver directly from the vend → 'Ange en adress om du vill leverera direk'
   · [override] Technical field to filter the available taxes depending on t → 'Tekniskt fält för att filtrera de tillgä'
@@ -3386,7 +3443,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 11
 ## purchase_requisition
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3395,7 +3452,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 154
+- oförändrad: 153
+  · [override] Company → 'Bolag'
   · [override] You cannot change the Agreement Type or Company of a not dra → 'Du kan inte ändra avtalstyp eller bolag '
 ## purchase_requisition_stock
 - override: 0
@@ -3409,7 +3467,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 12
 ## purchase_stock
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3418,7 +3476,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 213
+- oförändrad: 212
+  · [override] Company → 'Bolag'
   · [override] Put an address if you want to deliver directly from the vend → 'Ange en adress om du vill leverera direk'
 ## rating
 - override: 1
@@ -3433,7 +3492,7 @@ Al → 'Modul för digital fakturering\n=========='
 - oförändrad: 95
   · [override] " or someone from the same company can give it a rating. → '" eller så kan någon från samma bolag ge'
 ## repair
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3442,9 +3501,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 283
+- oförändrad: 282
+  · [override] Company → 'Bolag'
 ## resource
-- override: 2
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3453,7 +3513,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 164
+- oförändrad: 163
+  · [override] Company → 'Bolag'
   · [override] If empty, this is a generic time off for the company. If a r → 'Om det är tomt är detta en generisk ledi'
   · [override] Number of hours to work on the company schedule to be consid → 'Antal timmar att arbeta enligt bolagets '
 ## resource_mail
@@ -3479,7 +3540,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 2
 ## sale
-- override: 8
+- override: 9
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3488,8 +3549,9 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 893
+- oförändrad: 892
   · [override] Changing the company of an existing quotation might need som → 'Att ändra bolag för en befintlig offert '
+  · [override] Company → 'Bolag'
   · [override] Company Document Layout → 'Layout för bolagsdokument'
   · [override] Default on whether the sales price used on the product and i → 'Standard om huruvida det försäljningspri'
   · [override] The company is required, please select one before making any → 'Bolaget är obligatoriskt, vänligen välj '
@@ -3542,7 +3604,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 7
 ## sale_gelato
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3551,7 +3613,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 65
+- oförändrad: 64
+  · [override] Company → 'Bolag'
 ## sale_gelato_stock
 - override: 0
 - converged 🎉: 0
@@ -3586,7 +3649,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 19
 ## sale_management
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3595,7 +3658,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 144
+- oförändrad: 143
+  · [override] Company → 'Bolag'
 ## sale_margin
 - override: 0
 - converged 🎉: 0
@@ -3630,7 +3694,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 2
 ## sale_pdf_quote_builder
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3639,7 +3703,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 115
+- oförändrad: 114
+  · [override] Company → 'Bolag'
 ## sale_product_matrix
 - override: 0
 - converged 🎉: 0
@@ -3751,7 +3816,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 2
 ## sale_stock
-- override: 1
+- override: 2
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3760,7 +3825,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 162
+- oförändrad: 161
+  · [override] Company → 'Bolag'
   · [override] You must have a warehouse for line using a delivery in diffe → 'Du måste ha ett lager för linje som anvä'
 ## sale_stock_margin
 - override: 0
@@ -3811,7 +3877,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 6
 ## sales_team
-- override: 4
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3820,12 +3886,26 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 125
+- oförändrad: 124
+  · [override] Company → 'Bolag'
   · [override] Member Company → 'Medlemsbolag'
   · [override] The default company for this user. → 'Standardbolaget för den här användaren.'
   · [override] UX: Limit to team company or all if no company → 'UX: Begränsa till teambolag eller alla o'
   · [override] User Company → 'Användarbolag'
 ## sms
+- override: 2
+- converged 🎉: 0
+- conflict ⚠️: 0
+- ny (redan rätt): 0
+- ny (korrigerad): 0
+- ny (vår): 0
+- ny (manuell): 0
+- flagged 🚫: 0
+- borttagen: 0
+- oförändrad: 252
+  · [override] Company → 'Bolag'
+  · [override] Your sender name must be between 3 and 11 characters long an → 'Ditt avsändarnamn måste vara mellan 3 oc'
+## sms_twilio
 - override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
@@ -3835,21 +3915,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 253
-  · [override] Your sender name must be between 3 and 11 characters long an → 'Ditt avsändarnamn måste vara mellan 3 oc'
-## sms_twilio
-- override: 0
-- converged 🎉: 0
-- conflict ⚠️: 0
-- ny (redan rätt): 0
-- ny (korrigerad): 0
-- ny (vår): 0
-- ny (manuell): 0
-- flagged 🚫: 0
-- borttagen: 0
-- oförändrad: 67
+- oförändrad: 66
+  · [override] Company → 'Bolag'
 ## snailmail
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3858,7 +3927,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 111
+- oförändrad: 110
+  · [override] Company → 'Bolag'
 ## snailmail_account
 - override: 1
 - converged 🎉: 0
@@ -3872,7 +3942,7 @@ Al → 'Modul för digital fakturering\n=========='
 - oförändrad: 16
   · [override] <span class="oi oi-lg" data-icon="business" title="Values se → '<span class="oi oi-lg" data-icon="busine'
 ## social_media
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3881,7 +3951,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 14
+- oförändrad: 13
+  · [override] Company → 'Bolag'
 ## spreadsheet
 - override: 1
 - converged 🎉: 0
@@ -3895,7 +3966,7 @@ Al → 'Modul för digital fakturering\n=========='
 - oförändrad: 2472
   · [override] The company to take the exchange rate from. → 'Bolaget som valutakursen ska hämtas från'
 ## spreadsheet_account
-- override: 4
+- override: 5
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3904,13 +3975,14 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 53
+- oförändrad: 52
+  · [override] Company → 'Bolag'
   · [override] Currency not available for this company. → 'Valutan är inte tillgänglig för det här '
   · [override] The company fiscal year could not be found. → 'Bolagets räkenskapsår kunde inte hittas.'
   · [override] The company to target (Advanced). → 'Det gällande bolaget (avancerat).'
   · [override] The company. → 'Bolaget.'
 ## spreadsheet_dashboard
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -3919,7 +3991,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 105
+- oförändrad: 104
+  · [override] Companies → 'Bolag'
 ## spreadsheet_dashboard_account
 - override: 0
 - converged 🎉: 0
@@ -3998,7 +4071,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 32
 ## spreadsheet_dashboard_sale
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4007,7 +4080,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 54
+- oförändrad: 53
+  · [override] Company → 'Bolag'
 ## spreadsheet_dashboard_sale_timesheet
 - override: 0
 - converged 🎉: 0
@@ -4053,7 +4127,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 15
 ## stock
-- override: 14
+- override: 15
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4062,8 +4136,9 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1907
+- oförändrad: 1906
   · [override] Changing the company of this record is forbidden at this poi → 'Det är inte tillåtet att ändra bolaget p'
+  · [override] Company → 'Bolag'
   · [override] Leave this field empty if this route is shared between all c → 'Lämna detta fält tomt om rutten delas av'
   · [override] Let this field empty if this location is shared between comp → 'Lämna detta fält tomt om platsen delas a'
   · [override] Please create a warehouse for company %s. → 'Vänligen skapa ett lager för bolaget %s.'
@@ -4078,7 +4153,7 @@ Al → 'Modul för digital fakturering\n=========='
   · [override] You can only move positive quantities stored in locations us → 'Du kan endast flytta positiva kvantitete'
   · [override] You cannot change the company of a lot/serial number current → 'Du kan inte byta bolag för ett parti-/se'
 ## stock_account
-- override: 6
+- override: 7
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4087,7 +4162,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 156
+- oförändrad: 155
+  · [override] Company → 'Bolag'
   · [override] Company Currency → 'Bolagets valuta'
   · [override] If the move originates from a document from another company, → 'Om transporten har sitt ursprung i ett d'
   · [override] Is valued inside the company → 'Värderas inuti bolaget'
@@ -4106,7 +4182,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 148
 ## stock_dropshipping
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4115,7 +4191,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 23
+- oförändrad: 22
+  · [override] Company → 'Bolag'
 ## stock_fleet
 - override: 0
 - converged 🎉: 0
@@ -4128,7 +4205,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 116
 ## stock_landed_costs
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4137,7 +4214,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 127
+- oförändrad: 126
+  · [override] Company → 'Bolag'
 ## stock_maintenance
 - override: 0
 - converged 🎉: 0
@@ -4150,7 +4228,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 13
 ## stock_sms
-- override: 0
+- override: 1
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4159,7 +4237,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 22
+- oförändrad: 21
+  · [override] Company → 'Bolag'
 ## survey
 - override: 0
 - converged 🎉: 0
@@ -4218,7 +4297,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 108
 ## web
-- override: 13
+- override: 15
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4227,9 +4306,11 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 5174
+- oförändrad: 5172
   · [override] <strong>Company address block</strong> → '<strong>Adressblock för bolaget</strong>'
   · [override] <strong>Company details block</strong> → '<strong>Block för bolagsuppgifter</stron'
+  · [override] Companies → 'Bolag'
+  · [override] Company → 'Bolag'
   · [override] Company Details → 'Bolagsuppgifter'
   · [override] Company Document Layout → 'Bolagets dokumentlayout'
   · [override] Company Logo → 'Bolagslogo'
@@ -4275,7 +4356,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 32
 ## website
-- override: 37
+- override: 38
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4284,7 +4365,7 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 3506
+- oförändrad: 3505
   · [override] " This company transformed our business. <br/>Their solution → '"Det här bolaget förändrade vår verksamh'
   · [override] 50,000+ companies run Odoo <br class="d-none d-lg-inline"/>t → '50 000+ bolag använder Odoo <br class="d'
   · [override] 50,000+ companies run Odoo to grow their businesses. → '50 000+ bolag använder Odoo för att utve'
@@ -4298,6 +4379,7 @@ Al → 'Modul för digital fakturering\n=========='
   · [override] Analyzing the numbers behind our success: <br class="d-none  → 'Objekta siffrorna bakom vår framgång: <b'
   · [override] Analyzing the numbers behind our success: an in-depth look a → 'Objekta siffrorna bakom vår framgång: en'
   · [override] Check out what's new in our company ! → 'Kolla in vad som är nytt i vårt bolag!'
+  · [override] Company → 'Bolag'
   · [override] Company Logo → 'Bolagslogo'
   · [override] Contact us about anything related to our company or services → 'Kontakta oss om frågor relaterade till v'
   · [override] Created in 2021, the company is young and dynamic. Discover  → 'Bolaget bildades 2021 och är ungt och dy'
@@ -4369,7 +4451,7 @@ Al → 'Modul för digital fakturering\n=========='
 - oförändrad: 31
   · [override] Your Company → 'Ditt bolag'
 ## website_crm_iap_reveal
-- override: 7
+- override: 8
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4378,9 +4460,10 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 89
+- oförändrad: 88
   · [override] 1 credit is consumed per visitor matching the website traffi → '1 kredit förbrukas per besökare som uppf'
   · [override] Choose whether to track companies only or companies and thei → 'Välj om du vill spåra endast bolag eller'
+  · [override] Companies → 'Bolag'
   · [override] Companies and their Contacts → 'Bolag och deras kontaktpersoner'
   · [override] Company Size → 'Bolagets storlek'
   · [override] Company Size Max → 'Bolags Maxstorlek'
@@ -4524,7 +4607,7 @@ Al → 'Modul för digital fakturering\n=========='
 - borttagen: 0
 - oförändrad: 34
 ## website_event_track
-- override: 2
+- override: 3
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4533,7 +4616,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 486
+- oförändrad: 485
+  · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Description of the partner (name, function and company name) → 'Beskrivning av partnern (namn, function '
 ## website_event_track_live
@@ -4752,7 +4836,7 @@ Al → 'Modul för digital fakturering\n=========='
 - oförändrad: 25
   · [override] Company Name → 'Bolagsnamn'
 ## website_sale
-- override: 3
+- override: 4
 - converged 🎉: 0
 - conflict ⚠️: 0
 - ny (redan rätt): 0
@@ -4761,7 +4845,8 @@ Al → 'Modul för digital fakturering\n=========='
 - ny (manuell): 0
 - flagged 🚫: 0
 - borttagen: 0
-- oförändrad: 1227
+- oförändrad: 1226
+  · [override] Company → 'Bolag'
   · [override] Company Name → 'Bolagsnamn'
   · [override] Only the company's websites are allowed.
 Leave the Company f → 'Endast bolagets hemsidor är tillåtna.\nLä'

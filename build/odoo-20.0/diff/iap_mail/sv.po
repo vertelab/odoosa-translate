@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-iap_mail\n"
 "Language: sv\n"
+
+#. module: iap_mail
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

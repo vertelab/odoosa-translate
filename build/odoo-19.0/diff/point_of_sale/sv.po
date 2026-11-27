@@ -38,6 +38,16 @@ msgstr ""
 "(skattebefriad, på plats vs. takeaway, etc.)."
 
 #. module: point_of_sale
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: point_of_sale
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: point_of_sale
 # override | officiell: 'Företaget har en kontoplan'
 msgid "Company has chart of accounts"
 msgstr "Bolaget har en kontoplan"

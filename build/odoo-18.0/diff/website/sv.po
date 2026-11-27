@@ -121,6 +121,11 @@ msgid "Check out what's new in our company !"
 msgstr "Kolla in vad som är nytt i vårt bolag!"
 
 #. module: website
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: website
 # override | officiell: 'Kontakta oss om allt som rör vårt företag eller våra
 # tjänster.<br/>\n                                    Vi kommer att göra vårt
 # bästa för att återkomma till dig så snart som möjligt.'

@@ -14,10 +14,20 @@ msgstr ""
 "hela bolaget."
 
 #. module: mail
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: mail
 # override | officiell: 'Företag som använder denna domän som standard för att
 # skicka e-post'
 msgid "Companies using this domain as default for sending mails"
 msgstr "Bolag som använder denna domän som standard för att skicka e-post"
+
+#. module: mail
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
 
 #. module: mail
 # override | officiell: 'Posterna måste tillhöra samma företag.'

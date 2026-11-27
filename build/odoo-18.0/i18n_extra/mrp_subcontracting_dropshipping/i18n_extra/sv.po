@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-mrp_subcontracting_dropshipping\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:44\n"
+"PO-Revision-Date: 2026-11-27 16:44\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -19,3 +19,8 @@ msgstr ""
 "Markera denna ruta för att skapa en ny särskild underleverantörsplats för "
 "detta bolag. Observera att standardrutterna för underleverantörer kommer att"
 " anpassas så att de automatiskt tar hänsyn till dessa."
+
+#. module: mrp_subcontracting_dropshipping
+#: model:ir.model,name:mrp_subcontracting_dropshipping.model_res_company
+msgid "Companies"
+msgstr "Bolag"

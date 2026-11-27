@@ -5,6 +5,16 @@ msgstr ""
 "Language: sv\n"
 
 #. module: resource
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: resource
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: resource
 # override | officiell: 'Om det är tomt är detta en generisk ledighet för
 # företaget. Om en resurs är angiven är ledigheten endast för denna resurs'
 msgid ""

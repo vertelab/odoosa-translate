@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: project
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: project
 # override | officiell: 'Projektet och den associerade partnern måste vara
 # kopplade till samma företag.'
 msgid ""

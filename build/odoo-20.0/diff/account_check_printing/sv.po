@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-account_check_printing\n"
 "Language: sv\n"
+
+#. module: account_check_printing
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

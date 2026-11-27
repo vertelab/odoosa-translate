@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account_edi_ubl_cii\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:44\n"
+"PO-Revision-Date: 2026-11-27 16:44\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,11 @@ msgstr ""
 msgid "%s should have a valid KBO/BCE number in the Company ID field"
 msgstr ""
 "%s bör ha ett giltigt KBO/BCE-nummer angivet i fältet för Bolagets ID-nummer"
+
+#. module: account_edi_ubl_cii
+#: model:ir.model,name:account_edi_ubl_cii.model_res_company
+msgid "Companies"
+msgstr "Bolag"
 
 #. module: account_edi_ubl_cii
 #. odoo-python

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-mail\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:45\n"
+"PO-Revision-Date: 2026-11-27 16:45\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -19,9 +19,26 @@ msgstr ""
 "hela bolaget."
 
 #. module: mail
+#: model:ir.model.fields,field_description:mail.field_mail_alias_domain__company_ids
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_domain__company_ids
 msgid "Companies using this domain as default for sending mails"
 msgstr "Bolag som använder denna domän som standard för att skicka e-post"
+
+#. module: mail
+#: model:ir.model,name:mail.model_res_company
+#: model:ir.model.fields,field_description:mail.field_mail_activity_plan__company_id
+#: model:ir.model.fields,field_description:mail.field_mail_activity_plan_template__company_id
+#: model:ir.model.fields,field_description:mail.field_mail_activity_schedule__company_id
+#: model:ir.model.fields,field_description:mail.field_mail_compose_message__record_company_id
+#: model:ir.model.fields,field_description:mail.field_mail_mail__record_company_id
+#: model:ir.model.fields,field_description:mail.field_mail_message__record_company_id
+#: model_terms:ir.ui.view,arch_db:mail.mail_alias_domain_view_search
+msgid "Company"
+msgstr "Bolag"
 
 #. module: mail
 #. odoo-python

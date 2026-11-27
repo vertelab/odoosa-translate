@@ -21,6 +21,16 @@ msgid "A user cannot be linked to multiple employees in the same company."
 msgstr "En användare kan inte länkas till flera anställda inom samma bolag."
 
 #. module: hr
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: hr
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr
 # override | officiell: 'Företagsland'
 msgid "Company Country"
 msgstr "Bolagsland"

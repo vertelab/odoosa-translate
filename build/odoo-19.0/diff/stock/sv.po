@@ -15,6 +15,16 @@ msgstr ""
 "arkivera det och skapa ett nytt."
 
 #. module: stock
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: stock
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: stock
 # override | officiell: 'Lämna detta fält tomt om rutten delas av alla
 # företag'
 msgid "Leave this field empty if this route is shared between all companies"

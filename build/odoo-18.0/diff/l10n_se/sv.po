@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: l10n_se
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: l10n_se
 # override | officiell: 'Skulder till intresseföretag och gemensamt styrda
 # företag'
 msgid "Liabilities to associated companies and jointly controlled companies"

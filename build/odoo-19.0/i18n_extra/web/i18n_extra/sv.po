@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-web\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:45\n"
+"PO-Revision-Date: 2026-11-27 16:45\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -30,6 +30,18 @@ msgstr "<strong>Adressblock för bolaget</strong>"
 #: model_terms:ir.ui.view,arch_db:web.external_layout_wave
 msgid "<strong>Company details block</strong>"
 msgstr "<strong>Block för bolagsuppgifter</strong>"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/webclient/burger_menu/mobile_switch_company_menu/mobile_switch_company_menu.xml:0
+#: model:ir.model,name:web.model_res_company
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_base_document_layout__company_id
+msgid "Company"
+msgstr "Bolag"
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_base_document_layout__company_details

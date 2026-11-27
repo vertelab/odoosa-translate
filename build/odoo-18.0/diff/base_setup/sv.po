@@ -41,6 +41,16 @@ msgid "Automatically generate counterpart documents in recipient companies"
 msgstr "Generera automatiskt motpartsdokument i mottagande bolag"
 
 #. module: base_setup
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: base_setup
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: base_setup
 # override | officiell: 'Företagets landskod'
 msgid "Company Country Code"
 msgstr "Bolagets landskod"

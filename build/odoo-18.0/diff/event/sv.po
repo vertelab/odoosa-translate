@@ -17,6 +17,11 @@ msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
 msgstr "<span class=\"o_event_badge_font_faded\">Mitt platshållarbolag</span>"
 
 #. module: event
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: event
 # override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"

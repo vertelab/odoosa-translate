@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-account_update_tax_tags\n"
 "Language: sv\n"
+
+#. module: account_update_tax_tags
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

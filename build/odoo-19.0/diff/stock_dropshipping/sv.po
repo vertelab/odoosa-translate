@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-stock_dropshipping\n"
 "Language: sv\n"
+
+#. module: stock_dropshipping
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"

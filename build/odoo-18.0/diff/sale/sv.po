@@ -17,6 +17,11 @@ msgstr ""
 "detaljerna i raderna. Du kan överväga att uppdatera priserna."
 
 #. module: sale
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: sale
 # override | officiell: 'Layout för företagsdokument'
 msgid "Company Document Layout"
 msgstr "Layout för bolagsdokument"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-digest\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:45\n"
+"PO-Revision-Date: 2026-11-27 16:45\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -13,3 +13,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "All Companies"
 msgstr "Alla bolag"
+
+#. module: digest
+#: model:ir.model.fields,field_description:digest.field_digest_digest__company_id
+msgid "Company"
+msgstr "Bolag"

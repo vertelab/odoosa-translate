@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: base_vat
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: base_vat
 # override | officiell: 'Landet som identifierats för detta utländska
 # momsnummer matchar inte något av länderna som utgör den landsgrupp som är
 # inställd på denna skatteposition.'

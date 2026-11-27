@@ -5,6 +5,16 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_expense
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: hr_expense
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr_expense
 # override | officiell: 'Tillåten betalningsmetod för kostnader som betalas av
 # företaget.'
 msgid "Payment method allowed for expenses paid by company."

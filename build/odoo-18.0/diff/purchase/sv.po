@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: purchase
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: purchase
 # override | officiell: 'Företag Totalt'
 msgid "Company Total"
 msgstr "Bolag Totalt"

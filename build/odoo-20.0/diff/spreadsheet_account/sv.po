@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: spreadsheet_account
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: spreadsheet_account
 # override | officiell: 'Valutan är inte tillgänglig för det här företaget.'
 msgid "Currency not available for this company."
 msgstr "Valutan är inte tillgänglig för det här bolaget."

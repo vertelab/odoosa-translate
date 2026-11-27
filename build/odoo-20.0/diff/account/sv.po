@@ -202,6 +202,16 @@ msgstr "Bokslut: Global lagervärdering per bolag [%(company)s]"
 
 #. module: account
 # override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: account
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: account
+# override | officiell: 'Företag'
 msgid "Company "
 msgstr "Bolag"
 

@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: sale_stock
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: sale_stock
 # override | officiell: 'Du måste ha ett lager för linje som använder en
 # leverans i olika företag.'
 msgid ""

@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: payment
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: payment
 # override | officiell: 'Ingen manuell betalningsmetod kunde hittas för detta
 # företag. Skapa en från menyn Payment Provider.'
 msgid ""

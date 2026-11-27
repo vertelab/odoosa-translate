@@ -44,6 +44,11 @@ msgstr ""
 "<https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/>`_."
 
 #. module: account_edi_ubl_cii
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: account_edi_ubl_cii
 # override | officiell: 'Vänligen fyll i företagets momsregistreringsnummer
 # eller Peppol-adress för att generera en fullständig XML-fil.'
 msgid ""

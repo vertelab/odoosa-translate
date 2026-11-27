@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_holidays
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr_holidays
 # override | officiell: 'Anställda Företag'
 msgid "Employee Company"
 msgstr "Anställda Bolag"

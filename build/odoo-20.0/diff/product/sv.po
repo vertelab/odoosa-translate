@@ -10,6 +10,11 @@ msgid "All Companies"
 msgstr "Alla bolag"
 
 #. module: product
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: product
 # override | officiell: 'Företagsinställningar'
 msgid "Company Settings"
 msgstr "Bolagsinställningar"

@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-pos_bancontact_pay\n"
 "Language: sv\n"
+
+#. module: pos_bancontact_pay
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"

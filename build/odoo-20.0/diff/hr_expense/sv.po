@@ -10,6 +10,11 @@ msgid "<span class=\"o_stat_text\">Journal Entry</span>"
 msgstr "<span class=\"o_stat_text\">Verifikat</span>"
 
 #. module: hr_expense
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr_expense
 # override | officiell: 'Bokföringspost'
 msgid "Journal Entry"
 msgstr "Verifikat"

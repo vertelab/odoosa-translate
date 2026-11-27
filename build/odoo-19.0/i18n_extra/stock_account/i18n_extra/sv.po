@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-stock_account\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:45\n"
+"PO-Revision-Date: 2026-11-27 16:45\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -14,6 +14,17 @@ msgstr ""
 #: code:addons/stock_account/models/res_company.py:0
 msgid "Closing: Stock Variation Global for company [%(company)s]"
 msgstr "Bokslut: Global lagerdifferens för bolaget [%(company)s]"
+
+#. module: stock_account
+#: model:ir.model,name:stock_account.model_res_company
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: stock_account
+#: model:ir.model.fields,field_description:stock_account.field_product_value__company_id
+#: model:ir.model.fields,field_description:stock_account.field_stock_avco_report__company_id
+msgid "Company"
+msgstr "Bolag"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__company_currency_id

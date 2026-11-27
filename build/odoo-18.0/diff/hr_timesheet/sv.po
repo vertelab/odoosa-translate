@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_timesheet
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr_timesheet
 # override | officiell: 'Ett företags interna projekt bör ligga inom
 # företaget.'
 msgid "The Internal Project of a company should be in that company."

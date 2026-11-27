@@ -30,6 +30,11 @@ msgstr ""
 "ditt konto. Kontakta oss direkt för denna åtgärd."
 
 #. module: website_sale
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: website_sale
 # override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

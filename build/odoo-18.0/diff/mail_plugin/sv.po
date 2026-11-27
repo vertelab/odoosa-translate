@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: mail_plugin
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: mail_plugin
 # override | officiell: 'Företaget skapades.'
 msgid "Company Created."
 msgstr "Bolaget skapades."

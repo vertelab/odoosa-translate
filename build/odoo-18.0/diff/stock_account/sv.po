@@ -5,6 +5,16 @@ msgstr ""
 "Language: sv\n"
 
 #. module: stock_account
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: stock_account
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: stock_account
 # override | officiell: 'Manuell: Verifikaten för att värdera lagret bokförs
 # inte automatiskt.\n        Automatiserad: En verifikat skapas automatiskt
 # för att värdera lagret när en produkt kommer in i eller lämnar företaget.'

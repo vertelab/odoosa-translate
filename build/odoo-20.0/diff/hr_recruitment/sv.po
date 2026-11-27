@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_recruitment
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr_recruitment
 # override | officiell: 'Välj den ort där den sökande ska arbeta. Adresser som
 # anges här är definierade på företagets kontaktinformation.'
 msgid ""

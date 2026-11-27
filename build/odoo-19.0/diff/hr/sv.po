@@ -100,6 +100,16 @@ msgstr ""
 "                                för att kunna främja samarbete mellan bolagets olika avdelningar."
 
 #. module: hr
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: hr
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: hr
 # override | officiell: 'Företagsland'
 msgid "Company Country"
 msgstr "Bolagsland"

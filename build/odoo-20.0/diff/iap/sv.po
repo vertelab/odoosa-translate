@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: iap
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: iap
 # override | officiell: 'Få leads och möjligheter av hög kvalitet: konvertera
 # dina webbplatsbesökare till leads, generera leads baserat på en uppsättning
 # kriterier och berika företagsuppgifterna för dina möjligheter.'

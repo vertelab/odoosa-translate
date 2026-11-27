@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-point_of_sale\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:44\n"
+"PO-Revision-Date: 2026-11-27 16:44\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -39,6 +39,23 @@ msgid ""
 msgstr ""
 "Välj en specifik skatteområde vid beställningen beroende på typ av kund "
 "(skattebefriad, på plats vs. takeaway, etc.)."
+
+#. module: point_of_sale
+#: model:ir.model,name:point_of_sale.model_res_company
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_config__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_printer__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_session__company_id
+#: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__company_id
+msgid "Company"
+msgstr "Bolag"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__company_has_template

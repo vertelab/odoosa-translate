@@ -17,3 +17,8 @@ msgstr ""
 "Markera denna ruta för att skapa en ny särskild underleverantörsplats för "
 "detta bolag. Observera att standardrutterna för underleverantörer kommer att"
 " anpassas så att de automatiskt tar hänsyn till dessa."
+
+#. module: mrp_subcontracting_dropshipping
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"

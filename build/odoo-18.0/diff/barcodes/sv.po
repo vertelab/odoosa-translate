@@ -3,3 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-barcodes\n"
 "Language: sv\n"
+
+#. module: barcodes
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"

@@ -5,6 +5,16 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account_peppol
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: account_peppol
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: account_peppol
 # override | officiell: 'Företagets namn'
 msgid "Company Name"
 msgstr "Bolagets namn"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-iap_mail\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:44\n"
+"PO-Revision-Date: 2026-11-27 16:44\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -17,3 +17,8 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
 "                    <b>Typ av bolag</b>"
+
+#. module: iap_mail
+#: model:ir.model.fields,field_description:iap_mail.field_iap_account__company_ids
+msgid "Company"
+msgstr "Bolag"

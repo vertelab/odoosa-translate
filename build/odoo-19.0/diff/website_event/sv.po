@@ -5,6 +5,11 @@ msgstr ""
 "Language: sv\n"
 
 #. module: website_event
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: website_event
 # override | officiell: 'Webbplatsen måste vara från samma företag som
 # evenemanget.'
 msgid "The website must be from the same company as the event."

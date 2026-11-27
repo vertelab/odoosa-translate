@@ -19,6 +19,11 @@ msgstr ""
 " anpassas så att de automatiskt tar hänsyn till dessa."
 
 #. module: mrp_subcontracting
+# override | officiell: 'Företag'
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: mrp_subcontracting
 # override | officiell: 'För att kunna hantera lager på ett korrekt sätt måste
 # underleverantörsplatser vara av typen internt, kopplade till rätt företag.'
 msgid ""

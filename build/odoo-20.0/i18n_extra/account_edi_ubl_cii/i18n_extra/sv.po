@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account_edi_ubl_cii\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:45\n"
+"PO-Revision-Date: 2026-11-27 16:45\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -36,6 +36,11 @@ msgstr ""
 "OBS: E-FFF, NLCIUS och XRechnung (UBL) är endast tillgängliga för respektive belgiska, nederländska och tyska bolag.\n"
 " UBL Bis 3 är endast tillgängligt för bolag vars land är närvarande i `EAS-listan\n"
 "<https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/>`_."
+
+#. module: account_edi_ubl_cii
+#: model:ir.model,name:account_edi_ubl_cii.model_res_company
+msgid "Company"
+msgstr "Bolag"
 
 #. module: account_edi_ubl_cii
 #. odoo-python

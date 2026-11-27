@@ -27,6 +27,11 @@ msgstr ""
 "är detsamma för alla."
 
 #. module: event
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: event
 # override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

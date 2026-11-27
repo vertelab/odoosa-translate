@@ -32,6 +32,11 @@ msgstr ""
 "- Autentisering erbjuder en ytterligare säkerhetsnivå för att undvika bedrägerier, i det fall att utomstående får åtkomst till användarens databas."
 
 #. module: account_edi_proxy_client
+# override | officiell: 'Företag'
+msgid "Company"
+msgstr "Bolag"
+
+#. module: account_edi_proxy_client
 # override | officiell: 'Företaget har redan en aktiv användare för denna EDI-
 # typ'
 msgid "This company has an active user already created for this EDI type"

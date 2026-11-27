@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-lunch\n"
-"POT-Creation-Date: 2026-11-27 16:17\n"
-"PO-Revision-Date: 2026-11-27 16:17\n"
+"POT-Creation-Date: 2026-11-27 16:44\n"
+"PO-Revision-Date: 2026-11-27 16:44\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -277,6 +277,21 @@ msgstr ""
 "En kassaförflyttning kan antingen vara en utgift eller en betalning.<br>\n"
 "            Ett utlägg skapas automatiskt vid ordermottagningen.<br>\n"
 "            En betalning representerar den anställdes ersättning till bolaget."
+
+#. module: lunch
+#: model:ir.model,name:lunch.model_res_company
+msgid "Companies"
+msgstr "Bolag"
+
+#. module: lunch
+#: model:ir.model.fields,field_description:lunch.field_lunch_location__company_id
+#: model:ir.model.fields,field_description:lunch.field_lunch_order__company_id
+#: model:ir.model.fields,field_description:lunch.field_lunch_product__company_id
+#: model:ir.model.fields,field_description:lunch.field_lunch_product_category__company_id
+#: model:ir.model.fields,field_description:lunch.field_lunch_supplier__company_id
+#: model:ir.model.fields,field_description:lunch.field_lunch_topping__company_id
+msgid "Company"
+msgstr "Bolag"
 
 #. module: lunch
 #: model_terms:ir.actions.act_window,help:lunch.lunch_cashmove_report_action_account
