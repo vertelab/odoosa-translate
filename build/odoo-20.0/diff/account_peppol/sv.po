@@ -5,15 +5,15 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account_peppol
-# new-corrected | officiell: '<table border="0" cellpadding="0"
-# cellspacing="0" style="padding-top: 16px; background-color: #F1F1F1; font-
-# family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-
-# collapse:separate;">\n    <tr>\n        <td align="center">\n
-# <table border="0" cellpadding="0" cellspacing="0" width="590"
-# style="padding: 16px; background-color: white; color: #454748; border-
-# collapse:separate;">\n                <!-- HEADER -->\n
-# <tr>\n                    <td align="center" style="min-width: 590px;">\n
-# <table width="590" cellpadding="0" cellspacing="0" style="padding: 0px 8px;
+# override | officiell: '<table border="0" cellpadding="0" cellspacing="0"
+# style="padding-top: 16px; background-color: #F1F1F1; font-family:Verdana,
+# Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;">\n
+# <tr>\n        <td align="center">\n            <table border="0"
+# cellpadding="0" cellspacing="0" width="590" style="padding: 16px;
+# background-color: white; color: #454748; border-collapse:separate;">\n
+# <!-- HEADER -->\n                <tr>\n                    <td
+# align="center" style="min-width: 590px;">\n                        <table
+# width="590" cellpadding="0" cellspacing="0" style="padding: 0px 8px;
 # background-color: white; border-collapse:separate;">\n
 # <tr>\n                                <td valign="middle">\n
 # <span style="font-size: 10px;">Notis</span>\n
@@ -174,19 +174,19 @@ msgstr ""
 "</table>"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Företagets namn'
+# override | officiell: 'Företagets namn'
 msgid "Company Name"
 msgstr "Bolagets namn"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Om du inte är momspliktig, bör du inte ha ett
-# angivet momsregistreringsnummer i dina företagskontakter och dina kunder bör
-# inte ha det heller.'
+# override | officiell: 'Om du inte är momspliktig, bör du inte ha ett angivet
+# momsregistreringsnummer i dina företagskontakter och dina kunder bör inte ha
+# det heller.'
 msgid ""
 "If you are not subject to VAT, you should not have a VAT number on your "
 "company/contacts and your clients should not have one either."
@@ -196,60 +196,59 @@ msgstr ""
 "det heller."
 
 #. module: account_peppol
-# new-corrected | officiell: 'Överordnat företag'
+# override | officiell: 'Överordnat företag'
 msgid "Parent Company"
 msgstr "Överordnat bolag"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Peppol-ID bör skilja sig från huvudföretaget.'
+# override | officiell: 'Peppol-ID bör skilja sig från huvudföretaget.'
 msgid "Peppol ID should be different from main company."
 msgstr "Peppol-ID bör skilja sig från huvudbolaget."
 
 #. module: account_peppol
-# new-corrected | officiell: 'Peppol överordnat företag'
+# override | officiell: 'Peppol överordnat företag'
 msgid "Peppol Parent Company"
 msgstr "Peppol överordnat bolag"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Peppol namn på överordnat företag'
+# override | officiell: 'Peppol namn på överordnat företag'
 msgid "Peppol Parent Company Name"
 msgstr "Peppol namn på överordnat bolag"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Peppol använd överordnat företag'
+# override | officiell: 'Peppol använd överordnat företag'
 msgid "Peppol Use Parent Company"
 msgstr "Peppol använd överordnat bolag"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Vänligen ange företagets routing-ID.'
+# override | officiell: 'Vänligen ange företagets routing-ID.'
 msgid "Please fill in the company's routing identification."
 msgstr "Vänligen ange bolagets routing-ID."
 
 #. module: account_peppol
-# new-corrected | officiell: 'Vänligen välj ett land för ditt företag.'
+# override | officiell: 'Vänligen välj ett land för ditt företag.'
 msgid "Please select a country for your company."
 msgstr "Vänligen välj ett land för ditt bolag."
 
 #. module: account_peppol
-# new-corrected | officiell: 'Registrera företaget hos peppol'
+# override | officiell: 'Registrera företaget hos peppol'
 msgid "Register this company on peppol"
 msgstr "Registrera bolaget hos peppol"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Utvalda företag'
+# override | officiell: 'Utvalda företag'
 msgid "Selected Company"
 msgstr "Utvalda bolag"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Skicka från överordnat företag'
+# override | officiell: 'Skicka från överordnat företag'
 msgid "Send from parent company"
 msgstr "Skicka från överordnat bolag"
 
 #. module: account_peppol
-# new-corrected | officiell: 'Du är på väg att använda ett
-# momsregistreringsnummer för att registrera dig. Försäkra dig om att du
-# registrerar dig med ditt företagsregisternummer (BCE/KBO) för att följa
-# gällande lagstiftning.'
+# override | officiell: 'Du är på väg att använda ett momsregistreringsnummer
+# för att registrera dig. Försäkra dig om att du registrerar dig med ditt
+# företagsregisternummer (BCE/KBO) för att följa gällande lagstiftning.'
 msgid ""
 "You are about to register with your VAT number. Make sure you register with "
 "your Company Registry (BCE/KBO) first to be compliant with the new "
@@ -260,9 +259,8 @@ msgstr ""
 "(BCE/KBO) för att följa gällande lagstiftning."
 
 #. module: account_peppol
-# new-corrected | officiell: 'Du bekräftar att du har behörighet att
-# registrera företaget på Peppol-nätverket i rollen som juridisk
-# representant.'
+# override | officiell: 'Du bekräftar att du har behörighet att registrera
+# företaget på Peppol-nätverket i rollen som juridisk representant.'
 msgid ""
 "You confirm that you are authorized to register this company on the Peppol "
 "network as a legal representative."
@@ -271,9 +269,9 @@ msgstr ""
 "nätverket i rollen som juridisk representant."
 
 #. module: account_peppol
-# new-corrected | officiell: 'Ditt företag har redan en registrerad
-# accesspunkt (%s) för att ta emot fakturor. Vi kommer endast att registrera
-# er som avsändare i Odoo.'
+# override | officiell: 'Ditt företag har redan en registrerad accesspunkt
+# (%s) för att ta emot fakturor. Vi kommer endast att registrera er som
+# avsändare i Odoo.'
 msgid ""
 "Your company is already registered on an Access Point (%s) for receiving "
 "invoices. We will register you on Odoo as a sender only."

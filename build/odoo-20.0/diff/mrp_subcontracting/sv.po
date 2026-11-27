@@ -5,14 +5,13 @@ msgstr ""
 "Language: sv\n"
 
 #. module: mrp_subcontracting
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: mrp_subcontracting
-# new-corrected | officiell: 'För att kunna hantera lager på ett korrekt sätt
-# måste underleverantörsplatser vara av typen internt, kopplade till rätt
-# företag.'
+# override | officiell: 'För att kunna hantera lager på ett korrekt sätt måste
+# underleverantörsplatser vara av typen internt, kopplade till rätt företag.'
 msgid ""
 "In order to manage stock accurately, subcontracting locations must be type "
 "Internal, linked to the appropriate company."
@@ -21,7 +20,7 @@ msgstr ""
 "underleverantörsplatser vara av typen internt, kopplade till rätt bolag."
 
 #. module: mrp_subcontracting
-# new-corrected | officiell: 'Du kan inte ändra företagets plats för
+# override | officiell: 'Du kan inte ändra företagets plats för
 # underleverantörer'
 msgid "You cannot alter the company's subcontracting location"
 msgstr "Du kan inte ändra bolagets plats för underleverantörer"

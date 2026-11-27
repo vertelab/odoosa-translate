@@ -5,15 +5,15 @@ msgstr ""
 "Language: sv\n"
 
 #. module: analytic
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: analytic
-# new-corrected | officiell: 'Välj ett företag för vilket den
-# objektdistributionen ska användas (t.ex. skapa en ny kundfaktura eller
-# försäljningsorder om vi väljer detta företag, det kommer automatiskt att ta
-# detta som ett objektkonto)'
+# override | officiell: 'Välj ett företag för vilket den objektdistributionen
+# ska användas (t.ex. skapa en ny kundfaktura eller försäljningsorder om vi
+# väljer detta företag, det kommer automatiskt att ta detta som ett
+# objektkonto)'
 msgid ""
 "Select a company for which the analytic distribution will be used (e.g. "
 "create new customer invoice or Sales order if we select this company, it "
@@ -24,8 +24,8 @@ msgstr ""
 "kommer automatiskt att ta detta som ett objektkonto)"
 
 #. module: analytic
-# new-corrected | officiell: 'Du kan inte ändra företaget för ett objektkonto
-# som redan har objekt! Det är receptet för en analyskatastrof!'
+# override | officiell: 'Du kan inte ändra företaget för ett objektkonto som
+# redan har objekt! Det är receptet för en analyskatastrof!'
 msgid ""
 "You can't change the company of an analytic account that already has "
 "analytic items! It's a recipe for an analytical disaster!"
@@ -34,9 +34,9 @@ msgstr ""
 "receptet för en analyskatastrof!"
 
 #. module: analytic
-# new-corrected | officiell: 'Du har angivit en fördelning med objektkonton
-# som tillhör ett specifikt företag men en modell som delas mellan företag
-# eller med ett annat företag'
+# override | officiell: 'Du har angivit en fördelning med objektkonton som
+# tillhör ett specifikt företag men en modell som delas mellan företag eller
+# med ett annat företag'
 msgid ""
 "You defined a distribution with analytic account(s) belonging to a specific "
 "company but a model shared between companies or with a different company"

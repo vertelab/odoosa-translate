@@ -5,8 +5,8 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account
-# new-corrected | officiell: '. Beloppen i verifikationerna måste beräknas av
-# Odoo innan de kan bokföras i ditt företags valuta.'
+# override | officiell: '. Beloppen i verifikationerna måste beräknas av Odoo
+# innan de kan bokföras i ditt företags valuta.'
 msgid ""
 ". The journal entries need to be computed by Odoo before being posted in "
 "your company's currency."
@@ -15,7 +15,7 @@ msgstr ""
 " ditt bolags valuta."
 
 #. module: account
-# new-corrected | officiell: 'En partner kan inte ha både en individuell
+# override | officiell: 'En partner kan inte ha både en individuell
 # identifierare (%(individual)s) och en företagsidentifierare (%(company)s).'
 msgid ""
 "A partner cannot have both an individual identifier (%(individual)s) and a "
@@ -25,7 +25,7 @@ msgstr ""
 "och en bolagsidentifierare (%(company)s)."
 
 #. module: account
-# new-corrected | officiell: 'Kontot %(account)s kommer att delas upp i
+# override | officiell: 'Kontot %(account)s kommer att delas upp i
 # %(num_accounts)s, ett för varje företag:'
 msgid ""
 "Account %(account)s will be split in %(num_accounts)s, one for each "
@@ -35,7 +35,7 @@ msgstr ""
 "bolag:"
 
 #. module: account
-# new-corrected | officiell: 'Kontot %s kan inte delas upp eftersom det redan
+# override | officiell: 'Kontot %s kan inte delas upp eftersom det redan
 # tillhör ett enskilt företag. Åtgärden delar bara upp ett konto baserat på
 # dess företag.'
 msgid ""
@@ -46,15 +46,15 @@ msgstr ""
 "Åtgärden delar bara upp ett konto baserat på dess bolag."
 
 #. module: account
-# new-corrected | officiell: 'Alla markerade rättningsrörelser måste vara
-# kopplade till samma företag.'
+# override | officiell: 'Alla markerade rättningsrörelser måste vara kopplade
+# till samma företag.'
 msgid "All selected moves for reversal must belong to the same company."
 msgstr ""
 "Alla markerade rättningsrörelser måste vara kopplade till samma bolag."
 
 #. module: account
-# new-corrected | officiell: 'Enbart positivt belopp kopplat till denna
-# matchning och uttryckt i företagets valuta.'
+# override | officiell: 'Enbart positivt belopp kopplat till denna matchning
+# och uttryckt i företagets valuta.'
 msgid ""
 "Always positive amount concerned by this matching expressed in the company "
 "currency."
@@ -63,17 +63,17 @@ msgstr ""
 "valuta."
 
 #. module: account
-# new-corrected | officiell: 'Undertecknat belopp i företagets valuta'
+# override | officiell: 'Undertecknat belopp i företagets valuta'
 msgid "Amount Company Currency Signed"
 msgstr "Undertecknat belopp i bolagets valuta"
 
 #. module: account
-# new-corrected | officiell: 'Belopp att betala (företagets valuta)'
+# override | officiell: 'Belopp att betala (företagets valuta)'
 msgid "Amount to Pay (company currency)"
 msgstr "Belopp att betala (bolagets valuta)"
 
 #. module: account
-# new-corrected | officiell: 'Ett konto är en del av ett huvudbok som gör det
+# override | officiell: 'Ett konto är en del av ett huvudbok som gör det
 # möjligt för ditt företag\natt registrera alla typer av debet- och
 # kredittransaktioner.\nFöretag presenterar sina årsredovisningar i två
 # huvuddelar: en balansräkning\noch en resultaträkning (konton för vinster och
@@ -94,74 +94,73 @@ msgstr ""
 "att genom årsredovisningen presentera viss information."
 
 #. module: account
-# new-corrected | officiell: 'Analytiskt konto'
+# override | officiell: 'Analytiskt konto'
 msgid "Analytic Account"
 msgstr "Objektkonto"
 
 #. module: account
-# new-corrected | officiell: 'Analytisk redovisning'
+# override | officiell: 'Analytisk redovisning'
 msgid "Analytic Accounting"
 msgstr "Objektredovisning"
 
 #. module: account
-# new-corrected | officiell: 'Analytiska konton'
+# override | officiell: 'Analytiska konton'
 msgid "Analytic Accounts"
 msgstr "Objektkonton"
 
 #. module: account
-# new-corrected | officiell: 'Analytisk fördelning'
+# override | officiell: 'Analytisk fördelning'
 msgid "Analytic Distribution"
 msgstr "Objektfördelning"
 
 #. module: account
-# new-corrected | officiell: 'Analytiska fördelningsmodeller'
+# override | officiell: 'Analytiska fördelningsmodeller'
 msgid "Analytic Distribution Model"
 msgstr "Objektfördelning"
 
 #. module: account
-# new-corrected | officiell: 'Analytiska fördelningsmodeller'
+# override | officiell: 'Analytiska fördelningsmodeller'
 msgid "Analytic Distribution Models"
 msgstr "Objektfördelning"
 
 #. module: account
-# new-corrected | officiell: 'Analytiska rader'
+# override | officiell: 'Analytiska rader'
 msgid "Analytic Lines"
 msgstr "Objektrader"
 
 #. module: account
-# new-corrected | officiell: 'Analytiska planers användningsgrad'
+# override | officiell: 'Analytiska planers användningsgrad'
 msgid "Analytic Plan's Applicabilities"
 msgstr "Objektreglers användningsgrad"
 
 #. module: account
-# new-corrected | officiell: 'Analytiska planer'
+# override | officiell: 'Analytiska planer'
 msgid "Analytic Plans"
 msgstr "Objektregler"
 
 #. module: account
-# new-corrected | officiell: 'Analytisk precision'
+# override | officiell: 'Analytisk precision'
 msgid "Analytic Precision"
 msgstr "Objektprecision"
 
 #. module: account
-# new-corrected | officiell: 'Analytisk rapportering'
+# override | officiell: 'Analytisk rapportering'
 msgid "Analytic Reporting"
 msgstr "Objektrapporter"
 
 #. module: account
-# new-corrected | officiell: 'Analytiska rader'
+# override | officiell: 'Analytiska rader'
 msgid "Analytic lines"
 msgstr "Objektrader"
 
 #. module: account
-# new-corrected | officiell: 'Bank- och kassakonton kan inte delas mellan
-# företag.'
+# override | officiell: 'Bank- och kassakonton kan inte delas mellan företag.'
 msgid "Bank & Cash accounts cannot be shared between companies."
 msgstr "Bank- och kassakonton kan inte delas mellan bolag."
 
 #. module: account
-# new-corrected | officiell: 'Kontonummer för det bankkonto som fakturan
-# kommer att betalas till. Ett företagskonto om detta är en kundfaktura eller
+# override | officiell: 'Kontonummer för det bankkonto som fakturan kommer att
+# betalas till. Ett företagskonto om detta är en kundfaktura eller
 # leverantörskreditfaktura, annars ett partnerkonto.'
 msgid ""
 "Bank Account Number to which the invoice will be paid. A Company bank "
@@ -173,21 +172,21 @@ msgstr ""
 "annars ett partnerkonto."
 
 #. module: account
-# new-corrected | officiell: 'Tillhör samma företag som %s.'
+# override | officiell: 'Tillhör samma företag som %s.'
 msgid "Belongs to the same company as %s."
 msgstr "Tillhör samma bolag som %s."
 
 #. module: account
-# new-corrected | officiell: 'Företagslicenser och tillstånd som ditt företag
-# måste betala för att bedriva sin verksamhet'
+# override | officiell: 'Företagslicenser och tillstånd som ditt företag måste
+# betala för att bedriva sin verksamhet'
 msgid "Business licenses and permits that your company must pay to operate"
 msgstr ""
 "Bolagslicenser och tillstånd som ditt bolag måste betala för att bedriva sin"
 " verksamhet"
 
 #. module: account
-# new-corrected | officiell: 'Ingen kontoplan hittades för det här företaget,
-# den bör därmed konfigureras.\nVänligen gå till Kontoinställningar.'
+# override | officiell: 'Ingen kontoplan hittades för det här företaget, den
+# bör därmed konfigureras.\nVänligen gå till Kontoinställningar.'
 msgid ""
 "Cannot find a chart of accounts for this company, You should configure it. \n"
 "Please go to Account Configuration."
@@ -196,84 +195,83 @@ msgstr ""
 "Vänligen gå till Kontoinställningar."
 
 #. module: account
-# new-corrected | officiell: 'Bokslut: Global lagervärdering per företag
+# override | officiell: 'Bokslut: Global lagervärdering per företag
 # [%(company)s]'
 msgid "Closing: Stock Variation Global for company [%(company)s]"
 msgstr "Bokslut: Global lagervärdering per bolag [%(company)s]"
 
 #. module: account
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
 #. module: account
-# new-corrected | officiell: 'Företag kopplade till partner'
+# override | officiell: 'Företag kopplade till partner'
 msgid "Companies that refers to partner"
 msgstr "Bolag kopplade till partner"
 
 #. module: account
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: account
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company "
 msgstr "Bolag"
 
 #. module: account
-# new-corrected | officiell: 'Företagets bankkonto'
+# override | officiell: 'Företagets bankkonto'
 msgid "Company Bank Account"
 msgstr "Bolagets bankkonto"
 
 #. module: account
-# new-corrected | officiell: 'Företagets land'
+# override | officiell: 'Företagets land'
 msgid "Company Country"
 msgstr "Bolagets land"
 
 #. module: account
-# new-corrected | officiell: 'Företagets valuta'
+# override | officiell: 'Företagets valuta'
 msgid "Company Currency"
 msgstr "Bolagets valuta"
 
 #. module: account
-# new-corrected | officiell: 'Företagets dokumentlayout'
+# override | officiell: 'Företagets dokumentlayout'
 msgid "Company Document Layout"
 msgstr "Bolagets dokumentlayout"
 
 #. module: account
-# new-corrected | officiell: 'Landskod för företagets skatterättsliga hemvist'
+# override | officiell: 'Landskod för företagets skatterättsliga hemvist'
 msgid "Company Fiscal Country Code"
 msgstr "Landskod för bolagets skatterättsliga hemvist"
 
 #. module: account
-# new-corrected | officiell: 'Företag med Storno-bokföring'
+# override | officiell: 'Företag med Storno-bokföring'
 msgid "Company Storno Accounting"
 msgstr "Bolag med Storno-bokföring"
 
 #. module: account
-# new-corrected | officiell: 'Platshållare för företagets
-# momsregistreringsnummer'
+# override | officiell: 'Platshållare för företagets momsregistreringsnummer'
 msgid "Company Vat Placeholder"
 msgstr "Platshållare för bolagets momsregistreringsnummer"
 
 #. module: account
-# new-corrected | officiell: 'Företaget har en kontoplan'
+# override | officiell: 'Företaget har en kontoplan'
 msgid "Company has a chart of accounts"
 msgstr "Bolaget har en kontoplan"
 
 #. module: account
-# new-corrected | officiell: 'Företaget som är kopplat till journalen'
+# override | officiell: 'Företaget som är kopplat till journalen'
 msgid "Company of the Journal"
 msgstr "Bolaget som är kopplat till journalen"
 
 #. module: account
-# new-corrected | officiell: 'Företag relaterade till denna journal'
+# override | officiell: 'Företag relaterade till denna journal'
 msgid "Company related to this journal"
 msgstr "Bolag relaterade till denna journal"
 
 #. module: account
-# new-corrected | officiell: 'Företagets personalkostnader exklusive
+# override | officiell: 'Företagets personalkostnader exklusive
 # tjänsteersättning, bidrag och värdecheckar'
 msgid ""
 "Company's personnel costs excluding compensations, contributions and "
@@ -283,32 +281,32 @@ msgstr ""
 "värdecheckar"
 
 #. module: account
-# new-corrected | officiell: 'Tjänsteersättning till anställda och arbetare
-# som är anställda av företaget'
+# override | officiell: 'Tjänsteersättning till anställda och arbetare som är
+# anställda av företaget'
 msgid "Compensation paid to employees and workers employed by the company"
 msgstr ""
 "Tjänsteersättning till anställda och arbetare som är anställda av bolaget"
 
 #. module: account
-# new-corrected | officiell: 'Länder i vilka företaget har ett skattenummer'
+# override | officiell: 'Länder i vilka företaget har ett skattenummer'
 msgid "Countries for which the company has a Tax ID"
 msgstr "Länder i vilka bolaget har ett skattenummer"
 
 #. module: account
-# new-corrected | officiell: 'Växelkurs vid omvandling från företagets valuta
-# till dokumentets valuta.'
+# override | officiell: 'Växelkurs vid omvandling från företagets valuta till
+# dokumentets valuta.'
 msgid "Currency rate from company currency to document currency."
 msgstr ""
 "Växelkurs vid omvandling från bolagets valuta till dokumentets valuta."
 
 #. module: account
-# new-corrected | officiell: 'Standard incotermer för företaget'
+# override | officiell: 'Standard incotermer för företaget'
 msgid "Default Incoterm of your company"
 msgstr "Standard incotermer för bolaget"
 
 #. module: account
-# new-corrected | officiell: 'Standard om huruvida det försäljningspris som
-# används för företagets produkter och fakturor ska inkludera moms.'
+# override | officiell: 'Standard om huruvida det försäljningspris som används
+# för företagets produkter och fakturor ska inkludera moms.'
 msgid ""
 "Default on whether the sales price used on the product and invoices with "
 "this Company includes its taxes."
@@ -317,76 +315,73 @@ msgstr ""
 " och fakturor ska inkludera moms."
 
 #. module: account
-# new-corrected | officiell: 'Aktivera konsolidering mellan flera företag'
+# override | officiell: 'Aktivera konsolidering mellan flera företag'
 msgid "Enable multi company consolidation"
 msgstr "Aktivera konsolidering mellan flera bolag"
 
 #. module: account
-# new-corrected | officiell: 'Verifikat kan endast skapas för ett företag åt
+# override | officiell: 'Verifikat kan endast skapas för ett företag åt
 # gången.'
 msgid "Entries can only be created for a single company at a time."
 msgstr "Verifikat kan endast skapas för ett bolag åt gången."
 
 #. module: account
-# new-corrected | officiell: 'Följande verifikat tillhör inte samma företag:
-# %s'
+# override | officiell: 'Följande verifikat tillhör inte samma företag: %s'
 msgid "Entries don't belong to the same company: %s"
 msgstr "Följande verifikat tillhör inte samma bolag: %s"
 
 #. module: account
-# new-corrected | officiell: 'Kostnader för reparationer och underhåll av
+# override | officiell: 'Kostnader för reparationer och underhåll av
 # företagsbilar och lastbilar'
 msgid ""
 "Expenses made for the repair and maintenance of company cars and trucks"
 msgstr "Kostnader för reparationer och underhåll av bolagsbilar och lastbilar"
 
 #. module: account
-# new-corrected | officiell: 'Företagets skatterättsliga hemvistkod'
+# override | officiell: 'Företagets skatterättsliga hemvistkod'
 msgid "Fiscal Country Code of the Company"
 msgstr "Bolagets skatterättsliga hemvistkod"
 
 #. module: account
-# new-corrected | officiell: 'Objekt som saknar analytisk fördelning'
+# override | officiell: 'Objekt som saknar analytisk fördelning'
 msgid "Items With Missing Analytic Distribution"
 msgstr "Objekt som saknar objektfördelning"
 
 #. module: account
-# new-corrected | officiell: 'Journalkoder måste vara unika för varje
-# företag.'
+# override | officiell: 'Journalkoder måste vara unika för varje företag.'
 msgid "Journal codes must be unique per company."
 msgstr "Journalkoder måste vara unika för varje bolag."
 
 #. module: account
-# new-corrected | officiell: 'Journal där företagets ingående balans har
-# bokförts.'
+# override | officiell: 'Journal där företagets ingående balans har bokförts.'
 msgid ""
 "Journal where the opening entry of this company's accounting has been "
 "posted."
 msgstr "Journal där bolagets ingående balans har bokförts."
 
 #. module: account
-# new-corrected | officiell: 'Företagets huvudsakliga valuta.'
+# override | officiell: 'Företagets huvudsakliga valuta.'
 msgid "Main currency of the company."
 msgstr "Bolagets huvudsakliga valuta."
 
 #. module: account
-# new-corrected | officiell: 'Företagets huvudsakliga valuta'
+# override | officiell: 'Företagets huvudsakliga valuta'
 msgid "Main currency of your company"
 msgstr "Bolagets huvudsakliga valuta"
 
 #. module: account
-# new-corrected | officiell: 'Kartläggning av kontokoder per företag'
+# override | officiell: 'Kartläggning av kontokoder per företag'
 msgid "Mapping of account codes per company"
 msgstr "Kartläggning av kontokoder per bolag"
 
 #. module: account
-# new-corrected | officiell: 'Flera företag'
+# override | officiell: 'Flera företag'
 msgid "Multi-Company"
 msgstr "Flera bolag"
 
 #. module: account
-# new-corrected | officiell: 'Ingen journal hittades i företaget
-# %(company_name)s för någon av följande typer: %(journal_types)s'
+# override | officiell: 'Ingen journal hittades i företaget %(company_name)s
+# för någon av följande typer: %(journal_types)s'
 msgid ""
 "No journal could be found in company %(company_name)s for any of those "
 "types: %(journal_types)s"
@@ -395,18 +390,18 @@ msgstr ""
 "typer: %(journal_types)s"
 
 #. module: account
-# new-corrected | officiell: 'Introduktion till företagsdata'
+# override | officiell: 'Introduktion till företagsdata'
 msgid "Onboarding Company Data"
 msgstr "Introduktion till bolagsdata"
 
 #. module: account
-# new-corrected | officiell: 'En eller flera rader kräver en analytisk
-# fördelning på 100 %.'
+# override | officiell: 'En eller flera rader kräver en analytisk fördelning
+# på 100 %.'
 msgid "One or more lines require a 100% analytic distribution."
 msgstr "En eller flera rader kräver en objektfördelning på 100 %."
 
 #. module: account
-# new-corrected | officiell: 'Gör det möjligt att bortse från företagets
+# override | officiell: 'Gör det möjligt att bortse från företagets
 # standardinställningar om huruvida det pris du använder på produkter och
 # fakturor bör inkludera denna skatt.'
 msgid ""
@@ -417,15 +412,15 @@ msgstr ""
 "det pris du använder på produkter och fakturor bör inkludera denna skatt."
 
 #. module: account
-# new-corrected | officiell: 'Premier för fordonsförsäkringar för fordon som
-# ägs eller hyrs av företaget'
+# override | officiell: 'Premier för fordonsförsäkringar för fordon som ägs
+# eller hyrs av företaget'
 msgid ""
 "Premiums paid for insurance coverage on company-owned or leased vehicles"
 msgstr ""
 "Premier för fordonsförsäkringar för fordon som ägs eller hyrs av bolaget"
 
 #. module: account
-# new-corrected | officiell: 'Välj ett specifikt analytiskt konto för en viss
+# override | officiell: 'Välj ett specifikt analytiskt konto för en viss
 # produktkategori, baserat på den analytiska standarden (vilket t.ex. innebär
 # att när en ny kundfaktura eller försäljningsorder skapas och en produkt från
 # den här kategorin inkluderas, så kopplas det automatiskt till rätt
@@ -441,9 +436,9 @@ msgstr ""
 "så kopplas det automatiskt till rätt analytiska konto)"
 
 #. module: account
-# new-corrected | officiell: 'Välj en specifik produkt för vilken den
-# analytiska fördelningen kommer att användas (vilket t.ex. innebär att när en
-# ny kundfaktura eller försäljningsorder skapas och en produkt från den här
+# override | officiell: 'Välj en specifik produkt för vilken den analytiska
+# fördelningen kommer att användas (vilket t.ex. innebär att när en ny
+# kundfaktura eller försäljningsorder skapas och en produkt från den här
 # kategorin inkluderas, så kopplas det automatiskt till rätt analytiska
 # konto)'
 msgid ""
@@ -457,35 +452,35 @@ msgstr ""
 "automatiskt till rätt analytiska konto)"
 
 #. module: account
-# new-corrected | officiell: 'Ange företagsdata'
+# override | officiell: 'Ange företagsdata'
 msgid "Set Company Data"
 msgstr "Ange bolagsdata"
 
 #. module: account
-# new-corrected | officiell: 'Ange dina företagsuppgifter'
+# override | officiell: 'Ange dina företagsuppgifter'
 msgid "Set your Company Data"
 msgstr "Ange dina bolagsuppgifter"
 
 #. module: account
-# new-corrected | officiell: 'Ange företagsuppgifter'
+# override | officiell: 'Ange företagsuppgifter'
 msgid "Set your company data"
 msgstr "Ange bolagsuppgifter"
 
 #. module: account
-# new-corrected | officiell: 'Ställ in information om ditt företag som ska
-# visas i sidhuvuden och sidfötter i dokument.'
+# override | officiell: 'Ställ in information om ditt företag som ska visas i
+# sidhuvuden och sidfötter i dokument.'
 msgid "Set your company's data for documents header/footer."
 msgstr ""
 "Ställ in information om ditt bolag som ska visas i sidhuvuden och sidfötter "
 "i dokument."
 
 #. module: account
-# new-corrected | officiell: 'Skatter i företagets valuta'
+# override | officiell: 'Skatter i företagets valuta'
 msgid "Taxes in company currency"
 msgstr "Skatter i bolagets valuta"
 
 #. module: account
-# new-corrected | officiell: 'Tekniskt fält som innehåller de länder för vilka
+# override | officiell: 'Tekniskt fält som innehåller de länder för vilka
 # detta företag använder skatterelaterade funktioner (som därav kräver
 # specifika l10n-moduler för att visa skatterelaterade fält).'
 msgid ""
@@ -498,8 +493,8 @@ msgstr ""
 " visa skatterelaterade fält)."
 
 #. module: account
-# new-corrected | officiell: 'Tekniskt fält som anger företagets låsningsdatum
-# vid det tillfälle då undantaget skapades.'
+# override | officiell: 'Tekniskt fält som anger företagets låsningsdatum vid
+# det tillfälle då undantaget skapades.'
 msgid ""
 "Technical field giving the date the company lock date at the time the "
 "exception was created."
@@ -508,9 +503,9 @@ msgstr ""
 "undantaget skapades."
 
 #. module: account
-# new-corrected | officiell: 'Beloppet som uttrycks i den sekundära valutan
-# måste vara positivt när kontot debiteras och negativt när kontot krediteras.
-# Om valutan samma som företagets måste beloppet vara lika med det dåvarande
+# override | officiell: 'Beloppet som uttrycks i den sekundära valutan måste
+# vara positivt när kontot debiteras och negativt när kontot krediteras. Om
+# valutan samma som företagets måste beloppet vara lika med det dåvarande
 # saldot.'
 msgid ""
 "The amount expressed in the secondary currency must be positive when account"
@@ -523,17 +518,16 @@ msgstr ""
 " måste beloppet vara lika med det dåvarande saldot."
 
 #. module: account
-# new-corrected | officiell: 'Bankkontot kopplat till en bankjournal måste
-# tillhöra samma företag (%s).'
+# override | officiell: 'Bankkontot kopplat till en bankjournal måste tillhöra
+# samma företag (%s).'
 msgid ""
 "The bank account of a bank journal must belong to the same company (%s)."
 msgstr ""
 "Bankkontot kopplat till en bankjournal måste tillhöra samma bolag (%s)."
 
 #. module: account
-# new-corrected | officiell: 'Företagets angivna bankkonto är ej betrott.
-# Vänligen be en administratör eller någon med behörighet att kontrollera
-# bankkontot.'
+# override | officiell: 'Företagets angivna bankkonto är ej betrott. Vänligen
+# be en administratör eller någon med behörighet att kontrollera bankkontot.'
 msgid ""
 "The bank account of your company is not trusted. Please ask an admin or "
 "someone with approval rights to check it."
@@ -542,19 +536,19 @@ msgstr ""
 " någon med behörighet att kontrollera bankkontot."
 
 #. module: account
-# new-corrected | officiell: 'Det företag som denna fördelningsrad är kopplad
+# override | officiell: 'Det företag som denna fördelningsrad är kopplad
 # till.'
 msgid "The company this distribution line belongs to."
 msgstr "Det bolag som denna fördelningsrad är kopplad till."
 
 #. module: account
-# new-corrected | officiell: 'Landet från vilket skatterapporter ska användas
-# för detta företag'
+# override | officiell: 'Landet från vilket skatterapporter ska användas för
+# detta företag'
 msgid "The country to use the tax reports from for this company"
 msgstr "Landet från vilket skatterapporter ska användas för detta bolag"
 
 #. module: account
-# new-corrected | officiell: 'Verifikatet använder sig av konton
+# override | officiell: 'Verifikatet använder sig av konton
 # (%(accounts_codes_names)s) från ett annat företag.'
 msgid ""
 "The entry is using accounts (%(accounts_codes_names)s) from a different "
@@ -564,14 +558,14 @@ msgstr ""
 " bolag."
 
 #. module: account
-# new-corrected | officiell: 'Verifikationen använder skatter (%(tax_names)s)
-# från ett annat företag.'
+# override | officiell: 'Verifikationen använder skatter (%(tax_names)s) från
+# ett annat företag.'
 msgid "The entry is using taxes (%(tax_names)s) from a different company."
 msgstr "Verifikationen använder skatter (%(tax_names)s) från ett annat bolag."
 
 #. module: account
-# new-corrected | officiell: 'Följande konton måste vara kopplade till minst
-# ett företag:\n%(accounts)s'
+# override | officiell: 'Följande konton måste vara kopplade till minst ett
+# företag:\n%(accounts)s'
 msgid ""
 "The following accounts must be assigned to at least one company:\n"
 "%(accounts)s"
@@ -580,7 +574,7 @@ msgstr ""
 "%(accounts)s"
 
 #. module: account
-# new-corrected | officiell: 'Den angivna kontoinnehavaren för en journals
+# override | officiell: 'Den angivna kontoinnehavaren för en journals
 # bankkonto måste vara företaget (%s).'
 msgid "The holder of a journal's bank account must be the company (%s)."
 msgstr ""
@@ -588,16 +582,16 @@ msgstr ""
 "(%s)."
 
 #. module: account
-# new-corrected | officiell: 'Verifikatet som innehåller ingående saldon för
-# alla företagets konton.'
+# override | officiell: 'Verifikatet som innehåller ingående saldon för alla
+# företagets konton.'
 msgid ""
 "The journal entry containing the initial balance of all this company's "
 "accounts."
 msgstr "Verifikatet som innehåller ingående saldon för alla bolagets konton."
 
 #. module: account
-# new-corrected | officiell: 'Uppgifterna som angivits om de partners som
-# ingår i det företag som journalen är kopplad till stämmer inte överens med
+# override | officiell: 'Uppgifterna som angivits om de partners som ingår i
+# det företag som journalen är kopplad till stämmer inte överens med
 # uppgifterna om relaterade bankkonton.'
 msgid ""
 "The partners of the journal's company and the related bank account mismatch."
@@ -607,8 +601,8 @@ msgstr ""
 "bankkonton."
 
 #. module: account
-# new-corrected | officiell: 'Det kvarvarande beloppet (vid ett visst datum)
-# på en verifikationsrad uttryckt i företagets valuta.'
+# override | officiell: 'Det kvarvarande beloppet (vid ett visst datum) på en
+# verifikationsrad uttryckt i företagets valuta.'
 msgid ""
 "The residual amount (at date) on a journal item expressed in the company "
 "currency."
@@ -617,7 +611,7 @@ msgstr ""
 "uttryckt i bolagets valuta."
 
 #. module: account
-# new-corrected | officiell: 'Det återstående beloppet för en verifikationsrad
+# override | officiell: 'Det återstående beloppet för en verifikationsrad
 # uttryckt i dess angivna valuta (inte nödvändigtvis samma som företagets
 # valuta).'
 msgid ""
@@ -628,7 +622,7 @@ msgstr ""
 "valuta (inte nödvändigtvis samma som bolagets valuta)."
 
 #. module: account
-# new-corrected | officiell: 'Det återstående beloppet för en verifikationsrad
+# override | officiell: 'Det återstående beloppet för en verifikationsrad
 # angivet i företagets valuta.'
 msgid ""
 "The residual amount on a journal item expressed in the company currency."
@@ -636,8 +630,8 @@ msgstr ""
 "Det återstående beloppet för en verifikationsrad angivet i bolagets valuta."
 
 #. module: account
-# new-corrected | officiell: 'Skatteregistreringsnumret för ditt företag i
-# regionen som kartlagts av detta skatteområde.'
+# override | officiell: 'Skatteregistreringsnumret för ditt företag i regionen
+# som kartlagts av detta skatteområde.'
 msgid ""
 "The tax ID of your company in the region mapped by this fiscal position."
 msgstr ""
@@ -645,9 +639,9 @@ msgstr ""
 "skatteområde."
 
 #. module: account
-# new-corrected | officiell: 'Det finns ingen skattejournal enligt
-# kontantmetoden angiven för företaget "%s".\nStäll in en journal genom att
-# navigera till Bokföring/Inställningar/Inställningar'
+# override | officiell: 'Det finns ingen skattejournal enligt kontantmetoden
+# angiven för företaget "%s".\nStäll in en journal genom att navigera till
+# Bokföring/Inställningar/Inställningar'
 msgid ""
 "There is no tax cash basis journal defined for the '%s' company.\n"
 "Configure it in Accounting/Configuration/Settings"
@@ -656,7 +650,7 @@ msgstr ""
 "Ställ in en journal genom att navigera till Bokföring/Inställningar/Inställningar"
 
 #. module: account
-# new-corrected | officiell: 'Åtgärden är oåterkallelig: kredit/debet kan inte
+# override | officiell: 'Åtgärden är oåterkallelig: kredit/debet kan inte
 # ändras igen från den här skärmen.  -  Den här åtgärden kommer endast att
 # påverka ditt nuvarande företag.'
 msgid ""
@@ -668,7 +662,7 @@ msgstr ""
 "bolag."
 
 #. module: account
-# new-corrected | officiell: 'Detta gör det möjligt för revisorer att hantera
+# override | officiell: 'Detta gör det möjligt för revisorer att hantera
 # analytiska budgetar och samlingsbudgetar. När flera olika budgetar har
 # definierats kan projektledarna ställa in det planerade beloppet för varje
 # analytiskt konto.'
@@ -682,7 +676,7 @@ msgstr ""
 "projektledarna ställa in det planerade beloppet för varje objektkonto."
 
 #. module: account
-# new-corrected | officiell: 'Den analytiska fördelningen gäller för alla
+# override | officiell: 'Den analytiska fördelningen gäller för alla
 # finansiella konton som delar det angivna prefixet.'
 msgid ""
 "This analytic distribution will apply to all financial accounts sharing the "
@@ -692,8 +686,8 @@ msgstr ""
 "prefixet."
 
 #. module: account
-# new-corrected | officiell: 'Det här verifikatet innehåller en eller flera
-# skatter som är oförenliga med ditt skatteområde. Kontrollera företagets
+# override | officiell: 'Det här verifikatet innehåller en eller flera skatter
+# som är oförenliga med ditt skatteområde. Kontrollera företagets
 # skatterättsliga hemvist i företagets inställningar samt inställningarna för
 # skatter.'
 msgid ""
@@ -706,12 +700,12 @@ msgstr ""
 "inställningar samt inställningarna för skatter."
 
 #. module: account
-# new-corrected | officiell: 'Använd företagsväljare'
+# override | officiell: 'Använd företagsväljare'
 msgid "Use Company Selector"
 msgstr "Använd bolagsväljare"
 
 #. module: account
-# new-corrected | officiell: 'Vi kan inte låta det här dokument vara utan ett
+# override | officiell: 'Vi kan inte låta det här dokument vara utan ett
 # angivet företag. Vänligen ange ett företag för dokumentet.'
 msgid ""
 "We can't leave this document without any company. Please select a company "
@@ -721,8 +715,8 @@ msgstr ""
 " ett bolag för dokumentet."
 
 #. module: account
-# new-corrected | officiell: 'Vi kan inte hitta företagets kontoplan, du bör
-# därmed ställa in den.\nGå till Inställningar och välj eller installera en
+# override | officiell: 'Vi kan inte hitta företagets kontoplan, du bör därmed
+# ställa in den.\nGå till Inställningar och välj eller installera en
 # skattelokalisering.'
 msgid ""
 "We cannot find a chart of accounts for this company, you should configure it. \n"
@@ -732,7 +726,7 @@ msgstr ""
 "Gå till Inställningar och välj eller installera en skattelokalisering."
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att byta journalens angivna
+# override | officiell: 'Det är inte möjligt att byta journalens angivna
 # företag eftersom journalen redan har aktiva verifikationer.'
 msgid ""
 "You can't change the company of your journal since there are some journal "
@@ -742,8 +736,8 @@ msgstr ""
 "redan har aktiva verifikationer."
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att byta skattens angivna
-# företag eftersom journalen redan har aktiva verifikat.'
+# override | officiell: 'Det är inte möjligt att byta skattens angivna företag
+# eftersom journalen redan har aktiva verifikat.'
 msgid ""
 "You can't change the company of your tax since there are some journal items "
 "linked to it."
@@ -752,10 +746,10 @@ msgstr ""
 " har aktiva verifikat."
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att skapa en ny betalning
-# utan att ett konto för utestående betalningar/inleveranser har angetts
-# antingen för företaget eller för betalningsmetoden %(payment_method)s i
-# journalen %(journal)s.'
+# override | officiell: 'Det är inte möjligt att skapa en ny betalning utan
+# att ett konto för utestående betalningar/inleveranser har angetts antingen
+# för företaget eller för betalningsmetoden %(payment_method)s i journalen
+# %(journal)s.'
 msgid ""
 "You can't create a new payment without an outstanding payments/receipts "
 "account set either on the company or the %(payment_method)s payment method "
@@ -766,7 +760,7 @@ msgstr ""
 "för betalningsmetoden %(payment_method)s i journalen %(journal)s."
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att skapa betalningar för
+# override | officiell: 'Det är inte möjligt att skapa betalningar för
 # verifikat som tillhör olika företag.'
 msgid ""
 "You can't create payments for entries belonging to different companies."
@@ -775,9 +769,9 @@ msgstr ""
 "bolag."
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att koppla bort det här
-# företaget från det här kontot eftersom det finns några verifikationsrader
-# kopplade till det.'
+# override | officiell: 'Det är inte möjligt att koppla bort det här företaget
+# från det här kontot eftersom det finns några verifikationsrader kopplade
+# till det.'
 msgid ""
 "You can't unlink this company from this account since there are some journal"
 " items linked to it."
@@ -786,7 +780,7 @@ msgstr ""
 "eftersom det finns några verifikationsrader kopplade till det."
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att ändra företagets valuta
+# override | officiell: 'Det är inte möjligt att ändra företagets valuta
 # eftersom vissa verifikationsrader redan skapats'
 msgid ""
 "You cannot change the currency of the company since some journal items "
@@ -796,23 +790,23 @@ msgstr ""
 "verifikationsrader redan skapats"
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att konfigurera en
-# dokumentlayout för det här företaget.'
+# override | officiell: 'Det är inte möjligt att konfigurera en dokumentlayout
+# för det här företaget.'
 msgid "You cannot configure the document layout for this company."
 msgstr ""
 "Det är inte möjligt att konfigurera en dokumentlayout för det här bolaget."
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att bokföra ett verifikat
-# kopplat till ett arkiverat analytiskt konto: %s'
+# override | officiell: 'Det är inte möjligt att bokföra ett verifikat kopplat
+# till ett arkiverat analytiskt konto: %s'
 msgid "You cannot post an entry with an archived analytic account: %s"
 msgstr ""
 "Det är inte möjligt att bokföra ett verifikat kopplat till ett arkiverat "
 "objektkonto: %s"
 
 #. module: account
-# new-corrected | officiell: 'Det är inte möjligt att använda den här guiden
-# med verifikationer som tillhör olika företag.'
+# override | officiell: 'Det är inte möjligt att använda den här guiden med
+# verifikationer som tillhör olika företag.'
 msgid ""
 "You cannot use this wizard on journal entries belonging to different "
 "companies."
@@ -821,7 +815,7 @@ msgstr ""
 "tillhör olika bolag."
 
 #. module: account
-# new-corrected | officiell: 'Du har inte behörighet att genomföra den här
+# override | officiell: 'Du har inte behörighet att genomföra den här
 # processen eftersom du inte har åtkomst till följande företag: %s.'
 msgid ""
 "You do not have the right to perform this operation as you do not have "
@@ -831,9 +825,9 @@ msgstr ""
 "åtkomst till följande bolag: %s."
 
 #. module: account
-# new-corrected | officiell: "Du bör ställa in en journal för 'vinst eller
-# förlust vid valutaomvandling' i företagets inställningar för att automatiskt
-# hantera bokföringen av verifikat relaterade till växelskillnader."
+# override | officiell: "Du bör ställa in en journal för 'vinst eller förlust
+# vid valutaomvandling' i företagets inställningar för att automatiskt hantera
+# bokföringen av verifikat relaterade till växelskillnader."
 msgid ""
 "You have to configure the 'Exchange Gain or Loss Journal' in your company "
 "settings, to manage automatically the booking of accounting entries related "
@@ -844,7 +838,7 @@ msgstr ""
 " relaterade till växelskillnader."
 
 #. module: account
-# new-corrected | officiell: "Du bör ställa in ett 'konto för vinst vid
+# override | officiell: "Du bör ställa in ett 'konto för vinst vid
 # valutaomvandling' i företagets inställningar för att automatiskt hantera
 # bokföringen av verifikat relaterade till växelskillnader."
 msgid ""
@@ -857,7 +851,7 @@ msgstr ""
 "relaterade till växelskillnader."
 
 #. module: account
-# new-corrected | officiell: "Du bör ställa in ett 'konto för förluster vid
+# override | officiell: "Du bör ställa in ett 'konto för förluster vid
 # valutaomvandling' i företagets inställningar för att automatiskt hantera
 # bokföringen av verifikat relaterade till växelkursskillnader."
 msgid ""
@@ -870,6 +864,6 @@ msgstr ""
 "relaterade till växelkursskillnader."
 
 #. module: account
-# new-corrected | officiell: 't.ex. Mitt företag'
+# override | officiell: 't.ex. Mitt företag'
 msgid "e.g. My Company"
 msgstr "t.ex. Mitt bolag"

@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: website_mass_mailing
-# new-corrected | officiell: 'Få alla de senaste nyheterna, blogginläggen och
+# override | officiell: 'Få alla de senaste nyheterna, blogginläggen och
 # produktuppdateringarna från vårt företag direkt till din inkorg.'
 msgid ""
 "Get all the latest news, blog posts and product updates from our company, "

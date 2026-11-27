@@ -5,9 +5,9 @@ msgstr ""
 "Language: sv\n"
 
 #. module: sale
-# new-corrected | officiell: 'Att ändra företag för en befintlig offert kan
-# kräva manuella justeringar av detaljerna i raderna. Du kan överväga att
-# uppdatera priserna.'
+# override | officiell: 'Att ändra företag för en befintlig offert kan kräva
+# manuella justeringar av detaljerna i raderna. Du kan överväga att uppdatera
+# priserna.'
 msgid ""
 "Changing the company of an existing quotation might need some manual "
 "adjustments in the details of the lines. You might consider updating the "
@@ -17,18 +17,18 @@ msgstr ""
 "detaljerna i raderna. Du kan överväga att uppdatera priserna."
 
 #. module: sale
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: sale
-# new-corrected | officiell: 'Layout för företagsdokument'
+# override | officiell: 'Layout för företagsdokument'
 msgid "Company Document Layout"
 msgstr "Layout för bolagsdokument"
 
 #. module: sale
-# new-corrected | officiell: 'Standard om huruvida det försäljningspris som
-# används på produkten och fakturor med detta företag inkluderar skatter.'
+# override | officiell: 'Standard om huruvida det försäljningspris som används
+# på produkten och fakturor med detta företag inkluderar skatter.'
 msgid ""
 "Default on whether the sales price used on the product and invoices with "
 "this Company includes its taxes."
@@ -37,8 +37,8 @@ msgstr ""
 "fakturor med detta bolag inkluderar skatter."
 
 #. module: sale
-# new-corrected | officiell: 'Företaget är obligatoriskt, vänligen välj ett
-# innan du gör några andra ändringar i försäljningsordern.'
+# override | officiell: 'Företaget är obligatoriskt, vänligen välj ett innan
+# du gör några andra ändringar i försäljningsordern.'
 msgid ""
 "The company is required, please select one before making any other changes "
 "to the sale order."
@@ -47,11 +47,11 @@ msgstr ""
 "ändringar i försäljningsordern."
 
 #. module: sale
-# new-corrected | officiell: 'Följande produkter kan inte begränsas till
-# företaget %(company)s eftersom de redan har använts i offerter eller
-# försäljningsorder i ett annat företag:\n%(used_products)s\nDu kan arkivera
-# dessa produkter och återskapa dem med din företagsbegränsning istället,
-# eller låta dem vara delade produkter.'
+# override | officiell: 'Följande produkter kan inte begränsas till företaget
+# %(company)s eftersom de redan har använts i offerter eller försäljningsorder
+# i ett annat företag:\n%(used_products)s\nDu kan arkivera dessa produkter och
+# återskapa dem med din företagsbegränsning istället, eller låta dem vara
+# delade produkter.'
 msgid ""
 "The following products cannot be restricted to the company %(company)s because they have already been used in quotations or sales orders in another company:\n"
 "%(used_products)s\n"
@@ -62,7 +62,7 @@ msgstr ""
 "Du kan arkivera dessa produkter och återskapa dem med din bolagsbegränsning istället, eller låta dem vara delade produkter."
 
 #. module: sale
-# new-corrected | officiell: 'Det verkar inte finnas någon rabattprodukt
+# override | officiell: 'Det verkar inte finnas någon rabattprodukt
 # konfigurerad för det här företaget ännu. Du kan antingen använda en rabatt
 # per linje eller be en administratör att bevilja rabatten första gången.'
 msgid ""
@@ -75,11 +75,11 @@ msgstr ""
 "att bevilja rabatten första gången."
 
 #. module: sale
-# new-corrected | officiell: 'Värden som anges här är företagsspecifika.'
+# override | officiell: 'Värden som anges här är företagsspecifika.'
 msgid "Values set here are company-specific."
 msgstr "Värden som anges här är bolagsspecifika."
 
 #. module: sale
-# new-corrected | officiell: 'Varning för byte av företag för din offert'
+# override | officiell: 'Varning för byte av företag för din offert'
 msgid "Warning for the change of your quotation's company"
 msgstr "Varning för byte av bolag för din offert"

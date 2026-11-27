@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: snailmail_account
-# new-corrected | officiell: '<span class="oi oi-lg" data-icon="business"
+# override | officiell: '<span class="oi oi-lg" data-icon="business"
 # title="Värden som anges här är företagsspecifika."/>'
 msgid ""
 "<span class=\"oi oi-lg\" data-icon=\"business\" title=\"Values set here are "

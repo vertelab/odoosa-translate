@@ -5,6 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account_qr_code_emv
-# new-corrected | officiell: 'Företagets QR-kod'
+# override | officiell: 'Företagets QR-kod'
 msgid "Company Qr Code"
 msgstr "Bolagets QR-kod"

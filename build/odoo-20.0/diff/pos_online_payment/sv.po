@@ -5,8 +5,8 @@ msgstr ""
 "Language: sv\n"
 
 #. module: pos_online_payment
-# new-corrected | officiell: 'Alla betalningsleverantörer som är konfigurerade
-# för en onlinebetalningsmetod måste använda samma valuta som
+# override | officiell: 'Alla betalningsleverantörer som är konfigurerade för
+# en onlinebetalningsmetod måste använda samma valuta som
 # försäljningsjournalen, eller företagets valuta om den inte är inställd, i
 # POS-konfigurationen.'
 msgid ""

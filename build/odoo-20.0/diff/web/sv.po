@@ -5,62 +5,62 @@ msgstr ""
 "Language: sv\n"
 
 #. module: web
-# new-corrected | officiell: '<strong>Adressblock för företaget</strong>'
+# override | officiell: '<strong>Adressblock för företaget</strong>'
 msgid "<strong>Company address block</strong>"
 msgstr "<strong>Adressblock för bolaget</strong>"
 
 #. module: web
-# new-corrected | officiell: '<strong>Block för företagsuppgifter</strong>'
+# override | officiell: '<strong>Block för företagsuppgifter</strong>'
 msgid "<strong>Company details block</strong>"
 msgstr "<strong>Block för bolagsuppgifter</strong>"
 
 #. module: web
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
 #. module: web
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: web
-# new-corrected | officiell: 'Företagsuppgifter'
+# override | officiell: 'Företagsuppgifter'
 msgid "Company Details"
 msgstr "Bolagsuppgifter"
 
 #. module: web
-# new-corrected | officiell: 'Företagets dokumentlayout'
+# override | officiell: 'Företagets dokumentlayout'
 msgid "Company Document Layout"
 msgstr "Bolagets dokumentlayout"
 
 #. module: web
-# new-corrected | officiell: 'Företagslogo'
+# override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
 
 #. module: web
-# new-corrected | officiell: 'Företagsnamn'
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
 #. module: web
-# new-corrected | officiell: 'Företagets slogan'
+# override | officiell: 'Företagets slogan'
 msgid "Company Tagline"
 msgstr "Bolagets slogan"
 
 #. module: web
-# new-corrected | officiell: 'Företagsnamn'
+# override | officiell: 'Företagsnamn'
 msgid "Company name"
 msgstr "Bolagsnamn"
 
 #. module: web
-# new-corrected | officiell: 'Företagets slogan'
+# override | officiell: 'Företagets slogan'
 msgid "Company tagline"
 msgstr "Bolagets slogan"
 
 #. module: web
-# new-corrected | officiell: 'Företagets slogan, som inkluderas i ett tryckt
+# override | officiell: 'Företagets slogan, som inkluderas i ett tryckt
 # dokuments sidhuvud eller sidfot (beroende på vald layout).'
 msgid ""
 "Company tagline, which is included in a printed document's header or footer "
@@ -70,21 +70,21 @@ msgstr ""
 " (beroende på vald layout)."
 
 #. module: web
-# new-corrected | officiell: 'Innehåller företagets adress.'
+# override | officiell: 'Innehåller företagets adress.'
 msgid "Contains the company address."
 msgstr "Innehåller bolagets adress."
 
 #. module: web
-# new-corrected | officiell: 'Innehåller uppgifter om företaget.'
+# override | officiell: 'Innehåller uppgifter om företaget.'
 msgid "Contains the company details."
 msgstr "Innehåller uppgifter om bolaget."
 
 #. module: web
-# new-corrected | officiell: 'Is Företagsuppgifter Tom'
+# override | officiell: 'Is Företagsuppgifter Tom'
 msgid "Is Company Details Empty"
 msgstr "Is Bolagsuppgifter Tom"
 
 #. module: web
-# new-corrected | officiell: 'Värden som anges här är företagsspecifika.'
+# override | officiell: 'Värden som anges här är företagsspecifika.'
 msgid "Values set here are company-specific."
 msgstr "Värden som anges här är bolagsspecifika."

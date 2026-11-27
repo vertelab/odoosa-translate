@@ -5,7 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: pos_stripe
-# new-corrected | officiell: 'Stripe-betalningsleverantör för företaget %s
-# saknas'
+# override | officiell: 'Stripe-betalningsleverantör för företaget %s saknas'
 msgid "Stripe payment provider for company %s is missing"
 msgstr "Stripe-betalningsleverantör för bolaget %s saknas"

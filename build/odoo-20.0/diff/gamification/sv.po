@@ -5,17 +5,17 @@ msgstr ""
 "Language: sv\n"
 
 #. module: gamification
-# new-corrected | officiell: 'Ange dina företagsuppgifter'
+# override | officiell: 'Ange dina företagsuppgifter'
 msgid "Set your Company Data"
 msgstr "Ange dina bolagsuppgifter"
 
 #. module: gamification
-# new-corrected | officiell: 'Ange företagets logotyp'
+# override | officiell: 'Ange företagets logotyp'
 msgid "Set your Company Logo"
 msgstr "Ange bolagets logotyp"
 
 #. module: gamification
-# new-corrected | officiell: 'Målet och det aktuella värdet definieras i
-# företagets valuta.'
+# override | officiell: 'Målet och det aktuella värdet definieras i företagets
+# valuta.'
 msgid "The target and current value are defined in the company currency."
 msgstr "Målet och det aktuella värdet definieras i bolagets valuta."

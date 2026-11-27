@@ -5,19 +5,19 @@ msgstr ""
 "Language: sv\n"
 
 #. module: stock_account
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: stock_account
-# new-corrected | officiell: 'Företagets valuta'
+# override | officiell: 'Företagets valuta'
 msgid "Company Currency"
 msgstr "Bolagets valuta"
 
 #. module: stock_account
-# new-corrected | officiell: 'Om transporten har sitt ursprung i ett dokument
-# från ett annat företag, så används det företagets partner, annars används
-# den partner som angetts på transporten.'
+# override | officiell: 'Om transporten har sitt ursprung i ett dokument från
+# ett annat företag, så används det företagets partner, annars används den
+# partner som angetts på transporten.'
 msgid ""
 "If the move originates from a document from another company, contains that "
 "company's partner, otherwise the move's partner."
@@ -27,12 +27,12 @@ msgstr ""
 "transporten."
 
 #. module: stock_account
-# new-corrected | officiell: 'Värderas inuti företaget'
+# override | officiell: 'Värderas inuti företaget'
 msgid "Is valued inside the company"
 msgstr "Värderas inuti bolaget"
 
 #. module: stock_account
-# new-corrected | officiell: 'Anges endast om verifikationen skapas från ett
+# override | officiell: 'Anges endast om verifikationen skapas från ett
 # dokument som tillhör ett annat företag'
 msgid ""
 "Only set if the move is generated from a document belonging to another "
@@ -42,12 +42,12 @@ msgstr ""
 "annat bolag"
 
 #. module: stock_account
-# new-corrected | officiell: 'Ursprungsföretag'
+# override | officiell: 'Ursprungsföretag'
 msgid "Origin Company"
 msgstr "Ursprungsbolag"
 
 #. module: stock_account
-# new-corrected | officiell: 'Tekniskt fält för att korrekt visa det valda
+# override | officiell: 'Tekniskt fält för att korrekt visa det valda
 # företagets valuta som motsvarar det totala värdet av produktens
 # värderingslager'
 msgid ""

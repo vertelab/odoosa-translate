@@ -8,7 +8,7 @@ Vi äger **bara avvikelser**: överlagringar levereras via Odoos native
 konvergerar automatiskt när Odoo SA antar våra begrepp.
 
 - 📖 **Drift & kommandon**: [`docs/OPERATIONS.md`](docs/OPERATIONS.md)
-- ✅ Aktiva utgåvor: **18.0**, **19.0** (20.0 config-driven när den släpps)
+- ✅ Aktiva utgåvor: **18.0**, **19.0**, **20.0** (en pipeline, tre lanes)
 
 ---
 
@@ -28,9 +28,10 @@ konvergerar automatiskt när Odoo SA antar våra begrepp.
 ```
 glossary.csv                  Termbas (source,target) — källa för begrepp
 rules/
-├── core.yml                  Delad regelkärna (versions: [18, 19])
+├── core.yml                  Delad regelkärna (versions: [18, 19, 20])
 ├── odoo-18.yml               Versionsspecifikt (18.0)
 ├── odoo-19.yml               Versionsspecifikt (19.0)
+├── odoo-20.yml               Versionsspecifikt (20.0)
 └── README.md                 Schema-dokumentation
 odoosa.py                     Pipeline: fetch → apply → merge → build → publish
 build/odoo-<edition>/         Genererade artefakter
@@ -155,13 +156,20 @@ för aktiveringsproceduren.
 
 1. **Verifiera `i18n_extra`** — `./odoosa.py check-edition 20.0` (mekanismen
    måste finnas i `get_po_paths`).
-2. **Lägg till lane** — `--versions 18.0,19.0,20.0` + `rules/odoo-20.yml`
-   (ärv kärnan, lägg versionsspecifikt).
-3. **Baseline-build** — första körningen klassar allt som "ny" → initial
-   i18n_extra (official + regler).
+2. **Lägg till lane** — `DEFAULT_VERSIONS` i `odoosa.py`, `rules/odoo-<ver>.yml`
+   (ärv kärnan, lägg versionsspecifikt) och `odoosa:versions` i pillar.
+   **Kör `./odoosa.py baseline --versions <ver>`** — två fetch i rad. Utan
+   den saknar utgåvan `official-last`, allt klassas som nytt och rapporten
+   blir meningslös (20.0 blev 44 334 new-correct = 2,3 MB summary).
+3. **Baseline-build** — `./odoosa.py build --versions <ver>`. Efter `baseline`
+   blir resultatet noop-dominerat (20.0: 663 override / 63 351 noop / 0 nya).
 4. **Granska rapport** — nya/omdöpta moduler, strängskillnader.
-5. **Deploy-state** — `odoo/20.sls` (modell: 18/19) med i18n_extra-hook;
-   minioner som uppgraderar får `odoo_version`-grain 20.0 → deploy targetar dem.
+5. **Deploy** — INGEN ny state behövs. `odoosa/deploy.sls`,
+   `odoosa/enable.sls` och `odoo/bootstrap/i18n.sls` bygger redan sökvägen
+   från `grains.odoo_version` → `build/odoo-<ver>/i18n_extra`. En minion som
+   uppgraderar får grainen automatiskt via `odoo.grains`.
+6. **Veckocron** — lägg utgåvan i `odoosa:versions` (pillar, default
+   `[18.0, 19.0, 20.0]`) → `/etc/cron.d/odoosa` renderas om av `odoosa`-staten.
 
 ## Klagomål på översättningen
 

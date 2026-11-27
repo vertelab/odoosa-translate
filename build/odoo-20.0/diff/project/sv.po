@@ -5,13 +5,13 @@ msgstr ""
 "Language: sv\n"
 
 #. module: project
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: project
-# new-corrected | officiell: 'Partnerföretaget får inte vara ett annat än
-# företaget för det tilldelade projektet'
+# override | officiell: 'Partnerföretaget får inte vara ett annat än företaget
+# för det tilldelade projektet'
 msgid ""
 "Partner company cannot be different from its assigned projects' company"
 msgstr ""
@@ -19,7 +19,7 @@ msgstr ""
 "projektet"
 
 #. module: project
-# new-corrected | officiell: 'Partnerföretaget får inte vara annorlunda än det
+# override | officiell: 'Partnerföretaget får inte vara annorlunda än det
 # företag som tilldelats uppgiften'
 msgid "Partner company cannot be different from its assigned tasks' company"
 msgstr ""
@@ -27,17 +27,16 @@ msgstr ""
 "uppgiften"
 
 #. module: project
-# new-corrected | officiell: 'Projektet och den associerade partnern måste
-# vara kopplade till samma företag.'
+# override | officiell: 'Projektet och den associerade partnern måste vara
+# kopplade till samma företag.'
 msgid ""
 "The project and the associated partner must be linked to the same company."
 msgstr ""
 "Projektet och den associerade partnern måste vara kopplade till samma bolag."
 
 #. module: project
-# new-corrected | officiell: 'Projektets företag kan inte ändras om dess
-# analytiska konto har analytiska rader eller om mer än ett projekt är kopplat
-# till det.'
+# override | officiell: 'Projektets företag kan inte ändras om dess analytiska
+# konto har analytiska rader eller om mer än ett projekt är kopplat till det.'
 msgid ""
 "The project's company cannot be changed if its analytic account has analytic"
 " lines or if more than one project is linked to it."
@@ -46,15 +45,15 @@ msgstr ""
 "rader eller om mer än ett projekt är kopplat till det."
 
 #. module: project
-# new-corrected | officiell: 'Uppgiften och den tillhörande partnern måste
-# vara kopplade till samma företag.'
+# override | officiell: 'Uppgiften och den tillhörande partnern måste vara
+# kopplade till samma företag.'
 msgid ""
 "The task and the associated partner must be linked to the same company."
 msgstr ""
 "Uppgiften och den tillhörande partnern måste vara kopplade till samma bolag."
 
 #. module: project
-# new-corrected | officiell: 'Det här projektet är associerat med
+# override | officiell: 'Det här projektet är associerat med
 # %(project_company)s, medan den valda etappen tillhör %(stage_company)s. Det
 # finns ett par alternativ att överväga: antingen tar du bort
 # företagsbeteckningen från projektet eller från etappen. Alternativt kan du
@@ -74,10 +73,10 @@ msgstr ""
 "så att de hamnar under samma bolag."
 
 #. module: project
-# new-corrected | officiell: 'Det här projektet är inte knutet till något
-# företag, medan scenen är knuten till %s. Det finns ett par alternativ att
-# överväga: antingen ändra projektets företag så att det överensstämmer med
-# scenens företag eller ta bort företagsbeteckningen från scenen'
+# override | officiell: 'Det här projektet är inte knutet till något företag,
+# medan scenen är knuten till %s. Det finns ett par alternativ att överväga:
+# antingen ändra projektets företag så att det överensstämmer med scenens
+# företag eller ta bort företagsbeteckningen från scenen'
 msgid ""
 "This project is not associated with any company, while the stage is "
 "associated with %s. There are a couple of options to consider: either change"
@@ -90,7 +89,7 @@ msgstr ""
 "bolagsbeteckningen från scenen"
 
 #. module: project
-# new-corrected | officiell: 'Du kan inte byta företag för detta steg till
+# override | officiell: 'Du kan inte byta företag för detta steg till
 # %(company_name)s eftersom det för närvarande innehåller projekt som är
 # associerade med %(project_company_name)s. Se till att denna etapp endast
 # består av projekt som är kopplade till %(company_name)s.'

@@ -5,27 +5,27 @@ msgstr ""
 "Language: sv\n"
 
 #. module: sales_team
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: sales_team
-# new-corrected | officiell: 'Medlemsföretag'
+# override | officiell: 'Medlemsföretag'
 msgid "Member Company"
 msgstr "Medlemsbolag"
 
 #. module: sales_team
-# new-corrected | officiell: 'Standardföretaget för den här användaren.'
+# override | officiell: 'Standardföretaget för den här användaren.'
 msgid "The default company for this user."
 msgstr "Standardbolaget för den här användaren."
 
 #. module: sales_team
-# new-corrected | officiell: 'UX: Begränsa till teamföretag eller alla om
-# inget företag'
+# override | officiell: 'UX: Begränsa till teamföretag eller alla om inget
+# företag'
 msgid "UX: Limit to team company or all if no company"
 msgstr "UX: Begränsa till teambolag eller alla om inget bolag"
 
 #. module: sales_team
-# new-corrected | officiell: 'Användarföretag'
+# override | officiell: 'Användarföretag'
 msgid "User Company"
 msgstr "Användarbolag"

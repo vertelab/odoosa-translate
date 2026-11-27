@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: website_crm_iap_reveal
-# new-corrected | officiell: '1 kredit förbrukas per besökare som uppfyller
+# override | officiell: '1 kredit förbrukas per besökare som uppfyller
 # webbplatsens trafikvillkor och vars företag kan identifieras.<br/>'
 msgid ""
 "1 credit is consumed per visitor matching the website traffic conditions and"
@@ -15,38 +15,38 @@ msgstr ""
 " vars bolag kan identifieras.<br/>"
 
 #. module: website_crm_iap_reveal
-# new-corrected | officiell: 'Välj om du vill spåra endast företag eller
-# företag och deras kontakter'
+# override | officiell: 'Välj om du vill spåra endast företag eller företag
+# och deras kontakter'
 msgid "Choose whether to track companies only or companies and their contacts"
 msgstr "Välj om du vill spåra endast bolag eller bolag och deras kontakter"
 
 #. module: website_crm_iap_reveal
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
 #. module: website_crm_iap_reveal
-# new-corrected | officiell: 'Företag och deras kontaktpersoner'
+# override | officiell: 'Företag och deras kontaktpersoner'
 msgid "Companies and their Contacts"
 msgstr "Bolag och deras kontaktpersoner"
 
 #. module: website_crm_iap_reveal
-# new-corrected | officiell: 'Företagets storlek'
+# override | officiell: 'Företagets storlek'
 msgid "Company Size"
 msgstr "Bolagets storlek"
 
 #. module: website_crm_iap_reveal
-# new-corrected | officiell: 'Företags Maxstorlek'
+# override | officiell: 'Företags Maxstorlek'
 msgid "Company Size Max"
 msgstr "Bolags Maxstorlek"
 
 #. module: website_crm_iap_reveal
-# new-corrected | officiell: 'Filtrera företag baserat på deras storlek.'
+# override | officiell: 'Filtrera företag baserat på deras storlek.'
 msgid "Filter companies based on their size."
 msgstr "Filtrera bolag baserat på deras storlek."
 
 #. module: website_crm_iap_reveal
-# new-corrected | officiell: 'ytterligare kredit(er) förbrukas om företaget
+# override | officiell: 'ytterligare kredit(er) förbrukas om företaget
 # uppfyller denna regel.'
 msgid "additional credit(s) are consumed if the company matches this rule."
 msgstr "ytterligare kredit(er) förbrukas om bolaget uppfyller denna regel."

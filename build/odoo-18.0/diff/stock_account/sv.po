@@ -27,7 +27,7 @@ msgstr ""
 "        Automatiserad: En verifikat skapas automatiskt för att värdera lagret när en produkt kommer in i eller lämnar bolaget."
 
 #. module: stock_account
-# conflict | officiell: 'Tekniskt fält för att korrekt visa det valda
+# override | officiell: 'Tekniskt fält för att korrekt visa det valda
 # företagets valuta som motsvarar det totala värdet av produktens
 # värderingslager'
 msgid ""

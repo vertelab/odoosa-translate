@@ -5,71 +5,71 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_expense
-# new-corrected | officiell: '<span class="o_stat_text">Bokföringspost</span>'
+# override | officiell: '<span class="o_stat_text">Bokföringspost</span>'
 msgid "<span class=\"o_stat_text\">Journal Entry</span>"
 msgstr "<span class=\"o_stat_text\">Verifikat</span>"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Bokföringspost'
+# override | officiell: 'Bokföringspost'
 msgid "Journal Entry"
 msgstr "Verifikat"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Bokföringspost har raderats'
+# override | officiell: 'Bokföringspost har raderats'
 msgid "Journal Entry Deleted"
 msgstr "Verifikat har raderats"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Återställ bokföringspost till utkast'
+# override | officiell: 'Återställ bokföringspost till utkast'
 msgid "Journal Entry Reset to Draft"
 msgstr "Återställ verifikat till utkast"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Bokföringspost har raderats'
+# override | officiell: 'Bokföringspost har raderats'
 msgid "Journal entry deleted"
 msgstr "Verifikat har raderats"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Återställ bokföringspost till utkast'
+# override | officiell: 'Återställ bokföringspost till utkast'
 msgid "Journal entry reset to draft"
 msgstr "Återställ verifikat till utkast"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Tillåten betalningsmetod för kostnader som
-# betalas av företaget.'
+# override | officiell: 'Tillåten betalningsmetod för kostnader som betalas av
+# företaget.'
 msgid "Payment method allowed for expenses paid by company."
 msgstr "Tillåten betalningsmetod för kostnader som betalas av bolaget."
 
 #. module: hr_expense
-# new-corrected | officiell: 'Tillgängliga betalningsmetoder för kostnader som
+# override | officiell: 'Tillgängliga betalningsmetoder för kostnader som
 # betalas av företaget'
 msgid "Payment methods available for expenses paid by company"
 msgstr "Tillgängliga betalningsmetoder för kostnader som betalas av bolaget"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Rapport företagets valuta'
+# override | officiell: 'Rapport företagets valuta'
 msgid "Report Company Currency"
 msgstr "Rapport bolagets valuta"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Skattebelopp i företagets valuta'
+# override | officiell: 'Skattebelopp i företagets valuta'
 msgid "Tax amount in company currency"
 msgstr "Skattebelopp i bolagets valuta"
 
 #. module: hr_expense
-# new-corrected | officiell: 'Företagets standardjournal som används när en
+# override | officiell: 'Företagets standardjournal som används när en
 # personalkostnad skapas.'
 msgid ""
 "The company's default journal used when an employee expense is created."
 msgstr "Bolagets standardjournal som används när en personalkostnad skapas."
 
 #. module: hr_expense
-# new-corrected | officiell: 'Betalningsmetoden som används när utlägget
-# betalas av företaget.'
+# override | officiell: 'Betalningsmetoden som används när utlägget betalas av
+# företaget.'
 msgid "The payment method used when the expense is paid by the company."
 msgstr "Betalningsmetoden som används när utlägget betalas av bolaget."

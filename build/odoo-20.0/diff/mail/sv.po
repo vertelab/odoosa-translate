@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: mail
-# new-corrected | officiell: 'Ett ställe där man kan knyta samman med och dela
+# override | officiell: 'Ett ställe där man kan knyta samman med och dela
 # nyheter med kollegor från hela företaget.'
 msgid ""
 "A place to connect and exchange news with colleagues across the company."
@@ -14,36 +14,35 @@ msgstr ""
 "hela bolaget."
 
 #. module: mail
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Companies"
 msgstr "Bolag"
 
 #. module: mail
-# new-corrected | officiell: 'Företag som använder denna domän som standard
-# för att skicka e-post'
+# override | officiell: 'Företag som använder denna domän som standard för att
+# skicka e-post'
 msgid "Companies using this domain as default for sending mails"
 msgstr "Bolag som använder denna domän som standard för att skicka e-post"
 
 #. module: mail
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: mail
-# new-corrected | officiell: 'Relaterat företag'
+# override | officiell: 'Relaterat företag'
 msgid "Related Company"
 msgstr "Relaterat bolag"
 
 #. module: mail
-# new-corrected | officiell: 'Posterna måste tillhöra samma företag.'
+# override | officiell: 'Posterna måste tillhöra samma företag.'
 msgid "The records must belong to the same company."
 msgstr "Posterna måste tillhöra samma bolag."
 
 #. module: mail
-# new-corrected | officiell: 'Vi kunde inte skapa alias %(alias_name)s
-# eftersom domänen %(alias_domain_name)s tillhör företaget
-# %(alias_company_names)s medan ägardokumentet tillhör företaget
-# %(company_name)s.'
+# override | officiell: 'Vi kunde inte skapa alias %(alias_name)s eftersom
+# domänen %(alias_domain_name)s tillhör företaget %(alias_company_names)s
+# medan ägardokumentet tillhör företaget %(company_name)s.'
 msgid ""
 "We could not create alias %(alias_name)s because domain "
 "%(alias_domain_name)s belongs to company %(alias_company_names)s while the "
@@ -54,10 +53,9 @@ msgstr ""
 "ägardokumentet tillhör bolaget %(company_name)s."
 
 #. module: mail
-# new-corrected | officiell: 'Vi kunde inte skapa alias %(alias_name)s
-# eftersom domänen %(alias_domain_name)s tillhör företaget
-# %(alias_company_names)s medan måldokumentet tillhör företaget
-# %(company_name)s.'
+# override | officiell: 'Vi kunde inte skapa alias %(alias_name)s eftersom
+# domänen %(alias_domain_name)s tillhör företaget %(alias_company_names)s
+# medan måldokumentet tillhör företaget %(company_name)s.'
 msgid ""
 "We could not create alias %(alias_name)s because domain "
 "%(alias_domain_name)s belongs to company %(alias_company_names)s while the "

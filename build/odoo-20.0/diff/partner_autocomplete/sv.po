@@ -5,12 +5,12 @@ msgstr ""
 "Language: sv\n"
 
 #. module: partner_autocomplete
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: partner_autocomplete
-# new-corrected | officiell: 'Kunde inte fylla i företagsuppgifter (ingen
+# override | officiell: 'Kunde inte fylla i företagsuppgifter (ingen
 # kreditpoäng förbrukades).'
 msgid "Unable to enrich company (no credit was consumed)."
 msgstr "Kunde inte fylla i bolagsuppgifter (ingen kreditpoäng förbrukades)."

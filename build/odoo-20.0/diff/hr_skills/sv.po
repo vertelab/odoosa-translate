@@ -5,16 +5,16 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_skills
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: hr_skills
-# new-corrected | officiell: 'Demo Företagsnamn'
+# override | officiell: 'Demo Företagsnamn'
 msgid "Demo Company Name"
 msgstr "Demo Bolagsnamn"
 
 #. module: hr_skills
-# new-corrected | officiell: 'Sekreterare, företag'
+# override | officiell: 'Sekreterare, företag'
 msgid "Secretary, company"
 msgstr "Sekreterare, bolag"

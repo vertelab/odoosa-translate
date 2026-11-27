@@ -5,7 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account_payment
-# new-corrected | officiell: 'Förfallna fakturor bör ha samma företag
-# angivet.'
+# override | officiell: 'Förfallna fakturor bör ha samma företag angivet.'
 msgid "Overdue invoices should share the same company."
 msgstr "Förfallna fakturor bör ha samma bolag angivet."

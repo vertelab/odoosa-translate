@@ -5,6 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: survey
-# new-corrected | officiell: 'Företagets antal certifieringar'
+# override | officiell: 'Företagets antal certifieringar'
 msgid "Company Certifications Count"
 msgstr "Bolagets antal certifieringar"

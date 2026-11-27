@@ -5,22 +5,22 @@ msgstr ""
 "Language: sv\n"
 
 #. module: website_event_track
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: website_event_track
-# new-corrected | officiell: 'Företagsnamn'
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
 #. module: website_event_track
-# new-corrected | officiell: 'Beskrivning av partnern (namn, function och
+# override | officiell: 'Beskrivning av partnern (namn, function och
 # företagsnamn)'
 msgid "Description of the partner (name, function and company name)"
 msgstr "Beskrivning av partnern (namn, function och bolagsnamn)"
 
 #. module: website_event_track
-# new-corrected | officiell: 'Mitt företags globala presentation'
+# override | officiell: 'Mitt företags globala presentation'
 msgid "My Company global presentation"
 msgstr "Mitt bolags globala presentation"

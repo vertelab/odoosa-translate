@@ -14,7 +14,7 @@
                     └──────────────┬──────────────┘
                                    │  cron måndag 05:30
                                    ▼
-                       odoosa.py run --versions 18.0,19.0
+                       odoosa.py run --versions 18.0,19.0,20.0
                        (fetch → apply → merge → build)
                                    │
         ┌──────────────────────────┼────────────────────────────┐
@@ -25,7 +25,7 @@
   regler, ordlista)         build/odoo-<ver>/i18n_extra/<modul>/i18n_extra/sv.po
                                    │
                                    ▼
-                         ~70 ODOO-MINIONER (18.0/19.0)
+                         ~70 ODOO-MINIONER (18.0/19.0/20.0)
                          /usr/lib/python3/dist-packages/odoo/addons/<m>/i18n_extra/sv.po
                          + hooks i odoo/18.sls, odoo/19.sls, odoo/update.sls
 ```
@@ -44,7 +44,7 @@
 
 ```bash
 # Hela pipelinen (fetch → apply → merge → build)
-sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py run --versions 18.0,19.0'
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py run --versions 18.0,19.0,20.0'
 
 # Enskilda steg
 sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py fetch  --versions 18.0'
@@ -74,7 +74,7 @@ Två enkla kommandon (körs på saltstack.vertel.se — se även Driftsloggens
 "📖 Don't make me think"-manual). Du behöver ALDRIG redigera YAML för hand:
 
 ```bash
-# Ny term: modul + från-fras + till-fras (gäller 18.0 + 19.0)
+# Ny term: modul + från-fras + till-fras (gäller alla utgåvor i DEFAULT_VERSIONS)
 sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py add-term --module account --old "Bokföringspost" --new "Verifikat"'
 
 # Undanta en fras (modulscopad — bara i den modulen):
@@ -87,7 +87,7 @@ sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py flag
 Sedan bygg + publicera:
 
 ```bash
-sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py build --versions 18.0,19.0 && ./odoosa.py publish'
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py build --versions 18.0,19.0,20.0 && ./odoosa.py publish'
 ```
 
 Distribution sker vid nästa veckosynk (måndag 06:00). Avancerade regler
@@ -109,7 +109,7 @@ flagged_terms:
 
 ```bash
 # Bygg om (genererar summary.json + rapport med 🚫-rader)
-sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py build --versions 18.0,19.0'
+sudo salt odoosa-translate cmd.run 'cd /srv/odoosa-translate && ./odoosa.py build --versions 18.0,19.0,20.0'
 
 # Verifiera i rapporten
 sudo salt odoosa-translate cmd.run 'grep -c "🚫" /srv/odoosa-translate/reports/odoosa-18.0-report.md'

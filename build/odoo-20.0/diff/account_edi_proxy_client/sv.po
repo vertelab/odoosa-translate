@@ -5,17 +5,16 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account_edi_proxy_client
-# new-corrected | officiell: 'Den här modulen lägger till allmänna funktioner
-# för att registrera en Odoo-databas på den ansvariga proxyn för att ta emot
-# data (via förfrågningar från webbtjänster).\n- En edi_proxy_user har ett
-# unikt ID-nummer för en specifik proxy-typ (t.ex. l10n_it_edi, peppol)
-# vilket\ngör det möjligt att identifiera användaren när ett dokument är
-# adresserat till denne. Det är kopplat till ett specifikt företag på en
-# specifik\ndatabas i Odoo.\n- Krypteringsfunktioner gör det möjligt att läsa
-# av användarens information när man tar emot den från en proxy.\n-
-# Autentisering erbjuder en ytterligare säkerhetsnivå för att undvika
-# bedrägerier, i det fall att utomstående får åtkomst till användarens
-# databas.'
+# override | officiell: 'Den här modulen lägger till allmänna funktioner för
+# att registrera en Odoo-databas på den ansvariga proxyn för att ta emot data
+# (via förfrågningar från webbtjänster).\n- En edi_proxy_user har ett unikt
+# ID-nummer för en specifik proxy-typ (t.ex. l10n_it_edi, peppol) vilket\ngör
+# det möjligt att identifiera användaren när ett dokument är adresserat till
+# denne. Det är kopplat till ett specifikt företag på en specifik\ndatabas i
+# Odoo.\n- Krypteringsfunktioner gör det möjligt att läsa av användarens
+# information när man tar emot den från en proxy.\n- Autentisering erbjuder en
+# ytterligare säkerhetsnivå för att undvika bedrägerier, i det fall att
+# utomstående får åtkomst till användarens databas.'
 msgid ""
 "\n"
 "This module adds generic features to register an Odoo DB on the proxy responsible for receiving data (via requests from web-services).\n"
@@ -33,12 +32,12 @@ msgstr ""
 "- Autentisering erbjuder en ytterligare säkerhetsnivå för att undvika bedrägerier, i det fall att utomstående får åtkomst till användarens databas."
 
 #. module: account_edi_proxy_client
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: account_edi_proxy_client
-# new-corrected | officiell: 'Företaget har redan en aktiv användare för denna
-# EDI-typ'
+# override | officiell: 'Företaget har redan en aktiv användare för denna EDI-
+# typ'
 msgid "This company has an active user already created for this EDI type"
 msgstr "Bolaget har redan en aktiv användare för denna EDI-typ"

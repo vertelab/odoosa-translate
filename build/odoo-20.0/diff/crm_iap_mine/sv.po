@@ -5,8 +5,8 @@ msgstr ""
 "Language: sv\n"
 
 #. module: crm_iap_mine
-# new-corrected | officiell: '%(credit_count)d krediter kommer att förbrukas
-# för att hitta%(company_count)d företag.'
+# override | officiell: '%(credit_count)d krediter kommer att förbrukas för
+# att hitta%(company_count)d företag.'
 msgid ""
 "%(credit_count)d credits will be consumed to find %(company_count)d "
 "companies."
@@ -15,6 +15,6 @@ msgstr ""
 "hitta%(company_count)d bolag."
 
 #. module: crm_iap_mine
-# new-corrected | officiell: 'Företags Maxstorlek'
+# override | officiell: 'Företags Maxstorlek'
 msgid "Company Size Max"
 msgstr "Bolags Maxstorlek"

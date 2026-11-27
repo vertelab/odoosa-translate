@@ -5,17 +5,17 @@ msgstr ""
 "Language: sv\n"
 
 #. module: website_sale
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: website_sale
-# new-corrected | officiell: 'Företagsnamn'
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
 #. module: website_sale
-# new-corrected | officiell: 'Endast företagets hemsidor är tillåtna.\nLämna
+# override | officiell: 'Endast företagets hemsidor är tillåtna.\nLämna
 # företagsfältet tomt eller välj en webbplats från det företaget.'
 msgid ""
 "Only the company's websites are allowed.\n"
@@ -25,9 +25,8 @@ msgstr ""
 "Lämna bolagsfältet tomt eller välj en webbplats från det bolaget."
 
 #. module: website_sale
-# new-corrected | officiell: 'Företaget på webbplatsen som du försöker sälja
-# från (%(website_company)s) är ett annat än det du vill använda
-# (%(company)s)'
+# override | officiell: 'Företaget på webbplatsen som du försöker sälja från
+# (%(website_company)s) är ett annat än det du vill använda (%(company)s)'
 msgid ""
 "The company of the website you are trying to sell from (%(website_company)s)"
 " is different than the one you want to use (%(company)s)"

@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account_edi
-# new-corrected | officiell: 'Electronic Data
+# override | officiell: 'Electronic Data
 # Interchange\n=======================================\nEDI är ett digitalt
 # utbyte av företagsinformation genom ett standardiserat format.\n\nDet här är
 # den grundläggande modulen för importer och exporter av fakturor i flera EDI-

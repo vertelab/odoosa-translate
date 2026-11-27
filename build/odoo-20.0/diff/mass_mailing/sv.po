@@ -5,23 +5,23 @@ msgstr ""
 "Language: sv\n"
 
 #. module: mass_mailing
-# new-corrected | officiell: 'Bästa praxis för att digitalisera ditt företag'
+# override | officiell: 'Bästa praxis för att digitalisera ditt företag'
 msgid "Best practices to digitize your company"
 msgstr "Bästa praxis för att digitalisera ditt bolag"
 
 #. module: mass_mailing
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: mass_mailing
-# new-corrected | officiell: 'Företagsnamn'
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
 
 #. module: mass_mailing
-# new-corrected | officiell: 'Tony är företagets grundare och främsta visionär
-# och den drivande kraften bakom företaget. Han älskar\n
+# override | officiell: 'Tony är företagets grundare och främsta visionär och
+# den drivande kraften bakom företaget. Han älskar\n
 # att hålla händerna fulla genom att delta i utvecklingen av programvaran,\n
 # marknadsföring och strategier för kundupplevelsen.'
 msgid ""
@@ -34,10 +34,10 @@ msgstr ""
 "                                marknadsföring och strategier för kundupplevelsen."
 
 #. module: mass_mailing
-# new-corrected | officiell: 'Iris, med sin internationella erfarenhet,
-# hjälper oss att enkelt förstå siffrorna och förbättra dem. Hon är fast
-# besluten att driva framgång och använder sin yrkesskicklighet för att ta
-# företaget till nästa nivå.'
+# override | officiell: 'Iris, med sin internationella erfarenhet, hjälper oss
+# att enkelt förstå siffrorna och förbättra dem. Hon är fast besluten att
+# driva framgång och använder sin yrkesskicklighet för att ta företaget till
+# nästa nivå.'
 msgid ""
 "Iris, with her international experience, helps us easily understand the "
 "numbers and improves them. She is determined to drive success and delivers "
@@ -48,7 +48,7 @@ msgstr ""
 "använder sin yrkesskicklighet för att ta bolaget till nästa nivå."
 
 #. module: mass_mailing
-# new-corrected | officiell: 'Mich älskar att ta sig an utmaningar. Med sin
+# override | officiell: 'Mich älskar att ta sig an utmaningar. Med sin
 # mångåriga erfarenhet som Commercial Director inom mjukvarubranschen har Mich
 # hjälpt företaget att nå dit det är idag. Mich är en av de bästa hjärnorna.'
 msgid ""
@@ -61,6 +61,6 @@ msgstr ""
 "dit det är idag. Mich är en av de bästa hjärnorna."
 
 #. module: mass_mailing
-# new-corrected | officiell: 'Vill du importera land, företagsnamn och mer?'
+# override | officiell: 'Vill du importera land, företagsnamn och mer?'
 msgid "Want to import country, company name and more?"
 msgstr "Vill du importera land, bolagsnamn och mer?"

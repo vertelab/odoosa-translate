@@ -5,19 +5,19 @@ msgstr ""
 "Language: sv\n"
 
 #. module: event
-# new-corrected | officiell: '<i class="oi" data-icon="business"
-# title="Deltagarens företag"/>'
+# override | officiell: '<i class="oi" data-icon="business" title="Deltagarens
+# företag"/>'
 msgid "<i class=\"oi\" data-icon=\"business\" title=\"Attendee Company\"/>"
 msgstr "<i class=\"oi\" data-icon=\"business\" title=\"Deltagarens bolag\"/>"
 
 #. module: event
-# new-corrected | officiell: '<span class="o_event_badge_font_faded">Mitt
+# override | officiell: '<span class="o_event_badge_font_faded">Mitt
 # platshållarföretag</span>'
 msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
 msgstr "<span class=\"o_event_badge_font_faded\">Mitt platshållarbolag</span>"
 
 #. module: event
-# new-corrected | officiell: 'Kontrollera detta för frågor på ordernivå (t.ex.
+# override | officiell: 'Kontrollera detta för frågor på ordernivå (t.ex.
 # "Företagsnamn") där svaret är detsamma för alla.'
 msgid ""
 "Check this for order-level questions (e.g., 'Company Name') where the answer"
@@ -27,11 +27,11 @@ msgstr ""
 "är detsamma för alla."
 
 #. module: event
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: event
-# new-corrected | officiell: 'Företagsnamn'
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

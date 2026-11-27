@@ -5,13 +5,13 @@ msgstr ""
 "Language: sv\n"
 
 #. module: purchase
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: purchase
-# new-corrected | officiell: 'Standard om huruvida det försäljningspris som
-# används på produkten och fakturor med detta företag inkluderar skatter.'
+# override | officiell: 'Standard om huruvida det försäljningspris som används
+# på produkten och fakturor med detta företag inkluderar skatter.'
 msgid ""
 "Default on whether the sales price used on the product and invoices with "
 "this Company includes its taxes."
@@ -20,7 +20,7 @@ msgstr ""
 "fakturor med detta bolag inkluderar skatter."
 
 #. module: purchase
-# new-corrected | officiell: 'Ange en adress om du vill leverera direkt från
+# override | officiell: 'Ange en adress om du vill leverera direkt från
 # leverantören till kunden. Lämna annars tom för att leverera till ditt eget
 # företag.'
 msgid ""
@@ -31,7 +31,7 @@ msgstr ""
 "Lämna annars tom för att leverera till ditt eget bolag."
 
 #. module: purchase
-# new-corrected | officiell: 'Tekniskt fält för att filtrera de tillgängliga
+# override | officiell: 'Tekniskt fält för att filtrera de tillgängliga
 # skatterna beroende på skatteland och skatteposition.'
 msgid ""
 "Technical field to filter the available taxes depending on the fiscal "
@@ -41,7 +41,7 @@ msgstr ""
 "skatteland och skatteområde."
 
 #. module: purchase
-# new-corrected | officiell: 'Med denna analys kan du enkelt kontrollera och
+# override | officiell: 'Med denna analys kan du enkelt kontrollera och
 # analysera ditt företags inköpshistorik och resultat.\n                Du kan
 # spåra dina förhandlingsresultat, dina leverantörers leveransresultat etc'
 msgid ""

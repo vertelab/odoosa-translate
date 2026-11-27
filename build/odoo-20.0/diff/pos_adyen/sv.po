@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: pos_adyen
-# new-corrected | officiell: 'Terminal %(terminal)s används redan i företaget
+# override | officiell: 'Terminal %(terminal)s används redan i företaget
 # %(company)s på betalningssätt %(payment_method)s.'
 msgid ""
 "Terminal %(terminal)s is already used in company %(company)s on payment "

@@ -1,19 +1,25 @@
 {
   "edition": "19.0",
-  "generated": "2026-11-25 11:18",
+  "generated": "2026-11-27 16:00",
   "totals": {
-    "override": 831,
-    "converged": 212,
-    "conflict": 7,
+    "override": 838,
+    "converged": 0,
+    "conflict": 0,
     "new-correct": 0,
     "new-corrected": 0,
     "new-ours": 0,
-    "new-manual": 9,
+    "new-manual": 0,
     "flagged": 0,
     "removed": 0,
-    "noop": 59839
+    "noop": 60060
   },
-  "delta": {},
+  "delta": {
+    "override": 7,
+    "converged": -212,
+    "conflict": -7,
+    "new-manual": -9,
+    "noop": 221
+  },
   "top_modules": [
     {
       "module": "crm",
@@ -52,66 +58,7 @@
     "terms": [],
     "flagged": []
   },
-  "conflicts": [
-    {
-      "module": "mrp_account",
-      "count": 1
-    },
-    {
-      "module": "spreadsheet_account",
-      "count": 2
-    },
-    {
-      "module": "stock_account",
-      "count": 4
-    }
-  ],
-  "new": [
-    {
-      "module": "mail",
-      "msgid": "Translation service unavailable",
-      "translation": ""
-    },
-    {
-      "module": "partnership",
-      "msgid": "Partners Label",
-      "translation": ""
-    },
-    {
-      "module": "purchase",
-      "msgid": "Only a purchase manager can approve this purchase order.",
-      "translation": ""
-    },
-    {
-      "module": "sale_project",
-      "msgid": "Confirmation Required",
-      "translation": ""
-    },
-    {
-      "module": "sale_project",
-      "msgid": "Making this project non-billable will unlink it from any products that create ta",
-      "translation": ""
-    },
-    {
-      "module": "spreadsheet",
-      "msgid": "Add missing columns",
-      "translation": ""
-    },
-    {
-      "module": "spreadsheet",
-      "msgid": "Add missing columns and rows",
-      "translation": ""
-    },
-    {
-      "module": "spreadsheet",
-      "msgid": "Add missing rows",
-      "translation": ""
-    },
-    {
-      "module": "web_hierarchy",
-      "msgid": "The hierarchy cannot display more than %s records. Try to refine your search cri",
-      "translation": ""
-    }
-  ],
+  "conflicts": [],
+  "new": [],
   "flagged": []
 }

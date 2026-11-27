@@ -5,6 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: iap_mail
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"

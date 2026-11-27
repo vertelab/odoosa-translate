@@ -5,27 +5,26 @@ msgstr ""
 "Language: sv\n"
 
 #. module: spreadsheet_account
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: spreadsheet_account
-# new-corrected | officiell: 'Valutan är inte tillgänglig för det här
-# företaget.'
+# override | officiell: 'Valutan är inte tillgänglig för det här företaget.'
 msgid "Currency not available for this company."
 msgstr "Valutan är inte tillgänglig för det här bolaget."
 
 #. module: spreadsheet_account
-# new-corrected | officiell: 'Företagets räkenskapsår kunde inte hittas.'
+# override | officiell: 'Företagets räkenskapsår kunde inte hittas.'
 msgid "The company fiscal year could not be found."
 msgstr "Bolagets räkenskapsår kunde inte hittas."
 
 #. module: spreadsheet_account
-# new-corrected | officiell: 'Det gällande företaget (avancerat).'
+# override | officiell: 'Det gällande företaget (avancerat).'
 msgid "The company to target (Advanced)."
 msgstr "Det gällande bolaget (avancerat)."
 
 #. module: spreadsheet_account
-# new-corrected | officiell: 'Företaget.'
+# override | officiell: 'Företaget.'
 msgid "The company."
 msgstr "Bolaget."

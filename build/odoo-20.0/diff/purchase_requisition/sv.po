@@ -5,13 +5,13 @@ msgstr ""
 "Language: sv\n"
 
 #. module: purchase_requisition
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: purchase_requisition
-# new-corrected | officiell: 'Du kan inte ändra avtalstyp eller företag för
-# ett icke upprättat köpeavtal.'
+# override | officiell: 'Du kan inte ändra avtalstyp eller företag för ett
+# icke upprättat köpeavtal.'
 msgid ""
 "You cannot change the Agreement Type or Company of a not draft purchase "
 "agreement."

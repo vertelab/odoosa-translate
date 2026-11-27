@@ -5,18 +5,18 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_holidays
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: hr_holidays
-# new-corrected | officiell: 'Anställda Företag'
+# override | officiell: 'Anställda Företag'
 msgid "Employee Company"
 msgstr "Anställda Bolag"
 
 #. module: hr_holidays
-# new-corrected | officiell: 'Det finns ingen anställd som är inställd på
-# ledig tid. Kontrollera att du är inloggad på rätt företag.'
+# override | officiell: 'Det finns ingen anställd som är inställd på ledig
+# tid. Kontrollera att du är inloggad på rätt företag.'
 msgid ""
 "There is no employee set on the time off. Please make sure you're logged in "
 "the correct company."
@@ -25,7 +25,7 @@ msgstr ""
 " inloggad på rätt bolag."
 
 #. module: hr_holidays
-# new-corrected | officiell: 't.ex. extra återhämtning, företaget är inte
+# override | officiell: 't.ex. extra återhämtning, företaget är inte
 # tillgängligt, ...'
 msgid "e.g. Extra recuperation, Company unavailability, ..."
 msgstr "t.ex. extra återhämtning, bolaget är inte tillgängligt, ..."

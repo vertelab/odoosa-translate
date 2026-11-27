@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: lunch
-# new-corrected | officiell: 'En kassaförflyttning kan antingen vara en utgift
+# override | officiell: 'En kassaförflyttning kan antingen vara en utgift
 # eller en betalning.<br>\n            Ett utlägg skapas automatiskt vid
 # ordermottagningen.<br>\n            En betalning representerar den
 # anställdes ersättning till företaget.'
@@ -19,12 +19,12 @@ msgstr ""
 "            En betalning representerar den anställdes ersättning till bolaget."
 
 #. module: lunch
-# new-corrected | officiell: 'Företag'
+# override | officiell: 'Företag'
 msgid "Company"
 msgstr "Bolag"
 
 #. module: lunch
-# new-corrected | officiell: 'Här kan du se dina kontantrörelser.<br>En
+# override | officiell: 'Här kan du se dina kontantrörelser.<br>En
 # kontantrörelse kan antingen vara en utgift eller en betalning.\n
 # En utgift skapas automatiskt när en order tas emot medan en betalning är en
 # återbetalning till företaget som kodas av chefen.'

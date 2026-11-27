@@ -7,7 +7,7 @@ Kontinuerlig, multi-utgåva svensk översättning av Odoo-kärnan baserad på
 Odoo SAs officiella översättningar och våra begrepp (glossary + regler).
 
 Subkommandon:
-  fetch [--versions 18.0,19.0] [--modules a,b]   Hämta officiella sv.po per utgåva → cache/
+  fetch [--versions 18.0,19.0,20.0] [--modules a,b]  Hämta officiella sv.po per utgåva → cache/
   apply  [--versions ...]      Applicera regler (core + per-version) på official-now
   merge  [--versions ...]      Trevägs-merge (last vs now vs desired) → klassificering
   build  [--versions ...]      Bygg i18n/sv.po + i18n_extra/sv.po + diff.po + report.md
@@ -20,6 +20,7 @@ Subkommandon:
   flag-term [--module M] --msgid "..." [--reason ...]
                                Flaggning i rules/flagged.yml (modul-scopad om --module) 🚫
   regression [--versions ...]  Jämför byggresultat mot gamla snapshot-po (task 1.4)
+  baseline [--versions ...]    Två fetch i rad → skapar official-last för en NY utgåva
   check-edition <edition>      Verifiera i18n_extra-stöd (ny-utgåva-procedur, task 2.5)
 
 Semantik:
@@ -41,7 +42,7 @@ import polib
 import requests
 import yaml
 
-DEFAULT_VERSIONS = ["18.0", "19.0"]
+DEFAULT_VERSIONS = ["18.0", "19.0", "20.0"]
 GITHUB_API = "https://api.github.com/repos/odoo/odoo"
 RAW = "https://raw.githubusercontent.com/odoo/odoo"
 
@@ -870,7 +871,8 @@ def check_edition(edition):
 def add_term(module, old, new, note=None):
     """Lägg till enkel term i rules/core.yml (modul + från-fras + till-fras).
 
-    Gäller både 18.0 och 19.0, enkel textersättning, modul-scopad.
+    Gäller alla utgåvor i DEFAULT_VERSIONS (18.0, 19.0, 20.0), enkel
+    textersättning, modul-scopad.
     Användaren behöver ALDRIG redigera YAML — detta sköter det.
     Avancerade regler (varianter, only_if_msgid, versionsspecifikt) görs av
     AI/utvecklare direkt i rules/*.yml."""
@@ -900,7 +902,7 @@ def add_term(module, old, new, note=None):
         f"    old: {json.dumps(old, ensure_ascii=False)}",
         f"    new: {json.dumps(new, ensure_ascii=False)}",
         f"    modules: [{module}]",
-        "    versions: [18, 19]",
+        "    versions: [18, 19, 20]",
         "    match: longest",
     ]
     if note:
@@ -913,7 +915,8 @@ def add_term(module, old, new, note=None):
         raise RuntimeError(f"Skulle ge ogiltig YAML — ändring EJ skriven: {e}")
     path.write_text(new_text, encoding="utf-8")
     log(f"   ✅ regel '{term_id}' tillagd i rules/core.yml")
-    log("   → Kör sedan: ./odoosa.py build --versions 18.0,19.0 && ./odoosa.py publish")
+    log(f"   → Kör sedan: ./odoosa.py build --versions {','.join(DEFAULT_VERSIONS)}"
+        " && ./odoosa.py publish")
 
 
 def flag_term(module, msgid, reason=None):
@@ -948,7 +951,8 @@ def flag_term(module, msgid, reason=None):
         raise RuntimeError(f"Skulle ge ogiltig YAML — ändring EJ skriven: {e}")
     path.write_text(new_text, encoding="utf-8")
     log(f"   ✅ flaggning tillagd: {msgid!r}" + (f" (modul {module})" if module else " (globalt)"))
-    log("   → Kör sedan: ./odoosa.py build --versions 18.0,19.0 && ./odoosa.py publish")
+    log(f"   → Kör sedan: ./odoosa.py build --versions {','.join(DEFAULT_VERSIONS)}"
+        " && ./odoosa.py publish")
 
 
 # ---------------------------------------------------------------------------
@@ -1030,11 +1034,36 @@ def parse_modules(arg):
     return [m.strip() for m in arg.split(",") if m.strip()] if arg else None
 
 
+def baseline(edition, modules=None):
+    """Skapa official-last för en NY utgåva — kör fetch två gånger i rad.
+
+    Varför: `fetch` roterar now→last. Första körningen på en utgåva som
+    aldrig körts har ingen `last`, så merge ser allt som nytt och rapporten
+    blir meningslös (20.0: 44 334 new-correct). Andra körningen skapar
+    `last` = SA:s nuvarande sv.po → nästa build blir noop-dominerad.
+
+    Körs EN gång per ny utgåva, före utgåvan läggs i veckocronen."""
+    log(f"🧱 BASELINE {edition} — två fetch i rad (andra skapar official-last)")
+    fetch_edition(edition, modules)
+    log("   ↻ andra hämtningen — official-now → official-last")
+    fetch_edition(edition, modules)
+
+    # Verifiera att last faktiskt finns nu — annars är baseline meningslös.
+    have = sum(1 for p in edition_cache(edition).glob("*/official-last.po"))
+    total = sum(1 for p in edition_cache(edition).iterdir() if p.is_dir())
+    log(f"   📊 official-last: {have}/{total} moduler")
+    if have == 0:
+        log("   ❌ ingen official-last skapades — baseline misslyckades")
+        return 1
+    log(f"   ✅ baseline klar — kör nu: ./odoosa.py build --versions {edition}")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description="odoosa — Odoo SA translation pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
-    for name in ("fetch", "apply", "merge", "build", "run", "regression"):
+    for name in ("fetch", "apply", "merge", "build", "run", "regression", "baseline"):
         p = sub.add_parser(name)
         p.add_argument("--versions", default=",".join(DEFAULT_VERSIONS))
         p.add_argument("--modules", default=None, help="komma-separerad lista (test/dev)")
@@ -1079,6 +1108,11 @@ def main():
     elif args.cmd == "regression":
         for v in versions:
             regression(v)
+    elif args.cmd == "baseline":
+        rc = 0
+        for v in versions:
+            rc = baseline(v, modules) or rc
+        sys.exit(rc)
     elif args.cmd == "check-edition":
         sys.exit(check_edition(args.edition))
     elif args.cmd == "add-term":

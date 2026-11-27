@@ -5,6 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: website_crm
-# new-corrected | officiell: 'Ditt företag'
+# override | officiell: 'Ditt företag'
 msgid "Your Company"
 msgstr "Ditt bolag"

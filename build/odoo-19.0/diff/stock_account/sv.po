@@ -5,7 +5,7 @@ msgstr ""
 "Language: sv\n"
 
 #. module: stock_account
-# conflict | officiell: 'Bokslut: Global lagerdifferens för företaget
+# override | officiell: 'Bokslut: Global lagerdifferens för företaget
 # [%(company)s]'
 msgid "Closing: Stock Variation Global for company [%(company)s]"
 msgstr "Bokslut: Global lagerdifferens för bolaget [%(company)s]"
@@ -26,17 +26,17 @@ msgid "Company Currency"
 msgstr "Bolagets valuta"
 
 #. module: stock_account
-# conflict | officiell: 'Värderas inuti företaget'
+# override | officiell: 'Värderas inuti företaget'
 msgid "Is valued inside the company"
 msgstr "Värderas inuti bolaget"
 
 #. module: stock_account
-# conflict | officiell: 'Är värderat utanför företaget'
+# override | officiell: 'Är värderat utanför företaget'
 msgid "Is valued outside the company"
 msgstr "Är värderat utanför bolaget"
 
 #. module: stock_account
-# conflict | officiell: 'Tekniskt fält för att korrekt visa det valda
+# override | officiell: 'Tekniskt fält för att korrekt visa det valda
 # företagets valuta som motsvarar det totala värdet av produktens
 # värderingslager'
 msgid ""

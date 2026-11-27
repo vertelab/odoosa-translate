@@ -5,6 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: website_project
-# new-corrected | officiell: 'Företagsnamn'
+# override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
