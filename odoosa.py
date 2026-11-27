@@ -993,7 +993,7 @@ def publish(dry_run=False, message=None):
 
     # Stega: artefakter + regler + ordlista + pipeline + rapporter + docs + manual
     git(["git", "add", "-A", "build/", "reports/", "rules/", "glossary.csv",
-         "odoosa.py", "odoo18-sv-translations.txt", "README.md", "docs/", ".gitignore", "manual/"])
+         "odoosa.py", "odoo18-sv-translations.txt", "README.md", "docs/", ".gitignore", "manual/", "tools/"])
 
     staged = git(["git", "diff", "--cached", "--name-only"], check=False).stdout.strip()
     if not staged:
