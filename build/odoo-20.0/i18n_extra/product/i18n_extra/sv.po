@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-product\n"
-"POT-Creation-Date: 2026-11-27 16:02\n"
-"PO-Revision-Date: 2026-11-27 16:02\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -13,22 +13,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
 msgid "All Companies"
 msgstr "Alla bolag"
-
-#. module: product
-#: model:ir.model,name:product.model_res_company
-#: model:ir.model.fields,field_description:product.field_product_category__company_id
-#: model:ir.model.fields,field_description:product.field_product_combo__company_id
-#: model:ir.model.fields,field_description:product.field_product_combo_item__company_id
-#: model:ir.model.fields,field_description:product.field_product_document__company_id
-#: model:ir.model.fields,field_description:product.field_product_pricelist__company_id
-#: model:ir.model.fields,field_description:product.field_product_pricelist_item__company_id
-#: model:ir.model.fields,field_description:product.field_product_product__company_id
-#: model:ir.model.fields,field_description:product.field_product_supplierinfo__company_id
-#: model:ir.model.fields,field_description:product.field_product_template__company_id
-#: model:ir.model.fields,field_description:product.field_product_uom__company_id
-#: model_terms:ir.ui.view,arch_db:product.product_category_search_view
-msgid "Company"
-msgstr "Bolag"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view

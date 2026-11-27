@@ -5,16 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: resource
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: resource
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: resource
 # override | officiell: 'Företag heltid'
 msgid "Company Full Time"
 msgstr "Bolag heltid"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-hr\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -71,24 +71,6 @@ msgstr ""
 "                                ledarskap och agil projektledning. En väldigt god kommunikationsförmåga krävs \n"
 "                                för att kunna förmedla komplexa tekniska idéer till delägare utan teknisk bakgrund, samt \n"
 "                                för att kunna främja samarbete mellan bolagets olika avdelningar."
-
-#. module: hr
-#: model:ir.model,name:hr.model_res_company
-#: model_terms:ir.ui.view,arch_db:hr.view_department_tree
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: hr
-#: model:ir.model.fields,field_description:hr.field_hr_department__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_employee__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_employee_public__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_job__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_version__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_work_location__company_id
-#: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
-#: model_terms:ir.ui.view,arch_db:hr.view_job_filter
-msgid "Company"
-msgstr "Bolag"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__company_country_id

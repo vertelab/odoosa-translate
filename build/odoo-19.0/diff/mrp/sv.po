@@ -3,13 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-mrp\n"
 "Language: sv\n"
-
-#. module: mrp
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: mrp
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"

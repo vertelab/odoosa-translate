@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: project_timesheet_holidays
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: project_timesheet_holidays
 # override | officiell: 'Om det är markerat kommer tidrapporten att genereras
 # i företagets semesterprojekt vid validering av en ledighet.'
 msgid ""

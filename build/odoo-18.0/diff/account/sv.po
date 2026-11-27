@@ -216,21 +216,6 @@ msgstr ""
 
 #. module: account
 # override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: account
-# override | officiell: 'Företag kopplade till partner'
-msgid "Companies that refers to partner"
-msgstr "Bolag kopplade till partner"
-
-#. module: account
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: account
-# override | officiell: 'Företag'
 msgid "Company "
 msgstr "Bolag"
 
@@ -335,6 +320,11 @@ msgid "Entries don't belong to the same company: %s"
 msgstr "Följande verifikat tillhör inte samma bolag: %s"
 
 #. module: account
+# override | officiell: 'Skattelokalisering'
+msgid "Fiscal Localization"
+msgstr "Skatteområde"
+
+#. module: account
 # override | officiell: 'Skattepositioner'
 msgid "Fiscal Positions"
 msgstr "Skatteområde"
@@ -407,11 +397,6 @@ msgid ""
 msgstr ""
 "Gör det möjligt att bortse från bolagets standardinställningar om huruvida "
 "det pris du använder på produkter och fakturor bör inkludera denna skatt."
-
-#. module: account
-# override | officiell: 'Platshållare för partner i företagsregister'
-msgid "Partner Company Registry Placeholder"
-msgstr "Platshållare för partner i bolagsregister"
 
 #. module: account
 # override | officiell: 'Välj ett specifikt analytiskt konto för en viss
@@ -833,8 +818,3 @@ msgstr ""
 "Du bör ställa in ett 'konto för förluster vid valutaomvandling' i bolagets "
 "inställningar för att automatiskt hantera bokföringen av verifikat "
 "relaterade till växelkursskillnader."
-
-#. module: account
-# override | officiell: 't.ex. Mitt företag'
-msgid "e.g. My Company"
-msgstr "t.ex. Mitt bolag"

@@ -13,8 +13,3 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-fw me-2 fa-building text-primary\"/>\n"
 "                    <b>Typ av bolag</b>"
-
-#. module: iap_mail
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"

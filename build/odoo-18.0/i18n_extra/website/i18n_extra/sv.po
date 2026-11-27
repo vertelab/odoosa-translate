@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website\n"
-"POT-Creation-Date: 2026-11-27 15:59\n"
-"PO-Revision-Date: 2026-11-27 15:59\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -52,15 +52,6 @@ msgstr "<b>Designad</b> <br/>för bolag"
 #: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
 msgid "<b>Designed</b> for companies"
 msgstr "<b>Utformad</b> för bolag"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
-msgid ""
-"<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
-"Francisco CA 94134 <br/>United States"
-msgstr ""
-"<b>Mitt bolag</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
-"Francisco CA 94134 <br/>Förenta staterna"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers_list
@@ -120,14 +111,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_template
 msgid "Check out what's new in our company !"
 msgstr "Kolla in vad som är nytt i vårt bolag!"
-
-#. module: website
-#. odoo-python
-#: code:addons/website/models/website.py:0
-#: model:ir.model.fields,field_description:website.field_website__company_id
-#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Company"
-msgstr "Bolag"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -273,12 +256,6 @@ msgstr ""
 "Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
 "Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
 "dit det är idag. Mich är en av de bästa hjärnorna."
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.contactus
-#: model_terms:ir.ui.view,arch_db:website.contactus_thanks_ir_ui_view
-msgid "My Company"
-msgstr "Mitt Bolag"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links

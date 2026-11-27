@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -99,20 +99,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_template
 msgid "Check out what's new in our company !"
 msgstr "Kolla in vad som är nytt i vårt bolag!"
-
-#. module: website
-#: model:ir.model,name:website.model_res_company
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: website
-#. odoo-python
-#: code:addons/website/models/website.py:0
-#: model:ir.model.fields,field_description:website.field_website__company_id
-#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-#: model_terms:ir.ui.view,arch_db:website.template_footer_mega_cards
-msgid "Company"
-msgstr "Bolag"
 
 #. module: website
 #. odoo-javascript
@@ -264,12 +250,6 @@ msgstr ""
 "Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
 "Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
 "dit det är idag. Mich är en av de bästa hjärnorna."
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.contactus
-#: model_terms:ir.ui.view,arch_db:website.contactus_thanks_ir_ui_view
-msgid "My Company"
-msgstr "Mitt Bolag"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links

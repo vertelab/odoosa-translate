@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-spreadsheet_dashboard\n"
 "Language: sv\n"
-
-#. module: spreadsheet_dashboard
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"

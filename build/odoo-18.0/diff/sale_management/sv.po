@@ -5,16 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: sale_management
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: sale_management
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: sale_management
 # override | officiell: 'Ditt erbjudande innehåller produkter från företaget
 # %(product_company)s medan ditt erbjudande tillhör företaget
 # %(quote_company)s. \n Var god ändra företaget för ditt erbjudande eller ta

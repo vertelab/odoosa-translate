@@ -52,16 +52,6 @@ msgid "<b>Designed</b> for companies"
 msgstr "<b>Utformad</b> för bolag"
 
 #. module: website
-# override | officiell: '<b>Mitt företag</b><br/>250 Executive Park Blvd,
-# Suite 3400 <br/> San Francisco CA 94134 <br/>Förenta staterna'
-msgid ""
-"<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
-"Francisco CA 94134 <br/>United States"
-msgstr ""
-"<b>Mitt bolag</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
-"Francisco CA 94134 <br/>Förenta staterna"
-
-#. module: website
 # override | officiell: '<br/>Från intäktstillväxt till kundlojalitet och
 # marknadsexpansion, våra nyckeltal för företagets prestationer understryker
 # vår strategiska skicklighet och vårt engagemang för att driva hållbar
@@ -129,11 +119,6 @@ msgstr ""
 # override | officiell: 'Kolla in vad som är nytt i vårt företag!'
 msgid "Check out what's new in our company !"
 msgstr "Kolla in vad som är nytt i vårt bolag!"
-
-#. module: website
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
 
 #. module: website
 # override | officiell: 'Kontakta oss om allt som rör vårt företag eller våra
@@ -296,11 +281,6 @@ msgstr ""
 "Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
 "Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
 "dit det är idag. Mich är en av de bästa hjärnorna."
-
-#. module: website
-# override | officiell: 'Mitt Företag'
-msgid "My Company"
-msgstr "Mitt Bolag"
 
 #. module: website
 # override | officiell: 'Vårt Företag'

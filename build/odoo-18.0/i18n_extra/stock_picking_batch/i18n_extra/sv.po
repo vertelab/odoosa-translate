@@ -2,17 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-stock_picking_batch\n"
-"POT-Creation-Date: 2026-11-27 15:59\n"
-"PO-Revision-Date: 2026-11-27 15:59\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-
-#. module: stock_picking_batch
-#: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__company_id
-msgid "Company"
-msgstr "Bolag"
 
 #. module: stock_picking_batch
 #. odoo-python

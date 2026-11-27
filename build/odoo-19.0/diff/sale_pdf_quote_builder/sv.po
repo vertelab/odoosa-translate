@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: sale_pdf_quote_builder
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: sale_pdf_quote_builder
 # override | officiell: 'Tillhandahåll sidhuvud och sidfot för att komponera
 # en attraktiv offert med mer information\n                        om ditt
 # företag, dina produkter och dina tjänster. <br />\n

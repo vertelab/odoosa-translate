@@ -5,28 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: project
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: project
-# override | officiell: 'Partnerföretaget får inte vara ett annat än företaget
-# för det tilldelade projektet'
-msgid ""
-"Partner company cannot be different from its assigned projects' company"
-msgstr ""
-"Partnerbolaget får inte vara ett annat än bolaget för det tilldelade "
-"projektet"
-
-#. module: project
-# override | officiell: 'Partnerföretaget får inte vara annorlunda än det
-# företag som tilldelats uppgiften'
-msgid "Partner company cannot be different from its assigned tasks' company"
-msgstr ""
-"Partnerbolaget får inte vara annorlunda än det bolag som tilldelats "
-"uppgiften"
-
-#. module: project
 # override | officiell: 'Projektet och den associerade partnern måste vara
 # kopplade till samma företag.'
 msgid ""

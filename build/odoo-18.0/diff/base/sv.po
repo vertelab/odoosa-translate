@@ -281,129 +281,6 @@ msgstr ""
 "åt posten genom att byta till bolaget: %s."
 
 #. module: base
-# override | officiell: 'Lägg till en ny modell med namnet "Identifieringstyp"
-# som utökar momsfältets funktionalitet i partnern och låter användaren
-# identifiera (en eventuell faktura) kontakter inte bara med deras skatte-ID
-# (moms) utan med andra typer av identifikationer som nationell handling,
-# pass, utländskt ID, etc. Med denna modul installerad kommer du nu att se två
-# fält i partnerformulärets vy:\n\n* Typ av identifiering\n*
-# Identifikationsnummer\n\nDetta beteende är ett vanligt krav för vissa
-# latinamerikanska länder som Argentina och Chile. Om din lokalisering har
-# dessa krav måste du vara beroende av den här modulen och i din
-# lokaliseringsmodul definiera de identifieringstyper som används i ditt land.
-# I allmänhet definieras dessa typer av identifikationer av de statliga
-# myndigheter som reglerar den skattemässiga verksamheten. Till exempel:\n\n*
-# AFIP i Argentina definierar DNI, CUIT (vat för juridiska personer), CUIL
-# (vat för fysiska personer) och ytterligare 80 giltiga
-# identifieringstyper.\n\nVarje identifiering innehåller denna
-# information:\n\n* namn: kort namn på identifieringen\n* beskrivning: kan
-# vara samma korta namn eller ett långt namn\n* country_id: det land där denna
-# identifiering hör hemma\n* is_vat: identifierar denna post som motsvarande
-# moms för det specifika landet.\n* sequence: låter oss sortera
-# identifieringstyperna beroende på vilka som är mest använda.\n* aktiv: vi
-# kan aktivera/inaktivera identifikationer för att göra det enklare för våra
-# kunder\n\nFör att göra denna modul kompatibel för miljöer med flera företag
-# där vi har företag som inte behöver / stöder detta krav, har vi lagt till
-# generiska identifieringstyper och generiska regler för att hantera
-# kontaktinformationen och göra det transparent för användaren när man bara
-# använder momsen som vi tidigare kände till.\n\nGeneriska
-# identifieringstyper:\n\n* Moms: Skatteidentifikationen eller momsnumret
-# kommer som standard att väljas som identifieringstyp så att användaren bara
-# behöver lägga till det relaterade momsnumret.\n* Pass\n* Utländskt ID
-# (utländsk nationell handling)\n\nRegler när du skapar en ny partner: Vi
-# kommer bara att se de identifieringstyper som är meningsfulla, med hänsyn
-# till dessa regler:\n\n* Om partnern inte har någon landsadress: Visar de
-# generiska identifieringstyperna plus de som definieras i partnerns
-# relaterade företagsland (Om partnern inte har något specifikt företag visas
-# de identifieringstyper som är relaterade till det aktuella
-# användarföretaget)\n\n* Om partnern har en landsadress: kommer att visa de
-# generiska identifieringstyperna plus de som definierats för partnerns
-# land.\n\nNär du skapar ett nytt företag, kommer den relaterade partnern
-# alltid att ange den relaterade identifieringstypen is_vat.\n\nAlla
-# definierade identifieringstyper kan granskas och aktiveras / inaktiveras i
-# menyn "Kontakter / Konfiguration / Identifieringstyp".\n\nDenna modul är
-# kompatibel med base_vat-modulen för att kunna validera momsnummer för varje
-# land som har eller inte har möjlighet att hantera flera
-# identifieringstyper.'
-msgid ""
-"\n"
-"Add a new model named \"Identification Type\" that extend the vat field functionality in the partner and let the user to identify (an eventually invoice) to contacts not only with their fiscal tax ID (VAT) but with other types of identifications like national document, passport, foreign ID, etc. With this module installed you will see now in the partner form view two fields:\n"
-"\n"
-"* Identification Type\n"
-"* Identification Number\n"
-"\n"
-"This behavior is a common requirement for some latam countries like Argentina and Chile. If your localization has this requirements then you need to depend on this module and define in your localization module the identifications types that are used in your country. Generally these types of identifications are defined by the government authorities that regulate the fiscal operations. For example:\n"
-"\n"
-"* AFIP in Argentina defines DNI, CUIT (vat for legal entities), CUIL (vat for natural person), and another 80 valid identification types.\n"
-"\n"
-"Each identification holds this information:\n"
-"\n"
-"* name: short name of the identification\n"
-"* description: could be the same short name or a long name\n"
-"* country_id: the country where this identification belongs\n"
-"* is_vat: identify this record as the corresponding VAT for the specific country.\n"
-"* sequence: let us to sort the identification types depending on the ones that are most used.\n"
-"* active: we can activate/inactivate identifications to make it easier to our customers\n"
-"\n"
-"In order to make this module compatible for multi-company environments where we have companies that does not need/support this requirement, we have added generic identification types and generic rules to manage the contact information and make it transparent for the user when only use the VAT as we formerly know.\n"
-"\n"
-"Generic Identifications:\n"
-"\n"
-"* VAT: The Fiscal Tax Identification or VAT number, by default will be selected as identification type so the user will only need to add the related vat number.\n"
-"* Passport\n"
-"* Foreign ID (Foreign National Document)\n"
-"\n"
-"Rules when creating a new partner: We will only see the identification types that are meaningful, taking into account these rules:\n"
-"\n"
-"* If the partner have not country address set: Will show the generic identification types plus the ones defined in the partner's related company country (If the partner has not specific company then will show the identification types related to the current user company)\n"
-"\n"
-"* If the partner has country address: will show the generic identification types plus the ones defined for the country of the partner.\n"
-"\n"
-"When creating a new company, will set to the related partner always the related country is_vat identification type.\n"
-"\n"
-"All the defined identification types can be reviewed and activate/deactivate in \"Contacts / Configuration / Identification Type\" menu.\n"
-"\n"
-"This module is compatible with base_vat module in order to be able to validate VAT numbers for each country that have or not have the possibility to manage multiple identification types.\n"
-msgstr ""
-"Lägg till en ny modell med namnet \"Identifieringstyp\" som utökar momsfältets funktionalitet i partnern och låter användaren identifiera (en eventuell faktura) kontakter inte bara med deras skatte-ID (moms) utan med andra typer av identifikationer som nationell handling, pass, utländskt ID, etc. Med denna modul installerad kommer du nu att se två fält i partnerformulärets vy:\n"
-"\n"
-"* Typ av identifiering\n"
-"* Identifikationsnummer\n"
-"\n"
-"Detta beteende är ett vanligt krav för vissa latinamerikanska länder som Argentina och Chile. Om din lokalisering har dessa krav måste du vara beroende av den här modulen och i din lokaliseringsmodul definiera de identifieringstyper som används i ditt land. I allmänhet definieras dessa typer av identifikationer av de statliga myndigheter som reglerar den skattemässiga verksamheten. Till exempel:\n"
-"\n"
-"* AFIP i Argentina definierar DNI, CUIT (vat för juridiska personer), CUIL (vat för fysiska personer) och ytterligare 80 giltiga identifieringstyper.\n"
-"\n"
-"Varje identifiering innehåller denna information:\n"
-"\n"
-"* namn: kort namn på identifieringen\n"
-"* beskrivning: kan vara samma korta namn eller ett långt namn\n"
-"* country_id: det land där denna identifiering hör hemma\n"
-"* is_vat: identifierar denna post som motsvarande moms för det specifika landet.\n"
-"* sequence: låter oss sortera identifieringstyperna beroende på vilka som är mest använda.\n"
-"* aktiv: vi kan aktivera/inaktivera identifikationer för att göra det enklare för våra kunder\n"
-"\n"
-"För att göra denna modul kompatibel för miljöer med flera bolag där vi har bolag som inte behöver / stöder detta krav, har vi lagt till generiska identifieringstyper och generiska regler för att hantera kontaktinformationen och göra det transparent för användaren när man bara använder momsen som vi tidigare kände till.\n"
-"\n"
-"Generiska identifieringstyper:\n"
-"\n"
-"* Moms: Skatteidentifikationen eller momsnumret kommer som standard att väljas som identifieringstyp så att användaren bara behöver lägga till det relaterade momsnumret.\n"
-"* Pass\n"
-"* Utländskt ID (utländsk nationell handling)\n"
-"\n"
-"Regler när du skapar en ny partner: Vi kommer bara att se de identifieringstyper som är meningsfulla, med hänsyn till dessa regler:\n"
-"\n"
-"* Om partnern inte har någon landsadress: Visar de generiska identifieringstyperna plus de som definieras i partnerns relaterade bolagsland (Om partnern inte har något specifikt bolag visas de identifieringstyper som är relaterade till det aktuella användarbolaget)\n"
-"\n"
-"* Om partnern har en landsadress: kommer att visa de generiska identifieringstyperna plus de som definierats för partnerns land.\n"
-"\n"
-"När du skapar ett nytt bolag, kommer den relaterade partnern alltid att ange den relaterade identifieringstypen is_vat.\n"
-"\n"
-"Alla definierade identifieringstyper kan granskas och aktiveras / inaktiveras i menyn \"Kontakter / Konfiguration / Identifieringstyp\".\n"
-"\n"
-"Denna modul är kompatibel med base_vat-modulen för att kunna validera momsnummer för varje land som har eller inte har möjlighet att hantera flera identifieringstyper."
-
-#. module: base
 # override | officiell: 'Lägg till all information i medarbetarformuläret för
 # att hantera
 # kontrakt.\n=============================================================\n\n
@@ -2646,16 +2523,6 @@ msgstr ""
 "endast landskoden bekräftas."
 
 #. module: base
-# override | officiell: '- Posten är ett företag “%(company)s” och “%(field)s”
-# (%(fname)s: %(values)s) tillhör ett annat företag.'
-msgid ""
-"- Record is company “%(company)s” and “%(field)s” (%(fname)s: %(values)s) "
-"belongs to another company."
-msgstr ""
-"- Posten är ett bolag “%(company)s” och “%(field)s” (%(fname)s: %(values)s) "
-"tillhör ett annat bolag."
-
-#. module: base
 # override | officiell: '- "%(record)s" tillhör företaget "%(company)s" och
 # "%(field)s" (%(fname)s: %(values)s) tillhör ett annat företag.'
 msgid ""
@@ -2969,38 +2836,6 @@ msgid "Auto-complete partner companies' data"
 msgstr "Automatisk komplettering av uppgifter om bolag"
 
 #. module: base
-# override | officiell: 'Du bör endast ändra en kontakts företag om det aldrig
-# har ställts in korrekt. Om en befintlig kontakt börjar arbeta för ett nytt
-# företag ska en ny kontakt skapas under det nya företaget. Du kan använda
-# knappen "Discard" (avbryt) för att avbryta ändringen.'
-msgid ""
-"Changing the company of a contact should only be done if it was never "
-"correctly set. If an existing contact starts working for a new company then "
-"a new contact should be created under that new company. You can use the "
-"\"Discard\" button to abandon this change."
-msgstr ""
-"Du bör endast ändra en kontakts bolag om det aldrig har ställts in korrekt. "
-"Om en befintlig kontakt börjar arbeta för ett nytt bolag ska en ny kontakt "
-"skapas under det nya bolaget. Du kan använda knappen \"Discard\" (avbryt) "
-"för att avbryta ändringen."
-
-#. module: base
-# override | officiell: 'Markera denna ruta om kontakten är ett företag,
-# annars är det en person'
-msgid "Check if the contact is a company, otherwise it is a person"
-msgstr "Markera denna ruta om kontakten är ett bolag, annars är det en person"
-
-#. module: base
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: base
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: base
 # override | officiell: 'Företag %(company_name)s finns inte bland de tillåtna
 # företagen för användare %(user_name)s (%(company_allowed)s).'
 msgid ""
@@ -3026,16 +2861,6 @@ msgid "Company Logo"
 msgstr "Bolagslogo"
 
 #. module: base
-# override | officiell: 'Företagsnamn'
-msgid "Company Name"
-msgstr "Bolagsnamn"
-
-#. module: base
-# override | officiell: 'Företagets namn'
-msgid "Company Name Entity"
-msgstr "Bolagets namn"
-
-#. module: base
 # override | officiell: 'Företagets namn...'
 msgid "Company Name..."
 msgstr "Bolagets namn..."
@@ -3049,11 +2874,6 @@ msgstr "Bolagets pris"
 # override | officiell: 'Företagets slogan'
 msgid "Company Tagline"
 msgstr "Bolagets slogan"
-
-#. module: base
-# override | officiell: 'Företagstyp'
-msgid "Company Type"
-msgstr "Bolagstyp"
 
 #. module: base
 # override | officiell: 'Företagets slogan, som inkluderas i ett tryckt
@@ -3141,24 +2961,9 @@ msgid "Inverse Company Rate"
 msgstr "Omvänd bolagsränta"
 
 #. module: base
-# override | officiell: 'Är företag'
-msgid "Is Company"
-msgstr "Är bolag"
-
-#. module: base
-# override | officiell: 'Is Företagsuppgifter Tom'
-msgid "Is Company Details Empty"
-msgstr "Is Bolagsuppgifter Tom"
-
-#. module: base
 # override | officiell: 'Är företagets nuvarande valuta'
 msgid "Is Current Company Currency"
 msgstr "Är bolagets nuvarande valuta"
-
-#. module: base
-# override | officiell: 'Är ett företag'
-msgid "Is a Company"
-msgstr "Är ett bolag"
 
 #. module: base
 # override | officiell: 'Modul för synkronisering av dokument mellan flera
@@ -3204,47 +3009,6 @@ msgstr ""
 # override | officiell: 'Flera företag'
 msgid "Multi Companies"
 msgstr "Flera bolag"
-
-#. module: base
-# override | officiell: 'Mitt företag (San Francisco) åtar sig att göra sitt
-# bästa för att leverera utförliga tjänster i tid och inom de överenskomna
-# tidsramarna. Ingen av dess skyldigheter kan dock anses vara en skyldighet
-# att uppnå resultat. My Company (San Francisco) kan under inga omständigheter
-# av kunden krävas att uppträda som tredje part i samband med skadeståndskrav
-# som en slutkonsument ställer mot kunden.'
-msgid ""
-"My Company (San Francisco) undertakes to do its best to supply performant "
-"services in due time in accordance with the agreed timeframes. However, none"
-" of its obligations can be considered as being an obligation to achieve "
-"results. My Company (San Francisco) cannot under any circumstances, be "
-"required by the client to appear as a third party in the context of any "
-"claim for damages filed against the client by an end consumer."
-msgstr ""
-"Mitt bolag (San Francisco) åtar sig att göra sitt bästa för att leverera "
-"utförliga tjänster i tid och inom de överenskomna tidsramarna. Ingen av dess"
-" skyldigheter kan dock anses vara en skyldighet att uppnå resultat. My "
-"Company (San Francisco) kan under inga omständigheter av kunden krävas att "
-"uppträda som tredje part i samband med skadeståndskrav som en slutkonsument "
-"ställer mot kunden."
-
-#. module: base
-# override | officiell: 'Nicole har arbetat inom IT-sektorn i <b>20 år</b>.
-# Hon\n                utvecklar programvara för att hjälpa till att utveckla
-# webbplatser.  Hon har sålt sin\n                första företaget vid 30 års
-# ålder och lyckades växa Azure Interior\n                från 1 till 55
-# anställda främst genom att sälja tjänster på\n                Odoo.'
-msgid ""
-"Nicole works in IT sector <b>since 20 years</b>. She\n"
-"                develops software to help develop websites.  She sold her\n"
-"                first company at 30 years old and manage to grow Azure Interior\n"
-"                from 1 to 55 employees mostly by reselling services on\n"
-"                Odoo."
-msgstr ""
-"Nicole har arbetat inom IT-sektorn i <b>20 år</b>. Hon\n"
-"                utvecklar programvara för att hjälpa till att utveckla webbplatser.  Hon har sålt sin\n"
-"                första bolaget vid 30 års ålder och lyckades växa Azure Interior\n"
-"                från 1 till 55 anställda främst genom att sälja tjänster på\n"
-"                Odoo."
 
 #. module: base
 # override | officiell: 'Antal företag'
@@ -4282,36 +4046,6 @@ msgstr ""
 "interaktionshistorik, profiler och mycket mer."
 
 #. module: base
-# override | officiell: 'Våra experter uppfinner, föreställer sig och
-# utvecklar lösningar som uppfyller\n                dina affärskrav. De
-# bygger en ny teknisk miljö\n                miljö för ditt företag, men de
-# tar alltid hänsyn till den redan\n                installerade IT-
-# programvaran i åtanke. Det är därför Idealis\n                Consulting
-# levererar spetskompetens inom HR och SC Management.'
-msgid ""
-"Our experts invent, imagine and develop solutions which meet\n"
-"                your business requirements. They build a new technical\n"
-"                environment for your company, but they always take the already\n"
-"                installed IT software into account. That is why Idealis\n"
-"                Consulting delivers excellence in HR and SC Management."
-msgstr ""
-"Våra experter uppfinner, föreställer sig och utvecklar lösningar som uppfyller\n"
-"                dina affärskrav. De bygger en ny teknisk miljö\n"
-"                miljö för ditt bolag, men de tar alltid hänsyn till den redan\n"
-"                installerade IT-programvaran i åtanke. Det är därför Idealis\n"
-"                Consulting levererar spetskompetens inom HR och SC Management."
-
-#. module: base
-# override | officiell: 'Partner med samma företagsregister'
-msgid "Partner with same Company Registry"
-msgstr "Partner med samma bolagsregister"
-
-#. module: base
-# override | officiell: 'Relaterat företag'
-msgid "Related Company"
-msgstr "Relaterat bolag"
-
-#. module: base
 # override | officiell: 'Visa företagets adress på Google Maps'
 msgid "Show your company address on Google Maps"
 msgstr "Visa bolagets adress på Google Maps"
@@ -4346,16 +4080,6 @@ msgstr ""
 " som standardbolag av %(active_users)s-användare."
 
 #. module: base
-# override | officiell: 'Det företag som tilldelats denna partner stämmer inte
-# överens med det företag som denna partner representerar.'
-msgid ""
-"The company assigned to this partner does not match the company this partner"
-" represents."
-msgstr ""
-"Det bolag som tilldelats denna partner stämmer inte överens med det bolag "
-"som denna partner representerar."
-
-#. module: base
 # override | officiell: 'Företagshierarkin kan inte ändras.'
 msgid "The company hierarchy cannot be changed."
 msgstr "Bolagshierarkin kan inte ändras."
@@ -4369,17 +4093,6 @@ msgstr "Bolagsnamnet måste vara unikt!"
 # override | officiell: 'Standardföretaget för den här användaren.'
 msgid "The default company for this user."
 msgstr "Standardbolaget för den här användaren."
-
-#. module: base
-# override | officiell: 'Företagets registreringsnummer. Använd det om det
-# skiljer sig från skatte-ID. Det måste vara unikt för alla partner i samma
-# land'
-msgid ""
-"The registry number of the company. Use it if it is different from the Tax "
-"ID. It must be unique across all partners of a same country"
-msgstr ""
-"Bolagets registreringsnummer. Använd det om det skiljer sig från skatte-ID. "
-"Det måste vara unikt för alla partner i samma land"
 
 #. module: base
 # override | officiell: 'Denna valuta är inställd på ett företag och kan
@@ -4399,31 +4112,6 @@ msgid "Used to order Companies in the company switcher"
 msgstr "Används för att beställa bolag i bolagsväxlaren"
 
 #. module: base
-# override | officiell: 'Vi är ett konsultföretag inom teknik och strategisk
-# rådgivning som skapar värdehöjande lösningar med hjälp av avancerad
-# programvara för våra kunder över hela världen.\n <br> <br>\nPå Lumber Inc
-# har vi operativ erfarenhet i kombination med tekniskt skarpsinne. Vi förstår
-# att all programvara som stöder affärsverksamheten måste utformas på ett
-# sådant sätt att den underlättar genomförandet av kritiska operativa
-# processer och fungerar som ett verktyg för användarna snarare än ett hinder.
-# Vårt tillvägagångssätt är fokuserat på processen först och säkerställer att
-# den bidrar till företagets mål, därefter optimerar vi den och utformar
-# programvarulösningar för att på bästa sätt stödja den.'
-msgid ""
-"We are a technology consulting &amp; strategic advisory firm that creates value enhancing solutions through the use of advanced software for our clients worldwide.\n"
-" <br> <br>\n"
-"At Lumber Inc we bring operational experience combined with technological acumen. We understand that any software that supports business operations needs to be designed in such a way that facilitates the execution of critical operational processes, and serves as a tool to the users rather than a barrier. Our approach is focused on the process first, ensuring that it contributes to the goals of the company, we then optimize it, and design the software solutions to best support it."
-msgstr ""
-"Vi är ett konsultbolag inom teknik och strategisk rådgivning som skapar värdehöjande lösningar med hjälp av avancerad programvara för våra kunder över hela världen.\n"
-" <br> <br>\n"
-"På Lumber Inc har vi operativ erfarenhet i kombination med tekniskt skarpsinne. Vi förstår att all programvara som stöder affärsverksamheten måste utformas på ett sådant sätt att den underlättar genomförandet av kritiska operativa processer och fungerar som ett verktyg för användarna snarare än ett hinder. Vårt tillvägagångssätt är fokuserat på processen först och säkerställer att den bidrar till bolagets mål, därefter optimerar vi den och utformar programvarulösningar för att på bästa sätt stödja den."
-
-#. module: base
-# override | officiell: 'Huruvida värden för detta fält är företagsberoende'
-msgid "Whether values for this field is company dependent"
-msgstr "Huruvida värden för detta fält är bolagsberoende"
-
-#. module: base
 # override | officiell: 'Du kan inte minska antalet decimaler i en valuta som
 # redan används i en bokföringspost.'
 msgid ""
@@ -4432,8 +4120,3 @@ msgid ""
 msgstr ""
 "Du kan inte minska antalet decimaler i en valuta som redan används i en "
 "verifikat."
-
-#. module: base
-# override | officiell: 't.ex. Mitt Företag'
-msgid "e.g. My Company"
-msgstr "t.ex. Mitt Bolag"

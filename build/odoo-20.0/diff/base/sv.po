@@ -5,22 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: base
-# override | officiell: 'Markera denna ruta om kontakten är ett företag,
-# annars är det en person'
-msgid "Check if the contact is a company, otherwise it is a person"
-msgstr "Markera denna ruta om kontakten är ett bolag, annars är det en person"
-
-#. module: base
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: base
-# override | officiell: 'Företag'
-msgid "Company Employer"
-msgstr "Bolag"
-
-#. module: base
 # override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
@@ -29,11 +13,6 @@ msgstr "Bolagslogo"
 # override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"
-
-#. module: base
-# override | officiell: 'Företagets namn'
-msgid "Company Name Entity"
-msgstr "Bolagets namn"
 
 #. module: base
 # override | officiell: 'Företagets slogan'
@@ -106,24 +85,9 @@ msgid "Inverse Company Rate"
 msgstr "Omvänd bolagsränta"
 
 #. module: base
-# override | officiell: 'Är företag'
-msgid "Is Company"
-msgstr "Är bolag"
-
-#. module: base
-# override | officiell: 'Is Företagsuppgifter Tom'
-msgid "Is Company Details Empty"
-msgstr "Is Bolagsuppgifter Tom"
-
-#. module: base
 # override | officiell: 'Är företagets nuvarande valuta'
 msgid "Is Current Company Currency"
 msgstr "Är bolagets nuvarande valuta"
-
-#. module: base
-# override | officiell: 'Är ett företag'
-msgid "Is a Company"
-msgstr "Är ett bolag"
 
 #. module: base
 # override | officiell: 'Flera företag'
@@ -136,11 +100,6 @@ msgid "Number of Companies"
 msgstr "Antal bolag"
 
 #. module: base
-# override | officiell: 'Relaterat företag'
-msgid "Related Company"
-msgstr "Relaterat bolag"
-
-#. module: base
 # override | officiell: 'Företaget %(company_name)s kan inte arkiveras
 # eftersom det fortfarande används som standardföretag av
 # %(active_users)s-användare.'
@@ -150,16 +109,6 @@ msgid ""
 msgstr ""
 "Bolaget %(company_name)s kan inte arkiveras eftersom det fortfarande används"
 " som standardbolag av %(active_users)s-användare."
-
-#. module: base
-# override | officiell: 'Det företag som tilldelats denna partner stämmer inte
-# överens med det företag som denna partner representerar.'
-msgid ""
-"The company assigned to this partner does not match the company this partner"
-" represents."
-msgstr ""
-"Det bolag som tilldelats denna partner stämmer inte överens med det bolag "
-"som denna partner representerar."
 
 #. module: base
 # override | officiell: 'Företagshierarkin kan inte ändras.'
@@ -175,16 +124,6 @@ msgstr "Bolagsnamnet måste vara unikt!"
 # override | officiell: 'Standardföretaget för den här användaren.'
 msgid "The default company for this user."
 msgstr "Standardbolaget för den här användaren."
-
-#. module: base
-# override | officiell: 'Det valda företaget är inte kompatibelt med företagen
-# för den eller de relaterade användarna'
-msgid ""
-"The selected company is not compatible with the companies of the related "
-"user(s)"
-msgstr ""
-"Det valda bolaget är inte kompatibelt med bolagen för den eller de "
-"relaterade användarna"
 
 #. module: base
 # override | officiell: 'Denna valuta är inställd på ett företag och kan
@@ -208,13 +147,3 @@ msgstr "Används för att beställa bolag i bolagsväxlaren"
 # företagets valuta.'
 msgid "Value of 1 unit of this currency in the company currency"
 msgstr "Värde motsvarande 1 enhet av grundvalutan i bolagets valuta."
-
-#. module: base
-# override | officiell: 'Huruvida värden för detta fält är företagsberoende'
-msgid "Whether values for this field is company dependent"
-msgstr "Huruvida värden för detta fält är bolagsberoende"
-
-#. module: base
-# override | officiell: 't.ex. Mitt Företag'
-msgid "e.g. My Company"
-msgstr "t.ex. Mitt Bolag"

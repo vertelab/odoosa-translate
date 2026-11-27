@@ -5,25 +5,10 @@ msgstr ""
 "Language: sv\n"
 
 #. module: mail
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: mail
 # override | officiell: 'Företag som använder denna domän som standard för att
 # skicka e-post'
 msgid "Companies using this domain as default for sending mails"
 msgstr "Bolag som använder denna domän som standard för att skicka e-post"
-
-#. module: mail
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: mail
-# override | officiell: 'Relaterat företag'
-msgid "Related Company"
-msgstr "Relaterat bolag"
 
 #. module: mail
 # override | officiell: 'Posterna måste tillhöra samma företag.'

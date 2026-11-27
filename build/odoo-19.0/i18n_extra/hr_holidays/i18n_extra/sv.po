@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-hr_holidays\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -24,25 +24,6 @@ msgstr ""
 "- Per bolag: alla anställda i det angivna bolaget\n"
 "- Per avdelning: alla anställda i den angivna avdelningen\n"
 "- Per anställdetikett: alla anställda i den specifika anställdgruppkategorin"
-
-#. module: hr_holidays
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__employee_company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation_generate_multi_wizard__company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_employee_type_report__company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_generate_multi_wizard__company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_mandatory_day__company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report__company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report_calendar__company_id
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__company_id
-#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_search
-#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_mandatory_day_view_search
-#: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search
-#: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
-#: model_terms:ir.ui.view,arch_db:hr_holidays.view_search_hr_holidays_employee_type_report
-msgid "Company"
-msgstr "Bolag"
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__employee_company_id

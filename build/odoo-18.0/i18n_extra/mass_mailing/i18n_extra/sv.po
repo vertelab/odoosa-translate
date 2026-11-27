@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-mass_mailing\n"
-"POT-Creation-Date: 2026-11-27 15:59\n"
-"PO-Revision-Date: 2026-11-27 15:59\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -51,11 +51,6 @@ msgstr ""
 "Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
 "Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
 "dit det är idag. Mich är en av de bästa hjärnorna."
-
-#. module: mass_mailing
-#: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_header_text_social
-msgid "My Company"
-msgstr "Mitt Bolag"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form

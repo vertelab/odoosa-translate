@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-social_media\n"
 "Language: sv\n"
-
-#. module: social_media
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-crm\n"
-"POT-Creation-Date: 2026-11-27 16:02\n"
-"PO-Revision-Date: 2026-11-27 16:02\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -166,16 +166,6 @@ msgid ""
 msgstr ""
 "Klassificera och analysera dina kategorier för kundämnen/möjligheter som "
 "till exempel: utbildning, service"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_crm_activity_report__company_id
-#: model:ir.model.fields,field_description:crm.field_crm_lead__company_id
-#: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
-#: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
-#: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
-#: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
-msgid "Company"
-msgstr "Bolag"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form

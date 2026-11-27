@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-onboarding\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -19,12 +19,6 @@ msgstr "Alla register över framsteg inom onboarding (över alla bolag)."
 msgid "All related Onboarding Progress Step Records (across companies)"
 msgstr ""
 "Alla relaterade poster för Onboarding Progress Steps (över alla bolag)"
-
-#. module: onboarding
-#: model:ir.model.fields,field_description:onboarding.field_onboarding_progress__company_id
-#: model:ir.model.fields,field_description:onboarding.field_onboarding_progress_step__company_id
-msgid "Company"
-msgstr "Bolag"
 
 #. module: onboarding
 #: model:ir.model.fields,field_description:onboarding.field_onboarding_onboarding_step__is_per_company

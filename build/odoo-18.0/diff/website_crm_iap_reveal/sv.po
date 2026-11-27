@@ -21,11 +21,6 @@ msgid "Choose whether to track companies only or companies and their contacts"
 msgstr "Välj om du vill spåra endast bolag eller bolag och deras kontakter"
 
 #. module: website_crm_iap_reveal
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: website_crm_iap_reveal
 # override | officiell: 'Företag och deras kontakter'
 msgid "Companies and their Contacts"
 msgstr "Bolag och deras kontakter"

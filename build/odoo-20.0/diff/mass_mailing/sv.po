@@ -10,11 +10,6 @@ msgid "Best practices to digitize your company"
 msgstr "Bästa praxis för att digitalisera ditt bolag"
 
 #. module: mass_mailing
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: mass_mailing
 # override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

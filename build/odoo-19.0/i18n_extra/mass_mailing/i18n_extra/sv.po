@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-mass_mailing\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -13,11 +13,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_schedule
 msgid "Best practices to digitize your company"
 msgstr "Bästa praxis för att digitalisera ditt bolag"
-
-#. module: mass_mailing
-#: model:ir.model,name:mass_mailing.model_res_company
-msgid "Companies"
-msgstr "Bolag"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__company_name

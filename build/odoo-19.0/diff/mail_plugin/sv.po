@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: mail_plugin
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: mail_plugin
 # override | officiell: 'Företaget skapades.'
 msgid "Company Created."
 msgstr "Bolaget skapades."
@@ -50,11 +45,6 @@ msgstr "Skapa ett bolag"
 # override | officiell: 'Skapa ett företag'
 msgid "Create a company"
 msgstr "Skapa ett bolag"
-
-#. module: mail_plugin
-# override | officiell: 'Domän som används för att hitta företaget'
-msgid "Domain used to find the company"
-msgstr "Domän som används för att hitta bolaget"
 
 #. module: mail_plugin
 # override | officiell: 'Utöka företaget'

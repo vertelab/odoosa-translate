@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: analytic
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: analytic
 # override | officiell: 'Välj ett företag för vilket den objektdistributionen
 # ska användas (t.ex. skapa en ny kundfaktura eller försäljningsorder om vi
 # väljer detta företag, det kommer automatiskt att ta detta som ett

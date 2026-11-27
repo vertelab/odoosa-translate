@@ -2,27 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-resource\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-
-#. module: resource
-#: model:ir.model,name:resource.model_res_company
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: resource
-#: model:ir.model.fields,field_description:resource.field_resource_calendar__company_id
-#: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__company_id
-#: model:ir.model.fields,field_description:resource.field_resource_mixin__company_id
-#: model:ir.model.fields,field_description:resource.field_resource_resource__company_id
-#: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
-#: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
-msgid "Company"
-msgstr "Bolag"
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves__resource_id

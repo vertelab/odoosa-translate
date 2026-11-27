@@ -83,11 +83,6 @@ msgstr ""
 "</div>"
 
 #. module: survey
-# override | officiell: 'Företagets antal certifieringar'
-msgid "Company Certifications Count"
-msgstr "Bolagets antal certifieringar"
-
-#. module: survey
 # override | officiell: 'Vårt Företag i några frågor ...'
 msgid "Our Company in a few questions ..."
 msgstr "Vårt Bolag i några frågor ..."

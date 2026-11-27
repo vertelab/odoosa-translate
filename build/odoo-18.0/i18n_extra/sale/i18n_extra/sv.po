@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-sale\n"
-"POT-Creation-Date: 2026-11-27 15:59\n"
-"PO-Revision-Date: 2026-11-27 15:59\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -19,17 +19,6 @@ msgid ""
 msgstr ""
 "Att ändra bolag för en befintlig offert kan kräva manuella justeringar av "
 "detaljerna i raderna. Du kan överväga att uppdatera priserna."
-
-#. module: sale
-#: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__company_id
-#: model:ir.model.fields,field_description:sale.field_sale_order__company_id
-#: model:ir.model.fields,field_description:sale.field_sale_order_discount__company_id
-#: model:ir.model.fields,field_description:sale.field_sale_order_line__company_id
-#: model:ir.model.fields,field_description:sale.field_sale_report__company_id
-#: model:ir.model.fields,field_description:sale.field_utm_campaign__company_id
-#: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
-msgid "Company"
-msgstr "Bolag"
 
 #. module: sale
 #: model:ir.model,name:sale.model_base_document_layout

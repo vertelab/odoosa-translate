@@ -21,11 +21,6 @@ msgid "<span class=\"col-md-6\">Extra contacts per Company</span>"
 msgstr "<span class=\"col-md-6\">Extra kontakter per bolag</span>"
 
 #. module: crm_iap_mine
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: crm_iap_mine
 # override | officiell: 'Företag och deras kontaktpersoner'
 msgid "Companies and their Contacts"
 msgstr "Bolag och deras kontaktpersoner"

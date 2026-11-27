@@ -434,11 +434,6 @@ msgid "Closed/Dead leads cannot be converted into opportunities."
 msgstr "Avslutade/döda kundämnen kan inte omvandlas till affärsmöjligheter."
 
 #. module: crm
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: crm
 # override | officiell: 'Information om företaget'
 msgid "Company Information"
 msgstr "Information om bolaget"

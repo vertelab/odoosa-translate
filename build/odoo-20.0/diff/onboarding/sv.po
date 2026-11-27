@@ -18,11 +18,6 @@ msgstr ""
 "Alla relaterade poster för Onboarding Progress Steps (över alla bolag)"
 
 #. module: onboarding
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: onboarding
 # override | officiell: 'Är per företag'
 msgid "Is per company"
 msgstr "Är per bolag"

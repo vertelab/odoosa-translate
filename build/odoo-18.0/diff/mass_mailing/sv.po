@@ -57,11 +57,6 @@ msgstr ""
 "dit det är idag. Mich är en av de bästa hjärnorna."
 
 #. module: mass_mailing
-# override | officiell: 'Mitt Företag'
-msgid "My Company"
-msgstr "Mitt Bolag"
-
-#. module: mass_mailing
 # override | officiell: 'Vill du importera land, företagsnamn och mer?'
 msgid "Want to import country, company name and more?"
 msgstr "Vill du importera land, bolagsnamn och mer?"

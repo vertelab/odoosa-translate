@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-hr\n"
-"POT-Creation-Date: 2026-11-27 15:59\n"
-"PO-Revision-Date: 2026-11-27 15:59\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -38,24 +38,6 @@ msgid ""
 msgstr ""
 "Som anställd i vårt bolag kommer du att samarbeta med varje avdelning för att skapa och implementera\n"
 " disruptiva produkter. Kom och arbeta på ett växande bolag som erbjuder bra förmåner med möjligheter att gå framåt och lära dig från erfarna ledare. Vi söker en erfaren och enastående medarbetare. Denna position är både kreativ och rigorös till sin natur, du behöver tänka utanför boxen. Vi förväntar oss att kandidaten är proaktiv och har en \"få det gjort\" anda. För att lyckas behöver du ha goda problemlösningsfärdigheter."
-
-#. module: hr
-#: model:ir.model,name:hr.model_res_company
-#: model_terms:ir.ui.view,arch_db:hr.view_department_tree
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: hr
-#: model:ir.model.fields,field_description:hr.field_hr_department__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_employee__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_employee_base__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_employee_public__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_job__company_id
-#: model:ir.model.fields,field_description:hr.field_hr_work_location__company_id
-#: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
-#: model_terms:ir.ui.view,arch_db:hr.view_job_filter
-msgid "Company"
-msgstr "Bolag"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__company_country_id

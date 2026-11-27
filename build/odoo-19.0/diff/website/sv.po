@@ -106,16 +106,6 @@ msgid "Check out what's new in our company !"
 msgstr "Kolla in vad som är nytt i vårt bolag!"
 
 #. module: website
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: website
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: website
 # override | officiell: 'Företagslogo'
 msgid "Company Logo"
 msgstr "Bolagslogo"
@@ -281,11 +271,6 @@ msgstr ""
 "Mich älskar att ta sig an utmaningar. Med sin mångåriga erfarenhet som "
 "Commercial Director inom mjukvarubranschen har Mich hjälpt bolaget att nå "
 "dit det är idag. Mich är en av de bästa hjärnorna."
-
-#. module: website
-# override | officiell: 'Mitt Företag'
-msgid "My Company"
-msgstr "Mitt Bolag"
 
 #. module: website
 # override | officiell: 'Vårt Företag'

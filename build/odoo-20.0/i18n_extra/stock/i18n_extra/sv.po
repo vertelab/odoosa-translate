@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-stock\n"
-"POT-Creation-Date: 2026-11-27 16:02\n"
-"PO-Revision-Date: 2026-11-27 16:02\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -24,34 +24,6 @@ msgstr ""
 "arkivera det och skapa ett nytt."
 
 #. module: stock
-#: model:ir.model,name:stock.model_res_company
-#: model:ir.model.fields,field_description:stock.field_product_replenish__company_id
-#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_location__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_lot__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_move__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_move_line__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_package__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_package_history__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_package_type__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_picking__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_picking_batch__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_picking_type__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_quant__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_quant_relocate__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_route__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_rule__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_storage_category__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_storage_category_capacity__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_warehouse__company_id
-#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__company_id
-#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
-#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
-msgid "Company"
-msgstr "Bolag"
-
-#. module: stock
 #: model:ir.model.fields,help:stock.field_stock_route__company_id
 #: model:ir.model.fields,help:stock.field_stock_rule__route_company_id
 msgid "Leave this field empty if this route is shared between all companies"
@@ -63,23 +35,6 @@ msgstr "Lämna detta fält tomt om rutten delas av alla bolag"
 #: model:ir.model.fields,help:stock.field_stock_quant_relocate__company_id
 msgid "Let this field empty if this location is shared between companies"
 msgstr "Lämna detta fält tomt om platsen delas av flera bolag"
-
-#. module: stock
-#: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid ""
-"My Company (Chicago) undertakes to do its best to supply performant services"
-" in due time in accordance with the agreed timeframes. However, none of its "
-"obligations can be considered as being an obligation to achieve results. My "
-"Company (Chicago) cannot under any circumstances, be required by the client "
-"to appear as a third party in the context of any claim for damages filed "
-"against the client by an end consumer."
-msgstr ""
-"Mitt bolag (Chicago) åtar sig att göra sitt bästa för att tillhandahålla "
-"tjänster i rätt tid i enlighet med de överenskomna tidsramarna. Ingen av "
-"dess skyldigheter kan dock anses vara en skyldighet att uppnå resultat. My "
-"Company (Chicago) kan inte under några omständigheter åläggas av kunden att "
-"uppträda som tredje part i samband med ett skadeståndsanspråk som en "
-"slutkonsument riktar mot kunden."
 
 #. module: stock
 #. odoo-python

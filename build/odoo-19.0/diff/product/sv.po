@@ -5,16 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: product
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: product
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: product
 # override | officiell: 'Företagsinställningar'
 msgid "Company Settings"
 msgstr "Bolagsinställningar"

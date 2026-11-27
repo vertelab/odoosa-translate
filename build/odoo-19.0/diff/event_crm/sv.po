@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: event_crm
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: event_crm
 # override | officiell: 'Begränsa utlösningen av denna regel till händelser
 # som tillhör ett specifikt företag.\nOm den inte anges kommer ingen
 # företagsrestriktion att tillämpas.'

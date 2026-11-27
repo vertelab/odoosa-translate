@@ -15,16 +15,6 @@ msgid "<strong>Company details block</strong>"
 msgstr "<strong>Block för bolagsuppgifter</strong>"
 
 #. module: web
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: web
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: web
 # override | officiell: 'Företagsuppgifter'
 msgid "Company Details"
 msgstr "Bolagsuppgifter"
@@ -78,11 +68,6 @@ msgstr "Innehåller bolagets adress."
 # override | officiell: 'Innehåller uppgifter om företaget.'
 msgid "Contains the company details."
 msgstr "Innehåller uppgifter om bolaget."
-
-#. module: web
-# override | officiell: 'Is Företagsuppgifter Tom'
-msgid "Is Company Details Empty"
-msgstr "Is Bolagsuppgifter Tom"
 
 #. module: web
 # override | officiell: 'Värden som anges här är företagsspecifika.'

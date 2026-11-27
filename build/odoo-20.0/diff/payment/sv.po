@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: payment
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: payment
 # override | officiell: 'Vänligen byt till företag'
 msgid "Please switch to company"
 msgstr "Vänligen byt till bolag"

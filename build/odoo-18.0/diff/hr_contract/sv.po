@@ -5,16 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: hr_contract
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: hr_contract
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: hr_contract
 # override | officiell: 'Företagsbil'
 msgid "Company Vehicle"
 msgstr "Bolagsbil"

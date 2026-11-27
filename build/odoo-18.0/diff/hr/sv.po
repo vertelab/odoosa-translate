@@ -38,16 +38,6 @@ msgstr ""
 " disruptiva produkter. Kom och arbeta på ett växande bolag som erbjuder bra förmåner med möjligheter att gå framåt och lära dig från erfarna ledare. Vi söker en erfaren och enastående medarbetare. Denna position är både kreativ och rigorös till sin natur, du behöver tänka utanför boxen. Vi förväntar oss att kandidaten är proaktiv och har en \"få det gjort\" anda. För att lyckas behöver du ha goda problemlösningsfärdigheter."
 
 #. module: hr
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: hr
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: hr
 # override | officiell: 'Företagsland'
 msgid "Company Country"
 msgstr "Bolagsland"

@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: website_sale
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: website_sale
 # override | officiell: 'Företagsnamn'
 msgid "Company Name"
 msgstr "Bolagsnamn"

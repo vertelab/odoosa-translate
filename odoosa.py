@@ -310,11 +310,24 @@ def _restore_arch_code(text, protected):
     return text
 
 
-def apply_rules_to_str(text, pairs, only_if_msgid=None, msgid=None, is_arch=False):
+def apply_rules_to_str(text, pairs, only_if_msgid=None, msgid=None, is_arch=False,
+                       exclude_msgid=None, exclude_occurrences=None, occurrences=""):
     if not text:
         return text
     if only_if_msgid and msgid is not None and not re.search(only_if_msgid, msgid):
         return text
+    # exclude_msgid (2026-11-27): regeln gäller inte dessa fraser. Behövs för
+    # bolag-regeln — "Company" som kontakttyp (res.partner) heter Företag.
+    if exclude_msgid and msgid is not None and re.search(exclude_msgid, msgid):
+        return text
+    # exclude_occurrences: regeln gäller inte poster från dessa modeller/fält.
+    # Enda pålitliga signalen för res.company vs res.partner — msgid-texten
+    # ensam ljuger ("Is Company" ser ut som res.company men är
+    # res.partner.is_company).
+    if exclude_occurrences and occurrences:
+        for pat in exclude_occurrences:
+            if pat in occurrences:
+                return text
     if is_arch:
         text, protected = _protect_arch_code(text)
     for old, new in pairs:
@@ -341,15 +354,26 @@ def apply_rules(edition, modules=None):
             continue
         po = polib.pofile(str(now_path))
         rules_mod = rules_for_module(edition, module, rules)
-        pairs_by_rule = [(rule_pairs(t), t.get("only_if_msgid")) for t in rules_mod]
+        pairs_by_rule = [
+            (rule_pairs(t), t.get("only_if_msgid"), t.get("exclude_msgid"),
+             t.get("exclude_occurrences"))
+            for t in rules_mod
+        ]
         for entry in po:
-            for pairs, oim in pairs_by_rule:
-                new_str = apply_rules_to_str(entry.msgstr, pairs, oim, entry.msgid, _is_arch_entry(entry))
+            # occurrences som en sträng — billigare än att lista per regel
+            occ = " ".join(str(o) for o in entry.occurrences)
+            for pairs, oim, xmsgid, xocc in pairs_by_rule:
+                new_str = apply_rules_to_str(
+                    entry.msgstr, pairs, oim, entry.msgid, _is_arch_entry(entry),
+                    exclude_msgid=xmsgid, exclude_occurrences=xocc, occurrences=occ)
                 if new_str != entry.msgstr:
                     entry.msgstr = new_str
                     stats["phrases_changed"] += 1
                 for k in list(entry.msgstr_plural.keys()):
-                    new_plural = apply_rules_to_str(entry.msgstr_plural[k], pairs, oim, entry.msgid, _is_arch_entry(entry))
+                    new_plural = apply_rules_to_str(
+                        entry.msgstr_plural[k], pairs, oim, entry.msgid,
+                        _is_arch_entry(entry), exclude_msgid=xmsgid,
+                        exclude_occurrences=xocc, occurrences=occ)
                     if new_plural != entry.msgstr_plural[k]:
                         entry.msgstr_plural[k] = new_plural
                         stats["phrases_changed"] += 1

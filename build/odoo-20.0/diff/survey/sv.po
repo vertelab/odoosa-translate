@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-survey\n"
 "Language: sv\n"
-
-#. module: survey
-# override | officiell: 'Företagets antal certifieringar'
-msgid "Company Certifications Count"
-msgstr "Bolagets antal certifieringar"

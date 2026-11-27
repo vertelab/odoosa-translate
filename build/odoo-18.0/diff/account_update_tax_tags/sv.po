@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: account_update_tax_tags
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: account_update_tax_tags
 # override | officiell: 'Uppdatera skattetaggar för befintliga
 # bokföringsposter'
 msgid "Update tax tags on existing Journal Entries"

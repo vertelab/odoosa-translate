@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-hr_holidays_attendance\n"
 "Language: sv\n"
-
-#. module: hr_holidays_attendance
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"

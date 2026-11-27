@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-account_qr_code_emv\n"
 "Language: sv\n"
-
-#. module: account_qr_code_emv
-# override | officiell: 'Företagets QR-kod'
-msgid "Company Qr Code"
-msgstr "Bolagets QR-kod"

@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-sale_pdf_quote_builder\n"
 "Language: sv\n"
-
-#. module: sale_pdf_quote_builder
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"

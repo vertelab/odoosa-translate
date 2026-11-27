@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-account_peppol\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -142,17 +142,6 @@ msgstr "Aktivt överordnat bolag"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__active_parent_company_name
 msgid "Active Parent Company Name"
 msgstr "Namn på aktivt överordnat bolag"
-
-#. module: account_peppol
-#: model:ir.model,name:account_peppol.model_res_company
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: account_peppol
-#: model:ir.model.fields,field_description:account_peppol.field_peppol_config_wizard__company_id
-#: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__company_id
-msgid "Company"
-msgstr "Bolag"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_name

@@ -202,21 +202,6 @@ msgstr "Bokslut: Global lagervärdering per bolag [%(company)s]"
 
 #. module: account
 # override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: account
-# override | officiell: 'Företag kopplade till partner'
-msgid "Companies that refers to partner"
-msgstr "Bolag kopplade till partner"
-
-#. module: account
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: account
-# override | officiell: 'Företag'
 msgid "Company "
 msgstr "Bolag"
 
@@ -341,6 +326,11 @@ msgstr "Kostnader för reparationer och underhåll av bolagsbilar och lastbilar"
 # override | officiell: 'Företagets skatterättsliga hemvistkod'
 msgid "Fiscal Country Code of the Company"
 msgstr "Bolagets skatterättsliga hemvistkod"
+
+#. module: account
+# override | officiell: 'Skattelokalisering'
+msgid "Fiscal Localization"
+msgstr "Skatteområde"
 
 #. module: account
 # override | officiell: 'Objekt som saknar analytisk fördelning'
@@ -862,8 +852,3 @@ msgstr ""
 "Du bör ställa in ett 'konto för förluster vid valutaomvandling' i bolagets "
 "inställningar för att automatiskt hantera bokföringen av verifikat "
 "relaterade till växelkursskillnader."
-
-#. module: account
-# override | officiell: 't.ex. Mitt företag'
-msgid "e.g. My Company"
-msgstr "t.ex. Mitt bolag"

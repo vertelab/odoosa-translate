@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-calendar\n"
 "Language: sv\n"
-
-#. module: calendar
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"

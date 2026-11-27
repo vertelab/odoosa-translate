@@ -35,16 +35,6 @@ msgid "Automatically enrich your contact base with company data"
 msgstr "Berika automatiskt din kontaktbas med bolagsuppgifter"
 
 #. module: base_setup
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: base_setup
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: base_setup
 # override | officiell: 'Företagets landskod'
 msgid "Company Country Code"
 msgstr "Bolagets landskod"

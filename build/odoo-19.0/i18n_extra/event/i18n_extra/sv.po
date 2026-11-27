@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-event\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -27,18 +27,6 @@ msgid ""
 msgstr ""
 "Kontrollera detta för frågor på ordernivå (t.ex. \"Bolagsnamn\") där svaret "
 "är detsamma för alla."
-
-#. module: event
-#. odoo-javascript
-#: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
-#: model:ir.model.fields,field_description:event.field_event_event__company_id
-#: model:ir.model.fields,field_description:event.field_event_event_ticket__company_id
-#: model:ir.model.fields,field_description:event.field_event_registration__company_id
-#: model:ir.model.fields.selection,name:event.selection__event_question__question_type__company_name
-#: model_terms:event.event,description:event.event_2
-#: model_terms:ir.ui.view,arch_db:event.attendee_list
-msgid "Company"
-msgstr "Bolag"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__company_name

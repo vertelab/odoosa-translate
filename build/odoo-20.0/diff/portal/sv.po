@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: portal
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: portal
 # override | officiell: 'Rapporter för flera företag stöds inte.'
 msgid "Multi company reports are not supported."
 msgstr "Rapporter för flera bolag stöds inte."

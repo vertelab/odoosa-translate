@@ -182,11 +182,23 @@ terms:
     versions: [18, 19, 20]
     match: longest
     only_if_msgid: '(?i)\b(company|companies)\b'
+    # BESLUT 2026-11-27 (Anders): Company (res.company) → Bolag,
+    # Contact (res.partner) → Kontakt (dock ibland Företag).
+    # Regeln får därför ALDRIG röra res.partner-poster, där "Company" är
+    # kontakttypen (is_company) och heter Företag på svenska.
+    # Två lager: exclude_msgid (textmönster) + exclude_occurrences (modell).
+    exclude_msgid: '(?i)(^Company$|^Companies$|\bis (a )?company\b|\bcompany name entity\b|\brelated company\b|\bcompany employer\b|\bmy company\b|\bthe company assigned to this partner\b|\bselected company is not compatible\b|\bcheck if the contact is a company\b|\bgroup by is company\b)'
+    exclude_occurrences:
+      - 'res_partner'
+      - 'res.partner'
+      - 'is_company'
     note: >-
       118 moduler, 669 poster (base 115, account 84, website 48, ...). Ej
-      Corporate/Business. OBS: glossary.csv har motstridiga mål (Company→Företag,
-      company→bolag) — denna regel är det operationella lagret (Bolag i
-      Company-kontext). Att stämma av glossary är en öppen task.
+      Corporate/Business. BESLUT 2026-11-27: res.company → Bolag,
+      res.partner → Kontakt/Företag. exclude_occurrences hindrar regeln från
+      att röra res.partner.is_company ("Company" = kontakttypen Företag).
+      glossary.csv har motstridiga mål (Company→Företag, company→bolag) —
+      denna regel är det operationella lagret. Glossary-städning är öppen.
 
   # Lagt till via add-term 2026-10-28 (modul: sale)
   - id: din-rabatt
@@ -196,3 +208,12 @@ terms:
     versions: [18, 19, 20]
     match: longest
     note: "Vertel 2026-10-28: kundportalens rabattrad (sale_order_advantage) visar 'Din fördel' — ska vara 'Din rabatt'"
+
+  # Lagt till via add-term 2026-11-27 (modul: account)
+  - id: skatteomrade-2
+    old: "Skattelokalisering"
+    new: "Skatteområde"
+    modules: [account]
+    versions: [18, 19, 20]
+    match: longest
+    note: "Anders 2026-11-27: Fiscal Localization i account-inställningarna = Skatteområde (samma begrepp som Skatteposition -> Skatteområde)"

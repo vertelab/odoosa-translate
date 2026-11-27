@@ -19,11 +19,6 @@ msgstr ""
 "            En betalning representerar den anställdes ersättning till bolaget."
 
 #. module: lunch
-# override | officiell: 'Företag'
-msgid "Company"
-msgstr "Bolag"
-
-#. module: lunch
 # override | officiell: 'Här kan du se dina kontantrörelser.<br>En
 # kontantrörelse kan antingen vara en utgift eller en betalning.\n
 # En utgift skapas automatiskt när en order tas emot medan en betalning är en

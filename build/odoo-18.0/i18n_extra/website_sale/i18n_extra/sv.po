@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-website_sale\n"
-"POT-Creation-Date: 2026-11-27 15:59\n"
-"PO-Revision-Date: 2026-11-27 15:59\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -28,11 +28,6 @@ msgid ""
 msgstr ""
 "Det är inte tillåtet att ändra bolagsnamn när dokument har utfärdats för "
 "ditt konto. Kontakta oss direkt för denna åtgärd."
-
-#. module: website_sale
-#: model:ir.model,name:website_sale.model_res_company
-msgid "Companies"
-msgstr "Bolag"
 
 #. module: website_sale
 #. odoo-javascript

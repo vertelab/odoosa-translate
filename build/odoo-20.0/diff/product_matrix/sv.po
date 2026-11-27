@@ -5,11 +5,6 @@ msgstr ""
 "Language: sv\n"
 
 #. module: product_matrix
-# override | officiell: 'T-shirt med Mitt Företag (RUTNÄT)'
-msgid "My Company Tshirt (GRID)"
-msgstr "T-shirt med Mitt Bolag (RUTNÄT)"
-
-#. module: product_matrix
 # override | officiell: 'Visa din omgivning hur mycket du älskar ditt företag
 # =).'
 msgid "Show your company love around you =)."

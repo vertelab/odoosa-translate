@@ -3,8 +3,3 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-diff-sale_gelato\n"
 "Language: sv\n"
-
-#. module: sale_gelato
-# override | officiell: 'Företag'
-msgid "Companies"
-msgstr "Bolag"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-mass_mailing\n"
-"POT-Creation-Date: 2026-11-27 16:02\n"
-"PO-Revision-Date: 2026-11-27 16:02\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -14,13 +14,6 @@ msgstr ""
 #: code:addons/mass_mailing/static/src/snippets/mass_mailing_text_snippets.xml:0
 msgid "Best practices to digitize your company"
 msgstr "Bästa praxis för att digitalisera ditt bolag"
-
-#. module: mass_mailing
-#. odoo-javascript
-#: code:addons/mass_mailing/static/src/builder/options/social_media_links.xml:0
-#: model:ir.model,name:mass_mailing.model_res_company
-msgid "Company"
-msgstr "Bolag"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__company_name

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: odoosa-base\n"
-"POT-Creation-Date: 2026-11-27 16:00\n"
-"PO-Revision-Date: 2026-11-27 16:00\n"
+"POT-Creation-Date: 2026-11-27 16:17\n"
+"PO-Revision-Date: 2026-11-27 16:17\n"
 "Last-Translator: odoosa-translate\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -99,86 +99,6 @@ msgid ""
 msgstr ""
 "Det här verkar vara ett problem som gäller flera bolag. Du kanske kan komma "
 "åt posten genom att byta till bolaget: %s."
-
-#. module: base
-#: model:ir.module.module,description:base.module_l10n_latam_base
-msgid ""
-"\n"
-"Add a new model named \"Identification Type\" that extend the vat field functionality in the partner and let the user to identify (an eventually invoice) to contacts not only with their fiscal tax ID (VAT) but with other types of identifications like national document, passport, foreign ID, etc. With this module installed you will see now in the partner form view two fields:\n"
-"\n"
-"* Identification Type\n"
-"* Identification Number\n"
-"\n"
-"This behavior is a common requirement for some latam countries like Argentina and Chile. If your localization has this requirements then you need to depend on this module and define in your localization module the identifications types that are used in your country. Generally these types of identifications are defined by the government authorities that regulate the fiscal operations. For example:\n"
-"\n"
-"* ARCA in Argentina defines DNI, CUIT (vat for legal entities), CUIL (vat for natural person), and another 80 valid identification types.\n"
-"\n"
-"Each identification holds this information:\n"
-"\n"
-"* name: short name of the identification\n"
-"* description: could be the same short name or a long name\n"
-"* country_id: the country where this identification belongs\n"
-"* is_vat: identify this record as the corresponding VAT for the specific country.\n"
-"* sequence: let us to sort the identification types depending on the ones that are most used.\n"
-"* active: we can activate/inactivate identifications to make it easier to our customers\n"
-"\n"
-"In order to make this module compatible for multi-company environments where we have companies that does not need/support this requirement, we have added generic identification types and generic rules to manage the contact information and make it transparent for the user when only use the VAT as we formerly know.\n"
-"\n"
-"Generic Identifications:\n"
-"\n"
-"* VAT: The Fiscal Tax Identification or VAT number, by default will be selected as identification type so the user will only need to add the related vat number.\n"
-"* Passport\n"
-"* Foreign ID (Foreign National Document)\n"
-"\n"
-"Rules when creating a new partner: We will only see the identification types that are meaningful, taking into account these rules:\n"
-"\n"
-"* If the partner have not country address set: Will show the generic identification types plus the ones defined in the partner's related company country (If the partner has not specific company then will show the identification types related to the current user company)\n"
-"\n"
-"* If the partner has country address: will show the generic identification types plus the ones defined for the country of the partner.\n"
-"\n"
-"When creating a new company, will set to the related partner always the related country is_vat identification type.\n"
-"\n"
-"All the defined identification types can be reviewed and activate/deactivate in \"Contacts / Configuration / Identification Type\" menu.\n"
-"\n"
-"This module is compatible with base_vat module in order to be able to validate VAT numbers for each country that have or not have the possibility to manage multiple identification types.\n"
-msgstr ""
-"Lägg till en ny modell med namnet \"Identifieringstyp\" som utökar funktionen för momsfältet i partnern och låter användaren identifiera (en eventuell faktura) till kontakter inte bara med deras skatte-ID (moms) utan med andra typer av identifiering som nationellt dokument, pass, utländskt ID etc. När den här modulen har installerats ser du nu två fält i partnerformuläret:\n"
-"\n"
-"* Identifieringstyp\n"
-"* Identifieringsnummer\n"
-"\n"
-"Detta beteende är ett vanligt krav för vissa länder i Latinamerika, t.ex. Argentina och Chile. Om din lokalisering har dessa krav måste du förlita dig på den här modulen och i din lokaliseringsmodul definiera de identifieringstyper som används i ditt land. I allmänhet definieras dessa typer av identifikationer av de statliga myndigheter som reglerar skatteverksamheten. Ett exempel:\n"
-"\n"
-"* ARCA i Argentina definierar DNI, CUIT (moms för juridiska personer), CUIL (moms för fysiska personer) och ytterligare 80 giltiga identifieringstyper.\n"
-"\n"
-"Varje identifiering innehåller denna information:\n"
-"\n"
-"* namn: kort namn på identifikationen\n"
-"* beskrivning: kan vara samma korta namn eller ett långt namn\n"
-"* country_id: det land där denna identifiering hör hemma\n"
-"* is_vat: identifierar den här posten som motsvarande moms för det specifika landet.\n"
-"* sequence: låter oss sortera identifieringstyperna beroende på vilka som används mest.\n"
-"* active: vi kan aktivera/inaktivera identifikationer för att göra det enklare för våra kunder\n"
-"\n"
-"För att göra denna modul kompatibel för miljöer med flera bolag där vi har bolag som inte behöver / stöder detta krav, har vi lagt till generiska identifieringstyper och generiska regler för att hantera kontaktinformationen och göra det transparent för användaren när vi bara använder moms som vi tidigare kände till.\n"
-"\n"
-"Generiska identifikationer:\n"
-"\n"
-"* Moms: Skatteidentifieringen eller momsnumret kommer som standard att väljas som identifieringstyp så att användaren bara behöver lägga till det relaterade momsnumret.\n"
-"* Pass\n"
-"* Utländskt ID (utländskt nationellt dokument)\n"
-"\n"
-"Regler när du skapar en ny partner: Vi kommer bara att se de identifieringstyper som är meningsfulla, med hänsyn till dessa regler:\n"
-"\n"
-"* Om partnern inte har någon landadress inställd: Visas de generiska identifieringstyperna plus de som definieras i partnerns relaterade bolagsland (Om partnern inte har något specifikt bolag visas de identifieringstyper som är relaterade till det aktuella användarbolaget)\n"
-"\n"
-"* Om partnern har landadress: visar de generiska identifieringstyperna plus de som definierats för partnerns land.\n"
-"\n"
-"När du skapar ett nytt bolag kommer den relaterade partnern alltid att ange identifieringstypen för det relaterade landet is_vat.\n"
-"\n"
-"Alla definierade identifieringstyper kan granskas och aktiveras/avaktiveras i menyn \"Kontakter / Konfiguration / Identifieringstyp\".\n"
-"\n"
-"Denna modul är kompatibel med base_vat-modulen för att kunna validera momsnummer för varje land som har eller inte har möjlighet att hantera flera identifieringstyper."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_mx_edi_website_sale
@@ -2068,67 +1988,9 @@ msgstr ""
 "Beräkna och rapportera ditt bolags påverkan på miljö, samhälle och styrning."
 
 #. module: base
-#: model:ir.model.fields,help:base.field_res_partner__is_company
-#: model:ir.model.fields,help:base.field_res_users__is_company
-msgid "Check if the contact is a company, otherwise it is a person"
-msgstr "Markera denna ruta om kontakten är ett bolag, annars är det en person"
-
-#. module: base
-#: model:ir.actions.act_window,name:base.action_res_company_form
-#: model:ir.model,name:base.model_res_company
-#: model:ir.model.fields,field_description:base.field_res_users__company_ids
-#: model:ir.ui.menu,name:base.menu_action_res_company_form
-#: model_terms:ir.ui.view,arch_db:base.view_company_tree
-#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
-#: model_terms:ir.ui.view,arch_db:base.view_users_form
-msgid "Companies"
-msgstr "Bolag"
-
-#. module: base
-#. odoo-python
-#: code:addons/base/models/ir_qweb_fields.py:0
-#: model:ir.model.fields,field_description:base.field_ir_attachment__company_id
-#: model:ir.model.fields,field_description:base.field_ir_default__company_id
-#: model:ir.model.fields,field_description:base.field_ir_sequence__company_id
-#: model:ir.model.fields,field_description:base.field_res_currency_rate__company_id
-#: model:ir.model.fields,field_description:base.field_res_partner__company_id
-#: model:ir.model.fields,field_description:base.field_res_partner_bank__company_id
-#: model:ir.model.fields,field_description:base.field_res_users__company_id
-#: model:ir.model.fields.selection,name:base.selection__res_partner__company_type__company
-#: model_terms:ir.ui.view,arch_db:base.ir_default_search_view
-#: model_terms:ir.ui.view,arch_db:base.view_attachment_search
-#: model_terms:ir.ui.view,arch_db:base.view_company_form
-#: model_terms:ir.ui.view,arch_db:base.view_partner_form
-#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
-#: model_terms:ir.ui.view,arch_db:base.view_users_search
-#: model_terms:ir.ui.view,arch_db:base.view_users_simple_form
-msgid "Company"
-msgstr "Bolag"
-
-#. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__logo
 msgid "Company Logo"
 msgstr "Bolagslogo"
-
-#. module: base
-#: model:ir.model.fields,field_description:base.field_res_company__name
-#: model:ir.model.fields,field_description:base.field_res_partner__company_name
-#: model:ir.model.fields,field_description:base.field_res_users__company_name
-msgid "Company Name"
-msgstr "Bolagsnamn"
-
-#. module: base
-#: model:ir.model.fields,field_description:base.field_res_partner__commercial_company_name
-#: model:ir.model.fields,field_description:base.field_res_users__commercial_company_name
-msgid "Company Name Entity"
-msgstr "Bolagets namn"
-
-#. module: base
-#: model:ir.model.fields,field_description:base.field_res_company__company_registry_placeholder
-#: model:ir.model.fields,field_description:base.field_res_partner__company_registry_placeholder
-#: model:ir.model.fields,field_description:base.field_res_users__company_registry_placeholder
-msgid "Company Registry Placeholder"
-msgstr "Platshållare för bolagsregister"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__report_header
@@ -2218,25 +2080,9 @@ msgid "Inverse Company Rate"
 msgstr "Omvänd bolagsränta"
 
 #. module: base
-#: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_is_company
-msgid "Is Company"
-msgstr "Är bolag"
-
-#. module: base
-#: model:ir.model.fields,field_description:base.field_res_company__is_company_details_empty
-msgid "Is Company Details Empty"
-msgstr "Is Bolagsuppgifter Tom"
-
-#. module: base
 #: model:ir.model.fields,field_description:base.field_res_currency__is_current_company_currency
 msgid "Is Current Company Currency"
 msgstr "Är bolagets nuvarande valuta"
-
-#. module: base
-#: model:ir.model.fields,field_description:base.field_res_partner__is_company
-#: model:ir.model.fields,field_description:base.field_res_users__is_company
-msgid "Is a Company"
-msgstr "Är ett bolag"
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_purchase_inter_company_rules
@@ -2273,38 +2119,6 @@ msgstr ""
 #: model:res.groups,name:base.group_multi_company
 msgid "Multi Companies"
 msgstr "Flera bolag"
-
-#. module: base
-#: model_terms:res.company,invoice_terms_html:base.main_company
-msgid ""
-"My Company (San Francisco) undertakes to do its best to supply performant "
-"services in due time in accordance with the agreed timeframes. However, none"
-" of its obligations can be considered as being an obligation to achieve "
-"results. My Company (San Francisco) cannot under any circumstances, be "
-"required by the client to appear as a third party in the context of any "
-"claim for damages filed against the client by an end consumer."
-msgstr ""
-"Mitt bolag (San Francisco) åtar sig att göra sitt bästa för att leverera "
-"utförliga tjänster i tid och inom de överenskomna tidsramarna. Ingen av dess"
-" skyldigheter kan dock anses vara en skyldighet att uppnå resultat. My "
-"Company (San Francisco) kan under inga omständigheter av kunden krävas att "
-"uppträda som tredje part i samband med skadeståndskrav som en slutkonsument "
-"ställer mot kunden."
-
-#. module: base
-#: model_terms:res.partner,website_description:base.res_partner_address_16
-msgid ""
-"Nicole works in IT sector <b>since 20 years</b>. She\n"
-"                develops software to help develop websites.  She sold her\n"
-"                first company at 30 years old and manage to grow Azure Interior\n"
-"                from 1 to 55 employees mostly by reselling services on\n"
-"                Odoo."
-msgstr ""
-"Nicole har arbetat inom IT-sektorn i <b>20 år</b>. Hon\n"
-"                utvecklar programvara för att hjälpa till att utveckla webbplatser.  Hon har sålt sin\n"
-"                första bolaget vid 30 års ålder och lyckades växa Azure Interior\n"
-"                från 1 till 55 anställda främst genom att sälja tjänster på\n"
-"                Odoo."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__companies_count
@@ -3119,34 +2933,6 @@ msgstr ""
 "interaktionshistorik, profiler och mycket mer."
 
 #. module: base
-#: model_terms:res.partner,website_description:base.res_partner_2
-#: model_terms:res.partner,website_description:base.res_partner_4
-msgid ""
-"Our experts invent, imagine and develop solutions which meet\n"
-"                your business requirements. They build a new technical\n"
-"                environment for your company, but they always take the already\n"
-"                installed IT software into account. That is why Idealis\n"
-"                Consulting delivers excellence in HR and SC Management."
-msgstr ""
-"Våra experter uppfinner, föreställer sig och utvecklar lösningar som uppfyller\n"
-"                dina affärskrav. De bygger en ny teknisk miljö\n"
-"                för ditt bolag, men de tar alltid hänsyn till den redan\n"
-"                installerade IT-programvaran i åtanke. Det är därför Idealis\n"
-"                Consulting levererar spetskompetens inom HR och SC Management."
-
-#. module: base
-#: model:ir.model.fields,field_description:base.field_res_partner__same_company_registry_partner_id
-#: model:ir.model.fields,field_description:base.field_res_users__same_company_registry_partner_id
-msgid "Partner with same Company Registry"
-msgstr "Partner med samma bolagsregister"
-
-#. module: base
-#: model:ir.model.fields,field_description:base.field_res_partner__parent_id
-#: model:ir.model.fields,field_description:base.field_res_users__parent_id
-msgid "Related Company"
-msgstr "Relaterat bolag"
-
-#. module: base
 #: model:ir.module.module,summary:base.module_website_google_map
 msgid "Show your company address on Google Maps"
 msgstr "Visa bolagets adress på Google Maps"
@@ -3181,16 +2967,6 @@ msgstr ""
 
 #. module: base
 #. odoo-python
-#: code:addons/base/models/res_partner.py:0
-msgid ""
-"The company assigned to this partner does not match the company this partner"
-" represents."
-msgstr ""
-"Det bolag som tilldelats denna partner stämmer inte överens med det bolag "
-"som denna partner representerar."
-
-#. module: base
-#. odoo-python
 #: code:addons/base/models/res_company.py:0
 msgid "The company hierarchy cannot be changed."
 msgstr "Bolagshierarkin kan inte ändras."
@@ -3204,27 +2980,6 @@ msgstr "Bolagsnamnet måste vara unikt!"
 #: model:ir.model.fields,help:base.field_res_users__company_id
 msgid "The default company for this user."
 msgstr "Standardbolaget för den här användaren."
-
-#. module: base
-#: model:ir.model.fields,help:base.field_res_company__company_registry
-#: model:ir.model.fields,help:base.field_res_partner__company_registry
-#: model:ir.model.fields,help:base.field_res_users__company_registry
-msgid ""
-"The registry number of the company. Use it if it is different from the Tax "
-"ID. It must be unique across all partners of a same country"
-msgstr ""
-"Bolagets registreringsnummer. Använd det om det skiljer sig från skatte-ID. "
-"Det måste vara unikt för alla partner i samma land"
-
-#. module: base
-#. odoo-python
-#: code:addons/base/models/res_partner.py:0
-msgid ""
-"The selected company is not compatible with the companies of the related "
-"user(s)"
-msgstr ""
-"Det valda bolaget är inte kompatibelt med bolagen för den eller de "
-"relaterade användarna"
 
 #. module: base
 #. odoo-python
@@ -3242,24 +2997,3 @@ msgstr "Detta är bolagets valuta."
 #: model:ir.model.fields,help:base.field_res_company__sequence
 msgid "Used to order Companies in the company switcher"
 msgstr "Används för att beställa bolag i bolagsväxlaren"
-
-#. module: base
-#: model_terms:res.partner,website_description:base.res_partner_18
-msgid ""
-"We are a technology consulting &amp; strategic advisory firm that creates value enhancing solutions through the use of advanced software for our clients worldwide.\n"
-" <br> <br>\n"
-"At Lumber Inc we bring operational experience combined with technological acumen. We understand that any software that supports business operations needs to be designed in such a way that facilitates the execution of critical operational processes, and serves as a tool to the users rather than a barrier. Our approach is focused on the process first, ensuring that it contributes to the goals of the company, we then optimize it, and design the software solutions to best support it."
-msgstr ""
-"Vi är ett konsultbolag inom teknik och strategisk rådgivning som skapar värdehöjande lösningar med hjälp av avancerad programvara för våra kunder över hela världen.\n"
-" <br> <br>\n"
-"På Lumber Inc har vi operativ erfarenhet i kombination med tekniskt skarpsinne. Vi förstår att all programvara som stöder affärsverksamheten måste utformas på ett sådant sätt att den underlättar genomförandet av kritiska operativa processer och fungerar som ett verktyg för användarna snarare än ett hinder. Vårt tillvägagångssätt är fokuserat på processen först och säkerställer att den bidrar till bolagets mål, därefter optimerar vi den och utformar programvarulösningar för att på bästa sätt stödja den."
-
-#. module: base
-#: model:ir.model.fields,help:base.field_ir_model_fields__company_dependent
-msgid "Whether values for this field is company dependent"
-msgstr "Huruvida värden för detta fält är bolagsberoende"
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_company_form
-msgid "e.g. My Company"
-msgstr "t.ex. Mitt Bolag"
